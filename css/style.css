@@ -23,7 +23,7 @@ a {
 }
 
 a:link, a:visited {
-    color: white;
+    color: skyblue;
 }
 
 a:hover {
@@ -154,6 +154,12 @@ select:focus {
 
 /* nifty gender buttons. yes, they're nifty. */
 #radios label {
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+
+#radios label img {
   cursor: pointer;
   position: relative;
   vertical-align: middle;
