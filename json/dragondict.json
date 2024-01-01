@@ -1,0 +1,5544 @@
+{
+  "abaddon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "abvalle": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "abyssedge": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "adela": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "aegis": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "afrit": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "agnad": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "alien": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "n": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "anemone": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "angelcat": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      },
+      "05": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "angeljr": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "angel": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "angra": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "animala": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "applecheek": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "gy"
+          },
+          "m": {
+            "color": "gy"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "artemis": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
+  "asti": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "azak": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "baal": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
+  "baekho": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "bagma": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "banshee": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "beardeddragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "05": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "beleth": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "berris": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "blackarmorspear": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "blackarmorsword": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "blackarmor": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "blackdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "bladedragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "bluebirdberris": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "bluecharacen": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "bluefiretail": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "bluelightning": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "bluethunder": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "blue": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "bomberdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "bonehead": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "catsgon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "centipededragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "centura": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "characen": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "chungmuhaetae": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "citael": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "clavis": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      },
+      "05": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "06": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "clockworkdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "cloud": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "cobradragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "cresteddragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "crookers": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "cupid": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      }
+    }
+  },
+  "cupifriend": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "dargos": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "darkangeldragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "darkcloud": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "darkgoddragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "darklightningdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "darknix": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "daros": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "demonggargoyle": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "demonio": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "devared": {
+    "forms": {
+      "01": {
+        "genders": {
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "deva": {
+    "forms": {
+      "01": {
+        "genders": {
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "devilgon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "dianu": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "dimensiondragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "diyona": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "dragonoidsoul": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "dragonoid": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "dreamerobex": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      }
+    }
+  },
+  "dreamwaterdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "dupen": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "eelosdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "egg": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "elderlydragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "emerald": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "enokidragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "ereboss": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "eshu": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "gy"
+          },
+          "m": {
+            "color": "gy"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "gy"
+          },
+          "m": {
+            "color": "gy"
+          }
+        }
+      }
+    }
+  },
+  "fat": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "feros": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "fides": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "fireghostdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "firetail": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "fire": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "flamedragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "florea": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "flowerdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "frame": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "frankensteindragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "frog": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "frostbluedragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "frost": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "gaian": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "gautlinggon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "ges": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "gigantis": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "girdletaildragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "05": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "glaone": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "goblindragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "goddragonjr": {
+    "forms": {
+      "01": {
+        "genders": {
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "goddragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "goldapplecheek": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "goldenpoisonriver": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "goldie": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "goldmetal": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "goldpike": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "gold": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "gorgon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      }
+    }
+  },
+  "gracia": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
+  "granos": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "griffar": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "gust": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "haetae": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "hallow": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "harika": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "haze": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "hedgebatdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "hela": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "hell": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "henes": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "herculesdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "hourglassdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "hurricane": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "hydragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "hyeonmu": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "ignis": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "ilios": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "insectdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "insectqueen": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "irondeva": {
+    "forms": {
+      "01": {
+        "genders": {
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
+  "iron": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "jango": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "jarukah": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "jealousycupid": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "jima": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
+  "jimon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "rp"
+          }
+        }
+      }
+    }
+  },
+  "jujag": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "kangkang": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "karura": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "keepergoddragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "khanmarino": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      }
+    }
+  },
+  "khan": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "kirin": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "gy"
+          },
+          "m": {
+            "color": "gy"
+          }
+        }
+      }
+    }
+  },
+  "knightdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "kuzmara": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "labasalt": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "lady": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "lakion": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "lalux": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "lambgon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "lattegon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "lava": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "leafdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "gy"
+          },
+          "m": {
+            "color": "gy"
+          }
+        }
+      }
+    }
+  },
+  "leglien": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "leoparddragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "leovector": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
+  "libera": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "liberte": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "librodragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "gy"
+          },
+          "m": {
+            "color": "gy"
+          }
+        }
+      }
+    }
+  },
+  "lichmond": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "lightdarknix": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "lightning": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "lightspicy": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "lololli": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "lucio": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "lumindis": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "05": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "lunera": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "maga": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "magnello": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "maldek": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "maloden": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "maniacalpowerdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "mapledragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "marbas": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "marino": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      }
+    }
+  },
+  "mellow": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "metal": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "minas": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "mistdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "mithra": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "mud": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "mummydragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "mushroomknight": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "mushroom": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "mustardhammer": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "mystictiny": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "nebula": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "nello": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "neondragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "nessiebig": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "p"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "n": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
+  "nessie": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "nidhogg": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "nightmarelucio": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "ninjadragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "ninja": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "ninmunia": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "non": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "nox": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "obex": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "oculus": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "pancakedragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "pangpang": {
+    "forms": {
+      "01": {
+        "genders": {
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "party": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "patroa": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "y"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "n": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "petra": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "pharaogon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "phoenix": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "pierrotdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "pinkbell": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "plumos": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "05": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
+  "poisonriver": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "popomo": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "popon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "porta": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "power": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "prohibitedwitchdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "pureevilnon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "purewhitefides": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "purplelips": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "python": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "rafael": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "p"
+          },
+          "n": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "ragnarok": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "rakshasa": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "ranky": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "gy"
+          },
+          "m": {
+            "color": "gy"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "gy"
+          },
+          "m": {
+            "color": "gy"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "05": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "redbulldragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "redtaabire": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "redwyvern": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "rekmall": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "remorseflorea": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "rock": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
+  "rosegold": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      }
+    }
+  },
+  "rudeore": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "rugar": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
+  "rupia": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "rupo": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
+  "rutilus": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "sand": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "scarlet": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "scorpiondragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "sealeddarknix": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "seere": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      }
+    }
+  },
+  "serpentdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "serpentflower": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "shadow": {
+    "forms": {
+      "01": {
+        "genders": {
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "sharkgon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "sharptail": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "siamesedragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "sixleghorn": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      }
+    }
+  },
+  "skelegon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          },
+          "n": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "skinkdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "skoorum": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "skylancer": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "slimedragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "b"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "n": {
+            "color": "yr"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "n": {
+            "color": "rp"
+          }
+        }
+      }
+    }
+  },
+  "slosi": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "smart": {
+    "forms": {
+      "01": {
+        "genders": {
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "snowflowerpopomo": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "snowfrostdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "solardragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "solucanis": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "spicy": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          },
+          "n": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "spike": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "spinedragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "splender": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "starace": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "stealthdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "04": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "05": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "stra": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "sullae": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "suradragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "surtr": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "swamp": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "taabire": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "taros": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "tattoodragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "taygeta": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "teddydragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "tediblo": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "tilki": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "timber": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "titan": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "totemdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "trexdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "tutankhagon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "tycane": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "typhoondragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "undead": {
+    "forms": {
+      "fin": {
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "underground": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "valefor": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "valla": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
+  "vargr": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "vefal": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "vegabond": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "vera": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "volcano": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
+  "voncias": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "vonsharkgon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "voodoodragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
+          }
+        }
+      }
+    }
+  },
+  "water": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
+  "whiteapple": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "whitedragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "whitegold": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "whitethunder": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "wind": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bg"
+          }
+        }
+      },
+      "03": {
+        "genders": {
+          "f": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "wings": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "witchdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      }
+    }
+  },
+  "xmasdragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },	
+      "03": {
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "yurion": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "zephyros": {
+    "forms": {
+      "01": {
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
+  "zombiedragon": {
+    "forms": {
+      "01": {
+        "genders": {
+          "n": {
+            "color": "g"
+          }
+        }
+      }
+    }
+  }
+}
