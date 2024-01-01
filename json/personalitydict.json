@@ -220,8 +220,8 @@
 		"front" : "a2"
 	},
 	"Skilled" : {
-		"back" : "aura_s_game_b",
-		"front" : "aura_s_game_b"
+		"back" : "aura_s_game_a",
+		"front" : "aura_s_game_a"
 	},
 	"Smart" : {
 		"back" : "aura_b_mint",
@@ -248,8 +248,8 @@
 		"front" : "aura_s_halloween_a"
 	},
 	"Talented" : {
-		"back" : "aura_s_game_a",
-		"front" : "aura_s_game_a"
+		"back" : "aura_s_game_b",
+		"front" : "aura_s_game_b"
 	},
 	"Timid" : {
 		"back" : "aura_a_orange",
