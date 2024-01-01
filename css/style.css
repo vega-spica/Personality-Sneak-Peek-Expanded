@@ -18,6 +18,19 @@ body {
   background-size: 100%;
 }
 
+a { 
+    color: skyblue;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #dd4343;
+	cursor: pointer;
+}
+
 /* hic sunt dracones */
 .spineCanvas {
     width: 280%;
@@ -69,6 +82,8 @@ body {
     font-family: "NotoSans";
     font-size: 15px;
 	padding-bottom: 30px;
+	position: relative;
+	z-index: 2;
 }
 
 /* footer, now with 33% more feet. */
@@ -76,7 +91,9 @@ body {
 	color: #dfc690;
     text-align: center;
     font-family: sans-serif-serif;
-	font-size: 10px;
+	font-size: 11px;
+	position: relative;
+	z-index: 2;
 }
 
 /* new fancy dropdowns~ */
