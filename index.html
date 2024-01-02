@@ -11,6 +11,7 @@
 			var personality;
 			var gender = "m";
 			var form;
+			var speciesName;
 			
 			//i really do wish i could pull from the actual json files instead of having this mess
 				//but i'm kinda incompetent in this
@@ -5996,6 +5997,17 @@
 					personalityOption.value = personalityKeys[i];
 					personality.appendChild(personalityOption);
 				}
+				
+				//create option tags for Forms
+					//the species name here must be manually set to the first dragon in the list.
+						// or else bad stuff happens.
+				var formKeys = Object.keys(speciesJson["abaddon"].forms);
+				for (var i = 0; i < formKeys.length; i++){
+					formOption = document.createElement("option");
+					formOption.innerText = formKeys[i];
+					formOption.value = formKeys[i];
+					form.appendChild(formOption);
+				}
 			}
 			
 			function setGender(genderValue){
@@ -6005,8 +6017,20 @@
 			
 			//load new dragon when changed
 			function updateUrl(){
+				//if new species, clear form options and append again
+				if (speciesName !== species.value){
+					form.innerHTML = "";
+					var formKeys = Object.keys(speciesJson[species.value].forms);
+					for (var i = 0; i < formKeys.length; i++){
+						formOption = document.createElement("option");
+						formOption.innerText = formKeys[i];
+						formOption.value = formKeys[i];
+						form.appendChild(formOption);
+					}
+				}
+				
 				//get dragon url parts
-				var speciesName = species.value;
+				speciesName = species.value;
 				var formName = form.value;
 				var colorName = speciesJson[speciesName].forms[formName].genders[gender].color;
 				
@@ -6104,15 +6128,9 @@
 		</select>
 	&nbsp;
 	
-	<!--selection for forms. if an invalid form is selected, species and gender selections will be ignored.-->
+	<!--selection for forms where entries are appended-->
 	<b>Form</b>
 		<select id ="form" name="form" onchange="updateUrl();">
-		<option value='01'>1</option>
-		<option value='02'>2</option>
-		<option value='03'>3</option>
-		<option value='04'>4</option>
-		<option value='05'>5</option>
-		<option value='06'>6</option>
 		</select>
 
 	<!--who needs text for radio buttons, anyways?-->
@@ -6120,15 +6138,15 @@
 		<div id="radios">
 			<input type="radio" name="gender" value="m" id="male" onchange="setGender(this.value)" checked/>
 			<label for="male">
-			<img src="./img/gender_m_0201.png" alt="male selection">
+				<img src="./img/gender_m_0201.png" alt="male selection">
 			</label>
 			<input type="radio" name="gender" value="f" id="female" onchange="setGender(this.value)"/> 
 			<label for="female">
-			<img src="./img/gender_f_0201.png" alt="female selection">
+				<img src="./img/gender_f_0201.png" alt="female selection">
 			</label>
 			<input type="radio" name="gender" value="n" id="neutral" onchange="setGender(this.value)"> 
 			<label for="neutral">
-			<img src="./img/gender_n_0201.png" alt="neutral selection">
+				<img src="./img/gender_n_0201.png" alt="neutral selection">
 			</label>
 		</div>
 	</div>
@@ -6139,9 +6157,9 @@
 
 	<!--i don't own DVC's assets; please don't sue me.-->
 	<div class="footer">
-	Zoom in to 150% on PCs for proper performance.<br>
+	Zoom in to 150% on PC browsers for proper performance. If your PC already has 150% scaling set in display options, ignore this.<br>
 	Gender icons can be clicked, as well as screen-read for accessibility.<br>
-	Invalid form/gender options will ignore all selections.<br>
+	Invalid gender options will ignore selections.<br>
 	Dragon Village Collection assets and all Dragon Village characters ©highbrow Corp<br>
 	<a href="https://github.com/vega-spica/Personality-Sneak-Peek-Expanded">Github repository</a>
 	</div>
