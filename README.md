@@ -5,4 +5,4 @@ Gender icons can be clicked, as well as screen-read for accessibility.<br>
 Invalid gender options will ignore selections. Invalid options will be hidden properly in a later update.<br>
 Dragon Village Collection assets and all Dragon Village characters ©highbrow Corp<br>
 <br>
-album of sources: https://imgur.com/a/Io58cvx
+album of sources: https://imgur.com/a/pUZKOkn
