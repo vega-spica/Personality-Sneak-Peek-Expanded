@@ -5718,13 +5718,17 @@
 			};
 			
 			const personalityJson = {
+				"Adamant" : {
+					"back" : "aura_b_navy",
+					"front" : ""
+				},
 				"Affable" : {
 					"back" : "aura_s_xmas_b",
 					"front" : "aura_s_xmas_b"
 				},
-				"Adamant" : {
-					"back" : "aura_b_navy",
-					"front" : ""
+				"Affluent" : {
+					"back" : "aura_e_emart",
+					"front" : "aura_e_emart"
 				},
 				"Apocalyptic" : {
 					"back" : "aura_s_end",
@@ -5742,11 +5746,11 @@
 					"back" : "aura_b_whight",
 					"front" : ""
 				},
-				"BlueMoon" : {
+				"Blue Moon" : {
 					"back" : "aura_s_moon_blue",
 					"front" : "aura_s_transparent_blue"
 				},
-				"BlueMoonFly" : {
+				"Blue Moon (Fly)" : {
 					"back" : "aura_s_moon_blue_fly",
 					"front" : "aura_s_transparent_blue_fly"
 				},
@@ -5826,11 +5830,11 @@
 					"back" : "aura_s_blackgreen",
 					"front" : "aura_s_blackgreen"
 				},
-				"FullMoon" : {
+				"Full Moon" : {
 					"back" : "aura_s_moon_yellow",
 					"front" : "aura_s_transparent_yellow"
 				},
-				"FullMoonFly" : {
+				"Full Moon (Fly)" : {
 					"back" : "aura_s_moon_yellow_fly",
 					"front" : "aura_s_transparent_yellow_fly"
 				},
@@ -5854,7 +5858,7 @@
 					"back" : "aura_s_halloween_b",
 					"front" : "aura_s_halloween_b"
 				},
-				"HorrendousFly" : {
+				"Horrendous (Fly)" : {
 					"back" : "aura_s_halloween_b_fly",
 					"front" : "aura_s_halloween_b"
 				},
@@ -5914,7 +5918,7 @@
 					"back" : "aura_s_transparent",
 					"front" : "aura_s_transparent"
 				},
-				"QuickWitted" : {
+				"Quick Witted" : {
 					"back" : "aura_b_yellowgreen",
 					"front" : ""
 				},
@@ -5962,7 +5966,7 @@
 					"back" : "aura_s_halloween_a",
 					"front" : "aura_s_halloween_a"
 				},
-				"SpookyFly" : {
+				"Spooky (Fly)" : {
 					"back" : "aura_s_halloween_a_fly",
 					"front" : "aura_s_halloween_a"
 				},
@@ -6074,10 +6078,10 @@
 			//load new personality when changed
 			function updatePersonalityUrl() {
 				var personalityName = personality.value;
-				new spine.SpineCanvas(document.getElementById("Affableback"), {
+				new spine.SpineCanvas(document.getElementById("Adamantback"), {
 					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", personalityJson[personalityName].back)
 				});
-				new spine.SpineCanvas(document.getElementById("Affablefront"), {
+				new spine.SpineCanvas(document.getElementById("Adamantfront"), {
 					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", personalityJson[personalityName].front)
 				});
 			}
@@ -6097,8 +6101,8 @@
 			
 		<div class="grid-item">
 			<canvas class="spineCanvas dragonCanvas"></canvas>
-			<canvas id="Affableback" class="spineCanvas auraBackCanvas"></canvas>
-			<canvas id="Affablefront" class="spineCanvas auraFrontCanvas"></canvas>
+			<canvas id="Adamantback" class="spineCanvas auraBackCanvas"></canvas>
+			<canvas id="Adamantfront" class="spineCanvas auraFrontCanvas"></canvas>
 		</div>
 		</div>
 	
@@ -6118,8 +6122,8 @@
 		<!--initial back aura is loaded on page open (no, really, it HAS to be manually set to the first alphabetically.)-->
 		<script type="text/javascript">
 			let loadSpineAuraBackAffable = function() { 
-				new spine.SpineCanvas(document.getElementById("Affableback"), {
-					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", "aura_s_xmas_b")
+				new spine.SpineCanvas(document.getElementById("Adamantback"), {
+					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", "aura_b_navy")
 				})
 			}
 			window.addEventListener("load", loadSpineAuraBackAffable);
@@ -6128,8 +6132,8 @@
 		<!--initial front aura is loaded on page open (if it's not the first one, it'll break my selectors, and i'll be sad.)-->
 		<script type="text/javascript"> 
 			let loadSpineAuraFrontAffable = function() {
-				new spine.SpineCanvas(document.getElementById("Affablefront"), {
-					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", "aura_s_xmas_b")
+				new spine.SpineCanvas(document.getElementById("Adamantfront"), {
+					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", "")
 				})
 			}
 			window.addEventListener("load", loadSpineAuraFrontAffable);

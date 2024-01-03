@@ -1,11 +1,15 @@
 {
+	"Adamant" : {
+		"back" : "aura_b_navy",
+		"front" : ""
+	},
 	"Affable" : {
 		"back" : "aura_s_xmas_b",
 		"front" : "aura_s_xmas_b"
 	},
-	"Adamant" : {
-		"back" : "aura_b_navy",
-		"front" : ""
+	"Affluent" : {
+		"back" : "aura_e_emart",
+		"front" : "aura_e_emart"
 	},
 	"Apocalyptic" : {
 		"back" : "aura_s_end",
@@ -23,11 +27,11 @@
 		"back" : "aura_b_whight",
 		"front" : ""
 	},
-	"BlueMoon" : {
+	"Blue Moon" : {
 		"back" : "aura_s_moon_blue",
 		"front" : "aura_s_transparent_blue"
 	},
-	"BlueMoonFly" : {
+	"Blue Moon (Fly)" : {
 		"back" : "aura_s_moon_blue_fly",
 		"front" : "aura_s_transparent_blue_fly"
 	},
@@ -107,11 +111,11 @@
 		"back" : "aura_s_blackgreen",
 		"front" : "aura_s_blackgreen"
 	},
-	"FullMoon" : {
+	"Full Moon" : {
 		"back" : "aura_s_moon_yellow",
 		"front" : "aura_s_transparent_yellow"
 	},
-	"FullMoonFly" : {
+	"Full Moon (Fly)" : {
 		"back" : "aura_s_moon_yellow_fly",
 		"front" : "aura_s_transparent_yellow_fly"
 	},
@@ -135,7 +139,7 @@
 		"back" : "aura_s_halloween_b",
 		"front" : "aura_s_halloween_b"
 	},
-	"HorrendousFly" : {
+	"Horrendous (Fly)" : {
 		"back" : "aura_s_halloween_b_fly",
 		"front" : "aura_s_halloween_b"
 	},
@@ -195,7 +199,7 @@
 		"back" : "aura_s_transparent",
 		"front" : "aura_s_transparent"
 	},
-	"QuickWitted" : {
+	"Quick Witted" : {
 		"back" : "aura_b_yellowgreen",
 		"front" : ""
 	},
@@ -243,7 +247,7 @@
 		"back" : "aura_s_halloween_a",
 		"front" : "aura_s_halloween_a"
 	},
-	"SpookyFly" : {
+	"Spooky (Fly)" : {
 		"back" : "aura_s_halloween_a_fly",
 		"front" : "aura_s_halloween_a"
 	},
