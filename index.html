@@ -11,7 +11,16 @@
 			var personality;
 			var gender = "m";
 			var form;
-			var speciesName;
+			//the species name here must be manually set to the first dragon in the list.
+				// or else bad stuff happens.
+			var speciesName = "abaddon";
+			var formNumber = "01";
+			var maleButton;
+			var femaleButton;
+			var neutralButton;
+			var maleLabel;
+			var femaleLabel;
+			var neutralLabel;
 			var speciesDisplay;
 			
 			//i really do wish i could pull from the actual json files instead of having this mess
@@ -5606,18 +5615,6 @@
 				  }
 				}
 			  },
-			  "undead": {
-				"speciesDisplay": "Undead Dragon",
-				"forms": {
-				  "fin": {
-					"genders": {
-					  "n": {
-						"color": "w"
-					  }
-					}
-				  }
-				}
-			  },
 			  "underground": {
 				"speciesDisplay": "Underground Dragon",
 				"forms": {
@@ -6299,6 +6296,12 @@
 				species = document.getElementById("species");
 				personality = document.getElementById("personality");
 				form = document.getElementById("form");
+				maleButton = document.getElementById("male");
+				maleLabel = document.getElementById("maleLabel");
+				femaleButton = document.getElementById("female");
+				femaleLabel = document.getElementById("femaleLabel");
+				neutralButton = document.getElementById("neutral");
+				neutralLabel = document.getElementById("neutralLabel");
 				
 				//create option tags for Species
 				var speciesOption;
@@ -6319,15 +6322,15 @@
 				}
 				
 				//create option tags for Forms
-					//the species name here must be manually set to the first dragon in the list.
-						// or else bad stuff happens.
-				var formKeys = Object.keys(speciesJson["abaddon"].forms);
+				var formKeys = Object.keys(speciesJson[speciesName].forms);
 				for (var i = 0; i < formKeys.length; i++){
 					formOption = document.createElement("option");
 					formOption.innerText = formKeys[i];
 					formOption.value = formKeys[i];
 					form.appendChild(formOption);
 				}
+				
+				initializeRadioButtons();
 			}
 			
 			function setGender(genderValue){
@@ -6335,30 +6338,94 @@
 				updateUrl();
 			}
 			
-			//load new dragon when changed
-			function updateUrl(){
+			function updateSpecies(){
 				//if new species, clear form options and append again
 				if (speciesName !== species.value){
+					speciesName = species.value;
 					form.innerHTML = "";
-					var formKeys = Object.keys(speciesJson[species.value].forms);
+					var formKeys = Object.keys(speciesJson[speciesName].forms);
 					for (var i = 0; i < formKeys.length; i++){
 						formOption = document.createElement("option");
 						formOption.innerText = formKeys[i];
 						formOption.value = formKeys[i];
 						form.appendChild(formOption);
 					}
+					formNumber = "01";
+					initializeRadioButtons();
 				}
+				updateUrl();
+			}
+			
+			function updateForm(){
+				formNumber = form.value;
+				initializeRadioButtons();
+				updateUrl();
+			}
+			
+			//enable only the valid gender buttons
+			function initializeRadioButtons(){
+				//disable all 3 buttons
+				maleButton.disabled = true;
+				femaleButton.disabled = true;
+				neutralButton.disabled = true;
 				
+				//add disabled class to all 3 labels
+				maleLabel.classList.add("disabledButton");
+				femaleLabel.classList.add("disabledButton");
+				neutralLabel.classList.add("disabledButton");
+				
+				//get keys for current species' genders
+				var genderKeys = Object.keys(speciesJson[speciesName].forms[formNumber].genders);
+				
+				//enable all valid keys
+				for (var i = 0; i < genderKeys.length; i++){
+					switch(genderKeys[i]){
+						case "m":
+						{
+							maleButton.disabled = false;
+							maleLabel.classList.remove("disabledButton");
+							maleButton.checked = true;
+							gender = "m";
+							break;
+						}
+						case "f":
+						{
+							femaleButton.disabled = false;
+							femaleLabel.classList.remove("disabledButton");
+							femaleButton.checked = true;
+							gender = "f";
+							break;
+						}
+						case "n":
+						{
+							neutralButton.disabled = false;
+							neutralLabel.classList.remove("disabledButton");
+							neutralButton.checked = true;
+							gender = "n";
+							break;
+						}
+						default:
+						{
+							maleButton.disabled = false;
+							maleLabel.classList.remove("disabledButton");
+							maleButton.checked = true;
+							gender = "m";
+						}
+					}
+				}
+			}
+			
+			//load new dragon when changed
+			function updateUrl(){
 				//get dragon url parts
-				speciesName = species.value;
-				var formName = form.value;
-				var colorName = speciesJson[speciesName].forms[formName].genders[gender].color;
+				formNumber = form.value;
+				var colorName = speciesJson[speciesName].forms[formNumber].genders[gender].color;
 				
 				//construct dragon url
-				var url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/" + speciesName + "_" + formName +"_" + gender + "_adult_" + colorName + "/" +speciesName + "_" + formName +"_" + gender + "_adult_" + colorName;
+				var url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/" + speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName + "/" +speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName;
 				
 				//print url to console log (i'm hopeless and need this here for debugging, don't judge me)
-				//console.log(url);
+				console.log(url);
 				
 				//load new dragon to canvas
 				var elements = document.getElementsByClassName("dragonCanvas");
@@ -6402,7 +6469,7 @@
 		</div>
 		</div>
 	
-		<!--initial dragon is loaded on page open (always set this to be the first one in the list. you've been warned.)-->
+				<!--initial dragon is loaded on page open (always set this to be the first one in the list. you've been warned.)-->
 		<script type="text/javascript">
 		let loadSpineDragon = function() { 
 			var elements = document.getElementsByClassName("dragonCanvas");
@@ -6444,28 +6511,28 @@
 	
 	<!--selection for species where entries are appended-->
 	<b>Species</b>
-		<select id ="species" name="species" onchange="updateUrl();">
+		<select id ="species" name="species" onchange="updateSpecies();">
 		</select>
 	&nbsp;
 	
 	<!--selection for forms where entries are appended-->
 	<b>Form</b>
-		<select id ="form" name="form" onchange="updateUrl();">
+		<select id ="form" name="form" onchange="updateForm();">
 		</select>
 
 	<!--who needs text for radio buttons, anyways?-->
 	<br><br>
 		<div id="radios">
 			<input type="radio" name="gender" value="m" id="male" onchange="setGender(this.value)" checked/>
-			<label for="male">
+			<label for="male" id="maleLabel">
 				<img src="./img/gender_m_0201.png" alt="male selection">
 			</label>
 			<input type="radio" name="gender" value="f" id="female" onchange="setGender(this.value)"/> 
-			<label for="female">
+			<label for="female" id="femaleLabel">
 				<img src="./img/gender_f_0201.png" alt="female selection">
 			</label>
 			<input type="radio" name="gender" value="n" id="neutral" onchange="setGender(this.value)"> 
-			<label for="neutral">
+			<label for="neutral" id="neutralLabel">
 				<img src="./img/gender_n_0201.png" alt="neutral selection">
 			</label>
 		</div>

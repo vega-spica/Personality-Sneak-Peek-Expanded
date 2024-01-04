@@ -5587,18 +5587,6 @@
       }
     }
   },
-  "undead": {
-    "speciesDisplay": "Undead Dragon",
-	"forms": {
-      "fin": {
-        "genders": {
-          "n": {
-            "color": "w"
-          }
-        }
-      }
-    }
-  },
   "underground": {
     "speciesDisplay": "Underground Dragon",
 	"forms": {
