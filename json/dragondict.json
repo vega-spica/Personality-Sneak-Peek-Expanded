@@ -2813,15 +2813,15 @@
         }
       },
       "undead01": {
-        "formDisplay": "Undead (G1)",
+        "formDisplay": "Undead (Default)",
         "genders": {
           "n": {
             "color": "g"
           }
         }
-      }
+      },
       "undead02": {
-        "formDisplay": "Undead (G2)",
+        "formDisplay": "Undead (Sheriff)",
         "genders": {
           "n": {
             "color": "g"
