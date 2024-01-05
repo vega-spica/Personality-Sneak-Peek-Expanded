@@ -2805,10 +2805,26 @@
         "formDisplay": "Sheriff",
         "genders": {
           "f": {
-            "color": "yr"
+            "color": "pb"
           },
           "m": {
-            "color": "yr"
+            "color": "pb"
+          }
+        }
+      },
+      "undead01": {
+        "formDisplay": "Undead (Default)",
+        "genders": {
+          "n": {
+            "color": "g"
+          }
+        }
+      },
+      "undead02": {
+        "formDisplay": "Undead (Sheriff)",
+        "genders": {
+          "n": {
+            "color": "g"
           }
         }
       }
@@ -2930,6 +2946,14 @@
         "genders": {
           "n": {
             "color": "rp"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
