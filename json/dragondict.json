@@ -999,7 +999,7 @@
         }
       },
       "02": {
-        "formDisplay": "Red Rose",
+        "formDisplay": "Crimson Rose",
         "genders": {
           "f": {
             "color": "w"
@@ -2805,10 +2805,26 @@
         "formDisplay": "Sheriff",
         "genders": {
           "f": {
-            "color": "yr"
+            "color": "pb"
           },
           "m": {
-            "color": "yr"
+            "color": "pb"
+          }
+        }
+      },
+      "undead01": {
+        "formDisplay": "Undead (G1)",
+        "genders": {
+          "n": {
+            "color": "g"
+          }
+        }
+      }
+      "undead02": {
+        "formDisplay": "Undead (G2)",
+        "genders": {
+          "n": {
+            "color": "g"
           }
         }
       }
