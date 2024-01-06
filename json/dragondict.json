@@ -2435,6 +2435,14 @@
             "color": "rp"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -3778,6 +3786,14 @@
             "color": "yr"
           },
           "m": {
+            "color": "yr"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
             "color": "yr"
           }
         }
@@ -6112,6 +6128,14 @@
         "genders": {
           "n": {
             "color": "g"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "yr"
           }
         }
       }
