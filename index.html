@@ -7479,13 +7479,19 @@
 				//console.log(url);
 				
 				//load new dragon to canvas
-				var elements = document.getElementsByClassName("dragonCanvas");
+				if (url.includes(".png")) {
+					//remake url for png
+					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/" + speciesName + "_" + formNumber +"_" + gender + "_adult_" + "/" +speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName;
+					document.getElementById("dragon-image").src = url
+				}else {
+					var elements = document.getElementsByClassName("dragonCanvas");
 					for(var i = 0; i < elements.length; i++) {
 						new spine.SpineCanvas(elements[i], {
 							app: new SpineObject(url, "idle")
 						})
 					}
-				window.addEventListener("load", loadSpineDragon);
+					window.addEventListener("load", loadSpineDragon);
+				}				
 			}
 				
 			
