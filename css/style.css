@@ -47,6 +47,13 @@ a:hover {
     z-index: 0;
 }
 
+#dragon-image {
+    position: absolute;
+	width: 20%;
+    transform: translate(170%, -80%);
+	z-index: 0;
+}
+
 .auraFrontCanvas {
     z-index: 1;
 }
@@ -216,5 +223,9 @@ input[type='radio'] {
 	.header{
 		padding-bottom: 30px;
 	}
-	
+
+	#dragon-image {
+	width: 20%;
+    transform: translate(172%, -123%);
+}
 }
