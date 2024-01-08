@@ -3228,7 +3228,7 @@
 					}
 				  },
 				  "02": {
-					"formDisplay": "Commander of Knights",
+					"formDisplay": "Knight-captain",
 					"genders": {
 					  "f": {
 						"color": "w"
@@ -3250,7 +3250,7 @@
 					}
 				  },
 				  "04": {
-					"formDisplay": "Constellation Guardian",
+					"formDisplay": "Star Guardian",
 					"genders": {
 					  "f": {
 						"color": "pb"
@@ -3261,7 +3261,7 @@
 					}
 				  },
 				  "05": {
-					"formDisplay": "Renegade",
+					"formDisplay": "Traitor",
 					"genders": {
 					  "f": {
 						"color": "bk"
@@ -7370,6 +7370,10 @@
 			};
 			
 			const personalityJson = {
+				"Abundant" : {
+					"back" : "aura_e_emart",
+					"front" : "aura_e_emart"
+				},	
 				"Adamant" : {
 					"back" : "aura_b_navy",
 					"front" : ""
@@ -7377,10 +7381,6 @@
 				"Affable" : {
 					"back" : "aura_s_xmas_b",
 					"front" : "aura_s_xmas_b"
-				},
-				"Affluent" : {
-					"back" : "aura_e_emart",
-					"front" : "aura_e_emart"
 				},
 				"Apocalyptic" : {
 					"back" : "aura_s_end",
@@ -7816,10 +7816,10 @@
 			//load new personality when changed
 			function updatePersonalityUrl() {
 				var personalityName = personality.value;
-				new spine.SpineCanvas(document.getElementById("Adamantback"), {
+				new spine.SpineCanvas(document.getElementById("Abundantback"), {
 					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", personalityJson[personalityName].back)
 				});
-				new spine.SpineCanvas(document.getElementById("Adamantfront"), {
+				new spine.SpineCanvas(document.getElementById("Abundantfront"), {
 					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", personalityJson[personalityName].front)
 				});
 			}
@@ -7839,8 +7839,8 @@
 			
 		<div class="grid-item">
 			<canvas id="dragonCanvas" class="spineCanvas dragonCanvas"></canvas>
-			<canvas id="Adamantback" class="spineCanvas auraBackCanvas"></canvas>
-			<canvas id="Adamantfront" class="spineCanvas auraFrontCanvas"></canvas>
+			<canvas id="Abundantback" class="spineCanvas auraBackCanvas"></canvas>
+			<canvas id="Abundantfront" class="spineCanvas auraFrontCanvas"></canvas>
 		</div>
 		</div>
 	
@@ -7860,22 +7860,22 @@
 		
 		<!--initial back aura is loaded on page open (no, really, it HAS to be manually set to the first alphabetically.)-->
 		<script type="text/javascript">
-			let loadSpineAuraBackAdamant = function() { 
-				new spine.SpineCanvas(document.getElementById("Adamantback"), {
-					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", "aura_b_navy")
+			let loadSpineAuraBackAbundant = function() { 
+				new spine.SpineCanvas(document.getElementById("Abundantback"), {
+					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", "aura_e_emart")
 				})
 			}
-			window.addEventListener("load", loadSpineAuraBackAdamant);
+			window.addEventListener("load", loadSpineAuraBackAbundant);
 		</script>
 
 		<!--initial front aura is loaded on page open (if it's not the first one, it'll break my selectors, and i'll be sad.)-->
 		<script type="text/javascript"> 
-			let loadSpineAuraFrontAdamant = function() {
-				new spine.SpineCanvas(document.getElementById("Adamantfront"), {
-					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", "")
+			let loadSpineAuraFrontAbundant = function() {
+				new spine.SpineCanvas(document.getElementById("Abundantfront"), {
+					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", "aura_e_emart")
 				})
 			}
-			window.addEventListener("load", loadSpineAuraFrontAdamant);
+			window.addEventListener("load", loadSpineAuraFrontAbundant);
 		</script>
 
 	<div class="flex-container">

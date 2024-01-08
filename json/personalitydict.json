@@ -1,4 +1,8 @@
 {
+	"Abundant" : {
+		"back" : "aura_e_emart",
+		"front" : "aura_e_emart"
+	},	
 	"Adamant" : {
 		"back" : "aura_b_navy",
 		"front" : ""
@@ -6,10 +10,6 @@
 	"Affable" : {
 		"back" : "aura_s_xmas_b",
 		"front" : "aura_s_xmas_b"
-	},
-	"Affluent" : {
-		"back" : "aura_e_emart",
-		"front" : "aura_e_emart"
 	},
 	"Apocalyptic" : {
 		"back" : "aura_s_end",
