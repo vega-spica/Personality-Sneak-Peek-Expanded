@@ -5370,7 +5370,7 @@
       }
     }
   },
-  "ranky": {
+  "ranky01": {
     "speciesDisplay": "Ranky (Day)",
 	"forms": {
       "01": {
@@ -5399,10 +5399,10 @@
         "formDisplay": "Cooking Game",
         "genders": {
           "f": {
-            "color": "bk"
+            "color": "y"
           },
           "m": {
-            "color": "bk"
+            "color": "y"
           }
         }
       },
@@ -5418,13 +5418,73 @@
         }
       },
       "05": {
-        "formDisplay": "Sport Game",
+        "formDisplay": "Sports Game",
         "genders": {
           "f": {
             "color": "bg"
           },
           "m": {
             "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "ranky02": {
+    "speciesDisplay": "Ranky (Night)",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "Cyberpunk",
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      },
+      "03": {
+        "formDisplay": "Cooking Game",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "04": {
+        "formDisplay": "Rhythm Game",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "05": {
+        "formDisplay": "Sports Game",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
           }
         }
       }
