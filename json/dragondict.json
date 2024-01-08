@@ -265,6 +265,14 @@
             "color": "yr"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -378,6 +386,14 @@
           },
           "m": {
             "color": "r"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -1280,6 +1296,14 @@
             "color": "rp"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -1316,6 +1340,14 @@
           },
           "m": {
             "color": "g"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -2082,6 +2114,14 @@
           },
           "m": {
             "color": "r"
+           }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -2097,6 +2137,14 @@
             "color": "w"
           },
           "m": {
+            "color": "w"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
             "color": "w"
           }
         }
@@ -2146,6 +2194,14 @@
           },
           "m": {
             "color": "bk"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": ".png"
           }
         }
       }
@@ -2251,6 +2307,14 @@
           },
           "m": {
             "color": "b"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -2505,6 +2569,14 @@
             "color": "y"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -2742,6 +2814,14 @@
             "color": "bg"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -2810,6 +2890,14 @@
           },
           "m": {
             "color": "y"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -3154,6 +3242,14 @@
             "color": "bk"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -3184,6 +3280,14 @@
           },
           "m": {
             "color": "r"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -3237,6 +3341,14 @@
           },
           "m": {
             "color": "r"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -3335,6 +3447,14 @@
             "color": "gy"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -3364,6 +3484,14 @@
             "color": "w"
           },
           "m": {
+            "color": "w"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
             "color": "w"
           }
         }
@@ -3534,6 +3662,22 @@
           },
           "m": {
             "color": "w"
+          }
+        }
+      },
+      "undead01": {
+        "formDisplay": "Undead (Default)",
+        "genders": {
+          "n": {
+            "color": ".png"
+          }
+        }
+      },
+      "undead02": {
+        "formDisplay": "Undead (Cafe Latte)",
+        "genders": {
+          "n": {
+            "color": ".png"
           }
         }
       }
@@ -3779,6 +3923,14 @@
             "color": "w"
           },
           "m": {
+            "color": "w"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
             "color": "w"
           }
         }
@@ -4273,6 +4425,14 @@
           },
           "m": {
             "color": "g"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -4924,6 +5084,14 @@
             "color": "r"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -5142,6 +5310,14 @@
             "color": "w"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -5195,7 +5371,7 @@
     }
   },
   "ranky": {
-    "speciesDisplay": "Ranky",
+    "speciesDisplay": "Ranky (Day)",
 	"forms": {
       "01": {
         "formDisplay": "Default",
@@ -5329,6 +5505,14 @@
           },
           "m": {
             "color": "bk"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -5559,6 +5743,14 @@
           },
           "m": {
             "color": "bk"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -5955,6 +6147,14 @@
             "color": "w"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -5968,6 +6168,14 @@
             "color": "w"
           },
           "m": {
+            "color": "w"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
             "color": "w"
           }
         }
@@ -6260,6 +6468,14 @@
             "color": "r"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -6494,6 +6710,14 @@
             "color": "b"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -6636,6 +6860,14 @@
           },
           "m": {
             "color": "bk"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -6825,6 +7057,14 @@
             "color": "w"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -6996,6 +7236,14 @@
             "color": "w"
           },
           "m": {
+            "color": "w"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
             "color": "w"
           }
         }

@@ -47,10 +47,11 @@ a:hover {
     z-index: 0;
 }
 
+/* frame. FRAME! */
 #dragon-image {
     position: absolute;
 	width: 20%;
-    transform: translate(170%, -80%);
+    transform: translate(172%, -83%);
 	z-index: 0;
 }
 
@@ -88,7 +89,7 @@ a:hover {
 	color:white;
 	text-align: center;
     font-family: "NotoSans";
-    font-size: 15px;
+    font-size: 15px
 	padding-bottom: 80px;
 	position: relative;
 	z-index: 2;
