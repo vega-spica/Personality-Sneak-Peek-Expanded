@@ -2734,7 +2734,8 @@
         }
       }
     }
-  },one": {
+  },
+  "glaone": {
     "speciesDisplay": "Glaone",
 	"forms": {
       "01": {
@@ -2875,6 +2876,17 @@
             "color": "yr"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -2937,6 +2949,17 @@
           },
           "m": {
             "color": "y"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
           }
         }
       }
@@ -3078,6 +3101,14 @@
           },
           "m": {
             "color": "b"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -3422,6 +3453,14 @@
         "genders": {
           "m": {
             "color": "pb"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -3817,6 +3856,14 @@
             "color": "bk"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -4002,6 +4049,14 @@
             "color": "yr"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -4029,6 +4084,14 @@
         "genders": {
           "n": {
             "color": "bg"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -4224,6 +4287,14 @@
             "color": "w"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -4405,6 +4476,14 @@
           },
           "m": {
             "color": "yr"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -4597,6 +4676,17 @@
             "color": "bk"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -4656,6 +4746,14 @@
         "genders": {
           "n": {
             "color": "yr"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -4731,6 +4829,14 @@
           },
           "m": {
             "color": "b"
+           }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -4747,6 +4853,14 @@
           },
           "m": {
             "color": "y"
+           }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -4800,6 +4914,14 @@
           },
           "m": {
             "color": "p"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -5929,6 +6051,14 @@
             "color": "r"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -6042,6 +6172,17 @@
           },
           "m": {
             "color": "rp"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
           }
         }
       }
@@ -6781,6 +6922,14 @@
             "color": "g"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -6795,6 +6944,17 @@
           },
           "m": {
             "color": "p"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
           }
         }
       }
@@ -6876,6 +7036,14 @@
           },
           "m": {
             "color": "bk"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -7115,6 +7283,14 @@
             "color": "yr"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -7322,6 +7498,17 @@
           },
           "m": {
             "color": "bk"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
           }
         }
       }
@@ -7594,6 +7781,14 @@
             "color": "b"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -7639,6 +7834,17 @@
 	"forms": {
       "01": {
         "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
         "genders": {
           "f": {
             "color": "w"
@@ -7720,6 +7926,14 @@
           },
           "m": {
             "color": "bk"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
