@@ -1449,7 +1449,7 @@
         }
       },
       "02": {
-        "formDisplay": "[Warrior of the Kingdom]",
+        "formDisplay": "Warrior of the Kingdom",
         "genders": {
           "f": {
             "color": "pb"
@@ -1460,7 +1460,7 @@
         }
       },
       "03": {
-        "formDisplay": "[Restorer of the Kingdom]",
+        "formDisplay": "Restorer of the Kingdom",
         "genders": {
           "f": {
             "color": "pb"
