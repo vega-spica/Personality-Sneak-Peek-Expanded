@@ -2130,6 +2130,33 @@
       }
     }
   },
+  "eggmayodragon": {
+    "speciesDisplay": "Egg Mayo Dragon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "[Collab Egg]",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
   "elderlydragon": {
     "speciesDisplay": "Elderly Dragon",
 	"forms": {
