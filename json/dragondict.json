@@ -1434,6 +1434,44 @@
       }
     }
   },
+  "cortus": {
+    "speciesDisplay": "Cortus",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "[02]",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "03": {
+        "formDisplay": "[03]",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
   "cresteddragon": {
     "speciesDisplay": "Crested Dragon",
 	"forms": {
