@@ -1449,7 +1449,7 @@
         }
       },
       "02": {
-        "formDisplay": "[02]",
+        "formDisplay": "[Warrior of the Kingdom]",
         "genders": {
           "f": {
             "color": "pb"
@@ -1460,7 +1460,7 @@
         }
       },
       "03": {
-        "formDisplay": "[03]",
+        "formDisplay": "[Restorer of the Kingdom]",
         "genders": {
           "f": {
             "color": "pb"
@@ -2183,7 +2183,18 @@
         }
       },
       "02": {
-        "formDisplay": "[Collab Egg]",
+        "formDisplay": "Egg Mayo",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "03": {
+        "formDisplay": "Burger",
         "genders": {
           "f": {
             "color": "y"
