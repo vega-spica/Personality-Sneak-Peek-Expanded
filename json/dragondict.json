@@ -5904,7 +5904,7 @@
     }
   },
   "pharaogon": {
-    "speciesDisplay": "Pharaohgon",
+    "speciesDisplay": "Pharaogon",
 	"forms": {
       "01": {
         "formDisplay": "Default",
@@ -8233,6 +8233,14 @@
           },
           "m": {
             "color": "yr"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
