@@ -1,0 +1,16 @@
+clavis_floor_01.png
+size:2048,256
+filter:Linear,Linear
+pma:true
+ground_01
+bounds:2,38,336,102
+촛대/fire_01
+bounds:1080,2,368,138
+촛대/fire_02
+bounds:340,4,368,136
+offsets:0,0,368,138
+촛대/fire_03
+bounds:1450,2,368,138
+촛대/fire_04
+bounds:710,4,368,136
+offsets:0,0,368,138
