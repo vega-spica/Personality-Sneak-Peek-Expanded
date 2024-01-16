@@ -1,0 +1,37 @@
+square_library.png
+size:742,358
+filter:Linear,Linear
+pma:true
+book
+bounds:612,3,73,51
+bookmark_1
+bounds:693,101,47,75
+bookmark_2
+bounds:698,232,45,41
+rotate:90
+desk
+bounds:612,56,80,79
+rotate:90
+feather
+bounds:698,279,42,77
+lamp
+bounds:546,95,41,57
+rotate:90
+shadow_1
+bounds:450,88,268,94
+rotate:90
+shadow_2
+bounds:693,29,70,46
+rotate:90
+shadow_3
+bounds:546,138,114,38
+steam
+bounds:662,168,8,8
+그룹 12
+bounds:546,178,150,178
+레이어 1
+bounds:450,6,80,160
+rotate:90
+레이어 2 복사
+bounds:2,2,354,446
+rotate:90

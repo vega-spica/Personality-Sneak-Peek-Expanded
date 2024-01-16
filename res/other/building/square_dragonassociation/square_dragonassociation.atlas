@@ -1,0 +1,43 @@
+square_dragonassociation.png
+size:808,538
+filter:Linear,Linear
+pma:true
+building
+bounds:2,2,534,618
+rotate:90
+dragon_1
+bounds:622,92,86,90
+rotate:90
+dragon_2
+bounds:714,96,56,32
+rotate:90
+dragon_3
+bounds:622,24,64,66
+레이어 10
+bounds:790,506,10,10
+레이어 172 복사
+bounds:744,154,64,58
+rotate:90
+레이어 3
+bounds:688,26,64,58
+rotate:90
+레이어 4
+bounds:748,88,64,58
+rotate:90
+레이어 5
+bounds:748,22,64,58
+rotate:90
+레이어 6
+bounds:744,220,66,62
+rotate:90
+레이어 6_1
+bounds:790,518,18,16
+rotate:90
+레이어 7
+bounds:622,234,52,120
+rotate:90
+레이어 8
+bounds:622,180,52,120
+rotate:90
+레이어 9
+bounds:622,288,166,248

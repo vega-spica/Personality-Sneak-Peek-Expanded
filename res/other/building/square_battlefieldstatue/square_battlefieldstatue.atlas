@@ -1,0 +1,31 @@
+square_battlefieldstatue.png
+size:424,990
+filter:Linear,Linear
+pma:true
+all_03_light_1
+bounds:304,85,106,106
+레이어 1
+bounds:2,524,464,320
+rotate:90
+레이어 11
+bounds:2,152,167,300
+rotate:90
+레이어 14
+bounds:2,321,201,302
+rotate:90
+레이어 2
+bounds:324,449,245,91
+rotate:90
+레이어 3
+bounds:324,876,112,98
+rotate:90
+레이어 5
+bounds:324,696,95,178
+offsets:1,1,97,180
+레이어 7
+bounds:306,193,116,254
+offsets:1,1,118,256
+레이어 9
+bounds:2,2,148,298
+offsets:1,1,150,300
+rotate:90

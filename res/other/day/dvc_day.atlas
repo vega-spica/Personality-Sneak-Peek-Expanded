@@ -1,0 +1,8 @@
+dvc_day.png
+size:256,256
+filter:Linear,Linear
+01
+bounds:2,64,64,64
+dvc_ray
+bounds:68,2,128,126
+offsets:0,2,128,128

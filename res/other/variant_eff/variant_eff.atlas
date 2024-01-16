@@ -1,0 +1,16 @@
+variant_eff.png
+size:256,256
+filter:Linear,Linear
+twinkle_02
+bounds:127,100,117,108
+offsets:3,12,153,132
+twinkle_03
+bounds:97,2,153,96
+offsets:0,18,153,132
+twinkle_04
+bounds:2,32,135,93
+offsets:12,18,153,132
+rotate:90
+twinkle_05
+bounds:2,169,123,39
+offsets:21,30,153,132

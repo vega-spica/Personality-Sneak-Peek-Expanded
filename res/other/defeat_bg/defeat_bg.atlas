@@ -1,0 +1,111 @@
+
+defeat_bg.png
+size: 1876,744
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+defeat_bg_00000
+  rotate: false
+  xy: 1262, 2
+  size: 358, 236
+  orig: 360, 250
+  offset: 2, 14
+  index: -1
+defeat_bg_00001
+  rotate: true
+  xy: 2, 382
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00002
+  rotate: true
+  xy: 2, 20
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00003
+  rotate: true
+  xy: 1622, 23
+  size: 357, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00004
+  rotate: true
+  xy: 254, 382
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00005
+  rotate: true
+  xy: 254, 20
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00006
+  rotate: false
+  xy: 1262, 240
+  size: 358, 250
+  orig: 360, 250
+  offset: 2, 0
+  index: -1
+defeat_bg_00007
+  rotate: true
+  xy: 506, 382
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00008
+  rotate: true
+  xy: 506, 20
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00009
+  rotate: true
+  xy: 758, 382
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00010
+  rotate: true
+  xy: 758, 20
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00011
+  rotate: true
+  xy: 1010, 382
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00012
+  rotate: true
+  xy: 1010, 20
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00013
+  rotate: false
+  xy: 1262, 492
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1
+defeat_bg_00014
+  rotate: true
+  xy: 1624, 382
+  size: 360, 250
+  orig: 360, 250
+  offset: 0, 0
+  index: -1

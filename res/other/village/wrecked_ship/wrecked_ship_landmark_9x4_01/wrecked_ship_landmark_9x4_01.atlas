@@ -1,0 +1,31 @@
+wrecked_ship_landmark_9x4_01.png
+size:322,519
+filter:Linear,Linear
+pma:true
+Layer 3
+bounds:268,4,51,109
+Layer 4
+bounds:227,16,19,7
+Layer 5
+bounds:137,2,29,21
+Layer 6
+bounds:197,82,51,31
+Layer 7
+bounds:2,5,75,133
+rotate:90
+Layer 8
+bounds:137,25,55,129
+rotate:90
+Layer 9
+bounds:168,4,19,57
+rotate:90
+rope
+bounds:277,448,43,69
+sail_b
+bounds:277,281,41,165
+ship
+bounds:2,82,435,193
+rotate:90
+wrecked_ship_landmark_9x4_shadow
+bounds:197,115,402,78
+rotate:90

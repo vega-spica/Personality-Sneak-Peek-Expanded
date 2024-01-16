@@ -1,0 +1,6 @@
+fishing_fish.png
+size:64,32
+filter:Linear,Linear
+pma:true
+fish
+bounds:2,2,54,26

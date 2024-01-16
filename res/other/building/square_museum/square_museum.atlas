@@ -1,0 +1,22 @@
+square_museum.png
+size:659,482
+filter:Linear,Linear
+pma:true
+building
+bounds:2,4,486,476
+light
+bounds:490,2,36,36
+레이어 14_1
+bounds:578,34,6,4
+레이어 16
+bounds:528,21,23,17
+레이어 17
+bounds:528,21,23,17
+레이어 18
+bounds:553,21,23,17
+레이어 19
+bounds:553,21,23,17
+레이어 20
+bounds:490,40,133,219
+레이어 21
+bounds:490,261,167,219

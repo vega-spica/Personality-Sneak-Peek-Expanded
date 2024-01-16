@@ -1,0 +1,12 @@
+butterfly_eff.png
+size:89,56
+filter:Linear,Linear
+butterfly
+bounds:2,2,27,52
+offsets:0,1,27,54
+butterfly2
+bounds:31,2,27,52
+offsets:0,1,27,54
+butterfly3
+bounds:60,2,27,52
+offsets:0,1,27,54

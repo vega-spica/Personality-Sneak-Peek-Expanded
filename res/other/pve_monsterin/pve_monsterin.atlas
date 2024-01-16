@@ -1,0 +1,14 @@
+pve_monsterin.png
+size:2006,1446
+filter:Linear,Linear
+bg
+bounds:2,164,720,1280
+black
+bounds:724,724,720,1280
+rotate:90
+effect
+bounds:724,2,720,1280
+rotate:90
+warning
+bounds:2,7,485,155
+offsets:0,16,485,189

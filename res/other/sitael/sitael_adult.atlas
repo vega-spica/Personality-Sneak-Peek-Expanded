@@ -1,0 +1,26 @@
+sitael_adult.png
+size:1454,104
+filter:Linear,Linear
+pma:true
+꼬리
+bounds:2,2,130,100
+뒷발(우)
+bounds:134,2,130,100
+뒷발(좌)
+bounds:266,2,130,100
+머리
+bounds:398,2,130,100
+몸통
+bounds:530,2,130,100
+앞발(우)
+bounds:662,2,130,100
+앞발(좌)
+bounds:794,2,130,100
+우측 칼날
+bounds:926,2,130,100
+우측날개
+bounds:1058,2,130,100
+좌측 칼날
+bounds:1190,2,130,100
+좌측날개
+bounds:1322,2,130,100

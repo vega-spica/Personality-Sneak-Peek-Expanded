@@ -1,0 +1,51 @@
+square_exchange.png
+size:440,1027
+filter:Linear,Linear
+pma:true
+acc
+bounds:2,76,484,232
+rotate:90
+box
+bounds:252,707,118,126
+rotate:90
+ribbon
+bounds:206,2,120,72
+shadow_2
+bounds:252,827,198,94
+rotate:90
+shadow_3
+bounds:252,589,114,22
+shadow_4
+bounds:2,8,202,66
+wing_1
+bounds:236,84,90,90
+wing_2
+bounds:348,833,90,90
+레이어 11
+bounds:328,22,254,96
+rotate:90
+레이어 4
+bounds:348,467,78,88
+rotate:90
+레이어 5
+bounds:348,403,62,64
+rotate:90
+레이어 6
+bounds:2,562,248,463
+레이어 7_1
+bounds:252,613,92,92
+레이어 7_2
+bounds:346,613,92,92
+레이어 8_1
+bounds:368,547,64,70
+rotate:90
+레이어 8_2
+bounds:380,779,52,58
+rotate:90
+레이어 9
+bounds:236,278,282,110
+rotate:90
+레이어 9_1
+bounds:236,176,88,100
+레이어 9_2
+bounds:348,925,88,100

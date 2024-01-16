@@ -1,0 +1,17 @@
+eshu_bg_01.png
+size:392,354
+filter:Linear,Linear
+eshu_cave_background_700x720
+bounds:2,2,350,360
+rotate:90
+gem_green_highlight_01
+bounds:364,280,18,18
+offsets:0,8,26,26
+gem_green_highlight_02
+bounds:364,326,26,26
+gem_green_highlight_03
+bounds:364,300,24,24
+offsets:2,0,26,26
+gem_green_highlight_04
+bounds:364,266,12,12
+offsets:14,0,26,26
