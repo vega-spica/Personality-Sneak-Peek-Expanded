@@ -1,7 +1,6 @@
 angra_01_f_adult_r.png
 size:634,1032
 filter:Linear,Linear
-pma:true
 arm_l1_3
 bounds:234,18,20,20
 arm_l2_3
