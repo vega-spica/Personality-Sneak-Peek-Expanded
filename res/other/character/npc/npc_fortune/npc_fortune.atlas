@@ -1,0 +1,17 @@
+npc_fortune.png
+size:422,1102
+filter:Linear,Linear
+angry
+bounds:2,2,102,122
+rotate:90
+happy
+bounds:250,106,102,122
+rotate:90
+idle
+bounds:2,210,418,890
+sad
+bounds:126,106,102,122
+rotate:90
+surprise
+bounds:2,106,102,122
+rotate:90

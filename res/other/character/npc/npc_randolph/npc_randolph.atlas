@@ -1,0 +1,17 @@
+npc_randolph.png
+size:474,1534
+filter:Linear,Linear
+angry
+bounds:210,2,194,206
+rotate:90
+happy
+bounds:2,2,194,206
+rotate:90
+idle
+bounds:2,394,470,1138
+sad
+bounds:210,198,194,206
+rotate:90
+surprised
+bounds:2,198,194,206
+rotate:90

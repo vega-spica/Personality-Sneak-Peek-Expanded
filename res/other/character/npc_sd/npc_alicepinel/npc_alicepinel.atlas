@@ -1,0 +1,27 @@
+npc_alicepinel.png
+size:74,195
+filter:Linear,Linear
+pma:true
+arm_l
+bounds:30,38,22,26
+rotate:90
+arm_r
+bounds:38,62,26,34
+rotate:270
+arm_r_cape
+bounds:22,14,22,22
+body
+bounds:2,63,34,22
+body_2
+bounds:2,15,18,18
+close eye
+bounds:58,26,34,14
+rotate:90
+hair
+bounds:2,87,70,42
+head
+bounds:2,131,70,62
+leg_l
+bounds:46,2,22,22
+leg_r
+bounds:2,35,26,26

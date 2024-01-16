@@ -1,0 +1,14 @@
+npc_deet.png
+size:790,1238
+filter:Linear,Linear
+angry
+bounds:650,2,214,138
+rotate:90
+happy
+bounds:434,78,214,138
+idle
+bounds:2,218,766,1018
+sad
+bounds:218,78,214,138
+surprise
+bounds:2,78,214,138

@@ -1,0 +1,25 @@
+npc_deet.png
+size:173,112
+filter:Linear,Linear
+pma:true
+arm_l
+bounds:153,92,18,18
+arm_r
+bounds:129,8,22,26
+body
+bounds:85,2,42,34
+close eye
+bounds:2,100,18,10
+hair
+bounds:2,4,46,30
+hammer
+bounds:50,8,102,102
+rotate:180
+head
+bounds:2,36,74,74
+leg_l
+bounds:145,68,22,22
+rotate:180
+leg_r
+bounds:125,88,26,22
+offsets:0,0,38,22

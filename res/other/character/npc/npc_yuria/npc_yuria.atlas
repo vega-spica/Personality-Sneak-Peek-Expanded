@@ -1,0 +1,17 @@
+npc_yuria.png
+size:1182,548
+filter:Linear,Linear
+pma:true
+angry
+bounds:1084,430,96,116
+offsets:1,1,98,118
+happy
+bounds:1084,312,96,116
+offsets:1,1,98,118
+idle
+bounds:2,2,544,1080
+offsets:1,1,546,1082
+rotate:90
+surprise
+bounds:1084,194,96,116
+offsets:1,1,98,118

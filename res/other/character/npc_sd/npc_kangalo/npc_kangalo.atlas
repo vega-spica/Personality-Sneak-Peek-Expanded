@@ -1,0 +1,27 @@
+npc_kangalo.png
+size:82,183
+filter:Linear,Linear
+pma:true
+close eye
+bounds:38,95,34,14
+rotate:90
+레이어 10
+bounds:2,35,30,66
+rotate:90
+레이어 11
+bounds:2,127,54,54
+레이어 12
+bounds:58,67,22,114
+레이어 13
+bounds:2,67,58,34
+rotate:90
+레이어 14
+bounds:29,18,26,26
+rotate:270
+레이어 15
+bounds:47,2,18,22
+rotate:90
+레이어 16
+bounds:57,22,22,22
+레이어 9
+bounds:2,11,22,22

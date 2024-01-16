@@ -1,0 +1,22 @@
+npc_pino.png
+size:200,82
+filter:Linear,Linear
+pma:true
+arm_l
+bounds:108,42,38,38
+rotate:90
+arm_r
+bounds:157,4,22,22
+body
+bounds:117,2,38,38
+close eye
+bounds:148,56,34,14
+hair_pony
+bounds:69,2,46,78
+head
+bounds:2,10,66,70
+leg_l
+bounds:176,15,22,22
+leg_r
+bounds:148,28,26,26
+rotate:180

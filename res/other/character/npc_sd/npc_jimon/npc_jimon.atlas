@@ -1,0 +1,14 @@
+npc_jimon.png
+size:77,118
+filter:Linear,Linear
+pma:true
+body
+bounds:2,32,72,84
+foot1
+bounds:33,14,28,16
+foot2
+bounds:63,2,28,12
+rotate:90
+tail
+bounds:2,8,30,22
+offsets:1,1,32,24

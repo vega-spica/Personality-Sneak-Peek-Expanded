@@ -1,0 +1,22 @@
+npc_fortune.png
+size:183,82
+filter:Linear,Linear
+pma:true
+arm_l
+bounds:119,2,26,30
+arm_r
+bounds:145,18,26,26
+rotate:270
+body
+bounds:119,34,46,26
+rotate:90
+close eye
+bounds:147,2,34,14
+head
+bounds:2,2,82,78
+leg
+bounds:85,3,50,32
+offsets:0,0,50,38
+rotate:90
+staff
+bounds:147,46,18,34
