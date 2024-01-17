@@ -47,7 +47,7 @@ a:hover {
     z-index: 0;
 }
 
-/* frame. FRAME! */
+/* frame. FRAME!!! */
 #dragon-image {
     position: absolute;
 	width: 20%;
@@ -82,7 +82,6 @@ a:hover {
 	height: 200px;
 	width: 100px;
 }
-
 
 /* totally for the header bar at the top */
 .header {
@@ -162,15 +161,20 @@ select:focus {
   outline: 0;
 }
 
+/* clickable radio labels are very much in style. */
+#animRadios label {
+  cursor: pointer;
+  position: relative;
+}
+
 /* nifty gender buttons. yes, they're nifty. */
-#radios label {
+#genderRadios label {
   cursor: pointer;
   position: relative;
   vertical-align: middle;
 }
 
-
-#radios label img {
+#genderRadios label img {
   cursor: pointer;
   position: relative;
   vertical-align: middle;
@@ -186,7 +190,7 @@ input[type='radio'] {
 }
 
 /* in the dragon world, genders have tooltips. */
-#radios label:hover::before {
+#genderRadios label:hover::before {
   content: attr(for);
   font-family: 'NotoSans', sans-serif;
   text-transform: capitalize;
@@ -234,5 +238,4 @@ input[type='radio'] {
 	#dragon-image {
 	width: 20%;
     transform: translate(172%, -123%);
-}
 }
