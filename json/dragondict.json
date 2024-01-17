@@ -1517,6 +1517,14 @@
             "color": "pb"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": ".png"
+          }
+        }
       }
     }
   },
@@ -6643,6 +6651,14 @@
           },
           "m": {
             "color": "y"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
