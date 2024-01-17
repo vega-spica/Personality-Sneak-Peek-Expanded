@@ -169,6 +169,7 @@ select:focus {
   vertical-align: middle;
 }
 
+
 #radios label img {
   cursor: pointer;
   position: relative;
@@ -177,6 +178,11 @@ select:focus {
 
 input[type='radio'] {
     accent-color: #blue;
+}
+
+/* disappearing gender buttons are also nifty. */
+.disabledButton{
+	opacity: 0.3;
 }
 
 /* in the dragon world, genders have tooltips. */
