@@ -15,6 +15,7 @@
 				// or else bad stuff happens.
 			var speciesName = "abaddon";
 			var formNumber = "01";
+			var animState = "idle";
 			var maleButton;
 			var femaleButton;
 			var neutralButton;
@@ -3932,10 +3933,10 @@
 					"formDisplay": "Sheriff",
 					"genders": {
 					  "f": {
-						"color": "pb"
+						"color": "yr"
 					  },
 					  "m": {
-						"color": "pb"
+						"color": "yr"
 					  }
 					}
 				  },
@@ -9321,6 +9322,11 @@
 				updateUrl();
 			}
 			
+			function setanimState(animationValue){
+				animState = animationValue;
+				updateUrl();
+			}			
+			
 			function updateSpecies(){
 				//if new species, clear form options and append again
 				if (speciesName !== species.value){
@@ -9429,7 +9435,7 @@
 						//show canvas
 						elements[i].style.display = "inline-block";
 						new spine.SpineCanvas(elements[i], {
-							app: new SpineObject(url, "idle")
+							app: new SpineObject(url, animState)
 						})
 					}
 					window.addEventListener("load", loadSpineDragon);
@@ -9536,8 +9542,20 @@
 				<img src="./img/gender_n_0201.png" alt="neutral selection">
 			</label>
 		</div>
-	</div>
-	<br>
+		<br>
+	
+	<!-- ...okay fine, these ones can have text. -->
+		<div id="radios">
+			<input type="radio" name="animation" value="idle" id="idle" onchange="setanimState(this.value)" checked/>
+			<label for="idle" id="idleLabel">Idle</label>
+			<input type="radio" name="animation" value="move" id="move" onchange="setanimState(this.value)"/> 
+			<label for="move" id="moveLabel">Moving</label>
+			<input type="radio" name="animation" value="holding" id="holding" onchange="setanimState(this.value)"> 
+			<label for="holding" id="holdingLabel">Holding</label>
+			<input type="radio" name="animation" value="touch" id="touch" onchange="setanimState(this.value)"> 
+			<label for="touch" id="touchLabel">Touch</label>
+		</div>
+		<br>
 	
 	<!--just a horizontal line. nothing to see here.-->
 	<hr size=1>
