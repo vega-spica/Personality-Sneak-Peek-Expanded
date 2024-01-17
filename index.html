@@ -9371,13 +9371,19 @@
 			function initializeRadioButtons(){
 				//disable all 3 buttons
 				maleButton.disabled = true;
+				maleButton.setAttribute('aria-disabled', true);
 				femaleButton.disabled = true;
+				femaleButton.setAttribute('aria-disabled', true);
 				neutralButton.disabled = true;
+				neutralButton.setAttribute('aria-disabled', true);
 				
 				//add disabled class to all 3 labels
 				maleLabel.classList.add("disabledButton");
+				maleLabel.setAttribute('aria-disabled', true);
 				femaleLabel.classList.add("disabledButton");
+				femaleLabel.setAttribute('aria-disabled', true);
 				neutralLabel.classList.add("disabledButton");
+				neutralLabel.setAttribute('aria-disabled', true);
 				
 				//get keys for current species' genders
 				var genderKeys = Object.keys(speciesJson[speciesName].forms[formNumber].genders);
@@ -9390,6 +9396,8 @@
 							maleButton.disabled = false;
 							maleLabel.classList.remove("disabledButton");
 							maleButton.checked = true;
+							maleButton.setAttribute('aria-disabled', false);
+							maleLabel.setAttribute('aria-disabled', false);
 							gender = "m";
 							break;
 						}
@@ -9398,6 +9406,8 @@
 							femaleButton.disabled = false;
 							femaleLabel.classList.remove("disabledButton");
 							femaleButton.checked = true;
+							femaleButton.setAttribute('aria-disabled', false);
+							femaleLabel.setAttribute('aria-disabled', false);
 							gender = "f";
 							break;
 						}
@@ -9406,6 +9416,8 @@
 							neutralButton.disabled = false;
 							neutralLabel.classList.remove("disabledButton");
 							neutralButton.checked = true;
+							neutralButton.setAttribute('aria-disabled', false);
+							neutralLabel.setAttribute('aria-disabled', false);
 							gender = "n";
 							break;
 						}
@@ -9414,6 +9426,8 @@
 							maleButton.disabled = false;
 							maleLabel.classList.remove("disabledButton");
 							maleButton.checked = true;
+							maleButton.setAttribute('aria-disabled', false);
+							maleLabel.setAttribute('aria-disabled', false);
 							gender = "m";
 						}
 					}
@@ -9546,15 +9560,15 @@
 	<br><br>
 		<div id="genderRadios">
 			<input type="radio" name="gender" value="m" id="male" onchange="setGender(this.value)" checked/>
-			<label for="male" id="maleLabel">
+			<label for="male" id="maleLabel" aria-disabled="false">
 				<img src="./img/gender_m_0201.png" alt="male selection">
 			</label>
 			<input type="radio" name="gender" value="f" id="female" onchange="setGender(this.value)"/> 
-			<label for="female" id="femaleLabel">
+			<label for="female" id="femaleLabel" aria-disabled="false">
 				<img src="./img/gender_f_0201.png" alt="female selection">
 			</label>
 			<input type="radio" name="gender" value="n" id="neutral" onchange="setGender(this.value)"> 
-			<label for="neutral" id="neutralLabel">
+			<label for="neutral" id="neutralLabel" aria-disabled="false">
 				<img src="./img/gender_n_0201.png" alt="neutral selection">
 			</label>
 		</div>
