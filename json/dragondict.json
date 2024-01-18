@@ -7643,7 +7643,7 @@
         }
       },
       "02": {
-        "formDisplay": "02",
+        "formDisplay": "Shooting star",
         "genders": {
           "f": {
             "color": "w"
@@ -7654,7 +7654,7 @@
         }
       },
       "02_m1": {
-        "formDisplay": "02_m1",
+        "formDisplay": "Shooting star (mirror)",
         "genders": {
           "f": {
             "color": "w"
@@ -7665,7 +7665,7 @@
         }
       },
       "03": {
-        "formDisplay": "03",
+        "formDisplay": "Black hole",
         "genders": {
           "f": {
             "color": "p"
@@ -7676,7 +7676,7 @@
         }
       },
       "03_m1": {
-        "formDisplay": "03_m1",
+        "formDisplay": "Black hole (mirror)",
         "genders": {
           "f": {
             "color": "p"
