@@ -271,6 +271,14 @@
 		"back" : "aura_s_sunset",
 		"front" : "aura_s_sunset"
 	},
+	"[aura_a2_blue]" : {
+		"back" : "aura_a2_blue",
+		"front" : ""
+	},
+	"[aura_s_black]" : {
+		"back" : "aura_s_black",
+		"front" : ""
+	},
 	"[aura_s_blueblack]" : {
 		"back" : "aura_s_blueblack",
 		"front" : ""
