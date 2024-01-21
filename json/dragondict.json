@@ -5924,6 +5924,14 @@
             "color": "y"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
