@@ -275,14 +275,6 @@
 		"back" : "aura_a2_blue",
 		"front" : ""
 	},
-	"[aura_s_black]" : {
-		"back" : "aura_s_black",
-		"front" : ""
-	},
-	"[aura_s_blueblack]" : {
-		"back" : "aura_s_blueblack",
-		"front" : ""
-	},
 	"[aura_s_pearl2]" : {
 		"back" : "aura_s_pearl2",
 		"front" : ""
