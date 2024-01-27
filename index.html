@@ -6,6 +6,13 @@
 		<script src="https://unpkg.com/@esotericsoftware/spine-webgl@4.1.*/dist/iife/spine-webgl.js"></script>
 		<script>
 			window.onload = init;
+
+      // Cache all Spine Canvases instances here so can dispose later
+      var canvases = {
+        backAura: null,
+        frontAura: null,
+        dragon: null,
+      };
 		
 			var species;
 			var personality;
@@ -9443,12 +9450,12 @@
 			
 			function setGender(genderValue){
 				gender = genderValue;
-				updateUrl();
+				changeDragonSprite();
 			}
 			
 			function setanimState(animationValue){
 				animState = animationValue;
-				updateUrl();
+				changeDragonSprite();
 			}			
 			
 			function updateSpecies(){
@@ -9466,13 +9473,13 @@
 					formNumber = "01";
 					initializeRadioButtons();
 				}
-				updateUrl();
+				changeDragonSprite();
 			}
 			
 			function updateForm(){
 				formNumber = form.value;
 				initializeRadioButtons();
-				updateUrl();
+				changeDragonSprite();
 			}
 			
 			//enable only the valid gender buttons
@@ -9541,9 +9548,9 @@
 					}
 				}
 			}
-			
+
 			//load new dragon when changed
-			function updateUrl(){
+			function changeDragonSprite(){
 				//get dragon url parts
 				formNumber = form.value;
 				var colorName = speciesJson[speciesName].forms[formNumber].genders[gender].color;
@@ -9553,6 +9560,9 @@
 				
 				//print url to console log (i'm hopeless and need this here for debugging, don't judge me)
 				//console.log(url);
+
+        const dragonCanvasElem = document.getElementById("dragonCanvas");
+        const dragonImageElem = document.getElementById("dragon-image");
 				
 				//load new dragon to canvas
 				if (url.includes(".png")) {
@@ -9560,34 +9570,42 @@
 					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/" + speciesName + "_" + formNumber +"_" + gender + "_adult" + colorName;
 					
 					//hide canvas
-					document.getElementById("dragonCanvas").style.display = "none";
+					dragonCanvasElem.style.display = "none";
 					
 					//load image
-					document.getElementById("dragon-image").style.display = "inline-block";
-					document.getElementById("dragon-image").src = url;
-				}else {
+					dragonImageElem.style.display = "inline-block";
+					dragonImageElem.src = url;
+				} else {
 					//hide image
-					document.getElementById("dragon-image").style.display = "none";
-					var elements = document.getElementsByClassName("dragonCanvas");
-					for(var i = 0; i < elements.length; i++) {
-						//show canvas
-						elements[i].style.display = "inline-block";
-						new spine.SpineCanvas(elements[i], {
-							app: new SpineObject(url, animState)
-						})
-					}
+					dragonImageElem.style.display = "none";
+          
+          // disposing of old resource before assigning new one to avoid performance issue
+          if (canvases.dragon) {
+            canvases.dragon.dispose();
+          }
+
+					//show canvas
+          dragonCanvasElem.style.display = "inline-block";
+          canvases.dragon = new spine.SpineCanvas(dragonCanvasElem, {
+            app: new SpineObject(url, animState)
+          });
+
 					window.addEventListener("load", loadSpineDragon);
 				}				
 			}
-				
-			
+
 			//load new personality when changed
 			function updatePersonalityUrl() {
+        // disposing of old resources before assigning new one to avoid performance issue
+        if (canvases.backAura) { canvases.backAura.dispose(); }
+        if (canvases.frontAura) { canvases.frontAura.dispose(); }
+
 				var personalityName = personality.value;
-				new spine.SpineCanvas(document.getElementById("Auraback"), {
+
+				canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
 					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", personalityJson[personalityName].back)
 				});
-				new spine.SpineCanvas(document.getElementById("Aurafront"), {
+				canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
 					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", personalityJson[personalityName].front)
 				});
 			}
@@ -9615,21 +9633,20 @@
 		<img id="dragon-image">
 		<!--initial dragon is loaded on page open (always set this to be the first one in the list. you've been warned.)-->
 		<script type="text/javascript">
-		let loadSpineDragon = function() { 
-			var elements = document.getElementsByClassName("dragonCanvas");
-				for(var i = 0; i < elements.length; i++) {
-					new spine.SpineCanvas(elements[i], {
-	        			app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/abaddon_01_m_adult_p/abaddon_01_m_adult_p", "idle")
-					})
-				}
-		}
-		window.addEventListener("load", loadSpineDragon);
+      let loadSpineDragon = function() { 
+        const dragonCanvasElem = document.getElementById("dragonCanvas");
+
+        canvases.dragon = new spine.SpineCanvas(dragonCanvasElem, {
+          app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/abaddon_01_m_adult_p/abaddon_01_m_adult_p", "idle")
+        });
+      }
+      window.addEventListener("load", loadSpineDragon);
 		</script>
 		
 		<!--initial back aura is loaded on page open (no, really, it HAS to be manually set to the first alphabetically.)-->
 		<script type="text/javascript">
 			let loadSpineAuraBackAura = function() { 
-				new spine.SpineCanvas(document.getElementById("Auraback"), {
+				canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
 					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", "aura_e_emart")
 				})
 			}
@@ -9639,7 +9656,7 @@
 		<!--initial front aura is loaded on page open (if it's not the first one, it'll break my selectors, and i'll be sad.)-->
 		<script type="text/javascript"> 
 			let loadSpineAuraFrontAura = function() {
-				new spine.SpineCanvas(document.getElementById("Aurafront"), {
+				canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
 					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", "aura_e_emart")
 				})
 			}
