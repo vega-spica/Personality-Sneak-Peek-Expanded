@@ -1276,8 +1276,19 @@
           }
         }
       },
-      "undead": {
-        "formDisplay": "Undead",
+      "undead01": {
+        "formDisplay": "Undead (Default)",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "undead02": {
+        "formDisplay": "Undead (Underground Castle)",
         "genders": {
           "n": {
             "color": "w"
@@ -5135,6 +5146,14 @@
             "color": "w"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -5986,6 +6005,14 @@
             "color": "bg"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -6466,7 +6493,7 @@
         }
       },
       "02": {
-        "formDisplay": "(Unknown)",
+        "formDisplay": "Devil",
         "genders": {
           "f": {
             "color": "bk"
