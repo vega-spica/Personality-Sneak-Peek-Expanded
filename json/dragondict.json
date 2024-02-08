@@ -485,8 +485,27 @@
           }
         }
       },
-      "undead": {
+      "02": {
+        "formDisplay": "Signature",
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      },
+      "undead01": {
         "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
+      },
+      "undead02": {
+        "formDisplay": "Undead (Signature)",
         "genders": {
           "n": {
             "color": "w"
@@ -3222,8 +3241,27 @@
           }
         }
       },
-      "undead": {
+      "02": {
+        "formDisplay": "Signature",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "undead01": {
         "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
+      },
+      "undead02": {
+        "formDisplay": "Undead (Signature)",
         "genders": {
           "n": {
             "color": "w"
