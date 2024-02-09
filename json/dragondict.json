@@ -1609,6 +1609,14 @@
             "color": "pb"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -5391,6 +5399,14 @@
             "color": "bk"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -7018,7 +7034,7 @@
           }
         }
       },
-      "undead": {
+      "undead01": {
         "formDisplay": "Undead (Ruler)",
         "genders": {
           "f": {
@@ -7026,6 +7042,14 @@
           },
           "m": {
             "color": "bk"
+          }
+        }
+      },
+      "undead02": {
+        "formDisplay": "Undead (Default)",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -8870,6 +8894,14 @@
           },
           "m": {
             "color": "b"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
