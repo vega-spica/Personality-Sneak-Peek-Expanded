@@ -478,10 +478,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "b"
           },
           "m": {
-            "color": "?"
+            "color": "b"
           }
         }
       }
@@ -537,10 +537,21 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "b"
           },
           "m": {
-            "color": "?"
+            "color": "b"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
           }
         }
       }
@@ -731,6 +742,22 @@
       }
     }
   },
+  "balod": {
+    "speciesDisplay": "Balod",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      }
+    }
+  },
   "barian": {
     "speciesDisplay": "Barian",
 	"forms": {
@@ -738,10 +765,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "yr"
           },
           "m": {
-            "color": "?"
+            "color": "yr"
           }
         }
       }
@@ -754,10 +781,21 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "b"
           },
           "m": {
-            "color": "?"
+            "color": "b"
+           }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
           }
         }
       }
@@ -1244,10 +1282,48 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "bg"
           },
           "m": {
-            "color": "?"
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
+  "caretakerbluedragon": {
+    "speciesDisplay": "Caretaker Blue Dragon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "03": {
+        "formDisplay": "03",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
           }
         }
       }
@@ -1551,10 +1627,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "b"
           },
           "m": {
-            "color": "?"
+            "color": "b"
           }
         }
       }
@@ -1631,10 +1707,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "b"
           },
           "m": {
-            "color": "?"
+            "color": "b"
           }
         }
       }
@@ -2565,6 +2641,22 @@
       }
     }
   },
+  "enix": {
+    "speciesDisplay": "Enix",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "gy"
+          },
+          "m": {
+            "color": "gy"
+          }
+        }
+      }
+    }
+  },
   "enokidragon": {
     "speciesDisplay": "Enoki Dragon",
 	"forms": {
@@ -2607,10 +2699,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "p"
           },
           "m": {
-            "color": "?"
+            "color": "p"
           }
         }
       }
@@ -2675,7 +2767,7 @@
       }
     }
   },
-  "fairy": {
+  "fairydragon": {
     "speciesDisplay": "Fairy Dragon",
 	"forms": {
       "01": {
@@ -2685,7 +2777,7 @@
             "color": "b"
           },
           "m": {
-            "color": "gy"
+            "color": "b"
           }
         }
       }
@@ -3187,10 +3279,21 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "w"
           },
           "m": {
-            "color": "?"
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
           }
         }
       }
@@ -3856,10 +3959,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "b"
           },
           "m": {
-            "color": "?"
+            "color": "b"
           }
         }
       }
@@ -4106,6 +4209,22 @@
       }
     }
   },
+  "icarus": {
+    "speciesDisplay": "Icarus",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
   "ignis": {
     "speciesDisplay": "Ignis",
 	"forms": {
@@ -4137,10 +4256,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "bg"
           },
           "m": {
-            "color": "?"
+            "color": "bg"
           }
         }
       }
@@ -4877,10 +4996,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "b"
           },
           "m": {
-            "color": "?"
+            "color": "b"
           }
         }
       }
@@ -5188,6 +5307,22 @@
       }
     }
   },
+  "lios": {
+    "speciesDisplay": "Lios",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
   "lololli": {
     "speciesDisplay": "Lololli",
 	"forms": {
@@ -5476,11 +5611,8 @@
       "01": {
         "formDisplay": "Default",
         "genders": {
-          "f": {
-            "color": "?"
-          },
-          "m": {
-            "color": "?"
+          "n": {
+            "color": "b"
           }
         }
       }
@@ -6330,10 +6462,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "b"
           },
           "m": {
-            "color": "?"
+            "color": "b"
           }
         }
       }
@@ -6392,6 +6524,22 @@
       }
     }
   },
+  "penguingon": {
+    "speciesDisplay": "Penguingon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
   "petra": {
     "speciesDisplay": "Petra",
 	"forms": {
@@ -6423,10 +6571,21 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "bk"
           },
           "m": {
-            "color": "?"
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
           }
         }
       }
@@ -7535,10 +7694,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "pb"
           },
           "m": {
-            "color": "?"
+            "color": "pb"
           }
         }
       }
@@ -7833,10 +7992,21 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "pb"
           },
           "m": {
-            "color": "?"
+            "color": "pb"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
           }
         }
       }
@@ -8454,6 +8624,22 @@
       }
     }
   },
+  "starrydragon": {
+    "speciesDisplay": "Starry Dragon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
   "stealthdragon": {
     "speciesDisplay": "Stealth Dragon",
 	"forms": {
@@ -8730,10 +8916,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "b"
           },
           "m": {
-            "color": "?"
+            "color": "b"
           }
         }
       }
@@ -8876,17 +9062,17 @@
       }
     }
   },
-  "thunderbolt": {
-    "speciesDisplay": "Thunderbolt",
+  "thunderboltdragon": {
+    "speciesDisplay": "Thunderbolt Dragon",
 	"forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "p"
           },
           "m": {
-            "color": "?"
+            "color": "p"
           }
         }
       }
@@ -8899,10 +9085,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "p"
           },
           "m": {
-            "color": "?"
+            "color": "p"
           }
         }
       }
@@ -9109,6 +9295,22 @@
           },
           "m": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "valcan": {
+    "speciesDisplay": "Valcan",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
           }
         }
       }
