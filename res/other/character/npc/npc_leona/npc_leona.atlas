@@ -1,0 +1,16 @@
+npc_leona.png
+size:566,1462
+filter:Linear,Linear
+pma:true
+angry
+bounds:2,2,138,138
+happy
+bounds:422,142,138,138
+leona
+bounds:2,282,562,1178
+sad
+bounds:282,142,138,138
+special1
+bounds:142,142,138,138
+surprise
+bounds:2,142,138,138

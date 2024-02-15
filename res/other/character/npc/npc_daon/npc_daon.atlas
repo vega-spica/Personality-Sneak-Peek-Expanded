@@ -1,0 +1,16 @@
+npc_daon.png
+size:402,1586
+filter:Linear,Linear
+pma:true
+angry
+bounds:2,2,150,138
+daon
+bounds:2,422,398,1162
+happy
+bounds:154,142,150,138
+sad
+bounds:2,142,150,138
+special
+bounds:154,282,150,138
+suprise
+bounds:2,282,150,138

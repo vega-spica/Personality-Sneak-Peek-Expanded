@@ -1,0 +1,10 @@
+dragoneffect_bubble.png
+size:82,52
+filter:Linear,Linear
+pma:true
+bubble_1
+bounds:2,2,48,48
+bubble_2
+bounds:52,22,28,28
+bubble_3
+bounds:52,4,16,16

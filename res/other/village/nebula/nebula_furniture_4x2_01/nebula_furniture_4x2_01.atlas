@@ -1,0 +1,16 @@
+nebula_furniture_4x2_01.png
+size:266,276
+filter:Linear,Linear
+object_5_cloud1
+bounds:198,118,76,65
+rotate:90
+object_5_cloud2
+bounds:138,6,92,68
+object_5_cloud3
+bounds:2,2,134,72
+object_5_cloud4
+bounds:198,86,44,30
+object_5_ship
+bounds:2,76,194,198
+object_5_star
+bounds:198,196,66,78

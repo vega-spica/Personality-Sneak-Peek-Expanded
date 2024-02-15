@@ -1,0 +1,16 @@
+npc_wito.png
+size:478,1162
+filter:Linear,Linear
+pma:true
+angry
+bounds:2,2,226,174
+happy
+bounds:234,354,230,174
+sad
+bounds:230,178,226,174
+special
+bounds:2,354,230,174
+suprise
+bounds:2,178,226,174
+wito
+bounds:2,530,474,630

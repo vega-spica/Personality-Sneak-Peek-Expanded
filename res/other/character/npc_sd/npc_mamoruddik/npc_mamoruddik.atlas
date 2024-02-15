@@ -1,0 +1,17 @@
+npc_mamoruddik.png
+size:150,94
+filter:Linear,Linear
+pma:true
+arm_l
+bounds:78,56,36,52
+offsets:1,1,38,54
+rotate:90
+arm_r
+bounds:120,14,28,40
+offsets:1,1,30,42
+body
+bounds:78,6,48,40
+offsets:1,1,50,42
+rotate:90
+head
+bounds:2,2,74,90
