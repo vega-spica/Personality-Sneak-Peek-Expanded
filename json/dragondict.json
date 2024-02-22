@@ -814,6 +814,33 @@
       }
     }
   },
+  "baskerville": {
+    "speciesDisplay": "Baskerville",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "G1",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
   "bato": {
     "speciesDisplay": "Bato",
 	"forms": {

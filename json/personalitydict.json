@@ -127,6 +127,10 @@
 		"back" : "aura_s_pvp_b",
 		"front" : "aura_s_pvp_b"
 	},
+	"Gluttonous": {
+		"back" : "aura_s_greedy",
+		"front" : "aura_s_greedy"
+	},
 	"Hardy" : {
 		"back" : "aura_b_darkbrown",
 		"front" : ""
