@@ -59,6 +59,10 @@
 		"back" : "aura_b_black",
 		"front" : ""
 	},
+	"Chaos" : {
+		"back" : "aura_s_blackblue",
+		"front" : "aura_s_blackblue"
+	},
 	"Charming" : {
 		"back" : "aura_a_yellow",
 		"front" : "a"
