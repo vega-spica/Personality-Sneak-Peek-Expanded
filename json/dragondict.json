@@ -838,6 +838,22 @@
             "color": "pb"
           }
         }
+      },
+      "undead01": {
+        "formDisplay": "Undead (Default)",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
+      },
+      "undead02": {
+        "formDisplay": "Undead (Shadow of Greed)",
+        "genders": {
+          "n": {
+            "color": "pb"
+          }
+        }
       }
     }
   },
