@@ -4798,10 +4798,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "?"
+            "color": "bk"
           },
           "m": {
-            "color": "?"
+            "color": "bk"
           }
         }
       }
@@ -6041,10 +6041,10 @@
         "formDisplay": "03",
         "genders": {
           "f": {
-            "color": "g"
+            "color": "y"
           },
           "m": {
-            "color": "g"
+            "color": "y"
           }
         }
       },
@@ -6052,10 +6052,10 @@
         "formDisplay": "04",
         "genders": {
           "f": {
-            "color": "rp"
+            "color": "y"
           },
           "m": {
-            "color": "rp"
+            "color": "y"
           }
         }
       },
@@ -6074,43 +6074,43 @@
         "formDisplay": "06",
         "genders": {
           "f": {
-            "color": "r"
+            "color": "w"
           },
           "m": {
-            "color": "r"
+            "color": "w"
           }
         }
       },
       "07": {
-        "formDisplay": "04",
+        "formDisplay": "07",
         "genders": {
           "f": {
-            "color": "rp"
+            "color": "y"
           },
           "m": {
-            "color": "rp"
+            "color": "y"
           }
         }
       },
       "08": {
-        "formDisplay": "05",
+        "formDisplay": "08",
         "genders": {
           "f": {
-            "color": "b"
+            "color": "y"
           },
           "m": {
-            "color": "b"
+            "color": "y"
           }
         }
       },
       "09": {
-        "formDisplay": "06",
+        "formDisplay": "09",
         "genders": {
           "f": {
-            "color": "r"
+            "color": "b"
           },
           "m": {
-            "color": "r"
+            "color": "b"
           }
         }
       }
@@ -6423,6 +6423,17 @@
           }
         }
       },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
       "undead": {
         "formDisplay": "Undead",
         "genders": {
@@ -6598,10 +6609,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "bk"
+            "color": "w"
           },
           "m": {
-            "color": "bk"
+            "color": "w"
           }
         }
       },
@@ -6609,10 +6620,10 @@
         "formDisplay": "Battleship",
         "genders": {
           "f": {
-            "color": "w"
+            "color": "pb"
           },
           "m": {
-            "color": "w"
+            "color": "pb"
           }
         }
       }
@@ -8632,8 +8643,11 @@
       "01": {
         "formDisplay": "Default",
         "genders": {
+          "f": {
+            "color": "w"
+          },
           "m": {
-            "color": "b"
+            "color": "w"
           }
         }
       }
@@ -9482,22 +9496,11 @@
           }
         }
       },
-      "03": {
-        "formDisplay": "03",
-        "genders": {
-          "f": {
-            "color": "pb"
-          },
-          "m": {
-            "color": "pb"
-          }
-        }
-      },
       "undead": {
         "formDisplay": "Undead",
         "genders": {
           "n": {
-            "color": "w"
+            "color": "bk"
           }
         }
       }
@@ -10345,10 +10348,10 @@
         "formDisplay": "Default",
         "genders": {
           "f": {
-            "color": "b"
+            "color": "w"
           },
           "m": {
-            "color": "b"
+            "color": "w"
           }
         }
       }
