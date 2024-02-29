@@ -224,6 +224,22 @@
       }
     }
   },
+  "amdusias": {
+    "speciesDisplay": "Amdusias",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
   "anemone": {
     "speciesDisplay": "Anemone",
 	"forms": {
@@ -4775,6 +4791,22 @@
       }
     }
   },
+  "kanthaka": {
+    "speciesDisplay": "Kanthaka",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "?"
+          },
+          "m": {
+            "color": "?"
+          }
+        }
+      }
+    }
+  },
   "karura": {
     "speciesDisplay": "Karura",
 	"forms": {
@@ -5980,6 +6012,110 @@
       }
     }
   },
+  "metis": {
+    "speciesDisplay": "Metis",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "formDisplay": "03",
+        "genders": {
+          "f": {
+            "color": "g"
+          },
+          "m": {
+            "color": "g"
+          }
+        }
+      },
+      "04": {
+        "formDisplay": "04",
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      },
+      "05": {
+        "formDisplay": "05",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "06": {
+        "formDisplay": "06",
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      },
+      "07": {
+        "formDisplay": "04",
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
+          }
+        }
+      },
+      "08": {
+        "formDisplay": "05",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "09": {
+        "formDisplay": "06",
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
   "minas": {
     "speciesDisplay": "Minas",
 	"forms": {
@@ -6449,6 +6585,33 @@
         "formDisplay": "Undead",
         "genders": {
           "n": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "noah": {
+    "speciesDisplay": "Noah",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "Battleship",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
             "color": "w"
           }
         }
@@ -8463,6 +8626,19 @@
       }
     }
   },
+  "snowfairydragon": {
+    "speciesDisplay": "Snow Fairy Dragon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "m": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
   "snowflowerpopomo": {
     "speciesDisplay": "Snow Flower Popomo",
 	"forms": {
@@ -9268,6 +9444,52 @@
           },
           "m": {
             "color": "p"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "tiamat": {
+    "speciesDisplay": "Tiamat",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "formDisplay": "03",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
           }
         }
       },
@@ -10111,6 +10333,22 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "zithakula": {
+    "speciesDisplay": "Zithakula",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
           }
         }
       }
