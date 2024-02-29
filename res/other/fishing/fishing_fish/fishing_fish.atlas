@@ -1,6 +1,9 @@
 fishing_fish.png
-size:64,32
+size:256,64
 filter:Linear,Linear
 pma:true
+bigfish/fish
+bounds:2,2,136,60
 fish
-bounds:2,2,54,26
+bounds:140,8,54,26
+rotate:90
