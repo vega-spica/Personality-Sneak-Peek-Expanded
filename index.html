@@ -273,6 +273,14 @@
 						"color": "w"
 					  }
 					}
+				  },
+				  "undead": {
+					"formDisplay": "Undead",
+					"genders": {
+					  "n": {
+						"color": "w"
+					  }
+					}
 				  }
 				}
 			  },
@@ -4840,6 +4848,14 @@
 						"color": "bk"
 					  }
 					}
+				  },
+				  "undead": {
+					"formDisplay": "Undead",
+					"genders": {
+					  "n": {
+						"color": "w"
+					  }
+					}
 				  }
 				}
 			  },
@@ -6147,6 +6163,14 @@
 					  },
 					  "m": {
 						"color": "b"
+					  }
+					}
+				  },
+				  "undead": {
+					"formDisplay": "Undead",
+					"genders": {
+					  "n": {
+						"color": "w"
 					  }
 					}
 				  }
@@ -8686,6 +8710,14 @@
 						"color": "w"
 					  }
 					}
+				  },
+				  "undead": {
+					"formDisplay": "Undead",
+					"genders": {
+					  "n": {
+						"color": "w"
+					  }
+					}
 				  }
 				}
 			  },
@@ -10409,6 +10441,10 @@
 			};
 			
 			const personalityJson = {
+				"[None]" : {
+					"back" : "",
+					"front" : ""
+				},
 				"Abundant" : {
 					"back" : "aura_e_emart",
 					"front" : "aura_e_emart"
@@ -10942,7 +10978,7 @@
 		<script type="text/javascript">
 			let loadSpineAuraBackAura = function() { 
 				canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
-					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", "aura_e_emart")
+					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", "")
 				})
 			}
 			window.addEventListener("load", loadSpineAuraBackAura);
@@ -10952,7 +10988,7 @@
 		<script type="text/javascript"> 
 			let loadSpineAuraFrontAura = function() {
 				canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
-					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", "aura_e_emart")
+					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", "")
 				})
 			}
 			window.addEventListener("load", loadSpineAuraFrontAura);

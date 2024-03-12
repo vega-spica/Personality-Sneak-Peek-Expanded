@@ -237,6 +237,14 @@
             "color": "w"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -4804,6 +4812,14 @@
             "color": "bk"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
@@ -6111,6 +6127,14 @@
           },
           "m": {
             "color": "b"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
           }
         }
       }
@@ -8647,6 +8671,14 @@
             "color": "w"
           },
           "m": {
+            "color": "w"
+          }
+        }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
             "color": "w"
           }
         }
