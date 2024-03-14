@@ -2950,7 +2950,7 @@
         }
       },
       "02": {
-        "formDisplay": "02",
+        "formDisplay": "Submarine Volcano",
         "genders": {
           "f": {
             "color": "gy"
@@ -4082,7 +4082,7 @@
         }
       },
       "02": {
-        "formDisplay": "02",
+        "formDisplay": "Walking",
         "genders": {
           "f": {
             "color": "y"
@@ -8918,7 +8918,7 @@
         }
       },
       "02": {
-        "formDisplay": "02",
+        "formDisplay": "Astronomer",
         "genders": {
           "m": {
             "color": "w"
@@ -8926,7 +8926,7 @@
         }
       },
       "03": {
-        "formDisplay": "03",
+        "formDisplay": "Observer",
         "genders": {
           "m": {
             "color": "w"
