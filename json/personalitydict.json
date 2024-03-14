@@ -287,4 +287,22 @@
 		"back" : "aura_s_sunset",
 		"front" : "aura_s_sunset"
 	},
+	"[newaura1]" : {
+		"each" : "aura_s_stardust",
+		"back" : "aura_s_back_star_orange",
+		"front" : "aura_s_front_star_orange"
+	},
+	"[newaura2]" : {
+		"back" : "aura_a_skywhite",
+		"front" : "a3_skywhite"
+	},
+	"[newaura3]" : {
+		"back" : "aura_a2_pink",
+		"front" : "a2"
+	},
+	"[newaura4]" : {
+		"each" : "aura_s_smart",
+		"back" : "back",
+		"front" : "front"
+	},
 }
