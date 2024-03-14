@@ -5010,6 +5010,19 @@
       }
     }
   },
+  "ktoolroo": {
+    "speciesDisplay": "Ktoolroo",
+	"forms": {
+      "01": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
   "kuzmara": {
     "speciesDisplay": "Kuzmara",
 	"forms": {
