@@ -675,6 +675,22 @@
       }
     }
   },
+  "auros": {
+    "speciesDisplay": "Auros",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
   "azak": {
     "speciesDisplay": "Azak",
 	"forms": {
@@ -1847,6 +1863,19 @@
       }
     }
   },
+  "coralnessiebig": {
+    "speciesDisplay": "Coral Nessiebig",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "n": {
+            "color": "b"
+          }
+        }
+      }
+    }
+  },
   "cortus": {
     "speciesDisplay": "Cortus",
 	"forms": {
@@ -2917,6 +2946,17 @@
           },
           "m": {
             "color": "b"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "gy"
+          },
+          "m": {
+            "color": "gy"
           }
         }
       },
@@ -4022,6 +4062,33 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "haemagon": {
+    "speciesDisplay": "Haemagon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
           }
         }
       }
@@ -5454,6 +5521,22 @@
       }
     }
   },
+  "liferiver": {
+    "speciesDisplay": "Liferiver",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
   "lightdarknix": {
     "speciesDisplay": "Light Darknix",
 	"forms": {
@@ -5520,6 +5603,22 @@
         "formDisplay": "Undead",
         "genders": {
           "n": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "linu": {
+    "speciesDisplay": "Linu",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
             "color": "w"
           }
         }
@@ -5856,6 +5955,33 @@
       }
     }
   },
+  "manimekalai": {
+    "speciesDisplay": "Manimekalai",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "Persion",
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
   "mapledragon": {
     "speciesDisplay": "Maple Dragon",
 	"forms": {
@@ -5972,6 +6098,33 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "megalodon": {
+    "speciesDisplay": "Megalodon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "p"
+          },
+          "m": {
+            "color": "p"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "Persion",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
           }
         }
       }
@@ -6359,6 +6512,33 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "naga": {
+    "speciesDisplay": "Naga",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "Persion",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
           }
         }
       }
@@ -7316,6 +7496,33 @@
       }
     }
   },
+  "poseidon": {
+    "speciesDisplay": "Poseidon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "Persion",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
   "power": {
     "speciesDisplay": "Power Dragon",
 	"forms": {
@@ -7349,6 +7556,33 @@
           },
           "m": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "puffergoldie": {
+    "speciesDisplay": "Puffergoldie",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
           }
         }
       }
@@ -7437,6 +7671,22 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "qualle": {
+    "speciesDisplay": "Qualle",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "rp"
+          },
+          "m": {
+            "color": "rp"
           }
         }
       }
@@ -8056,6 +8306,22 @@
       }
     }
   },
+  "rusalka": {
+    "speciesDisplay": "Rusalka",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
   "ruthperon": {
     "speciesDisplay": "Ruthperon",
 	"forms": {
@@ -8648,6 +8914,22 @@
         "genders": {
           "m": {
             "color": "g"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "formDisplay": "03",
+        "genders": {
+          "m": {
+            "color": "w"
           }
         }
       },
@@ -9669,6 +9951,22 @@
       }
     }
   },
+  "tropheus": {
+    "speciesDisplay": "Tropheus",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "bg"
+          },
+          "m": {
+            "color": "bg"
+          }
+        }
+      }
+    }
+  },
   "tutankhagon": {
     "speciesDisplay": "Tutankhagon",
 	"forms": {
@@ -9948,6 +10246,22 @@
       }
     }
   },
+  "venomdragon": {
+    "speciesDisplay": "Venom Dragon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      }
+    }
+  },
   "vera": {
     "speciesDisplay": "Vera",
 	"forms": {
@@ -9967,6 +10281,22 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "vetala": {
+    "speciesDisplay": "Vetala",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
           }
         }
       }
@@ -10079,6 +10409,22 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "whaledragon": {
+    "speciesDisplay": "Whaledragon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
           }
         }
       }
