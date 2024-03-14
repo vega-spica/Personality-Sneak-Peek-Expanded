@@ -6541,6 +6541,14 @@
             "color": "pb"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "color": "w"
+          }
+        }
       }
     }
   },
