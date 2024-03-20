@@ -1165,6 +1165,33 @@
       }
     }
   },
+  "puffergoldie": {
+    "speciesDisplay": "Blowfish Goldie",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
   "bluebirdberris": {
     "speciesDisplay": "Blue Bird Berris",
 	"forms": {
@@ -4062,33 +4089,6 @@
         "genders": {
           "n": {
             "color": "w"
-          }
-        }
-      }
-    }
-  },
-  "haemagon": {
-    "speciesDisplay": "Seahorse Dragon",
-	"forms": {
-      "01": {
-        "formDisplay": "Default",
-        "genders": {
-          "f": {
-            "color": "y"
-          },
-          "m": {
-            "color": "y"
-          }
-        }
-      },
-      "02": {
-        "formDisplay": "Walking",
-        "genders": {
-          "f": {
-            "color": "y"
-          },
-          "m": {
-            "color": "y"
           }
         }
       }
@@ -7582,33 +7582,6 @@
       }
     }
   },
-  "puffergoldie": {
-    "speciesDisplay": "Blowfish Goldie",
-	"forms": {
-      "01": {
-        "formDisplay": "Default",
-        "genders": {
-          "f": {
-            "color": "y"
-          },
-          "m": {
-            "color": "y"
-          }
-        }
-      },
-      "02": {
-        "formDisplay": "02",
-        "genders": {
-          "f": {
-            "color": "y"
-          },
-          "m": {
-            "color": "y"
-          }
-        }
-      }
-    }
-  },
   "pureevilnon": {
     "speciesDisplay": "Pure Evil Non",
 	"forms": {
@@ -8450,6 +8423,33 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "haemagon": {
+    "speciesDisplay": "Seahorse Dragon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "Walking",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
           }
         }
       }
