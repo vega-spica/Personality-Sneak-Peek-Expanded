@@ -1,0 +1,140 @@
+box_best.png
+size:2025,915
+filter:Linear,Linear
+best/box_01_body
+bounds:962,676,452,237
+offsets:28,11,500,500
+best/box_01_close_head
+bounds:2,584,489,329
+offsets:0,107,500,500
+best/box_01_open_head
+bounds:491,655,469,258
+offsets:31,201,500,500
+effect_stun_06
+bounds:2,881,34,32
+offsets:0,1,35,33
+gold2
+bounds:1893,398,112,116
+offsets:32,20,168,168
+light
+bounds:1340,5,162,166
+offsets:5,6,173,183
+rotate:90
+light 3_00000
+bounds:660,486,170,227
+offsets:64,21,288,288
+rotate:90
+light 3_00002
+bounds:889,338,170,225
+offsets:64,21,288,288
+rotate:90
+light 3_00004
+bounds:889,510,170,227
+offsets:64,21,288,288
+rotate:90
+light 3_00006
+bounds:431,444,169,227
+offsets:64,21,288,288
+rotate:90
+light 3_00008
+bounds:1415,686,172,227
+offsets:64,21,288,288
+light 3_00010
+bounds:1761,688,172,225
+offsets:64,21,288,288
+light 3_00012
+bounds:1437,513,170,227
+offsets:66,21,288,288
+rotate:90
+light 3_00014
+bounds:205,418,171,224
+offsets:66,21,288,288
+rotate:90
+light 3_00016
+bounds:887,167,169,224
+offsets:68,21,288,288
+rotate:90
+light 3_00018
+bounds:1341,169,170,223
+offsets:68,21,288,288
+rotate:90
+light 3_00020
+bounds:174,247,169,225
+offsets:69,21,288,288
+rotate:90
+light 3_00022
+bounds:1345,341,170,225
+offsets:69,21,288,288
+rotate:90
+light 3_00024
+bounds:1118,342,170,225
+offsets:69,21,288,288
+rotate:90
+light 3_00026
+bounds:1116,170,170,223
+offsets:69,21,288,288
+rotate:90
+light 3_00028
+bounds:1800,172,170,223
+offsets:69,21,288,288
+rotate:90
+light 3_00030
+bounds:1666,344,170,225
+offsets:69,21,288,288
+rotate:90
+light 3_00032
+bounds:2,358,170,225
+offsets:69,21,288,288
+light 3_00034
+bounds:660,315,169,225
+offsets:69,21,288,288
+rotate:90
+light 3_00036
+bounds:628,105,167,225
+offsets:69,21,288,288
+rotate:90
+light 3_00038
+bounds:401,105,167,225
+offsets:68,21,288,288
+rotate:90
+light 3_00040
+bounds:1572,174,168,226
+offsets:66,21,288,288
+rotate:90
+light 3_00042
+bounds:1113,2,166,225
+offsets:68,21,288,288
+rotate:90
+light 3_00044
+bounds:1566,7,165,227
+offsets:68,21,288,288
+rotate:90
+light 3_00046
+bounds:1795,4,166,225
+offsets:66,21,288,288
+rotate:90
+light 3_00048
+bounds:431,274,168,227
+offsets:66,21,288,288
+rotate:90
+light 3_00050
+bounds:2,129,166,227
+offsets:66,21,288,288
+light 3_00052
+bounds:170,80,165,227
+offsets:67,21,288,288
+rotate:90
+light 3_00054
+bounds:1208,514,170,227
+offsets:64,21,288,288
+rotate:90
+light 3_00056
+bounds:1761,516,170,227
+offsets:64,21,288,288
+rotate:90
+light 3_00058
+bounds:1589,685,170,228
+offsets:64,20,288,288
+light_circle
+bounds:381,872,41,41
+offsets:5,4,50,50
