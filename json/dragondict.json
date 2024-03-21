@@ -912,7 +912,7 @@
         }
       },
       "02": {
-        "formDisplay": "Delivery Man of Love",
+        "formDisplay": "Love's Messenger",
         "genders": {
           "f": {
             "color": "rp"
@@ -2071,6 +2071,22 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "cuanade": {
+    "speciesDisplay": "Cuanade",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
           }
         }
       }
@@ -7670,6 +7686,44 @@
       }
     }
   },
+  "qanuk": {
+    "speciesDisplay": "Qanuk",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "02",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "03": {
+        "formDisplay": "03",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
   "qualle": {
     "speciesDisplay": "Quale",
 	"forms": {
@@ -8947,7 +9001,7 @@
         }
       },
       "03": {
-        "formDisplay": "Observer",
+        "formDisplay": "Spectator",
         "genders": {
           "m": {
             "color": "w"
