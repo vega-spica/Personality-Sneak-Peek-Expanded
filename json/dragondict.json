@@ -2090,6 +2090,25 @@
           }
         }
       },
+      "02": {
+        "formDisplay": "Jealousy (Legacy)",
+        "genders": {
+          "f": {
+            "color": "pb"
+          },
+          "m": {
+            "color": "pb"
+          }
+        }
+      },
+      "legacy": {
+        "formDisplay": "Male (Legacy)",
+        "genders": {
+          "m": {
+            "color": "r"
+          }
+        }
+      },
       "undead": {
         "formDisplay": "Undead",
         "genders": {
@@ -5601,6 +5620,22 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "ligon": {
+    "speciesDisplay": "Ligon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "yr"
+          },
+          "m": {
+            "color": "yr"
           }
         }
       }
