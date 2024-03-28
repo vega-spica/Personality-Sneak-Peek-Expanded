@@ -1441,6 +1441,22 @@
       }
     }
   },
+  "burnesce": {
+    "speciesDisplay": "Burnesce",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "r"
+          },
+          "m": {
+            "color": "r"
+          }
+        }
+      }
+    }
+  },
   "caretakerbluedragon": {
     "speciesDisplay": "Caretaker Blue Dragon",
 	"forms": {
@@ -2665,6 +2681,22 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "dummbbluedragon": {
+    "speciesDisplay": "Dumb Blue Dragon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
           }
         }
       }
@@ -5784,6 +5816,22 @@
         "genders": {
           "n": {
             "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "luminesce": {
+    "speciesDisplay": "Luminesce",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "b"
+          },
+          "m": {
+            "color": "b"
           }
         }
       }
@@ -10007,6 +10055,22 @@
       }
     }
   },
+  "toarnesce": {
+    "speciesDisplay": "Toarnesce",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "y"
+          },
+          "m": {
+            "color": "y"
+          }
+        }
+      }
+    }
+  },
   "totemdragon": {
     "speciesDisplay": "Totem Dragon",
 	"forms": {
@@ -10253,6 +10317,110 @@
         "formDisplay": "Undead",
         "genders": {
           "n": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
+  "vaska": {
+    "speciesDisplay": "Vaska",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "02": {
+        "formDisplay": "Lord of Grassland",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "03": {
+        "formDisplay": "Lord of Flame",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "04": {
+        "formDisplay": "Lord of Lightning (EPILEPSY WARNING)",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "05": {
+        "formDisplay": "Lord of Snowfield",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "06": {
+        "formDisplay": "Grassland",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "07": {
+        "formDisplay": "Flame",
+        "genders": {
+          "f": {
+            "color": "bk"
+          },
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "08": {
+        "formDisplay": "Lightning",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      },
+      "09": {
+        "formDisplay": "Snowfield",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
             "color": "w"
           }
         }
@@ -10853,6 +11021,22 @@
         "genders": {
           "n": {
             "color": "g"
+          }
+        }
+      }
+    }
+  },
+  "godquestiondragon": {
+    "speciesDisplay": "???",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
           }
         }
       }
