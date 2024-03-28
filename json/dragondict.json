@@ -3857,6 +3857,22 @@
       }
     }
   },
+  "godquestiondragon": {
+    "speciesDisplay": "God? Dragon",
+	"forms": {
+      "01": {
+        "formDisplay": "Default",
+        "genders": {
+          "f": {
+            "color": "w"
+          },
+          "m": {
+            "color": "w"
+          }
+        }
+      }
+    }
+  },
   "goddragonjr": {
     "speciesDisplay": "God Jr",
 	"forms": {
@@ -11021,22 +11037,6 @@
         "genders": {
           "n": {
             "color": "g"
-          }
-        }
-      }
-    }
-  },
-  "godquestiondragon": {
-    "speciesDisplay": "???",
-	"forms": {
-      "01": {
-        "formDisplay": "Default",
-        "genders": {
-          "f": {
-            "color": "w"
-          },
-          "m": {
-            "color": "w"
           }
         }
       }
