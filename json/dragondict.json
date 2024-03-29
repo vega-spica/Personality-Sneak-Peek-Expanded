@@ -28,7 +28,8 @@
         "formDisplay": "Undead",
         "genders": {
           "n": {
-            "color": "w"
+            "color": "w",
+            "undeadres": "dragon_w_adult_w"
           }
         }
       }

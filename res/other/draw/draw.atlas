@@ -1,0 +1,10 @@
+draw.png
+size:202,85
+filter:Linear,Linear
+tri
+bounds:114,2,81,86
+rotate:90
+tri_effect
+bounds:2,2,81,110
+offsets:0,1,81,112
+rotate:90
