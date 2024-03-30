@@ -1,6 +1,7 @@
 spica_02_f_adult_w_m1.png
 size:1063,269
 filter:Linear,Linear
+pma:true
 armacc_3
 bounds:1031,125,20,22
 body_3
