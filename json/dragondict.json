@@ -8355,6 +8355,22 @@
           }
         }
       },
+      "legacy01": {
+        "formDisplay": "Default (Legacy)",
+        "genders": {
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
+      "legacy02": {
+        "formDisplay": "God's Ore (Legacy)",
+        "genders": {
+          "m": {
+            "color": "bk"
+          }
+        }
+      },
       "undead": {
         "formDisplay": "Undead",
         "genders": {
