@@ -9,7 +9,7 @@
 	},
 	"Abyssal" : {
 		"back" : "aura_s_abyss",
-		"front" : "aura_s_abyss",
+		"front" : "aura_s_abyss"
 	},
 	"Adamant" : {
 		"back" : "aura_b_navy",
@@ -309,5 +309,5 @@
 	"Wilderness" : {
 		"back" : "aura_s_sunset",
 		"front" : "aura_s_sunset"
-	},
+	}
 }
