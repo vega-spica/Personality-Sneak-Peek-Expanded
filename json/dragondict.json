@@ -1,34 +1,38 @@
 {
   "abaddon": {
-	"speciesDisplay": "Abaddon",
-    "forms": {
-      "01": {
-        "formDisplay": "Default",
-        "genders": {
-          "f": {
-            "color": "p"
+    "speciesDisplay": "Abaddon",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
           },
-          "m": {
-            "color": "p"
-          }
-        }
-      },
-      "02": {
-        "formDisplay": "Hellfire",
-        "genders": {
-          "f": {
-            "color": "p"
+          "02": {
+            "formDisplay": "Hellfire",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
           },
-          "m": {
-            "color": "p"
-          }
-        }
-      },
-      "undead": {
-        "formDisplay": "Undead",
-        "genders": {
-          "n": {
-            "undeadres": "dragon_w_adult_w"
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -36,23 +40,27 @@
   },
   "abvalle": {
     "speciesDisplay": "Abvalle",
-	"forms": {
-      "01": {
-        "formDisplay": "Default",
-        "genders": {
-          "f": {
-            "color": "w"
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
           },
-          "m": {
-            "color": "w"
-          }
-        }
-      },
-      "undead": {
-        "formDisplay": "Undead",
-        "genders": {
-          "n": {
-            "undeadres": "dragon_n_adult_w"
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }

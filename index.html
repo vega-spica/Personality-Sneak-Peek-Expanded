@@ -37,34 +37,38 @@
 			const speciesJson = {
 					"abaddon": {
 						"speciesDisplay": "Abaddon",
-						"forms": {
-							"01": {
-								"formDisplay": "Default",
-								"genders": {
-									"f": {
-										"color": "p"
+						"stage": {
+							"adult": {
+								"forms": {
+									"01": {
+										"formDisplay": "Default",
+										"genders": {
+											"f": {
+												"color": "p"
+											},
+											"m": {
+												"color": "p"
+											}
+										}
 									},
-									"m": {
-										"color": "p"
-									}
-								}
-							},
-							"02": {
-								"formDisplay": "Hellfire",
-								"genders": {
-									"f": {
-										"color": "p"
+									"02": {
+										"formDisplay": "Hellfire",
+										"genders": {
+											"f": {
+												"color": "p"
+											},
+											"m": {
+												"color": "p"
+											}
+										}
 									},
-									"m": {
-										"color": "p"
-									}
-								}
-							},
-							"undead": {
-								"formDisplay": "Undead",
-								"genders": {
-									"n": {
-										"undeadres": "dragon_w_adult_w"
+									"undead": {
+										"formDisplay": "Undead",
+										"genders": {
+											"n": {
+												"undeadres": "dragon_w_adult_w"
+											}
+										}
 									}
 								}
 							}
@@ -72,23 +76,27 @@
 					},
 					"abvalle": {
 						"speciesDisplay": "Abvalle",
-						"forms": {
-							"01": {
-								"formDisplay": "Default",
-								"genders": {
-									"f": {
-										"color": "w"
+						"stage": {
+							"adult": {
+								"forms": {
+									"01": {
+										"formDisplay": "Default",
+										"genders": {
+											"f": {
+												"color": "w"
+											},
+											"m": {
+												"color": "w"
+											}
+										}
 									},
-									"m": {
-										"color": "w"
-									}
-								}
-							},
-							"undead": {
-								"formDisplay": "Undead",
-								"genders": {
-									"n": {
-										"undeadres": "dragon_n_adult_w"
+									"undead": {
+										"formDisplay": "Undead",
+										"genders": {
+											"n": {
+												"undeadres": "dragon_n_adult_w"
+											}
+										}
 									}
 								}
 							}
@@ -11622,10 +11630,21 @@
 				}
 				
 				//create option tags for Forms
-				var formKeys = Object.keys(speciesJson[speciesName].forms);
+				var formKeys = null;
+				if (speciesJson[speciesName].stage !== undefined) {
+					formKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms);
+				}
+				else {
+					formKeys = Object.keys(speciesJson[speciesName].forms);
+				}
 				for (var i = 0; i < formKeys.length; i++){
 					formOption = document.createElement("option");
-					formOption.innerText = speciesJson[speciesName].forms[formKeys[i]].formDisplay;
+					if (speciesJson[speciesName].stage !== undefined) {
+						formOption.innerText = speciesJson[speciesName].stage["adult"].forms[formKeys[i]].formDisplay;
+					}
+					else {
+						formOption.innerText = speciesJson[speciesName].forms[formKeys[i]].formDisplay;
+					}
 					formOption.value = formKeys[i];
 					form.appendChild(formOption);
 				}
@@ -11648,10 +11667,21 @@
 				if (speciesName !== species.value){
 					speciesName = species.value;
 					form.innerHTML = "";
-					var formKeys = Object.keys(speciesJson[speciesName].forms);
+					var formKeys = null;
+					if (speciesJson[speciesName].stage !== undefined) {
+						formKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms);
+					}
+					else {
+						formKeys = Object.keys(speciesJson[speciesName].forms);
+					}
 					for (var i = 0; i < formKeys.length; i++){
 						formOption = document.createElement("option");
-						formOption.innerText = speciesJson[speciesName].forms[formKeys[i]].formDisplay;
+						if (speciesJson[speciesName].stage !== undefined) {
+							formOption.innerText = speciesJson[speciesName].stage["adult"].forms[formKeys[i]].formDisplay;
+						}
+						else {
+							formOption.innerText = speciesJson[speciesName].forms[formKeys[i]].formDisplay;
+						}
 						formOption.value = formKeys[i];
 						form.appendChild(formOption);
 					}
@@ -11686,7 +11716,13 @@
 				neutralLabel.setAttribute('aria-disabled', true);
 				
 				//get keys for current species' genders
-				var genderKeys = Object.keys(speciesJson[speciesName].forms[formNumber].genders);
+				var genderKeys = "";
+				if (speciesJson[speciesName].stage !== undefined) {
+					genderKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms[formNumber].genders);
+				}
+				else {
+					genderKeys = Object.keys(speciesJson[speciesName].forms[formNumber].genders);
+				}
 				
 				//enable all valid keys
 				for (var i = 0; i < genderKeys.length; i++){
@@ -11738,13 +11774,25 @@
 			function changeDragonSprite(){
 				//get dragon url parts
 				formNumber = form.value;
-				var colorName = speciesJson[speciesName].forms[formNumber].genders[gender].color;
+				var colorName = "";
+				if (speciesJson[speciesName].stage !== undefined){
+					colorName = speciesJson[speciesName].stage["adult"].forms[formNumber].genders[gender].color;
+				}
+				else {
+					colorName = speciesJson[speciesName].forms[formNumber].genders[gender].color;
+				}
 				
 				//construct url
 				var url = "";
 				//is it undead? or is it dead dead?
 				if (formNumber.indexOf("undead") !== -1){
-					var undeadres = speciesJson[speciesName].forms[formNumber].genders[gender].undeadres;
+					var undeadres = "";
+					if (speciesJson[speciesName].stage !== undefined) {
+						undeadres = speciesJson[speciesName].stage["adult"].forms[formNumber].genders[gender].undeadres;
+					}
+					else {
+						undeadres = speciesJson[speciesName].forms[formNumber].genders[gender].undeadres;
+					}
 					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + "undead" + "/" + "undead" +"_" + undeadres + "/" + "undead" + "_" + undeadres;
 				}
 				else {
