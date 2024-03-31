@@ -11745,13 +11745,13 @@
 				//is it undead? or is it dead dead?
 				if (formNumber.indexOf("undead") !== -1){
 					var undeadres = speciesJson[speciesName].forms[formNumber].genders[gender].undeadres;
-					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/" + "undead" + "/" + "undead" +"_" + undeadres + "/" + "undead" + "_" + undeadres;
+					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + "undead" + "/" + "undead" +"_" + undeadres + "/" + "undead" + "_" + undeadres;
 				}
 				else {
-					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/" + speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName + "/" +speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName;
+					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName + "/" +speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName;
 				}
 				//construct dragon url
-				//var url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/" + speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName + "/" +speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName;
+				//var url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName + "/" +speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName;
 				
 				//print url to console log (i'm hopeless and need this here for debugging, don't judge me)
 				//console.log(url);
@@ -11762,7 +11762,7 @@
 				//load new dragon to canvas
 				if (url.includes(".png")) {
 					//remake url for png
-					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/" + speciesName + "_" + formNumber +"_" + gender + "_adult" + colorName;
+					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber +"_" + gender + "_adult" + colorName;
 					
 					//hide canvas
 					dragonCanvasElem.style.display = "none";
@@ -11843,7 +11843,7 @@
         const dragonCanvasElem = document.getElementById("dragonCanvas");
 
         canvases.dragon = new spine.SpineCanvas(dragonCanvasElem, {
-          app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/abaddon_01_m_adult_p/abaddon_01_m_adult_p", "idle")
+          app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/abaddon_01_m_adult_p/abaddon_01_m_adult_p", "idle")
         });
       }
       window.addEventListener("load", loadSpineDragon);
