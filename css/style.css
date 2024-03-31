@@ -1,7 +1,7 @@
 /* see this cool font? it's a magic trick. */
 @font-face {
   font-family: 'NotoSans';
-  src: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/fonts/Noto%20Sans%20CJK%20KR%20Bold.ttf") format("truetype");
+  src: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/font/Noto%20Sans%20CJK%20KR%20Bold.ttf") format("truetype");
 }
 
 /*
@@ -14,7 +14,7 @@ body {
   text-shadow:2px 2px 4px black;
   letter-spacing: 0.px;
   background-color: rgba(47,34,26,1.0);
-  background-image: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/img/Background.png");
+  background-image: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/Background.png");
   background-size: 100%;
 }
 
