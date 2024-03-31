@@ -11799,19 +11799,19 @@
 				//this bit is only here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!  
 				if (personalityJson[personalityName].each !== undefined) {
 					canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
-						app: new SpineObject(`https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura_each/${personalityJson[personalityName].each}/${personalityJson[personalityName].each}`, personalityJson[personalityName].back)
+						app: new SpineObject(`https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/${personalityJson[personalityName].each}/${personalityJson[personalityName].each}`, personalityJson[personalityName].back)
 					});
 					canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
-						app: new SpineObject(`https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura_each/${personalityJson[personalityName].each}/${personalityJson[personalityName].each}`, personalityJson[personalityName].front)
+						app: new SpineObject(`https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/${personalityJson[personalityName].each}/${personalityJson[personalityName].each}`, personalityJson[personalityName].front)
 					});
 				}
 				//of course, we love all the rest of them. but they're not special.
 				else {
 					canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
-						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", personalityJson[personalityName].back)
+						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", personalityJson[personalityName].back)
 					});
 					canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
-						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", personalityJson[personalityName].front)
+						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_front/aura_front", personalityJson[personalityName].front)
 					});
 				}
 			}
@@ -11849,21 +11849,21 @@
       window.addEventListener("load", loadSpineDragon);
 		</script>
 		
-		<!--initial back aura is loaded on page open (no, really, it HAS to be manually set to the first alphabetically.)-->
+		<!--initial blank back aura canvas is loaded on page open-->
 		<script type="text/javascript">
 			let loadSpineAuraBackAura = function() { 
 				canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
-					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_back/aura_back", "")
+					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", "")
 				})
 			}
 			window.addEventListener("load", loadSpineAuraBackAura);
 		</script>
 
-		<!--initial front aura is loaded on page open (if it's not the first one, it'll break my selectors, and i'll be sad.)-->
+		<!--initial blank front aura canvas is loaded on page open-->
 		<script type="text/javascript"> 
 			let loadSpineAuraFrontAura = function() {
 				canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
-					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/aura/aura_front/aura_front", "")
+					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_front/aura_front", "")
 				})
 			}
 			window.addEventListener("load", loadSpineAuraFrontAura);
