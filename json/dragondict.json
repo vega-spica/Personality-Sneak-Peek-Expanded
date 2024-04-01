@@ -68,34 +68,38 @@
   },
   "abyssedge": {
     "speciesDisplay": "Abyssedge",
-	"forms": {
-      "01": {
-        "formDisplay": "Default",
-        "genders": {
-          "f": {
-            "color": "bk"
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
           },
-          "m": {
-            "color": "bk"
-          }
-        }
-      },
-      "02": {
-        "formDisplay": "Underground Castle",
-        "genders": {
-          "f": {
-            "color": "bk"
+          "02": {
+            "formDisplay": "Underground Castle",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
           },
-          "m": {
-            "color": "bk"
-          }
-        }
-      },
-      "undead": {
-        "formDisplay": "Undead",
-        "genders": {
-          "n": {
-            "undeadres": "muscle_n_adult_w"
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "muscle_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -103,15 +107,19 @@
   },
   "adela": {
     "speciesDisplay": "Adela",
-	"forms": {
-      "01": {
-        "formDisplay": "Default",
-        "genders": {
-          "f": {
-            "color": "w"
-          },
-          "m": {
-            "color": "w"
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
           }
         }
       }
@@ -119,23 +127,27 @@
   },
   "aegis": {
     "speciesDisplay": "Aegis",
-	"forms": {
-      "01": {
-        "formDisplay": "Default",
-        "genders": {
-          "f": {
-            "color": "y"
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
           },
-          "m": {
-            "color": "y"
-          }
-        }
-      },
-      "undead": {
-        "formDisplay": "Undead",
-        "genders": {
-          "n": {
-            "undeadres": "dragon_w_adult_w"
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -143,23 +155,27 @@
   },
   "afrit": {
     "speciesDisplay": "Afrit",
-	"forms": {
-      "01": {
-        "formDisplay": "Default",
-        "genders": {
-          "f": {
-            "color": "r"
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
           },
-          "m": {
-            "color": "r"
-          }
-        }
-      },
-      "undead": {
-        "formDisplay": "Undead",
-        "genders": {
-          "n": {
-            "undeadres": "dragon_w_adult_w"
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -167,7 +183,9 @@
   },
   "agnad": {
     "speciesDisplay": "Agnad",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -176,6 +194,8 @@
           },
           "m": {
             "color": "r"
+              }
+            }
           }
         }
       }
@@ -183,7 +203,9 @@
   },
   "alien": {
     "speciesDisplay": "Alien Dragon",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -227,6 +249,8 @@
         "genders": {
           "n": {
             "undeadres": "alien_signature_s_adult_w"
+              }
+            }
           }
         }
       }
@@ -234,7 +258,9 @@
   },
   "amdusias": {
     "speciesDisplay": "Amdusias",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -251,6 +277,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_hatchling_w"
+              }
+            }
           }
         }
       }
@@ -258,7 +286,9 @@
   },
   "anemone": {
     "speciesDisplay": "Anemone",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -275,6 +305,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -282,7 +314,9 @@
   },
   "angelcat": {
     "speciesDisplay": "Angel Cat",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -343,6 +377,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_hatchling_w"
+              }
+            }
           }
         }
       }
@@ -350,7 +386,9 @@
   },
   "angel": {
     "speciesDisplay": "Angel Dragon",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -375,6 +413,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -382,7 +422,9 @@
   },
   "angeljr": {
     "speciesDisplay": "Angel Jr",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -396,6 +438,8 @@
         "genders": {
           "f": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -403,7 +447,9 @@
   },
   "angra": {
     "speciesDisplay": "Angra",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -431,6 +477,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -438,7 +486,9 @@
   },
   "animala": {
     "speciesDisplay": "Animala",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -447,6 +497,8 @@
           },
           "m": {
             "color": "bk"
+              }
+            }
           }
         }
       }
@@ -454,7 +506,9 @@
   },
   "anurhada": {
     "speciesDisplay": "Anurhada",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -471,6 +525,8 @@
         "genders": {
           "n": {
             "undeadres": "granos_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -478,7 +534,9 @@
   },
   "applecheek": {
     "speciesDisplay": "Applecheek",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -506,6 +564,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -513,7 +573,9 @@
   },
   "aquadragon": {
     "speciesDisplay": "Aqua Dragon",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -530,6 +592,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -537,7 +601,9 @@
   },
   "araca": {
     "speciesDisplay": "Araca",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -573,6 +639,8 @@
         "genders": {
           "n": {
             "undeadres": "signature_s_adult_w"
+              }
+            }
           }
         }
       }
@@ -580,7 +648,9 @@
   },
   "archelon": {
     "speciesDisplay": "Archelon",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -608,6 +678,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -615,7 +687,9 @@
   },
   "artemis": {
     "speciesDisplay": "Artemis",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -643,6 +717,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -650,7 +726,9 @@
   },
   "asti": {
     "speciesDisplay": "Asti",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -678,6 +756,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -685,7 +765,9 @@
   },
   "auros": {
     "speciesDisplay": "Auros",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -702,6 +784,8 @@
         "genders": {
           "n": {
             "undeadres": "feros_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -709,7 +793,9 @@
   },
   "azak": {
     "speciesDisplay": "Azak",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -729,6 +815,8 @@
           },
           "m": {
             "color": "g"
+              }
+            }
           }
         }
       }
@@ -736,7 +824,9 @@
   },
   "baal": {
     "speciesDisplay": "Baal",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -753,6 +843,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -760,7 +852,9 @@
   },
   "baekho": {
     "speciesDisplay": "Baekho",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -777,6 +871,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -784,7 +880,9 @@
   },
   "bagma": {
     "speciesDisplay": "Bagma",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -793,7 +891,7 @@
           },
           "m": {
             "color": "w"
-           }
+          }
         }
       },
       "undead": {
@@ -801,6 +899,8 @@
         "genders": {
           "n": {
             "undeadres": "feros_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -808,7 +908,9 @@
   },
   "balod": {
     "speciesDisplay": "Balod",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -817,6 +919,8 @@
           },
           "m": {
             "color": "bk"
+              }
+            }
           }
         }
       }
@@ -824,7 +928,9 @@
   },
   "banshee": {
     "speciesDisplay": "Banshee",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -833,6 +939,8 @@
           },
           "m": {
             "color": "b"
+              }
+            }
           }
         }
       }
@@ -840,7 +948,9 @@
   },
   "barian": {
     "speciesDisplay": "Barian",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -849,6 +959,8 @@
           },
           "m": {
             "color": "yr"
+              }
+            }
           }
         }
       }
@@ -856,7 +968,9 @@
   },
   "baskerville": {
     "speciesDisplay": "Baskerville",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -892,6 +1006,8 @@
         "genders": {
           "n": {
             "undeadres": "baskerville_n_adult_pb"
+              }
+            }
           }
         }
       }
@@ -899,7 +1015,9 @@
   },
   "bato": {
     "speciesDisplay": "Bato",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -908,7 +1026,7 @@
           },
           "m": {
             "color": "b"
-           }
+          }
         }
       },
       "02": {
@@ -927,6 +1045,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_hatchling_w"
+              }
+            }
           }
         }
       }
@@ -934,7 +1054,9 @@
   },
   "beardeddragon": {
     "speciesDisplay": "Bearded Dragon",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -995,6 +1117,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1002,7 +1126,9 @@
   },
   "beleth": {
     "speciesDisplay": "Beleth",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1019,6 +1145,8 @@
         "genders": {
           "n": {
             "undeadres": "wyvern_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1026,7 +1154,9 @@
   },
   "berris": {
     "speciesDisplay": "Berris",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1043,6 +1173,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1050,7 +1182,9 @@
   },
   "blackarmor": {
     "speciesDisplay": "Black Armor",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1067,6 +1201,8 @@
         "genders": {
           "n": {
             "undeadres": "drake_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1074,7 +1210,9 @@
   },
   "blackarmorspear": {
     "speciesDisplay": "Black Armor Spear",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1091,6 +1229,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1098,7 +1238,9 @@
   },
   "blackarmorsword": {
     "speciesDisplay": "Black Armor Sword",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1115,6 +1257,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1122,7 +1266,9 @@
   },
   "blackdragon": {
     "speciesDisplay": "Black Dragon",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1136,6 +1282,8 @@
         "genders": {
           "m": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1143,7 +1291,9 @@
   },
   "bladedragon": {
     "speciesDisplay": "Blade Dragon",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1160,6 +1310,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -1167,7 +1319,9 @@
   },
   "puffergoldie": {
     "speciesDisplay": "Blowfish Goldie",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1203,6 +1357,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_hatchling_w"
+              }
+            }
           }
         }
       }
@@ -1210,7 +1366,9 @@
   },
   "bluebirdberris": {
     "speciesDisplay": "Blue Bird Berris",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1227,6 +1385,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1234,7 +1394,9 @@
   },
   "bluecharacen": {
     "speciesDisplay": "Blue Characen",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1251,6 +1413,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -1258,7 +1422,9 @@
   },
   "blue": {
     "speciesDisplay": "Blue Dragon",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1294,6 +1460,8 @@
         "genders": {
           "n": {
             "undeadres": "signature_s_adult_w"
+              }
+            }
           }
         }
       }
@@ -1301,7 +1469,9 @@
   },
   "bluefiretail": {
     "speciesDisplay": "Blue Firetail",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1318,6 +1488,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1325,7 +1497,9 @@
   },
   "bluelightning": {
     "speciesDisplay": "Blue Lightning Dragon",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1342,6 +1516,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1349,7 +1525,9 @@
   },
   "bluethunder": {
     "speciesDisplay": "Blue Thunder",
-	"forms": {
+    "stage": {
+      "adult": {
+        "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1366,6 +1544,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -1373,7 +1553,9 @@
   },
   "bomberdragon": {
     "speciesDisplay": "Bomber Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1409,6 +1591,8 @@
         "genders": {
           "n": {
             "undeadres": "drake_w_hatchling_w"
+              }
+            }
           }
         }
       }
@@ -1416,7 +1600,9 @@
   },
   "bonehead": {
     "speciesDisplay": "Bone Head",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1444,6 +1630,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1451,7 +1639,9 @@
   },
   "bubbledragon": {
     "speciesDisplay": "Bubble Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1468,6 +1658,8 @@
         "genders": {
           "n": {
             "undeadres": "feros_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -1475,7 +1667,9 @@
   },
   "burnesce": {
     "speciesDisplay": "Burnesce",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1484,6 +1678,8 @@
           },
           "m": {
             "color": "r"
+              }
+            }
           }
         }
       }
@@ -1491,7 +1687,9 @@
   },
   "caretakerbluedragon": {
     "speciesDisplay": "Caretaker Blue Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1522,6 +1720,8 @@
           },
           "m": {
             "color": "b"
+              }
+            }
           }
         }
       }
@@ -1529,7 +1729,9 @@
   },
   "keepergoddragon": {
     "speciesDisplay": "Caretaker God Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1560,6 +1762,8 @@
           },
           "m": {
             "color": "w"
+              }
+            }
           }
         }
       }
@@ -1567,7 +1771,9 @@
   },
   "catsgon": {
     "speciesDisplay": "Catsgon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1595,6 +1801,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1602,7 +1810,9 @@
   },
   "centipededragon": {
     "speciesDisplay": "Centipede Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1619,6 +1829,8 @@
         "genders": {
           "n": {
             "undeadres": "worm_nl_adult_w"
+              }
+            }
           }
         }
       }
@@ -1626,7 +1838,9 @@
   },
   "centura": {
     "speciesDisplay": "Centura",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1665,6 +1879,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1672,7 +1888,9 @@
   },
   "characen": {
     "speciesDisplay": "Characen",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1689,6 +1907,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -1696,7 +1916,9 @@
   },
   "chungmuhaetae": {
     "speciesDisplay": "Chungmu Haetae",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1713,6 +1935,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -1720,7 +1944,9 @@
   },
   "citael": {
     "speciesDisplay": "Citael",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1734,6 +1960,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1741,7 +1969,9 @@
   },
   "clavis": {
     "speciesDisplay": "Clavis",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1813,6 +2043,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1820,7 +2052,9 @@
   },
   "cleio": {
     "speciesDisplay": "Cleio",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1829,6 +2063,8 @@
           },
           "m": {
             "color": "b"
+              }
+            }
           }
         }
       }
@@ -1836,7 +2072,9 @@
   },
   "clockworkdragon": {
     "speciesDisplay": "Clockwork Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1845,6 +2083,8 @@
           },
           "m": {
             "color": "bk"
+              }
+            }
           }
         }
       }
@@ -1852,7 +2092,9 @@
   },
   "cloud": {
     "speciesDisplay": "Cloud Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1869,6 +2111,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -1876,7 +2120,9 @@
   },
   "cobradragon": {
     "speciesDisplay": "Cobra Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1893,6 +2139,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -1900,7 +2148,9 @@
   },
   "coelacanth": {
     "speciesDisplay": "Coelacanth",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1917,6 +2167,8 @@
         "genders": {
           "n": {
             "undeadres": "fin_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -1924,7 +2176,9 @@
   },
   "coralnessiebig": {
     "speciesDisplay": "Coral Nessiebig",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1938,6 +2192,8 @@
         "genders": {
           "n": {
             "undeadres": "fin_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -1945,7 +2201,9 @@
   },
   "cortus": {
     "speciesDisplay": "Cortus",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -1984,6 +2242,8 @@
         "genders": {
           "n": {
             "color": ".png"
+              }
+            }
           }
         }
       }
@@ -1991,7 +2251,9 @@
   },
   "cratio": {
     "speciesDisplay": "Cratio",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2030,6 +2292,8 @@
         "genders": {
           "n": {
             "undeadres": "drake_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -2037,7 +2301,9 @@
   },
   "cresteddragon": {
     "speciesDisplay": "Crested Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2087,6 +2353,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2094,7 +2362,9 @@
   },
   "crookers": {
     "speciesDisplay": "Crookers",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2111,6 +2381,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2118,7 +2390,9 @@
   },
   "cuanade": {
     "speciesDisplay": "Cuanade",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2135,6 +2409,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2142,7 +2418,9 @@
   },
   "cupid": {
     "speciesDisplay": "Cupid",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2178,6 +2456,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2185,7 +2465,9 @@
   },
   "cupifriend": {
     "speciesDisplay": "Cupi Friend",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2224,6 +2506,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2231,7 +2515,9 @@
   },
   "dargos": {
     "speciesDisplay": "Dargos",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2240,6 +2526,8 @@
           },
           "m": {
             "color": "r"
+              }
+            }
           }
         }
       }
@@ -2247,7 +2535,9 @@
   },
   "darkangeldragon": {
     "speciesDisplay": "Dark Angel Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2272,6 +2562,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2279,7 +2571,9 @@
   },
   "darkcloud": {
     "speciesDisplay": "Dark Cloud Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2296,6 +2590,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -2303,7 +2599,9 @@
   },
   "darkgoddragon": {
     "speciesDisplay": "Dark God Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2320,6 +2618,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2327,7 +2627,9 @@
   },
   "darklightningdragon": {
     "speciesDisplay": "Dark Lightning Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2344,6 +2646,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2351,7 +2655,9 @@
   },
   "darknix": {
     "speciesDisplay": "Darknix",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2387,6 +2693,8 @@
         "genders": {
           "n": {
             "undeadres": "signature_s_adult_w"
+              }
+            }
           }
         }
       }
@@ -2394,7 +2702,9 @@
   },
   "daros": {
     "speciesDisplay": "Daros",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2411,6 +2721,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -2418,7 +2730,9 @@
   },
   "demonggargoyle": {
     "speciesDisplay": "Demong & Gargoyle",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2446,6 +2760,8 @@
         "genders": {
           "n": {
             "undeadres": "wyvern_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2453,7 +2769,9 @@
   },
   "demonio": {
     "speciesDisplay": "Demonio",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2470,6 +2788,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -2477,7 +2797,9 @@
   },
   "deva": {
     "speciesDisplay": "Deva",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2499,6 +2821,8 @@
         "genders": {
           "m": {
             "undeadres": "drake_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2506,7 +2830,9 @@
   },
   "devared": {
     "speciesDisplay": "Devared",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2520,6 +2846,8 @@
         "genders": {
           "m": {
             "undeadres": "drake_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2527,7 +2855,9 @@
   },
   "devilgon": {
     "speciesDisplay": "Devilgon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2544,6 +2874,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2551,7 +2883,9 @@
   },
   "dianu": {
     "speciesDisplay": "Dianu",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2590,6 +2924,8 @@
         "genders": {
           "n": {
             "undeadres": "dianu_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -2597,7 +2933,9 @@
   },
   "dimensiondragon": {
     "speciesDisplay": "Dimension Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2625,6 +2963,8 @@
         "genders": {
           "n": {
             "undeadres": "dimension_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2632,7 +2972,9 @@
   },
   "diyona": {
     "speciesDisplay": "Diyona",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2649,6 +2991,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2656,7 +3000,9 @@
   },
   "dragonoid": {
     "speciesDisplay": "Dragonoid",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2665,6 +3011,8 @@
           },
           "m": {
             "color": "bg"
+              }
+            }
           }
         }
       }
@@ -2672,7 +3020,9 @@
   },
   "dragonoidsoul": {
     "speciesDisplay": "Dragonoid Soul",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2681,6 +3031,8 @@
           },
           "m": {
             "color": "bg"
+              }
+            }
           }
         }
       }
@@ -2688,7 +3040,9 @@
   },
   "dreamerobex": {
     "speciesDisplay": "Dreamer Obex",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2705,6 +3059,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2712,7 +3068,9 @@
   },
   "dreamwaterdragon": {
     "speciesDisplay": "Dream Water Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2729,6 +3087,8 @@
         "genders": {
           "n": {
             "undeadres": "wyvern_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2736,7 +3096,9 @@
   },
   "dummbbluedragon": {
     "speciesDisplay": "Dumbo Blue Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2753,6 +3115,8 @@
         "genders": {
           "n": {
             "undeadres": "drake_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -2760,7 +3124,9 @@
   },
   "dupen": {
     "speciesDisplay": "Dupen",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2777,6 +3143,8 @@
         "genders": {
           "n": {
             "undeadres": "drake_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -2784,7 +3152,9 @@
   },
   "eelosdragon": {
     "speciesDisplay": "Eelos Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2801,6 +3171,8 @@
         "genders": {
           "n": {
             "undeadres": "feros_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -2808,7 +3180,9 @@
   },
   "egg": {
     "speciesDisplay": "Egg Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2833,6 +3207,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2840,7 +3216,9 @@
   },
   "eggmayodragon": {
     "speciesDisplay": "Egg Mayo Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2871,6 +3249,8 @@
           },
           "m": {
             "color": "y"
+              }
+            }
           }
         }
       }
@@ -2878,7 +3258,9 @@
   },
   "elderlydragon": {
     "speciesDisplay": "Elderly Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2906,6 +3288,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2913,7 +3297,9 @@
   },
   "emerald": {
     "speciesDisplay": "Emerald Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2930,6 +3316,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2937,7 +3325,9 @@
   },
   "enix": {
     "speciesDisplay": "Enix",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2946,6 +3336,8 @@
           },
           "m": {
             "color": "gy"
+              }
+            }
           }
         }
       }
@@ -2953,7 +3345,9 @@
   },
   "enokidragon": {
     "speciesDisplay": "Enoki Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -2981,6 +3375,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -2988,7 +3384,9 @@
   },
   "eos": {
     "speciesDisplay": "Eos",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3005,6 +3403,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -3012,7 +3412,9 @@
   },
   "ereboss": {
     "speciesDisplay": "Ereboss",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3029,6 +3431,8 @@
         "genders": {
           "n": {
             "undeadres": "muscle_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3036,7 +3440,9 @@
   },
   "eshu": {
     "speciesDisplay": "Eshu",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3064,6 +3470,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_hatchling_w"
+              }
+            }
           }
         }
       }
@@ -3071,7 +3479,9 @@
   },
   "fairydragon": {
     "speciesDisplay": "Fairy Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3099,6 +3509,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3106,7 +3518,9 @@
   },
   "fat": {
     "speciesDisplay": "Fat",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3145,6 +3559,8 @@
         "genders": {
           "n": {
             "undeadres": "muscle_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3152,7 +3568,9 @@
   },
   "feros": {
     "speciesDisplay": "Feros",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3191,6 +3609,8 @@
         "genders": {
           "n": {
             "undeadres": "feros_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -3198,7 +3618,9 @@
   },
   "feruna": {
     "speciesDisplay": "Feruna",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3251,6 +3673,8 @@
           },
           "m": {
             "color": "w"
+              }
+            }
           }
         }
       }
@@ -3258,7 +3682,9 @@
   },
   "fides": {
     "speciesDisplay": "Fides",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3275,6 +3701,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3282,7 +3710,9 @@
   },
   "fireghostdragon": {
     "speciesDisplay": "Fire Ghost Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3299,6 +3729,8 @@
         "genders": {
           "n": {
             "undeadres": "worm_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -3306,7 +3738,9 @@
   },
   "fire": {
     "speciesDisplay": "Fire Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3323,6 +3757,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3330,7 +3766,9 @@
   },
   "firetail": {
     "speciesDisplay": "Firetail",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3347,6 +3785,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3354,7 +3794,9 @@
   },
   "flamedragon": {
     "speciesDisplay": "Flame Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3363,7 +3805,7 @@
           },
           "m": {
             "color": "r"
-           }
+          }
         }
       },
       "undead": {
@@ -3371,6 +3813,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3378,7 +3822,9 @@
   },
   "florea": {
     "speciesDisplay": "Florea",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3395,6 +3841,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -3402,7 +3850,9 @@
   },
   "flowerdragon": {
     "speciesDisplay": "Flower Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3419,6 +3869,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3426,7 +3878,9 @@
   },
   "prohibitedwitchdragon": {
     "speciesDisplay": "Forbidden Witch Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3443,6 +3897,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3450,7 +3906,9 @@
   },
   "frame": {
     "speciesDisplay": "Frame",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3467,6 +3925,8 @@
         "genders": {
           "n": {
             "color": ".png"
+              }
+            }
           }
         }
       }
@@ -3474,7 +3934,9 @@
   },
   "frankensteindragon": {
     "speciesDisplay": "Frankenstein Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3483,6 +3945,8 @@
           },
           "m": {
             "color": "bg"
+              }
+            }
           }
         }
       }
@@ -3490,7 +3954,9 @@
   },
   "frog": {
     "speciesDisplay": "Frog Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Spring",
         "genders": {
@@ -3540,6 +4006,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3547,7 +4015,9 @@
   },
   "frostbluedragon": {
     "speciesDisplay": "Frost Blue Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3564,6 +4034,8 @@
         "genders": {
           "n": {
             "undeadres": "worm_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -3571,7 +4043,9 @@
   },
   "frost": {
     "speciesDisplay": "Frost Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3588,6 +4062,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3595,7 +4071,9 @@
   },
   "frozen": {
     "speciesDisplay": "Frozen",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3623,6 +4101,8 @@
         "genders": {
           "n": {
             "undeadres": "wyvern_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3630,7 +4110,9 @@
   },
   "gaian": {
     "speciesDisplay": "Gaian",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3650,6 +4132,8 @@
           },
           "m": {
             "undeadres": "drake_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3657,7 +4141,9 @@
   },
   "gandharba": {
     "speciesDisplay": "Gandharva",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3674,6 +4160,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -3681,7 +4169,9 @@
   },
   "gautlinggon": {
     "speciesDisplay": "Gautling-Gon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3698,6 +4188,8 @@
         "genders": {
           "n": {
             "undeadres": "drake_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -3705,7 +4197,9 @@
   },
   "ges": {
     "speciesDisplay": "Ges",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3722,6 +4216,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3729,7 +4225,9 @@
   },
   "gigantis": {
     "speciesDisplay": "Gigantis",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3738,6 +4236,8 @@
           },
           "m": {
             "color": "p"
+              }
+            }
           }
         }
       }
@@ -3745,7 +4245,9 @@
   },
   "girdletaildragon": {
     "speciesDisplay": "Girdletail Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3806,6 +4308,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3813,7 +4317,9 @@
   },
   "glaone": {
     "speciesDisplay": "Glaone",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3822,6 +4328,8 @@
           },
           "m": {
             "color": "bk"
+              }
+            }
           }
         }
       }
@@ -3829,7 +4337,9 @@
   },
   "goblindragon": {
     "speciesDisplay": "Goblin Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3865,6 +4375,8 @@
         "genders": {
           "n": {
             "undeadres": "goblindragon_signature_s_adult_w"
+              }
+            }
           }
         }
       }
@@ -3872,7 +4384,9 @@
   },
   "goddragon": {
     "speciesDisplay": "God Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3908,6 +4422,8 @@
         "genders": {
           "n": {
             "undeadres": "signature_s_adult_w"
+              }
+            }
           }
         }
       }
@@ -3915,7 +4431,9 @@
   },
   "godquestiondragon": {
     "speciesDisplay": "God? Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3924,6 +4442,8 @@
           },
           "m": {
             "color": "w"
+              }
+            }
           }
         }
       }
@@ -3931,7 +4451,9 @@
   },
   "goddragonjr": {
     "speciesDisplay": "God Jr",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3945,6 +4467,8 @@
         "genders": {
           "m": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3952,7 +4476,9 @@
   },
   "goldapplecheek": {
     "speciesDisplay": "Gold Applecheek",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3969,6 +4495,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -3976,7 +4504,9 @@
   },
   "gold": {
     "speciesDisplay": "Gold Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -3996,6 +4526,8 @@
           },
           "m": {
             "undeadres": "drake_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4003,7 +4535,9 @@
   },
   "goldenpoisonriver": {
     "speciesDisplay": "Golden Poison River",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4020,6 +4554,8 @@
         "genders": {
           "n": {
             "undeadres": "poisonriver_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4027,7 +4563,9 @@
   },
   "goldie": {
     "speciesDisplay": "Goldie",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4044,6 +4582,8 @@
         "genders": {
           "n": {
             "undeadres": "muscle_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4051,7 +4591,9 @@
   },
   "goldmetal": {
     "speciesDisplay": "Gold Metal",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4071,6 +4613,8 @@
           },
           "m": {
             "undeadres": "drake_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4078,7 +4622,9 @@
   },
   "goldpike": {
     "speciesDisplay": "Goldpike",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4092,6 +4638,8 @@
         "genders": {
           "n": {
             "undeadres": "muscle_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4099,7 +4647,9 @@
   },
   "gorgon": {
     "speciesDisplay": "Gorgon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4116,6 +4666,8 @@
         "genders": {
           "n": {
             "undeadres": "gorgon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4123,7 +4675,9 @@
   },
   "gracia": {
     "speciesDisplay": "Gracia",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4140,6 +4694,8 @@
         "genders": {
           "n": {
             "undeadres": "muscle_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -4147,7 +4703,9 @@
   },
   "granos": {
     "speciesDisplay": "Granos",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4164,6 +4722,8 @@
         "genders": {
           "n": {
             "undeadres": "granos_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4171,7 +4731,9 @@
   },
   "griffar": {
     "speciesDisplay": "Griffar",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4188,6 +4750,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4195,7 +4759,9 @@
   },
   "gust": {
     "speciesDisplay": "Gust",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4212,6 +4778,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4219,7 +4787,9 @@
   },
   "haetae": {
     "speciesDisplay": "Haetae",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4236,6 +4806,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4243,7 +4815,9 @@
   },
   "hallow": {
     "speciesDisplay": "Hallow",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4252,6 +4826,8 @@
           },
           "m": {
             "color": "g"
+              }
+            }
           }
         }
       }
@@ -4259,7 +4835,9 @@
   },
   "harika": {
     "speciesDisplay": "Harika",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4276,6 +4854,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_hatchling_w"
+              }
+            }
           }
         }
       }
@@ -4283,7 +4863,9 @@
   },
   "haze": {
     "speciesDisplay": "Haze",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4292,6 +4874,8 @@
           },
           "m": {
             "color": "w"
+              }
+            }
           }
         }
       }
@@ -4299,7 +4883,9 @@
   },
   "hedgebatdragon": {
     "speciesDisplay": "Hedgebat Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4316,6 +4902,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_hatchling_w"
+              }
+            }
           }
         }
       }
@@ -4323,7 +4911,9 @@
   },
   "hekate": {
     "speciesDisplay": "Hekate",
-    "forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4340,6 +4930,8 @@
         "genders": {
           "n": {
             "undeadres": "feros_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -4347,7 +4939,9 @@
   },
   "hela": {
     "speciesDisplay": "Hela",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4386,6 +4980,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4393,7 +4989,9 @@
   },
   "hell": {
     "speciesDisplay": "Hell Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4413,6 +5011,8 @@
           },
           "m": {
             "undeadres": "muscle_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4420,7 +5020,9 @@
   },
   "henes": {
     "speciesDisplay": "Henes",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4437,6 +5039,8 @@
         "genders": {
           "n": {
             "undeadres": "wyvern_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4444,7 +5048,9 @@
   },
   "herculesdragon": {
     "speciesDisplay": "Hercules Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4472,6 +5078,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4479,7 +5087,9 @@
   },
   "hourglassdragon": {
     "speciesDisplay": "Hourglass Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4488,6 +5098,8 @@
           },
           "m": {
             "color": "yr"
+              }
+            }
           }
         }
       }
@@ -4495,7 +5107,9 @@
   },
   "hurricane": {
     "speciesDisplay": "Hurricane Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4512,6 +5126,8 @@
         "genders": {
           "n": {
             "undeadres": "worm_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -4519,7 +5135,9 @@
   },
   "hydragon": {
     "speciesDisplay": "Hydragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4533,6 +5151,8 @@
         "genders": {
           "n": {
             "undeadres": "threehead_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4540,7 +5160,9 @@
   },
   "hyeonmu": {
     "speciesDisplay": "Hyeonmu",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4557,6 +5179,8 @@
         "genders": {
           "n": {
             "undeadres": "hyeonmu_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4564,7 +5188,9 @@
   },
   "icarus": {
     "speciesDisplay": "Icarus",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4581,6 +5207,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -4588,7 +5216,9 @@
   },
   "ignis": {
     "speciesDisplay": "Ignis",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4605,6 +5235,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4612,7 +5244,9 @@
   },
   "iguagon": {
     "speciesDisplay": "Iguagon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4629,6 +5263,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -4636,7 +5272,9 @@
   },
   "ilios": {
     "speciesDisplay": "Illios",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4653,6 +5291,8 @@
         "genders": {
           "n": {
             "undeadres": "wyvern_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4660,7 +5300,9 @@
   },
   "insectdragon": {
     "speciesDisplay": "Insect Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4677,6 +5319,8 @@
         "genders": {
           "n": {
             "undeadres": "sixleg_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -4684,7 +5328,9 @@
   },
   "insectqueen": {
     "speciesDisplay": "Insect Queen",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4698,6 +5344,8 @@
         "genders": {
           "f": {
             "undeadres": "sixleg_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -4705,7 +5353,9 @@
   },
   "irondeva": {
     "speciesDisplay": "Irondeva",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4719,6 +5369,8 @@
         "genders": {
           "m": {
             "undeadres": "drake_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4726,7 +5378,9 @@
   },
   "iron": {
     "speciesDisplay": "Iron Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4740,6 +5394,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4747,7 +5403,9 @@
   },
   "jango": {
     "speciesDisplay": "Jango",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4783,6 +5441,8 @@
         "genders": {
           "n": {
             "undeadres": "jango02_n_adult_g"
+              }
+            }
           }
         }
       }
@@ -4790,7 +5450,9 @@
   },
   "janus": {
     "speciesDisplay": "Janus",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4851,6 +5513,8 @@
         "genders": {
           "n": {
             "undeadres": "dimension_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4858,7 +5522,9 @@
   },
   "jarukah": {
     "speciesDisplay": "Jarukah",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4875,6 +5541,8 @@
         "genders": {
           "n": {
             "undeadres": "wyvern_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4882,7 +5550,9 @@
   },
   "jealousycupid": {
     "speciesDisplay": "Jealousy Cupid",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4899,6 +5569,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4906,7 +5578,9 @@
   },
   "jima": {
     "speciesDisplay": "Jima",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4923,6 +5597,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4930,7 +5606,9 @@
   },
   "jimon": {
     "speciesDisplay": "Jimon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4944,6 +5622,8 @@
         "genders": {
           "n": {
             "undeadres": "eggend_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -4951,7 +5631,9 @@
   },
   "jujag": {
     "speciesDisplay": "Jujak",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4968,6 +5650,8 @@
         "genders": {
           "n": {
             "undeadres": "wyvern_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -4975,7 +5659,9 @@
   },
   "kangkang": {
     "speciesDisplay": "Kangkang",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -4992,6 +5678,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -4999,7 +5687,9 @@
   },
   "kanthaka": {
     "speciesDisplay": "Kanthaka",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5016,6 +5706,8 @@
         "genders": {
           "n": {
             "undeadres": "drake_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -5023,7 +5715,9 @@
   },
   "karura": {
     "speciesDisplay": "Karura",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5040,6 +5734,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -5047,7 +5743,9 @@
   },
   "khan": {
     "speciesDisplay": "Khan",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5064,6 +5762,8 @@
         "genders": {
           "n": {
             "undeadres": "drake_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -5071,7 +5771,9 @@
   },
   "khanmarino": {
     "speciesDisplay": "Khan Marino",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5088,6 +5790,8 @@
         "genders": {
           "n": {
             "undeadres": "drake_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -5095,7 +5799,9 @@
   },
   "kirin": {
     "speciesDisplay": "Kirin",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5112,6 +5818,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -5119,7 +5827,9 @@
   },
   "knightdragon": {
     "speciesDisplay": "Knight Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5136,6 +5846,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -5143,12 +5855,16 @@
   },
   "ktoolroo": {
     "speciesDisplay": "Ktoolroo",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Undead",
         "genders": {
           "n": {
             "color": "w"
+              }
+            }
           }
         }
       }
@@ -5156,7 +5872,9 @@
   },
   "kuzmara": {
     "speciesDisplay": "Kuzmara",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5173,6 +5891,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -5180,7 +5900,9 @@
   },
   "labasalt": {
     "speciesDisplay": "Labasalt",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5197,6 +5919,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -5204,7 +5928,9 @@
   },
   "lady": {
     "speciesDisplay": "Lady Dragon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5234,6 +5960,8 @@
         "genders": {
           "f": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -5241,7 +5969,9 @@
   },
   "lakion": {
     "speciesDisplay": "Lakion",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5277,6 +6007,8 @@
         "genders": {
           "n": {
             "undeadres": "signature_s_adult_w"
+              }
+            }
           }
         }
       }
@@ -5284,7 +6016,9 @@
   },
   "lalux": {
     "speciesDisplay": "La Lux",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5301,6 +6035,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -5308,7 +6044,9 @@
   },
   "lambgon": {
     "speciesDisplay": "Lambgon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5336,6 +6074,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_w_adult_w"
+              }
+            }
           }
         }
       }
@@ -5343,7 +6083,9 @@
   },
   "lattegon": {
     "speciesDisplay": "Lattegon",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5390,6 +6132,8 @@
         "genders": {
           "n": {
             "color": ".png"
+              }
+            }
           }
         }
       }
@@ -5397,7 +6141,9 @@
   },
   "lauha": {
     "speciesDisplay": "Lauha",
-	"forms": {
+      "stage": {
+        "adult": {
+          "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5414,6 +6160,8 @@
         "genders": {
           "n": {
             "undeadres": "dragon_n_adult_w"
+              }
+            }
           }
         }
       }
@@ -5421,7 +6169,7 @@
   },
   "lava": {
     "speciesDisplay": "Lava Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5445,7 +6193,7 @@
   },
   "leafdragon": {
     "speciesDisplay": "Leaf Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5469,7 +6217,7 @@
   },
   "leglien": {
     "speciesDisplay": "Leglien",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5490,7 +6238,7 @@
   },
   "leoparddragon": {
     "speciesDisplay": "Leopard Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5547,7 +6295,7 @@
   },
   "leovector": {
     "speciesDisplay": "Leo Vector",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5563,7 +6311,7 @@
   },
   "libera": {
     "speciesDisplay": "Libera",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5587,7 +6335,7 @@
   },
   "liberte": {
     "speciesDisplay": "Liberte",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5611,7 +6359,7 @@
   },
   "librodragon": {
     "speciesDisplay": "Libro Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5635,7 +6383,7 @@
   },
   "lichmond": {
     "speciesDisplay": "Lichmond",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5651,7 +6399,7 @@
   },
   "liferiver": {
     "speciesDisplay": "Life Reaver",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5675,7 +6423,7 @@
   },
   "lightdarknix": {
     "speciesDisplay": "Light Darknix",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5699,7 +6447,7 @@
   },
   "lightning": {
     "speciesDisplay": "Lightning Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5723,7 +6471,7 @@
   },
   "lightspicy": {
     "speciesDisplay": "Light Spicy",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5747,7 +6495,7 @@
   },
   "ligon": {
     "speciesDisplay": "Ligon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5763,7 +6511,7 @@
   },
   "linu": {
     "speciesDisplay": "Linu",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5787,7 +6535,7 @@
   },
   "lios": {
     "speciesDisplay": "Lios",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5803,7 +6551,7 @@
   },
   "lololli": {
     "speciesDisplay": "Lololli",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5827,7 +6575,7 @@
   },
   "lucio": {
     "speciesDisplay": "Lucio",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5851,7 +6599,7 @@
   },
   "lumindis": {
     "speciesDisplay": "Lumindis",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5919,7 +6667,7 @@
   },
   "luminesce": {
     "speciesDisplay": "Luminesce",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5935,7 +6683,7 @@
   },
   "lunera": {
     "speciesDisplay": "Lunera",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5970,7 +6718,7 @@
   },
   "maga": {
     "speciesDisplay": "Maga",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -5994,7 +6742,7 @@
   },
   "magnello": {
     "speciesDisplay": "Magnello",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6018,7 +6766,7 @@
   },
   "makara": {
     "speciesDisplay": "Makara",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6042,7 +6790,7 @@
   },
   "maldek": {
     "speciesDisplay": "Maldek",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6066,7 +6814,7 @@
   },
   "maloden": {
     "speciesDisplay": "Maloden",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6101,7 +6849,7 @@
   },
   "mamunia": {
     "speciesDisplay": "Mamunia",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6122,7 +6870,7 @@
   },
   "maniacalpowerdragon": {
     "speciesDisplay": "Maniacal Power Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6149,7 +6897,7 @@
   },
   "manimekalai": {
     "speciesDisplay": "Manimekhala",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6184,7 +6932,7 @@
   },
   "mapledragon": {
     "speciesDisplay": "Maple Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6208,7 +6956,7 @@
   },
   "marbas": {
     "speciesDisplay": "Marbas",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6232,7 +6980,7 @@
   },
   "marino": {
     "speciesDisplay": "Marino",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6259,7 +7007,7 @@
   },
   "maritus": {
     "speciesDisplay": "Maritus",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6305,7 +7053,7 @@
   },
   "megalodon": {
     "speciesDisplay": "Megalodon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6340,7 +7088,7 @@
   },
   "mellow": {
     "speciesDisplay": "Mellow",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6364,7 +7112,7 @@
   },
   "metal": {
     "speciesDisplay": "Metal Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6391,7 +7139,7 @@
   },
   "metis": {
     "speciesDisplay": "Metis",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6503,7 +7251,7 @@
   },
   "minas": {
     "speciesDisplay": "Minas",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6527,7 +7275,7 @@
   },
   "mistdragon": {
     "speciesDisplay": "Mist Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6543,7 +7291,7 @@
   },
   "mithra": {
     "speciesDisplay": "Mithra",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6567,7 +7315,7 @@
   },
   "mud": {
     "speciesDisplay": "Mud Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6588,7 +7336,7 @@
   },
   "mummydragon": {
     "speciesDisplay": "Mummy Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6612,7 +7360,7 @@
   },
   "mushroom": {
     "speciesDisplay": "Mushroom Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6655,7 +7403,7 @@
   },
   "mushroomknight": {
     "speciesDisplay": "Mushroom Knight",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6664,7 +7412,7 @@
           },
           "m": {
             "color": "b"
-           }
+          }
         }
       },
       "undead": {
@@ -6679,7 +7427,7 @@
   },
   "mustardhammer": {
     "speciesDisplay": "Mustard Hammer",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6688,7 +7436,7 @@
           },
           "m": {
             "color": "y"
-           }
+          }
         }
       },
       "undead": {
@@ -6703,7 +7451,7 @@
   },
   "mystictiny": {
     "speciesDisplay": "Mystictiny",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6727,7 +7475,7 @@
   },
   "naga": {
     "speciesDisplay": "Naga",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6762,7 +7510,7 @@
   },
   "nebula": {
     "speciesDisplay": "Nebula",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6783,7 +7531,7 @@
   },
   "nello": {
     "speciesDisplay": "Nello",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6807,7 +7555,7 @@
   },
   "neondragon": {
     "speciesDisplay": "Neon Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6831,7 +7579,7 @@
   },
   "nessie": {
     "speciesDisplay": "Nessie",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6866,7 +7614,7 @@
   },
   "nessiebig": {
     "speciesDisplay": "Nessiebig",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6895,7 +7643,7 @@
   },
   "nidhogg": {
     "speciesDisplay": "Nidhogg",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6941,7 +7689,7 @@
   },
   "nightmarelucio": {
     "speciesDisplay": "Nightmare Lucio",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6965,7 +7713,7 @@
   },
   "ninjadragon": {
     "speciesDisplay": "Ninja Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -6989,7 +7737,7 @@
   },
   "ninmunia": {
     "speciesDisplay": "Ninmunia",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7024,7 +7772,7 @@
   },
   "noah": {
     "speciesDisplay": "Noah",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7051,7 +7799,7 @@
   },
   "non": {
     "speciesDisplay": "Non",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7089,7 +7837,7 @@
   },
   "nox": {
     "speciesDisplay": "Nox",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7113,7 +7861,7 @@
   },
   "obex": {
     "speciesDisplay": "Obex",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7137,7 +7885,7 @@
   },
   "oculus": {
     "speciesDisplay": "Oculus",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7161,7 +7909,7 @@
   },
   "paimon": {
     "speciesDisplay": "Paimon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7185,7 +7933,7 @@
   },
   "pancakedragon": {
     "speciesDisplay": "Pancake Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7201,7 +7949,7 @@
   },
   "pangpang": {
     "speciesDisplay": "Pangpang",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7214,7 +7962,7 @@
   },
   "paprion": {
     "speciesDisplay": "Paprion",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7230,7 +7978,7 @@
   },
   "party": {
     "speciesDisplay": "Party Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7254,7 +8002,7 @@
   },
   "patroa": {
     "speciesDisplay": "Patroa",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7283,7 +8031,7 @@
   },
   "penguingon": {
     "speciesDisplay": "Penguingon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7307,7 +8055,7 @@
   },
   "petra": {
     "speciesDisplay": "Petra",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7331,7 +8079,7 @@
   },
   "phantom": {
     "speciesDisplay": "Phantom",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7366,7 +8114,7 @@
   },
   "pharaogon": {
     "speciesDisplay": "Pharaogon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7390,7 +8138,7 @@
   },
   "phoenix": {
     "speciesDisplay": "Phoenix Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7436,7 +8184,7 @@
   },
   "pierrotdragon": {
     "speciesDisplay": "Pierrot Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7471,7 +8219,7 @@
   },
   "pinkbell": {
     "speciesDisplay": "Pink Bell",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7536,7 +8284,7 @@
   },
   "plumos": {
     "speciesDisplay": "Plumos",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7604,7 +8352,7 @@
   },
   "poisonriver": {
     "speciesDisplay": "Poison River",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7628,7 +8376,7 @@
   },
   "popomo": {
     "speciesDisplay": "Popomo",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7652,7 +8400,7 @@
   },
   "popon": {
     "speciesDisplay": "Popon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7676,7 +8424,7 @@
   },
   "porta": {
     "speciesDisplay": "Porta",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7722,7 +8470,7 @@
   },
   "poseidon": {
     "speciesDisplay": "Poseidon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7757,7 +8505,7 @@
   },
   "power": {
     "speciesDisplay": "Power Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7795,7 +8543,7 @@
   },
   "pureevilnon": {
     "speciesDisplay": "Pure Evil Non",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7811,7 +8559,7 @@
   },
   "purewhitefides": {
     "speciesDisplay": "Pure White Fides",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7835,7 +8583,7 @@
   },
   "purplelips": {
     "speciesDisplay": "Purple Lips",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7859,7 +8607,7 @@
   },
   "python": {
     "speciesDisplay": "Python",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7883,7 +8631,7 @@
   },
   "qanuk": {
     "speciesDisplay": "Qanuk",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7929,7 +8677,7 @@
   },
   "qualle": {
     "speciesDisplay": "Quale",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7953,7 +8701,7 @@
   },
   "rafael": {
     "speciesDisplay": "Rafael",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -7980,7 +8728,7 @@
   },
   "ragnarok": {
     "speciesDisplay": "Ragnarok",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8015,7 +8763,7 @@
   },
   "rakshasa": {
     "speciesDisplay": "Rakshasa",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8072,7 +8820,7 @@
   },
   "ranky": {
     "speciesDisplay": "Ranky (Day)",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8140,7 +8888,7 @@
   },
   "ranky2": {
     "speciesDisplay": "Ranky (Night)",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8208,7 +8956,7 @@
   },
   "razikas": {
     "speciesDisplay": "Razikas",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8232,7 +8980,7 @@
   },
   "redbulldragon": {
     "speciesDisplay": "Redbull Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8256,7 +9004,7 @@
   },
   "redtaabire": {
     "speciesDisplay": "Red Taabire",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8280,7 +9028,7 @@
   },
   "redwyvern": {
     "speciesDisplay": "Red Wyvern",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8304,7 +9052,7 @@
   },
   "regnator": {
     "speciesDisplay": "Regnator",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8350,7 +9098,7 @@
   },
   "rekmall": {
     "speciesDisplay": "Rekmall",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8374,7 +9122,7 @@
   },
   "remorseflorea": {
     "speciesDisplay": "Remorseful Florea",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8398,7 +9146,7 @@
   },
   "rock": {
     "speciesDisplay": "Rock Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8433,7 +9181,7 @@
   },
   "rosegold": {
     "speciesDisplay": "Rose Gold Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8460,7 +9208,7 @@
   },
   "rudeore": {
     "speciesDisplay": "Rude Ore",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8517,7 +9265,7 @@
   },
   "rugar": {
     "speciesDisplay": "Rugar",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8541,7 +9289,7 @@
   },
   "rupia": {
     "speciesDisplay": "Rupia",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8565,7 +9313,7 @@
   },
   "rupo": {
     "speciesDisplay": "Rupo",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8589,7 +9337,7 @@
   },
   "rusalka": {
     "speciesDisplay": "Rusalka",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8613,7 +9361,7 @@
   },
   "ruthperon": {
     "speciesDisplay": "Ruthperon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8637,7 +9385,7 @@
   },
   "rutilus": {
     "speciesDisplay": "Rutilus",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8653,7 +9401,7 @@
   },
   "sand": {
     "speciesDisplay": "Sand Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8677,7 +9425,7 @@
   },
   "scarlet": {
     "speciesDisplay": "Scarlet",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8701,7 +9449,7 @@
   },
   "scorpiondragon": {
     "speciesDisplay": "Scorpion Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8725,7 +9473,7 @@
   },
   "haemagon": {
     "speciesDisplay": "Seahorse Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8760,7 +9508,7 @@
   },
   "sealeddarknix": {
     "speciesDisplay": "Sealed Darknix",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8784,7 +9532,7 @@
   },
   "seere": {
     "speciesDisplay": "Seere",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8808,7 +9556,7 @@
   },
   "serpentdragon": {
     "speciesDisplay": "Serpent Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8829,7 +9577,7 @@
   },
   "serpentflower": {
     "speciesDisplay": "Serpent Flower Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8850,7 +9598,7 @@
   },
   "shadow": {
     "speciesDisplay": "Shadow Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8863,7 +9611,7 @@
   },
   "sharkgon": {
     "speciesDisplay": "Shark Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8906,7 +9654,7 @@
   },
   "sharptail": {
     "speciesDisplay": "Sharp Tail",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8930,7 +9678,7 @@
   },
   "siamesedragon": {
     "speciesDisplay": "Siamese Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8954,7 +9702,7 @@
   },
   "sigma": {
     "speciesDisplay": "Sigma",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -8989,7 +9737,7 @@
   },
   "sixleghorn": {
     "speciesDisplay": "Six-Leg Horn",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9035,7 +9783,7 @@
   },
   "skelegon": {
     "speciesDisplay": "Skelegon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9054,7 +9802,7 @@
   },
   "skinkdragon": {
     "speciesDisplay": "Skink Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9110,7 +9858,8 @@
     }
   },
   "skoorum": {
-    "speciesDisplay": "Skoorum","forms": {
+    "speciesDisplay": "Skoorum",
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9133,7 +9882,8 @@
     }
   },
   "skylancer": {
-    "speciesDisplay": "Sky Lancer","forms": {
+    "speciesDisplay": "Sky Lancer",
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9179,7 +9929,7 @@
   },
   "slimedragon": {
     "speciesDisplay": "Slime Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9208,7 +9958,7 @@
   },
   "slosi": {
     "speciesDisplay": "Slosi",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9232,7 +9982,7 @@
   },
   "smart": {
     "speciesDisplay": "Smart Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9269,7 +10019,7 @@
   },
   "snowfairydragon": {
     "speciesDisplay": "Snow Fairy Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9293,7 +10043,7 @@
   },
   "snowflowerpopomo": {
     "speciesDisplay": "Snow Flower Popomo",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9317,7 +10067,7 @@
   },
   "snowfrostdragon": {
     "speciesDisplay": "Snow Frost Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9341,7 +10091,7 @@
   },
   "solardragon": {
     "speciesDisplay": "Solar Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9365,7 +10115,7 @@
   },
   "solucanis": {
     "speciesDisplay": "Solucanis",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9422,7 +10172,7 @@
   },
   "spica": {
     "speciesDisplay": "Spica",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9482,7 +10232,7 @@
   },
   "spicy": {
     "speciesDisplay": "Spicy",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9509,7 +10259,7 @@
   },
   "spike": {
     "speciesDisplay": "Spike Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9536,7 +10286,7 @@
   },
   "spinedragon": {
     "speciesDisplay": "Spine Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9560,7 +10310,7 @@
   },
   "splender": {
     "speciesDisplay": "Splender",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9606,7 +10356,7 @@
   },
   "starace": {
     "speciesDisplay": "Star Ace",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9641,7 +10391,7 @@
   },
   "starrydragon": {
     "speciesDisplay": "Starry Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9665,7 +10415,7 @@
   },
   "stealthdragon": {
     "speciesDisplay": "Stealth Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9733,7 +10483,7 @@
   },
   "stra": {
     "speciesDisplay": "Stra",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9757,7 +10507,7 @@
   },
   "sullae": {
     "speciesDisplay": "Sullae",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9781,7 +10531,7 @@
   },
   "suradragon": {
     "speciesDisplay": "Sura Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9805,7 +10555,7 @@
   },
   "surtr": {
     "speciesDisplay": "Surtr",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9851,7 +10601,7 @@
   },
   "swamp": {
     "speciesDisplay": "Swamp Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9886,7 +10636,7 @@
   },
   "trexdragon": {
     "speciesDisplay": "T-Rex Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9910,7 +10660,7 @@
   },
   "taabire": {
     "speciesDisplay": "Taabire",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9934,7 +10684,7 @@
   },
   "taildragon": {
     "speciesDisplay": "Tail Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9958,7 +10708,7 @@
   },
   "taros": {
     "speciesDisplay": "Taros",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -9982,7 +10732,7 @@
   },
   "tattoodragon": {
     "speciesDisplay": "Tattoo Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10028,7 +10778,7 @@
   },
   "taygeta": {
     "speciesDisplay": "Taygeta",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10052,7 +10802,7 @@
   },
   "teddydragon": {
     "speciesDisplay": "Teddy Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10079,7 +10829,7 @@
   },
   "tediblo": {
     "speciesDisplay": "Tediblo",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10095,7 +10845,7 @@
   },
   "thunderboltdragon": {
     "speciesDisplay": "Thunderbolt Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10119,7 +10869,7 @@
   },
   "tiamat": {
     "speciesDisplay": "Tiamat",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10154,7 +10904,7 @@
   },
   "tilant": {
     "speciesDisplay": "Tilant",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10178,7 +10928,7 @@
   },
   "tilki": {
     "speciesDisplay": "Tilki",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10202,7 +10952,7 @@
   },
   "timber": {
     "speciesDisplay": "Timber Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10223,7 +10973,7 @@
   },
   "titan": {
     "speciesDisplay": "Titan",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10247,7 +10997,7 @@
   },
   "toarnesce": {
     "speciesDisplay": "Toarnesce",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10263,7 +11013,7 @@
   },
   "totemdragon": {
     "speciesDisplay": "Totem Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10301,7 +11051,7 @@
   },
   "tropheus": {
     "speciesDisplay": "Tropheus",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10325,7 +11075,7 @@
   },
   "tutankhagon": {
     "speciesDisplay": "Tutankhagon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10349,7 +11099,7 @@
   },
   "tycane": {
     "speciesDisplay": "Tycane",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10373,7 +11123,7 @@
   },
   "typhoondragon": {
     "speciesDisplay": "Typhoon Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10397,7 +11147,7 @@
   },
   "underground": {
     "speciesDisplay": "Underground Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10424,7 +11174,7 @@
   },
   "valcan": {
     "speciesDisplay": "Valcan",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10440,7 +11190,7 @@
   },
   "valefor": {
     "speciesDisplay": "Valefor",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10464,7 +11214,7 @@
   },
   "valla": {
     "speciesDisplay": "Valla",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10499,7 +11249,7 @@
   },
   "vargr": {
     "speciesDisplay": "Vargr",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10569,7 +11319,7 @@
   },
   "vaska": {
     "speciesDisplay": "Vaska",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10668,12 +11418,20 @@
             "color": "w"
           }
         }
+      },
+      "undead": {
+        "formDisplay": "Undead",
+        "genders": {
+          "n": {
+            "undeadres": "drake_n_adult_w"
+          }
+        }
       }
     }
   },
   "vefal": {
     "speciesDisplay": "Vefal",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10697,7 +11455,7 @@
   },
   "vegabond": {
     "speciesDisplay": "Vegabond",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10724,7 +11482,7 @@
   },
   "venomdragon": {
     "speciesDisplay": "Venom Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10740,7 +11498,7 @@
   },
   "vera": {
     "speciesDisplay": "Vera",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10764,7 +11522,7 @@
   },
   "vetala": {
     "speciesDisplay": "Vetala",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10788,7 +11546,7 @@
   },
   "volcano": {
     "speciesDisplay": "Volcano Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10812,7 +11570,7 @@
   },
   "voncias": {
     "speciesDisplay": "Voncias",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10836,7 +11594,7 @@
   },
   "vonsharkgon": {
     "speciesDisplay": "Vonsharkgon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10860,7 +11618,7 @@
   },
   "voodoodragon": {
     "speciesDisplay": "Voodoo Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10876,7 +11634,7 @@
   },
   "water": {
     "speciesDisplay": "Water Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10900,7 +11658,7 @@
   },
   "whaledragon": {
     "speciesDisplay": "Whale Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10924,7 +11682,7 @@
   },
   "whiteapple": {
     "speciesDisplay": "White Applecheek",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10948,7 +11706,7 @@
   },
   "whitedragon": {
     "speciesDisplay": "White Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10969,7 +11727,7 @@
   },
   "whitegold": {
     "speciesDisplay": "White Gold Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -10996,7 +11754,7 @@
   },
   "whitethunder": {
     "speciesDisplay": "White Thunder",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -11020,7 +11778,7 @@
   },
   "wind": {
     "speciesDisplay": "Wind Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -11060,7 +11818,7 @@
   },
   "wings": {
     "speciesDisplay": "Wings Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -11095,7 +11853,7 @@
   },
   "witchdragon": {
     "speciesDisplay": "Witch Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -11119,7 +11877,7 @@
   },
   "xmasdragon": {
     "speciesDisplay": "Xmas Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Carol of Light",
         "genders": {
@@ -11141,7 +11899,7 @@
             "color": "pb"
           }
         }
-      },	
+      },
       "03": {
         "formDisplay": "Star Tree",
         "genders": {
@@ -11165,7 +11923,7 @@
   },
   "yurion": {
     "speciesDisplay": "Yurion",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -11189,7 +11947,7 @@
   },
   "zephyros": {
     "speciesDisplay": "Zephyros",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -11213,7 +11971,7 @@
   },
   "zithakula": {
     "speciesDisplay": "Zithakula",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
@@ -11229,7 +11987,7 @@
   },
   "zombiedragon": {
     "speciesDisplay": "Zombie Dragon",
-	"forms": {
+    "forms": {
       "01": {
         "formDisplay": "Default",
         "genders": {
