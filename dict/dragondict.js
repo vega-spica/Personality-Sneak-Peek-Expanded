@@ -4302,6 +4302,37 @@ const speciesJson = {
       }
     }
   },
+  "feyrex": {
+    "speciesDisplay": "Feyrex",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "02",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "fides": {
     "speciesDisplay": "Fides",
     "stage": {
