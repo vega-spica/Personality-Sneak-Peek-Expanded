@@ -12253,7 +12253,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Cherry Blossom",
+            "formDisplay": "Cherry Tree",
             "genders": {
               "n": {
                 "color": "rp"
