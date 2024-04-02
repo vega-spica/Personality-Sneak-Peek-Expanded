@@ -6394,6 +6394,26 @@ const speciesJson = {
       }
     }
   },
+  "kelpswampdragon": {
+    "speciesDisplay": "Kelp Swamp Dragon",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "khan": {
     "speciesDisplay": "Khan",
     "stage": {
