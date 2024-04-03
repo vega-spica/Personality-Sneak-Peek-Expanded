@@ -5775,7 +5775,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Final Guardian",
             "genders": {
               "f": {
                 "color": "w"
