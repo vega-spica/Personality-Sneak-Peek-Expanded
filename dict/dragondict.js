@@ -7368,46 +7368,46 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Graywater",
+            "formDisplay": "Desert Lineage",
             "genders": {
               "f": {
-                "color": ""
+                "color": "y"
               },
               "m": {
-                "color": ""
+                "color": "y"
               }
             }
           },
           "03": {
-            "formDisplay": "Flame",
+            "formDisplay": "Grassland Lineage",
             "genders": {
               "f": {
-                "color": ""
+                "color": "y"
               },
               "m": {
-                "color": ""
+                "color": "y"
               }
             }
           },
           "04": {
-            "formDisplay": "Crystal",
+            "formDisplay": "Deep Sea Lineage",
             "genders": {
               "f": {
-                "color": "w"
+                "color": "b"
               },
               "m": {
-                "color": "w"
+                "color": "b"
               }
             }
           },
           "05": {
-            "formDisplay": "King",
+            "formDisplay": "Volcano Lineage",
             "genders": {
               "f": {
-                "color": ""
+                "color": "r"
               },
               "m": {
-                "color": ""
+                "color": "r"
               }
             }
           },
