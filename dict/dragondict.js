@@ -7367,6 +7367,50 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Graywater",
+            "genders": {
+              "f": {
+                "color": ""
+              },
+              "m": {
+                "color": ""
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Flame",
+            "genders": {
+              "f": {
+                "color": ""
+              },
+              "m": {
+                "color": ""
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "Crystal",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "King",
+            "genders": {
+              "f": {
+                "color": ""
+              },
+              "m": {
+                "color": ""
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
