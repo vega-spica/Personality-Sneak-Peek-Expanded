@@ -17,8 +17,7 @@
         frontAura: null,
         dragon: null,
       };
-
-		
+	
 			var species;
 			var personality;
 			var gender = "m";
@@ -40,6 +39,9 @@
 			
 			
 			function init() {
+				var speciesParam = new URLSearchParams(location.search).get('species');
+				console.log(speciesParam);
+				speciesName = speciesParam === null ? speciesName : speciesParam;
 				//get list of species
 				var speciesKeys = Object.keys(speciesJson);
 				
@@ -71,6 +73,7 @@
 					speciesOption.value = speciesKeys[i];
 					species.appendChild(speciesOption);
 				};
+				species.value = speciesName;
 				
 				//create option tags for Personalities
 				var personalityOption;
@@ -92,6 +95,7 @@
 				
 				initializeGenderButtons();
 				initializeStageButtons();
+				changeDragonSprite();
 			}
 			
 			function setGender(genderValue){
@@ -286,8 +290,6 @@
           canvases.dragon = new spine.SpineCanvas(dragonCanvasElem, {
             app: new SpineObject(url, animState)
           });
-
-					window.addEventListener("load", loadSpineDragon);
 				}				
 			}
 
@@ -339,17 +341,6 @@
 		</div>
 	
 		<img id="dragon-image">
-		<!--initial dragon is loaded on page open (always set this to be the first one in the list. you've been warned.)-->
-		<script type="text/javascript">
-      let loadSpineDragon = function() { 
-        const dragonCanvasElem = document.getElementById("dragonCanvas");
-
-        canvases.dragon = new spine.SpineCanvas(dragonCanvasElem, {
-          app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/abaddon_01_m_adult_p/abaddon_01_m_adult_p", "idle")
-        });
-      }
-      window.addEventListener("load", loadSpineDragon);
-		</script>
 		
 		<!--initial blank back aura canvas is loaded on page open-->
 		<script type="text/javascript">
