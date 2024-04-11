@@ -40,7 +40,6 @@
 			
 			function init() {
 				var speciesParam = new URLSearchParams(location.search).get('species');
-				console.log(speciesParam);
 				speciesName = speciesParam === null ? speciesName : speciesParam;
 				//get list of species
 				var speciesKeys = Object.keys(speciesJson);
@@ -421,6 +420,8 @@
 			<label for="holding" id="holdingLabel">Holding</label>
 			<input type="radio" name="animation" value="touch" id="touch" onchange="setanimState(this.value)"> 
 			<label for="touch" id="touchLabel">Touch</label>
+			<input type="radio" name="animation" value="" id="none" onchange="setanimState(this.value)">
+			<label for="none" id="touchLabel">None</label>
 		</div>
 		<br>
 	
