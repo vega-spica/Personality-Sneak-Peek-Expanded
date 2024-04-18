@@ -67,7 +67,7 @@ const personalityJson = {
 		"back" : "aura_b_black",
 		"front" : ""
 	},
-	"Chaos" : {
+	"Chaotic" : {
 		"back" : "aura_s_blackblue",
 		"front" : "aura_s_blackblue"
 	},
@@ -180,6 +180,11 @@ const personalityJson = {
 	"Introvert" : {
 		"back" : "aura_a2_red",
 		"front" : "a2"
+	},
+	"Judgement": {
+		"each": "aura_s_judgement",
+		"back": "back",
+		"front": "front"
 	},
 	"Lax" : {
 		"back" : "aura_b_pink",
