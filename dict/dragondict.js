@@ -4893,6 +4893,14 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "drake02_w_hatch_w"
+              }
+            }
           }
         }
       },
@@ -4930,6 +4938,14 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "drake02_w_hatchling_w"
+              }
+            }
           }
         }
       },
@@ -4965,6 +4981,14 @@ const speciesJson = {
               },
               "m": {
                 "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "drake02_w_adult_w"
               }
             }
           }
@@ -16633,6 +16657,14 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
           }
         }
       },
@@ -16670,6 +16702,14 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatchling_w"
+              }
+            }
           }
         }
       },
@@ -16705,6 +16745,14 @@ const speciesJson = {
               },
               "m": {
                 "color": "p"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_adult_w"
               }
             }
           }
@@ -28908,6 +28956,14 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
           }
         }
       },
@@ -28945,6 +29001,14 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
           }
         }
       },
@@ -28980,6 +29044,14 @@ const speciesJson = {
               },
               "m": {
                 "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
               }
             }
           }
