@@ -4884,7 +4884,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Judgement",
+            "formDisplay": "Judge",
             "genders": {
               "f": {
                 "color": "bk"
@@ -4929,7 +4929,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Judgement",
+            "formDisplay": "Judge",
             "genders": {
               "f": {
                 "color": "bk"
@@ -4974,7 +4974,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Judgement",
+            "formDisplay": "Judge",
             "genders": {
               "f": {
                 "color": "bk"
@@ -9039,6 +9039,14 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
           }
         }
       },
@@ -9054,6 +9062,14 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
           }
         }
       },
@@ -9067,6 +9083,14 @@ const speciesJson = {
               },
               "m": {
                 "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
               }
             }
           }
@@ -16648,7 +16672,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Judgement",
+            "formDisplay": "Judge",
             "genders": {
               "f": {
                 "color": "p"
@@ -16693,7 +16717,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Judgement",
+            "formDisplay": "Judge",
             "genders": {
               "f": {
                 "color": "p"
@@ -16738,7 +16762,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Judgement",
+            "formDisplay": "Judge",
             "genders": {
               "f": {
                 "color": "p"
@@ -28947,7 +28971,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Judgement",
+            "formDisplay": "Judge",
             "genders": {
               "f": {
                 "color": "w"
@@ -28992,7 +29016,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Judgement",
+            "formDisplay": "Judge",
             "genders": {
               "f": {
                 "color": "w"
@@ -29037,7 +29061,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Judgement",
+            "formDisplay": "Judge",
             "genders": {
               "f": {
                 "color": "w"

@@ -181,7 +181,7 @@ const personalityJson = {
 		"back" : "aura_a2_red",
 		"front" : "a2"
 	},
-	"Judgement": {
+	"Judgmental": {
 		"each": "aura_s_judgement",
 		"back": "back",
 		"front": "front"
