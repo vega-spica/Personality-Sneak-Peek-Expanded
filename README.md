@@ -1,6 +1,6 @@
 website: https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/<br>
 Desktop view is recommended.<br>
-Gender icons can be clicked, as well as screen-read for accessibility.<br>
+Gender/Evolution icons can be clicked, as well as screen-read for accessibility.<br>
 Dragon Village Collection assets and all Dragon Village characters ©highbrow Corp<br>
 <br>
 i will do my best to continue updating this tool as i am able, and to ensure that it does not contain or collect any sensitive information.<br>
