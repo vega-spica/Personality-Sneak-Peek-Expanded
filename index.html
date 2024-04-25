@@ -63,6 +63,8 @@
 				hatchlingLabel = document.getElementById("hatchlingLabel");
 				adultButton = document.getElementById("adult");
 				adultLabel = document.getElementById("adultLabel");
+				essenceButton = document.getElementById("essence");
+				essenceLabel = document.getElementById("essenceLabel");
 				
 				//create option tags for Species
 				var speciesOption;
@@ -150,12 +152,16 @@
 				hatchButton.setAttribute('aria-disabled', true);
 				hatchlingButton.disabled = true;
 				hatchlingButton.setAttribute('aria-disabled', true);
+				essenceButton.disabled = true;
+				essenceButton.setAttribute('aria-disabled', true);
 
-				//add disabled class to hatch and hatchling labels
+				//add disabled class to hatch, hatchling, and essence labels
 				hatchLabel.classList.add("disabledButton");
 				hatchLabel.setAttribute('aria-disabled', true);
 				hatchlingLabel.classList.add("disabledButton");
 				hatchlingLabel.setAttribute('aria-disabled', true);
+				essenceLabel.classList.add("disabledButton");
+				essenceLabel.setAttribute('aria-disabled', true);
 
 				//enable valid buttons
 				if (speciesJson[speciesName].stage['hatch'] !== undefined && speciesJson[speciesName].stage['hatch'].forms[formNumber] !== undefined){
@@ -169,6 +175,12 @@
 					hatchlingButton.setAttribute('aria-disabled', false);
 					hatchlingLabel.classList.remove("disabledButton");
 					hatchlingLabel.setAttribute('aria-disabled', false);
+				}
+				if (speciesJson[speciesName].stage['essence'] !== undefined && speciesJson[speciesName].stage['essence'].forms[formNumber] !== undefined) {
+					essenceButton.disabled = false;
+					essenceButton.setAttribute('aria-disabled', false);
+					essenceLabel.classList.remove("disabledButton");
+					essenceLabel.setAttribute('aria-disabled', false);
 				}
 			}
 			
@@ -406,6 +418,10 @@
 			<input type="radio" name="stage" value="adult" id="adult" onchange="setStage(this.value)" checked> 
 			<label for="adult" id="adultLabel" aria-disabled="false">
 				<img src="./res/img/stage_adult.png" alt="adult selection">
+			</label>
+			<input type="radio" name="stage" value="essence" id="essence" onchange="setStage(this.value)"/>
+			<label for="essence" id="essenceLabel" aria-disabled="false">
+				<img src="./res/img/stage_essence.png" alt="essence selection">
 			</label>
 		</div>
 		<br>
