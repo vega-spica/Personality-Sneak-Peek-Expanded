@@ -1,0 +1,7 @@
+effect_axe.png
+size:128,104
+filter:Linear,Linear
+pma:true
+axe_01
+bounds:2,2,124,100
+offsets:20,32,160,160

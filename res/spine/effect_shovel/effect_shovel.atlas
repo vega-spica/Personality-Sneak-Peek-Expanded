@@ -1,0 +1,7 @@
+effect_shovel.png
+size:132,132
+filter:Linear,Linear
+pma:true
+shovel_01
+bounds:2,2,128,128
+offsets:20,12,160,160

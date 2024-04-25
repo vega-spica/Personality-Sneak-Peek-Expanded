@@ -1,0 +1,13 @@
+town_building_goldstorage_6x7_01.png
+size:690,256
+filter:Linear,Linear
+flag
+bounds:410,24,88,80
+rotate:90
+gold
+bounds:492,50,196,62
+gold_full
+bounds:410,114,248,140
+sketch
+bounds:2,2,252,406
+rotate:90
