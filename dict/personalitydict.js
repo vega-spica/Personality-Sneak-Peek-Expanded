@@ -239,6 +239,11 @@ const personalityJson = {
 		"back" : "aura_s_transparent",
 		"front" : "aura_s_transparent"
 	},
+	"Purified": {
+		"each": "aura_s_purifying",
+		"back": "back",
+		"front": "front"
+	},
 	"Quick Witted" : {
 		"back" : "aura_b_yellowgreen",
 		"front" : ""
