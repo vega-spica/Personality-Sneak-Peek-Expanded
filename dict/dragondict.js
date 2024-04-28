@@ -30379,7 +30379,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Moon Bite",
+            "formDisplay": "Moon Eater",
             "genders": {
               "f": {
                 "color": "bk"
@@ -30390,7 +30390,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Sun Bite",
+            "formDisplay": "Sun Eater",
             "genders": {
               "f": {
                 "color": "bk"
@@ -30435,7 +30435,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Moon Bite",
+            "formDisplay": "Moon Eater",
             "genders": {
               "f": {
                 "color": "bk"
@@ -30446,7 +30446,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Sun Bite",
+            "formDisplay": "Sun Eater",
             "genders": {
               "f": {
                 "color": "bk"
@@ -30491,7 +30491,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Moon Bite",
+            "formDisplay": "Moon Eater",
             "genders": {
               "f": {
                 "color": "bk"
@@ -30502,7 +30502,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Sun Bite",
+            "formDisplay": "Sun Eater",
             "genders": {
               "f": {
                 "color": "bk"
@@ -33327,6 +33327,52 @@ const speciesJson = {
   "titan": {
     "speciesDisplay": "Titan",
     "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "drake_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
       "adult": {
         "forms": {
           "01": {
@@ -33355,6 +33401,52 @@ const speciesJson = {
   "toarnesce": {
     "speciesDisplay": "Toarnesce",
     "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
       "adult": {
         "forms": {
           "01": {
@@ -33381,7 +33473,7 @@ const speciesJson = {
     }
   },
   "toddletomtom": {
-    "speciesDisplay": "Toddle Tomtom",
+    "speciesDisplay": "Toddletomtom",
     "stage": {
       "hatch": {
         "forms": {
@@ -33483,6 +33575,80 @@ const speciesJson = {
   "totemdragon": {
     "speciesDisplay": "Totem Dragon",
     "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Underground Castle",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "f": {
+                "undeadres": "dragon_n_adult_w"
+              },
+              "m": {
+                "undeadres": "muscle_n_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Underground Castle",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "f": {
+                "undeadres": "dragon_w_hatchling_w"
+              },
+              "m": {
+                "undeadres": "muscle_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
       "adult": {
         "forms": {
           "01": {

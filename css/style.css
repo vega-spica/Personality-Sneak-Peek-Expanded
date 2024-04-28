@@ -33,7 +33,7 @@ a:hover {
 
 /* hic sunt dracones */
 .spineCanvas {
-    width: 700%;
+    width: 800%;
     height: 400%;
     position: absolute;
     transform: translate(-50%, -15%);
@@ -219,7 +219,7 @@ input[type='radio'] {
 /* (and for those of us at 150% because we can't see...) */
 @media (min-resolution: 125dpi) {
 	.spineCanvas {
-		width: 475%;
+		width: 550%;
 		height: 280%;
 	}
 
