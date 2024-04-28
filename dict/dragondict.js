@@ -2320,13 +2320,29 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Glowing Breath",
             "genders": {
               "f": {
                 "color": "bk"
               },
               "m": {
                 "color": "bk"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead (Default)",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead02": {
+            "formDisplay": "Undead (Glowing Breath)",
+            "genders": {
+              "n": {
+                "color": ".png"
               }
             }
           }
@@ -2346,13 +2362,29 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Glowing Breath",
             "genders": {
               "f": {
                 "color": "bk"
               },
               "m": {
                 "color": "bk"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead (Default)",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead02": {
+            "formDisplay": "Undead (Glowing Breath)",
+            "genders": {
+              "n": {
+                "color": ".png"
               }
             }
           }
@@ -2372,13 +2404,29 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Glowing Breath",
             "genders": {
               "f": {
                 "color": "bk"
               },
               "m": {
                 "color": "bk"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead (Default)",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead02": {
+            "formDisplay": "Undead (Glowing Breath)",
+            "genders": {
+              "n": {
+                "color": ".png"
               }
             }
           }
@@ -6266,6 +6314,14 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "deaddead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
           }
         }
       },
@@ -6301,6 +6357,14 @@ const speciesJson = {
               },
               "m": {
                 "color": "pb"
+              }
+            }
+          },
+          "deaddead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
               }
             }
           }
@@ -11333,6 +11397,14 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "deaddead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
           }
         }
       },
@@ -11346,6 +11418,14 @@ const speciesJson = {
               },
               "m": {
                 "color": "bk"
+              }
+            }
+          },
+          "deaddead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
               }
             }
           }
