@@ -3,8 +3,6 @@ const personalityJson = {
 		"back" : "",
 		"front" : ""
 	},
-	"[Custom]": {
-	},
 	"Abundant" : {
 		"back" : "aura_e_emart",
 		"front" : "aura_e_emart"
@@ -232,6 +230,8 @@ const personalityJson = {
 	"Noble" : {
 		"back" : "aura_s_star",
 		"front" : "aura_s_star2"
+	},
+	"Only for me": {
 	},
 	"Perfectionist" : {
 		"back" : "aura_s_universe1",
