@@ -1,7 +1,6 @@
 npc_wito.png
 size:478,1162
 filter:Linear,Linear
-pma:true
 angry
 bounds:2,2,226,174
 happy

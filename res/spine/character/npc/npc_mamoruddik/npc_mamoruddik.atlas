@@ -1,7 +1,6 @@
 npc_mamoruddik.png
 size:590,1382
 filter:Linear,Linear
-pma:true
 angry
 bounds:198,2,158,194
 rotate:90

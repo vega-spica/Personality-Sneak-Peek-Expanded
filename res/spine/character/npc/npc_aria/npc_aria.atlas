@@ -1,7 +1,6 @@
 npc_aria.png
 size:438,1250
 filter:Linear,Linear
-pma:true
 angry
 bounds:150,2,138,146
 aria

@@ -1,7 +1,6 @@
 npc_arnold.png
 size:618,1426
 filter:Linear,Linear
-pma:true
 angry
 bounds:178,2,162,174
 rotate:90

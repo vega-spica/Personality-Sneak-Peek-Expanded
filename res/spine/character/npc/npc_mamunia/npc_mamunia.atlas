@@ -1,7 +1,6 @@
 npc_mamunia.png
 size:902,338
 filter:Linear,Linear
-pma:true
 angry
 bounds:714,2,186,146
 happy

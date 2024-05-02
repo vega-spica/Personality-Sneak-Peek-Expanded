@@ -1,7 +1,6 @@
 npc_leona.png
 size:566,1462
 filter:Linear,Linear
-pma:true
 angry
 bounds:2,2,138,138
 happy
