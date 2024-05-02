@@ -3,6 +3,8 @@ const personalityJson = {
 		"back" : "",
 		"front" : ""
 	},
+	"[Custom]": {
+	},
 	"Abundant" : {
 		"back" : "aura_e_emart",
 		"front" : "aura_e_emart"

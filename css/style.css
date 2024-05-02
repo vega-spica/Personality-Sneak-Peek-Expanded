@@ -161,6 +161,13 @@ select:focus {
   outline: 0;
 }
 
+#customselect {
+  display: none;
+  select {
+    width: 100px;
+  }
+}
+
 /* clickable radio labels are very much in style. */
 #animRadios label {
   cursor: pointer;

@@ -7,6 +7,8 @@
 		<script src="./js/spineObject.js"></script>
 		<script src="./dict/dragondict.js"></script>
 		<script src="./dict/personalitydict.js"></script>
+		<script src="./dict/customfrontdict.js"></script>
+		<script src="./dict/custombackdict.js"></script>
 		<script src="https://unpkg.com/@esotericsoftware/spine-webgl@4.1.*/dist/iife/spine-webgl.js"></script>
 		<script>
 			window.onload = init;
@@ -36,6 +38,10 @@
 			var speciesDisplay;
 			var formDisplay;
 			var stage = "adult";
+			var customfront;
+			var customfrontcolour;
+			var customback;
+			var custombackcolour;
 			
 			
 			function init() {
@@ -46,6 +52,12 @@
 				
 				//get a list of personalities
 				var personalityKeys = Object.keys(personalityJson);
+
+				//get a list of custom fronts
+				var customfrontKeys = Object.keys(customfrontJson);
+
+				//get a list of custom backs
+				var custombackKeys = Object.keys(custombackJson);
 				
 				// assign the appearance control elements to the global variables
 				species = document.getElementById("species");
@@ -65,6 +77,10 @@
 				adultLabel = document.getElementById("adultLabel");
 				essenceButton = document.getElementById("essence");
 				essenceLabel = document.getElementById("essenceLabel");
+				customfront = document.getElementById("customfront");
+				customfrontcolour = document.getElementById("customfrontcolour");
+				customback = document.getElementById("customback");
+				custombackcolour = document.getElementById("custombackcolour");
 				
 				//create option tags for Species
 				var speciesOption;
@@ -83,17 +99,53 @@
 					personalityOption.innerText = personalityKeys[i];
 					personalityOption.value = personalityKeys[i];
 					personality.appendChild(personalityOption);
-				}
+				};
 				
 				//create option tags for Forms
 				var formKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms);
 				for (var i = 0; i < formKeys.length; i++){
 					formOption = document.createElement("option");
-						formOption.innerText = speciesJson[speciesName].stage["adult"].forms[formKeys[i]].formDisplay;
+					formOption.innerText = speciesJson[speciesName].stage["adult"].forms[formKeys[i]].formDisplay;
 					formOption.value = formKeys[i];
 					form.appendChild(formOption);
-				}
-				
+				};
+
+				//create option tags for Custom fronts
+				var customfrontOption;
+				for (var i = 0; i < customfrontKeys.length; i++) {
+					customfrontOption = document.createElement("option");
+					customfrontOption.innerText = customfrontKeys[i];
+					customfrontOption.value = customfrontKeys[i];
+					customfront.appendChild(customfrontOption);
+				};
+
+				//create option tags for Custom front colours
+				var customfrontcolourKeys = Object.keys(customfrontJson["[None]"]);
+				for (var i = 0; i < customfrontcolourKeys.length; i++) {
+					customfrontcolourOption = document.createElement("option");
+					customfrontcolourOption.innerText = customfrontcolourKeys[i];
+					customfrontcolourOption.value = customfrontcolourKeys[i];
+					customfrontcolour.appendChild(customfrontcolourOption);
+				};
+
+				//create option tags for Custom backs
+				var custombackOption;
+				for (var i = 0; i < custombackKeys.length; i++) {
+					custombackOption = document.createElement("option");
+					custombackOption.innerText = custombackKeys[i];
+					custombackOption.value = custombackKeys[i];
+					customback.appendChild(custombackOption);
+				};
+
+				//create option tags for Custom back colours
+				var custombackcolourKeys = Object.keys(custombackJson["[None]"]);
+				for (var i = 0; i < custombackcolourKeys.length; i++) {
+					custombackcolourOption = document.createElement("option");
+					custombackcolourOption.innerText = custombackcolourKeys[i];
+					custombackcolourOption.value = custombackcolourKeys[i];
+					custombackcolour.appendChild(custombackcolourOption);
+				};
+
 				initializeGenderButtons();
 				initializeStageButtons();
 				changeDragonSprite();
@@ -310,13 +362,26 @@
 
 			//load new personality when changed
 			function updatePersonalityUrl() {
+				document.getElementById("customselect").style.display = "none";
         // disposing of old resources before assigning new one to avoid performance issue
         if (canvases.backAura) { canvases.backAura.dispose(); }
         if (canvases.frontAura) { canvases.frontAura.dispose(); }
 
 				var personalityName = personality.value;
-				//this bit is only here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!  
-				if (personalityJson[personalityName].each !== undefined) {
+				//this bit is only here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!
+					//edit: and of course, they weren't special enough, so they added custom ones that are °˳⁠˚⁠∘⁠✧super special✧∘⁠˚⁠˳⁠°!! 
+				if(personalityName === "[Custom]") {
+					document.getElementById("customselect").style.display = "block";
+					var customfrontSelection = customfrontJson[customfront.value];
+					var custombackSelection = custombackJson[customback.value];
+					canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
+						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", custombackSelection[custombackcolour.value])
+					});
+					canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
+						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", customfrontSelection[customfrontcolour.value])
+					});
+				}
+				else if (personalityJson[personalityName].each !== undefined) {
 					canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
 						app: new SpineObject(`https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/${personalityJson[personalityName].each}/${personalityJson[personalityName].each}`, personalityJson[personalityName].back)
 					});
@@ -395,8 +460,32 @@
 		<select id ="form" name="form" onchange="updateForm();">
 		</select>
 
+	
+	<div id="customselect">
+		<br>
+	<!--selection for custom fronts where entries are appended-->
+	<b>Front</b>
+		<select id="customfront" name="customfront" onchange="updatePersonalityUrl();">
+		</select>
+	
+	<!--selection for custom front colours where entries are appended-->
+		<select id="customfrontcolour" name="customfrontcolour" onchange="updatePersonalityUrl();">
+		</select>
+	&nbsp;
+	&nbsp;
+
+	<!--selection for custom backs where entries are appended-->
+	<b>Back</b>
+		<select id="customback" name="customback" onchange="updatePersonalityUrl();">
+		</select>
+
+	<!--selection for custom back colours where entries are appended-->
+		<select id="custombackcolour" name="custombackcolour" onchange="updatePersonalityUrl();">
+		</select>
+	</div>
+	<br>
 	<!--who needs text for radio buttons, anyways?-->
-	<br><br>
+	<br>
 		<div id="genderRadios">
 			<input type="radio" name="gender" value="m" id="male" onchange="setGender(this.value)" checked/>
 			<label for="male" id="maleLabel" aria-disabled="false">
