@@ -42,11 +42,22 @@
 			var customfrontcolour;
 			var customback;
 			var custombackcolour;
+			var personalityName;
 			
 			
 			function init() {
+				//hey, wanna see a cool trick?
+					//https://vega-spica.github.io/Personality-Sneak-Peek-Expanded?species=chaosjanerr
+						//now you're forced to see Gerner!
 				var speciesParam = new URLSearchParams(location.search).get('species');
 				speciesName = speciesParam === null ? speciesName : speciesParam;
+
+				//and now i can force you to see Gerner with a matching aura it can never have.
+					//https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/?species=chaosjanerr&personality=Baleful
+						//sad times.
+				var personalityParam = new URLSearchParams(location.search).get('personality');
+				personalityName = personalityParam === null ? personalityName : personalityParam;
+				
 				//get list of species
 				var speciesKeys = Object.keys(speciesJson);
 				
@@ -100,6 +111,10 @@
 					personalityOption.value = personalityKeys[i];
 					personality.appendChild(personalityOption);
 				};
+				if (personalityName) {
+					personality.value = personalityName;
+				}
+				
 				
 				//create option tags for Forms
 				var formKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms);
@@ -149,6 +164,11 @@
 				initializeGenderButtons();
 				initializeStageButtons();
 				changeDragonSprite();
+				//(okay, so we're gonna put a tiny timeout here for aura url params to work)
+					//(because Spine is being stupid for some reason)
+				setTimeout(() => {
+					updatePersonalityUrl();
+				});
 			}
 			
 			function setGender(genderValue){
@@ -362,12 +382,14 @@
 
 			//load new personality when changed
 			function updatePersonalityUrl() {
+				console.log(personalityName);
 				document.getElementById("customselect").style.display = "none";
         // disposing of old resources before assigning new one to avoid performance issue
         if (canvases.backAura) { canvases.backAura.dispose(); }
         if (canvases.frontAura) { canvases.frontAura.dispose(); }
 
-				var personalityName = personality.value;
+				personalityName = personality.value;
+				console.log(personalityName);
 				//this bit is only here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!
 					//edit: and of course, they weren't special enough, so they added custom ones that are °˳⁠˚⁠∘⁠✧super special✧∘⁠˚⁠˳⁠°!! 
 				if(personalityName === "My Own") {
@@ -391,6 +413,7 @@
 				}
 				//of course, we love all the rest of them. but they're not special.
 				else {
+					console.log(personalityName);
 					canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
 						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", personalityJson[personalityName].back)
 					});
@@ -398,6 +421,7 @@
 						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_front/aura_front", personalityJson[personalityName].front)
 					});
 				}
+				console.log(personalityName);
 			}
 		</script>
 	</head>
