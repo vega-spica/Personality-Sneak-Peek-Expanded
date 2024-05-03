@@ -382,14 +382,12 @@
 
 			//load new personality when changed
 			function updatePersonalityUrl() {
-				console.log(personalityName);
 				document.getElementById("customselect").style.display = "none";
         // disposing of old resources before assigning new one to avoid performance issue
         if (canvases.backAura) { canvases.backAura.dispose(); }
         if (canvases.frontAura) { canvases.frontAura.dispose(); }
 
 				personalityName = personality.value;
-				console.log(personalityName);
 				//this bit is only here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!
 					//edit: and of course, they weren't special enough, so they added custom ones that are °˳⁠˚⁠∘⁠✧super special✧∘⁠˚⁠˳⁠°!! 
 				if(personalityName === "My Own") {
@@ -413,7 +411,6 @@
 				}
 				//of course, we love all the rest of them. but they're not special.
 				else {
-					console.log(personalityName);
 					canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
 						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", personalityJson[personalityName].back)
 					});
@@ -421,7 +418,6 @@
 						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_front/aura_front", personalityJson[personalityName].front)
 					});
 				}
-				console.log(personalityName);
 			}
 		</script>
 	</head>
