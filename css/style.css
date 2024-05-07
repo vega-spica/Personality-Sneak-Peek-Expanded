@@ -313,6 +313,24 @@ input[type='radio'] {
   flex-direction: row;
 }
 
+/*boy, do i hate mobile...*/
+@media screen and (max-width: 560px) {
+  .footer {
+    padding-top: 120%;
+  }
+
+  .dragonCanvas {
+    margin-top: 145%;
+  }
+
+  #dragon-image {
+    position: absolute;
+    z-index: 0;
+    max-width: 40%;
+    margin-top: 54%;
+    margin-left: 30%;
+  }
+}
 
 /* (and for those of us at 150% because we can't see...) */
 @media (min-resolution: 125dpi) {
