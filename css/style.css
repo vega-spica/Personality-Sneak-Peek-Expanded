@@ -36,40 +36,53 @@ a:hover {
     width: 800%;
     height: 400%;
     position: absolute;
-    transform: translate(-50%, -15%);
+    transform: translate(-50%, -0%);
 }
 
 .auraBackCanvas {
     z-index: -1;
+    padding: 100% 100% 100% 100%;
+    margin-top: 120%;
 }
 
-.dragonCanvas {s
+.dragonCanvas {
     z-index: 0;
+    padding: 100% 100% 100% 100%;
+    margin-top: 120%;
 }
 
 /* frame. FRAME!!! */
 #dragon-image {
-    position: absolute;
-	width: 20%;
-    transform: translate(172%, -83%);
-	z-index: 0;
+  position: absolute;
+  z-index: 0;
+  max-width: 40%;
+  margin-top: 54%;
+  margin-left: 30%;
 }
 
 .auraFrontCanvas {
-    z-index: 1;
+  z-index: 1;
+  padding: 100% 100% 100% 100%;
+  margin-top: 120%;
+}
+
+.backgroundCanvas {
+    z-index: -3;
+    width: 800%;
+    height: 400%;
+    position: absolute;
+
+}
+
+.floorCanvas {
+    width: 800%;
+    height: 400%;
+    position: absolute;
+    margin-top: 42%;
+    z-index: -2;
 }
 
 /* why is everything such a pain to center?!? */
-.flex-container{
-	color: #c0cc83;
-    text-align: center;
-	font-size: 15px;
-	line-height: 20px;
-	position: relative;
-	z-index: 2;
-	padding-top: 110px;
-}
-
 .grid-container {
   display: grid;
   justify-content: center;
@@ -77,31 +90,94 @@ a:hover {
 }
 
 .grid-item {
-    position:relative;
-    text-align: center;
+  position:relative;
+  text-align: center;
 	height: 200px;
 	width: 100px;
+}
+
+/* i had to restyle this WHOLE site just to add backgrounds... */
+    /* never again... */
+.left-container {
+    color: #c0cc83;
+    max-width: 450px;
+    font-size: 15px;
+    text-align: right;
+    line-height: 20px;
+    position: relative;
+    padding-top: 17%;
+    padding-left: 10%;
+    z-index: 2;
+}
+
+.right-container {
+    color: #c0cc83;
+    max-width: 450px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+    padding-top: 17%;
+    padding-right: 8%;
+    z-index: 2;
+}
+
+.center-container {
+  color: #c0cc83;
+  max-width: 1000px;
+  text-align: center;
+  line-height: 20px;
+  flex-grow: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.species-container {
+  text-align: right;
+  margin-right: 22%;
+}
+
+.animRadios {
+  text-align: left;
+  line-height: 150%;
+  margin-left: 35%;
+}
+
+.genderRadios {
+  margin-right: 10%;
+}
+
+.bgRadios {
+  text-align: left;
+  line-height: 150%;
+  margin-left: 30%;
+}
+
+.floorRadios {
+  text-align: left;
+  line-height: 150%;
+  margin-left: 30%;
 }
 
 /* totally for the header bar at the top */
 .header {
 	color:white;
 	text-align: center;
-    font-family: "NotoSans";
-    font-size: 15px;
-	padding-bottom: 100px;
+  font-family: "NotoSans";
+  font-size: 14px;
 	position: relative;
 	z-index: 2;
 }
 
 /* footer, now with 33% more feet. */
-.footer{
-	color: #dfc690;
+.footer {
+    color: #dfc690;
     text-align: center;
-    font-family: sans-serif-serif;
-	font-size: 12px;
-	position: relative;
-	z-index: 2;
+    font-family: 'NotoSans', sans-serif;
+    font-size: 14px;
+    padding-top: 85%;
+    position: relative;
+    z-index: 2;
 }
 
 /* new fancy dropdowns~ */
@@ -174,7 +250,7 @@ select:focus {
   position: relative;
 }
 
-/* nifty gender buttons. yes, they're nifty. */
+/* nifty radio buttons. yes, they're nifty. */
 #genderRadios label {
   cursor: pointer;
   position: relative;
@@ -185,6 +261,18 @@ select:focus {
   cursor: pointer;
   position: relative;
   vertical-align: middle;
+}
+
+#stageRadios label {
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
+}
+
+#stageRadios label img {
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
 }
 
 input[type='radio'] {
@@ -221,7 +309,10 @@ input[type='radio'] {
 	margin-right: auto;
 	padding-left: 16px;
 	padding-right: 16px;
+  display: flex;
+  flex-direction: row;
 }
+
 
 /* (and for those of us at 150% because we can't see...) */
 @media (min-resolution: 125dpi) {
@@ -230,19 +321,39 @@ input[type='radio'] {
 		height: 280%;
 	}
 
-	.flex-container{
-		padding-top: 0px;
-	}
+  .auraBackCanvas {
+    padding: 70% 70% 70% 70%;
+    margin-top: 77%;
+  }
 
-	.footer{
-		font-size: 80%;
-	}
+  .dragonCanvas {
+    padding: 70% 70% 70% 70%;
+    margin-top: 77%;
+  }
 
-	.header{
-		padding-bottom: 30px;
-	}
+  .auraFrontCanvas {
+    padding: 70% 70% 70% 70%;
+    margin-top: 77%;
+  }
+
+  .floorCanvas {
+    margin-top: 28%;
+  }
 
 	#dragon-image {
-	width: 20%;
-    transform: translate(172%, -123%);
+  margin-top: 65%;
+  }
+
+  .left-container {
+    padding-left: 2%;
+  }
+
+  .right-container{
+    padding-right: 0%;
+  }
+
+  .footer {
+    font-size: 11px;
+    padding-top: 80%;
+  }
 }

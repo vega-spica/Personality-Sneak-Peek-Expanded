@@ -1,569 +1,714 @@
 
-	<head>
-		<link rel="stylesheet" href="./css/style.css" type="text/css">
-		<link rel="shortcut icon" type="image/png" href="./res/img/favicon.png">
-		<title> Personality Sneak-Peek (Expanded) </title>
-		<script src="./js/common.js"></script>
-		<script src="./js/spineObject.js"></script>
-		<script src="./dict/dragondict.js"></script>
-		<script src="./dict/personalitydict.js"></script>
-		<script src="./dict/customfrontdict.js"></script>
-		<script src="./dict/custombackdict.js"></script>
-		<script src="https://unpkg.com/@esotericsoftware/spine-webgl@4.1.*/dist/iife/spine-webgl.js"></script>
-		<script>
-			window.onload = init;
+<head>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="./res/img/favicon.png">
+    <title> Personality Sneak-Peek (Expanded) </title>
+    <script src="./js/common.js"></script>
+    <script src="./js/spineObject.js"></script>
+    <script src="./dict/dragondict.js"></script>
+    <script src="./dict/personalitydict.js"></script>
+    <script src="./dict/customfrontdict.js"></script>
+    <script src="./dict/custombackdict.js"></script>
+    <script src="./dict/cavebgdict.js"></script>
+    <script src="./dict/cavefloordict.js"></script>
+    <script src="https://unpkg.com/@esotericsoftware/spine-webgl@4.1.*/dist/iife/spine-webgl.js"></script>
+    <script>
+        window.onload = init;
 
-      // Cache all Spine Canvases instances here so can dispose later
-      var canvases = {
+    // Cache all Spine Canvases instances here so can dispose later
+    var canvases = {
         backAura: null,
         frontAura: null,
         dragon: null,
-      };
-	
-			var species;
-			var personality;
-			var gender = "m";
-			var form;
-			//the species name here must be manually set to the first dragon in the list.
-				// or else bad stuff happens.
-			var speciesName = "abaddon";
-			var formNumber = "01";
-			var animState = "idle";
-			var maleButton;
-			var femaleButton;
-			var neutralButton;
-			var maleLabel;
-			var femaleLabel;
-			var neutralLabel;
-			var speciesDisplay;
-			var formDisplay;
-			var stage = "adult";
-			var customfront;
-			var customfrontcolour;
-			var customback;
-			var custombackcolour;
-			var personalityName;
-			
-			
-			function init() {
-				//hey, wanna see a cool trick?
-					//https://vega-spica.github.io/Personality-Sneak-Peek-Expanded?species=chaosjanerr
-						//now you're forced to see Gerner!
-				var speciesParam = new URLSearchParams(location.search).get('species');
-				speciesName = speciesParam === null ? speciesName : speciesParam;
+        background: null,
+        floor: null
+    };
 
-				//and now i can force you to see Gerner with a matching aura it can never have.
-					//https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/?species=chaosjanerr&personality=Baleful
-						//sad times.
-				var personalityParam = new URLSearchParams(location.search).get('personality');
-				personalityName = personalityParam === null ? personalityName : personalityParam;
-				
-				//get list of species
-				var speciesKeys = Object.keys(speciesJson);
-				
-				//get a list of personalities
-				var personalityKeys = Object.keys(personalityJson);
+        var species;
+        var personality;
+        var gender = "m";
+        var form;
+        //the species name here must be manually set to the first dragon in the list.
+            // or else bad stuff happens.
+        var speciesName = "abaddon";
+        var formNumber = "01";
+        var animState = "idle";
+        var maleButton;
+        var femaleButton;
+        var neutralButton;
+        var maleLabel;
+        var femaleLabel;
+        var neutralLabel;
+        var speciesDisplay;
+        var formDisplay;
+        var stage = "adult";
+        var customfront;
+        var customfrontcolour;
+        var customback;
+        var custombackcolour;
+        var personalityName;
+        var cavebg;
+        var cavefloor;
+        var bgState = "idle";
+        var floorState = "idle";
+        
+        function init() {
+            //hey, wanna see a cool trick?
+                //https://vega-spica.github.io/Personality-Sneak-Peek-Expanded?species=chaosjanerr
+                    //now you're forced to see Gerner!
+            var speciesParam = new URLSearchParams(location.search).get('species');
+            speciesName = speciesParam === null ? speciesName : speciesParam;
 
-				//get a list of custom fronts
-				var customfrontKeys = Object.keys(customfrontJson);
+            //and now i can force you to see Gerner with a matching aura it can never have.
+                //https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/?species=chaosjanerr&personality=Baleful
+                    //sad times.
+            var personalityParam = new URLSearchParams(location.search).get('personality');
+            personalityName = personalityParam === null ? personalityName : personalityParam;
+            
+            //get list of species
+            var speciesKeys = Object.keys(speciesJson);
+            
+            //get a list of personalities
+            var personalityKeys = Object.keys(personalityJson);
 
-				//get a list of custom backs
-				var custombackKeys = Object.keys(custombackJson);
-				
-				// assign the appearance control elements to the global variables
-				species = document.getElementById("species");
-				personality = document.getElementById("personality");
-				form = document.getElementById("form");
-				maleButton = document.getElementById("male");
-				maleLabel = document.getElementById("maleLabel");
-				femaleButton = document.getElementById("female");
-				femaleLabel = document.getElementById("femaleLabel");
-				neutralButton = document.getElementById("neutral");
-				neutralLabel = document.getElementById("neutralLabel");
-				hatchButton = document.getElementById("hatch");
-				hatchLabel = document.getElementById("hatchLabel");
-				hatchlingButton = document.getElementById("hatchling");
-				hatchlingLabel = document.getElementById("hatchlingLabel");
-				adultButton = document.getElementById("adult");
-				adultLabel = document.getElementById("adultLabel");
-				essenceButton = document.getElementById("essence");
-				essenceLabel = document.getElementById("essenceLabel");
-				customfront = document.getElementById("customfront");
-				customfrontcolour = document.getElementById("customfrontcolour");
-				customback = document.getElementById("customback");
-				custombackcolour = document.getElementById("custombackcolour");
-				
-				//create option tags for Species
-				var speciesOption;
-				for (var i = 0; i < speciesKeys.length; i++){
-					speciesOption = document.createElement("option");
-					speciesOption.innerText = speciesJson[speciesKeys[i]].speciesDisplay;
-					speciesOption.value = speciesKeys[i];
-					species.appendChild(speciesOption);
-				};
-				species.value = speciesName;
-				
-				//create option tags for Personalities
-				var personalityOption;
-				for (var i = 0; i < personalityKeys.length; i++){
-					personalityOption = document.createElement("option");
-					personalityOption.innerText = personalityKeys[i];
-					personalityOption.value = personalityKeys[i];
-					personality.appendChild(personalityOption);
-				};
-				if (personalityName) {
-					personality.value = personalityName;
-				}
-				
-				
-				//create option tags for Forms
-				var formKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms);
-				for (var i = 0; i < formKeys.length; i++){
-					formOption = document.createElement("option");
-					formOption.innerText = speciesJson[speciesName].stage["adult"].forms[formKeys[i]].formDisplay;
-					formOption.value = formKeys[i];
-					form.appendChild(formOption);
-				};
+            //get a list of custom fronts
+            var customfrontKeys = Object.keys(customfrontJson);
 
-				//create option tags for Custom fronts
-				var customfrontOption;
-				for (var i = 0; i < customfrontKeys.length; i++) {
-					customfrontOption = document.createElement("option");
-					customfrontOption.innerText = customfrontKeys[i];
-					customfrontOption.value = customfrontKeys[i];
-					customfront.appendChild(customfrontOption);
-				};
+            //get a list of custom backs
+            var custombackKeys = Object.keys(custombackJson);
 
-				//create option tags for Custom front colours
-				var customfrontcolourKeys = Object.keys(customfrontJson["[None]"]);
-				for (var i = 0; i < customfrontcolourKeys.length; i++) {
-					customfrontcolourOption = document.createElement("option");
-					customfrontcolourOption.innerText = customfrontcolourKeys[i];
-					customfrontcolourOption.value = customfrontcolourKeys[i];
-					customfrontcolour.appendChild(customfrontcolourOption);
-				};
+            //get a list of backgrounds
+            var cavebgKeys = Object.keys(cavebgJson);
 
-				//create option tags for Custom backs
-				var custombackOption;
-				for (var i = 0; i < custombackKeys.length; i++) {
-					custombackOption = document.createElement("option");
-					custombackOption.innerText = custombackKeys[i];
-					custombackOption.value = custombackKeys[i];
-					customback.appendChild(custombackOption);
-				};
+            //get a list of floors
+            var cavefloorKeys = Object.keys(cavefloorJson);
+            
+            // assign the appearance control elements to the global variables
+            species = document.getElementById("species");
+            personality = document.getElementById("personality");
+            form = document.getElementById("form");
+            maleButton = document.getElementById("male");
+            maleLabel = document.getElementById("maleLabel");
+            femaleButton = document.getElementById("female");
+            femaleLabel = document.getElementById("femaleLabel");
+            neutralButton = document.getElementById("neutral");
+            neutralLabel = document.getElementById("neutralLabel");
+            hatchButton = document.getElementById("hatch");
+            hatchLabel = document.getElementById("hatchLabel");
+            hatchlingButton = document.getElementById("hatchling");
+            hatchlingLabel = document.getElementById("hatchlingLabel");
+            adultButton = document.getElementById("adult");
+            adultLabel = document.getElementById("adultLabel");
+            essenceButton = document.getElementById("essence");
+            essenceLabel = document.getElementById("essenceLabel");
+            customfront = document.getElementById("customfront");
+            customfrontcolour = document.getElementById("customfrontcolour");
+            customback = document.getElementById("customback");
+            custombackcolour = document.getElementById("custombackcolour");
+            cavebg = document.getElementById("cavebg");
+            cavefloor = document.getElementById("cavefloor");
+            
+            //create option tags for Species
+            var speciesOption;
+            for (var i = 0; i < speciesKeys.length; i++){
+                speciesOption = document.createElement("option");
+                speciesOption.innerText = speciesJson[speciesKeys[i]].speciesDisplay;
+                speciesOption.value = speciesKeys[i];
+                species.appendChild(speciesOption);
+            };
+            species.value = speciesName;
+            
+            //create option tags for Personalities
+            var personalityOption;
+            for (var i = 0; i < personalityKeys.length; i++){
+                personalityOption = document.createElement("option");
+                personalityOption.innerText = personalityKeys[i];
+                personalityOption.value = personalityKeys[i];
+                personality.appendChild(personalityOption);
+            };
+            if (personalityName) {
+                personality.value = personalityName;
+            }
+            
+            
+            //create option tags for Forms
+            var formKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms);
+            for (var i = 0; i < formKeys.length; i++){
+                formOption = document.createElement("option");
+                formOption.innerText = speciesJson[speciesName].stage["adult"].forms[formKeys[i]].formDisplay;
+                formOption.value = formKeys[i];
+                form.appendChild(formOption);
+            };
 
-				//create option tags for Custom back colours
-				var custombackcolourKeys = Object.keys(custombackJson["[None]"]);
-				for (var i = 0; i < custombackcolourKeys.length; i++) {
-					custombackcolourOption = document.createElement("option");
-					custombackcolourOption.innerText = custombackcolourKeys[i];
-					custombackcolourOption.value = custombackcolourKeys[i];
-					custombackcolour.appendChild(custombackcolourOption);
-				};
+            //create option tags for custom Fronts
+            var customfrontOption;
+            for (var i = 0; i < customfrontKeys.length; i++) {
+                customfrontOption = document.createElement("option");
+                customfrontOption.innerText = customfrontKeys[i];
+                customfrontOption.value = customfrontKeys[i];
+                customfront.appendChild(customfrontOption);
+            };
 
-				initializeGenderButtons();
-				initializeStageButtons();
-				changeDragonSprite();
-				//(okay, so we're gonna put a tiny timeout here for aura url params to work)
-					//(because Spine is being stupid for some reason)
-				setTimeout(() => {
-					updatePersonalityUrl();
-				});
-			}
-			
-			function setGender(genderValue){
-				gender = genderValue;
-				changeDragonSprite();
-			}
+            //create option tags for custom Front Colours
+            var customfrontcolourKeys = Object.keys(customfrontJson["[None]"]);
+            for (var i = 0; i < customfrontcolourKeys.length; i++) {
+                customfrontcolourOption = document.createElement("option");
+                customfrontcolourOption.innerText = customfrontcolourKeys[i];
+                customfrontcolourOption.value = customfrontcolourKeys[i];
+                customfrontcolour.appendChild(customfrontcolourOption);
+            };
 
-			function setStage(stageValue){
-				stage = stageValue;
-				changeDragonSprite();
-			}
-			
-			function setanimState(animationValue){
-				animState = animationValue;
-				changeDragonSprite();
-			}			
-			
-			function updateSpecies(){
-				//if new species, clear form options and append again
-				if (speciesName !== species.value){
-					speciesName = species.value;
-					stage = "adult";
-					adultButton.checked = true;
-					form.innerHTML = "";
-					var formKeys = Object.keys(speciesJson[speciesName].stage[stage].forms);
+            //create option tags for custom Backs
+            var custombackOption;
+            for (var i = 0; i < custombackKeys.length; i++) {
+                custombackOption = document.createElement("option");
+                custombackOption.innerText = custombackKeys[i];
+                custombackOption.value = custombackKeys[i];
+                customback.appendChild(custombackOption);
+            };
 
-					for (var i = 0; i < formKeys.length; i++){
-						formOption = document.createElement("option");
-							formOption.innerText = speciesJson[speciesName].stage[stage].forms[formKeys[i]].formDisplay;						
-						formOption.value = formKeys[i];
-						form.appendChild(formOption);
-					}
-					formNumber = "01";
-					initializeGenderButtons();
-					initializeStageButtons();
-				}
-				changeDragonSprite();
-			}
-			
-			function updateForm(){
-				formNumber = form.value;
-				stage = "adult";
-				adultButton.checked = true;
-				initializeGenderButtons();
-				initializeStageButtons();
-				changeDragonSprite();
-			}
+            //create option tags for custom Back Colours
+            var custombackcolourKeys = Object.keys(custombackJson["[None]"]);
+            for (var i = 0; i < custombackcolourKeys.length; i++) {
+                custombackcolourOption = document.createElement("option");
+                custombackcolourOption.innerText = custombackcolourKeys[i];
+                custombackcolourOption.value = custombackcolourKeys[i];
+                custombackcolour.appendChild(custombackcolourOption);
+            };
 
-			//enable only the valid stage buttons
-			function initializeStageButtons() {
-				//disable all non-adult buttons
-				hatchButton.disabled = true;
-				hatchButton.setAttribute('aria-disabled', true);
-				hatchlingButton.disabled = true;
-				hatchlingButton.setAttribute('aria-disabled', true);
-				essenceButton.disabled = true;
-				essenceButton.setAttribute('aria-disabled', true);
+            //create option tags for backgrounds
+            var cavebgOption;
+            for (var i = 0; i < cavebgKeys.length; i++) {
+                cavebgOption = document.createElement("option");
+                cavebgOption.innerText = cavebgKeys[i];
+                cavebgOption.value = cavebgKeys[i];
+                cavebg.appendChild(cavebgOption);
+            };
 
-				//add disabled class to hatch, hatchling, and essence labels
-				hatchLabel.classList.add("disabledButton");
-				hatchLabel.setAttribute('aria-disabled', true);
-				hatchlingLabel.classList.add("disabledButton");
-				hatchlingLabel.setAttribute('aria-disabled', true);
-				essenceLabel.classList.add("disabledButton");
-				essenceLabel.setAttribute('aria-disabled', true);
+            //create option tags for floors
+            var cavefloorOption;
+            for (var i = 0; i < cavefloorKeys.length; i++) {
+                cavefloorOption = document.createElement("option");
+                cavefloorOption.innerText = cavefloorKeys[i];
+                cavefloorOption.value = cavefloorKeys[i];
+                cavefloor.appendChild(cavefloorOption);
+            };
 
-				//enable valid buttons
-				if (speciesJson[speciesName].stage['hatch'] !== undefined && speciesJson[speciesName].stage['hatch'].forms[formNumber] !== undefined){
-					hatchButton.disabled = false;
-					hatchButton.setAttribute('aria-disabled', false);
-					hatchLabel.classList.remove("disabledButton");
-					hatchLabel.setAttribute('aria-disabled', false);
-				}
-				if (speciesJson[speciesName].stage['hatchling'] !== undefined && speciesJson[speciesName].stage['hatchling'].forms[formNumber] !== undefined) {
-					hatchlingButton.disabled = false;
-					hatchlingButton.setAttribute('aria-disabled', false);
-					hatchlingLabel.classList.remove("disabledButton");
-					hatchlingLabel.setAttribute('aria-disabled', false);
-				}
-				if (speciesJson[speciesName].stage['essence'] !== undefined && speciesJson[speciesName].stage['essence'].forms[formNumber] !== undefined) {
-					essenceButton.disabled = false;
-					essenceButton.setAttribute('aria-disabled', false);
-					essenceLabel.classList.remove("disabledButton");
-					essenceLabel.setAttribute('aria-disabled', false);
-				}
-			}
-			
-			//enable only the valid gender buttons
-			function initializeGenderButtons(){
-				//disable all 3 buttons
-				maleButton.disabled = true;
-				maleButton.setAttribute('aria-disabled', true);
-				femaleButton.disabled = true;
-				femaleButton.setAttribute('aria-disabled', true);
-				neutralButton.disabled = true;
-				neutralButton.setAttribute('aria-disabled', true);
-				
-				//add disabled class to all 3 labels
-				maleLabel.classList.add("disabledButton");
-				maleLabel.setAttribute('aria-disabled', true);
-				femaleLabel.classList.add("disabledButton");
-				femaleLabel.setAttribute('aria-disabled', true);
-				neutralLabel.classList.add("disabledButton");
-				neutralLabel.setAttribute('aria-disabled', true);
-				
-				//get keys for current species' genders
-				var genderKeys = Object.keys(speciesJson[speciesName].stage[stage].forms[formNumber].genders);
+            initializeGenderButtons();
+            initializeStageButtons();
+            changeDragonSprite();
+            //(okay, so we're gonna put a tiny timeout here for aura url params to work)
+                //(because Spine is being stupid for some reason)
+            setTimeout(() => {
+                updatePersonalityUrl();
+            });
+        }
+        
+        function setGender(genderValue){
+            gender = genderValue;
+            changeDragonSprite();
+        }
 
-				//enable all valid keys
-				for (var i = 0; i < genderKeys.length; i++){
-					switch(genderKeys[i]){
-						case "m":
-						{
-							maleButton.disabled = false;
-							maleLabel.classList.remove("disabledButton");
-							maleButton.checked = true;
-							maleButton.setAttribute('aria-disabled', false);
-							maleLabel.setAttribute('aria-disabled', false);
-							gender = "m";
-							break;
-						}
-						case "f":
-						{
-							femaleButton.disabled = false;
-							femaleLabel.classList.remove("disabledButton");
-							femaleButton.checked = true;
-							femaleButton.setAttribute('aria-disabled', false);
-							femaleLabel.setAttribute('aria-disabled', false);
-							gender = "f";
-							break;
-						}
-						case "n":
-						{
-							neutralButton.disabled = false;
-							neutralLabel.classList.remove("disabledButton");
-							neutralButton.checked = true;
-							neutralButton.setAttribute('aria-disabled', false);
-							neutralLabel.setAttribute('aria-disabled', false);
-							gender = "n";
-							break;
-						}
-						default:
-						{
-							maleButton.disabled = false;
-							maleLabel.classList.remove("disabledButton");
-							maleButton.checked = true;
-							maleButton.setAttribute('aria-disabled', false);
-							maleLabel.setAttribute('aria-disabled', false);
-							gender = "m";
-						}
-					}
-				}
-			}
+        function setStage(stageValue){
+            stage = stageValue;
+            changeDragonSprite();
+        }
+        
+        function setanimState(animationValue){
+            animState = animationValue;
+            changeDragonSprite();
+        }
+        
+        function setbgState(bgValue) {
+            bgState = bgValue;
+            updateBackgroundUrl();
+        }
+        
+        function setfloorState(floorValue) {
+            floorState = floorValue;
+            updateFloorUrl();
+        }
 
-			//load new dragon when changed
-			function changeDragonSprite(){
-				//get dragon url parts
-				formNumber = form.value;
-				var colorName = speciesJson[speciesName].stage[stage].forms[formNumber].genders[gender].color;
+        function setbrightness(brightnessValue) {
+            brightness = brightnessValue;
+            document.getElementById("Background").style.filter = `brightness(${brightnessValue})`;
+        }
 
-				//construct url
-				var url = "";
-				//is it undead? or is it dead dead?
-				if (formNumber.indexOf("undead") !== -1){
-					var undeadres = speciesJson[speciesName].stage[stage].forms[formNumber].genders[gender].undeadres;
-					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + "undead" + "/" + "undead" +"_" + undeadres + "/" + "undead" + "_" + undeadres;
-				}
-				//no idea why they put these in a separate folder but sure i guess??
-				else if (stage.indexOf("essence") !== -1) {
-					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/essence/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName;
-				}
-				else {
-					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber +"_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber +"_" + gender + "_" + stage + "_" + colorName;
-				}
-				//construct dragon url
-				//var url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName + "/" +speciesName + "_" + formNumber +"_" + gender + "_adult_" + colorName;
-				
-				//print url to console log (i'm hopeless and need this here for debugging, don't judge me)
-				//console.log(url);
+        
+        function updateSpecies(){
+            //if new species, clear form options and append again
+            if (speciesName !== species.value){
+                speciesName = species.value;
+                stage = "adult";
+                adultButton.checked = true;
+                form.innerHTML = "";
+                var formKeys = Object.keys(speciesJson[speciesName].stage[stage].forms);
 
-        const dragonCanvasElem = document.getElementById("dragonCanvas");
-        const dragonImageElem = document.getElementById("dragon-image");
-				
-				//load new dragon to canvas
-				if (url.includes(".png")) {
-					//remake url for png
-					url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + colorName;
-					
-					//hide canvas
-					dragonCanvasElem.style.display = "none";
-					
-					//load image
-					dragonImageElem.style.display = "inline-block";
-					dragonImageElem.src = url;
-				} else {
-					//hide image
-					dragonImageElem.style.display = "none";
-          
-          // disposing of old resource before assigning new one to avoid performance issue
-          if (canvases.dragon) {
-            canvases.dragon.dispose();
-          }
+                for (var i = 0; i < formKeys.length; i++){
+                    formOption = document.createElement("option");
+                        formOption.innerText = speciesJson[speciesName].stage[stage].forms[formKeys[i]].formDisplay;						
+                    formOption.value = formKeys[i];
+                    form.appendChild(formOption);
+                }
+                formNumber = "01";
+                initializeGenderButtons();
+                initializeStageButtons();
+            }
+            changeDragonSprite();
+        }
+        
+        function updateForm(){
+            formNumber = form.value;
+            stage = "adult";
+            adultButton.checked = true;
+            initializeGenderButtons();
+            initializeStageButtons();
+            changeDragonSprite();
+        }
 
-					//show canvas
-          dragonCanvasElem.style.display = "inline-block";
-          canvases.dragon = new spine.SpineCanvas(dragonCanvasElem, {
-            app: new SpineObject(url, animState)
-          });
-				}				
-			}
+        //enable only the valid stage buttons
+        function initializeStageButtons() {
+            //disable all non-adult buttons
+            hatchButton.disabled = true;
+            hatchButton.setAttribute('aria-disabled', true);
+            hatchlingButton.disabled = true;
+            hatchlingButton.setAttribute('aria-disabled', true);
+            essenceButton.disabled = true;
+            essenceButton.setAttribute('aria-disabled', true);
 
-			//load new personality when changed
-			function updatePersonalityUrl() {
-				document.getElementById("customselect").style.display = "none";
-        // disposing of old resources before assigning new one to avoid performance issue
-        if (canvases.backAura) { canvases.backAura.dispose(); }
-        if (canvases.frontAura) { canvases.frontAura.dispose(); }
+            //add disabled class to hatch, hatchling, and essence labels
+            hatchLabel.classList.add("disabledButton");
+            hatchLabel.setAttribute('aria-disabled', true);
+            hatchlingLabel.classList.add("disabledButton");
+            hatchlingLabel.setAttribute('aria-disabled', true);
+            essenceLabel.classList.add("disabledButton");
+            essenceLabel.setAttribute('aria-disabled', true);
 
-				personalityName = personality.value;
-				//this bit is only here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!
-					//edit: and of course, they weren't special enough, so they added custom ones that are °˳⁠˚⁠∘⁠✧super special✧∘⁠˚⁠˳⁠°!! 
-				if(personalityName === "My Own") {
-					document.getElementById("customselect").style.display = "block";
-					var customfrontSelection = customfrontJson[customfront.value];
-					var custombackSelection = custombackJson[customback.value];
-					canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
-						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", custombackSelection[custombackcolour.value])
-					});
-					canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
-						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", customfrontSelection[customfrontcolour.value])
-					});
-				}
-				else if (personalityJson[personalityName].each !== undefined) {
-					canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
-						app: new SpineObject(`https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/${personalityJson[personalityName].each}/${personalityJson[personalityName].each}`, personalityJson[personalityName].back)
-					});
-					canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
-						app: new SpineObject(`https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/${personalityJson[personalityName].each}/${personalityJson[personalityName].each}`, personalityJson[personalityName].front)
-					});
-				}
-				//of course, we love all the rest of them. but they're not special.
-				else {
-					canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
-						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", personalityJson[personalityName].back)
-					});
-					canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
-						app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_front/aura_front", personalityJson[personalityName].front)
-					});
-				}
-			}
-		</script>
-	</head>
+            //enable valid buttons
+            if (speciesJson[speciesName].stage['hatch'] !== undefined && speciesJson[speciesName].stage['hatch'].forms[formNumber] !== undefined){
+                hatchButton.disabled = false;
+                hatchButton.setAttribute('aria-disabled', false);
+                hatchLabel.classList.remove("disabledButton");
+                hatchLabel.setAttribute('aria-disabled', false);
+            }
+            if (speciesJson[speciesName].stage['hatchling'] !== undefined && speciesJson[speciesName].stage['hatchling'].forms[formNumber] !== undefined) {
+                hatchlingButton.disabled = false;
+                hatchlingButton.setAttribute('aria-disabled', false);
+                hatchlingLabel.classList.remove("disabledButton");
+                hatchlingLabel.setAttribute('aria-disabled', false);
+            }
+            if (speciesJson[speciesName].stage['essence'] !== undefined && speciesJson[speciesName].stage['essence'].forms[formNumber] !== undefined) {
+                essenceButton.disabled = false;
+                essenceButton.setAttribute('aria-disabled', false);
+                essenceLabel.classList.remove("disabledButton");
+                essenceLabel.setAttribute('aria-disabled', false);
+            }
+        }
+        
+        //enable only the valid gender buttons
+        function initializeGenderButtons(){
+            //disable all 3 buttons
+            maleButton.disabled = true;
+            maleButton.setAttribute('aria-disabled', true);
+            femaleButton.disabled = true;
+            femaleButton.setAttribute('aria-disabled', true);
+            neutralButton.disabled = true;
+            neutralButton.setAttribute('aria-disabled', true);
+            
+            //add disabled class to all 3 labels
+            maleLabel.classList.add("disabledButton");
+            maleLabel.setAttribute('aria-disabled', true);
+            femaleLabel.classList.add("disabledButton");
+            femaleLabel.setAttribute('aria-disabled', true);
+            neutralLabel.classList.add("disabledButton");
+            neutralLabel.setAttribute('aria-disabled', true);
+            
+            //get keys for current species' genders
+            var genderKeys = Object.keys(speciesJson[speciesName].stage[stage].forms[formNumber].genders);
+
+            //enable all valid keys
+            for (var i = 0; i < genderKeys.length; i++){
+                switch(genderKeys[i]){
+                    case "m":
+                    {
+                        maleButton.disabled = false;
+                        maleLabel.classList.remove("disabledButton");
+                        maleButton.checked = true;
+                        maleButton.setAttribute('aria-disabled', false);
+                        maleLabel.setAttribute('aria-disabled', false);
+                        gender = "m";
+                        break;
+                    }
+                    case "f":
+                    {
+                        femaleButton.disabled = false;
+                        femaleLabel.classList.remove("disabledButton");
+                        femaleButton.checked = true;
+                        femaleButton.setAttribute('aria-disabled', false);
+                        femaleLabel.setAttribute('aria-disabled', false);
+                        gender = "f";
+                        break;
+                    }
+                    case "n":
+                    {
+                        neutralButton.disabled = false;
+                        neutralLabel.classList.remove("disabledButton");
+                        neutralButton.checked = true;
+                        neutralButton.setAttribute('aria-disabled', false);
+                        neutralLabel.setAttribute('aria-disabled', false);
+                        gender = "n";
+                        break;
+                    }
+                    default:
+                    {
+                        maleButton.disabled = false;
+                        maleLabel.classList.remove("disabledButton");
+                        maleButton.checked = true;
+                        maleButton.setAttribute('aria-disabled', false);
+                        maleLabel.setAttribute('aria-disabled', false);
+                        gender = "m";
+                    }
+                }
+            }
+        }
+
+        //load new dragon when changed
+        function changeDragonSprite(){
+            //get dragon url parts
+            formNumber = form.value;
+            var colorName = speciesJson[speciesName].stage[stage].forms[formNumber].genders[gender].color;
+
+            //construct url
+            var url = "";
+            //is it undead? or is it dead dead?
+            if (formNumber.indexOf("undead") !== -1){
+                var undeadres = speciesJson[speciesName].stage[stage].forms[formNumber].genders[gender].undeadres;
+                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + "undead" + "/" + "undead" +"_" + undeadres + "/" + "undead" + "_" + undeadres;
+            }
+            //no idea why they put these in a separate folder but sure i guess??
+            else if (stage.indexOf("essence") !== -1) {
+                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/essence/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName;
+            }
+            else {
+                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber +"_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber +"_" + gender + "_" + stage + "_" + colorName;
+            }
+
+            //print url to console log (i'm hopeless and need this here for debugging, don't judge me)
+            //console.log(url);
+
+    const dragonCanvasElem = document.getElementById("dragonCanvas");
+    const dragonImageElem = document.getElementById("dragon-image");
+            
+            //load new dragon to canvas
+            if (url.includes(".png")) {
+                //remake url for png
+                    //because Frame.
+                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + colorName;
+                
+                //hide canvas
+                dragonCanvasElem.style.display = "none";
+                
+                //load image
+                dragonImageElem.style.display = "inline-block";
+                dragonImageElem.src = url;
+            } else {
+                //hide image
+                dragonImageElem.style.display = "none";
+        
+        // disposing of old resource before assigning new one to avoid performance issue
+        if (canvases.dragon) {
+        canvases.dragon.dispose();
+        }
+
+                //show canvas
+        dragonCanvasElem.style.display = "inline-block";
+        canvases.dragon = new spine.SpineCanvas(dragonCanvasElem, {
+        app: new SpineObject(url, animState)
+        });
+            }				
+        }
+
+        //load new personality when changed
+        function updatePersonalityUrl() {
+            document.getElementById("customselect").style.display = "none";
+    // disposing of old resources before assigning new one to avoid performance issue
+    if (canvases.backAura) { canvases.backAura.dispose(); }
+    if (canvases.frontAura) { canvases.frontAura.dispose(); }
+
+            personalityName = personality.value;
+            //this bit is only here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!
+                //edit: and of course, they weren't special enough, so they added custom ones that are °˳⁠˚⁠∘⁠✧super special✧∘⁠˚⁠˳⁠°!! 
+            if(personalityName === "My Own") {
+                document.getElementById("customselect").style.display = "block";
+                var customfrontSelection = customfrontJson[customfront.value];
+                var custombackSelection = custombackJson[customback.value];
+                canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", custombackSelection[custombackcolour.value])
+                });
+                canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", customfrontSelection[customfrontcolour.value])
+                });
+            }
+            else if (personalityJson[personalityName].each !== undefined) {
+                canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
+                    app: new SpineObject(`https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/${personalityJson[personalityName].each}/${personalityJson[personalityName].each}`, personalityJson[personalityName].back)
+                });
+                canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
+                    app: new SpineObject(`https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/${personalityJson[personalityName].each}/${personalityJson[personalityName].each}`, personalityJson[personalityName].front)
+                });
+            }
+            //of course, we love all the rest of them. but they're not special.
+            else {
+                canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", personalityJson[personalityName].back)
+                });
+                canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_front/aura_front", personalityJson[personalityName].front)
+                });
+            }
+        }
+
+        //well, you wanted backgrounds, so...
+        function updateBackgroundUrl() {
+           //get background url parts
+            var bgSelection = cavebgJson[cavebg.value].res;
+
+            if (canvases.background) {
+                canvases.background.dispose();
+            }
+
+            //construct url
+            var bgurl = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/cavedeco/" + bgSelection;
+            //yes, the "none" option is just an invisible aura...
+                //don't question it
+            if (bgSelection === "none") {
+                canvases.background = new spine.SpineCanvas(document.getElementById("Background"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", "")
+                });
+            }
+            else {
+                canvases.background = new spine.SpineCanvas(document.getElementById("Background"), {
+                    app: new SpineObject(bgurl, bgState)
+                });
+            }
+        }
+
+        function updateFloorUrl() {
+                //get background url parts
+                var floorSelection = cavefloorJson[cavefloor.value].res;
+
+                if (canvases.floor) {
+                    canvases.floor.dispose();
+                }
+
+                //construct url
+                var floorurl = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/cavedeco/" + floorSelection;
+                // invisible aura is best aura.
+                if (floorSelection === "none") {
+                    canvases.floor = new spine.SpineCanvas(document.getElementById("Floor"), {
+                        app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", "")
+                    });
+                }
+                else {
+                    canvases.floor = new spine.SpineCanvas(document.getElementById("Floor"), {
+                        app: new SpineObject(floorurl, floorState)
+                    });
+                }
+            }
+
+    </script>
+</head>
+
+<!--super-cool, chocolatey fudge-coated page content. now comes *with* the wrapper, thankfully.-->
+<div class="wrapper">
+    <div class="left-container">
+
+        <!--selection for auras where entries are appended-->
+        <b>Personality</b>&nbsp;
+        <select id="personality" name="personality" onchange="updatePersonalityUrl();">
+        </select>
     
-	<!--is this really a header? or is it all just an illusion..?-->
-	<div class="header">
-		<img src="./res/img/logo.png" width="200px" alt="Dragon Village Collection">
-		<!-- </a> -->
-		<br><b>Personality Sneak-Peek (Expanded)</b>
-	</div><br>
-	
-	<!--super-cool, chocolatey fudge-coated page content. now comes *with* the wrapper, thankfully.-->
-	<div class="wrapper">
-		<div class="grid-container">
-			
-		<div class="grid-item">
-			<canvas id="dragonCanvas" class="spineCanvas dragonCanvas"></canvas>
-			<canvas id="Auraback" class="spineCanvas auraBackCanvas"></canvas>
-			<canvas id="Aurafront" class="spineCanvas auraFrontCanvas"></canvas>
-		</div>
-		</div>
-	
-		<img id="dragon-image">
-		
-		<!--initial blank back aura canvas is loaded on page open-->
-		<script type="text/javascript">
-			let loadSpineAuraBackAura = function() { 
-				canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
-					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", "")
-				})
-			}
-			window.addEventListener("load", loadSpineAuraBackAura);
-		</script>
+        <div id="customselect">
+            <br>
+            <!--selection for custom fronts where entries are appended-->
+            <b>Front</b>&nbsp;
+            <select id="customfront" name="customfront" onchange="updatePersonalityUrl();">
+            </select>
+    
+            <!--selection for custom front colours where entries are appended-->
+            <select id="customfrontcolour" name="customfrontcolour" onchange="updatePersonalityUrl();">
+            </select>
+            <br><br>
+    
+            <!--selection for custom backs where entries are appended-->
+            <b>Back</b>&nbsp;
+            <select id="customback" name="customback" onchange="updatePersonalityUrl();">
+            </select>
+    
+            <!--selection for custom back colours where entries are appended-->
+            <select id="custombackcolour" name="custombackcolour" onchange="updatePersonalityUrl();">
+            </select>
+        </div>
+        <br><br>
+    
+        <!--selection for backgrounds where entries are appended-->
+        <b>Background</b>&nbsp;
+        <select id="cavebg" name="cavebg" onchange="updateBackgroundUrl();">
+        </select>
+        <br>
+        <div id="bgRadios" class="bgRadios">
+            <input type="radio" name="bg" value="idle" id="bgidle" onchange="setbgState(this.value)" checked />
+            <label for="bgidle" id="bgidleLabel">Idle</label>
+            &nbsp;
+            <input type="radio" name="bg" value="" id="bgstop" onchange="setbgState(this.value)" />
+            <label for="bgstop" id="bgstopLabel">Stop</label>
+            <br>
+            <input type="radio" name="brightness" value="1" id="bright" onchange="setbrightness(this.value)" checked />
+            <label for="bright" id="brightLabel">Bright</label>
+            &nbsp;
+            <input type="radio" name="brightness" value="0.5" id="dark" onchange="setbrightness(this.value)" />
+            <label for="dark" id="darkLabel">Dark</label>           
+        </div>
+        <br>
+    
+        <!--selection for floors where entries are appended-->
+        <b>Floor</b>&nbsp;
+        <select id="cavefloor" name="cavefloor" onchange="updateFloorUrl();">
+        </select>
+        <br>
+        <div id="floorRadios" class="floorRadios">
+            <input type="radio" name="floor" value="idle" id="flooridle" onchange="setfloorState(this.value)" checked />
+            <label for="flooridle" id="flooridleLabel">Idle</label>
+            &nbsp;
+            <input type="radio" name="floor" value="" id="floorstop" onchange="setfloorState(this.value)" />
+            <label for="floorstop" id="floorstopLabel">Stop</label>
+        </div>
+    </div>
 
-		<!--initial blank front aura canvas is loaded on page open-->
-		<script type="text/javascript"> 
-			let loadSpineAuraFrontAura = function() {
-				canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
-					app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_front/aura_front", "")
-				})
-			}
-			window.addEventListener("load", loadSpineAuraFrontAura);
-		</script>
+    <div class="center-container">
+        <!--is this really a header? or is it all just an illusion..?-->
+        <div class="header">
+            <img src="./res/img/logo.png" width="180px" alt="Dragon Village Collection">
+            <!-- </a> -->
+            <br><b>Personality Sneak-Peek (Expanded)</b>
+        </div><br>
 
-	<div class="flex-container">
-	<!--selection for auras where entries are appended-->
-	<b>Personality</b>
-		<select id ="personality" name="personality" onchange="updatePersonalityUrl();">
-		</select>
-	&nbsp;
-	
-	<!--selection for species where entries are appended-->
-	<b>Species</b>
-		<select id ="species" name="species" onchange="updateSpecies();">
-		</select>
-	&nbsp;
-	
-	<!--selection for forms where entries are appended-->
-	<b>Form</b>
-		<select id ="form" name="form" onchange="updateForm();">
-		</select>
+        <div class="grid-container">
+        
+            <div class="grid-item">
+                <canvas id="dragonCanvas" class="spineCanvas dragonCanvas"></canvas>
+                <canvas id="Auraback" class="spineCanvas auraBackCanvas"></canvas>
+                <canvas id="Aurafront" class="spineCanvas auraFrontCanvas"></canvas>
+                <canvas id="Background" class="spineCanvas backgroundCanvas"></canvas>
+                <canvas id="Floor" class="spineCanvas floorCanvas"></canvas>
+                
+            </div>
+            <img id="dragon-image">
+        </div>
+        
+        
+   
+        <!--initial blank back aura canvas is loaded on page open-->
+        <script type="text/javascript">
+            let loadSpineAuraBackAura = function() { 
+                canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", "")
+                })
+            }
+            window.addEventListener("load", loadSpineAuraBackAura);
+        </script>
 
-	
-	<div id="customselect">
-		<br>
-	<!--selection for custom fronts where entries are appended-->
-	<b>Front</b>
-		<select id="customfront" name="customfront" onchange="updatePersonalityUrl();">
-		</select>
-	
-	<!--selection for custom front colours where entries are appended-->
-		<select id="customfrontcolour" name="customfrontcolour" onchange="updatePersonalityUrl();">
-		</select>
-	&nbsp;
-	&nbsp;
+        <!--initial blank front aura canvas is loaded on page open-->
+        <script type="text/javascript"> 
+            let loadSpineAuraFrontAura = function() {
+                canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_front/aura_front", "")
+                })
+            }
+            window.addEventListener("load", loadSpineAuraFrontAura);
+        </script>
 
-	<!--selection for custom backs where entries are appended-->
-	<b>Back</b>
-		<select id="customback" name="customback" onchange="updatePersonalityUrl();">
-		</select>
+        <div class="footer">
+            <!--just a horizontal line. nothing to see here.-->
+            <hr size=1>
+            <!--i don't own DVC's assets; please don't sue me.-->
+            Desktop view is recommended.<br>
+            Gender/Evolution icons can be clicked, as well as screen-read for accessibility.<br>
+            Dragon Village Collection assets and all Dragon Village characters ©highbrow Corp<br>
+            <a href="https://github.com/vega-spica/Personality-Sneak-Peek-Expanded">Github repository</a><br>
+            한국어: <a href=https://ctcdra.github.io/Personality-Sneak-Peek-Expanded_KRtranslate />시토콘드리아</a>
+        </div>
+        </div>
 
-	<!--selection for custom back colours where entries are appended-->
-		<select id="custombackcolour" name="custombackcolour" onchange="updatePersonalityUrl();">
-		</select>
-	</div>
+    <div class="right-container">
+        <div class="species-container">
+            <!--selection for species where entries are appended-->
+            <b>Species</b>&nbsp;
+            <select id="species" name="species" onchange="updateSpecies();">
+            </select>
+            <br><br>
 
-	<!--who needs text for radio buttons, anyways?-->
-	<br>
-		<div id="genderRadios">
-			<input type="radio" name="gender" value="m" id="male" onchange="setGender(this.value)" checked/>
-			<label for="male" id="maleLabel" aria-disabled="false">
-				<img src="./res/img/gender_m_0201.png" alt="male selection">
-			</label>
-			<input type="radio" name="gender" value="f" id="female" onchange="setGender(this.value)"/> 
-			<label for="female" id="femaleLabel" aria-disabled="false">
-				<img src="./res/img/gender_f_0201.png" alt="female selection">
-			</label>
-			<input type="radio" name="gender" value="n" id="neutral" onchange="setGender(this.value)"> 
-			<label for="neutral" id="neutralLabel" aria-disabled="false">
-				<img src="./res/img/gender_n_0201.png" alt="neutral selection">
-			</label>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<input type="radio" name="stage" value="hatch" id="hatch" onchange="setStage(this.value)"/>
-			<label for="hatch" id="hatchLabel" aria-disabled="false">
-				<img src="./res/img/stage_hatch.png" alt="hatch selection">
-			</label>
-			<input type="radio" name="stage" value="hatchling" id="hatchling" onchange="setStage(this.value)"/> 
-			<label for="hatchling" id="hatchlingLabel" aria-disabled="false">
-				<img src="./res/img/stage_hatchling.png" alt="hatchling selection">
-			</label>
-			<input type="radio" name="stage" value="adult" id="adult" onchange="setStage(this.value)" checked> 
-			<label for="adult" id="adultLabel" aria-disabled="false">
-				<img src="./res/img/stage_adult.png" alt="adult selection">
-			</label>
-			<input type="radio" name="stage" value="essence" id="essence" onchange="setStage(this.value)"/>
-			<label for="essence" id="essenceLabel" aria-disabled="false">
-				<img src="./res/img/stage_essence.png" alt="essence selection">
-			</label>
-		</div>
-		
-	
-	<!-- ...okay fine, these ones can have text. -->
-		<div id="animRadios">
-			<input type="radio" name="animation" value="idle" id="idle" onchange="setanimState(this.value)" checked/>
-			<label for="idle" id="idleLabel">Idle</label>
-			<input type="radio" name="animation" value="move" id="move" onchange="setanimState(this.value)"/> 
-			<label for="move" id="moveLabel">Moving</label>
-			<input type="radio" name="animation" value="holding" id="holding" onchange="setanimState(this.value)"> 
-			<label for="holding" id="holdingLabel">Holding</label>
-			<input type="radio" name="animation" value="touch" id="touch" onchange="setanimState(this.value)"> 
-			<label for="touch" id="touchLabel">Touch</label>
-			<input type="radio" name="animation" value="" id="none" onchange="setanimState(this.value)">
-			<label for="none" id="touchLabel">None</label>
-		</div>
-		<br>
-	
-	<!--just a horizontal line. nothing to see here.-->
-	<hr size=1>
+            <!--selection for forms where entries are appended-->
+            <b>Form</b>&nbsp;
+            <select id="form" name="form" onchange="updateForm();">
+            </select>
+        </div>
+        <br><br>
 
-	<!--i don't own DVC's assets; please don't sue me.-->
-	<div class="footer">
-	Desktop view is recommended.<br>
-	Gender/Evolution icons can be clicked, as well as screen-read for accessibility.<br>
-	Dragon Village Collection assets and all Dragon Village characters ©highbrow Corp<br>
-	<a href="https://github.com/vega-spica/Personality-Sneak-Peek-Expanded">Github repository</a><br>
-	한국어: <a href=https://ctcdra.github.io/Personality-Sneak-Peek-Expanded_KRtranslate/>시토콘드리아</a>
-	</div>
-	</div>
+        <!--who needs text for radio buttons, anyways?-->
+        <div id="genderRadios" class="genderRadios">
+            <input type="radio" name="gender" value="m" id="male" onchange="setGender(this.value)" checked />
+            <label for="male" id="maleLabel" aria-disabled="false">
+                <img src="./res/img/gender_m_0201.png" alt="male selection">
+            </label>
+            <input type="radio" name="gender" value="f" id="female" onchange="setGender(this.value)" />
+            <label for="female" id="femaleLabel" aria-disabled="false">
+                <img src="./res/img/gender_f_0201.png" alt="female selection">
+            </label>
+            <input type="radio" name="gender" value="n" id="neutral" onchange="setGender(this.value)">
+            <label for="neutral" id="neutralLabel" aria-disabled="false">
+                <img src="./res/img/gender_n_0201.png" alt="neutral selection">
+            </label>
+        </div>
+        <br>
+
+        <div id="stageRadios" class="stageRadios">
+            <input type="radio" name="stage" value="hatch" id="hatch" onchange="setStage(this.value)" />
+            <label for="hatch" id="hatchLabel" aria-disabled="false">
+                <img src="./res/img/stage_hatch.png" alt="hatch selection">
+            </label>
+            <input type="radio" name="stage" value="hatchling" id="hatchling" onchange="setStage(this.value)" />
+            <label for="hatchling" id="hatchlingLabel" aria-disabled="false">
+                <img src="./res/img/stage_hatchling.png" alt="hatchling selection">
+            </label>
+            <input type="radio" name="stage" value="adult" id="adult" onchange="setStage(this.value)" checked>
+            <label for="adult" id="adultLabel" aria-disabled="false">
+                <img src="./res/img/stage_adult.png" alt="adult selection">
+            </label>
+            <input type="radio" name="stage" value="essence" id="essence" onchange="setStage(this.value)" />
+            <label for="essence" id="essenceLabel" aria-disabled="false">
+                <img src="./res/img/stage_essence.png" alt="essence selection">
+            </label>
+        </div>
+        <br>
+
+        <!-- ...okay fine, these ones can have text. -->
+        <div id="animRadios" class="animRadios">
+            <input type="radio" name="animation" value="idle" id="idle" onchange="setanimState(this.value)" checked />
+            <label for="idle" id="idleLabel">Idle</label>
+            <br>
+            <input type="radio" name="animation" value="move" id="move" onchange="setanimState(this.value)" />
+            <label for="move" id="moveLabel">Moving</label>
+            <br>
+            <input type="radio" name="animation" value="holding" id="holding" onchange="setanimState(this.value)">
+            <label for="holding" id="holdingLabel">Holding</label>
+            <br>
+            <input type="radio" name="animation" value="touch" id="touch" onchange="setanimState(this.value)">
+            <label for="touch" id="touchLabel">Touch</label>
+            <br>
+            <input type="radio" name="animation" value="" id="none" onchange="setanimState(this.value)">
+            <label for="none" id="touchLabel">None</label>
+        </div>
+    </div>
+</div>
 	
