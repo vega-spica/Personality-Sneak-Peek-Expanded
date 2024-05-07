@@ -332,7 +332,31 @@ input[type='radio'] {
   }
 }
 
-/* (and for those of us at 150% because we can't see...) */
+/*that strange 125% display...*/
+@media (min-resolution: 120dpi) {
+  .auraBackCanvas {
+    margin-top: 87%;
+  }
+
+  .dragonCanvas {
+    margin-top: 87%;
+  }
+
+  .auraFrontCanvas {
+    margin-top: 87%;
+  }
+
+  #dragon-image {
+    margin-top: 97%;
+  }
+
+  .footer {
+    font-size: 11px;
+    padding-top: 120%;
+  }
+}
+
+/* and for those of us at 150% because we can't see */
 @media (min-resolution: 125dpi) {
 	.spineCanvas {
 		width: 550%;
