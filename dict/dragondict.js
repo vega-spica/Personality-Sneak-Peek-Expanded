@@ -1,4 +1,21 @@
 const speciesJson = {
+  "dummydragon": {
+    "speciesDisplay": "[Dummy Dragon]",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "n"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "abaddon": {
     "speciesDisplay": "Abaddon",
     "stage": {
