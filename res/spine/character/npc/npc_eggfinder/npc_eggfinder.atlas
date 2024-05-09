@@ -1,0 +1,15 @@
+npc_eggfinder.png
+size:452,1702
+filter:Linear,Linear
+angry
+bounds:2,2,168,168
+happy
+bounds:172,172,168,168
+npc_eggfinder
+bounds:2,512,448,1188
+sad
+bounds:2,172,168,168
+special1
+bounds:172,342,168,168
+surprise
+bounds:2,342,168,168
