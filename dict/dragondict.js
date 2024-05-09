@@ -4793,7 +4793,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Stealth",
             "genders": {
               "f": {
                 "color": "rp"
@@ -4819,7 +4819,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Stealth",
             "genders": {
               "f": {
                 "color": "rp"
@@ -4845,7 +4845,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Stealth",
             "genders": {
               "f": {
                 "color": "rp"
