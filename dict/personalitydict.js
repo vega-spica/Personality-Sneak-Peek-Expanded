@@ -23,11 +23,6 @@ const personalityJson = {
 		"back" : "aura_s_end",
 		"front" : "aura_s_end"
 	},
-	"Arcane": {
-		"each": "aura_s_arcane",
-		"back": "back",
-		"front": "front"
-	},
 	"Arrogant" : {
 		"back" : "aura_a_red",
 		"front" : "a"
@@ -266,6 +261,11 @@ const personalityJson = {
 	"Rash" : {
 		"back" : "aura_b_orange",
 		"front" : ""
+	},
+	"Secretive": {
+		"each": "aura_s_arcane",
+		"back": "back",
+		"front": "front"
 	},
 	"Serious" : {
 		"back" : "aura_a_lapislazuli",
