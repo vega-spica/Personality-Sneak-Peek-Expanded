@@ -22354,6 +22354,56 @@ const speciesJson = {
       }
     }
   },
+  "najeon": {
+    "speciesDisplay": "Najeon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "nebula": {
     "speciesDisplay": "Nebula",
     "stage": {
@@ -23766,6 +23816,14 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Pink Ribbon",
+            "genders": {
+              "f": {
+                "color": "rp"
+              }
+            }
           }
         }
       },
@@ -23778,6 +23836,14 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Pink Ribbon",
+            "genders": {
+              "f": {
+                "color": "rp"
+              }
+            }
           }
         }
       },
@@ -23788,6 +23854,14 @@ const speciesJson = {
             "genders": {
               "m": {
                 "color": "b"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Pink Ribbon",
+            "genders": {
+              "f": {
+                "color": "rp"
               }
             }
           }
@@ -24577,6 +24651,56 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "pinatadragon": {
+    "speciesDisplay": "Pinata Dragon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "y"
               }
             }
           }
@@ -26226,6 +26350,56 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "puzzledragon": {
+    "speciesDisplay": "Puzzle Dragon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
               }
             }
           }
