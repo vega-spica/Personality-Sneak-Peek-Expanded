@@ -1,0 +1,41 @@
+
+vfx_skill_flame_01_02_01.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 292, 48
+  size: 71, 70
+  orig: 71, 70
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 165, 46
+  size: 125, 72
+  orig: 125, 72
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 37
+  size: 161, 81
+  orig: 161, 81
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: true
+  xy: 2, 2
+  size: 33, 46
+  orig: 33, 46
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 365, 71
+  size: 31, 47
+  orig: 31, 47
+  offset: 0, 0
+  index: -1

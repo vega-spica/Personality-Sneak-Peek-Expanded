@@ -1,0 +1,55 @@
+
+vfx_skill_poseidon_01_03.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c36_skill2_1_1
+  rotate: false
+  xy: 1063, 21
+  size: 183, 90
+  orig: 183, 90
+  offset: 0, 0
+  index: -1
+c36_skill2_1_2
+  rotate: false
+  xy: 871, 25
+  size: 190, 86
+  orig: 190, 86
+  offset: 0, 0
+  index: -1
+c36_skill2_1_3
+  rotate: false
+  xy: 660, 15
+  size: 209, 96
+  orig: 209, 96
+  offset: 0, 0
+  index: -1
+c36_skill2_2_1
+  rotate: false
+  xy: 1248, 18
+  size: 177, 93
+  orig: 177, 93
+  offset: 0, 0
+  index: -1
+c36_skill2_2_2
+  rotate: false
+  xy: 455, 7
+  size: 203, 104
+  orig: 203, 104
+  offset: 0, 0
+  index: -1
+c36_skill2_2_3
+  rotate: false
+  xy: 239, 2
+  size: 214, 109
+  orig: 214, 109
+  offset: 0, 0
+  index: -1
+c36_skill2_2_4
+  rotate: false
+  xy: 2, 5
+  size: 235, 106
+  orig: 235, 106
+  offset: 0, 0
+  index: -1

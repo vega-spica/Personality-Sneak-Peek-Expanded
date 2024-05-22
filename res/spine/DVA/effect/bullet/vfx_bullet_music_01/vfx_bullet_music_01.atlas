@@ -1,0 +1,48 @@
+
+vfx_bullet_music_01.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 6
+  size: 39, 56
+  orig: 39, 56
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 131, 40
+  size: 22, 52
+  orig: 22, 52
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 83, 29
+  size: 33, 46
+  orig: 33, 46
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 185, 34
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 83, 2
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+music_attack_launcher_attack
+  rotate: false
+  xy: 43, 20
+  size: 38, 42
+  orig: 38, 42
+  offset: 0, 0
+  index: -1

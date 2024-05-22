@@ -1,0 +1,20 @@
+
+vfx_skill_bomber_01_03.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c019_4_0_1
+  rotate: false
+  xy: 80, 8
+  size: 66, 74
+  orig: 66, 74
+  offset: 0, 0
+  index: -1
+c019_4_0_2
+  rotate: false
+  xy: 2, 2
+  size: 76, 80
+  orig: 76, 80
+  offset: 0, 0
+  index: -1

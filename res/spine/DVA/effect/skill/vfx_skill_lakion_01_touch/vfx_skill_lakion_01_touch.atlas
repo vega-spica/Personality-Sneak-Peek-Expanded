@@ -1,0 +1,48 @@
+
+vfx_skill_lakion_01_touch.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 6
+  size: 19, 52
+  orig: 19, 52
+  offset: 0, 0
+  index: -1
+1_1
+  rotate: false
+  xy: 292, 27
+  size: 66, 35
+  orig: 66, 35
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 91, 2
+  size: 76, 43
+  orig: 76, 43
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 27
+  size: 87, 35
+  orig: 87, 35
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 91, 47
+  size: 15, 105
+  orig: 15, 105
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 198, 43
+  size: 19, 92
+  orig: 19, 92
+  offset: 0, 0
+  index: -1

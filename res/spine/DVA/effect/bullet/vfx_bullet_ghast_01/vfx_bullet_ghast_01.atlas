@@ -1,0 +1,41 @@
+
+vfx_bullet_ghast_01.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 144, 18
+  size: 35, 90
+  orig: 35, 90
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 236, 2
+  size: 79, 51
+  orig: 79, 51
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 373, 11
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: true
+  xy: 317, 9
+  size: 44, 54
+  orig: 44, 54
+  offset: 0, 0
+  index: -1
+c016_0_1
+  rotate: false
+  xy: 2, 19
+  size: 140, 34
+  orig: 140, 34
+  offset: 0, 0
+  index: -1

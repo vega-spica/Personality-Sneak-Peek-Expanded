@@ -1,0 +1,62 @@
+
+vfx_bullet_applecheek_01_03.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_1
+  rotate: false
+  xy: 204, 16
+  size: 147, 142
+  orig: 147, 142
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 393, 367
+  size: 62, 86
+  orig: 62, 86
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 393, 322
+  size: 30, 43
+  orig: 30, 43
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 222, 160
+  size: 151, 140
+  orig: 151, 140
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 222, 302
+  size: 169, 151
+  orig: 169, 151
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 2, 76
+  size: 200, 180
+  orig: 200, 180
+  offset: 0, 0
+  index: -1
+3_4
+  rotate: false
+  xy: 2, 258
+  size: 218, 195
+  orig: 218, 195
+  offset: 0, 0
+  index: -1
+apple_1
+  rotate: false
+  xy: 2, 14
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1

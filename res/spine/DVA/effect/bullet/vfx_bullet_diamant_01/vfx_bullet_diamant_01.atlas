@@ -1,0 +1,41 @@
+
+vfx_bullet_diamant_01.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 32
+  size: 86, 89
+  orig: 86, 89
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 168, 69
+  size: 47, 52
+  orig: 47, 52
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 90, 44
+  size: 22, 42
+  orig: 22, 42
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 90, 68
+  size: 76, 53
+  orig: 76, 53
+  offset: 0, 0
+  index: -1
+c33_attack_1
+  rotate: false
+  xy: 2, 2
+  size: 58, 28
+  orig: 58, 28
+  offset: 0, 0
+  index: -1

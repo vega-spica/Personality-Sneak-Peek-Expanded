@@ -1,0 +1,556 @@
+
+vfx_skill_mrrock_01_01.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_circle_1
+  rotate: false
+  xy: 2, 1291
+  size: 749, 749
+  orig: 749, 749
+  offset: 0, 0
+  index: -1
+1_circle_2
+  rotate: false
+  xy: 753, 824
+  size: 556, 556
+  orig: 556, 556
+  offset: 0, 0
+  index: -1
+1_circle_3
+  rotate: false
+  xy: 2, 2
+  size: 536, 536
+  orig: 536, 536
+  offset: 0, 0
+  index: -1
+1_circle_4
+  rotate: false
+  xy: 1409, 594
+  size: 296, 296
+  orig: 296, 296
+  offset: 0, 0
+  index: -1
+1_circle_5
+  rotate: false
+  xy: 2, 540
+  size: 749, 749
+  orig: 749, 749
+  offset: 0, 0
+  index: -1
+1_circle_6
+  rotate: false
+  xy: 1078, 30
+  size: 556, 556
+  orig: 556, 556
+  offset: 0, 0
+  index: -1
+1_circle_7
+  rotate: false
+  xy: 540, 2
+  size: 536, 536
+  orig: 536, 536
+  offset: 0, 0
+  index: -1
+1_circle_8
+  rotate: false
+  xy: 1707, 594
+  size: 296, 296
+  orig: 296, 296
+  offset: 0, 0
+  index: -1
+2_circle_1
+  rotate: false
+  xy: 753, 1382
+  size: 658, 658
+  orig: 658, 658
+  offset: 0, 0
+  index: -1
+2_circle_2
+  rotate: false
+  xy: 1311, 892
+  size: 488, 488
+  orig: 488, 488
+  offset: 0, 0
+  index: -1
+2_circle_3
+  rotate: false
+  xy: 1413, 1617
+  size: 423, 423
+  orig: 423, 423
+  offset: 0, 0
+  index: -1
+2_circle_4
+  rotate: false
+  xy: 753, 562
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1
+2_circle_5
+  rotate: false
+  xy: 1015, 588
+  size: 234, 234
+  orig: 234, 234
+  offset: 0, 0
+  index: -1
+2_pointer_1
+  rotate: true
+  xy: 1251, 644
+  size: 178, 156
+  orig: 178, 156
+  offset: 0, 0
+  index: -1
+blue_00000
+  rotate: true
+  xy: 1636, 132
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+
+vfx_skill_mrrock_01_012.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blue_00001
+  rotate: false
+  xy: 2, 1666
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00002
+  rotate: true
+  xy: 464, 1574
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00003
+  rotate: true
+  xy: 2, 1204
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00004
+  rotate: false
+  xy: 372, 1204
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00005
+  rotate: true
+  xy: 834, 1574
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00006
+  rotate: true
+  xy: 834, 1112
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00007
+  rotate: true
+  xy: 2, 742
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00008
+  rotate: true
+  xy: 372, 742
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00009
+  rotate: false
+  xy: 742, 742
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00010
+  rotate: false
+  xy: 2, 372
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00011
+  rotate: false
+  xy: 464, 372
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00012
+  rotate: false
+  xy: 926, 372
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00013
+  rotate: true
+  xy: 1204, 1574
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00014
+  rotate: false
+  xy: 1204, 1204
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00015
+  rotate: false
+  xy: 1574, 1666
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00016
+  rotate: false
+  xy: 1204, 834
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00017
+  rotate: true
+  xy: 1388, 372
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00018
+  rotate: true
+  xy: 1666, 1204
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00019
+  rotate: false
+  xy: 2, 2
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00020
+  rotate: false
+  xy: 464, 2
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00021
+  rotate: false
+  xy: 926, 2
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00022
+  rotate: false
+  xy: 1388, 2
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+
+vfx_skill_mrrock_01_013.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blue_00023
+  rotate: false
+  xy: 2, 1666
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00024
+  rotate: true
+  xy: 464, 1574
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00025
+  rotate: true
+  xy: 2, 1204
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00026
+  rotate: false
+  xy: 372, 1204
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00027
+  rotate: true
+  xy: 834, 1574
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00028
+  rotate: true
+  xy: 834, 1112
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00029
+  rotate: true
+  xy: 2, 742
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+blue_00030
+  rotate: true
+  xy: 372, 742
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00000
+  rotate: false
+  xy: 742, 742
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00001
+  rotate: false
+  xy: 2, 372
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00002
+  rotate: false
+  xy: 464, 372
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00003
+  rotate: false
+  xy: 926, 372
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00004
+  rotate: true
+  xy: 1204, 1574
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00005
+  rotate: false
+  xy: 1204, 1204
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00006
+  rotate: false
+  xy: 1574, 1666
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00007
+  rotate: false
+  xy: 1204, 834
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00008
+  rotate: true
+  xy: 1388, 372
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00009
+  rotate: true
+  xy: 1666, 1204
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00010
+  rotate: false
+  xy: 2, 2
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00011
+  rotate: false
+  xy: 464, 2
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00012
+  rotate: false
+  xy: 926, 2
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00013
+  rotate: false
+  xy: 1388, 2
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+
+vfx_skill_mrrock_01_014.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+orange_00014
+  rotate: false
+  xy: 2, 1482
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00015
+  rotate: false
+  xy: 2, 1112
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00016
+  rotate: false
+  xy: 464, 1482
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00017
+  rotate: false
+  xy: 2, 742
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00018
+  rotate: false
+  xy: 464, 1112
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00019
+  rotate: false
+  xy: 926, 1482
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00020
+  rotate: false
+  xy: 2, 372
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00021
+  rotate: false
+  xy: 464, 742
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00022
+  rotate: false
+  xy: 926, 1112
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00023
+  rotate: false
+  xy: 1388, 1482
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00024
+  rotate: false
+  xy: 2, 2
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00025
+  rotate: false
+  xy: 464, 372
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00026
+  rotate: false
+  xy: 926, 742
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00027
+  rotate: false
+  xy: 1388, 1112
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00028
+  rotate: false
+  xy: 464, 2
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00029
+  rotate: false
+  xy: 926, 372
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1
+orange_00030
+  rotate: false
+  xy: 1388, 742
+  size: 460, 368
+  orig: 460, 368
+  offset: 0, 0
+  index: -1

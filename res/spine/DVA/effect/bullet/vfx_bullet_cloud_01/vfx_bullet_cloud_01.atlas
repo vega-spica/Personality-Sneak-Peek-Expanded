@@ -1,0 +1,55 @@
+
+vfx_bullet_cloud_01.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 72, 25
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 108, 28
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 146, 28
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 18, 6
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 2
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 180, 46
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+cloud_attack_launcher
+  rotate: false
+  xy: 2, 22
+  size: 68, 40
+  orig: 68, 40
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+vfx_skill_darknix_01_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10-1
+  rotate: false
+  xy: 1074, 45
+  size: 507, 456
+  orig: 507, 456
+  offset: 0, 0
+  index: -1
+10-2
+  rotate: false
+  xy: 2, 2
+  size: 534, 499
+  orig: 534, 499
+  offset: 0, 0
+  index: -1
+10-3
+  rotate: true
+  xy: 538, 68
+  size: 433, 534
+  orig: 433, 534
+  offset: 0, 0
+  index: -1

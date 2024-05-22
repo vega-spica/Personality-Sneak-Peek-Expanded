@@ -1,0 +1,55 @@
+
+vfx_skill_eddy_01_02.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_1
+  rotate: false
+  xy: 2, 665
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_2
+  rotate: false
+  xy: 2, 393
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_3
+  rotate: false
+  xy: 274, 665
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_4
+  rotate: false
+  xy: 2, 121
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_5
+  rotate: false
+  xy: 274, 393
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_6
+  rotate: false
+  xy: 546, 665
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+shield_light_1
+  rotate: false
+  xy: 2, 2
+  size: 120, 117
+  orig: 120, 117
+  offset: 0, 0
+  index: -1

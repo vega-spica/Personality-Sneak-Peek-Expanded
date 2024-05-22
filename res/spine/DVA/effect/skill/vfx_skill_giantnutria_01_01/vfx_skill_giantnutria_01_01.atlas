@@ -1,0 +1,83 @@
+
+vfx_skill_giantnutria_01_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 14
+  size: 138, 105
+  orig: 138, 105
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 1771, 64
+  size: 274, 207
+  orig: 274, 207
+  offset: 0, 0
+  index: -1
+2_10
+  rotate: false
+  xy: 2, 121
+  size: 269, 56
+  orig: 269, 56
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 1484, 2
+  size: 285, 213
+  orig: 285, 213
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 1766, 273
+  size: 260, 237
+  orig: 260, 237
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: true
+  xy: 308, 174
+  size: 336, 296
+  orig: 336, 296
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: true
+  xy: 2, 179
+  size: 331, 304
+  orig: 331, 304
+  offset: 0, 0
+  index: -1
+2_6
+  rotate: true
+  xy: 1484, 217
+  size: 293, 280
+  orig: 293, 280
+  offset: 0, 0
+  index: -1
+2_7
+  rotate: false
+  xy: 1200, 205
+  size: 282, 305
+  orig: 282, 305
+  offset: 0, 0
+  index: -1
+2_8
+  rotate: false
+  xy: 606, 204
+  size: 301, 306
+  orig: 301, 306
+  offset: 0, 0
+  index: -1
+2_9
+  rotate: false
+  xy: 909, 204
+  size: 289, 306
+  orig: 289, 306
+  offset: 0, 0
+  index: -1

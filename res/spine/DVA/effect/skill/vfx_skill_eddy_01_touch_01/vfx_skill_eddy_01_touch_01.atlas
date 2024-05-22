@@ -1,0 +1,104 @@
+
+vfx_skill_eddy_01_touch_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 650
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 488
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 326
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 2, 164
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 2, 2
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: false
+  xy: 324, 800
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_7
+  rotate: false
+  xy: 626, 800
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 304, 598
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 304, 396
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 556, 598
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 304, 194
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: false
+  xy: 556, 396
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+2_6
+  rotate: false
+  xy: 556, 194
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+ult_8
+  rotate: false
+  xy: 2, 812
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1

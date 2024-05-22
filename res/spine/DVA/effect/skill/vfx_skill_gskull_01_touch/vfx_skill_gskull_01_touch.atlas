@@ -1,0 +1,48 @@
+
+vfx_skill_gskull_01_touch.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 1135, 173
+  size: 389, 208
+  orig: 389, 208
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 722, 202
+  size: 411, 360
+  orig: 411, 360
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 1437, 509
+  size: 508, 494
+  orig: 508, 494
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 2, 2
+  size: 677, 497
+  orig: 677, 497
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 2, 501
+  size: 718, 502
+  orig: 718, 502
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: false
+  xy: 722, 564
+  size: 713, 439
+  orig: 713, 439
+  offset: 0, 0
+  index: -1

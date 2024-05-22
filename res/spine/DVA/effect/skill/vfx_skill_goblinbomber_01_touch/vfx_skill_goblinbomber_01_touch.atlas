@@ -1,0 +1,97 @@
+
+vfx_skill_goblinbomber_01_touch.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 52
+  size: 83, 65
+  orig: 83, 65
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 87, 52
+  size: 83, 65
+  orig: 83, 65
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 172, 52
+  size: 83, 65
+  orig: 83, 65
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 257, 52
+  size: 83, 65
+  orig: 83, 65
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 342, 52
+  size: 83, 65
+  orig: 83, 65
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: false
+  xy: 427, 52
+  size: 83, 65
+  orig: 83, 65
+  offset: 0, 0
+  index: -1
+1_7
+  rotate: false
+  xy: 512, 52
+  size: 83, 65
+  orig: 83, 65
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 2, 2
+  size: 79, 48
+  orig: 79, 48
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 597, 69
+  size: 79, 48
+  orig: 79, 48
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 83, 2
+  size: 79, 48
+  orig: 79, 48
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 678, 69
+  size: 79, 48
+  orig: 79, 48
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: false
+  xy: 164, 2
+  size: 79, 48
+  orig: 79, 48
+  offset: 0, 0
+  index: -1
+2_6
+  rotate: false
+  xy: 759, 69
+  size: 79, 48
+  orig: 79, 48
+  offset: 0, 0
+  index: -1

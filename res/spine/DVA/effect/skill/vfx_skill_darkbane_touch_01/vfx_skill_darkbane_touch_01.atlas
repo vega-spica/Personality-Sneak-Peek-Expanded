@@ -1,0 +1,69 @@
+
+vfx_skill_darkbane_touch_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4_1
+  rotate: false
+  xy: 606, 788
+  size: 100, 220
+  orig: 100, 220
+  offset: 0, 0
+  index: -1
+4_2
+  rotate: true
+  xy: 2, 2
+  size: 100, 220
+  orig: 100, 220
+  offset: 0, 0
+  index: -1
+4_3
+  rotate: false
+  xy: 304, 184
+  size: 100, 220
+  orig: 100, 220
+  offset: 0, 0
+  index: -1
+4_4
+  rotate: false
+  xy: 606, 566
+  size: 100, 220
+  orig: 100, 220
+  offset: 0, 0
+  index: -1
+6_1
+  rotate: false
+  xy: 2, 708
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+6_2
+  rotate: false
+  xy: 2, 406
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+6_3
+  rotate: false
+  xy: 304, 708
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+6_4
+  rotate: false
+  xy: 2, 104
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+6_5
+  rotate: false
+  xy: 304, 406
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1

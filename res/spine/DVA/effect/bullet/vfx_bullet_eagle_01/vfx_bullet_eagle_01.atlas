@@ -1,0 +1,34 @@
+
+vfx_bullet_eagle_01.png
+size: 256,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 67, 8
+  size: 32, 19
+  orig: 32, 19
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 101, 9
+  size: 18, 31
+  orig: 18, 31
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 134, 2
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+eagle_attack_launcher
+  rotate: false
+  xy: 2, 6
+  size: 63, 21
+  orig: 63, 21
+  offset: 0, 0
+  index: -1

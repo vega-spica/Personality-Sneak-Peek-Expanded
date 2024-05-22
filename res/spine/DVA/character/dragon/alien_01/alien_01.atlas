@@ -1,0 +1,307 @@
+
+alien_01.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 372, 91
+  size: 86, 83
+  orig: 86, 83
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 437, 2
+  size: 67, 63
+  orig: 67, 63
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 279, 79
+  size: 91, 95
+  orig: 91, 95
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: false
+  xy: 369, 2
+  size: 66, 67
+  orig: 66, 67
+  offset: 0, 0
+  index: -1
+5_1
+  rotate: false
+  xy: 872, 124
+  size: 68, 51
+  orig: 68, 51
+  offset: 0, 0
+  index: -1
+5_2
+  rotate: false
+  xy: 502, 35
+  size: 66, 53
+  orig: 66, 53
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 932, 80
+  size: 39, 42
+  orig: 39, 42
+  offset: 0, 0
+  index: -1
+arm_l_2
+  rotate: false
+  xy: 811, 157
+  size: 59, 33
+  orig: 59, 33
+  offset: 0, 0
+  index: -1
+arm_l_3
+  rotate: false
+  xy: 962, 176
+  size: 52, 40
+  orig: 52, 40
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: true
+  xy: 807, 65
+  size: 35, 52
+  orig: 35, 52
+  offset: 0, 0
+  index: -1
+arm_r_2
+  rotate: false
+  xy: 740, 92
+  size: 65, 41
+  orig: 65, 41
+  offset: 0, 0
+  index: -1
+arm_r_3
+  rotate: false
+  xy: 867, 74
+  size: 63, 48
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
+arm_r_4
+  rotate: false
+  xy: 811, 102
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 740, 135
+  size: 69, 55
+  orig: 69, 55
+  offset: 0, 0
+  index: -1
+body_2
+  rotate: false
+  xy: 942, 125
+  size: 64, 49
+  orig: 64, 49
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: false
+  xy: 279, 33
+  size: 88, 44
+  orig: 88, 44
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 567, 132
+  size: 87, 35
+  orig: 87, 35
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: false
+  xy: 209, 8
+  size: 88, 23
+  orig: 88, 23
+  offset: 0, 0
+  index: -1
+eye_4
+  rotate: false
+  xy: 570, 169
+  size: 88, 21
+  orig: 88, 21
+  offset: 0, 0
+  index: -1
+eye_5
+  rotate: false
+  xy: 845, 26
+  size: 35, 37
+  orig: 35, 37
+  offset: 0, 0
+  index: -1
+eye_6
+  rotate: true
+  xy: 788, 54
+  size: 36, 15
+  orig: 36, 15
+  offset: 0, 0
+  index: -1
+eye_7
+  rotate: false
+  xy: 872, 177
+  size: 88, 39
+  orig: 88, 39
+  offset: 0, 0
+  index: -1
+face_1
+  rotate: true
+  xy: 162, 33
+  size: 119, 115
+  orig: 119, 115
+  offset: 0, 0
+  index: -1
+goggles_1
+  rotate: false
+  xy: 570, 192
+  size: 149, 62
+  orig: 149, 62
+  offset: 0, 0
+  index: -1
+goggles_2
+  rotate: false
+  xy: 721, 192
+  size: 149, 62
+  orig: 149, 62
+  offset: 0, 0
+  index: -1
+gun_1
+  rotate: false
+  xy: 460, 123
+  size: 105, 51
+  orig: 105, 51
+  offset: 0, 0
+  index: -1
+gun_2
+  rotate: false
+  xy: 2, 154
+  size: 250, 100
+  orig: 250, 100
+  offset: 0, 0
+  index: -1
+gun_etc_1
+  rotate: true
+  xy: 570, 71
+  size: 59, 82
+  orig: 59, 82
+  offset: 0, 0
+  index: -1
+hand_l_1
+  rotate: true
+  xy: 805, 31
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+hand_l_2
+  rotate: false
+  xy: 660, 116
+  size: 78, 74
+  orig: 78, 74
+  offset: 0, 0
+  index: -1
+hand_l_3
+  rotate: true
+  xy: 732, 57
+  size: 33, 54
+  orig: 33, 54
+  offset: 0, 0
+  index: -1
+hand_r_1
+  rotate: true
+  xy: 973, 81
+  size: 42, 39
+  orig: 42, 39
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: true
+  xy: 2, 15
+  size: 137, 158
+  orig: 137, 158
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 872, 218
+  size: 136, 36
+  orig: 136, 36
+  offset: 0, 0
+  index: -1
+stick_l_1
+  rotate: true
+  xy: 502, 12
+  size: 21, 36
+  orig: 21, 36
+  offset: 0, 0
+  index: -1
+stick_r_1
+  rotate: true
+  xy: 299, 8
+  size: 23, 41
+  orig: 23, 41
+  offset: 0, 0
+  index: -1
+ufo_1
+  rotate: false
+  xy: 254, 176
+  size: 156, 78
+  orig: 156, 78
+  offset: 0, 0
+  index: -1
+ufo_2
+  rotate: false
+  xy: 412, 176
+  size: 156, 78
+  orig: 156, 78
+  offset: 0, 0
+  index: -1
+ufo_front_1
+  rotate: false
+  xy: 570, 32
+  size: 76, 37
+  orig: 76, 37
+  offset: 0, 0
+  index: -1
+ufo_front_2
+  rotate: true
+  xy: 540, 10
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+ufo_front_3
+  rotate: false
+  xy: 654, 77
+  size: 76, 37
+  orig: 76, 37
+  offset: 0, 0
+  index: -1
+ufp_bottom_1
+  rotate: false
+  xy: 460, 90
+  size: 108, 31
+  orig: 108, 31
+  offset: 0, 0
+  index: -1
+wing_1
+  rotate: false
+  xy: 162, 2
+  size: 45, 29
+  orig: 45, 29
+  offset: 0, 0
+  index: -1

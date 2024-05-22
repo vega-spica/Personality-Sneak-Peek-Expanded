@@ -1,0 +1,279 @@
+
+panda_01.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+12
+  rotate: true
+  xy: 2, 29
+  size: 225, 513
+  orig: 225, 513
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 517, 49
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 724, 49
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+1_1
+  rotate: false
+  xy: 1296, 42
+  size: 121, 100
+  orig: 121, 100
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 995, 18
+  size: 59, 40
+  orig: 59, 40
+  offset: 0, 0
+  index: -1
+arm_l_2
+  rotate: false
+  xy: 1998, 125
+  size: 47, 85
+  orig: 47, 85
+  offset: 0, 0
+  index: -1
+arm_l_3
+  rotate: true
+  xy: 725, 10
+  size: 37, 76
+  orig: 37, 76
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: true
+  xy: 933, 15
+  size: 43, 60
+  orig: 43, 60
+  offset: 0, 0
+  index: -1
+arm_r_2
+  rotate: true
+  xy: 1617, 81
+  size: 40, 51
+  orig: 40, 51
+  offset: 0, 0
+  index: -1
+arm_r_3
+  rotate: false
+  xy: 803, 10
+  size: 63, 37
+  orig: 63, 37
+  offset: 0, 0
+  index: -1
+arm_r_4
+  rotate: false
+  xy: 868, 4
+  size: 63, 43
+  orig: 63, 43
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 1419, 50
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+ear_l_1
+  rotate: true
+  xy: 1513, 52
+  size: 51, 47
+  orig: 51, 47
+  offset: 0, 0
+  index: -1
+ear_r_1
+  rotate: true
+  xy: 1056, 7
+  size: 51, 52
+  orig: 51, 52
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: false
+  xy: 643, 11
+  size: 80, 36
+  orig: 80, 36
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 561, 7
+  size: 80, 40
+  orig: 80, 40
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: false
+  xy: 1499, 144
+  size: 41, 36
+  orig: 41, 36
+  offset: 0, 0
+  index: -1
+hand_l_1
+  rotate: false
+  xy: 1296, 2
+  size: 36, 38
+  orig: 36, 38
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 1859, 130
+  size: 137, 124
+  orig: 137, 124
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: true
+  xy: 517, 2
+  size: 45, 42
+  orig: 45, 42
+  offset: 0, 0
+  index: -1
+leg_l_2
+  rotate: false
+  xy: 1110, 18
+  size: 50, 40
+  orig: 50, 40
+  offset: 0, 0
+  index: -1
+leg_l_3
+  rotate: false
+  xy: 1513, 105
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+leg_l_4
+  rotate: false
+  xy: 1998, 212
+  size: 48, 42
+  orig: 48, 42
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 1334, 3
+  size: 52, 37
+  orig: 52, 37
+  offset: 0, 0
+  index: -1
+leg_r_2
+  rotate: false
+  xy: 1563, 79
+  size: 52, 42
+  orig: 52, 42
+  offset: 0, 0
+  index: -1
+leg_r_3
+  rotate: false
+  xy: 1721, 85
+  size: 52, 35
+  orig: 52, 35
+  offset: 0, 0
+  index: -1
+leg_r_4
+  rotate: false
+  xy: 1670, 80
+  size: 49, 41
+  orig: 49, 41
+  offset: 0, 0
+  index: -1
+nose_1
+  rotate: true
+  xy: 1110, 2
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+nose_2
+  rotate: false
+  xy: 1125, 2
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+panda_skill1_effect_001
+  rotate: true
+  xy: 1162, 31
+  size: 117, 132
+  orig: 117, 132
+  offset: 0, 0
+  index: -1
+panda_skill1_effect_002
+  rotate: true
+  xy: 1722, 122
+  size: 132, 135
+  orig: 132, 135
+  offset: 0, 0
+  index: -1
+panda_skill1_effect_003
+  rotate: false
+  xy: 1563, 123
+  size: 157, 131
+  orig: 157, 131
+  offset: 0, 0
+  index: -1
+panda_skill1_effect_004
+  rotate: false
+  xy: 1162, 150
+  size: 197, 104
+  orig: 197, 104
+  offset: 0, 0
+  index: -1
+panda_skill1_effect_005
+  rotate: false
+  xy: 931, 134
+  size: 229, 120
+  orig: 229, 120
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1361, 144
+  size: 136, 36
+  orig: 136, 36
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 1775, 83
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+weapon_1
+  rotate: false
+  xy: 931, 60
+  size: 200, 72
+  orig: 200, 72
+  offset: 0, 0
+  index: -1
+weapon_2
+  rotate: false
+  xy: 1361, 182
+  size: 200, 72
+  orig: 200, 72
+  offset: 0, 0
+  index: -1
+wing_1
+  rotate: false
+  xy: 1814, 90
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1

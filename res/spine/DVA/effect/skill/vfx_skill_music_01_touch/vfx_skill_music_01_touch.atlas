@@ -1,0 +1,83 @@
+
+vfx_skill_music_01_touch.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 35
+  size: 961, 475
+  orig: 961, 475
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 965, 125
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1627, 409
+  size: 16, 45
+  orig: 16, 45
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 2, 2
+  size: 31, 45
+  orig: 31, 45
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 1233, 225
+  size: 37, 46
+  orig: 37, 46
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 1775, 485
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+music_ult_effect_01
+  rotate: false
+  xy: 1627, 456
+  size: 146, 54
+  orig: 146, 54
+  offset: 0, 0
+  index: -1
+music_ult_effect_02
+  rotate: false
+  xy: 965, 173
+  size: 266, 98
+  orig: 266, 98
+  offset: 0, 0
+  index: -1
+music_ult_effect_03
+  rotate: false
+  xy: 965, 384
+  size: 342, 126
+  orig: 342, 126
+  offset: 0, 0
+  index: -1
+music_ult_effect_04
+  rotate: false
+  xy: 965, 273
+  size: 330, 109
+  orig: 330, 109
+  offset: 0, 0
+  index: -1
+music_ult_effect_05
+  rotate: false
+  xy: 1309, 388
+  size: 316, 122
+  orig: 316, 122
+  offset: 0, 0
+  index: -1

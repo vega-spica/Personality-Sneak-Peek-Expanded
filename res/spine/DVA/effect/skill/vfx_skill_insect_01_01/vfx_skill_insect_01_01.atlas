@@ -1,0 +1,55 @@
+
+vfx_skill_insect_01_01.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+insect_skill1_effect3_01
+  rotate: false
+  xy: 2, 116
+  size: 155, 137
+  orig: 155, 137
+  offset: 0, 0
+  index: -1
+insect_skill1_effect3_02
+  rotate: false
+  xy: 2, 2
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+insect_skill1_effect3_03
+  rotate: false
+  xy: 296, 95
+  size: 112, 85
+  orig: 112, 85
+  offset: 0, 0
+  index: -1
+insect_skill1_effect3_04
+  rotate: false
+  xy: 317, 182
+  size: 117, 71
+  orig: 117, 71
+  offset: 0, 0
+  index: -1
+insect_skill1_effect3_05
+  rotate: false
+  xy: 159, 128
+  size: 135, 65
+  orig: 135, 65
+  offset: 0, 0
+  index: -1
+insect_skill1_effect3_06
+  rotate: false
+  xy: 159, 195
+  size: 156, 58
+  orig: 156, 58
+  offset: 0, 0
+  index: -1
+insect_skill1_launcher
+  rotate: false
+  xy: 436, 223
+  size: 48, 30
+  orig: 48, 30
+  offset: 0, 0
+  index: -1

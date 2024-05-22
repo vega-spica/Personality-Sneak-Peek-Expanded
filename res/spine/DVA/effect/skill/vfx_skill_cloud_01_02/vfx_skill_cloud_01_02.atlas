@@ -1,0 +1,69 @@
+
+vfx_skill_cloud_01_02.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 234, 51
+  size: 105, 44
+  orig: 105, 44
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 1591, 104
+  size: 151, 57
+  orig: 151, 57
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 1591, 163
+  size: 197, 89
+  orig: 197, 89
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 2, 2
+  size: 230, 93
+  orig: 230, 93
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1369, 83
+  size: 220, 169
+  orig: 220, 169
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 368, 121
+  size: 330, 131
+  orig: 330, 131
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 700, 128
+  size: 337, 124
+  orig: 337, 124
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 1039, 128
+  size: 328, 124
+  orig: 328, 124
+  offset: 0, 0
+  index: -1
+3_4
+  rotate: false
+  xy: 2, 97
+  size: 364, 155
+  orig: 364, 155
+  offset: 0, 0
+  index: -1

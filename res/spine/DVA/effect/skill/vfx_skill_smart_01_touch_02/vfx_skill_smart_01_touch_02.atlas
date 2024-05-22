@@ -1,0 +1,34 @@
+
+vfx_skill_smart_01_touch_02.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3_1
+  rotate: false
+  xy: 1145, 580
+  size: 384, 338
+  orig: 384, 338
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: true
+  xy: 1256, 920
+  size: 943, 764
+  orig: 943, 764
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 2, 2
+  size: 1141, 921
+  orig: 1141, 921
+  offset: 0, 0
+  index: -1
+3_4
+  rotate: false
+  xy: 2, 925
+  size: 1252, 938
+  orig: 1252, 938
+  offset: 0, 0
+  index: -1

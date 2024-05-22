@@ -1,0 +1,90 @@
+
+minion_pangpang_01_01_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 1237, 290
+  size: 203, 275
+  orig: 203, 275
+  offset: 0, 0
+  index: -1
+1_1
+  rotate: false
+  xy: 1075, 63
+  size: 211, 214
+  orig: 211, 214
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 407, 4
+  size: 244, 235
+  orig: 244, 235
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 1514, 266
+  size: 249, 227
+  orig: 249, 227
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 195, 148
+  size: 210, 345
+  orig: 210, 345
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 653, 2
+  size: 193, 237
+  orig: 193, 237
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: true
+  xy: 967, 279
+  size: 214, 268
+  orig: 214, 268
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: true
+  xy: 1765, 259
+  size: 234, 247
+  orig: 234, 247
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 2, 110
+  size: 191, 383
+  orig: 191, 383
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 848, 22
+  size: 225, 226
+  orig: 225, 226
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 708, 250
+  size: 257, 243
+  orig: 257, 243
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 407, 241
+  size: 299, 252
+  orig: 299, 252
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+vfx_skill_cloud_01_touch.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 2
+  size: 111, 93
+  orig: 111, 93
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 1598, 822
+  size: 247, 192
+  orig: 247, 192
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 1258, 523
+  size: 329, 232
+  orig: 329, 232
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 1258, 757
+  size: 338, 257
+  orig: 338, 257
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 2, 97
+  size: 664, 917
+  orig: 664, 917
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: false
+  xy: 668, 123
+  size: 588, 891
+  orig: 588, 891
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 115, 46
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 1598, 769
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 1258, 460
+  size: 52, 61
+  orig: 52, 61
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 1847, 961
+  size: 51, 53
+  orig: 51, 53
+  offset: 0, 0
+  index: -1

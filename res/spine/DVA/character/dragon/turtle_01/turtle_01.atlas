@@ -1,0 +1,209 @@
+
+turtle_01.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 253, 40
+  size: 125, 155
+  orig: 125, 155
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 614, 292
+  size: 123, 156
+  orig: 123, 156
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 388, 137
+  size: 122, 156
+  orig: 122, 156
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 2, 19
+  size: 176, 249
+  orig: 176, 249
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 388, 261
+  size: 224, 249
+  orig: 224, 249
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 611, 67
+  size: 62, 56
+  orig: 62, 56
+  offset: 0, 0
+  index: -1
+arm_l_2
+  rotate: false
+  xy: 537, 76
+  size: 72, 47
+  orig: 72, 47
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 809, 179
+  size: 51, 60
+  orig: 51, 60
+  offset: 0, 0
+  index: -1
+arm_r_2
+  rotate: false
+  xy: 862, 188
+  size: 48, 60
+  orig: 48, 60
+  offset: 0, 0
+  index: -1
+arm_r_3
+  rotate: true
+  xy: 809, 241
+  size: 68, 50
+  orig: 68, 50
+  offset: 0, 0
+  index: -1
+arm_r_4
+  rotate: false
+  xy: 772, 311
+  size: 78, 47
+  orig: 78, 47
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 546, 125
+  size: 129, 134
+  orig: 129, 134
+  offset: 0, 0
+  index: -1
+body_2
+  rotate: true
+  xy: 885, 381
+  size: 129, 137
+  orig: 129, 137
+  offset: 0, 0
+  index: -1
+body_3
+  rotate: true
+  xy: 677, 20
+  size: 129, 137
+  orig: 129, 137
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: false
+  xy: 772, 360
+  size: 102, 55
+  orig: 102, 55
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 968, 196
+  size: 46, 52
+  orig: 46, 52
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: false
+  xy: 614, 274
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 876, 250
+  size: 138, 129
+  orig: 138, 129
+  offset: 0, 0
+  index: -1
+head_2
+  rotate: true
+  xy: 677, 151
+  size: 139, 130
+  orig: 139, 130
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 492, 17
+  size: 47, 49
+  orig: 47, 49
+  offset: 0, 0
+  index: -1
+leg_l_2
+  rotate: false
+  xy: 391, 17
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+leg_l_3
+  rotate: false
+  xy: 441, 18
+  size: 49, 48
+  orig: 49, 48
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 541, 26
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+leg_r_2
+  rotate: true
+  xy: 590, 18
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+leg_r_3
+  rotate: false
+  xy: 912, 202
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 253, 2
+  size: 136, 36
+  orig: 136, 36
+  offset: 0, 0
+  index: -1
+weapon_1
+  rotate: true
+  xy: 380, 68
+  size: 67, 155
+  orig: 67, 155
+  offset: 0, 0
+  index: -1
+레이어 69
+  rotate: false
+  xy: 2, 197
+  size: 384, 313
+  orig: 384, 313
+  offset: 0, 0
+  index: -1
+레이어 70
+  rotate: false
+  xy: 614, 417
+  size: 269, 93
+  orig: 269, 93
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,272 @@
+
+witch_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_l_1
+  rotate: true
+  xy: 2, 22
+  size: 274, 320
+  orig: 274, 320
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 483, 310
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 735, 17
+  size: 150, 158
+  orig: 150, 158
+  offset: 0, 0
+  index: -1
+broom_1
+  rotate: false
+  xy: 483, 363
+  size: 391, 147
+  orig: 391, 147
+  offset: 0, 0
+  index: -1
+broom_2
+  rotate: true
+  xy: 549, 43
+  size: 133, 184
+  orig: 133, 184
+  offset: 0, 0
+  index: -1
+broom_3
+  rotate: true
+  xy: 1525, 259
+  size: 91, 49
+  orig: 91, 49
+  offset: 0, 0
+  index: -1
+broom_4
+  rotate: false
+  xy: 2003, 398
+  size: 40, 112
+  orig: 40, 112
+  offset: 0, 0
+  index: -1
+circle_1
+  rotate: false
+  xy: 887, 34
+  size: 146, 146
+  orig: 146, 146
+  offset: 0, 0
+  index: -1
+circle_2
+  rotate: false
+  xy: 549, 178
+  size: 184, 183
+  orig: 184, 183
+  offset: 0, 0
+  index: -1
+circle_3
+  rotate: false
+  xy: 1589, 303
+  size: 208, 207
+  orig: 208, 207
+  offset: 0, 0
+  index: -1
+eye_l_1
+  rotate: true
+  xy: 1252, 47
+  size: 28, 46
+  orig: 28, 46
+  offset: 0, 0
+  index: -1
+eye_l_2
+  rotate: false
+  xy: 2003, 353
+  size: 43, 16
+  orig: 43, 16
+  offset: 0, 0
+  index: -1
+eye_r_1
+  rotate: true
+  xy: 2003, 371
+  size: 25, 43
+  orig: 25, 43
+  offset: 0, 0
+  index: -1
+eye_r_2
+  rotate: true
+  xy: 549, 2
+  size: 39, 17
+  orig: 39, 17
+  offset: 0, 0
+  index: -1
+face_1
+  rotate: false
+  xy: 1799, 310
+  size: 202, 200
+  orig: 202, 200
+  offset: 0, 0
+  index: -1
+faceshadow_1
+  rotate: true
+  xy: 735, 177
+  size: 184, 126
+  orig: 184, 126
+  offset: 0, 0
+  index: -1
+faceshadow_2
+  rotate: false
+  xy: 1252, 77
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+hair_back_1
+  rotate: true
+  xy: 324, 15
+  size: 281, 223
+  orig: 281, 223
+  offset: 0, 0
+  index: -1
+hair_front_1
+  rotate: false
+  xy: 1248, 202
+  size: 79, 65
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
+hair_front_2
+  rotate: true
+  xy: 1904, 212
+  size: 96, 100
+  orig: 96, 100
+  offset: 0, 0
+  index: -1
+hair_front_3
+  rotate: false
+  xy: 1454, 262
+  size: 69, 88
+  orig: 69, 88
+  offset: 0, 0
+  index: -1
+hair_side_l_1
+  rotate: true
+  xy: 876, 310
+  size: 101, 184
+  orig: 101, 184
+  offset: 0, 0
+  index: -1
+hair_side_r_1
+  rotate: false
+  xy: 863, 182
+  size: 169, 126
+  orig: 169, 126
+  offset: 0, 0
+  index: -1
+hair_top_1
+  rotate: false
+  xy: 1062, 332
+  size: 148, 79
+  orig: 148, 79
+  offset: 0, 0
+  index: -1
+hand_r_1
+  rotate: false
+  xy: 887, 2
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+horn_l_1
+  rotate: true
+  xy: 1357, 259
+  size: 91, 95
+  orig: 91, 95
+  offset: 0, 0
+  index: -1
+horn_r_1
+  rotate: false
+  xy: 1212, 361
+  size: 44, 50
+  orig: 44, 50
+  offset: 0, 0
+  index: -1
+jewel_1
+  rotate: false
+  xy: 1248, 146
+  size: 46, 54
+  orig: 46, 54
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: true
+  xy: 1035, 19
+  size: 107, 114
+  orig: 107, 114
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 1151, 34
+  size: 99, 103
+  orig: 99, 103
+  offset: 0, 0
+  index: -1
+magic_1
+  rotate: false
+  xy: 2, 298
+  size: 479, 212
+  orig: 479, 212
+  offset: 0, 0
+  index: -1
+magic_2
+  rotate: false
+  xy: 876, 413
+  size: 380, 97
+  orig: 380, 97
+  offset: 0, 0
+  index: -1
+magic_3
+  rotate: false
+  xy: 1258, 352
+  size: 329, 158
+  orig: 329, 158
+  offset: 0, 0
+  index: -1
+star_1
+  rotate: false
+  xy: 1035, 128
+  size: 113, 123
+  orig: 113, 123
+  offset: 0, 0
+  index: -1
+star_2
+  rotate: false
+  xy: 1150, 139
+  size: 96, 112
+  orig: 96, 112
+  offset: 0, 0
+  index: -1
+star_3
+  rotate: false
+  xy: 1799, 218
+  size: 103, 90
+  orig: 103, 90
+  offset: 0, 0
+  index: -1
+star_4
+  rotate: true
+  xy: 1252, 269
+  size: 81, 103
+  orig: 81, 103
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 1062, 253
+  size: 143, 77
+  orig: 143, 77
+  offset: 0, 0
+  index: -1

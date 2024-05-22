@@ -1,0 +1,181 @@
+
+kkaebi_01.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 37
+  size: 210, 529
+  orig: 210, 529
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 1090, 70
+  size: 163, 177
+  orig: 163, 177
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 737, 43
+  size: 181, 204
+  orig: 181, 204
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 1497, 7
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 1255, 120
+  size: 141, 127
+  orig: 141, 127
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: true
+  xy: 1544, 134
+  size: 113, 133
+  orig: 113, 133
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 1614, 49
+  size: 78, 83
+  orig: 78, 83
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: true
+  xy: 1679, 153
+  size: 94, 138
+  orig: 94, 138
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 1398, 144
+  size: 144, 103
+  orig: 144, 103
+  offset: 0, 0
+  index: -1
+cheek_l_1
+  rotate: true
+  xy: 1371, 87
+  size: 31, 19
+  orig: 31, 19
+  offset: 0, 0
+  index: -1
+cheek_r_1
+  rotate: false
+  xy: 1694, 65
+  size: 31, 19
+  orig: 31, 19
+  offset: 0, 0
+  index: -1
+ear_l_1
+  rotate: true
+  xy: 1819, 165
+  size: 82, 132
+  orig: 82, 132
+  offset: 0, 0
+  index: -1
+ear_r_1
+  rotate: true
+  xy: 1255, 18
+  size: 100, 114
+  orig: 100, 114
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: false
+  xy: 1953, 170
+  size: 88, 77
+  orig: 88, 77
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 1398, 81
+  size: 111, 61
+  orig: 111, 61
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: false
+  xy: 2, 2
+  size: 99, 33
+  orig: 99, 33
+  offset: 0, 0
+  index: -1
+eyelight_1
+  rotate: false
+  xy: 174, 14
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 533, 39
+  size: 202, 208
+  orig: 202, 208
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 1371, 5
+  size: 102, 74
+  orig: 102, 74
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: true
+  xy: 1511, 60
+  size: 72, 101
+  orig: 72, 101
+  offset: 0, 0
+  index: -1
+mouth_1
+  rotate: false
+  xy: 103, 5
+  size: 69, 30
+  orig: 69, 30
+  offset: 0, 0
+  index: -1
+mouth_2
+  rotate: true
+  xy: 1757, 81
+  size: 70, 45
+  orig: 70, 45
+  offset: 0, 0
+  index: -1
+mouth_3
+  rotate: true
+  xy: 1475, 8
+  size: 71, 20
+  orig: 71, 20
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 1694, 86
+  size: 61, 65
+  orig: 61, 65
+  offset: 0, 0
+  index: -1
+weapon_1
+  rotate: false
+  xy: 920, 57
+  size: 168, 190
+  orig: 168, 190
+  offset: 0, 0
+  index: -1

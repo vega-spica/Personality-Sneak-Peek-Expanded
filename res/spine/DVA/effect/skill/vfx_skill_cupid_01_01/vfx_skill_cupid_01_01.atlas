@@ -1,0 +1,48 @@
+
+vfx_skill_cupid_01_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 550, 93
+  size: 205, 164
+  orig: 205, 164
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 550, 259
+  size: 304, 229
+  orig: 304, 229
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 621, 490
+  size: 453, 273
+  orig: 453, 273
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: true
+  xy: 242, 76
+  size: 572, 306
+  orig: 572, 306
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 2, 650
+  size: 617, 293
+  orig: 617, 293
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: true
+  xy: 2, 2
+  size: 646, 238
+  orig: 646, 238
+  offset: 0, 0
+  index: -1

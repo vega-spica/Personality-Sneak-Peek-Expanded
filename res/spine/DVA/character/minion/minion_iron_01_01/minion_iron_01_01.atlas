@@ -1,0 +1,111 @@
+
+minion_iron_01_01.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 853, 32
+  size: 201, 94
+  orig: 201, 94
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 637, 41
+  size: 214, 85
+  orig: 214, 85
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 23
+  size: 212, 103
+  orig: 212, 103
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 425, 35
+  size: 210, 91
+  orig: 210, 91
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 1056, 21
+  size: 194, 105
+  orig: 194, 105
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 216, 23
+  size: 207, 103
+  orig: 207, 103
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 1474, 100
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+arm_l_2
+  rotate: false
+  xy: 1436, 100
+  size: 36, 26
+  orig: 36, 26
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 1436, 73
+  size: 33, 25
+  orig: 33, 25
+  offset: 0, 0
+  index: -1
+arm_r_2
+  rotate: false
+  xy: 1427, 48
+  size: 34, 23
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 1252, 5
+  size: 136, 121
+  orig: 136, 121
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: true
+  xy: 425, 2
+  size: 31, 28
+  orig: 31, 28
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 455, 6
+  size: 34, 27
+  orig: 34, 27
+  offset: 0, 0
+  index: -1
+npse_1
+  rotate: false
+  xy: 1390, 73
+  size: 44, 53
+  orig: 44, 53
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: true
+  xy: 1390, 25
+  size: 46, 35
+  orig: 46, 35
+  offset: 0, 0
+  index: -1

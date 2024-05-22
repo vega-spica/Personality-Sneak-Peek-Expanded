@@ -1,0 +1,55 @@
+
+vfx_skill_smart_01_02_01.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 441, 2
+  size: 214, 58
+  orig: 214, 58
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: false
+  xy: 2, 10
+  size: 252, 244
+  orig: 252, 244
+  offset: 0, 0
+  index: -1
+4_2
+  rotate: false
+  xy: 441, 62
+  size: 180, 192
+  orig: 180, 192
+  offset: 0, 0
+  index: -1
+4_3
+  rotate: false
+  xy: 256, 60
+  size: 183, 194
+  orig: 183, 194
+  offset: 0, 0
+  index: -1
+4_3_2
+  rotate: false
+  xy: 256, 2
+  size: 53, 56
+  orig: 53, 56
+  offset: 0, 0
+  index: -1
+4_3_4
+  rotate: false
+  xy: 623, 192
+  size: 55, 62
+  orig: 55, 62
+  offset: 0, 0
+  index: -1
+4_3_5
+  rotate: true
+  xy: 311, 14
+  size: 44, 61
+  orig: 44, 61
+  offset: 0, 0
+  index: -1

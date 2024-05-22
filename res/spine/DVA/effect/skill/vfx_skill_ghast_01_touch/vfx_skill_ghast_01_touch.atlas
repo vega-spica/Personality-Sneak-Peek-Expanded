@@ -1,0 +1,27 @@
+
+vfx_skill_ghast_01_touch.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 234, 78
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 2
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+c016_1_0_0_002
+  rotate: false
+  xy: 390, 145
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1

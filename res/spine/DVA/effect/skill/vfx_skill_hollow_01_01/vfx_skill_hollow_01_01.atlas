@@ -1,0 +1,69 @@
+
+vfx_skill_hollow_01_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/9_1
+  rotate: false
+  xy: 535, 821
+  size: 479, 191
+  orig: 479, 191
+  offset: 0, 0
+  index: -1
+image/9_2
+  rotate: false
+  xy: 2, 566
+  size: 519, 224
+  orig: 519, 224
+  offset: 0, 0
+  index: -1
+image/9_3
+  rotate: false
+  xy: 2, 792
+  size: 531, 220
+  orig: 531, 220
+  offset: 0, 0
+  index: -1
+image/grave_1
+  rotate: false
+  xy: 581, 245
+  size: 272, 388
+  orig: 272, 388
+  offset: 0, 0
+  index: -1
+image/grave_2
+  rotate: false
+  xy: 2, 145
+  size: 303, 419
+  orig: 303, 419
+  offset: 0, 0
+  index: -1
+image/grave_3
+  rotate: false
+  xy: 307, 154
+  size: 272, 410
+  orig: 272, 410
+  offset: 0, 0
+  index: -1
+image/ground_1
+  rotate: true
+  xy: 855, 228
+  size: 405, 124
+  orig: 405, 124
+  offset: 0, 0
+  index: -1
+image/stone_1
+  rotate: false
+  xy: 581, 64
+  size: 376, 162
+  orig: 376, 162
+  offset: 0, 0
+  index: -1
+image/stone_2
+  rotate: false
+  xy: 535, 635
+  size: 452, 184
+  orig: 452, 184
+  offset: 0, 0
+  index: -1

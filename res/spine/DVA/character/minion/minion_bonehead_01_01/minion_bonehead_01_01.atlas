@@ -1,0 +1,20 @@
+
+minion_bonehead_01_01.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_1
+  rotate: false
+  xy: 159, 14
+  size: 138, 110
+  orig: 138, 110
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 2, 2
+  size: 155, 122
+  orig: 155, 122
+  offset: 0, 0
+  index: -1

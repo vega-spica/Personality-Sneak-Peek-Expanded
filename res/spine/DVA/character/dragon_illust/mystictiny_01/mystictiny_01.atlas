@@ -1,0 +1,279 @@
+
+mystictiny_01.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 1194
+  size: 470, 184
+  orig: 470, 184
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 511, 1741
+  size: 290, 377
+  orig: 290, 377
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 890, 1920
+  size: 498, 111
+  orig: 498, 111
+  offset: 0, 0
+  index: -1
+2_10
+  rotate: false
+  xy: 2, 166
+  size: 141, 130
+  orig: 141, 130
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 811, 1660
+  size: 76, 79
+  orig: 76, 79
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 1394, 1841
+  size: 144, 79
+  orig: 144, 79
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 338, 832
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: false
+  xy: 413, 840
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+2_6
+  rotate: true
+  xy: 1605, 1916
+  size: 115, 151
+  orig: 115, 151
+  offset: 0, 0
+  index: -1
+2_7
+  rotate: true
+  xy: 249, 657
+  size: 65, 66
+  orig: 65, 66
+  offset: 0, 0
+  index: -1
+2_8
+  rotate: true
+  xy: 670, 1647
+  size: 92, 139
+  orig: 92, 139
+  offset: 0, 0
+  index: -1
+2_9
+  rotate: false
+  xy: 249, 819
+  size: 87, 86
+  orig: 87, 86
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 890, 1790
+  size: 209, 128
+  orig: 209, 128
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 1390, 1922
+  size: 213, 109
+  orig: 213, 109
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 253, 990
+  size: 213, 202
+  orig: 213, 202
+  offset: 0, 0
+  index: -1
+ear_l_1
+  rotate: true
+  xy: 367, 907
+  size: 81, 95
+  orig: 81, 95
+  offset: 0, 0
+  index: -1
+ear_r_1
+  rotate: false
+  xy: 2, 30
+  size: 135, 134
+  orig: 135, 134
+  offset: 0, 0
+  index: -1
+eye_l_1
+  rotate: true
+  xy: 2, 8
+  size: 20, 43
+  orig: 20, 43
+  offset: 0, 0
+  index: -1
+eye_l_2
+  rotate: false
+  xy: 1540, 1894
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+eye_l_3
+  rotate: false
+  xy: 1101, 1792
+  size: 24, 10
+  orig: 24, 10
+  offset: 0, 0
+  index: -1
+eye_l_4
+  rotate: false
+  xy: 923, 1766
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+eye_r_1
+  rotate: false
+  xy: 890, 1743
+  size: 31, 45
+  orig: 31, 45
+  offset: 0, 0
+  index: -1
+eye_r_2
+  rotate: false
+  xy: 145, 263
+  size: 38, 33
+  orig: 38, 33
+  offset: 0, 0
+  index: -1
+eye_r_3
+  rotate: false
+  xy: 195, 642
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+eye_r_4
+  rotate: true
+  xy: 491, 1624
+  size: 35, 13
+  orig: 35, 13
+  offset: 0, 0
+  index: -1
+fur_1
+  rotate: false
+  xy: 2, 298
+  size: 181, 150
+  orig: 181, 150
+  offset: 0, 0
+  index: -1
+fur_2
+  rotate: false
+  xy: 511, 1645
+  size: 157, 94
+  orig: 157, 94
+  offset: 0, 0
+  index: -1
+fur_3
+  rotate: true
+  xy: 253, 907
+  size: 81, 112
+  orig: 81, 112
+  offset: 0, 0
+  index: -1
+fur_4
+  rotate: false
+  xy: 1758, 1904
+  size: 139, 127
+  orig: 139, 127
+  offset: 0, 0
+  index: -1
+hat_1
+  rotate: false
+  xy: 2, 1380
+  size: 487, 279
+  orig: 487, 279
+  offset: 0, 0
+  index: -1
+hat_2
+  rotate: false
+  xy: 2, 1661
+  size: 507, 370
+  orig: 507, 370
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: true
+  xy: 2, 661
+  size: 261, 245
+  orig: 261, 245
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 1264, 1815
+  size: 128, 103
+  orig: 128, 103
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: true
+  xy: 1899, 1914
+  size: 117, 134
+  orig: 117, 134
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: false
+  xy: 2, 450
+  size: 191, 209
+  orig: 191, 209
+  offset: 0, 0
+  index: -1
+nose_1
+  rotate: false
+  xy: 1394, 1818
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: true
+  xy: 249, 724
+  size: 93, 73
+  orig: 93, 73
+  offset: 0, 0
+  index: -1
+tail_2
+  rotate: false
+  xy: 1101, 1804
+  size: 161, 114
+  orig: 161, 114
+  offset: 0, 0
+  index: -1
+weapon_1
+  rotate: false
+  xy: 2, 924
+  size: 249, 268
+  orig: 249, 268
+  offset: 0, 0
+  index: -1

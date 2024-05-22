@@ -1,0 +1,27 @@
+
+minion_scorpion_01_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c31_ult_1
+  rotate: true
+  xy: 844, 76
+  size: 349, 423
+  orig: 349, 423
+  offset: 0, 0
+  index: -1
+c31_ult_2
+  rotate: false
+  xy: 2, 2
+  size: 426, 423
+  orig: 426, 423
+  offset: 0, 0
+  index: -1
+c31_ult_3
+  rotate: false
+  xy: 430, 3
+  size: 412, 422
+  orig: 412, 422
+  offset: 0, 0
+  index: -1

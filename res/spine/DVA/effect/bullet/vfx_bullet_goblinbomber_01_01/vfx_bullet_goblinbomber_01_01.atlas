@@ -1,0 +1,83 @@
+
+vfx_bullet_goblinbomber_01_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 668, 846
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 2
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+bomb_1
+  rotate: false
+  xy: 446, 619
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+ult_4_1
+  rotate: false
+  xy: 2, 681
+  size: 220, 210
+  orig: 220, 210
+  offset: 0, 0
+  index: -1
+ult_4_2
+  rotate: false
+  xy: 2, 469
+  size: 220, 210
+  orig: 220, 210
+  offset: 0, 0
+  index: -1
+ult_4_3
+  rotate: false
+  xy: 224, 681
+  size: 220, 210
+  orig: 220, 210
+  offset: 0, 0
+  index: -1
+ult_4_4
+  rotate: false
+  xy: 2, 257
+  size: 220, 210
+  orig: 220, 210
+  offset: 0, 0
+  index: -1
+ult_4_5
+  rotate: false
+  xy: 224, 469
+  size: 220, 210
+  orig: 220, 210
+  offset: 0, 0
+  index: -1
+ult_4_6
+  rotate: false
+  xy: 446, 681
+  size: 220, 210
+  orig: 220, 210
+  offset: 0, 0
+  index: -1
+ult_4_7
+  rotate: false
+  xy: 2, 45
+  size: 220, 210
+  orig: 220, 210
+  offset: 0, 0
+  index: -1
+ult_4_8
+  rotate: false
+  xy: 224, 257
+  size: 220, 210
+  orig: 220, 210
+  offset: 0, 0
+  index: -1

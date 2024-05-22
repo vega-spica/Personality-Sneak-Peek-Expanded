@@ -1,0 +1,13 @@
+
+vfx_skill_asura_01_03_01.png
+size: 512,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3
+  rotate: false
+  xy: 2, 2
+  size: 392, 20
+  orig: 392, 20
+  offset: 0, 0
+  index: -1

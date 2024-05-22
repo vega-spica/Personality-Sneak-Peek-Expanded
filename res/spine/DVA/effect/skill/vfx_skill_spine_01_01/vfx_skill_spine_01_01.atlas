@@ -1,0 +1,69 @@
+
+vfx_skill_spine_01_01.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spine_skill1_effect_001
+  rotate: false
+  xy: 1303, 71
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+spine_skill1_effect_002
+  rotate: false
+  xy: 903, 14
+  size: 146, 97
+  orig: 146, 97
+  offset: 0, 0
+  index: -1
+spine_skill1_effect_003
+  rotate: false
+  xy: 388, 38
+  size: 181, 73
+  orig: 181, 73
+  offset: 0, 0
+  index: -1
+spine_skill1_effect_004
+  rotate: false
+  xy: 571, 2
+  size: 166, 109
+  orig: 166, 109
+  offset: 0, 0
+  index: -1
+spine_skill1_effect_005
+  rotate: false
+  xy: 1051, 9
+  size: 130, 102
+  orig: 130, 102
+  offset: 0, 0
+  index: -1
+spine_skill1_effect_006
+  rotate: false
+  xy: 1183, 8
+  size: 118, 103
+  orig: 118, 103
+  offset: 0, 0
+  index: -1
+spine_skill1_effect_007
+  rotate: false
+  xy: 739, 5
+  size: 162, 106
+  orig: 162, 106
+  offset: 0, 0
+  index: -1
+spine_skill1_effect_008
+  rotate: false
+  xy: 2, 10
+  size: 191, 101
+  orig: 191, 101
+  offset: 0, 0
+  index: -1
+spine_skill1_effect_009
+  rotate: false
+  xy: 195, 35
+  size: 191, 76
+  orig: 191, 76
+  offset: 0, 0
+  index: -1

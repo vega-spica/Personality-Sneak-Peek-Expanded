@@ -1,0 +1,34 @@
+
+vfx_skill_phoenix_01_02_02.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 221
+  size: 296, 258
+  orig: 296, 258
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 69
+  size: 132, 150
+  orig: 132, 150
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 300, 369
+  size: 123, 110
+  orig: 123, 110
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 2, 2
+  size: 65, 105
+  orig: 65, 105
+  offset: 0, 0
+  index: -1

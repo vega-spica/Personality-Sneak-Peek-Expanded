@@ -1,0 +1,27 @@
+
+vfx_skill_enix_01_02.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c27_skill2_2_1
+  rotate: false
+  xy: 2, 19
+  size: 232, 84
+  orig: 232, 84
+  offset: 0, 0
+  index: -1
+c27_skill2_2_2
+  rotate: false
+  xy: 236, 13
+  size: 215, 90
+  orig: 215, 90
+  offset: 0, 0
+  index: -1
+c27_skill2_2_3
+  rotate: false
+  xy: 453, 2
+  size: 212, 101
+  orig: 212, 101
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+vfx_skill_power_01_03.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 381, 222
+  size: 455, 137
+  orig: 455, 137
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 381, 64
+  size: 401, 156
+  orig: 401, 156
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 2
+  size: 377, 357
+  orig: 377, 357
+  offset: 0, 0
+  index: -1

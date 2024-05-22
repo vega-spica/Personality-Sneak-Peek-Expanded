@@ -1,0 +1,27 @@
+
+vfx_skill_enix_01_touch.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c27_ult_1
+  rotate: true
+  xy: 612, 49
+  size: 449, 278
+  orig: 449, 278
+  offset: 0, 0
+  index: -1
+c27_ult_2
+  rotate: true
+  xy: 316, 12
+  size: 486, 294
+  orig: 486, 294
+  offset: 0, 0
+  index: -1
+c27_ult_3
+  rotate: true
+  xy: 2, 2
+  size: 496, 312
+  orig: 496, 312
+  offset: 0, 0
+  index: -1

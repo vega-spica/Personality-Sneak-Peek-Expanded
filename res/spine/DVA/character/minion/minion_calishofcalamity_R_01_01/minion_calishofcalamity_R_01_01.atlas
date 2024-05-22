@@ -1,0 +1,202 @@
+
+minion_calishofcalamity_R_01_01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 103, 49
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 157, 100
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 265, 344
+  size: 61, 44
+  orig: 61, 44
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 121, 145
+  size: 64, 45
+  orig: 64, 45
+  offset: 0, 0
+  index: -1
+arm_r_2
+  rotate: false
+  xy: 116, 254
+  size: 69, 47
+  orig: 69, 47
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: true
+  xy: 265, 390
+  size: 82, 89
+  orig: 82, 89
+  offset: 0, 0
+  index: -1
+bomb_1
+  rotate: false
+  xy: 121, 192
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+bucket_1
+  rotate: true
+  xy: 2, 248
+  size: 139, 112
+  orig: 139, 112
+  offset: 0, 0
+  index: -1
+bucket_back_1
+  rotate: true
+  xy: 2, 107
+  size: 139, 51
+  orig: 139, 51
+  offset: 0, 0
+  index: -1
+ear_l_1
+  rotate: true
+  xy: 138, 367
+  size: 51, 80
+  orig: 51, 80
+  offset: 0, 0
+  index: -1
+ear_r_1
+  rotate: false
+  xy: 356, 390
+  size: 70, 82
+  orig: 70, 82
+  offset: 0, 0
+  index: -1
+eye_l_1
+  rotate: true
+  xy: 453, 492
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+eye_l_2
+  rotate: false
+  xy: 2, 2
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+eye_r_1
+  rotate: false
+  xy: 57, 14
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1
+eye_r_2
+  rotate: false
+  xy: 403, 490
+  size: 48, 20
+  orig: 48, 20
+  offset: 0, 0
+  index: -1
+hat_1
+  rotate: false
+  xy: 138, 420
+  size: 125, 90
+  orig: 125, 90
+  offset: 0, 0
+  index: -1
+hat_tail_2
+  rotate: true
+  xy: 55, 152
+  size: 94, 64
+  orig: 94, 64
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 2, 389
+  size: 134, 121
+  orig: 134, 121
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 107, 96
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+leg_l_2
+  rotate: true
+  xy: 57, 43
+  size: 62, 44
+  orig: 62, 44
+  offset: 0, 0
+  index: -1
+leg_l_3
+  rotate: true
+  xy: 383, 337
+  size: 51, 45
+  orig: 51, 45
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 196, 311
+  size: 49, 51
+  orig: 49, 51
+  offset: 0, 0
+  index: -1
+leg_r_2
+  rotate: true
+  xy: 220, 364
+  size: 54, 43
+  orig: 54, 43
+  offset: 0, 0
+  index: -1
+leg_r_3
+  rotate: false
+  xy: 55, 107
+  size: 50, 43
+  orig: 50, 43
+  offset: 0, 0
+  index: -1
+nose_1
+  rotate: false
+  xy: 328, 335
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+rope_1
+  rotate: false
+  xy: 116, 303
+  size: 78, 62
+  orig: 78, 62
+  offset: 0, 0
+  index: -1
+rope_2
+  rotate: true
+  xy: 2, 21
+  size: 84, 53
+  orig: 84, 53
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 265, 474
+  size: 136, 36
+  orig: 136, 36
+  offset: 0, 0
+  index: -1

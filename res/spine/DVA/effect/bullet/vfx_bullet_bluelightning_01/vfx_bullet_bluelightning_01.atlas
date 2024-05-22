@@ -1,0 +1,48 @@
+
+vfx_bullet_bluelightning_01.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 286, 29
+  size: 97, 113
+  orig: 97, 113
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 149, 15
+  size: 111, 135
+  orig: 111, 135
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 2, 3
+  size: 123, 145
+  orig: 123, 145
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 519, 2
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 401, 44
+  size: 116, 82
+  orig: 116, 82
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 519, 50
+  size: 112, 76
+  orig: 112, 76
+  offset: 0, 0
+  index: -1

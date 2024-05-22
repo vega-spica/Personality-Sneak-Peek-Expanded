@@ -1,0 +1,55 @@
+
+vfx_skill_alien_01_01.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3
+  rotate: false
+  xy: 2, 76
+  size: 457, 434
+  orig: 457, 434
+  offset: 0, 0
+  index: -1
+alien_skill1_explod_001
+  rotate: false
+  xy: 461, 90
+  size: 180, 166
+  orig: 180, 166
+  offset: 0, 0
+  index: -1
+alien_skill1_explod_002
+  rotate: false
+  xy: 461, 258
+  size: 347, 252
+  orig: 347, 252
+  offset: 0, 0
+  index: -1
+alien_skill1_explod_003
+  rotate: false
+  xy: 810, 367
+  size: 111, 143
+  orig: 111, 143
+  offset: 0, 0
+  index: -1
+alien_skill1_explod_004
+  rotate: false
+  xy: 643, 165
+  size: 131, 91
+  orig: 131, 91
+  offset: 0, 0
+  index: -1
+alien_skill1_explod_005
+  rotate: false
+  xy: 2, 2
+  size: 123, 72
+  orig: 123, 72
+  offset: 0, 0
+  index: -1
+alien_skill1_launcher
+  rotate: false
+  xy: 127, 24
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1

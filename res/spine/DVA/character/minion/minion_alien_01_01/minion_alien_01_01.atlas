@@ -1,0 +1,83 @@
+
+minion_alien_01_01.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 1390, 762
+  size: 232, 312
+  orig: 232, 312
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 1002, 644
+  size: 167, 318
+  orig: 167, 318
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 551, 302
+  size: 32, 313
+  orig: 32, 313
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: true
+  xy: 1704, 762
+  size: 232, 312
+  orig: 232, 312
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 1002, 813
+  size: 386, 181
+  orig: 386, 181
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 2, 2
+  size: 388, 178
+  orig: 388, 178
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: false
+  xy: 2, 182
+  size: 504, 109
+  orig: 504, 109
+  offset: 0, 0
+  index: -1
+light_2
+  rotate: false
+  xy: 604, 653
+  size: 291, 42
+  orig: 291, 42
+  offset: 0, 0
+  index: -1
+ufo_1
+  rotate: false
+  xy: 2, 293
+  size: 547, 322
+  orig: 547, 322
+  offset: 0, 0
+  index: -1
+ufo_2
+  rotate: false
+  xy: 2, 617
+  size: 600, 377
+  orig: 600, 377
+  offset: 0, 0
+  index: -1
+ufp_3
+  rotate: true
+  xy: 604, 697
+  size: 297, 396
+  orig: 297, 396
+  offset: 0, 0
+  index: -1

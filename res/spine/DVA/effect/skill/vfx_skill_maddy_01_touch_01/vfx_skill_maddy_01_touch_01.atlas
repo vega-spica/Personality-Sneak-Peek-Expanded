@@ -1,0 +1,111 @@
+
+vfx_skill_maddy_01_touch_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 660
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 498
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 336
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 2, 174
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 2, 12
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: false
+  xy: 324, 810
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+1_7
+  rotate: false
+  xy: 626, 810
+  size: 300, 160
+  orig: 300, 160
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 304, 608
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 304, 406
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 556, 608
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 304, 204
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: false
+  xy: 556, 406
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+2_6
+  rotate: false
+  xy: 556, 204
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+2_7
+  rotate: false
+  xy: 304, 2
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+ult_8
+  rotate: false
+  xy: 2, 822
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+vfx_skill_metalmagnet_01_05.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4_1
+  rotate: false
+  xy: 479, 612
+  size: 166, 367
+  orig: 166, 367
+  offset: 0, 0
+  index: -1
+4_2
+  rotate: false
+  xy: 647, 612
+  size: 166, 367
+  orig: 166, 367
+  offset: 0, 0
+  index: -1
+4_3
+  rotate: false
+  xy: 815, 612
+  size: 166, 367
+  orig: 166, 367
+  offset: 0, 0
+  index: -1
+4_4
+  rotate: false
+  xy: 2, 73
+  size: 212, 424
+  orig: 212, 424
+  offset: 0, 0
+  index: -1
+4_5
+  rotate: false
+  xy: 2, 499
+  size: 232, 480
+  orig: 232, 480
+  offset: 0, 0
+  index: -1
+4_6
+  rotate: false
+  xy: 236, 557
+  size: 241, 422
+  orig: 241, 422
+  offset: 0, 0
+  index: -1

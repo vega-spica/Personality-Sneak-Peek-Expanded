@@ -1,0 +1,41 @@
+
+vfx_bullet_ah_01.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 234, 14
+  size: 95, 100
+  orig: 95, 100
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 2
+  size: 108, 107
+  orig: 108, 107
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 336, 12
+  size: 99, 97
+  orig: 99, 97
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 437, 54
+  size: 59, 55
+  orig: 59, 55
+  offset: 0, 0
+  index: -1
+attack
+  rotate: false
+  xy: 112, 17
+  size: 120, 92
+  orig: 120, 92
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+vfx_skill_frog_01_02_01.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c34_skill2_1
+  rotate: false
+  xy: 2, 2
+  size: 460, 32
+  orig: 460, 32
+  offset: 0, 0
+  index: -1

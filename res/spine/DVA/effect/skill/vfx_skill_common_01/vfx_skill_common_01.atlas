@@ -1,0 +1,55 @@
+
+vfx_skill_common_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 135, 109
+  orig: 135, 109
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1372, 117
+  size: 206, 163
+  orig: 206, 163
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1372, 282
+  size: 351, 197
+  orig: 351, 197
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 2, 113
+  size: 631, 366
+  orig: 631, 366
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 1022, 190
+  size: 348, 289
+  orig: 348, 289
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 635, 119
+  size: 385, 360
+  orig: 385, 360
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1725, 236
+  size: 243, 243
+  orig: 243, 243
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+vfx_skill_music_01_02.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_1
+  rotate: false
+  xy: 2, 2
+  size: 39, 56
+  orig: 39, 56
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: true
+  xy: 116, 36
+  size: 22, 52
+  orig: 22, 52
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 81, 12
+  size: 33, 46
+  orig: 33, 46
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 116, 6
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 170, 33
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+music_attack_launcher_hill
+  rotate: false
+  xy: 43, 7
+  size: 36, 51
+  orig: 36, 51
+  offset: 0, 0
+  index: -1

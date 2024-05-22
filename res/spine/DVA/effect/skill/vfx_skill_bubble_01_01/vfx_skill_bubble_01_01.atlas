@@ -1,0 +1,139 @@
+
+vfx_skill_bubble_01_01.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_1
+  rotate: false
+  xy: 2, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_2
+  rotate: false
+  xy: 1739, 1760
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_3
+  rotate: false
+  xy: 1358, 1533
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_4
+  rotate: false
+  xy: 255, 1348
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_5
+  rotate: false
+  xy: 527, 1348
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_6
+  rotate: false
+  xy: 1630, 1488
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+die_01
+  rotate: false
+  xy: 2, 938
+  size: 225, 330
+  orig: 225, 330
+  offset: 0, 0
+  index: -1
+die_02
+  rotate: false
+  xy: 2, 606
+  size: 225, 330
+  orig: 225, 330
+  offset: 0, 0
+  index: -1
+die_03
+  rotate: false
+  xy: 2, 274
+  size: 225, 330
+  orig: 225, 330
+  offset: 0, 0
+  index: -1
+die_04
+  rotate: true
+  xy: 743, 1805
+  size: 225, 330
+  orig: 225, 330
+  offset: 0, 0
+  index: -1
+die_05
+  rotate: true
+  xy: 1075, 1805
+  size: 225, 330
+  orig: 225, 330
+  offset: 0, 0
+  index: -1
+die_06
+  rotate: true
+  xy: 1407, 1805
+  size: 225, 330
+  orig: 225, 330
+  offset: 0, 0
+  index: -1
+shield_light_1
+  rotate: true
+  xy: 1902, 1638
+  size: 120, 117
+  orig: 120, 117
+  offset: 0, 0
+  index: -1
+shield_light_2
+  rotate: false
+  xy: 2, 1654
+  size: 375, 376
+  orig: 375, 376
+  offset: 0, 0
+  index: -1
+shield_light_3
+  rotate: true
+  xy: 727, 1673
+  size: 130, 339
+  orig: 130, 339
+  offset: 0, 0
+  index: -1
+shield_light_4_1
+  rotate: false
+  xy: 1068, 1653
+  size: 288, 150
+  orig: 288, 150
+  offset: 0, 0
+  index: -1
+shield_light_4_2
+  rotate: false
+  xy: 379, 1808
+  size: 362, 222
+  orig: 362, 222
+  offset: 0, 0
+  index: -1
+shield_light_4_3
+  rotate: true
+  xy: 2, 1270
+  size: 382, 251
+  orig: 382, 251
+  offset: 0, 0
+  index: -1
+shield_light_4_4
+  rotate: false
+  xy: 379, 1620
+  size: 346, 186
+  orig: 346, 186
+  offset: 0, 0
+  index: -1

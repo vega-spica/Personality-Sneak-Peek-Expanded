@@ -1,0 +1,55 @@
+
+vfx_skill_totem_01_02.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 533, 117
+  size: 428, 348
+  orig: 428, 348
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 394
+  size: 529, 391
+  orig: 529, 391
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 1026, 478
+  size: 466, 307
+  orig: 466, 307
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 533, 467
+  size: 491, 318
+  orig: 491, 318
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 1494, 457
+  size: 430, 328
+  orig: 430, 328
+  offset: 0, 0
+  index: -1
+c014_4_2_4
+  rotate: false
+  xy: 2, 2
+  size: 438, 390
+  orig: 438, 390
+  offset: 0, 0
+  index: -1
+c014_4_4_3
+  rotate: false
+  xy: 963, 205
+  size: 236, 260
+  orig: 236, 260
+  offset: 0, 0
+  index: -1

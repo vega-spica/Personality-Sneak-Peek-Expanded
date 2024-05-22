@@ -1,0 +1,62 @@
+
+vfx_skill_thunderbolt_01_01_02.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c37_skill1_1
+  rotate: false
+  xy: 2, 105
+  size: 393, 83
+  orig: 393, 83
+  offset: 0, 0
+  index: -1
+c37_skill1_1_1
+  rotate: false
+  xy: 1060, 100
+  size: 130, 154
+  orig: 130, 154
+  offset: 0, 0
+  index: -1
+c37_skill1_2
+  rotate: false
+  xy: 2, 190
+  size: 419, 64
+  orig: 419, 64
+  offset: 0, 0
+  index: -1
+c37_skill1_2_1
+  rotate: true
+  xy: 859, 34
+  size: 160, 199
+  orig: 160, 199
+  offset: 0, 0
+  index: -1
+c37_skill1_3
+  rotate: false
+  xy: 423, 195
+  size: 313, 59
+  orig: 313, 59
+  offset: 0, 0
+  index: -1
+c37_skill1_3_1
+  rotate: true
+  xy: 644, 11
+  size: 182, 213
+  orig: 182, 213
+  offset: 0, 0
+  index: -1
+c37_skill1_4
+  rotate: false
+  xy: 738, 196
+  size: 278, 58
+  orig: 278, 58
+  offset: 0, 0
+  index: -1
+c37_skill1_4_1
+  rotate: true
+  xy: 423, 2
+  size: 191, 219
+  orig: 191, 219
+  offset: 0, 0
+  index: -1

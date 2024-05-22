@@ -1,0 +1,118 @@
+
+vfx_skill_hollow_01_02.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/10_1
+  rotate: false
+  xy: 2, 78
+  size: 126, 77
+  orig: 126, 77
+  offset: 0, 0
+  index: -1
+image/10_3
+  rotate: true
+  xy: 1111, 598
+  size: 146, 75
+  orig: 146, 75
+  offset: 0, 0
+  index: -1
+image/10_4
+  rotate: false
+  xy: 167, 165
+  size: 150, 51
+  orig: 150, 51
+  offset: 0, 0
+  index: -1
+image/10_6
+  rotate: true
+  xy: 1111, 464
+  size: 132, 61
+  orig: 132, 61
+  offset: 0, 0
+  index: -1
+image/10_7
+  rotate: false
+  xy: 1780, 1898
+  size: 107, 100
+  orig: 107, 100
+  offset: 0, 0
+  index: -1
+image/14_1
+  rotate: false
+  xy: 2, 218
+  size: 1107, 526
+  orig: 1107, 526
+  offset: 0, 0
+  index: -1
+image/14_2
+  rotate: true
+  xy: 1256, 1102
+  size: 896, 522
+  orig: 896, 522
+  offset: 0, 0
+  index: -1
+image/14_3
+  rotate: false
+  xy: 1256, 658
+  size: 634, 442
+  orig: 634, 442
+  offset: 0, 0
+  index: -1
+image/1_1
+  rotate: true
+  xy: 1780, 1766
+  size: 130, 51
+  orig: 130, 51
+  offset: 0, 0
+  index: -1
+image/1_2
+  rotate: false
+  xy: 2, 157
+  size: 163, 59
+  orig: 163, 59
+  offset: 0, 0
+  index: -1
+image/1_3
+  rotate: true
+  xy: 1188, 604
+  size: 140, 52
+  orig: 140, 52
+  offset: 0, 0
+  index: -1
+image/8_1
+  rotate: false
+  xy: 1889, 1926
+  size: 33, 72
+  orig: 33, 72
+  offset: 0, 0
+  index: -1
+image/8_2
+  rotate: false
+  xy: 130, 81
+  size: 25, 74
+  orig: 25, 74
+  offset: 0, 0
+  index: -1
+image/8_3
+  rotate: false
+  xy: 2, 2
+  size: 27, 74
+  orig: 27, 74
+  offset: 0, 0
+  index: -1
+image/8_4
+  rotate: false
+  xy: 319, 167
+  size: 42, 49
+  orig: 42, 49
+  offset: 0, 0
+  index: -1
+image/background_01
+  rotate: false
+  xy: 2, 746
+  size: 1252, 1252
+  orig: 1252, 1252
+  offset: 0, 0
+  index: -1

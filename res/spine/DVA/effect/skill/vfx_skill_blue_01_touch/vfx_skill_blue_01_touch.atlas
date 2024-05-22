@@ -1,0 +1,69 @@
+
+vfx_skill_blue_01_touch.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c013_1_0_1
+  rotate: false
+  xy: 1076, 154
+  size: 68, 94
+  orig: 68, 94
+  offset: 0, 0
+  index: -1
+c013_1_0_2
+  rotate: false
+  xy: 1719, 343
+  size: 102, 121
+  orig: 102, 121
+  offset: 0, 0
+  index: -1
+c013_1_0_3
+  rotate: true
+  xy: 311, 21
+  size: 156, 184
+  orig: 156, 184
+  offset: 0, 0
+  index: -1
+c013_1_0_4
+  rotate: true
+  xy: 776, 21
+  size: 227, 298
+  orig: 227, 298
+  offset: 0, 0
+  index: -1
+c013_1_0_5
+  rotate: true
+  xy: 776, 250
+  size: 214, 443
+  orig: 214, 443
+  offset: 0, 0
+  index: -1
+c013_1_0_6
+  rotate: true
+  xy: 311, 179
+  size: 285, 463
+  orig: 285, 463
+  offset: 0, 0
+  index: -1
+c013_1_0_7
+  rotate: false
+  xy: 2, 2
+  size: 307, 462
+  orig: 307, 462
+  offset: 0, 0
+  index: -1
+c013_1_0_8
+  rotate: true
+  xy: 1221, 323
+  size: 141, 496
+  orig: 141, 496
+  offset: 0, 0
+  index: -1
+c013_1_0_9
+  rotate: true
+  xy: 1221, 275
+  size: 46, 515
+  orig: 46, 515
+  offset: 0, 0
+  index: -1

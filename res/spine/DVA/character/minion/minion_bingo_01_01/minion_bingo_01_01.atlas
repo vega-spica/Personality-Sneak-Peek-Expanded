@@ -1,0 +1,41 @@
+
+minion_bingo_01_01.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c41_skill3_1_1
+  rotate: false
+  xy: 272, 46
+  size: 82, 94
+  orig: 82, 94
+  offset: 0, 0
+  index: -1
+c41_skill3_2_1
+  rotate: false
+  xy: 254, 142
+  size: 174, 102
+  orig: 174, 102
+  offset: 0, 0
+  index: -1
+c41_skill3_2_2
+  rotate: false
+  xy: 2, 152
+  size: 250, 92
+  orig: 250, 92
+  offset: 0, 0
+  index: -1
+c41_skill3_2_3
+  rotate: false
+  xy: 2, 2
+  size: 174, 148
+  orig: 174, 148
+  offset: 0, 0
+  index: -1
+c41_skill3_2_4
+  rotate: false
+  xy: 178, 18
+  size: 92, 122
+  orig: 92, 122
+  offset: 0, 0
+  index: -1

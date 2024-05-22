@@ -1,0 +1,83 @@
+
+vfx_skill_witch_01_02.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 581, 11
+  size: 99, 93
+  orig: 99, 93
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 159, 18
+  size: 132, 92
+  orig: 132, 92
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 2, 2
+  size: 108, 155
+  orig: 108, 155
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 926, 8
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: true
+  xy: 926, 52
+  size: 58, 74
+  orig: 58, 74
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 864, 2
+  size: 60, 108
+  orig: 60, 108
+  offset: 0, 0
+  index: -1
+3_4
+  rotate: false
+  xy: 489, 2
+  size: 90, 108
+  orig: 90, 108
+  offset: 0, 0
+  index: -1
+3_5
+  rotate: false
+  xy: 293, 2
+  size: 96, 108
+  orig: 96, 108
+  offset: 0, 0
+  index: -1
+3_6
+  rotate: false
+  xy: 391, 2
+  size: 96, 108
+  orig: 96, 108
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: false
+  xy: 676, 10
+  size: 92, 100
+  orig: 92, 100
+  offset: 0, 0
+  index: -1
+4_2
+  rotate: false
+  xy: 770, 10
+  size: 92, 100
+  orig: 92, 100
+  offset: 0, 0
+  index: -1

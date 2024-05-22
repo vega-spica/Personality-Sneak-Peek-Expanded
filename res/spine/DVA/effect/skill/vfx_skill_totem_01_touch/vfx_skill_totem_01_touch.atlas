@@ -1,0 +1,139 @@
+
+vfx_skill_totem_01_touch.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 273, 203
+  size: 352, 165
+  orig: 352, 165
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 273, 540
+  size: 393, 156
+  orig: 393, 156
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 273, 698
+  size: 393, 201
+  orig: 393, 201
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 273, 370
+  size: 372, 168
+  orig: 372, 168
+  offset: 0, 0
+  index: -1
+bomb_01
+  rotate: false
+  xy: 2, 1219
+  size: 349, 434
+  orig: 349, 434
+  offset: 0, 0
+  index: -1
+bomb_02
+  rotate: false
+  xy: 2, 1655
+  size: 474, 368
+  orig: 474, 368
+  offset: 0, 0
+  index: -1
+bomb_03
+  rotate: false
+  xy: 353, 1174
+  size: 464, 305
+  orig: 464, 305
+  offset: 0, 0
+  index: -1
+bomb_04
+  rotate: false
+  xy: 273, 901
+  size: 440, 271
+  orig: 440, 271
+  offset: 0, 0
+  index: -1
+c014_1_0_0_001
+  rotate: false
+  xy: 668, 590
+  size: 154, 309
+  orig: 154, 309
+  offset: 0, 0
+  index: -1
+c014_1_0_1_001
+  rotate: false
+  xy: 819, 1167
+  size: 171, 312
+  orig: 171, 312
+  offset: 0, 0
+  index: -1
+c014_1_0_2_001
+  rotate: true
+  xy: 715, 996
+  size: 169, 292
+  orig: 169, 292
+  offset: 0, 0
+  index: -1
+c014_1_0_3_001
+  rotate: true
+  xy: 2, 2
+  size: 195, 315
+  orig: 195, 315
+  offset: 0, 0
+  index: -1
+c014_1_0_4_001
+  rotate: true
+  xy: 319, 33
+  size: 168, 309
+  orig: 168, 309
+  offset: 0, 0
+  index: -1
+magiccircle_01
+  rotate: true
+  xy: 2, 709
+  size: 508, 269
+  orig: 508, 269
+  offset: 0, 0
+  index: -1
+magiccircle_02
+  rotate: false
+  xy: 989, 1754
+  size: 508, 269
+  orig: 508, 269
+  offset: 0, 0
+  index: -1
+magiccircle_03
+  rotate: true
+  xy: 2, 199
+  size: 508, 269
+  orig: 508, 269
+  offset: 0, 0
+  index: -1
+magiccircle_04
+  rotate: false
+  xy: 1499, 1754
+  size: 508, 269
+  orig: 508, 269
+  offset: 0, 0
+  index: -1
+magiccircle_05
+  rotate: false
+  xy: 478, 1481
+  size: 508, 269
+  orig: 508, 269
+  offset: 0, 0
+  index: -1
+magiccircle_06
+  rotate: false
+  xy: 478, 1752
+  size: 509, 271
+  orig: 509, 271
+  offset: 0, 0
+  index: -1

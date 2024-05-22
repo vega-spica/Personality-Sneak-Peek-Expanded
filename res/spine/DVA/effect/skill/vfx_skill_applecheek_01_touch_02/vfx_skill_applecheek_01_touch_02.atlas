@@ -1,0 +1,13 @@
+
+vfx_skill_applecheek_01_touch_02.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/11
+  rotate: false
+  xy: 2, 2
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1

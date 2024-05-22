@@ -1,0 +1,111 @@
+
+vfx_skill_swamp_01_02.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 483, 71
+  size: 107, 54
+  orig: 107, 54
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 328, 69
+  size: 153, 56
+  orig: 153, 56
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 52
+  size: 148, 73
+  orig: 148, 73
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: true
+  xy: 152, 8
+  size: 117, 86
+  orig: 117, 86
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 834, 59
+  size: 65, 66
+  orig: 65, 66
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: false
+  xy: 665, 18
+  size: 84, 55
+  orig: 84, 55
+  offset: 0, 0
+  index: -1
+1_7
+  rotate: false
+  xy: 563, 7
+  size: 100, 62
+  orig: 100, 62
+  offset: 0, 0
+  index: -1
+1_8
+  rotate: true
+  xy: 834, 3
+  size: 54, 68
+  orig: 54, 68
+  offset: 0, 0
+  index: -1
+swamp_skill2_effect_01
+  rotate: false
+  xy: 2, 4
+  size: 58, 46
+  orig: 58, 46
+  offset: 0, 0
+  index: -1
+swamp_skill2_effect_02
+  rotate: false
+  xy: 447, 5
+  size: 114, 62
+  orig: 114, 62
+  offset: 0, 0
+  index: -1
+swamp_skill2_effect_03
+  rotate: true
+  xy: 751, 30
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+swamp_skill2_effect_04
+  rotate: false
+  xy: 62, 5
+  size: 52, 45
+  orig: 52, 45
+  offset: 0, 0
+  index: -1
+swamp_skill2_effect_05
+  rotate: true
+  xy: 592, 75
+  size: 50, 81
+  orig: 50, 81
+  offset: 0, 0
+  index: -1
+swamp_skill2_effect_06
+  rotate: true
+  xy: 328, 2
+  size: 65, 117
+  orig: 65, 117
+  offset: 0, 0
+  index: -1
+swamp_skill2_effect_07
+  rotate: false
+  xy: 240, 24
+  size: 86, 101
+  orig: 86, 101
+  offset: 0, 0
+  index: -1

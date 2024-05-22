@@ -1,0 +1,90 @@
+
+vfx_skill_frozen_01_01_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/4_1_1
+  rotate: true
+  xy: 773, 449
+  size: 268, 82
+  orig: 268, 82
+  offset: 0, 0
+  index: -1
+image/4_1_2
+  rotate: true
+  xy: 773, 719
+  size: 293, 94
+  orig: 293, 94
+  offset: 0, 0
+  index: -1
+image/4_1_3
+  rotate: true
+  xy: 869, 713
+  size: 299, 86
+  orig: 299, 86
+  offset: 0, 0
+  index: -1
+image/4_2_1
+  rotate: false
+  xy: 714, 330
+  size: 66, 94
+  orig: 66, 94
+  offset: 0, 0
+  index: -1
+image/4_2_2
+  rotate: false
+  xy: 857, 453
+  size: 120, 89
+  orig: 120, 89
+  offset: 0, 0
+  index: -1
+image/4_2_3
+  rotate: false
+  xy: 2, 59
+  size: 669, 174
+  orig: 669, 174
+  offset: 0, 0
+  index: -1
+image/4_2_4
+  rotate: false
+  xy: 2, 426
+  size: 769, 169
+  orig: 769, 169
+  offset: 0, 0
+  index: -1
+image/4_2_5
+  rotate: false
+  xy: 2, 597
+  size: 769, 199
+  orig: 769, 199
+  offset: 0, 0
+  index: -1
+image/4_2_6
+  rotate: false
+  xy: 2, 798
+  size: 769, 214
+  orig: 769, 214
+  offset: 0, 0
+  index: -1
+image/4_2_7
+  rotate: false
+  xy: 2, 235
+  size: 710, 189
+  orig: 710, 189
+  offset: 0, 0
+  index: -1
+image/door_2
+  rotate: false
+  xy: 857, 544
+  size: 111, 167
+  orig: 111, 167
+  offset: 0, 0
+  index: -1
+image/door_eye_2
+  rotate: true
+  xy: 2, 2
+  size: 55, 84
+  orig: 55, 84
+  offset: 0, 0
+  index: -1

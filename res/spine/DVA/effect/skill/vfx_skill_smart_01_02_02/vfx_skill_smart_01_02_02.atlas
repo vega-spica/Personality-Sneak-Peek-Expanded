@@ -1,0 +1,13 @@
+
+vfx_skill_smart_01_02_02.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3
+  rotate: false
+  xy: 2, 2
+  size: 458, 34
+  orig: 458, 34
+  offset: 0, 0
+  index: -1

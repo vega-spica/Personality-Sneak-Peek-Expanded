@@ -1,0 +1,69 @@
+
+vfx_skill_sola_01_02.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 1127, 163
+  size: 258, 89
+  orig: 258, 89
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 1387, 158
+  size: 249, 94
+  orig: 249, 94
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 1127, 59
+  size: 188, 102
+  orig: 188, 102
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 1638, 112
+  size: 193, 140
+  orig: 193, 140
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: true
+  xy: 1833, 106
+  size: 146, 158
+  orig: 146, 158
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: false
+  xy: 890, 81
+  size: 235, 171
+  orig: 235, 171
+  offset: 0, 0
+  index: -1
+1_7
+  rotate: false
+  xy: 605, 48
+  size: 283, 204
+  orig: 283, 204
+  offset: 0, 0
+  index: -1
+1_8
+  rotate: false
+  xy: 2, 27
+  size: 314, 225
+  orig: 314, 225
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: true
+  xy: 318, 2
+  size: 250, 285
+  orig: 250, 285
+  offset: 0, 0
+  index: -1

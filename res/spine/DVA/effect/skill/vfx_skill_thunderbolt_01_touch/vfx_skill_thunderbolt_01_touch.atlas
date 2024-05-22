@@ -1,0 +1,41 @@
+
+vfx_skill_thunderbolt_01_touch.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c37_ult_3_1
+  rotate: false
+  xy: 897, 129
+  size: 86, 285
+  orig: 86, 285
+  offset: 0, 0
+  index: -1
+c37_ult_3_2
+  rotate: true
+  xy: 483, 41
+  size: 183, 412
+  orig: 183, 412
+  offset: 0, 0
+  index: -1
+c37_ult_3_3
+  rotate: true
+  xy: 483, 226
+  size: 188, 412
+  orig: 188, 412
+  offset: 0, 0
+  index: -1
+c37_ult_3_4
+  rotate: false
+  xy: 2, 2
+  size: 233, 412
+  orig: 233, 412
+  offset: 0, 0
+  index: -1
+c37_ult_3_5
+  rotate: false
+  xy: 237, 55
+  size: 244, 359
+  orig: 244, 359
+  offset: 0, 0
+  index: -1

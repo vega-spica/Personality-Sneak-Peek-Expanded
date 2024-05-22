@@ -1,0 +1,188 @@
+
+vfx_skill_flower_01_02.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c30_skill2_eff_1_1
+  rotate: false
+  xy: 1134, 129
+  size: 166, 153
+  orig: 166, 153
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_1_2
+  rotate: false
+  xy: 1325, 320
+  size: 228, 190
+  orig: 228, 190
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_1_3
+  rotate: false
+  xy: 533, 110
+  size: 219, 197
+  orig: 219, 197
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_1_4
+  rotate: false
+  xy: 831, 279
+  size: 246, 231
+  orig: 246, 231
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_1_5
+  rotate: false
+  xy: 2, 87
+  size: 278, 203
+  orig: 278, 203
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_1_6
+  rotate: false
+  xy: 282, 2
+  size: 233, 142
+  orig: 233, 142
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_1_7
+  rotate: false
+  xy: 1325, 219
+  size: 213, 99
+  orig: 213, 99
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_1_8
+  rotate: false
+  xy: 2, 16
+  size: 190, 69
+  orig: 190, 69
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_1_9
+  rotate: false
+  xy: 1555, 291
+  size: 187, 47
+  orig: 187, 47
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_2_1
+  rotate: false
+  xy: 754, 77
+  size: 203, 200
+  orig: 203, 200
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_2_2
+  rotate: true
+  xy: 1540, 239
+  size: 50, 141
+  orig: 50, 141
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_2_3
+  rotate: true
+  xy: 1598, 116
+  size: 121, 81
+  orig: 121, 81
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_2_4
+  rotate: false
+  xy: 754, 284
+  size: 57, 23
+  orig: 57, 23
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_2_5
+  rotate: true
+  xy: 2034, 450
+  size: 60, 6
+  orig: 60, 6
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_3_1
+  rotate: false
+  xy: 288, 321
+  size: 283, 189
+  orig: 283, 189
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_3_2
+  rotate: false
+  xy: 2, 292
+  size: 284, 218
+  orig: 284, 218
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_3_3
+  rotate: false
+  xy: 573, 309
+  size: 256, 201
+  orig: 256, 201
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_4_1
+  rotate: false
+  xy: 1302, 72
+  size: 160, 145
+  orig: 160, 145
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_4_2
+  rotate: false
+  xy: 1804, 331
+  size: 228, 179
+  orig: 228, 179
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_4_3
+  rotate: false
+  xy: 1079, 284
+  size: 244, 226
+  orig: 244, 226
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_4_4
+  rotate: true
+  xy: 288, 146
+  size: 173, 243
+  orig: 173, 243
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_4_5
+  rotate: true
+  xy: 1555, 340
+  size: 170, 247
+  orig: 170, 247
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_4_6
+  rotate: false
+  xy: 1464, 67
+  size: 132, 150
+  orig: 132, 150
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_4_7
+  rotate: false
+  xy: 959, 80
+  size: 173, 197
+  orig: 173, 197
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_4_8
+  rotate: false
+  xy: 1134, 2
+  size: 103, 125
+  orig: 103, 125
+  offset: 0, 0
+  index: -1
+c30_skill2_eff_4_9
+  rotate: true
+  xy: 517, 2
+  size: 106, 120
+  orig: 106, 120
+  offset: 0, 0
+  index: -1

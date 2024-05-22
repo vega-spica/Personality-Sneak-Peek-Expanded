@@ -1,0 +1,41 @@
+
+vfx_bullet_goblinbomber_01_02.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/1_1
+  rotate: false
+  xy: 2, 2
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+image/1_2
+  rotate: false
+  xy: 148, 156
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+image/bomb_1
+  rotate: false
+  xy: 82, 137
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+image/rope_1
+  rotate: false
+  xy: 2, 135
+  size: 78, 62
+  orig: 78, 62
+  offset: 0, 0
+  index: -1
+image/rope_2
+  rotate: true
+  xy: 2, 49
+  size: 84, 53
+  orig: 84, 53
+  offset: 0, 0
+  index: -1

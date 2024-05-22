@@ -1,0 +1,48 @@
+
+vfx_bullet_pangpang_01_02.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 343, 127
+  size: 165, 124
+  orig: 165, 124
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 122
+  size: 169, 129
+  orig: 169, 129
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 173, 127
+  size: 168, 124
+  orig: 168, 124
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 2, 2
+  size: 126, 118
+  orig: 126, 118
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 130, 4
+  size: 100, 116
+  orig: 100, 116
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 232, 29
+  size: 107, 96
+  orig: 107, 96
+  offset: 0, 0
+  index: -1

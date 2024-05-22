@@ -1,0 +1,55 @@
+
+vfx_skill_pangpang_01_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: true
+  xy: 1715, 3
+  size: 213, 180
+  orig: 213, 180
+  offset: 0, 0
+  index: -1
+1_1
+  rotate: false
+  xy: 1715, 218
+  size: 290, 236
+  orig: 290, 236
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 1437, 124
+  size: 330, 276
+  orig: 330, 276
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 792, 87
+  size: 367, 311
+  orig: 367, 311
+  offset: 0, 0
+  index: -1
+5_1
+  rotate: false
+  xy: 1105, 115
+  size: 330, 339
+  orig: 330, 339
+  offset: 0, 0
+  index: -1
+5_2
+  rotate: true
+  xy: 413, 30
+  size: 424, 377
+  orig: 424, 377
+  offset: 0, 0
+  index: -1
+5_3
+  rotate: true
+  xy: 2, 2
+  size: 452, 409
+  orig: 452, 409
+  offset: 0, 0
+  index: -1

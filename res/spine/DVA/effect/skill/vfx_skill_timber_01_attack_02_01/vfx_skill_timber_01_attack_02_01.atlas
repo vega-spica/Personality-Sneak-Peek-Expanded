@@ -1,0 +1,34 @@
+
+vfx_skill_timber_01_attack_02_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c28_attack2_1
+  rotate: false
+  xy: 2, 235
+  size: 618, 362
+  orig: 618, 362
+  offset: 0, 0
+  index: -1
+c28_attack2_2
+  rotate: false
+  xy: 2, 599
+  size: 690, 360
+  orig: 690, 360
+  offset: 0, 0
+  index: -1
+c28_attack2_3
+  rotate: true
+  xy: 694, 231
+  size: 728, 322
+  orig: 728, 322
+  offset: 0, 0
+  index: -1
+weapon_2
+  rotate: false
+  xy: 2, 2
+  size: 393, 227
+  orig: 393, 227
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+vfx_skill_ghast_01_04.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 180
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 568
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 234, 412
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 2, 336
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 466, 644
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 234, 568
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+c016_1_0_0_002
+  rotate: false
+  xy: 2, 91
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+c016_1_0_0_003
+  rotate: false
+  xy: 622, 711
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+c016_1_0_0_004
+  rotate: false
+  xy: 2, 2
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+vfx_skill_mud_01_01.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mud_skill1_effect_01
+  rotate: false
+  xy: 2, 12
+  size: 149, 32
+  orig: 149, 32
+  offset: 0, 0
+  index: -1
+mud_skill1_effect_02
+  rotate: false
+  xy: 197, 37
+  size: 167, 80
+  orig: 167, 80
+  offset: 0, 0
+  index: -1
+mud_skill1_effect_03
+  rotate: false
+  xy: 530, 2
+  size: 141, 115
+  orig: 141, 115
+  offset: 0, 0
+  index: -1
+mud_skill1_effect_04
+  rotate: false
+  xy: 809, 29
+  size: 126, 88
+  orig: 126, 88
+  offset: 0, 0
+  index: -1
+mud_skill1_effect_05
+  rotate: false
+  xy: 673, 36
+  size: 134, 81
+  orig: 134, 81
+  offset: 0, 0
+  index: -1
+mud_skill1_effect_06
+  rotate: false
+  xy: 366, 33
+  size: 162, 84
+  orig: 162, 84
+  offset: 0, 0
+  index: -1
+mud_skill1_effect_07
+  rotate: false
+  xy: 2, 46
+  size: 193, 71
+  orig: 193, 71
+  offset: 0, 0
+  index: -1

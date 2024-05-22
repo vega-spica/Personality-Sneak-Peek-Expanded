@@ -1,0 +1,97 @@
+
+vfx_skill_huricane_01_05.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s1_1
+  rotate: false
+  xy: 539, 760
+  size: 73, 69
+  orig: 73, 69
+  offset: 0, 0
+  index: -1
+s1_2
+  rotate: false
+  xy: 2, 2
+  size: 107, 79
+  orig: 107, 79
+  offset: 0, 0
+  index: -1
+s1_3
+  rotate: true
+  xy: 466, 727
+  size: 100, 71
+  orig: 100, 71
+  offset: 0, 0
+  index: -1
+s1_4
+  rotate: false
+  xy: 251, 527
+  size: 184, 134
+  orig: 184, 134
+  offset: 0, 0
+  index: -1
+s1_5
+  rotate: true
+  xy: 172, 99
+  size: 230, 157
+  orig: 230, 157
+  offset: 0, 0
+  index: -1
+s1_6
+  rotate: false
+  xy: 261, 829
+  size: 269, 171
+  orig: 269, 171
+  offset: 0, 0
+  index: -1
+s1_7
+  rotate: false
+  xy: 261, 663
+  size: 203, 164
+  orig: 203, 164
+  offset: 0, 0
+  index: -1
+s2_1
+  rotate: false
+  xy: 532, 831
+  size: 235, 169
+  orig: 235, 169
+  offset: 0, 0
+  index: -1
+s2_2
+  rotate: true
+  xy: 2, 83
+  size: 246, 168
+  orig: 246, 168
+  offset: 0, 0
+  index: -1
+s2_3
+  rotate: false
+  xy: 769, 831
+  size: 229, 169
+  orig: 229, 169
+  offset: 0, 0
+  index: -1
+s3_1
+  rotate: false
+  xy: 2, 556
+  size: 247, 220
+  orig: 247, 220
+  offset: 0, 0
+  index: -1
+s3_2
+  rotate: false
+  xy: 2, 778
+  size: 257, 222
+  orig: 257, 222
+  offset: 0, 0
+  index: -1
+s3_3
+  rotate: false
+  xy: 2, 331
+  size: 223, 223
+  orig: 223, 223
+  offset: 0, 0
+  index: -1

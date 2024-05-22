@@ -1,0 +1,83 @@
+
+vfx_skill_insect_01_02.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+insect_skill2_collapse_01
+  rotate: false
+  xy: 371, 59
+  size: 201, 190
+  orig: 201, 190
+  offset: 0, 0
+  index: -1
+insect_skill2_collapse_02
+  rotate: false
+  xy: 625, 21
+  size: 191, 178
+  orig: 191, 178
+  offset: 0, 0
+  index: -1
+insect_skill2_collapse_03
+  rotate: false
+  xy: 670, 201
+  size: 262, 83
+  orig: 262, 83
+  offset: 0, 0
+  index: -1
+insect_skill2_collapse_04
+  rotate: true
+  xy: 574, 37
+  size: 212, 49
+  orig: 212, 49
+  offset: 0, 0
+  index: -1
+insect_skill2_collapse_05
+  rotate: true
+  xy: 995, 296
+  size: 207, 18
+  orig: 207, 18
+  offset: 0, 0
+  index: -1
+insect_skill2_effect1_01
+  rotate: false
+  xy: 2, 2
+  size: 285, 77
+  orig: 285, 77
+  offset: 0, 0
+  index: -1
+insect_skill2_effect1_02
+  rotate: false
+  xy: 2, 81
+  size: 367, 204
+  orig: 367, 204
+  offset: 0, 0
+  index: -1
+insect_skill2_effect1_03
+  rotate: false
+  xy: 2, 287
+  size: 367, 216
+  orig: 367, 216
+  offset: 0, 0
+  index: -1
+insect_skill2_effect1_04
+  rotate: false
+  xy: 670, 286
+  size: 323, 217
+  orig: 323, 217
+  offset: 0, 0
+  index: -1
+insect_skill2_effect1_05
+  rotate: false
+  xy: 371, 251
+  size: 297, 252
+  orig: 297, 252
+  offset: 0, 0
+  index: -1
+insect_skill2_effect1_06
+  rotate: true
+  xy: 818, 13
+  size: 186, 164
+  orig: 186, 164
+  offset: 0, 0
+  index: -1

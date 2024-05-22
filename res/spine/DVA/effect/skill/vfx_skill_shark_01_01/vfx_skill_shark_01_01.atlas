@@ -1,0 +1,48 @@
+
+vfx_skill_shark_01_01.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 327, 163
+  size: 142, 75
+  orig: 142, 75
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 327, 95
+  size: 145, 66
+  orig: 145, 66
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 2
+  size: 146, 75
+  orig: 146, 75
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 173, 120
+  size: 152, 118
+  orig: 152, 118
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 2, 79
+  size: 169, 159
+  orig: 169, 159
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: true
+  xy: 173, 53
+  size: 65, 149
+  orig: 65, 149
+  offset: 0, 0
+  index: -1

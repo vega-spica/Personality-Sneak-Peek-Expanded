@@ -1,0 +1,48 @@
+
+vfx_skill_phoenix_01_touch.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+6_1
+  rotate: false
+  xy: 210, 107
+  size: 206, 138
+  orig: 206, 138
+  offset: 0, 0
+  index: -1
+7_1
+  rotate: false
+  xy: 210, 2
+  size: 129, 103
+  orig: 129, 103
+  offset: 0, 0
+  index: -1
+7_2
+  rotate: false
+  xy: 614, 99
+  size: 183, 146
+  orig: 183, 146
+  offset: 0, 0
+  index: -1
+7_3
+  rotate: false
+  xy: 2, 74
+  size: 206, 171
+  orig: 206, 171
+  offset: 0, 0
+  index: -1
+7_4
+  rotate: true
+  xy: 799, 85
+  size: 160, 180
+  orig: 160, 180
+  offset: 0, 0
+  index: -1
+7_5
+  rotate: true
+  xy: 418, 103
+  size: 142, 194
+  orig: 142, 194
+  offset: 0, 0
+  index: -1

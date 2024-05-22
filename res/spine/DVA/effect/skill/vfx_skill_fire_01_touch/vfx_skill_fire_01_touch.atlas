@@ -1,0 +1,27 @@
+
+vfx_skill_fire_01_touch.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 89, 21
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 2
+  size: 34, 44
+  orig: 34, 44
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 38, 18
+  size: 28, 49
+  orig: 28, 49
+  offset: 0, 0
+  index: -1

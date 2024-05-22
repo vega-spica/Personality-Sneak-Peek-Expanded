@@ -1,0 +1,181 @@
+
+hollow_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 550, 654
+  size: 62, 57
+  orig: 62, 57
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 518, 808
+  size: 140, 52
+  orig: 140, 52
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 284, 478
+  size: 121, 111
+  orig: 121, 111
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: true
+  xy: 284, 191
+  size: 73, 83
+  orig: 73, 83
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 660, 817
+  size: 124, 75
+  orig: 124, 75
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: true
+  xy: 824, 888
+  size: 133, 147
+  orig: 133, 147
+  offset: 0, 0
+  index: -1
+eye_l_1
+  rotate: false
+  xy: 407, 542
+  size: 44, 47
+  orig: 44, 47
+  offset: 0, 0
+  index: -1
+eye_l_2
+  rotate: false
+  xy: 2, 2
+  size: 46, 36
+  orig: 46, 36
+  offset: 0, 0
+  index: -1
+eye_r_1
+  rotate: false
+  xy: 973, 969
+  size: 40, 52
+  orig: 40, 52
+  offset: 0, 0
+  index: -1
+eye_r_2
+  rotate: false
+  xy: 824, 846
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+eyehole_l_1
+  rotate: false
+  xy: 215, 210
+  size: 67, 57
+  orig: 67, 57
+  offset: 0, 0
+  index: -1
+eyehole_r_1
+  rotate: false
+  xy: 786, 838
+  size: 36, 54
+  orig: 36, 54
+  offset: 0, 0
+  index: -1
+foot_l_1
+  rotate: false
+  xy: 550, 713
+  size: 91, 93
+  orig: 91, 93
+  offset: 0, 0
+  index: -1
+fx_1
+  rotate: false
+  xy: 2, 478
+  size: 280, 543
+  orig: 280, 543
+  offset: 0, 0
+  index: -1
+fx_2
+  rotate: false
+  xy: 284, 591
+  size: 179, 201
+  orig: 179, 201
+  offset: 0, 0
+  index: -1
+fx_3
+  rotate: false
+  xy: 518, 862
+  size: 140, 159
+  orig: 140, 159
+  offset: 0, 0
+  index: -1
+fx_4
+  rotate: false
+  xy: 284, 794
+  size: 232, 227
+  orig: 232, 227
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: false
+  xy: 660, 894
+  size: 162, 127
+  orig: 162, 127
+  offset: 0, 0
+  index: -1
+hand_l_1
+  rotate: false
+  xy: 289, 266
+  size: 105, 102
+  orig: 105, 102
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 2, 40
+  size: 201, 134
+  orig: 201, 134
+  offset: 0, 0
+  index: -1
+helmet_1
+  rotate: true
+  xy: 2, 176
+  size: 300, 211
+  orig: 300, 211
+  offset: 0, 0
+  index: -1
+helmet_2
+  rotate: false
+  xy: 215, 269
+  size: 72, 207
+  orig: 72, 207
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 465, 590
+  size: 77, 84
+  orig: 77, 84
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: true
+  xy: 465, 676
+  size: 116, 83
+  orig: 116, 83
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 289, 370
+  size: 115, 106
+  orig: 115, 106
+  offset: 0, 0
+  index: -1

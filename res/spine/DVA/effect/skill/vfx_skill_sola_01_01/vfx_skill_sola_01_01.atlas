@@ -1,0 +1,13 @@
+
+vfx_skill_sola_01_01.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+8
+  rotate: false
+  xy: 2, 2
+  size: 68, 70
+  orig: 68, 70
+  offset: 0, 0
+  index: -1

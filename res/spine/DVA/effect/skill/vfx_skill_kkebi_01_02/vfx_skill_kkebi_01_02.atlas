@@ -1,0 +1,34 @@
+
+vfx_skill_kkebi_01_02.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+6_3
+  rotate: false
+  xy: 190, 182
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+7_1
+  rotate: false
+  xy: 107, 170
+  size: 81, 82
+  orig: 81, 82
+  offset: 0, 0
+  index: -1
+7_2
+  rotate: false
+  xy: 2, 33
+  size: 87, 103
+  orig: 87, 103
+  offset: 0, 0
+  index: -1
+7_3
+  rotate: false
+  xy: 2, 138
+  size: 103, 114
+  orig: 103, 114
+  offset: 0, 0
+  index: -1

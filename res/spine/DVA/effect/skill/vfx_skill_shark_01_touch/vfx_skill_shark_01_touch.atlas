@@ -1,0 +1,166 @@
+
+vfx_skill_shark_01_touch.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_1
+  rotate: false
+  xy: 918, 2
+  size: 331, 219
+  orig: 331, 219
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 1289, 54
+  size: 414, 295
+  orig: 414, 295
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: true
+  xy: 1683, 424
+  size: 497, 356
+  orig: 497, 356
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 1480, 923
+  size: 552, 404
+  orig: 552, 404
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: true
+  xy: 1289, 351
+  size: 556, 392
+  orig: 556, 392
+  offset: 0, 0
+  index: -1
+shark_01
+  rotate: false
+  xy: 1705, 148
+  size: 290, 274
+  orig: 290, 274
+  offset: 0, 0
+  index: -1
+shark_03
+  rotate: true
+  xy: 918, 223
+  size: 561, 369
+  orig: 561, 369
+  offset: 0, 0
+  index: -1
+shark_04
+  rotate: true
+  xy: 486, 149
+  size: 635, 430
+  orig: 635, 430
+  offset: 0, 0
+  index: -1
+shark_05
+  rotate: true
+  xy: 1024, 909
+  size: 638, 454
+  orig: 638, 454
+  offset: 0, 0
+  index: -1
+shark_06
+  rotate: true
+  xy: 1525, 1329
+  size: 696, 474
+  orig: 696, 474
+  offset: 0, 0
+  index: -1
+shark_07
+  rotate: true
+  xy: 558, 786
+  size: 724, 464
+  orig: 724, 464
+  offset: 0, 0
+  index: -1
+shark_08
+  rotate: false
+  xy: 776, 1549
+  size: 747, 476
+  orig: 747, 476
+  offset: 0, 0
+  index: -1
+shark_09
+  rotate: true
+  xy: 2, 74
+  size: 734, 482
+  orig: 734, 482
+  offset: 0, 0
+  index: -1
+shark_10
+  rotate: false
+  xy: 2, 1512
+  size: 772, 513
+  orig: 772, 513
+  offset: 0, 0
+  index: -1
+shark_11
+  rotate: false
+  xy: 2, 810
+  size: 554, 700
+  orig: 554, 700
+  offset: 0, 0
+  index: -1
+
+vfx_skill_shark_01_touch2.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 1784, 99
+  size: 260, 246
+  orig: 260, 246
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 1228, 94
+  size: 251, 288
+  orig: 251, 288
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 1518, 84
+  size: 261, 264
+  orig: 261, 264
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 961, 70
+  size: 265, 275
+  orig: 265, 275
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 428, 50
+  size: 266, 295
+  orig: 266, 295
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: false
+  xy: 696, 50
+  size: 263, 295
+  orig: 263, 295
+  offset: 0, 0
+  index: -1
+shark_02
+  rotate: false
+  xy: 2, 2
+  size: 424, 343
+  orig: 424, 343
+  offset: 0, 0
+  index: -1

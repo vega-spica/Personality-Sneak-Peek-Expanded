@@ -1,0 +1,34 @@
+
+vfx_skill_bingo_01_touch.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c41_ult_3
+  rotate: false
+  xy: 1239, 197
+  size: 363, 306
+  orig: 363, 306
+  offset: 0, 0
+  index: -1
+c41_ult_4
+  rotate: false
+  xy: 756, 135
+  size: 481, 368
+  orig: 481, 368
+  offset: 0, 0
+  index: -1
+c41_ult_5
+  rotate: false
+  xy: 379, 2
+  size: 375, 501
+  orig: 375, 501
+  offset: 0, 0
+  index: -1
+c41_ult_6
+  rotate: false
+  xy: 2, 2
+  size: 375, 501
+  orig: 375, 501
+  offset: 0, 0
+  index: -1

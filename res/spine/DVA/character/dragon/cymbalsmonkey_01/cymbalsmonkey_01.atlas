@@ -1,0 +1,363 @@
+
+cymbalsmonkey_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 361, 2
+  size: 192, 158
+  orig: 192, 158
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 361, 162
+  size: 185, 187
+  orig: 185, 187
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 361, 351
+  size: 480, 159
+  orig: 480, 159
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: true
+  xy: 1007, 386
+  size: 124, 162
+  orig: 124, 162
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 548, 214
+  size: 154, 135
+  orig: 154, 135
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: true
+  xy: 135, 29
+  size: 122, 171
+  orig: 122, 171
+  offset: 0, 0
+  index: -1
+3_4
+  rotate: false
+  xy: 1321, 385
+  size: 144, 125
+  orig: 144, 125
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: false
+  xy: 2, 153
+  size: 357, 357
+  orig: 357, 357
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 1630, 389
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1
+arm_l_2
+  rotate: false
+  xy: 1913, 451
+  size: 50, 59
+  orig: 50, 59
+  offset: 0, 0
+  index: -1
+arm_l_3
+  rotate: false
+  xy: 601, 10
+  size: 32, 67
+  orig: 32, 67
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 810, 228
+  size: 39, 43
+  orig: 39, 43
+  offset: 0, 0
+  index: -1
+arm_r_2
+  rotate: true
+  xy: 555, 2
+  size: 75, 44
+  orig: 75, 44
+  offset: 0, 0
+  index: -1
+arm_r_3
+  rotate: false
+  xy: 1855, 445
+  size: 56, 65
+  orig: 56, 65
+  offset: 0, 0
+  index: -1
+arm_r_4
+  rotate: true
+  xy: 1728, 382
+  size: 49, 39
+  orig: 49, 39
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: true
+  xy: 1677, 433
+  size: 77, 87
+  orig: 77, 87
+  offset: 0, 0
+  index: -1
+body_2
+  rotate: true
+  xy: 1766, 437
+  size: 73, 87
+  orig: 73, 87
+  offset: 0, 0
+  index: -1
+ear_l_1
+  rotate: true
+  xy: 635, 21
+  size: 29, 43
+  orig: 29, 43
+  offset: 0, 0
+  index: -1
+ear_r_1
+  rotate: true
+  xy: 704, 198
+  size: 33, 46
+  orig: 33, 46
+  offset: 0, 0
+  index: -1
+ear_r_2
+  rotate: true
+  xy: 752, 198
+  size: 33, 46
+  orig: 33, 46
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: false
+  xy: 1965, 477
+  size: 76, 33
+  orig: 76, 33
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 983, 343
+  size: 24, 30
+  orig: 24, 30
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: true
+  xy: 810, 273
+  size: 76, 30
+  orig: 76, 30
+  offset: 0, 0
+  index: -1
+eye_4
+  rotate: false
+  xy: 843, 352
+  size: 76, 21
+  orig: 76, 21
+  offset: 0, 0
+  index: -1
+eye_5
+  rotate: false
+  xy: 601, 2
+  size: 78, 6
+  orig: 78, 6
+  offset: 0, 0
+  index: -1
+eye_6
+  rotate: true
+  xy: 634, 98
+  size: 76, 38
+  orig: 76, 38
+  offset: 0, 0
+  index: -1
+eye_7 복사
+  rotate: false
+  xy: 800, 202
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+hand_r_1
+  rotate: true
+  xy: 635, 52
+  size: 44, 37
+  orig: 44, 37
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 2, 2
+  size: 131, 149
+  orig: 131, 149
+  offset: 0, 0
+  index: -1
+head_2
+  rotate: true
+  xy: 1171, 376
+  size: 134, 148
+  orig: 134, 148
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 308, 100
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+leg_l_2
+  rotate: false
+  xy: 1769, 385
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: -1
+leg_l_3
+  rotate: true
+  xy: 1823, 385
+  size: 50, 46
+  orig: 50, 46
+  offset: 0, 0
+  index: -1
+leg_l_4
+  rotate: true
+  xy: 1567, 387
+  size: 45, 61
+  orig: 45, 61
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 1673, 383
+  size: 53, 48
+  orig: 53, 48
+  offset: 0, 0
+  index: -1
+leg_r_2
+  rotate: true
+  xy: 1919, 402
+  size: 47, 37
+  orig: 47, 37
+  offset: 0, 0
+  index: -1
+leg_r_3
+  rotate: false
+  xy: 308, 2
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+leg_r_4
+  rotate: true
+  xy: 308, 48
+  size: 50, 51
+  orig: 50, 51
+  offset: 0, 0
+  index: -1
+leg_r_5
+  rotate: true
+  xy: 1871, 395
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+neck_1
+  rotate: false
+  xy: 1467, 448
+  size: 110, 62
+  orig: 110, 62
+  offset: 0, 0
+  index: -1
+nose_1
+  rotate: true
+  xy: 921, 340
+  size: 33, 60
+  orig: 33, 60
+  offset: 0, 0
+  index: -1
+pupil_1
+  rotate: false
+  xy: 135, 17
+  size: 55, 10
+  orig: 55, 10
+  offset: 0, 0
+  index: -1
+pupil_2
+  rotate: false
+  xy: 352, 38
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+pupil_3
+  rotate: false
+  xy: 1965, 455
+  size: 66, 20
+  orig: 66, 20
+  offset: 0, 0
+  index: -1
+pupil_4
+  rotate: true
+  xy: 2033, 411
+  size: 64, 13
+  orig: 64, 13
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 548, 176
+  size: 136, 36
+  orig: 136, 36
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 704, 233
+  size: 104, 116
+  orig: 104, 116
+  offset: 0, 0
+  index: -1
+tail_2
+  rotate: true
+  xy: 843, 375
+  size: 135, 162
+  orig: 135, 162
+  offset: 0, 0
+  index: -1
+weapon_l_1
+  rotate: false
+  xy: 555, 79
+  size: 77, 95
+  orig: 77, 95
+  offset: 0, 0
+  index: -1
+weapon_r_1
+  rotate: true
+  xy: 1467, 399
+  size: 47, 98
+  orig: 47, 98
+  offset: 0, 0
+  index: -1
+weapon_r_2
+  rotate: true
+  xy: 1579, 434
+  size: 76, 96
+  orig: 76, 96
+  offset: 0, 0
+  index: -1

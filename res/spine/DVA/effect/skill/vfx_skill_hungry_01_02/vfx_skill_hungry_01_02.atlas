@@ -1,0 +1,41 @@
+
+vfx_skill_hungry_01_02.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c31_skiill2_eff_1
+  rotate: true
+  xy: 292, 33
+  size: 73, 144
+  orig: 73, 144
+  offset: 0, 0
+  index: -1
+c31_skiill2_eff_2
+  rotate: true
+  xy: 148, 9
+  size: 97, 142
+  orig: 97, 142
+  offset: 0, 0
+  index: -1
+c31_skiill2_eff_3
+  rotate: true
+  xy: 2, 8
+  size: 98, 144
+  orig: 98, 144
+  offset: 0, 0
+  index: -1
+c31_skill2_weapon_1
+  rotate: true
+  xy: 438, 2
+  size: 51, 54
+  orig: 51, 54
+  offset: 0, 0
+  index: -1
+c31_skill2_weapon_2
+  rotate: false
+  xy: 438, 55
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1

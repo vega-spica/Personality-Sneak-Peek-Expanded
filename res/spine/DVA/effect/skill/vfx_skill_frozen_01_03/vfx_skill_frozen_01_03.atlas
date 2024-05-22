@@ -1,0 +1,48 @@
+
+vfx_skill_frozen_01_03.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/5_2_1
+  rotate: false
+  xy: 2, 89
+  size: 164, 184
+  orig: 164, 184
+  offset: 0, 0
+  index: -1
+image/5_2_2
+  rotate: false
+  xy: 236, 335
+  size: 125, 171
+  orig: 125, 171
+  offset: 0, 0
+  index: -1
+image/5_2_3
+  rotate: false
+  xy: 363, 382
+  size: 111, 124
+  orig: 111, 124
+  offset: 0, 0
+  index: -1
+image/5_2_4
+  rotate: false
+  xy: 168, 212
+  size: 57, 61
+  orig: 57, 61
+  offset: 0, 0
+  index: -1
+image/7_3
+  rotate: false
+  xy: 2, 275
+  size: 232, 231
+  orig: 232, 231
+  offset: 0, 0
+  index: -1
+image/jewel_1
+  rotate: false
+  xy: 2, 2
+  size: 54, 85
+  orig: 54, 85
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+vfx_skill_gosin_01_touch_03.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3_1
+  rotate: false
+  xy: 2, 2
+  size: 498, 63
+  orig: 498, 63
+  offset: 0, 0
+  index: -1

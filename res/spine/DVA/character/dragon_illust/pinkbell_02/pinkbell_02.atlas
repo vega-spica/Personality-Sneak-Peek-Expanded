@@ -1,0 +1,279 @@
+
+pinkbell_02.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 1370, 345
+  size: 184, 165
+  orig: 184, 165
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 803, 229
+  size: 185, 112
+  orig: 185, 112
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 532, 2
+  size: 56, 55
+  orig: 56, 55
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: true
+  xy: 243, 8
+  size: 66, 61
+  orig: 66, 61
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 465, 17
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: true
+  xy: 1153, 223
+  size: 118, 125
+  orig: 118, 125
+  offset: 0, 0
+  index: -1
+1_7
+  rotate: false
+  xy: 563, 60
+  size: 217, 206
+  orig: 217, 206
+  offset: 0, 0
+  index: -1
+acc_1
+  rotate: false
+  xy: 306, 33
+  size: 87, 49
+  orig: 87, 49
+  offset: 0, 0
+  index: -1
+acc_2
+  rotate: true
+  xy: 782, 243
+  size: 23, 13
+  orig: 23, 13
+  offset: 0, 0
+  index: -1
+acc_3
+  rotate: false
+  xy: 158, 9
+  size: 83, 65
+  orig: 83, 65
+  offset: 0, 0
+  index: -1
+acc_4
+  rotate: false
+  xy: 589, 9
+  size: 59, 49
+  orig: 59, 49
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 984, 135
+  size: 140, 86
+  orig: 140, 86
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 1126, 134
+  size: 137, 87
+  orig: 137, 87
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 1747, 364
+  size: 166, 146
+  orig: 166, 146
+  offset: 0, 0
+  index: -1
+cloth_1
+  rotate: false
+  xy: 1389, 125
+  size: 104, 116
+  orig: 104, 116
+  offset: 0, 0
+  index: -1
+cloth_2
+  rotate: true
+  xy: 782, 5
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+cloth_3
+  rotate: false
+  xy: 990, 223
+  size: 161, 118
+  orig: 161, 118
+  offset: 0, 0
+  index: -1
+cloth_4
+  rotate: true
+  xy: 1280, 218
+  size: 123, 104
+  orig: 123, 104
+  offset: 0, 0
+  index: -1
+cloth_5
+  rotate: false
+  xy: 909, 127
+  size: 73, 100
+  orig: 73, 100
+  offset: 0, 0
+  index: -1
+eye_l_1
+  rotate: false
+  xy: 306, 9
+  size: 39, 22
+  orig: 39, 22
+  offset: 0, 0
+  index: -1
+eye_l_2
+  rotate: false
+  xy: 695, 34
+  size: 40, 24
+  orig: 40, 24
+  offset: 0, 0
+  index: -1
+eye_r_1
+  rotate: true
+  xy: 1539, 125
+  size: 37, 22
+  orig: 37, 22
+  offset: 0, 0
+  index: -1
+eye_r_2
+  rotate: false
+  xy: 1556, 347
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+finger_l_1
+  rotate: false
+  xy: 1495, 125
+  size: 42, 37
+  orig: 42, 37
+  offset: 0, 0
+  index: -1
+finger_r_1
+  rotate: false
+  xy: 650, 25
+  size: 43, 33
+  orig: 43, 33
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: true
+  xy: 1915, 344
+  size: 166, 131
+  orig: 166, 131
+  offset: 0, 0
+  index: -1
+hat_1
+  rotate: false
+  xy: 782, 106
+  size: 125, 121
+  orig: 125, 121
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 563, 268
+  size: 238, 242
+  orig: 238, 242
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 1386, 243
+  size: 135, 100
+  orig: 135, 100
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: true
+  xy: 1265, 117
+  size: 99, 122
+  orig: 99, 122
+  offset: 0, 0
+  index: -1
+shadow_1
+  rotate: false
+  xy: 395, 22
+  size: 68, 60
+  orig: 68, 60
+  offset: 0, 0
+  index: -1
+skirt_1
+  rotate: false
+  xy: 803, 343
+  size: 283, 167
+  orig: 283, 167
+  offset: 0, 0
+  index: -1
+skirt_2
+  rotate: false
+  xy: 1088, 343
+  size: 280, 167
+  orig: 280, 167
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 1556, 375
+  size: 189, 135
+  orig: 189, 135
+  offset: 0, 0
+  index: -1
+tie_1
+  rotate: true
+  xy: 1523, 243
+  size: 100, 43
+  orig: 100, 43
+  offset: 0, 0
+  index: -1
+tie_2
+  rotate: false
+  xy: 2, 14
+  size: 154, 60
+  orig: 154, 60
+  offset: 0, 0
+  index: -1
+tie_3
+  rotate: true
+  xy: 1495, 164
+  size: 77, 73
+  orig: 77, 73
+  offset: 0, 0
+  index: -1
+wing_l_1
+  rotate: false
+  xy: 2, 76
+  size: 297, 434
+  orig: 297, 434
+  offset: 0, 0
+  index: -1
+wing_r_1
+  rotate: false
+  xy: 301, 84
+  size: 260, 426
+  orig: 260, 426
+  offset: 0, 0
+  index: -1

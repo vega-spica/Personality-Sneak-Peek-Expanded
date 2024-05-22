@@ -1,0 +1,48 @@
+
+vfx_skill_bluelightning_01_01_01.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 575, 99
+  size: 568, 144
+  orig: 568, 144
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 1145, 96
+  size: 562, 147
+  orig: 562, 147
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 90
+  size: 571, 153
+  orig: 571, 153
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: true
+  xy: 1862, 122
+  size: 121, 138
+  orig: 121, 138
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: true
+  xy: 1709, 2
+  size: 116, 136
+  orig: 116, 136
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: true
+  xy: 1709, 120
+  size: 123, 151
+  orig: 123, 151
+  offset: 0, 0
+  index: -1

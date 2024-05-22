@@ -1,0 +1,27 @@
+
+vfx_skill_paprion_01_01.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+paprion_skill1_shield_1
+  rotate: true
+  xy: 2, 2
+  size: 198, 169
+  orig: 198, 169
+  offset: 0, 0
+  index: -1
+paprion_skill1_shield_2
+  rotate: true
+  xy: 173, 27
+  size: 173, 167
+  orig: 173, 167
+  offset: 0, 0
+  index: -1
+paprion_skill1_shield_3
+  rotate: true
+  xy: 342, 29
+  size: 171, 164
+  orig: 171, 164
+  offset: 0, 0
+  index: -1

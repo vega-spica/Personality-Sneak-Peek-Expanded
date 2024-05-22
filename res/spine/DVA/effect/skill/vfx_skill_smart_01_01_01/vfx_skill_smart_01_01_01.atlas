@@ -1,0 +1,104 @@
+
+vfx_skill_smart_01_01_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1315, 145
+  size: 197, 86
+  orig: 197, 86
+  offset: 0, 0
+  index: -1
+2_1_1
+  rotate: false
+  xy: 1315, 233
+  size: 244, 244
+  orig: 244, 244
+  offset: 0, 0
+  index: -1
+2_1_2
+  rotate: false
+  xy: 1561, 292
+  size: 246, 185
+  orig: 246, 185
+  offset: 0, 0
+  index: -1
+2_1_3
+  rotate: true
+  xy: 2, 2
+  size: 35, 86
+  orig: 35, 86
+  offset: 0, 0
+  index: -1
+2_2_1
+  rotate: false
+  xy: 875, 142
+  size: 438, 335
+  orig: 438, 335
+  offset: 0, 0
+  index: -1
+2_2_2
+  rotate: false
+  xy: 452, 73
+  size: 421, 404
+  orig: 421, 404
+  offset: 0, 0
+  index: -1
+2_2_3
+  rotate: false
+  xy: 2, 39
+  size: 448, 438
+  orig: 448, 438
+  offset: 0, 0
+  index: -1
+2_2_4
+  rotate: true
+  xy: 1809, 292
+  size: 185, 202
+  orig: 185, 202
+  offset: 0, 0
+  index: -1
+4_3_1
+  rotate: false
+  xy: 932, 84
+  size: 55, 56
+  orig: 55, 56
+  offset: 0, 0
+  index: -1
+4_3_2
+  rotate: true
+  xy: 1624, 237
+  size: 53, 56
+  orig: 53, 56
+  offset: 0, 0
+  index: -1
+4_3_3
+  rotate: true
+  xy: 989, 96
+  size: 44, 60
+  orig: 44, 60
+  offset: 0, 0
+  index: -1
+4_3_4
+  rotate: false
+  xy: 875, 78
+  size: 55, 62
+  orig: 55, 62
+  offset: 0, 0
+  index: -1
+4_3_5
+  rotate: false
+  xy: 1514, 170
+  size: 44, 61
+  orig: 44, 61
+  offset: 0, 0
+  index: -1
+4_3_6
+  rotate: true
+  xy: 1561, 235
+  size: 55, 61
+  orig: 55, 61
+  offset: 0, 0
+  index: -1

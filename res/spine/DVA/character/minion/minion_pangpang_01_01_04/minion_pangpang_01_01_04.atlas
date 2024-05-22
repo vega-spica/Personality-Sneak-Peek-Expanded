@@ -1,0 +1,48 @@
+
+minion_pangpang_01_01_04.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4
+  rotate: false
+  xy: 1069, 212
+  size: 267, 298
+  orig: 267, 298
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: false
+  xy: 751, 198
+  size: 316, 312
+  orig: 316, 312
+  offset: 0, 0
+  index: -1
+4_2
+  rotate: false
+  xy: 389, 163
+  size: 360, 347
+  orig: 360, 347
+  offset: 0, 0
+  index: -1
+4_3
+  rotate: false
+  xy: 2, 156
+  size: 385, 354
+  orig: 385, 354
+  offset: 0, 0
+  index: -1
+4_light
+  rotate: false
+  xy: 2, 2
+  size: 76, 131
+  orig: 76, 131
+  offset: 0, 0
+  index: -1
+4_line
+  rotate: true
+  xy: 2, 135
+  size: 19, 267
+  orig: 19, 267
+  offset: 0, 0
+  index: -1

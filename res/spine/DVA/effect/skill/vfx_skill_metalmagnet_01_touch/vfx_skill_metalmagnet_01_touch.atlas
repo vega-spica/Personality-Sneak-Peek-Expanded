@@ -1,0 +1,55 @@
+
+vfx_skill_metalmagnet_01_touch.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 2
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 301, 301
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 499, 301
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 697, 355
+  size: 211, 64
+  orig: 211, 64
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 697, 421
+  size: 247, 76
+  orig: 247, 76
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 301, 211
+  size: 263, 88
+  orig: 263, 88
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 2, 200
+  size: 297, 297
+  orig: 297, 297
+  offset: 0, 0
+  index: -1

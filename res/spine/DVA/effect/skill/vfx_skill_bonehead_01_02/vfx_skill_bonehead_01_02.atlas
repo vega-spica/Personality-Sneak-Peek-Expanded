@@ -1,0 +1,41 @@
+
+vfx_skill_bonehead_01_02.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 550, 133
+  size: 283, 402
+  orig: 283, 402
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 2, 32
+  size: 377, 546
+  orig: 377, 546
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 537, 418
+  size: 470, 571
+  orig: 470, 571
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 2, 411
+  size: 533, 578
+  orig: 533, 578
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 550, 2
+  size: 392, 129
+  orig: 392, 129
+  offset: 0, 0
+  index: -1

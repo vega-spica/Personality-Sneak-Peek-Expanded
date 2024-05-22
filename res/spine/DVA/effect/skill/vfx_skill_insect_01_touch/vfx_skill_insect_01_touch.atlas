@@ -1,0 +1,90 @@
+
+vfx_skill_insect_01_touch.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+insect_ult_explosion_001
+  rotate: false
+  xy: 1562, 254
+  size: 344, 255
+  orig: 344, 255
+  offset: 0, 0
+  index: -1
+insect_ult_explosion_002
+  rotate: true
+  xy: 348, 85
+  size: 424, 324
+  orig: 424, 324
+  offset: 0, 0
+  index: -1
+insect_ult_explosion_003
+  rotate: true
+  xy: 2, 107
+  size: 402, 344
+  orig: 402, 344
+  offset: 0, 0
+  index: -1
+insect_ult_explosion_004
+  rotate: true
+  xy: 1278, 113
+  size: 396, 282
+  orig: 396, 282
+  offset: 0, 0
+  index: -1
+insect_ult_explosion_005
+  rotate: true
+  xy: 986, 82
+  size: 427, 290
+  orig: 427, 290
+  offset: 0, 0
+  index: -1
+insect_ult_explosion_006
+  rotate: true
+  xy: 674, 77
+  size: 432, 310
+  orig: 432, 310
+  offset: 0, 0
+  index: -1
+insect_ult_explosion_007
+  rotate: true
+  xy: 1908, 383
+  size: 126, 137
+  orig: 126, 137
+  offset: 0, 0
+  index: -1
+insect_ult_explosion_008
+  rotate: true
+  xy: 1720, 84
+  size: 168, 152
+  orig: 168, 152
+  offset: 0, 0
+  index: -1
+insect_ult_explosion_009
+  rotate: true
+  xy: 1562, 81
+  size: 171, 156
+  orig: 171, 156
+  offset: 0, 0
+  index: -1
+insect_ult_explosion_010
+  rotate: true
+  xy: 1874, 113
+  size: 139, 171
+  orig: 139, 171
+  offset: 0, 0
+  index: -1
+insect_ult_explosion_011
+  rotate: true
+  xy: 2, 2
+  size: 103, 108
+  orig: 103, 108
+  offset: 0, 0
+  index: -1
+insect_ult_launcher
+  rotate: false
+  xy: 112, 22
+  size: 120, 83
+  orig: 120, 83
+  offset: 0, 0
+  index: -1

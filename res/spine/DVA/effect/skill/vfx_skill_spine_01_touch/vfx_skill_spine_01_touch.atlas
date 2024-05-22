@@ -1,0 +1,34 @@
+
+vfx_skill_spine_01_touch.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 326, 73
+  size: 84, 37
+  orig: 84, 37
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: true
+  xy: 2, 21
+  size: 89, 128
+  orig: 89, 128
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 243, 8
+  size: 81, 102
+  orig: 81, 102
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: true
+  xy: 132, 2
+  size: 108, 109
+  orig: 108, 109
+  offset: 0, 0
+  index: -1

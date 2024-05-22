@@ -1,0 +1,97 @@
+
+vfx_skill_darknix_01_touch.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4
+  rotate: false
+  xy: 808, 783
+  size: 759, 163
+  orig: 759, 163
+  offset: 0, 0
+  index: -1
+4-1
+  rotate: false
+  xy: 2, 384
+  size: 804, 562
+  orig: 804, 562
+  offset: 0, 0
+  index: -1
+5-1
+  rotate: false
+  xy: 736, 344
+  size: 64, 38
+  orig: 64, 38
+  offset: 0, 0
+  index: -1
+5-2
+  rotate: true
+  xy: 1874, 381
+  size: 565, 159
+  orig: 565, 159
+  offset: 0, 0
+  index: -1
+5-3
+  rotate: false
+  xy: 808, 276
+  size: 740, 169
+  orig: 740, 169
+  offset: 0, 0
+  index: -1
+5-4
+  rotate: false
+  xy: 808, 612
+  size: 753, 169
+  orig: 753, 169
+  offset: 0, 0
+  index: -1
+5-5
+  rotate: false
+  xy: 808, 447
+  size: 759, 163
+  orig: 759, 163
+  offset: 0, 0
+  index: -1
+6-1-1
+  rotate: true
+  xy: 1734, 218
+  size: 728, 138
+  orig: 728, 138
+  offset: 0, 0
+  index: -1
+6-1-2
+  rotate: true
+  xy: 1569, 250
+  size: 696, 163
+  orig: 696, 163
+  offset: 0, 0
+  index: -1
+6-1-3
+  rotate: false
+  xy: 745, 2
+  size: 739, 107
+  orig: 739, 107
+  offset: 0, 0
+  index: -1
+6-2-1
+  rotate: false
+  xy: 2, 191
+  size: 732, 191
+  orig: 732, 191
+  offset: 0, 0
+  index: -1
+6-2-2
+  rotate: false
+  xy: 2, 18
+  size: 741, 171
+  orig: 741, 171
+  offset: 0, 0
+  index: -1
+6-2-3
+  rotate: false
+  xy: 745, 111
+  size: 732, 163
+  orig: 732, 163
+  offset: 0, 0
+  index: -1

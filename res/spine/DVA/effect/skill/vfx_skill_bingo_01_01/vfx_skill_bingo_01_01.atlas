@@ -1,0 +1,90 @@
+
+vfx_skill_bingo_01_01.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4_1
+  rotate: false
+  xy: 294, 13
+  size: 66, 113
+  orig: 66, 113
+  offset: 0, 0
+  index: -1
+4_2
+  rotate: true
+  xy: 294, 128
+  size: 139, 60
+  orig: 139, 60
+  offset: 0, 0
+  index: -1
+4_3
+  rotate: true
+  xy: 496, 157
+  size: 113, 84
+  orig: 113, 84
+  offset: 0, 0
+  index: -1
+4_4
+  rotate: true
+  xy: 771, 165
+  size: 139, 60
+  orig: 139, 60
+  offset: 0, 0
+  index: -1
+4_5
+  rotate: false
+  xy: 362, 58
+  size: 113, 84
+  orig: 113, 84
+  offset: 0, 0
+  index: -1
+4_5_2
+  rotate: false
+  xy: 2, 269
+  size: 321, 237
+  orig: 321, 237
+  offset: 0, 0
+  index: -1
+5_1
+  rotate: false
+  xy: 325, 272
+  size: 259, 234
+  orig: 259, 234
+  offset: 0, 0
+  index: -1
+5_2
+  rotate: false
+  xy: 2, 2
+  size: 290, 265
+  orig: 290, 265
+  offset: 0, 0
+  index: -1
+c41_skill1_1
+  rotate: false
+  xy: 356, 144
+  size: 138, 126
+  orig: 138, 126
+  offset: 0, 0
+  index: -1
+c41_skill1_2_1
+  rotate: true
+  xy: 586, 143
+  size: 161, 183
+  orig: 161, 183
+  offset: 0, 0
+  index: -1
+c41_skill1_2_2
+  rotate: false
+  xy: 789, 312
+  size: 183, 194
+  orig: 183, 194
+  offset: 0, 0
+  index: -1
+c41_skill1_2_3
+  rotate: false
+  xy: 586, 306
+  size: 201, 200
+  orig: 201, 200
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+vfx_skill_jet_01_01.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+8_1
+  rotate: false
+  xy: 2, 2
+  size: 99, 44
+  orig: 99, 44
+  offset: 0, 0
+  index: -1
+8_2
+  rotate: false
+  xy: 103, 3
+  size: 95, 43
+  orig: 95, 43
+  offset: 0, 0
+  index: -1
+8_3
+  rotate: false
+  xy: 200, 2
+  size: 89, 44
+  orig: 89, 44
+  offset: 0, 0
+  index: -1

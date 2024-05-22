@@ -1,0 +1,250 @@
+
+nello_01.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_l_1
+  rotate: false
+  xy: 2, 889
+  size: 682, 1148
+  orig: 682, 1148
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 1022, 1419
+  size: 953, 618
+  orig: 953, 618
+  offset: 0, 0
+  index: -1
+bubble
+  rotate: false
+  xy: 812, 1423
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+eye_l_1
+  rotate: true
+  xy: 1022, 770
+  size: 118, 143
+  orig: 118, 143
+  offset: 0, 0
+  index: -1
+eye_l_2
+  rotate: false
+  xy: 1977, 1983
+  size: 66, 54
+  orig: 66, 54
+  offset: 0, 0
+  index: -1
+eye_r_1
+  rotate: false
+  xy: 1022, 458
+  size: 122, 110
+  orig: 122, 110
+  offset: 0, 0
+  index: -1
+eye_r_2
+  rotate: false
+  xy: 2, 2
+  size: 121, 31
+  orig: 121, 31
+  offset: 0, 0
+  index: -1
+fur_1
+  rotate: true
+  xy: 1787, 398
+  size: 351, 257
+  orig: 351, 257
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 1175, 751
+  size: 841, 666
+  orig: 841, 666
+  offset: 0, 0
+  index: -1
+horn_r_1
+  rotate: true
+  xy: 686, 1575
+  size: 462, 320
+  orig: 462, 320
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: true
+  xy: 1022, 570
+  size: 198, 123
+  orig: 198, 123
+  offset: 0, 0
+  index: -1
+light_2
+  rotate: false
+  xy: 964, 1523
+  size: 51, 50
+  orig: 51, 50
+  offset: 0, 0
+  index: -1
+light_3
+  rotate: true
+  xy: 1022, 12
+  size: 97, 81
+  orig: 97, 81
+  offset: 0, 0
+  index: -1
+light_4
+  rotate: true
+  xy: 1022, 269
+  size: 187, 120
+  orig: 187, 120
+  offset: 0, 0
+  index: -1
+water_1
+  rotate: false
+  xy: 2, 35
+  size: 1018, 852
+  orig: 1018, 852
+  offset: 0, 0
+  index: -1
+water_2
+  rotate: false
+  xy: 1787, 11
+  size: 188, 157
+  orig: 188, 157
+  offset: 0, 0
+  index: -1
+water_4
+  rotate: true
+  xy: 1022, 111
+  size: 156, 100
+  orig: 156, 100
+  offset: 0, 0
+  index: -1
+water_6
+  rotate: true
+  xy: 1147, 26
+  size: 723, 638
+  orig: 723, 638
+  offset: 0, 0
+  index: -1
+water_7
+  rotate: false
+  xy: 1787, 170
+  size: 234, 226
+  orig: 234, 226
+  offset: 0, 0
+  index: -1
+water_8
+  rotate: false
+  xy: 686, 1421
+  size: 124, 152
+  orig: 124, 152
+  offset: 0, 0
+  index: -1
+water_9
+  rotate: true
+  xy: 686, 890
+  size: 527, 487
+  orig: 527, 487
+  offset: 0, 0
+  index: -1
+
+nello_02.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_l_2
+  rotate: false
+  xy: 2, 1184
+  size: 454, 812
+  orig: 454, 812
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 458, 1487
+  size: 632, 509
+  orig: 632, 509
+  offset: 0, 0
+  index: -1
+ear_l_1
+  rotate: false
+  xy: 392, 3
+  size: 401, 489
+  orig: 401, 489
+  offset: 0, 0
+  index: -1
+ear_r_1
+  rotate: true
+  xy: 2, 2
+  size: 527, 388
+  orig: 527, 388
+  offset: 0, 0
+  index: -1
+ear_r_2
+  rotate: false
+  xy: 1117, 1152
+  size: 484, 357
+  orig: 484, 357
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: false
+  xy: 406, 494
+  size: 579, 360
+  orig: 579, 360
+  offset: 0, 0
+  index: -1
+horn_l_1
+  rotate: false
+  xy: 1715, 1727
+  size: 284, 269
+  orig: 284, 269
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 987, 462
+  size: 410, 346
+  orig: 410, 346
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: true
+  xy: 1070, 810
+  size: 340, 453
+  orig: 340, 453
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 1092, 1511
+  size: 621, 485
+  orig: 621, 485
+  offset: 0, 0
+  index: -1
+water_10
+  rotate: true
+  xy: 2, 531
+  size: 651, 402
+  orig: 651, 402
+  offset: 0, 0
+  index: -1
+water_3
+  rotate: false
+  xy: 458, 1167
+  size: 657, 318
+  orig: 657, 318
+  offset: 0, 0
+  index: -1
+water_5
+  rotate: false
+  xy: 406, 856
+  size: 662, 309
+  orig: 662, 309
+  offset: 0, 0
+  index: -1

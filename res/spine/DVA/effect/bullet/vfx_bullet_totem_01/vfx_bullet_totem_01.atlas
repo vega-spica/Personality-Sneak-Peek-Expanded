@@ -1,0 +1,41 @@
+
+vfx_bullet_totem_01.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 82, 2
+  size: 49, 60
+  orig: 49, 60
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 189, 17
+  size: 40, 34
+  orig: 40, 34
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 231, 29
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 144, 11
+  size: 43, 40
+  orig: 43, 40
+  offset: 0, 0
+  index: -1
+totem_1
+  rotate: false
+  xy: 2, 8
+  size: 78, 43
+  orig: 78, 43
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,580 @@
+
+asura_03.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ah_arm_l_1
+  rotate: false
+  xy: 595, 324
+  size: 93, 84
+  orig: 93, 84
+  offset: 0, 0
+  index: -1
+ah_arm_r_1
+  rotate: false
+  xy: 1511, 929
+  size: 149, 93
+  orig: 149, 93
+  offset: 0, 0
+  index: -1
+ah_birdbody_1
+  rotate: false
+  xy: 1098, 819
+  size: 131, 137
+  orig: 131, 137
+  offset: 0, 0
+  index: -1
+ah_birdbody_2
+  rotate: false
+  xy: 1802, 819
+  size: 103, 98
+  orig: 103, 98
+  offset: 0, 0
+  index: -1
+ah_birdeye_1
+  rotate: true
+  xy: 517, 135
+  size: 62, 19
+  orig: 62, 19
+  offset: 0, 0
+  index: -1
+ah_birdeye_2
+  rotate: true
+  xy: 538, 144
+  size: 56, 25
+  orig: 56, 25
+  offset: 0, 0
+  index: -1
+ah_birdeye_3
+  rotate: true
+  xy: 931, 548
+  size: 59, 15
+  orig: 59, 15
+  offset: 0, 0
+  index: -1
+ah_birdeye_4
+  rotate: true
+  xy: 565, 149
+  size: 51, 17
+  orig: 51, 17
+  offset: 0, 0
+  index: -1
+ah_birdfeet_1
+  rotate: false
+  xy: 595, 270
+  size: 93, 52
+  orig: 93, 52
+  offset: 0, 0
+  index: -1
+ah_birdmouth_1
+  rotate: false
+  xy: 1239, 705
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+ah_birdmouth_2
+  rotate: true
+  xy: 931, 487
+  size: 28, 21
+  orig: 28, 21
+  offset: 0, 0
+  index: -1
+ah_birdtail_1
+  rotate: true
+  xy: 703, 383
+  size: 73, 85
+  orig: 73, 85
+  offset: 0, 0
+  index: -1
+ah_birdtail_2
+  rotate: true
+  xy: 1239, 749
+  size: 68, 50
+  orig: 68, 50
+  offset: 0, 0
+  index: -1
+ah_birdwing_1
+  rotate: true
+  xy: 1626, 847
+  size: 78, 112
+  orig: 78, 112
+  offset: 0, 0
+  index: -1
+ah_birdwing_2
+  rotate: true
+  xy: 604, 410
+  size: 46, 97
+  orig: 46, 97
+  offset: 0, 0
+  index: -1
+ah_birdwing_3
+  rotate: true
+  xy: 690, 246
+  size: 47, 93
+  orig: 47, 93
+  offset: 0, 0
+  index: -1
+ah_birdwing_4
+  rotate: true
+  xy: 669, 198
+  size: 46, 90
+  orig: 46, 90
+  offset: 0, 0
+  index: -1
+ah_birdwing_5
+  rotate: false
+  xy: 878, 383
+  size: 55, 95
+  orig: 55, 95
+  offset: 0, 0
+  index: -1
+ah_birdwing_6
+  rotate: true
+  xy: 206, 17
+  size: 50, 92
+  orig: 50, 92
+  offset: 0, 0
+  index: -1
+ah_body_1
+  rotate: false
+  xy: 783, 480
+  size: 146, 127
+  orig: 146, 127
+  offset: 0, 0
+  index: -1
+ah_eye_l_1
+  rotate: false
+  xy: 1305, 722
+  size: 21, 25
+  orig: 21, 25
+  offset: 0, 0
+  index: -1
+ah_eye_l_2
+  rotate: false
+  xy: 1323, 749
+  size: 23, 18
+  orig: 23, 18
+  offset: 0, 0
+  index: -1
+ah_eye_l_3
+  rotate: false
+  xy: 931, 517
+  size: 21, 29
+  orig: 21, 29
+  offset: 0, 0
+  index: -1
+ah_eye_r_1
+  rotate: false
+  xy: 1328, 721
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+ah_eye_r_2
+  rotate: false
+  xy: 1291, 749
+  size: 30, 18
+  orig: 30, 18
+  offset: 0, 0
+  index: -1
+ah_eye_r_3
+  rotate: false
+  xy: 584, 162
+  size: 35, 27
+  orig: 35, 27
+  offset: 0, 0
+  index: -1
+ah_eye_r_4
+  rotate: true
+  xy: 621, 167
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+ah_finger_r_1
+  rotate: false
+  xy: 1277, 722
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+ah_flower_1
+  rotate: true
+  xy: 1740, 840
+  size: 85, 60
+  orig: 85, 60
+  offset: 0, 0
+  index: -1
+ah_flower_2
+  rotate: false
+  xy: 1291, 769
+  size: 50, 25
+  orig: 50, 25
+  offset: 0, 0
+  index: -1
+ah_flower_3
+  rotate: false
+  xy: 1231, 819
+  size: 64, 37
+  orig: 64, 37
+  offset: 0, 0
+  index: -1
+ah_hand_l_1
+  rotate: false
+  xy: 433, 120
+  size: 82, 77
+  orig: 82, 77
+  offset: 0, 0
+  index: -1
+ah_head_1
+  rotate: false
+  xy: 604, 821
+  size: 219, 201
+  orig: 219, 201
+  offset: 0, 0
+  index: -1
+ah_horn_l_1
+  rotate: false
+  xy: 1946, 908
+  size: 100, 114
+  orig: 100, 114
+  offset: 0, 0
+  index: -1
+ah_horn_l_2
+  rotate: false
+  xy: 790, 393
+  size: 86, 85
+  orig: 86, 85
+  offset: 0, 0
+  index: -1
+ah_horn_r_1
+  rotate: false
+  xy: 946, 623
+  size: 125, 135
+  orig: 125, 135
+  offset: 0, 0
+  index: -1
+ah_horn_r_2
+  rotate: true
+  xy: 1204, 607
+  size: 96, 79
+  orig: 96, 79
+  offset: 0, 0
+  index: -1
+ah_leg_l_r
+  rotate: false
+  xy: 444, 199
+  size: 87, 77
+  orig: 87, 77
+  offset: 0, 0
+  index: -1
+ah_leg_r_1
+  rotate: false
+  xy: 690, 295
+  size: 89, 86
+  orig: 89, 86
+  offset: 0, 0
+  index: -1
+ah_neck_1
+  rotate: false
+  xy: 2, 15
+  size: 88, 32
+  orig: 88, 32
+  offset: 0, 0
+  index: -1
+ah_orb_1
+  rotate: false
+  xy: 1416, 790
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+ah_ribbon_1
+  rotate: true
+  xy: 300, 17
+  size: 50, 32
+  orig: 50, 32
+  offset: 0, 0
+  index: -1
+ah_ribbon_2
+  rotate: true
+  xy: 794, 783
+  size: 36, 29
+  orig: 36, 29
+  offset: 0, 0
+  index: -1
+ah_ribbon_3
+  rotate: false
+  xy: 1805, 919
+  size: 139, 103
+  orig: 139, 103
+  offset: 0, 0
+  index: -1
+ah_ribbon_4
+  rotate: false
+  xy: 533, 202
+  size: 52, 74
+  orig: 52, 74
+  offset: 0, 0
+  index: -1
+ah_skirt_1
+  rotate: false
+  xy: 604, 458
+  size: 177, 178
+  orig: 177, 178
+  offset: 0, 0
+  index: -1
+ah_skirt_2
+  rotate: false
+  xy: 604, 638
+  size: 188, 181
+  orig: 188, 181
+  offset: 0, 0
+  index: -1
+ah_tail_1
+  rotate: false
+  xy: 1428, 843
+  size: 80, 111
+  orig: 80, 111
+  offset: 0, 0
+  index: -1
+effect_1
+  rotate: false
+  xy: 1092, 958
+  size: 209, 64
+  orig: 209, 64
+  offset: 0, 0
+  index: -1
+flowerpetal
+  rotate: false
+  xy: 794, 609
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+sura_arm_l_1
+  rotate: false
+  xy: 1300, 846
+  size: 126, 108
+  orig: 126, 108
+  offset: 0, 0
+  index: -1
+sura_arm_l_2
+  rotate: false
+  xy: 347, 201
+  size: 95, 75
+  orig: 95, 75
+  offset: 0, 0
+  index: -1
+sura_arm_r_1
+  rotate: false
+  xy: 1510, 849
+  size: 114, 78
+  orig: 114, 78
+  offset: 0, 0
+  index: -1
+sura_arm_r_2
+  rotate: true
+  xy: 1011, 760
+  size: 161, 85
+  orig: 161, 85
+  offset: 0, 0
+  index: -1
+sura_arm_r_3
+  rotate: false
+  xy: 1662, 927
+  size: 141, 95
+  orig: 141, 95
+  offset: 0, 0
+  index: -1
+sura_cloth_1
+  rotate: true
+  xy: 206, 69
+  size: 190, 136
+  orig: 190, 136
+  offset: 0, 0
+  index: -1
+sura_eye_l_1
+  rotate: false
+  xy: 1073, 724
+  size: 23, 34
+  orig: 23, 34
+  offset: 0, 0
+  index: -1
+sura_eye_l_2
+  rotate: true
+  xy: 690, 384
+  size: 24, 11
+  orig: 24, 11
+  offset: 0, 0
+  index: -1
+sura_eye_r_1
+  rotate: true
+  xy: 1469, 794
+  size: 47, 30
+  orig: 47, 30
+  offset: 0, 0
+  index: -1
+sura_eye_r_2
+  rotate: false
+  xy: 205, 2
+  size: 34, 13
+  orig: 34, 13
+  offset: 0, 0
+  index: -1
+sura_eyelight_1
+  rotate: true
+  xy: 166, 15
+  size: 32, 37
+  orig: 32, 37
+  offset: 0, 0
+  index: -1
+sura_eyeshadow_1
+  rotate: false
+  xy: 794, 762
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+sura_eyeshadow_2
+  rotate: true
+  xy: 761, 200
+  size: 44, 16
+  orig: 44, 16
+  offset: 0, 0
+  index: -1
+sura_hat_1
+  rotate: false
+  xy: 2, 261
+  size: 343, 159
+  orig: 343, 159
+  offset: 0, 0
+  index: -1
+sura_hat_2
+  rotate: false
+  xy: 825, 761
+  size: 184, 160
+  orig: 184, 160
+  offset: 0, 0
+  index: -1
+sura_hat_3
+  rotate: false
+  xy: 1358, 788
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+sura_hat_4
+  rotate: false
+  xy: 1303, 956
+  size: 206, 66
+  orig: 206, 66
+  offset: 0, 0
+  index: -1
+sura_head_1
+  rotate: false
+  xy: 2, 49
+  size: 202, 210
+  orig: 202, 210
+  offset: 0, 0
+  index: -1
+sura_horn_l_1
+  rotate: true
+  xy: 1073, 600
+  size: 103, 129
+  orig: 103, 129
+  offset: 0, 0
+  index: -1
+sura_horn_l_2
+  rotate: true
+  xy: 428, 40
+  size: 78, 81
+  orig: 78, 81
+  offset: 0, 0
+  index: -1
+sura_horn_r_1
+  rotate: false
+  xy: 344, 42
+  size: 82, 79
+  orig: 82, 79
+  offset: 0, 0
+  index: -1
+sura_horn_r_2
+  rotate: true
+  xy: 1098, 705
+  size: 112, 139
+  orig: 112, 139
+  offset: 0, 0
+  index: -1
+sura_leg_l_1
+  rotate: true
+  xy: 587, 191
+  size: 77, 80
+  orig: 77, 80
+  offset: 0, 0
+  index: -1
+sura_leg_r_1
+  rotate: false
+  xy: 344, 123
+  size: 87, 76
+  orig: 87, 76
+  offset: 0, 0
+  index: -1
+sura_line_1
+  rotate: false
+  xy: 92, 13
+  size: 72, 34
+  orig: 72, 34
+  offset: 0, 0
+  index: -1
+sura_line_2
+  rotate: true
+  xy: 2008, 830
+  size: 76, 31
+  orig: 76, 31
+  offset: 0, 0
+  index: -1
+sura_line_3
+  rotate: true
+  xy: 1907, 820
+  size: 86, 99
+  orig: 86, 99
+  offset: 0, 0
+  index: -1
+sura_line_4
+  rotate: false
+  xy: 1231, 858
+  size: 67, 98
+  orig: 67, 98
+  offset: 0, 0
+  index: -1
+sura_orb_1
+  rotate: true
+  xy: 1297, 796
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+sura_weapon_1
+  rotate: true
+  xy: 347, 278
+  size: 142, 246
+  orig: 142, 246
+  offset: 0, 0
+  index: -1
+sura_weapon_2
+  rotate: true
+  xy: 825, 923
+  size: 99, 265
+  orig: 99, 265
+  offset: 0, 0
+  index: -1
+아수라_03리사이즈
+  rotate: false
+  xy: 2, 422
+  size: 600, 600
+  orig: 600, 600
+  offset: 0, 0
+  index: -1

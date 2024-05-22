@@ -1,0 +1,419 @@
+
+vfx_skill_jet_01_touch.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 8
+  size: 261, 261
+  orig: 261, 261
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 1207, 676
+  size: 35, 317
+  orig: 35, 317
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 381, 281
+  size: 24, 370
+  orig: 24, 370
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 407, 262
+  size: 259, 184
+  orig: 259, 184
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 1572, 722
+  size: 270, 185
+  orig: 270, 185
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: true
+  xy: 651, 455
+  size: 216, 144
+  orig: 216, 144
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 668, 295
+  size: 131, 158
+  orig: 131, 158
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 265, 103
+  size: 140, 166
+  orig: 140, 166
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 1844, 737
+  size: 149, 170
+  orig: 149, 170
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 1207, 713
+  size: 363, 309
+  orig: 363, 309
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 808, 682
+  size: 397, 340
+  orig: 397, 340
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 405, 673
+  size: 401, 349
+  orig: 401, 349
+  offset: 0, 0
+  index: -1
+3_4
+  rotate: false
+  xy: 2, 653
+  size: 401, 369
+  orig: 401, 369
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: false
+  xy: 1572, 909
+  size: 452, 113
+  orig: 452, 113
+  offset: 0, 0
+  index: -1
+5_1
+  rotate: true
+  xy: 557, 124
+  size: 136, 121
+  orig: 136, 121
+  offset: 0, 0
+  index: -1
+5_2
+  rotate: false
+  xy: 427, 34
+  size: 107, 72
+  orig: 107, 72
+  offset: 0, 0
+  index: -1
+5_3
+  rotate: false
+  xy: 1526, 663
+  size: 70, 48
+  orig: 70, 48
+  offset: 0, 0
+  index: -1
+5_4
+  rotate: false
+  xy: 2, 271
+  size: 377, 380
+  orig: 377, 380
+  offset: 0, 0
+  index: -1
+7_1
+  rotate: false
+  xy: 952, 626
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 895, 623
+  size: 55, 57
+  orig: 55, 57
+  offset: 0, 0
+  index: -1
+arm_l_2
+  rotate: true
+  xy: 763, 38
+  size: 84, 53
+  orig: 84, 53
+  offset: 0, 0
+  index: -1
+arm_l_3
+  rotate: false
+  xy: 1008, 628
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 1598, 659
+  size: 69, 61
+  orig: 69, 61
+  offset: 0, 0
+  index: -1
+arm_r_2
+  rotate: false
+  xy: 1737, 664
+  size: 66, 56
+  orig: 66, 56
+  offset: 0, 0
+  index: -1
+arm_r_3
+  rotate: true
+  xy: 377, 2
+  size: 99, 48
+  orig: 99, 48
+  offset: 0, 0
+  index: -1
+arm_r_4
+  rotate: true
+  xy: 1995, 737
+  size: 80, 50
+  orig: 80, 50
+  offset: 0, 0
+  index: -1
+arm_r_5
+  rotate: true
+  xy: 1844, 686
+  size: 49, 82
+  orig: 49, 82
+  offset: 0, 0
+  index: -1
+arm_r_6
+  rotate: true
+  xy: 1669, 661
+  size: 59, 66
+  orig: 59, 66
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 676, 32
+  size: 85, 90
+  orig: 85, 90
+  offset: 0, 0
+  index: -1
+body_2
+  rotate: false
+  xy: 265, 13
+  size: 110, 88
+  orig: 110, 88
+  offset: 0, 0
+  index: -1
+body_z
+  rotate: false
+  xy: 2001, 682
+  size: 45, 53
+  orig: 45, 53
+  offset: 0, 0
+  index: -1
+drink_1
+  rotate: false
+  xy: 1995, 819
+  size: 51, 88
+  orig: 51, 88
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: false
+  xy: 676, 2
+  size: 58, 28
+  orig: 58, 28
+  offset: 0, 0
+  index: -1
+eye_10
+  rotate: false
+  xy: 736, 8
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: true
+  xy: 536, 45
+  size: 61, 19
+  orig: 61, 19
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: true
+  xy: 1805, 661
+  size: 59, 22
+  orig: 59, 22
+  offset: 0, 0
+  index: -1
+eye_4
+  rotate: false
+  xy: 427, 2
+  size: 60, 30
+  orig: 60, 30
+  offset: 0, 0
+  index: -1
+eye_6
+  rotate: false
+  xy: 1065, 628
+  size: 61, 7
+  orig: 61, 7
+  offset: 0, 0
+  index: -1
+eye_7
+  rotate: true
+  xy: 2026, 962
+  size: 60, 15
+  orig: 60, 15
+  offset: 0, 0
+  index: -1
+eye_8
+  rotate: true
+  xy: 801, 346
+  size: 61, 14
+  orig: 61, 14
+  offset: 0, 0
+  index: -1
+eye_9
+  rotate: true
+  xy: 837, 555
+  size: 14, 26
+  orig: 14, 26
+  offset: 0, 0
+  index: -1
+forehead_1
+  rotate: false
+  xy: 1065, 637
+  size: 60, 43
+  orig: 60, 43
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: true
+  xy: 680, 162
+  size: 131, 128
+  orig: 131, 128
+  offset: 0, 0
+  index: -1
+head_2
+  rotate: false
+  xy: 407, 108
+  size: 148, 152
+  orig: 148, 152
+  offset: 0, 0
+  index: -1
+horn_l_1
+  rotate: false
+  xy: 797, 555
+  size: 38, 51
+  orig: 38, 51
+  offset: 0, 0
+  index: -1
+horn_r_1
+  rotate: false
+  xy: 837, 621
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+horn_t_1
+  rotate: false
+  xy: 557, 14
+  size: 117, 108
+  orig: 117, 108
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: true
+  xy: 1127, 637
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+leg_l_2
+  rotate: false
+  xy: 797, 505
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 837, 571
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+leg_r_2
+  rotate: false
+  xy: 489, 3
+  size: 42, 29
+  orig: 42, 29
+  offset: 0, 0
+  index: -1
+leg_r_3
+  rotate: true
+  xy: 801, 409
+  size: 46, 38
+  orig: 46, 38
+  offset: 0, 0
+  index: -1
+leg_r_4
+  rotate: false
+  xy: 797, 457
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+light_l_1
+  rotate: false
+  xy: 1928, 664
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+light_r_1
+  rotate: false
+  xy: 1928, 664
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 680, 124
+  size: 136, 36
+  orig: 136, 36
+  offset: 0, 0
+  index: -1
+skill1
+  rotate: false
+  xy: 407, 448
+  size: 242, 223
+  orig: 242, 223
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: true
+  xy: 797, 608
+  size: 63, 38
+  orig: 63, 38
+  offset: 0, 0
+  index: -1
+wing_1
+  rotate: false
+  xy: 817, 365
+  size: 33, 42
+  orig: 33, 42
+  offset: 0, 0
+  index: -1

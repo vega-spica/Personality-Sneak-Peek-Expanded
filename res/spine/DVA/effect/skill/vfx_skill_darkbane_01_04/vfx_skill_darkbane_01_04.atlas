@@ -1,0 +1,34 @@
+
+vfx_skill_darkbane_01_04.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 162
+  size: 120, 79
+  orig: 120, 79
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 97
+  size: 120, 63
+  orig: 120, 63
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 124, 193
+  size: 119, 48
+  orig: 119, 48
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 2, 44
+  size: 58, 51
+  orig: 58, 51
+  offset: 0, 0
+  index: -1

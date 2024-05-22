@@ -1,0 +1,34 @@
+
+vfx_skill_buffcard_01_02.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 86
+  size: 82, 318
+  orig: 82, 318
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 2, 170
+  size: 82, 379
+  orig: 82, 379
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 2, 2
+  size: 82, 296
+  orig: 82, 296
+  offset: 0, 0
+  index: -1
+shadow_
+  rotate: false
+  xy: 322, 14
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1

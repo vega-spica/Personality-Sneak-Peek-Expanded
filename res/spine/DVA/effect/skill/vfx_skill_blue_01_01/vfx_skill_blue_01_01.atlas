@@ -1,0 +1,48 @@
+
+vfx_skill_blue_01_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c013_2_0_0_1
+  rotate: true
+  xy: 568, 258
+  size: 320, 368
+  orig: 320, 368
+  offset: 0, 0
+  index: -1
+c013_2_0_0_2
+  rotate: true
+  xy: 568, 580
+  size: 430, 448
+  orig: 430, 448
+  offset: 0, 0
+  index: -1
+c013_2_0_0_3
+  rotate: false
+  xy: 2, 2
+  size: 542, 490
+  orig: 542, 490
+  offset: 0, 0
+  index: -1
+c013_2_0_0_4
+  rotate: false
+  xy: 2, 494
+  size: 564, 516
+  orig: 564, 516
+  offset: 0, 0
+  index: -1
+c013_2_1_1
+  rotate: true
+  xy: 734, 6
+  size: 250, 272
+  orig: 250, 272
+  offset: 0, 0
+  index: -1
+c013_2_1_2
+  rotate: true
+  xy: 546, 2
+  size: 254, 186
+  orig: 254, 186
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+vfx_skill_evil_01_touch.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 1390, 8
+  size: 171, 201
+  orig: 171, 201
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 1097, 26
+  size: 291, 206
+  orig: 291, 206
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 771, 11
+  size: 324, 221
+  orig: 324, 221
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 422, 2
+  size: 347, 230
+  orig: 347, 230
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 2, 15
+  size: 418, 217
+  orig: 418, 217
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 1390, 181
+  size: 326, 51
+  orig: 326, 51
+  offset: 0, 0
+  index: -1

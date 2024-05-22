@@ -1,0 +1,27 @@
+
+vfx_skill_frozen_01_01_02.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/4_3_1
+  rotate: false
+  xy: 656, 48
+  size: 287, 326
+  orig: 287, 326
+  offset: 0, 0
+  index: -1
+image/4_3_2
+  rotate: false
+  xy: 337, 13
+  size: 317, 361
+  orig: 317, 361
+  offset: 0, 0
+  index: -1
+image/4_3_3
+  rotate: false
+  xy: 2, 2
+  size: 333, 372
+  orig: 333, 372
+  offset: 0, 0
+  index: -1

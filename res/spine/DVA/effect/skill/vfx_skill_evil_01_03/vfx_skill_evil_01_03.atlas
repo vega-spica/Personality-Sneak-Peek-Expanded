@@ -1,0 +1,34 @@
+
+vfx_skill_evil_01_03.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 939, 1016
+  size: 894, 826
+  orig: 894, 826
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 2
+  size: 933, 898
+  orig: 933, 898
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 902
+  size: 935, 940
+  orig: 935, 940
+  offset: 0, 0
+  index: -1
+c022_4_0
+  rotate: true
+  xy: 939, 503
+  size: 511, 844
+  orig: 511, 844
+  offset: 0, 0
+  index: -1

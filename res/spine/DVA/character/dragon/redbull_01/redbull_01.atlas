@@ -1,0 +1,454 @@
+
+redbull_01.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 446, 327
+  size: 128, 265
+  orig: 128, 265
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 419, 2
+  size: 160, 296
+  orig: 160, 296
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 1232, 391
+  size: 182, 256
+  orig: 182, 256
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 581, 77
+  size: 189, 248
+  orig: 189, 248
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 1490, 344
+  size: 196, 229
+  orig: 196, 229
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: true
+  xy: 1053, 72
+  size: 120, 79
+  orig: 120, 79
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: true
+  xy: 1892, 549
+  size: 149, 118
+  orig: 149, 118
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 1736, 550
+  size: 154, 148
+  orig: 154, 148
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: true
+  xy: 713, 335
+  size: 120, 152
+  orig: 120, 152
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: false
+  xy: 1688, 393
+  size: 112, 155
+  orig: 112, 155
+  offset: 0, 0
+  index: -1
+2_6
+  rotate: true
+  xy: 907, 74
+  size: 118, 144
+  orig: 118, 144
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 2, 613
+  size: 450, 409
+  orig: 450, 409
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 454, 668
+  size: 382, 354
+  orig: 382, 354
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: true
+  xy: 1239, 575
+  size: 177, 392
+  orig: 177, 392
+  offset: 0, 0
+  index: -1
+4_2
+  rotate: true
+  xy: 454, 457
+  size: 209, 450
+  orig: 209, 450
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: true
+  xy: 1447, 246
+  size: 96, 138
+  orig: 96, 138
+  offset: 0, 0
+  index: -1
+arm_l_2
+  rotate: false
+  xy: 772, 146
+  size: 133, 187
+  orig: 133, 187
+  offset: 0, 0
+  index: -1
+arm_l_3
+  rotate: true
+  xy: 1587, 244
+  size: 98, 133
+  orig: 98, 133
+  offset: 0, 0
+  index: -1
+arm_l_4
+  rotate: true
+  xy: 1722, 239
+  size: 107, 93
+  orig: 107, 93
+  offset: 0, 0
+  index: -1
+arm_l_5
+  rotate: false
+  xy: 1633, 575
+  size: 101, 123
+  orig: 101, 123
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: true
+  xy: 1270, 163
+  size: 91, 151
+  orig: 91, 151
+  offset: 0, 0
+  index: -1
+arm_r_2
+  rotate: true
+  xy: 1423, 57
+  size: 85, 117
+  orig: 85, 117
+  offset: 0, 0
+  index: -1
+arm_r_3
+  rotate: true
+  xy: 1423, 144
+  size: 100, 133
+  orig: 100, 133
+  offset: 0, 0
+  index: -1
+arm_r_4
+  rotate: false
+  xy: 1683, 143
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 907, 194
+  size: 186, 181
+  orig: 186, 181
+  offset: 0, 0
+  index: -1
+body_2
+  rotate: false
+  xy: 1095, 200
+  size: 173, 175
+  orig: 173, 175
+  offset: 0, 0
+  index: -1
+ear_l_1
+  rotate: true
+  xy: 1688, 551
+  size: 22, 33
+  orig: 22, 33
+  offset: 0, 0
+  index: -1
+ear_r_1
+  rotate: false
+  xy: 1633, 701
+  size: 18, 51
+  orig: 18, 51
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: false
+  xy: 446, 301
+  size: 55, 24
+  orig: 55, 24
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 713, 327
+  size: 57, 6
+  orig: 57, 6
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: true
+  xy: 867, 397
+  size: 58, 18
+  orig: 58, 18
+  offset: 0, 0
+  index: -1
+eye_4
+  rotate: false
+  xy: 2, 13
+  size: 57, 26
+  orig: 57, 26
+  offset: 0, 0
+  index: -1
+eye_5
+  rotate: true
+  xy: 2034, 963
+  size: 59, 10
+  orig: 59, 10
+  offset: 0, 0
+  index: -1
+eye_6
+  rotate: false
+  xy: 888, 128
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+forehead_1
+  rotate: false
+  xy: 1244, 96
+  size: 84, 65
+  orig: 84, 65
+  offset: 0, 0
+  index: -1
+forehead_2
+  rotate: false
+  xy: 1877, 358
+  size: 65, 51
+  orig: 65, 51
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: true
+  xy: 1883, 411
+  size: 136, 119
+  orig: 136, 119
+  offset: 0, 0
+  index: -1
+head_2
+  rotate: false
+  xy: 1270, 256
+  size: 175, 133
+  orig: 175, 133
+  offset: 0, 0
+  index: -1
+horn_l_1
+  rotate: false
+  xy: 1817, 285
+  size: 59, 66
+  orig: 59, 66
+  offset: 0, 0
+  index: -1
+horn_r_1
+  rotate: false
+  xy: 1809, 353
+  size: 66, 64
+  orig: 66, 64
+  offset: 0, 0
+  index: -1
+jaw_1
+  rotate: false
+  xy: 772, 77
+  size: 114, 67
+  orig: 114, 67
+  offset: 0, 0
+  index: -1
+jaw_2
+  rotate: false
+  xy: 914, 3
+  size: 113, 69
+  orig: 113, 69
+  offset: 0, 0
+  index: -1
+jaw_3
+  rotate: false
+  xy: 1029, 2
+  size: 81, 68
+  orig: 81, 68
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 1134, 96
+  size: 108, 102
+  orig: 108, 102
+  offset: 0, 0
+  index: -1
+leg_l_2
+  rotate: false
+  xy: 797, 2
+  size: 115, 70
+  orig: 115, 70
+  offset: 0, 0
+  index: -1
+leg_l_3
+  rotate: true
+  xy: 1330, 43
+  size: 118, 91
+  orig: 118, 91
+  offset: 0, 0
+  index: -1
+leg_l_4
+  rotate: false
+  xy: 1793, 140
+  size: 99, 97
+  orig: 99, 97
+  offset: 0, 0
+  index: -1
+leg_l_5
+  rotate: true
+  xy: 1134, 2
+  size: 92, 91
+  orig: 92, 91
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 1765, 71
+  size: 98, 67
+  orig: 98, 67
+  offset: 0, 0
+  index: -1
+leg_r_2
+  rotate: false
+  xy: 1558, 61
+  size: 106, 88
+  orig: 106, 88
+  offset: 0, 0
+  index: -1
+leg_r_3
+  rotate: false
+  xy: 1227, 2
+  size: 90, 92
+  orig: 90, 92
+  offset: 0, 0
+  index: -1
+leg_r_4
+  rotate: false
+  xy: 1765, 15
+  size: 106, 54
+  orig: 106, 54
+  offset: 0, 0
+  index: -1
+leg_r_5
+  rotate: true
+  xy: 1666, 46
+  size: 95, 97
+  orig: 95, 97
+  offset: 0, 0
+  index: -1
+redbull_skill2_effect_01
+  rotate: false
+  xy: 2, 41
+  size: 415, 257
+  orig: 415, 257
+  offset: 0, 0
+  index: -1
+redbull_skill2_effect_02
+  rotate: false
+  xy: 2, 300
+  size: 442, 311
+  orig: 442, 311
+  offset: 0, 0
+  index: -1
+redbull_skill2_effect_03
+  rotate: false
+  xy: 1239, 754
+  size: 448, 268
+  orig: 448, 268
+  offset: 0, 0
+  index: -1
+redbull_skill2_effect_04
+  rotate: false
+  xy: 838, 685
+  size: 399, 337
+  orig: 399, 337
+  offset: 0, 0
+  index: -1
+redbull_skill2_effect_05
+  rotate: false
+  xy: 1689, 700
+  size: 343, 322
+  orig: 343, 322
+  offset: 0, 0
+  index: -1
+redbull_skill2_effect_06
+  rotate: false
+  xy: 906, 377
+  size: 324, 306
+  orig: 324, 306
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 581, 36
+  size: 214, 39
+  orig: 214, 39
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: true
+  xy: 1802, 419
+  size: 129, 79
+  orig: 129, 79
+  offset: 0, 0
+  index: -1
+tail_2
+  rotate: false
+  xy: 1558, 151
+  size: 123, 91
+  orig: 123, 91
+  offset: 0, 0
+  index: -1
+wing_1
+  rotate: true
+  xy: 1447, 347
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: -1
+wing_2
+  rotate: false
+  xy: 1688, 348
+  size: 119, 43
+  orig: 119, 43
+  offset: 0, 0
+  index: -1

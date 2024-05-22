@@ -1,0 +1,104 @@
+
+vfx_skill_maddy_01_02.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_1
+  rotate: false
+  xy: 2, 663
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_2
+  rotate: false
+  xy: 2, 391
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_3
+  rotate: false
+  xy: 274, 663
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_4
+  rotate: false
+  xy: 2, 119
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_5
+  rotate: false
+  xy: 274, 391
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+02_6
+  rotate: false
+  xy: 546, 663
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 2, 2
+  size: 220, 115
+  orig: 220, 115
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 274, 274
+  size: 220, 115
+  orig: 220, 115
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 546, 546
+  size: 220, 115
+  orig: 220, 115
+  offset: 0, 0
+  index: -1
+3_4
+  rotate: true
+  xy: 818, 713
+  size: 220, 115
+  orig: 220, 115
+  offset: 0, 0
+  index: -1
+3_5
+  rotate: false
+  xy: 274, 157
+  size: 220, 115
+  orig: 220, 115
+  offset: 0, 0
+  index: -1
+3_6
+  rotate: false
+  xy: 546, 429
+  size: 220, 115
+  orig: 220, 115
+  offset: 0, 0
+  index: -1
+3_7
+  rotate: true
+  xy: 496, 169
+  size: 220, 115
+  orig: 220, 115
+  offset: 0, 0
+  index: -1
+shield_light_1
+  rotate: false
+  xy: 613, 310
+  size: 120, 117
+  orig: 120, 117
+  offset: 0, 0
+  index: -1

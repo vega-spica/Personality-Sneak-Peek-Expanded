@@ -1,0 +1,111 @@
+
+vfx_skill_bluelightning_01_touch.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 667, 312
+  size: 366, 197
+  orig: 366, 197
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 1035, 316
+  size: 363, 193
+  orig: 363, 193
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 1400, 316
+  size: 359, 193
+  orig: 359, 193
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: true
+  xy: 881, 3
+  size: 141, 213
+  orig: 141, 213
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: true
+  xy: 664, 11
+  size: 133, 215
+  orig: 133, 215
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 1634, 107
+  size: 125, 207
+  orig: 125, 207
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 2, 254
+  size: 336, 255
+  orig: 336, 255
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 340, 261
+  size: 325, 248
+  orig: 325, 248
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 2, 2
+  size: 325, 250
+  orig: 325, 250
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: false
+  xy: 1761, 279
+  size: 277, 230
+  orig: 277, 230
+  offset: 0, 0
+  index: -1
+4_2
+  rotate: false
+  xy: 1355, 95
+  size: 277, 219
+  orig: 277, 219
+  offset: 0, 0
+  index: -1
+4_3
+  rotate: false
+  xy: 1761, 61
+  size: 271, 216
+  orig: 271, 216
+  offset: 0, 0
+  index: -1
+5_1
+  rotate: false
+  xy: 667, 146
+  size: 324, 164
+  orig: 324, 164
+  offset: 0, 0
+  index: -1
+5_2
+  rotate: false
+  xy: 340, 103
+  size: 322, 156
+  orig: 322, 156
+  offset: 0, 0
+  index: -1
+5_3
+  rotate: false
+  xy: 1035, 165
+  size: 318, 149
+  orig: 318, 149
+  offset: 0, 0
+  index: -1

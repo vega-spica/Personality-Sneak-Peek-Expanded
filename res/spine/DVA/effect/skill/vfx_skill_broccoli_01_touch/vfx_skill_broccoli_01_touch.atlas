@@ -1,0 +1,69 @@
+
+vfx_skill_broccoli_01_touch.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 511, 228
+  size: 451, 205
+  orig: 451, 205
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 637, 726
+  size: 567, 245
+  orig: 567, 245
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 681
+  size: 633, 290
+  orig: 633, 290
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: true
+  xy: 2, 2
+  size: 677, 182
+  orig: 677, 182
+  offset: 0, 0
+  index: -1
+broccoli_ult_effect_01
+  rotate: false
+  xy: 718, 276
+  size: 376, 214
+  orig: 376, 214
+  offset: 0, 0
+  index: -1
+broccoli_ult_effect_02
+  rotate: true
+  xy: 1683, 555
+  size: 416, 319
+  orig: 416, 319
+  offset: 0, 0
+  index: -1
+broccoli_ult_effect_03
+  rotate: true
+  xy: 186, 202
+  size: 477, 323
+  orig: 477, 323
+  offset: 0, 0
+  index: -1
+broccoli_ult_effect_04
+  rotate: false
+  xy: 1206, 673
+  size: 475, 298
+  orig: 475, 298
+  offset: 0, 0
+  index: -1
+broccoli_ult_effect_05
+  rotate: false
+  xy: 718, 492
+  size: 425, 232
+  orig: 425, 232
+  offset: 0, 0
+  index: -1

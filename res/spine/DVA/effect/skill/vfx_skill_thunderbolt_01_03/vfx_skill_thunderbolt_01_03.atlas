@@ -1,0 +1,13 @@
+
+vfx_skill_thunderbolt_01_03.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c37_skill3_2
+  rotate: false
+  xy: 2, 2
+  size: 65, 52
+  orig: 65, 52
+  offset: 0, 0
+  index: -1

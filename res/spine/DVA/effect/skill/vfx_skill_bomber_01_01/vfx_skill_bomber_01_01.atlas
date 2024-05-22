@@ -1,0 +1,48 @@
+
+vfx_skill_bomber_01_01.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c019_2_0_001
+  rotate: false
+  xy: 1162, 554
+  size: 382, 132
+  orig: 382, 132
+  offset: 0, 0
+  index: -1
+c019_2_0_002
+  rotate: false
+  xy: 2, 206
+  size: 560, 262
+  orig: 560, 262
+  offset: 0, 0
+  index: -1
+c019_2_0_003
+  rotate: false
+  xy: 566, 516
+  size: 594, 484
+  orig: 594, 484
+  offset: 0, 0
+  index: -1
+c019_2_0_005
+  rotate: false
+  xy: 2, 470
+  size: 562, 530
+  orig: 562, 530
+  offset: 0, 0
+  index: -1
+c019_2_0_006
+  rotate: false
+  xy: 1162, 688
+  size: 572, 312
+  orig: 572, 312
+  offset: 0, 0
+  index: -1
+c019_2_0_007
+  rotate: false
+  xy: 2, 2
+  size: 590, 202
+  orig: 590, 202
+  offset: 0, 0
+  index: -1

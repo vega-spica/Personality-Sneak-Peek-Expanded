@@ -1,0 +1,13 @@
+
+vfx_bullet_hollow_01_02.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/2_5
+  rotate: false
+  xy: 2, 2
+  size: 127, 108
+  orig: 127, 108
+  offset: 0, 0
+  index: -1

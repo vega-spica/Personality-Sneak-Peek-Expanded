@@ -1,0 +1,20 @@
+
+vfx_skill_eddy_01_04.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_2
+  rotate: false
+  xy: 2, 41
+  size: 371, 371
+  orig: 371, 371
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 2, 2
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1

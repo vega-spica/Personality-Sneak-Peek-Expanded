@@ -1,0 +1,55 @@
+
+vfx_bullet_cupid_01.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 131, 101
+  size: 132, 137
+  orig: 132, 137
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 65
+  size: 127, 173
+  orig: 127, 173
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 2
+  size: 93, 61
+  orig: 93, 61
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 265, 100
+  size: 49, 46
+  orig: 49, 46
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 320, 152
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 265, 148
+  size: 53, 52
+  orig: 53, 52
+  offset: 0, 0
+  index: -1
+arrow_1
+  rotate: false
+  xy: 265, 202
+  size: 111, 36
+  orig: 111, 36
+  offset: 0, 0
+  index: -1

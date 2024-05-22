@@ -1,0 +1,118 @@
+
+minion_bonehead_01_03.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 3
+  size: 521, 507
+  orig: 521, 507
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: true
+  xy: 1481, 208
+  size: 302, 239
+  orig: 302, 239
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 876, 141
+  size: 316, 369
+  orig: 316, 369
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 689, 2
+  size: 78, 49
+  orig: 78, 49
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 859, 84
+  size: 45, 47
+  orig: 45, 47
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: true
+  xy: 525, 133
+  size: 377, 349
+  orig: 377, 349
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 1194, 22
+  size: 207, 176
+  orig: 207, 176
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: true
+  xy: 843, 18
+  size: 53, 43
+  orig: 53, 43
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 769, 5
+  size: 72, 66
+  orig: 72, 66
+  offset: 0, 0
+  index: -1
+3_4
+  rotate: false
+  xy: 906, 6
+  size: 184, 133
+  orig: 184, 133
+  offset: 0, 0
+  index: -1
+3_5
+  rotate: true
+  xy: 689, 53
+  size: 78, 71
+  orig: 78, 71
+  offset: 0, 0
+  index: -1
+3_6
+  rotate: false
+  xy: 525, 9
+  size: 162, 122
+  orig: 162, 122
+  offset: 0, 0
+  index: -1
+3_7
+  rotate: true
+  xy: 762, 73
+  size: 58, 95
+  orig: 58, 95
+  offset: 0, 0
+  index: -1
+3_8
+  rotate: true
+  xy: 1722, 260
+  size: 250, 253
+  orig: 250, 253
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 1722, 40
+  size: 289, 218
+  orig: 289, 218
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: true
+  xy: 1194, 200
+  size: 310, 285
+  orig: 310, 285
+  offset: 0, 0
+  index: -1

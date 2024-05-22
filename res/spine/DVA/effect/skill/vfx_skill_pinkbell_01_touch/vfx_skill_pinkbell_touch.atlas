@@ -1,0 +1,90 @@
+
+vfx_skill_pinkbell_touch.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c011_1_0_001
+  rotate: true
+  xy: 323, 2
+  size: 46, 25
+  orig: 46, 25
+  offset: 0, 0
+  index: -1
+c011_1_0_002
+  rotate: false
+  xy: 228, 9
+  size: 93, 39
+  orig: 93, 39
+  offset: 0, 0
+  index: -1
+c011_1_0_003
+  rotate: false
+  xy: 228, 50
+  size: 133, 72
+  orig: 133, 72
+  offset: 0, 0
+  index: -1
+c011_1_0_004
+  rotate: true
+  xy: 693, 21
+  size: 101, 90
+  orig: 101, 90
+  offset: 0, 0
+  index: -1
+c011_1_0_005
+  rotate: true
+  xy: 864, 40
+  size: 82, 77
+  orig: 82, 77
+  offset: 0, 0
+  index: -1
+c011_1_0_006
+  rotate: true
+  xy: 129, 20
+  size: 102, 97
+  orig: 102, 97
+  offset: 0, 0
+  index: -1
+c011_1_0_007
+  rotate: false
+  xy: 363, 55
+  size: 140, 67
+  orig: 140, 67
+  offset: 0, 0
+  index: -1
+c011_1_0_008
+  rotate: true
+  xy: 505, 22
+  size: 100, 94
+  orig: 100, 94
+  offset: 0, 0
+  index: -1
+c011_1_0_009
+  rotate: false
+  xy: 785, 38
+  size: 77, 84
+  orig: 77, 84
+  offset: 0, 0
+  index: -1
+c011_1_0_010
+  rotate: false
+  xy: 943, 37
+  size: 74, 85
+  orig: 74, 85
+  offset: 0, 0
+  index: -1
+c011_1_0_011
+  rotate: true
+  xy: 601, 19
+  size: 103, 90
+  orig: 103, 90
+  offset: 0, 0
+  index: -1
+c011_1_0_012
+  rotate: false
+  xy: 2, 8
+  size: 125, 114
+  orig: 125, 114
+  offset: 0, 0
+  index: -1

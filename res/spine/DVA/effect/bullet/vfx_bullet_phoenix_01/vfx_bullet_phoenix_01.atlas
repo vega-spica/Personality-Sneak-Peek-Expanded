@@ -1,0 +1,48 @@
+
+vfx_bullet_phoenix_01.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 2, 2
+  size: 187, 251
+  orig: 187, 251
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 721, 197
+  size: 260, 287
+  orig: 260, 287
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 380, 189
+  size: 339, 295
+  orig: 339, 295
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 2, 191
+  size: 376, 293
+  orig: 376, 293
+  offset: 0, 0
+  index: -1
+c017_0_1_01
+  rotate: true
+  xy: 255, 51
+  size: 138, 46
+  orig: 138, 46
+  offset: 0, 0
+  index: -1
+c017_0_1_02
+  rotate: false
+  xy: 721, 107
+  size: 270, 88
+  orig: 270, 88
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+vfx_bullet_applecheek_01_02.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/2_1
+  rotate: false
+  xy: 2, 90
+  size: 147, 142
+  orig: 147, 142
+  offset: 0, 0
+  index: -1
+image/2_2
+  rotate: false
+  xy: 2, 2
+  size: 62, 86
+  orig: 62, 86
+  offset: 0, 0
+  index: -1
+image/2_3
+  rotate: false
+  xy: 151, 189
+  size: 30, 43
+  orig: 30, 43
+  offset: 0, 0
+  index: -1

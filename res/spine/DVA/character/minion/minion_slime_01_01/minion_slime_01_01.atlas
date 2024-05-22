@@ -1,0 +1,195 @@
+
+minion_slime_01_01.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 1076, 106
+  size: 155, 148
+  orig: 155, 148
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 898, 94
+  size: 176, 160
+  orig: 176, 160
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 701, 100
+  size: 195, 154
+  orig: 195, 154
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 236, 130
+  size: 215, 124
+  orig: 215, 124
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 2, 114
+  size: 232, 140
+  orig: 232, 140
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: false
+  xy: 453, 179
+  size: 246, 75
+  orig: 246, 75
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1954, 198
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 1414, 128
+  size: 23, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+arm_l_2
+  rotate: false
+  xy: 266, 2
+  size: 32, 35
+  orig: 32, 35
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 346, 101
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+arm_r_2
+  rotate: false
+  xy: 316, 96
+  size: 28, 32
+  orig: 28, 32
+  offset: 0, 0
+  index: -1
+arm_r_3
+  rotate: true
+  xy: 2012, 218
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 1883, 193
+  size: 69, 61
+  orig: 69, 61
+  offset: 0, 0
+  index: -1
+body_2
+  rotate: false
+  xy: 1801, 176
+  size: 80, 78
+  orig: 80, 78
+  offset: 0, 0
+  index: -1
+body_3
+  rotate: false
+  xy: 1715, 179
+  size: 84, 75
+  orig: 84, 75
+  offset: 0, 0
+  index: -1
+die_1
+  rotate: true
+  xy: 2, 3
+  size: 109, 163
+  orig: 109, 163
+  offset: 0, 0
+  index: -1
+die_2
+  rotate: false
+  xy: 1233, 122
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+die_3
+  rotate: false
+  xy: 1370, 163
+  size: 160, 91
+  orig: 160, 91
+  offset: 0, 0
+  index: -1
+die_4
+  rotate: false
+  xy: 1532, 193
+  size: 181, 61
+  orig: 181, 61
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: false
+  xy: 1532, 168
+  size: 47, 23
+  orig: 47, 23
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 1233, 106
+  size: 53, 14
+  orig: 53, 14
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: false
+  xy: 591, 152
+  size: 49, 25
+  orig: 49, 25
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 167, 2
+  size: 97, 90
+  orig: 97, 90
+  offset: 0, 0
+  index: -1
+leg_1
+  rotate: false
+  xy: 236, 94
+  size: 78, 34
+  orig: 78, 34
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 453, 141
+  size: 136, 36
+  orig: 136, 36
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 1370, 128
+  size: 42, 33
+  orig: 42, 33
+  offset: 0, 0
+  index: -1
+top_1
+  rotate: true
+  xy: 266, 39
+  size: 53, 50
+  orig: 53, 50
+  offset: 0, 0
+  index: -1

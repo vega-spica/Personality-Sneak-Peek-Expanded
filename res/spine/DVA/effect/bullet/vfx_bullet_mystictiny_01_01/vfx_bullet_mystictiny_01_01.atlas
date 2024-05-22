@@ -1,0 +1,69 @@
+
+vfx_bullet_mystictiny_01_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 770, 23
+  size: 196, 127
+  orig: 196, 127
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 1087, 218
+  size: 267, 215
+  orig: 267, 215
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 795, 229
+  size: 290, 204
+  orig: 290, 204
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 431, 23
+  size: 337, 196
+  orig: 337, 196
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 431, 221
+  size: 362, 212
+  orig: 362, 212
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 2, 2
+  size: 427, 431
+  orig: 427, 431
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 1356, 242
+  size: 191, 191
+  orig: 191, 191
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 1549, 242
+  size: 191, 191
+  orig: 191, 191
+  offset: 0, 0
+  index: -1
+3_4
+  rotate: false
+  xy: 1742, 254
+  size: 180, 179
+  orig: 180, 179
+  offset: 0, 0
+  index: -1

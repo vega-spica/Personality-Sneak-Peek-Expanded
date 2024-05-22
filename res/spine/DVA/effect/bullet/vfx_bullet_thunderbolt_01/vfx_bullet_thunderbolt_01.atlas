@@ -1,0 +1,41 @@
+
+vfx_bullet_thunderbolt_01.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c37_attack_1_1
+  rotate: false
+  xy: 226, 24
+  size: 207, 154
+  orig: 207, 154
+  offset: 0, 0
+  index: -1
+c37_attack_1_2
+  rotate: false
+  xy: 2, 14
+  size: 222, 164
+  orig: 222, 164
+  offset: 0, 0
+  index: -1
+c37_attack_2_1
+  rotate: false
+  xy: 783, 23
+  size: 148, 155
+  orig: 148, 155
+  offset: 0, 0
+  index: -1
+c37_attack_2_2
+  rotate: false
+  xy: 624, 16
+  size: 157, 162
+  orig: 157, 162
+  offset: 0, 0
+  index: -1
+c37_attack_2_3
+  rotate: false
+  xy: 435, 2
+  size: 187, 176
+  orig: 187, 176
+  offset: 0, 0
+  index: -1

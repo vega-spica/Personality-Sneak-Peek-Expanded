@@ -1,0 +1,342 @@
+
+squirrel_01.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 685, 94
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 423, 107
+  size: 19, 42
+  orig: 19, 42
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: true
+  xy: 1862, 203
+  size: 51, 52
+  orig: 51, 52
+  offset: 0, 0
+  index: -1
+arm_l_2
+  rotate: true
+  xy: 1177, 196
+  size: 58, 78
+  orig: 58, 78
+  offset: 0, 0
+  index: -1
+arm_l_3
+  rotate: true
+  xy: 1680, 203
+  size: 51, 60
+  orig: 51, 60
+  offset: 0, 0
+  index: -1
+arm_l_4
+  rotate: true
+  xy: 1399, 210
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+arm_l_5
+  rotate: true
+  xy: 1473, 217
+  size: 37, 72
+  orig: 37, 72
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 339, 63
+  size: 53, 42
+  orig: 53, 42
+  offset: 0, 0
+  index: -1
+arm_r_2
+  rotate: true
+  xy: 1257, 198
+  size: 56, 75
+  orig: 56, 75
+  offset: 0, 0
+  index: -1
+arm_r_3
+  rotate: false
+  xy: 1804, 207
+  size: 56, 47
+  orig: 56, 47
+  offset: 0, 0
+  index: -1
+arm_r_4
+  rotate: true
+  xy: 1547, 203
+  size: 51, 65
+  orig: 51, 65
+  offset: 0, 0
+  index: -1
+arm_r_5
+  rotate: true
+  xy: 1742, 206
+  size: 48, 60
+  orig: 48, 60
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: true
+  xy: 986, 169
+  size: 85, 88
+  orig: 85, 88
+  offset: 0, 0
+  index: -1
+body_z
+  rotate: true
+  xy: 1334, 200
+  size: 54, 63
+  orig: 54, 63
+  offset: 0, 0
+  index: -1
+ear_l_1
+  rotate: false
+  xy: 394, 58
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+ear_r_1
+  rotate: false
+  xy: 1916, 204
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: true
+  xy: 2018, 197
+  size: 57, 22
+  orig: 57, 22
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 1177, 188
+  size: 60, 6
+  orig: 60, 6
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: false
+  xy: 298, 115
+  size: 61, 11
+  orig: 61, 11
+  offset: 0, 0
+  index: -1
+eye_4
+  rotate: false
+  xy: 1076, 167
+  size: 60, 17
+  orig: 60, 17
+  offset: 0, 0
+  index: -1
+eye_5
+  rotate: false
+  xy: 361, 107
+  size: 60, 19
+  orig: 60, 19
+  offset: 0, 0
+  index: -1
+eye_6
+  rotate: false
+  xy: 211, 13
+  size: 59, 24
+  orig: 59, 24
+  offset: 0, 0
+  index: -1
+eye_7
+  rotate: false
+  xy: 290, 48
+  size: 60, 13
+  orig: 60, 13
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 727, 129
+  size: 132, 125
+  orig: 132, 125
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 290, 63
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+leg_l_2
+  rotate: false
+  xy: 1059, 123
+  size: 54, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+leg_l_3
+  rotate: true
+  xy: 442, 58
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+leg_l_4
+  rotate: false
+  xy: 542, 87
+  size: 47, 39
+  orig: 47, 39
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 591, 83
+  size: 48, 40
+  orig: 48, 40
+  offset: 0, 0
+  index: -1
+leg_r_2
+  rotate: false
+  xy: 641, 81
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+leg_r_3
+  rotate: false
+  xy: 490, 87
+  size: 50, 39
+  orig: 50, 39
+  offset: 0, 0
+  index: -1
+leg_r_4
+  rotate: false
+  xy: 155, 3
+  size: 54, 34
+  orig: 54, 34
+  offset: 0, 0
+  index: -1
+lip_1
+  rotate: false
+  xy: 272, 2
+  size: 12, 22
+  orig: 12, 22
+  offset: 0, 0
+  index: -1
+nose_1
+  rotate: false
+  xy: 272, 26
+  size: 16, 11
+  orig: 16, 11
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 861, 131
+  size: 136, 36
+  orig: 136, 36
+  offset: 0, 0
+  index: -1
+squirrel_ult_flybugopen_01
+  rotate: true
+  xy: 999, 127
+  size: 40, 58
+  orig: 40, 58
+  offset: 0, 0
+  index: -1
+squirrel_ult_flybugopen_02
+  rotate: true
+  xy: 1076, 186
+  size: 68, 99
+  orig: 68, 99
+  offset: 0, 0
+  index: -1
+squirrel_ult_flybugopen_03
+  rotate: true
+  xy: 155, 39
+  size: 77, 133
+  orig: 77, 133
+  offset: 0, 0
+  index: -1
+squirrel_ult_flybugopen_04
+  rotate: false
+  xy: 861, 169
+  size: 123, 85
+  orig: 123, 85
+  offset: 0, 0
+  index: -1
+squirrel_ult_flybugopen_05
+  rotate: true
+  xy: 591, 125
+  size: 129, 134
+  orig: 129, 134
+  offset: 0, 0
+  index: -1
+squirrel_ult_flybugopen_06
+  rotate: false
+  xy: 2, 114
+  size: 151, 140
+  orig: 151, 140
+  offset: 0, 0
+  index: -1
+squirrel_ult_flybugopen_07
+  rotate: true
+  xy: 155, 118
+  size: 136, 141
+  orig: 136, 141
+  offset: 0, 0
+  index: -1
+squirrel_ult_flybugopen_08
+  rotate: false
+  xy: 450, 128
+  size: 139, 126
+  orig: 139, 126
+  offset: 0, 0
+  index: -1
+squirrel_ult_flybugopen_09
+  rotate: false
+  xy: 2, 5
+  size: 151, 107
+  orig: 151, 107
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: true
+  xy: 298, 128
+  size: 126, 150
+  orig: 126, 150
+  offset: 0, 0
+  index: -1
+weapon_1
+  rotate: true
+  xy: 1614, 204
+  size: 50, 64
+  orig: 50, 64
+  offset: 0, 0
+  index: -1
+weapon_bottom_1
+  rotate: false
+  xy: 1967, 204
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+weapon_top_1
+  rotate: true
+  xy: 290, 2
+  size: 44, 36
+  orig: 44, 36
+  offset: 0, 0
+  index: -1

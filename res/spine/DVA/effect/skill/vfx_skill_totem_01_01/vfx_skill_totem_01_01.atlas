@@ -1,0 +1,104 @@
+
+vfx_skill_totem_01_01.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 630, 2
+  size: 176, 349
+  orig: 176, 349
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 1013, 23
+  size: 205, 336
+  orig: 205, 336
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 1697, 47
+  size: 142, 312
+  orig: 142, 312
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: true
+  xy: 1692, 361
+  size: 185, 298
+  orig: 185, 298
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: true
+  xy: 630, 180
+  size: 179, 381
+  orig: 179, 381
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: true
+  xy: 1354, 356
+  size: 190, 336
+  orig: 190, 336
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: false
+  xy: 1475, 24
+  size: 220, 330
+  orig: 220, 330
+  offset: 0, 0
+  index: -1
+4_2
+  rotate: false
+  xy: 1220, 55
+  size: 253, 299
+  orig: 253, 299
+  offset: 0, 0
+  index: -1
+5_1
+  rotate: false
+  xy: 2, 30
+  size: 626, 447
+  orig: 626, 447
+  offset: 0, 0
+  index: -1
+5_2
+  rotate: false
+  xy: 2, 479
+  size: 669, 496
+  orig: 669, 496
+  offset: 0, 0
+  index: -1
+5_3
+  rotate: false
+  xy: 673, 534
+  size: 679, 441
+  orig: 679, 441
+  offset: 0, 0
+  index: -1
+6_1
+  rotate: false
+  xy: 673, 361
+  size: 533, 171
+  orig: 533, 171
+  offset: 0, 0
+  index: -1
+6_2
+  rotate: false
+  xy: 1354, 548
+  size: 528, 196
+  orig: 528, 196
+  offset: 0, 0
+  index: -1
+6_3
+  rotate: false
+  xy: 1354, 746
+  size: 599, 229
+  orig: 599, 229
+  offset: 0, 0
+  index: -1

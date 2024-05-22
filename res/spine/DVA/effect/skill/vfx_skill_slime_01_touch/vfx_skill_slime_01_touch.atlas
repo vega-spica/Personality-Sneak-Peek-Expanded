@@ -1,0 +1,76 @@
+
+vfx_skill_slime_01_touch.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c35_ult_1_1
+  rotate: true
+  xy: 1247, 95
+  size: 59, 168
+  orig: 59, 168
+  offset: 0, 0
+  index: -1
+c35_ult_1_10
+  rotate: false
+  xy: 198, 2
+  size: 85, 51
+  orig: 85, 51
+  offset: 0, 0
+  index: -1
+c35_ult_1_2
+  rotate: false
+  xy: 2, 34
+  size: 194, 220
+  orig: 194, 220
+  offset: 0, 0
+  index: -1
+c35_ult_1_3
+  rotate: false
+  xy: 198, 55
+  size: 209, 199
+  orig: 209, 199
+  offset: 0, 0
+  index: -1
+c35_ult_1_4
+  rotate: false
+  xy: 1061, 78
+  size: 184, 176
+  orig: 184, 176
+  offset: 0, 0
+  index: -1
+c35_ult_1_5
+  rotate: true
+  xy: 409, 79
+  size: 175, 202
+  orig: 175, 202
+  offset: 0, 0
+  index: -1
+c35_ult_1_6
+  rotate: false
+  xy: 853, 102
+  size: 206, 152
+  orig: 206, 152
+  offset: 0, 0
+  index: -1
+c35_ult_1_7
+  rotate: false
+  xy: 613, 130
+  size: 238, 124
+  orig: 238, 124
+  offset: 0, 0
+  index: -1
+c35_ult_1_8
+  rotate: false
+  xy: 1247, 156
+  size: 195, 98
+  orig: 195, 98
+  offset: 0, 0
+  index: -1
+c35_ult_1_9
+  rotate: false
+  xy: 1444, 171
+  size: 146, 83
+  orig: 146, 83
+  offset: 0, 0
+  index: -1

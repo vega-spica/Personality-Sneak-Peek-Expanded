@@ -1,0 +1,34 @@
+
+vfx_skill_asura_01_touch_02.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10_1
+  rotate: false
+  xy: 418, 138
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+10_2
+  rotate: false
+  xy: 2, 2
+  size: 76, 90
+  orig: 76, 90
+  offset: 0, 0
+  index: -1
+10_3
+  rotate: false
+  xy: 2, 94
+  size: 414, 414
+  orig: 414, 414
+  offset: 0, 0
+  index: -1
+10_4
+  rotate: false
+  xy: 790, 360
+  size: 124, 148
+  orig: 124, 148
+  offset: 0, 0
+  index: -1

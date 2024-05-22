@@ -1,0 +1,13 @@
+
+vfx_skill_bingo_01_02.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c41_skill2_3
+  rotate: false
+  xy: 2, 2
+  size: 180, 205
+  orig: 180, 205
+  offset: 0, 0
+  index: -1

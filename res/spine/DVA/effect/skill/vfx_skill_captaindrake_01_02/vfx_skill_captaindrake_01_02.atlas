@@ -1,0 +1,104 @@
+
+vfx_skill_captaindrake_01_02.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 2, 281
+  size: 175, 1001
+  orig: 175, 1001
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: true
+  xy: 1848, 227
+  size: 229, 179
+  orig: 229, 179
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 1584, 229
+  size: 262, 227
+  orig: 262, 227
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 311, 9
+  size: 299, 270
+  orig: 299, 270
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 2, 2
+  size: 307, 277
+  orig: 307, 277
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: false
+  xy: 612, 46
+  size: 302, 233
+  orig: 302, 233
+  offset: 0, 0
+  index: -1
+2_6
+  rotate: false
+  xy: 1298, 230
+  size: 284, 226
+  orig: 284, 226
+  offset: 0, 0
+  index: -1
+2_7
+  rotate: false
+  xy: 1005, 238
+  size: 291, 218
+  orig: 291, 218
+  offset: 0, 0
+  index: -1
+2_8
+  rotate: false
+  xy: 916, 56
+  size: 129, 90
+  orig: 129, 90
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 916, 148
+  size: 83, 131
+  orig: 83, 131
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: true
+  xy: 1282, 164
+  size: 64, 140
+  orig: 64, 140
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: true
+  xy: 1137, 165
+  size: 71, 143
+  orig: 71, 143
+  offset: 0, 0
+  index: -1
+3_4
+  rotate: true
+  xy: 1001, 148
+  size: 88, 134
+  orig: 88, 134
+  offset: 0, 0
+  index: -1
+3_5
+  rotate: false
+  xy: 1047, 53
+  size: 95, 93
+  orig: 95, 93
+  offset: 0, 0
+  index: -1

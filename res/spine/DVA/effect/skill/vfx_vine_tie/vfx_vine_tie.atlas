@@ -1,0 +1,83 @@
+
+vfx_vine_tie.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_sprout_01
+  rotate: false
+  xy: 2, 2
+  size: 175, 244
+  orig: 175, 244
+  offset: 0, 0
+  index: -1
+effect_sprout_02
+  rotate: false
+  xy: 179, 2
+  size: 175, 244
+  orig: 175, 244
+  offset: 0, 0
+  index: -1
+effect_sprout_03
+  rotate: false
+  xy: 356, 2
+  size: 175, 244
+  orig: 175, 244
+  offset: 0, 0
+  index: -1
+effect_sprout_04
+  rotate: false
+  xy: 533, 2
+  size: 175, 244
+  orig: 175, 244
+  offset: 0, 0
+  index: -1
+effect_sprout_05
+  rotate: false
+  xy: 710, 2
+  size: 175, 244
+  orig: 175, 244
+  offset: 0, 0
+  index: -1
+effect_sprout_06
+  rotate: false
+  xy: 887, 2
+  size: 175, 244
+  orig: 175, 244
+  offset: 0, 0
+  index: -1
+effect_sprout_07
+  rotate: false
+  xy: 1064, 2
+  size: 175, 244
+  orig: 175, 244
+  offset: 0, 0
+  index: -1
+effect_sprout_08
+  rotate: false
+  xy: 1241, 2
+  size: 175, 244
+  orig: 175, 244
+  offset: 0, 0
+  index: -1
+effect_sprout_09
+  rotate: false
+  xy: 1418, 2
+  size: 175, 244
+  orig: 175, 244
+  offset: 0, 0
+  index: -1
+effect_sprout_10
+  rotate: false
+  xy: 1595, 65
+  size: 50, 77
+  orig: 50, 77
+  offset: 0, 0
+  index: -1
+effect_sprout_11
+  rotate: false
+  xy: 1595, 144
+  size: 111, 102
+  orig: 111, 102
+  offset: 0, 0
+  index: -1

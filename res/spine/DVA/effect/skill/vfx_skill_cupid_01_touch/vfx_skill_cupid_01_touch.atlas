@@ -1,0 +1,41 @@
+
+vfx_skill_cupid_01_touch.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 13
+  size: 292, 80
+  orig: 292, 80
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 856, 2
+  size: 269, 91
+  orig: 269, 91
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 296, 10
+  size: 277, 83
+  orig: 277, 83
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 575, 15
+  size: 279, 78
+  orig: 279, 78
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 1127, 35
+  size: 62, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1

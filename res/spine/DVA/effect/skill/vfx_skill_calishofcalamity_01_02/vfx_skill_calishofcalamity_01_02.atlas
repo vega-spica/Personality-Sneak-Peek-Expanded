@@ -1,0 +1,97 @@
+
+vfx_skill_calishofcalamity_01_02.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 2
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 1814, 154
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 304, 2
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 606, 2
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 908, 2
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: false
+  xy: 1210, 2
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+1_7
+  rotate: false
+  xy: 1512, 2
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 2, 154
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 304, 154
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 606, 154
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 908, 154
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: false
+  xy: 1210, 154
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+2_6
+  rotate: false
+  xy: 1512, 154
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1

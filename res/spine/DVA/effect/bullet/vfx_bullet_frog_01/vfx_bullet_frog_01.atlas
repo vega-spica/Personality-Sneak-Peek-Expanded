@@ -1,0 +1,55 @@
+
+vfx_bullet_frog_01.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit_1
+  rotate: false
+  xy: 919, 7
+  size: 96, 85
+  orig: 96, 85
+  offset: 0, 0
+  index: -1
+hit_2
+  rotate: true
+  xy: 573, 54
+  size: 199, 229
+  orig: 199, 229
+  offset: 0, 0
+  index: -1
+hit_3
+  rotate: true
+  xy: 298, 26
+  size: 227, 273
+  orig: 227, 273
+  offset: 0, 0
+  index: -1
+hit_4
+  rotate: true
+  xy: 2, 2
+  size: 251, 294
+  orig: 251, 294
+  offset: 0, 0
+  index: -1
+wtb_1
+  rotate: false
+  xy: 804, 167
+  size: 153, 86
+  orig: 153, 86
+  offset: 0, 0
+  index: -1
+wtb_2
+  rotate: false
+  xy: 804, 94
+  size: 158, 71
+  orig: 158, 71
+  offset: 0, 0
+  index: -1
+wtb_3
+  rotate: false
+  xy: 804, 12
+  size: 113, 80
+  orig: 113, 80
+  offset: 0, 0
+  index: -1

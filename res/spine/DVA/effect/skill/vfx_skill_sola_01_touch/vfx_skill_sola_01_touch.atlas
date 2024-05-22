@@ -1,0 +1,90 @@
+
+vfx_skill_sola_01_touch.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 606, 129
+  size: 177, 140
+  orig: 177, 140
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 785, 190
+  size: 78, 79
+  orig: 78, 79
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 541, 143
+  size: 53, 55
+  orig: 53, 55
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 865, 186
+  size: 68, 83
+  orig: 68, 83
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 935, 399
+  size: 76, 84
+  orig: 76, 84
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: false
+  xy: 935, 318
+  size: 76, 79
+  orig: 76, 79
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: false
+  xy: 325, 2
+  size: 214, 196
+  orig: 214, 196
+  offset: 0, 0
+  index: -1
+4_2
+  rotate: true
+  xy: 317, 200
+  size: 283, 287
+  orig: 283, 287
+  offset: 0, 0
+  index: -1
+4_3
+  rotate: false
+  xy: 2, 197
+  size: 313, 286
+  orig: 313, 286
+  offset: 0, 0
+  index: -1
+4_4
+  rotate: false
+  xy: 606, 271
+  size: 327, 212
+  orig: 327, 212
+  offset: 0, 0
+  index: -1
+4_5
+  rotate: false
+  xy: 2, 28
+  size: 321, 167
+  orig: 321, 167
+  offset: 0, 0
+  index: -1
+5_2
+  rotate: false
+  xy: 935, 232
+  size: 66, 84
+  orig: 66, 84
+  offset: 0, 0
+  index: -1

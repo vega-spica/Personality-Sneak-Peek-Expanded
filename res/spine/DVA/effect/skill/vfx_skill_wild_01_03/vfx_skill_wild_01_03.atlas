@@ -1,0 +1,48 @@
+
+vfx_skill_wild_01_03.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 2, 2
+  size: 415, 415
+  orig: 415, 415
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: true
+  xy: 1664, 5
+  size: 412, 208
+  orig: 412, 208
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 419, 86
+  size: 413, 331
+  orig: 413, 331
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 834, 86
+  size: 413, 331
+  orig: 413, 331
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 1249, 107
+  size: 413, 310
+  orig: 413, 310
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: true
+  xy: 1874, 95
+  size: 322, 141
+  orig: 322, 141
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+vfx_skill_timber_01_attack_02_02.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pit
+  rotate: false
+  xy: 2, 2
+  size: 364, 161
+  orig: 364, 161
+  offset: 0, 0
+  index: -1

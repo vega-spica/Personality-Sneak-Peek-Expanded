@@ -1,0 +1,83 @@
+
+vfx_skill_music_01_01.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 60
+  size: 108, 194
+  orig: 108, 194
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 258, 119
+  size: 20, 130
+  orig: 20, 130
+  offset: 0, 0
+  index: -1
+music_skill1_effect_001
+  rotate: false
+  xy: 2, 32
+  size: 9, 26
+  orig: 9, 26
+  offset: 0, 0
+  index: -1
+music_skill1_effect_002
+  rotate: false
+  xy: 759, 131
+  size: 45, 31
+  orig: 45, 31
+  offset: 0, 0
+  index: -1
+music_skill1_effect_003
+  rotate: true
+  xy: 112, 2
+  size: 94, 84
+  orig: 94, 84
+  offset: 0, 0
+  index: -1
+music_skill1_effect_004
+  rotate: false
+  xy: 759, 164
+  size: 120, 90
+  orig: 120, 90
+  offset: 0, 0
+  index: -1
+music_skill1_effect_005
+  rotate: false
+  xy: 621, 129
+  size: 136, 125
+  orig: 136, 125
+  offset: 0, 0
+  index: -1
+music_skill1_effect_006
+  rotate: false
+  xy: 112, 98
+  size: 144, 156
+  orig: 144, 156
+  offset: 0, 0
+  index: -1
+music_skill1_effect_007
+  rotate: true
+  xy: 258, 141
+  size: 113, 179
+  orig: 113, 179
+  offset: 0, 0
+  index: -1
+music_skill1_effect_008
+  rotate: true
+  xy: 439, 148
+  size: 106, 180
+  orig: 106, 180
+  offset: 0, 0
+  index: -1
+music_skill1_effect_009
+  rotate: false
+  xy: 881, 165
+  size: 74, 89
+  orig: 74, 89
+  offset: 0, 0
+  index: -1

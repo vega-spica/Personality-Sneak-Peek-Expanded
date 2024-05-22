@@ -1,0 +1,55 @@
+
+minion_flower_01_01.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_1
+  rotate: false
+  xy: 141, 101
+  size: 121, 123
+  orig: 121, 123
+  offset: 0, 0
+  index: -1
+body_2
+  rotate: false
+  xy: 2, 87
+  size: 137, 137
+  orig: 137, 137
+  offset: 0, 0
+  index: -1
+l_1
+  rotate: false
+  xy: 325, 88
+  size: 49, 57
+  orig: 49, 57
+  offset: 0, 0
+  index: -1
+r_1
+  rotate: false
+  xy: 264, 89
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+레이어 126
+  rotate: false
+  xy: 2, 2
+  size: 101, 83
+  orig: 101, 83
+  offset: 0, 0
+  index: -1
+레이어 127
+  rotate: false
+  xy: 264, 147
+  size: 102, 77
+  orig: 102, 77
+  offset: 0, 0
+  index: -1
+레이어 129
+  rotate: false
+  xy: 368, 150
+  size: 101, 74
+  orig: 101, 74
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,97 @@
+
+vfx_skill_pinkbell_01_02.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 229, 129
+  size: 245, 61
+  orig: 245, 61
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 724, 188
+  size: 189, 156
+  orig: 189, 156
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 915, 291
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 142, 31
+  size: 82, 77
+  orig: 82, 77
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 348, 36
+  size: 101, 91
+  orig: 101, 91
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: false
+  xy: 654, 144
+  size: 61, 63
+  orig: 61, 63
+  offset: 0, 0
+  index: -1
+5_1
+  rotate: false
+  xy: 229, 2
+  size: 117, 125
+  orig: 117, 125
+  offset: 0, 0
+  index: -1
+5_2
+  rotate: true
+  xy: 2, 2
+  size: 106, 138
+  orig: 106, 138
+  offset: 0, 0
+  index: -1
+6_1
+  rotate: false
+  xy: 500, 209
+  size: 222, 301
+  orig: 222, 301
+  offset: 0, 0
+  index: -1
+6_2
+  rotate: false
+  xy: 2, 110
+  size: 225, 400
+  orig: 225, 400
+  offset: 0, 0
+  index: -1
+6_3
+  rotate: false
+  xy: 229, 192
+  size: 269, 318
+  orig: 269, 318
+  offset: 0, 0
+  index: -1
+6_4
+  rotate: false
+  xy: 724, 346
+  size: 246, 164
+  orig: 246, 164
+  offset: 0, 0
+  index: -1
+6_5
+  rotate: true
+  xy: 500, 65
+  size: 142, 152
+  orig: 142, 152
+  offset: 0, 0
+  index: -1

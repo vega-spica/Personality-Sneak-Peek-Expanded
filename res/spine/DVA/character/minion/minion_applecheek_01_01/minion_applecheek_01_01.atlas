@@ -1,0 +1,118 @@
+
+minion_applecheek_01_01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/5_2
+  rotate: false
+  xy: 285, 354
+  size: 206, 78
+  orig: 206, 78
+  offset: 0, 0
+  index: -1
+image/5_3
+  rotate: false
+  xy: 285, 274
+  size: 206, 78
+  orig: 206, 78
+  offset: 0, 0
+  index: -1
+image/5_4
+  rotate: true
+  xy: 159, 3
+  size: 204, 77
+  orig: 204, 77
+  offset: 0, 0
+  index: -1
+image/6_1
+  rotate: true
+  xy: 238, 30
+  size: 177, 90
+  orig: 177, 90
+  offset: 0, 0
+  index: -1
+image/6_2
+  rotate: true
+  xy: 332, 33
+  size: 239, 94
+  orig: 239, 94
+  offset: 0, 0
+  index: -1
+image/6_3
+  rotate: false
+  xy: 428, 40
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+image/6_4
+  rotate: false
+  xy: 238, 4
+  size: 33, 24
+  orig: 33, 24
+  offset: 0, 0
+  index: -1
+image/6_5
+  rotate: false
+  xy: 273, 9
+  size: 27, 19
+  orig: 27, 19
+  offset: 0, 0
+  index: -1
+image/7_1
+  rotate: true
+  xy: 428, 141
+  size: 131, 80
+  orig: 131, 80
+  offset: 0, 0
+  index: -1
+image/7_2
+  rotate: false
+  xy: 2, 291
+  size: 281, 219
+  orig: 281, 219
+  offset: 0, 0
+  index: -1
+image/7_3_1
+  rotate: false
+  xy: 285, 434
+  size: 220, 76
+  orig: 220, 76
+  offset: 0, 0
+  index: -1
+image/7_3_2
+  rotate: false
+  xy: 159, 209
+  size: 117, 80
+  orig: 117, 80
+  offset: 0, 0
+  index: -1
+image/7_3_3
+  rotate: true
+  xy: 2, 12
+  size: 260, 155
+  orig: 260, 155
+  offset: 0, 0
+  index: -1
+image/7_4
+  rotate: true
+  xy: 278, 209
+  size: 63, 52
+  orig: 63, 52
+  offset: 0, 0
+  index: -1
+image/7_5
+  rotate: true
+  xy: 428, 77
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+image/7_6
+  rotate: false
+  xy: 330, 2
+  size: 77, 29
+  orig: 77, 29
+  offset: 0, 0
+  index: -1

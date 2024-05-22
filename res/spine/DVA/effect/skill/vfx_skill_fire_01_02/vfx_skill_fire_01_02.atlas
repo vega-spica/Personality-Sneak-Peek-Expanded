@@ -1,0 +1,76 @@
+
+vfx_skill_fire_01_02.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire_skill2_effect_001
+  rotate: false
+  xy: 465, 94
+  size: 98, 32
+  orig: 98, 32
+  offset: 0, 0
+  index: -1
+fire_skill2_effect_002
+  rotate: true
+  xy: 565, 96
+  size: 30, 65
+  orig: 30, 65
+  offset: 0, 0
+  index: -1
+fire_skill2_effect_003
+  rotate: false
+  xy: 122, 41
+  size: 127, 85
+  orig: 127, 85
+  offset: 0, 0
+  index: -1
+fire_skill2_effect_004
+  rotate: false
+  xy: 2, 29
+  size: 118, 97
+  orig: 118, 97
+  offset: 0, 0
+  index: -1
+fire_skill2_effect_005
+  rotate: false
+  xy: 465, 52
+  size: 66, 40
+  orig: 66, 40
+  offset: 0, 0
+  index: -1
+fire_skill2_effect_006
+  rotate: false
+  xy: 122, 2
+  size: 113, 37
+  orig: 113, 37
+  offset: 0, 0
+  index: -1
+fire_skill2_effect_007
+  rotate: false
+  xy: 373, 38
+  size: 90, 88
+  orig: 90, 88
+  offset: 0, 0
+  index: -1
+fire_skill2_effect_008
+  rotate: false
+  xy: 632, 84
+  size: 57, 42
+  orig: 57, 42
+  offset: 0, 0
+  index: -1
+fire_skill2_effect_009
+  rotate: false
+  xy: 251, 54
+  size: 120, 72
+  orig: 120, 72
+  offset: 0, 0
+  index: -1
+fire_skill2_effect_010
+  rotate: false
+  xy: 691, 88
+  size: 46, 38
+  orig: 46, 38
+  offset: 0, 0
+  index: -1

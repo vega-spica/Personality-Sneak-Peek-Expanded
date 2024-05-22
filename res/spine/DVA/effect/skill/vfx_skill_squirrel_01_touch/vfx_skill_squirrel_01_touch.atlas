@@ -1,0 +1,69 @@
+
+vfx_skill_squirrel_01_touch.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+squirrel_ult_flyattack_01
+  rotate: false
+  xy: 1476, 45
+  size: 130, 126
+  orig: 130, 126
+  offset: 0, 0
+  index: -1
+squirrel_ult_flyattack_02
+  rotate: false
+  xy: 1133, 89
+  size: 173, 148
+  orig: 173, 148
+  offset: 0, 0
+  index: -1
+squirrel_ult_flyattack_03
+  rotate: false
+  xy: 944, 86
+  size: 187, 151
+  orig: 187, 151
+  offset: 0, 0
+  index: -1
+squirrel_ult_flyattack_04
+  rotate: false
+  xy: 1308, 84
+  size: 166, 153
+  orig: 166, 153
+  offset: 0, 0
+  index: -1
+squirrel_ult_flyattack_05
+  rotate: false
+  xy: 276, 66
+  size: 233, 171
+  orig: 233, 171
+  offset: 0, 0
+  index: -1
+squirrel_ult_flyattack_06
+  rotate: false
+  xy: 733, 74
+  size: 209, 163
+  orig: 209, 163
+  offset: 0, 0
+  index: -1
+squirrel_ult_flyattack_07
+  rotate: false
+  xy: 511, 76
+  size: 220, 161
+  orig: 220, 161
+  offset: 0, 0
+  index: -1
+squirrel_ult_flyattack_08
+  rotate: false
+  xy: 2, 2
+  size: 272, 235
+  orig: 272, 235
+  offset: 0, 0
+  index: -1
+squirrel_ult_launcher
+  rotate: false
+  xy: 1476, 173
+  size: 231, 64
+  orig: 231, 64
+  offset: 0, 0
+  index: -1

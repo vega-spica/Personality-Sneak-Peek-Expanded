@@ -1,0 +1,55 @@
+
+vfx_skill_applecheek_01_01.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/2_1
+  rotate: false
+  xy: 748, 100
+  size: 147, 142
+  orig: 147, 142
+  offset: 0, 0
+  index: -1
+image/2_2
+  rotate: false
+  xy: 897, 156
+  size: 62, 86
+  orig: 62, 86
+  offset: 0, 0
+  index: -1
+image/2_3
+  rotate: false
+  xy: 2, 2
+  size: 30, 43
+  orig: 30, 43
+  offset: 0, 0
+  index: -1
+image/3_1
+  rotate: false
+  xy: 595, 102
+  size: 151, 140
+  orig: 151, 140
+  offset: 0, 0
+  index: -1
+image/3_2
+  rotate: false
+  xy: 424, 91
+  size: 169, 151
+  orig: 169, 151
+  offset: 0, 0
+  index: -1
+image/3_3
+  rotate: false
+  xy: 222, 62
+  size: 200, 180
+  orig: 200, 180
+  offset: 0, 0
+  index: -1
+image/3_4
+  rotate: false
+  xy: 2, 47
+  size: 218, 195
+  orig: 218, 195
+  offset: 0, 0
+  index: -1

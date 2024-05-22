@@ -1,0 +1,237 @@
+
+frozen_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_4
+  rotate: true
+  xy: 2, 2
+  size: 58, 51
+  orig: 58, 51
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: true
+  xy: 842, 600
+  size: 164, 152
+  orig: 164, 152
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: true
+  xy: 524, 175
+  size: 187, 94
+  orig: 187, 94
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: true
+  xy: 848, 437
+  size: 161, 136
+  orig: 161, 136
+  offset: 0, 0
+  index: -1
+eff_1
+  rotate: false
+  xy: 463, 573
+  size: 283, 189
+  orig: 283, 189
+  offset: 0, 0
+  index: -1
+eff_2
+  rotate: true
+  xy: 304, 78
+  size: 284, 218
+  orig: 284, 218
+  offset: 0, 0
+  index: -1
+eff_3
+  rotate: true
+  xy: 802, 766
+  size: 256, 201
+  orig: 256, 201
+  offset: 0, 0
+  index: -1
+eff_4
+  rotate: false
+  xy: 2, 62
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+eye_c_1
+  rotate: true
+  xy: 537, 364
+  size: 48, 84
+  orig: 48, 84
+  offset: 0, 0
+  index: -1
+eye_c_2
+  rotate: true
+  xy: 848, 334
+  size: 24, 83
+  orig: 24, 83
+  offset: 0, 0
+  index: -1
+eye_c_3
+  rotate: true
+  xy: 620, 213
+  size: 19, 85
+  orig: 19, 85
+  offset: 0, 0
+  index: -1
+eye_l_1
+  rotate: true
+  xy: 463, 541
+  size: 30, 49
+  orig: 30, 49
+  offset: 0, 0
+  index: -1
+eye_l_2
+  rotate: false
+  xy: 623, 371
+  size: 30, 41
+  orig: 30, 41
+  offset: 0, 0
+  index: -1
+eye_l_3
+  rotate: true
+  xy: 1005, 994
+  size: 28, 14
+  orig: 28, 14
+  offset: 0, 0
+  index: -1
+eye_r_1
+  rotate: true
+  xy: 640, 142
+  size: 69, 67
+  orig: 69, 67
+  offset: 0, 0
+  index: -1
+eye_r_2
+  rotate: false
+  xy: 220, 9
+  size: 67, 51
+  orig: 67, 51
+  offset: 0, 0
+  index: -1
+eye_r_3
+  rotate: true
+  xy: 813, 325
+  size: 80, 33
+  orig: 80, 33
+  offset: 0, 0
+  index: -1
+fx_1
+  rotate: false
+  xy: 2, 772
+  size: 510, 250
+  orig: 510, 250
+  offset: 0, 0
+  index: -1
+fx_10
+  rotate: true
+  xy: 700, 407
+  size: 156, 146
+  orig: 156, 146
+  offset: 0, 0
+  index: -1
+fx_2
+  rotate: true
+  xy: 304, 2
+  size: 74, 175
+  orig: 74, 175
+  offset: 0, 0
+  index: -1
+fx_3
+  rotate: false
+  xy: 537, 414
+  size: 161, 157
+  orig: 161, 157
+  offset: 0, 0
+  index: -1
+fx_4
+  rotate: false
+  xy: 735, 284
+  size: 76, 121
+  orig: 76, 121
+  offset: 0, 0
+  index: -1
+fx_5
+  rotate: false
+  xy: 55, 3
+  size: 81, 57
+  orig: 81, 57
+  offset: 0, 0
+  index: -1
+fx_6
+  rotate: false
+  xy: 2, 531
+  size: 459, 239
+  orig: 459, 239
+  offset: 0, 0
+  index: -1
+fx_7
+  rotate: false
+  xy: 2, 364
+  size: 533, 165
+  orig: 533, 165
+  offset: 0, 0
+  index: -1
+fx_8
+  rotate: false
+  xy: 524, 74
+  size: 114, 99
+  orig: 114, 99
+  offset: 0, 0
+  index: -1
+fx_9
+  rotate: true
+  xy: 748, 565
+  size: 197, 92
+  orig: 197, 92
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: true
+  xy: 514, 764
+  size: 258, 286
+  orig: 258, 286
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 138, 3
+  size: 80, 57
+  orig: 80, 57
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 735, 202
+  size: 91, 80
+  orig: 91, 80
+  offset: 0, 0
+  index: -1
+neck_1
+  rotate: false
+  xy: 848, 360
+  size: 163, 75
+  orig: 163, 75
+  offset: 0, 0
+  index: -1
+snowflake_1
+  rotate: false
+  xy: 620, 234
+  size: 113, 128
+  orig: 113, 128
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 481, 9
+  size: 170, 63
+  orig: 170, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+vfx_skill_blue_01_03.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c013_3_0_0_001
+  rotate: true
+  xy: 866, 168
+  size: 424, 264
+  orig: 424, 264
+  offset: 0, 0
+  index: -1
+c013_3_0_0_002
+  rotate: false
+  xy: 1132, 266
+  size: 356, 336
+  orig: 356, 336
+  offset: 0, 0
+  index: -1
+c013_3_0_0_003
+  rotate: false
+  xy: 494, 230
+  size: 370, 362
+  orig: 370, 362
+  offset: 0, 0
+  index: -1
+c013_3_0_0_004
+  rotate: false
+  xy: 1386, 604
+  size: 402, 400
+  orig: 402, 400
+  offset: 0, 0
+  index: -1
+c013_3_0_0_005
+  rotate: false
+  xy: 966, 614
+  size: 418, 390
+  orig: 418, 390
+  offset: 0, 0
+  index: -1
+c013_3_0_0_006
+  rotate: false
+  xy: 516, 594
+  size: 448, 410
+  orig: 448, 410
+  offset: 0, 0
+  index: -1
+c013_3_0_0_007
+  rotate: false
+  xy: 2, 612
+  size: 512, 392
+  orig: 512, 392
+  offset: 0, 0
+  index: -1
+c013_3_0_0_008
+  rotate: false
+  xy: 2, 240
+  size: 490, 370
+  orig: 490, 370
+  offset: 0, 0
+  index: -1
+c013_3_0_0_009
+  rotate: true
+  xy: 1490, 280
+  size: 322, 294
+  orig: 322, 294
+  offset: 0, 0
+  index: -1
+c013_3_0_0_010
+  rotate: true
+  xy: 1132, 2
+  size: 262, 278
+  orig: 262, 278
+  offset: 0, 0
+  index: -1
+c013_3_0_0_011
+  rotate: false
+  xy: 1790, 778
+  size: 214, 226
+  orig: 214, 226
+  offset: 0, 0
+  index: -1

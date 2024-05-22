@@ -1,0 +1,55 @@
+
+vfx_bullet_smart_01.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 596, 45
+  size: 113, 81
+  orig: 113, 81
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: true
+  xy: 2, 41
+  size: 85, 186
+  orig: 85, 186
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: true
+  xy: 190, 59
+  size: 67, 201
+  orig: 67, 201
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: true
+  xy: 393, 72
+  size: 54, 201
+  orig: 54, 201
+  offset: 0, 0
+  index: -1
+4_3_1
+  rotate: true
+  xy: 317, 2
+  size: 55, 56
+  orig: 55, 56
+  offset: 0, 0
+  index: -1
+4_3_4
+  rotate: true
+  xy: 190, 2
+  size: 55, 62
+  orig: 55, 62
+  offset: 0, 0
+  index: -1
+4_3_6
+  rotate: true
+  xy: 254, 2
+  size: 55, 61
+  orig: 55, 61
+  offset: 0, 0
+  index: -1

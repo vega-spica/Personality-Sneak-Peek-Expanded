@@ -1,0 +1,139 @@
+
+vfx_skill_burngo_01_02.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 1889, 308
+  size: 196, 151
+  orig: 196, 151
+  offset: 0, 0
+  index: -1
+1_10
+  rotate: false
+  xy: 2, 98
+  size: 483, 406
+  orig: 483, 406
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 1276, 237
+  size: 167, 267
+  orig: 167, 267
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 1847, 134
+  size: 172, 190
+  orig: 172, 190
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: true
+  xy: 1445, 138
+  size: 179, 204
+  orig: 179, 204
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: true
+  xy: 1651, 135
+  size: 175, 194
+  orig: 175, 194
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: false
+  xy: 1445, 319
+  size: 237, 185
+  orig: 237, 185
+  offset: 0, 0
+  index: -1
+1_7
+  rotate: false
+  xy: 1684, 312
+  size: 203, 192
+  orig: 203, 192
+  offset: 0, 0
+  index: -1
+1_8
+  rotate: false
+  xy: 906, 199
+  size: 368, 305
+  orig: 368, 305
+  offset: 0, 0
+  index: -1
+1_9
+  rotate: false
+  xy: 487, 222
+  size: 417, 282
+  orig: 417, 282
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 284, 3
+  size: 148, 93
+  orig: 148, 93
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 487, 126
+  size: 269, 94
+  orig: 269, 94
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 2, 2
+  size: 280, 94
+  orig: 280, 94
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 487, 51
+  size: 287, 73
+  orig: 287, 73
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 758, 192
+  size: 50, 28
+  orig: 50, 28
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: true
+  xy: 810, 193
+  size: 27, 32
+  orig: 27, 32
+  offset: 0, 0
+  index: -1
+4_2
+  rotate: false
+  xy: 434, 59
+  size: 30, 37
+  orig: 30, 37
+  offset: 0, 0
+  index: -1
+4_3
+  rotate: true
+  xy: 1276, 200
+  size: 35, 41
+  orig: 35, 41
+  offset: 0, 0
+  index: -1
+4_4
+  rotate: false
+  xy: 758, 164
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1

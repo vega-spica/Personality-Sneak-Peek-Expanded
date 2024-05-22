@@ -1,0 +1,83 @@
+
+vfx_hit_common.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 2, 84
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 174, 84
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 346, 84
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 518, 84
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 690, 84
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+06
+  rotate: false
+  xy: 862, 84
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+07
+  rotate: false
+  xy: 1034, 84
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 1312, 150
+  size: 93, 104
+  orig: 93, 104
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 2, 2
+  size: 65, 80
+  orig: 65, 80
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 1407, 162
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 1206, 140
+  size: 104, 114
+  orig: 104, 114
+  offset: 0, 0
+  index: -1

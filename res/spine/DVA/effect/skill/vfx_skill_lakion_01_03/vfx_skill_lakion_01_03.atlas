@@ -1,0 +1,48 @@
+
+vfx_skill_lakion_01_03.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c29_skill2_1
+  rotate: false
+  xy: 128, 18
+  size: 96, 75
+  orig: 96, 75
+  offset: 0, 0
+  index: -1
+c29_skill2_2
+  rotate: false
+  xy: 2, 2
+  size: 124, 96
+  orig: 124, 96
+  offset: 0, 0
+  index: -1
+c29_skill2_3
+  rotate: false
+  xy: 323, 111
+  size: 131, 123
+  orig: 131, 123
+  offset: 0, 0
+  index: -1
+c29_skill2_4
+  rotate: false
+  xy: 167, 95
+  size: 154, 139
+  orig: 154, 139
+  offset: 0, 0
+  index: -1
+c29_skill2_5
+  rotate: false
+  xy: 2, 100
+  size: 163, 134
+  orig: 163, 134
+  offset: 0, 0
+  index: -1
+weapon_3
+  rotate: false
+  xy: 226, 22
+  size: 67, 71
+  orig: 67, 71
+  offset: 0, 0
+  index: -1

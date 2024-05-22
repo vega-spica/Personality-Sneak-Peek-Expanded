@@ -1,0 +1,62 @@
+
+vfx_skill_undine_01_touch.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c40_ult_1
+  rotate: false
+  xy: 749, 301
+  size: 185, 200
+  orig: 185, 200
+  offset: 0, 0
+  index: -1
+c40_ult_2
+  rotate: false
+  xy: 398, 98
+  size: 142, 140
+  orig: 142, 140
+  offset: 0, 0
+  index: -1
+c40_ult_3
+  rotate: true
+  xy: 674, 109
+  size: 129, 106
+  orig: 129, 106
+  offset: 0, 0
+  index: -1
+c40_ult_4
+  rotate: false
+  xy: 542, 108
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
+c40_ult_5
+  rotate: true
+  xy: 244, 24
+  size: 193, 152
+  orig: 193, 152
+  offset: 0, 0
+  index: -1
+c40_ult_6
+  rotate: false
+  xy: 2, 2
+  size: 240, 215
+  orig: 240, 215
+  offset: 0, 0
+  index: -1
+c40_ult_7
+  rotate: false
+  xy: 392, 240
+  size: 355, 261
+  orig: 355, 261
+  offset: 0, 0
+  index: -1
+c40_ult_8
+  rotate: false
+  xy: 2, 219
+  size: 388, 282
+  orig: 388, 282
+  offset: 0, 0
+  index: -1

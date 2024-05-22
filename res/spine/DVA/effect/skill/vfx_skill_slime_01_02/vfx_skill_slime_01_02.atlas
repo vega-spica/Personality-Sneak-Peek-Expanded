@@ -1,0 +1,76 @@
+
+vfx_skill_slime_01_02.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c35_skill1_1
+  rotate: false
+  xy: 869, 21
+  size: 175, 67
+  orig: 175, 67
+  offset: 0, 0
+  index: -1
+c35_skill1_10
+  rotate: false
+  xy: 869, 90
+  size: 305, 105
+  orig: 305, 105
+  offset: 0, 0
+  index: -1
+c35_skill1_2
+  rotate: true
+  xy: 1914, 35
+  size: 160, 132
+  orig: 160, 132
+  offset: 0, 0
+  index: -1
+c35_skill1_3
+  rotate: true
+  xy: 1562, 57
+  size: 138, 184
+  orig: 138, 184
+  offset: 0, 0
+  index: -1
+c35_skill1_4
+  rotate: true
+  xy: 1176, 12
+  size: 183, 204
+  orig: 183, 204
+  offset: 0, 0
+  index: -1
+c35_skill1_5
+  rotate: false
+  xy: 1748, 32
+  size: 164, 163
+  orig: 164, 163
+  offset: 0, 0
+  index: -1
+c35_skill1_6
+  rotate: false
+  xy: 1382, 42
+  size: 178, 153
+  orig: 178, 153
+  offset: 0, 0
+  index: -1
+c35_skill1_7
+  rotate: false
+  xy: 628, 11
+  size: 239, 184
+  orig: 239, 184
+  offset: 0, 0
+  index: -1
+c35_skill1_8
+  rotate: false
+  xy: 326, 4
+  size: 300, 191
+  orig: 300, 191
+  offset: 0, 0
+  index: -1
+c35_skill1_9
+  rotate: false
+  xy: 2, 2
+  size: 322, 193
+  orig: 322, 193
+  offset: 0, 0
+  index: -1

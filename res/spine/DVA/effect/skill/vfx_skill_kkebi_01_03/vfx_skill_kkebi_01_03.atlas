@@ -1,0 +1,76 @@
+
+vfx_skill_kkebi_01_03.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 584
+  size: 156, 328
+  orig: 156, 328
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 160, 634
+  size: 281, 154
+  orig: 281, 154
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: true
+  xy: 2, 275
+  size: 307, 138
+  orig: 307, 138
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 160, 790
+  size: 322, 122
+  orig: 322, 122
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 484, 824
+  size: 301, 88
+  orig: 301, 88
+  offset: 0, 0
+  index: -1
+3_1
+  rotate: false
+  xy: 168, 171
+  size: 207, 106
+  orig: 207, 106
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: false
+  xy: 142, 343
+  size: 241, 160
+  orig: 241, 160
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: true
+  xy: 2, 2
+  size: 271, 164
+  orig: 271, 164
+  offset: 0, 0
+  index: -1
+3_4
+  rotate: false
+  xy: 160, 505
+  size: 263, 127
+  orig: 263, 127
+  offset: 0, 0
+  index: -1
+3_5
+  rotate: false
+  xy: 142, 279
+  size: 242, 62
+  orig: 242, 62
+  offset: 0, 0
+  index: -1

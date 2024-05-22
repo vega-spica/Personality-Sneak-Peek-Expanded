@@ -1,0 +1,48 @@
+
+vfx_skill_timber_01_01.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c28_skill1_1_1
+  rotate: false
+  xy: 1530, 140
+  size: 207, 85
+  orig: 207, 85
+  offset: 0, 0
+  index: -1
+c28_skill1_1_2
+  rotate: false
+  xy: 1300, 105
+  size: 228, 120
+  orig: 228, 120
+  offset: 0, 0
+  index: -1
+c28_skill1_1_3
+  rotate: false
+  xy: 719, 46
+  size: 317, 179
+  orig: 317, 179
+  offset: 0, 0
+  index: -1
+c28_skill1_1_4
+  rotate: false
+  xy: 379, 20
+  size: 338, 205
+  orig: 338, 205
+  offset: 0, 0
+  index: -1
+c28_skill1_1_5
+  rotate: false
+  xy: 2, 2
+  size: 375, 223
+  orig: 375, 223
+  offset: 0, 0
+  index: -1
+c28_skill1_1_6
+  rotate: false
+  xy: 1038, 90
+  size: 260, 135
+  orig: 260, 135
+  offset: 0, 0
+  index: -1

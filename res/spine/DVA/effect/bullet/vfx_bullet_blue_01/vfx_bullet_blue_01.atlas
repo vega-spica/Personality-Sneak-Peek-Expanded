@@ -1,0 +1,62 @@
+
+vfx_bullet_blue_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c013_0_0_1
+  rotate: false
+  xy: 1232, 254
+  size: 318, 256
+  orig: 318, 256
+  offset: 0, 0
+  index: -1
+c013_0_0_2
+  rotate: false
+  xy: 450, 160
+  size: 418, 350
+  orig: 418, 350
+  offset: 0, 0
+  index: -1
+c013_0_0_3
+  rotate: true
+  xy: 870, 154
+  size: 356, 360
+  orig: 356, 360
+  offset: 0, 0
+  index: -1
+c013_0_0_4
+  rotate: false
+  xy: 2, 130
+  size: 446, 380
+  orig: 446, 380
+  offset: 0, 0
+  index: -1
+c013_0_1_1
+  rotate: false
+  xy: 1830, 382
+  size: 144, 128
+  orig: 144, 128
+  offset: 0, 0
+  index: -1
+c013_0_1_2
+  rotate: false
+  xy: 1690, 374
+  size: 138, 136
+  orig: 138, 136
+  offset: 0, 0
+  index: -1
+c013_0_1_3
+  rotate: false
+  xy: 1552, 346
+  size: 136, 164
+  orig: 136, 164
+  offset: 0, 0
+  index: -1
+c013_0_1_4
+  rotate: false
+  xy: 2, 2
+  size: 148, 126
+  orig: 148, 126
+  offset: 0, 0
+  index: -1

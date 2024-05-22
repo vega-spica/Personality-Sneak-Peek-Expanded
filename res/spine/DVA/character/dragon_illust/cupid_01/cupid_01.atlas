@@ -1,0 +1,244 @@
+
+cupid_01.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 1768, 107
+  size: 72, 117
+  orig: 72, 117
+  offset: 0, 0
+  index: -1
+1_10
+  rotate: true
+  xy: 1047, 86
+  size: 168, 193
+  orig: 168, 193
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: true
+  xy: 1572, 146
+  size: 108, 194
+  orig: 108, 194
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: true
+  xy: 1768, 181
+  size: 73, 189
+  orig: 73, 189
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: true
+  xy: 1128, 24
+  size: 60, 98
+  orig: 60, 98
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 1960, 127
+  size: 49, 57
+  orig: 49, 57
+  offset: 0, 0
+  index: -1
+1_6
+  rotate: true
+  xy: 1228, 19
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+1_7
+  rotate: true
+  xy: 810, 9
+  size: 93, 110
+  orig: 93, 110
+  offset: 0, 0
+  index: -1
+1_8
+  rotate: false
+  xy: 1887, 100
+  size: 71, 79
+  orig: 71, 79
+  offset: 0, 0
+  index: -1
+1_9
+  rotate: false
+  xy: 258, 158
+  size: 315, 96
+  orig: 315, 96
+  offset: 0, 0
+  index: -1
+arm_l_1
+  rotate: false
+  xy: 1572, 50
+  size: 150, 94
+  orig: 150, 94
+  offset: 0, 0
+  index: -1
+arm_r_1
+  rotate: false
+  xy: 1959, 186
+  size: 85, 68
+  orig: 85, 68
+  offset: 0, 0
+  index: -1
+arrow_1
+  rotate: false
+  xy: 922, 17
+  size: 117, 85
+  orig: 117, 85
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 1426, 94
+  size: 144, 160
+  orig: 144, 160
+  offset: 0, 0
+  index: -1
+bow_1
+  rotate: true
+  xy: 258, 15
+  size: 141, 246
+  orig: 141, 246
+  offset: 0, 0
+  index: -1
+ear_l_1
+  rotate: true
+  xy: 575, 119
+  size: 135, 234
+  orig: 135, 234
+  offset: 0, 0
+  index: -1
+ear_r_1
+  rotate: true
+  xy: 811, 104
+  size: 150, 234
+  orig: 150, 234
+  offset: 0, 0
+  index: -1
+eye_l_1
+  rotate: true
+  xy: 1128, 2
+  size: 20, 46
+  orig: 20, 46
+  offset: 0, 0
+  index: -1
+eye_l_2
+  rotate: false
+  xy: 2011, 138
+  size: 27, 23
+  orig: 27, 23
+  offset: 0, 0
+  index: -1
+eye_l_3
+  rotate: false
+  xy: 1393, 47
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+eye_r_1
+  rotate: true
+  xy: 1960, 100
+  size: 25, 46
+  orig: 25, 46
+  offset: 0, 0
+  index: -1
+eye_r_2
+  rotate: false
+  xy: 2011, 163
+  size: 35, 21
+  orig: 35, 21
+  offset: 0, 0
+  index: -1
+eye_r_3
+  rotate: false
+  xy: 1176, 2
+  size: 40, 20
+  orig: 40, 20
+  offset: 0, 0
+  index: -1
+hand_r_1
+  rotate: false
+  xy: 1283, 20
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: true
+  xy: 2, 6
+  size: 248, 254
+  orig: 248, 254
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: true
+  xy: 736, 9
+  size: 108, 72
+  orig: 108, 72
+  offset: 0, 0
+  index: -1
+leg_l_2
+  rotate: false
+  xy: 506, 2
+  size: 97, 82
+  orig: 97, 82
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 1041, 2
+  size: 85, 82
+  orig: 85, 82
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: true
+  xy: 1242, 73
+  size: 181, 182
+  orig: 181, 182
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 605, 20
+  size: 129, 97
+  orig: 129, 97
+  offset: 0, 0
+  index: -1
+tail_2
+  rotate: false
+  xy: 506, 103
+  size: 67, 53
+  orig: 67, 53
+  offset: 0, 0
+  index: -1
+thumb_l_1
+  rotate: false
+  xy: 1338, 34
+  size: 53, 37
+  orig: 53, 37
+  offset: 0, 0
+  index: -1
+wing_l_1
+  rotate: false
+  xy: 1724, 85
+  size: 41, 59
+  orig: 41, 59
+  offset: 0, 0
+  index: -1
+wing_r_1
+  rotate: true
+  xy: 1724, 43
+  size: 40, 47
+  orig: 40, 47
+  offset: 0, 0
+  index: -1

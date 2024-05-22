@@ -1,0 +1,76 @@
+
+vfx_skill_bubble_01_04.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+03_3
+  rotate: false
+  xy: 2, 2
+  size: 300, 210
+  orig: 300, 210
+  offset: 0, 0
+  index: -1
+03_4
+  rotate: true
+  xy: 1800, 654
+  size: 300, 210
+  orig: 300, 210
+  offset: 0, 0
+  index: -1
+2_1
+  rotate: false
+  xy: 2, 214
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 392, 604
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 744, 604
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 1096, 604
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: false
+  xy: 1448, 604
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+2_6
+  rotate: false
+  xy: 354, 214
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+2_7
+  rotate: false
+  xy: 706, 252
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+shield_1
+  rotate: false
+  xy: 2, 566
+  size: 388, 388
+  orig: 388, 388
+  offset: 0, 0
+  index: -1

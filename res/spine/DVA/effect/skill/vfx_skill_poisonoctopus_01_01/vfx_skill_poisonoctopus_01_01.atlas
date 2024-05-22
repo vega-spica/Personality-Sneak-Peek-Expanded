@@ -1,0 +1,55 @@
+
+vfx_skill_poisonoctopus_01_01.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: true
+  xy: 1673, 458
+  size: 519, 175
+  orig: 519, 175
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 849, 82
+  size: 711, 265
+  orig: 711, 265
+  offset: 0, 0
+  index: -1
+1_3
+  rotate: false
+  xy: 861, 607
+  size: 810, 370
+  orig: 810, 370
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 2, 71
+  size: 845, 433
+  orig: 845, 433
+  offset: 0, 0
+  index: -1
+1_5
+  rotate: false
+  xy: 2, 506
+  size: 857, 471
+  orig: 857, 471
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 861, 349
+  size: 787, 256
+  orig: 787, 256
+  offset: 0, 0
+  index: -1
+weapon_1
+  rotate: false
+  xy: 2, 2
+  size: 66, 67
+  orig: 66, 67
+  offset: 0, 0
+  index: -1
