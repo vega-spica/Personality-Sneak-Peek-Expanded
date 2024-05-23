@@ -26093,6 +26093,14 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
           }
         }
       },
@@ -26117,6 +26125,14 @@ const speciesJson = {
               },
               "m": {
                 "color": "r"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
               }
             }
           }
@@ -26147,13 +26163,21 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "03",
+            "formDisplay": "Teatime",
             "genders": {
               "f": {
                 "color": "r"
               },
               "m": {
                 "color": "r"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "ktoolroo_w_adult_w"
               }
             }
           }
