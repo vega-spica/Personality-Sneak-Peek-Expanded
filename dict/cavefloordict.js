@@ -65,6 +65,12 @@ const cavefloorJson = {
     /*"Ranky": {
         "res": "ranky/ranky_floor_01/ranky_floor_01"
     },*/
+    /*"Shockwave": {
+        "res": "shockwave/shockwave_floor_01/shockwave_floor_01"
+    },
+    "Shockwave (Special)": {
+        "res": "shockwave/shockwave_floor_02/shockwave_floor_02"
+    },*/
     "Vaska": {
         "res": "vaska/vaska_floor_01/vaska_floor_01"
     },
