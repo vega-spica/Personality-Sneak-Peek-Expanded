@@ -35024,7 +35024,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Purify",
+            "formDisplay": "Purified",
             "genders": {
               "f": {
                 "color": "w"
@@ -35069,7 +35069,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Purify",
+            "formDisplay": "Purified",
             "genders": {
               "f": {
                 "color": "w"
@@ -35114,7 +35114,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Purify",
+            "formDisplay": "Purified",
             "genders": {
               "f": {
                 "color": "w"
