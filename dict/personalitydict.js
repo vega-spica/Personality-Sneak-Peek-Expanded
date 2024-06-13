@@ -120,6 +120,11 @@ const personalityJson = {
 		"back" : "aura_s_blackhole",
 		"front" : "aura_s_star"
 	},
+	"Energetic": {
+		"each": "aura_s_persistent_lively",
+		"back": "back_b",
+		"front": "front_b"
+	},
 	"Excited": {
 		"each": "aura_s_exciting_blithe",
 		"back": "back_a",
@@ -242,6 +247,11 @@ const personalityJson = {
 	"Noble" : {
 		"back" : "aura_s_star",
 		"front" : "aura_s_star2"
+	},
+	"Patient": {
+		"each": "aura_s_persistent_lively",
+		"back": "back_a",
+		"front": "front_a"
 	},
 	"Perfectionist" : {
 		"back" : "aura_s_universe1",

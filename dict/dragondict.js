@@ -30065,6 +30065,17 @@ const speciesJson = {
               }
             }
           },
+          "03": {
+            "formDisplay": "Blue Shark",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -30085,6 +30096,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Blue Shark",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
               }
             }
           },
@@ -30119,6 +30141,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Blue Shark",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
               }
             }
           },
