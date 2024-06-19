@@ -17837,23 +17837,6 @@ const speciesJson = {
       }
     }
   },
-  "ktoolroo": {
-    "speciesDisplay": "Ktoolroo",
-    "stage": {
-      "adult": {
-        "forms": {
-          "01": {
-            "formDisplay": "Undead",
-            "genders": {
-              "n": {
-                "color": "w"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
   "kuzmara": {
     "speciesDisplay": "Kuzmara",
     "stage": {
