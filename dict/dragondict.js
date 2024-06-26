@@ -3301,6 +3301,22 @@ const speciesJson = {
               }
             }
           },
+          "key": {
+            "formDisplay": "Key [NPC Only]",
+            "genders": {
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "keysleeping": {
+            "formDisplay": "Sleeping Key [NPC Only]",
+            "genders": {
+              "m": {
+                "color": "b"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -13217,6 +13233,47 @@ const speciesJson = {
               },
               "m": {
                 "color": "bk"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "gmdragon": {
+    "speciesDisplay": "GM Dragon (NPC)",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "p"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "p"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "p"
               }
             }
           }
