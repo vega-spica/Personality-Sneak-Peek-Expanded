@@ -17,7 +17,7 @@ const cavefloorJson = {
     "Arca's Execution Hall": {
         "res": "executor/executor_floor_01/executor_floor_01"
     },
-    "Clavis" : {
+    "Clavis": {
         "res": "clavis/clavis_floor_01/clavis_floor_01"
     },
     "Clavis (Special)": {
@@ -71,6 +71,12 @@ const cavefloorJson = {
     "Shockwave (Special)": {
         "res": "shockwave/shockwave_floor_02/shockwave_floor_02"
     },*/
+    "Symphonia": {
+    "res": "symphonia/symphonia_floor_01/symphonia_floor_01"
+    },
+    "Symphonia (Special)": {
+    "res": "symphonia/symphonia_floor_02/symphonia_floor_02"
+    },
     "Vaska": {
         "res": "vaska/vaska_floor_01/vaska_floor_01"
     },
