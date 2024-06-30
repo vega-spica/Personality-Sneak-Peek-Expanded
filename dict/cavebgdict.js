@@ -74,7 +74,7 @@ const cavebgJson = {
     "Symphonia (Special)": {
         "res": "symphonia/symphonia_bg_02/symphonia_bg_02"
     },
-    "Temple of Memory": {
+    "Temple of Memories": {
         "res": "templeofmemory/templeofmemory_bg_01/templeofmemory_bg_01"
     },
     "Vaska": {
