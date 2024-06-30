@@ -77,6 +77,9 @@ const cavefloorJson = {
     "Symphonia (Special)": {
     "res": "symphonia/symphonia_floor_02/symphonia_floor_02"
     },
+    "Temple of Memory": {
+        "res": "templeofmemory/templeofmemory_floor_01/templeofmemory_floor_01"
+    },
     "Vaska": {
         "res": "vaska/vaska_floor_01/vaska_floor_01"
     },
