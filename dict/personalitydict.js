@@ -295,7 +295,7 @@ const personalityJson = {
 	"Reckless": {
 		"each": "aura_a4",
 		"back": "back_b",
-		"front": "front_b"
+		"front": "front_a"
 	},
 	"Secretive": {
 		"each": "aura_s_arcane",
