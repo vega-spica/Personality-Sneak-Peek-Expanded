@@ -19,6 +19,11 @@ const personalityJson = {
 		"back" : "aura_s_xmas_b",
 		"front" : "aura_s_xmas_b"
 	},
+	"Angry": {
+		"each": "aura_a4",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Apocalyptic" : {
 		"back" : "aura_s_end",
 		"front" : "aura_s_end"
@@ -99,6 +104,11 @@ const personalityJson = {
 	"Curious" : {
 		"back" : "aura_a2_green",
 		"front" : "a2"
+	},
+	"Cute": {
+		"each": "aura_s_stardust",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Dawn" : {
 		"back" : "aura_a2_white",
@@ -227,8 +237,8 @@ const personalityJson = {
 	},
 	"Mischievous" : {
 		"each" : "aura_s_stardust",
-		"back" : "back",
-		"front" : "front"
+		"back" : "back_a",
+		"front" : "front_a"
 	},
 	"My Own": {
 	},
@@ -281,6 +291,11 @@ const personalityJson = {
 	"Rash" : {
 		"back" : "aura_b_orange",
 		"front" : ""
+	},
+	"Reckless": {
+		"each": "aura_a4",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Secretive": {
 		"each": "aura_s_arcane",
