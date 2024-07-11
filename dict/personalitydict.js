@@ -122,6 +122,11 @@ const personalityJson = {
 		"back" : "aura_b_green",
 		"front" : ""
 	},
+	"Dreamy": {
+		"each": "aura_s_dreamlike_enigmatic",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Dull" : {
 		"back" : "aura_a_babyblue",
 		"front" : "a"
@@ -241,6 +246,11 @@ const personalityJson = {
 		"front" : "front_a"
 	},
 	"My Own": {
+	},
+	"Mysterious": {
+		"each": "aura_s_dreamlike_enigmatic",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Mystical" : {
 		"back" : "aura_a2_greenmint",
