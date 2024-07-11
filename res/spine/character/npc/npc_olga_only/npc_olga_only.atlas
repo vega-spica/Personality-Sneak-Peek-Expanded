@@ -1,0 +1,15 @@
+npc_olga_only.png
+size:516,1392
+filter:Linear,Linear
+angry
+bounds:164,2,160,148
+happy
+bounds:2,2,160,148
+npc_olga
+bounds:2,302,512,1088
+sad
+bounds:326,152,160,148
+special1
+bounds:164,152,160,148
+surprise
+bounds:2,152,160,148
