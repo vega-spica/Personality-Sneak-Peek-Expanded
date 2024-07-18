@@ -2777,6 +2777,146 @@ const speciesJson = {
       }
     }
   },
+  "baba": {
+    "speciesDisplay": "Baba",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Sea Rabbit",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead (Default)",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead02": {
+            "formDisplay": "Undead (Sea Rabbit)",
+            "genders": {
+              "f": {
+                "color": ".png"
+              },
+              "m": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Sea Rabbit",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead (Default)",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead02": {
+            "formDisplay": "Undead (Sea Rabbit)",
+            "genders": {
+              "f": {
+                "color": ".png"
+              },
+              "m": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Sea Rabbit",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead (Default)",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead02": {
+            "formDisplay": "Undead (Sea Rabbit)",
+            "genders": {
+              "f": {
+                "color": ".png"
+              },
+              "m": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "babydarknix": {
     "speciesDisplay": "Baby Darknix",
     "stage": {
@@ -3716,6 +3856,113 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "biblos": {
+    "speciesDisplay": "Biblos",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Researcher",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Researcher",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "drake_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Researcher",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "drake_w_adult_w"
               }
             }
           }
