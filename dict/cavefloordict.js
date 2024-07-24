@@ -65,6 +65,9 @@ const cavefloorJson = {
     /*"Ranky": {
         "res": "ranky/ranky_floor_01/ranky_floor_01"
     },*/
+    "Road to Hope": {
+        "res": "apathtohope/apathtohope_floor_01/apathtohope_floor_01"
+    },
     /*"Shockwave": {
         "res": "shockwave/shockwave_floor_01/shockwave_floor_01"
     },

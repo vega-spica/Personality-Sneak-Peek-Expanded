@@ -62,6 +62,9 @@ const cavebgJson = {
     /*"Ranky": {
         "res": "ranky/ranky_bg_01/ranky_bg_01"
     },*/
+    "Road to Hope": {
+        "res": "apathtohope/apathtohope_bg_01/apathtohope_bg_01"
+    },
     /*"Shockwave": {
         "res": "shockwave/shockwave_bg_01/shockwave_bg_01"
     },
