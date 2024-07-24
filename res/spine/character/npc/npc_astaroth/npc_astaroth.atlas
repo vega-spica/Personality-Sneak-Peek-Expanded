@@ -1,0 +1,17 @@
+npc_astaroth.png
+size:1892,1446
+filter:Linear,Linear
+angry
+bounds:2,2,240,208
+happy
+bounds:1650,69,240,208
+npc_astaroth
+bounds:2,212,920,1232
+sad
+bounds:1408,69,240,208
+shadow
+bounds:924,279,920,1165
+special1
+bounds:1166,69,240,208
+surprise
+bounds:924,69,240,208

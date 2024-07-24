@@ -1,0 +1,16 @@
+npc_skiz.png
+size:600,1548
+filter:Linear,Linear
+angry
+bounds:2,2,152,128
+happy
+bounds:464,108,152,128
+rotate:90
+npc_skiz
+bounds:2,262,596,1284
+sad
+bounds:310,132,152,128
+special1
+bounds:156,132,152,128
+surprise
+bounds:2,132,152,128

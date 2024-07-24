@@ -1,0 +1,106 @@
+tickling_calm_down.png
+size:1815,1255
+filter:Linear,Linear
+Tutorial_hand_05
+bounds:1622,59,100,112
+offsets:8,8,120,120
+Tutorial_hand_10
+bounds:1717,675,96,104
+offsets:12,8,120,120
+bg 2_00000
+bounds:1668,843,160,124
+rotate:90
+bg 2_00001
+bounds:2,786,320,248
+bg 2_00002
+bounds:1468,309,160,124
+bg 2_00003
+bounds:2,536,320,248
+bg 2_00004
+bounds:1138,129,160,124
+bg 2_00005
+bounds:2,286,320,248
+bg 2_00006
+bounds:1300,129,160,124
+bg 2_00007
+bounds:2,36,320,248
+bg 2_00008
+bounds:843,1005,320,248
+bg 2_00009
+bounds:1165,1005,320,248
+bg 2_00010
+bounds:1487,1005,320,248
+bg 2_00011
+bounds:324,352,320,248
+rotate:90
+bg 2_00012
+bounds:324,30,320,248
+rotate:90
+bg 2_00013
+bounds:452,714,320,248
+rotate:90
+bg 2_00014
+bounds:702,755,320,248
+bg_00000
+bounds:1630,294,139,118
+offsets:10,0,160,124
+rotate:90
+bg_00001
+bounds:824,10,312,243
+offsets:6,0,320,248
+bg_00002
+bounds:1462,58,158,123
+offsets:2,0,160,124
+bg_00003
+bounds:1468,435,318,247
+offsets:2,0,320,248
+rotate:90
+bg_00004
+bounds:1138,3,160,124
+bg_00005
+bounds:1024,755,320,248
+bg_00006
+bounds:1300,3,160,124
+bg_00007
+bounds:1346,755,320,248
+bg_00008
+bounds:1468,183,160,124
+bg_00009
+bounds:574,392,320,248
+rotate:90
+bg_00010
+bounds:574,70,320,248
+rotate:90
+bg_00011
+bounds:824,505,320,248
+bg_00012
+bounds:824,255,320,248
+bg_00013
+bounds:1146,505,320,248
+bg_00014
+bounds:1146,255,320,248
+bg_back
+bounds:481,1048,360,205
+bg_bottom
+bounds:324,674,360,126
+rotate:90
+bg_top
+bounds:2,1036,477,217
+blank
+bounds:481,1036,10,10
+fun
+bounds:1668,781,105,60
+mark_angry_01
+bounds:1717,607,66,66
+offsets:2,2,70,70
+mark_angry_02
+bounds:1717,539,66,66
+offsets:2,2,70,70
+mark_smile
+bounds:1717,471,66,66
+offsets:2,2,70,70
+mark_smile_02
+bounds:574,2,66,66
+offsets:2,2,70,70
+speech
+bounds:1630,173,121,119

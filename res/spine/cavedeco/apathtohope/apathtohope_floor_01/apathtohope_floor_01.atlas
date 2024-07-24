@@ -1,0 +1,9 @@
+apathtohope_floor_01.png
+size:338,136
+filter:Linear,Linear
+pma:true
+apathtohope_floor
+bounds:6,2,330,132
+offsets:0,0,330,382
+apathtohope_floor_lightdust
+bounds:2,132,2,2

@@ -1,0 +1,15 @@
+npc_luna.png
+size:676,1540
+filter:Linear,Linear
+angry
+bounds:208,2,204,204
+happy
+bounds:2,2,204,204
+npc_luna
+bounds:2,414,672,1124
+sad
+bounds:414,208,204,204
+special1
+bounds:208,208,204,204
+surprise
+bounds:2,208,204,204

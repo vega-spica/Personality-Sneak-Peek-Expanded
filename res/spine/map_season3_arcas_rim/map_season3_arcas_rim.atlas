@@ -1,0 +1,17 @@
+map_season3_arcas_rim.png
+size:1447,576
+filter:Linear,Linear
+arcas_rim_base
+bounds:2,2,663,572
+arcas_rim_deco_1
+bounds:1332,155,61,56
+arcas_rim_deco_2
+bounds:1332,323,122,93
+rotate:90
+arcas_rim_deco_3
+bounds:1332,447,127,113
+rotate:90
+arcas_rim_deco_4
+bounds:1332,213,75,108
+arcas_rim_mask
+bounds:667,2,663,572
