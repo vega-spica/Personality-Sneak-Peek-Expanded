@@ -173,6 +173,11 @@ const personalityJson = {
 		"back" : "aura_s_greedy",
 		"front" : "aura_s_greedy"
 	},
+	"Graceful": {
+		"each": "aura_s_blessing",
+		"back": "back",
+		"front": "front"
+	},
 	"Hardy" : {
 		"back" : "aura_b_darkbrown",
 		"front" : ""
@@ -184,6 +189,11 @@ const personalityJson = {
 	"Honorable": {
 		"back" : "aura_s_pvp_a",
 		"front" : "aura_s_pvp_a"
+	},
+	"Hopeful": {
+		"each": "aura_s_hopeful",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Horrendous" : {
 		"back" : "aura_s_halloween_b",
