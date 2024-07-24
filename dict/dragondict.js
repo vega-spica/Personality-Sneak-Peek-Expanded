@@ -21571,56 +21571,6 @@ const speciesJson = {
       }
     }
   },
-  "ligon": {
-    "speciesDisplay": "Ligon",
-    "stage": {
-      "hatch": {
-        "forms": {
-          "01": {
-            "formDisplay": "Default",
-            "genders": {
-              "f": {
-                "color": "yr"
-              },
-              "m": {
-                "color": "yr"
-              }
-            }
-          }
-        }
-      },
-      "hatchling": {
-        "forms": {
-          "01": {
-            "formDisplay": "Default",
-            "genders": {
-              "f": {
-                "color": "yr"
-              },
-              "m": {
-                "color": "yr"
-              }
-            }
-          }
-        }
-      },
-      "adult": {
-        "forms": {
-          "01": {
-            "formDisplay": "Default",
-            "genders": {
-              "f": {
-                "color": "yr"
-              },
-              "m": {
-                "color": "yr"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
   "linu": {
     "speciesDisplay": "Linu",
     "stage": {
@@ -21711,6 +21661,17 @@ const speciesJson = {
               }
             }
           },
+          "legacy": {
+            "formDisplay": "Legacy",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -21725,6 +21686,17 @@ const speciesJson = {
         "forms": {
           "01": {
             "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "legacy": {
+            "formDisplay": "Legacy",
             "genders": {
               "f": {
                 "color": "yr"
@@ -21759,6 +21731,17 @@ const speciesJson = {
           },
           "02": {
             "formDisplay": "Succession",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "legacy": {
+            "formDisplay": "Legacy",
             "genders": {
               "f": {
                 "color": "yr"
