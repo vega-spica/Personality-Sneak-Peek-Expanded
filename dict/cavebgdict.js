@@ -44,6 +44,12 @@ const cavebgJson = {
     "Janus (Special)": {
         "res": "janus/janus_bg_02/janus_bg_02"
     },
+    "Lotus Fire Dragon": {
+        "res": "lotusfiredragon/lotusfiredragon_bg_01/lotusfiredragon_bg_01"
+    },
+    "Lotus Fire Dragon (Special)": {
+        "res": "lotusfiredragon/lotusfiredragon_bg_02/lotusfiredragon_bg_02"
+    },
     "Metis": {
         "res": "metis/metis_bg_01/metis_bg_01"
     },

@@ -44,6 +44,12 @@ const cavefloorJson = {
     "Janus (Special)": {
         "res": "janus/janus_floor_02/janus_floor_02"
     },
+    "Lotus Fire Dragon": {
+        "res": "lotusfiredragon/lotusfiredragon_floor_01/lotusfiredragon_floor_01"
+    },
+    "Lotus Fire Dragon (Special)": {
+        "res": "lotusfiredragon/lotusfiredragon_floor_02/lotusfiredragon_floor_02"
+    },
     "Lumindis": {
         "res": "lumindis/lumindis_floor_01/lumindis_floor_01"
     },
