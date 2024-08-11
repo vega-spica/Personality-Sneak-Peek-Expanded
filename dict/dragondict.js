@@ -4289,7 +4289,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Beast Form",
+            "formDisplay": "Beast",
             "genders": {
               "f": {
                 "color": "bk"
@@ -4299,11 +4299,19 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
-            "formDisplay": "Undead",
+          "undead01": {
+            "formDisplay": "Undead (Default)",
             "genders": {
               "n": {
                 "undeadres": "dragon_n_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Beast)",
+            "genders": {
+              "n": {
+                "undeadres": "muscle_n_adult_w"
               }
             }
           }
