@@ -71,9 +71,6 @@ const cavefloorJson = {
     /*"Ranky": {
         "res": "ranky/ranky_floor_01/ranky_floor_01"
     },*/
-    "Road to Hope": {
-        "res": "apathtohope/apathtohope_floor_01/apathtohope_floor_01"
-    },
     /*"Shockwave": {
         "res": "shockwave/shockwave_floor_01/shockwave_floor_01"
     },
@@ -88,6 +85,9 @@ const cavefloorJson = {
     },
     "Temple of Memories": {
         "res": "templeofmemory/templeofmemory_floor_01/templeofmemory_floor_01"
+    },
+    "The Path to Hope": {
+        "res": "apathtohope/apathtohope_floor_01/apathtohope_floor_01"
     },
     "Vaska": {
         "res": "vaska/vaska_floor_01/vaska_floor_01"

@@ -68,9 +68,6 @@ const cavebgJson = {
     /*"Ranky": {
         "res": "ranky/ranky_bg_01/ranky_bg_01"
     },*/
-    "Road to Hope": {
-        "res": "apathtohope/apathtohope_bg_01/apathtohope_bg_01"
-    },
     /*"Shockwave": {
         "res": "shockwave/shockwave_bg_01/shockwave_bg_01"
     },
@@ -85,6 +82,9 @@ const cavebgJson = {
     },
     "Temple of Memories": {
         "res": "templeofmemory/templeofmemory_bg_01/templeofmemory_bg_01"
+    },
+    "The Path to Hope": {
+        "res": "apathtohope/apathtohope_bg_01/apathtohope_bg_01"
     },
     "Vaska": {
         "res": "vaska/vaska_bg_01/vaska_bg_01"
