@@ -386,5 +386,10 @@ const personalityJson = {
 	"Wilderness" : {
 		"back" : "aura_s_sunset",
 		"front" : "aura_s_sunset"
+	},
+	"Wishful": {
+		"each": "aura_s_wishful",
+		"back": "back",
+		"front": "front"
 	}
 }
