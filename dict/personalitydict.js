@@ -149,6 +149,11 @@ const personalityJson = {
 		"back" : "aura_s_prism",
 		"front" : "aura_s_prism"
 	},
+	"Fantastical": {
+		"each": "aura_s_hopeful",
+		"back": "back_c",
+		"front": "front_c"
+	},
 	"Fearful" : {
 		"back" : "aura_a_mint",
 		"front" : "a"
@@ -391,5 +396,10 @@ const personalityJson = {
 		"each": "aura_s_wishful",
 		"back": "back",
 		"front": "front"
+	},
+	"Yearning": {
+		"each": "aura_s_hopeful",
+		"back": "back_a",
+		"front": "front_a"
 	}
 }
