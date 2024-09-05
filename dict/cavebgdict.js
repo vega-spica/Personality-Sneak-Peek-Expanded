@@ -50,6 +50,12 @@ const cavebgJson = {
     "Lotus Fire Dragon (Special)": {
         "res": "lotusfiredragon/lotusfiredragon_bg_02/lotusfiredragon_bg_02"
     },
+    "Malcartis": {
+        "res": "malcartis/malcartis_bg_01/malcartis_bg_01"
+    },
+    "Malcartis (Special)": {
+        "res": "malcartis/malcartis_bg_02/malcartis_bg_02"
+    },  
     "Metis": {
         "res": "metis/metis_bg_01/metis_bg_01"
     },
