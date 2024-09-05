@@ -44331,6 +44331,14 @@ const speciesJson = {
               }
             }
           },
+          "npc": {
+            "formDisplay": "[NPC Only]",
+            "genders": {
+              "m": {
+                "color": "b"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
