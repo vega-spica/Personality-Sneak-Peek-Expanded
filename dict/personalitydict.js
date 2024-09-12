@@ -44,6 +44,11 @@ const personalityJson = {
 		"back" : "aura_a2_pink",
 		"front" : "a2"
 	},
+	"Black Moon": {
+		"each": "aura_s_fullmoon",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Blue Moon" : {
 		"back" : "aura_s_moon_blue",
 		"front" : "aura_s_transparent_blue"
@@ -100,6 +105,11 @@ const personalityJson = {
 	"Clumsy" : {
 		"back" : "aura_a2_purple",
 		"front" : "a2"
+	},
+	"Crimson Moon": {
+		"each": "aura_s_fullmoon",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Curious" : {
 		"back" : "aura_a2_green",
@@ -335,6 +345,11 @@ const personalityJson = {
 	"Serious" : {
 		"back" : "aura_a_lapislazuli",
 		"front" : "a"
+	},
+	"Shadow Moon": {
+		"each": "aura_s_fullmoon",
+		"back": "back_c",
+		"front": "front_c"
 	},
 	"Silent" : {
 		"back" : "aura_a2_darkblue",

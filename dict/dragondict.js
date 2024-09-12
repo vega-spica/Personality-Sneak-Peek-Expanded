@@ -11551,6 +11551,28 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "02",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "03",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -11574,6 +11596,28 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "02",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "03",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -11594,6 +11638,28 @@ const speciesJson = {
               },
               "m": {
                 "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "02",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "03",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           },
@@ -18618,6 +18684,103 @@ const speciesJson = {
       }
     }
   },
+  "iris": {
+    "speciesDisplay": "Iris",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Mystic Art",
+            "genders": {
+              "f": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "f": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Mystic Art",
+            "genders": {
+              "f": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "f": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Mystic Art",
+            "genders": {
+              "f": {
+                "color": "bk"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Polymorph",
+            "genders": {
+              "f": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "f": {
+                "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "irondeva": {
     "speciesDisplay": "Irondeva",
     "stage": {
@@ -23898,6 +24061,80 @@ const speciesJson = {
       }
     }
   },
+  "lusong": {
+    "speciesDisplay": "Lusong",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "macarondragon": {
     "speciesDisplay": "Macaron Dragon",
     "stage": {
@@ -25026,6 +25263,124 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "manus": {
+    "speciesDisplay": "Manus",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "02",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "02",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "02",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "03",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "ktoolroo_w_adult_w"
               }
             }
           }
@@ -33454,7 +33809,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Ruler",
+            "formDisplay": "Conqueror",
             "genders": {
               "f": {
                 "color": "b"
@@ -33473,7 +33828,7 @@ const speciesJson = {
             }
           },
           "undead02": {
-            "formDisplay": "Undead (Ruler)",
+            "formDisplay": "Undead (Conqueror)",
             "genders": {
               "f": {
                 "undeadres": "regnator_f_hatch_bk"
@@ -33499,7 +33854,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Ruler",
+            "formDisplay": "Conqueror",
             "genders": {
               "f": {
                 "color": "b"
@@ -33518,7 +33873,7 @@ const speciesJson = {
             }
           },
           "undead02": {
-            "formDisplay": "Undead (Ruler)",
+            "formDisplay": "Undead (Conqueror)",
             "genders": {
               "f": {
                 "undeadres": "regnator_f_hatchling_bk"
@@ -33544,7 +33899,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Ruler",
+            "formDisplay": "Conqueror",
             "genders": {
               "f": {
                 "color": "b"
@@ -33563,7 +33918,7 @@ const speciesJson = {
             }
           },
           "undead02": {
-            "formDisplay": "Undead (Ruler)",
+            "formDisplay": "Undead (Conqueror)",
             "genders": {
               "f": {
                 "undeadres": "regnator_f_adult_bk"
