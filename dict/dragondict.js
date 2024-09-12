@@ -11552,7 +11552,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Total Eclipse",
             "genders": {
               "f": {
                 "color": "bk"
@@ -11563,7 +11563,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "03",
+            "formDisplay": "Moon Phase",
             "genders": {
               "f": {
                 "color": "w"
@@ -11597,7 +11597,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Total Eclipse",
             "genders": {
               "f": {
                 "color": "bk"
@@ -11608,7 +11608,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "03",
+            "formDisplay": "Moon Phase",
             "genders": {
               "f": {
                 "color": "w"
@@ -11642,7 +11642,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Total Eclipse",
             "genders": {
               "f": {
                 "color": "bk"
@@ -11653,7 +11653,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "03",
+            "formDisplay": "Moon Phase",
             "genders": {
               "f": {
                 "color": "w"
@@ -25287,7 +25287,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Dimension Door Guardian",
             "genders": {
               "f": {
                 "color": "pb"
@@ -25321,7 +25321,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Dimension Door Guardian",
             "genders": {
               "f": {
                 "color": "pb"
@@ -25355,7 +25355,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Dimension Door Guardian",
             "genders": {
               "f": {
                 "color": "pb"
@@ -25366,7 +25366,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "03",
+            "formDisplay": "Mpoonrise",
             "genders": {
               "f": {
                 "color": "pb"
