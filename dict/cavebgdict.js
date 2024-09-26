@@ -86,12 +86,12 @@ const cavebgJson = {
     "Symphonia (Special)": {
         "res": "symphonia/symphonia_bg_02/symphonia_bg_02"
     },
-    /*"Telos Gamma": {
+    "Telos Gamma": {
         "res": "telosgamma/telosgamma_bg_01/telosgamma_bg_01"
-    },/*
-    /*"Telos (Special)": {
+    },
+    "Telos (Special)": {
         "res": "telosgamma/telosgamma_bg_02/telosgamma_bg_02"
-    },*/
+    },
     "Temple of Memories": {
         "res": "templeofmemory/templeofmemory_bg_01/templeofmemory_bg_01"
     },

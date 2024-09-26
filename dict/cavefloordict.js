@@ -89,12 +89,12 @@ const cavefloorJson = {
     "Symphonia (Special)": {
     "res": "symphonia/symphonia_floor_02/symphonia_floor_02"
     },
-    /*"Telos Gamma": {
+    "Telos Gamma": {
         "res": "telosgamma/telosgamma_floor_01/telosgamma_floor_01"
-    },/*
-    /*"Telos Gamma (Special)": {
+    },
+    "Telos Gamma (Special)": {
         "res": "telosgamma/telosgamma_floor_02/telosgamma_floor_02"
-    },*/
+    },
     "Temple of Memories": {
         "res": "templeofmemory/templeofmemory_floor_01/templeofmemory_floor_01"
     },
