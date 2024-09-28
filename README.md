@@ -1,5 +1,5 @@
 website: https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/<br>
-Desktop view is recommended. Zoom will affect positioning.<br>
+Desktop view is recommended. Positioning can be adjusted by zooming in or out.<br>
 Gender/Evolution icons can be clicked, as well as screen-read for accessibility.<br>
 Dragon Village Collection assets and all Dragon Village characters ©highbrow Corp<br>
 <br>
