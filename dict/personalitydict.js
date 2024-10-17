@@ -106,6 +106,11 @@ const personalityJson = {
 		"back" : "aura_a2_purple",
 		"front" : "a2"
 	},
+	"Creepy": {
+		"each": "aura_s_halloween",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Crimson Moon": {
 		"each": "aura_s_fullmoon",
 		"back": "back_b",
@@ -244,6 +249,11 @@ const personalityJson = {
 	"Lax" : {
 		"back" : "aura_b_pink",
 		"front" : ""
+	},
+	"Liberation": {
+		"each": "aura_s_liberated",
+		"back": "back_a",
+		"front": "front_a"
 	},
 	"Lonely" : {
 		"back" : "aura_a_lavender",
@@ -391,6 +401,11 @@ const personalityJson = {
 	"Talented" : {
 		"back" : "aura_s_game_b",
 		"front" : "aura_s_game_b"
+	},
+	"Terrifying": {
+		"each": "aura_s_halloween",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Timid" : {
 		"back" : "aura_a_orange",
