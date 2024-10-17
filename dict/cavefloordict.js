@@ -23,6 +23,9 @@ const cavefloorJson = {
     "Clavis (Special)": {
         "res": "clavis/clavis_floor_02/clavis_floor_02"
     },
+    "Collapsed Laboratory": {
+        "res": "destroyedlaboratory/destroyedlaboratory_floor_01/destroyedlaboratory_floor_01"
+    },
     "Dark Nation": {
         "res": "kkamaknara/kkamaknara_floor_01/kkamaknara_floor_01"
     },

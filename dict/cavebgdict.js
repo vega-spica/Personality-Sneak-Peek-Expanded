@@ -23,6 +23,9 @@ const cavebgJson = {
     "Clavis (Special)": {
         "res": "clavis/clavis_bg_02/clavis_bg_02"
     },
+    "Collapsed Laboratory": {
+        "res": "destroyedlaboratory/destroyedlaboratory_bg_01/destroyedlaboratory_bg_01"
+    },
     "Dark Nation": {
         "res": "kkamaknara/kkamaknara_bg_01/kkamaknara_bg_01"
     },
