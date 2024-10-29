@@ -297,6 +297,8 @@ const personalityJson = {
 	},
 	"My Own": {
 	},
+	/*"My Heart": {
+	},*/
 	"Mysterious": {
 		"each": "aura_s_dreamlike_enigmatic",
 		"back": "back_b",

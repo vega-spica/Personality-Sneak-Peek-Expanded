@@ -7,8 +7,10 @@
     <script src="./js/spineObject.js"></script>
     <script src="./dict/dragondict.js"></script>
     <script src="./dict/personalitydict.js"></script>
-    <script src="./dict/customfrontdict.js"></script>
-    <script src="./dict/custombackdict.js"></script>
+    <script src="./dict/myownfrontdict.js"></script>
+    <script src="./dict/myownbackdict.js"></script>
+    <script src="./dict/myheartfrontdict.js"></script>
+    <script src="./dict/myheartbackdict.js"></script>
     <script src="./dict/cavebgdict.js"></script>
     <script src="./dict/cavefloordict.js"></script>
     <script src="https://unpkg.com/@esotericsoftware/spine-webgl@4.1.*/dist/iife/spine-webgl.js"></script>
@@ -42,10 +44,14 @@
         var speciesDisplay;
         var formDisplay;
         var stage = "adult";
-        var customfront;
-        var customfrontcolour;
-        var customback;
-        var custombackcolour;
+        var myownfront;
+        var myownfrontcolour;
+        var myownback;
+        var myownbackcolour;
+        var myheartfront;
+        var myheartfrontcolour;
+        var myheartback;
+        var myheartbackcolour;
         var personalityName;
         var cavebg;
         var cavefloor;
@@ -72,10 +78,12 @@
             var personalityKeys = Object.keys(personalityJson);
 
             //get a list of custom fronts
-            var customfrontKeys = Object.keys(customfrontJson);
+            var myownfrontKeys = Object.keys(myownfrontJson);
+            var myheartfrontKeys = Object.keys(myheartfrontJson);
 
             //get a list of custom backs
-            var custombackKeys = Object.keys(custombackJson);
+            var myownbackKeys = Object.keys(myownbackJson);
+            var myheartbackKeys = Object.keys(myheartbackJson);
 
             //get a list of backgrounds
             var cavebgKeys = Object.keys(cavebgJson);
@@ -101,10 +109,14 @@
             adultLabel = document.getElementById("adultLabel");
             essenceButton = document.getElementById("essence");
             essenceLabel = document.getElementById("essenceLabel");
-            customfront = document.getElementById("customfront");
-            customfrontcolour = document.getElementById("customfrontcolour");
-            customback = document.getElementById("customback");
-            custombackcolour = document.getElementById("custombackcolour");
+            myownfront = document.getElementById("myownfront");
+            myownfrontcolour = document.getElementById("myownfrontcolour");
+            myownback = document.getElementById("myownback");
+            myownbackcolour = document.getElementById("myownbackcolour");
+            myheartfront = document.getElementById("myheartfront");
+            myheartfrontcolour = document.getElementById("myheartfrontcolour");
+            myheartback = document.getElementById("myheartback");
+            myheartbackcolour = document.getElementById("myheartbackcolour");
             cavebg = document.getElementById("cavebg");
             cavefloor = document.getElementById("cavefloor");
             
@@ -141,39 +153,71 @@
             };
 
             //create option tags for custom Fronts
-            var customfrontOption;
-            for (var i = 0; i < customfrontKeys.length; i++) {
-                customfrontOption = document.createElement("option");
-                customfrontOption.innerText = customfrontKeys[i];
-                customfrontOption.value = customfrontKeys[i];
-                customfront.appendChild(customfrontOption);
+            var myownfrontOption;
+            for (var i = 0; i < myownfrontKeys.length; i++) {
+                myownfrontOption = document.createElement("option");
+                myownfrontOption.innerText = myownfrontKeys[i];
+                myownfrontOption.value = myownfrontKeys[i];
+                myownfront.appendChild(myownfrontOption);
+            };
+
+            var myheartfrontOption;
+            for (var i = 0; i < myheartfrontKeys.length; i++) {
+                myheartfrontOption = document.createElement("option");
+                myheartfrontOption.innerText = myheartfrontKeys[i];
+                myheartfrontOption.value = myheartfrontKeys[i];
+                myheartfront.appendChild(myheartfrontOption);
             };
 
             //create option tags for custom Front Colours
-            var customfrontcolourKeys = Object.keys(customfrontJson["[None]"]);
-            for (var i = 0; i < customfrontcolourKeys.length; i++) {
-                customfrontcolourOption = document.createElement("option");
-                customfrontcolourOption.innerText = customfrontcolourKeys[i];
-                customfrontcolourOption.value = customfrontcolourKeys[i];
-                customfrontcolour.appendChild(customfrontcolourOption);
+            var myownfrontcolourKeys = Object.keys(myownfrontJson["[None]"]);
+            for (var i = 0; i < myownfrontcolourKeys.length; i++) {
+                myownfrontcolourOption = document.createElement("option");
+                myownfrontcolourOption.innerText = myownfrontcolourKeys[i];
+                myownfrontcolourOption.value = myownfrontcolourKeys[i];
+                myownfrontcolour.appendChild(myownfrontcolourOption);
+            };
+
+            var myheartfrontcolourKeys = Object.keys(myheartfrontJson["[None]"]);
+            for (var i = 0; i < myheartfrontcolourKeys.length; i++) {
+                myheartfrontcolourOption = document.createElement("option");
+                myheartfrontcolourOption.innerText = myheartfrontcolourKeys[i];
+                myheartfrontcolourOption.value = myheartfrontcolourKeys[i];
+                myheartfrontcolour.appendChild(myheartfrontcolourOption);
             };
 
             //create option tags for custom Backs
-            var custombackOption;
-            for (var i = 0; i < custombackKeys.length; i++) {
-                custombackOption = document.createElement("option");
-                custombackOption.innerText = custombackKeys[i];
-                custombackOption.value = custombackKeys[i];
-                customback.appendChild(custombackOption);
+            var myownbackOption;
+            for (var i = 0; i < myownbackKeys.length; i++) {
+                myownbackOption = document.createElement("option");
+                myownbackOption.innerText = myownbackKeys[i];
+                myownbackOption.value = myownbackKeys[i];
+                myownback.appendChild(myownbackOption);
+            };
+
+            var myheartbackOption;
+            for (var i = 0; i < myheartbackKeys.length; i++) {
+                myheartbackOption = document.createElement("option");
+                myheartbackOption.innerText = myheartbackKeys[i];
+                myheartbackOption.value = myheartbackKeys[i];
+                myheartback.appendChild(myheartbackOption);
             };
 
             //create option tags for custom Back Colours
-            var custombackcolourKeys = Object.keys(custombackJson["[None]"]);
-            for (var i = 0; i < custombackcolourKeys.length; i++) {
-                custombackcolourOption = document.createElement("option");
-                custombackcolourOption.innerText = custombackcolourKeys[i];
-                custombackcolourOption.value = custombackcolourKeys[i];
-                custombackcolour.appendChild(custombackcolourOption);
+            var myownbackcolourKeys = Object.keys(myownbackJson["[None]"]);
+            for (var i = 0; i < myownbackcolourKeys.length; i++) {
+                myownbackcolourOption = document.createElement("option");
+                myownbackcolourOption.innerText = myownbackcolourKeys[i];
+                myownbackcolourOption.value = myownbackcolourKeys[i];
+                myownbackcolour.appendChild(myownbackcolourOption);
+            };
+
+            var myheartbackcolourKeys = Object.keys(myheartbackJson["[None]"]);
+            for (var i = 0; i < myheartbackcolourKeys.length; i++) {
+                myheartbackcolourOption = document.createElement("option");
+                myheartbackcolourOption.innerText = myheartbackcolourKeys[i];
+                myheartbackcolourOption.value = myheartbackcolourKeys[i];
+                myheartbackcolour.appendChild(myheartbackcolourOption);
             };
 
             //create option tags for backgrounds
@@ -430,7 +474,8 @@
 
         //load new personality when changed
         function updatePersonalityUrl() {
-            document.getElementById("customselect").style.display = "none";
+            document.getElementById("myownselect").style.display = "none";
+            document.getElementById("myheartselect").style.display = "none";
     // disposing of old resources before assigning new one to avoid performance issue
     if (canvases.backAura) { canvases.backAura.dispose(); }
     if (canvases.frontAura) { canvases.frontAura.dispose(); }
@@ -439,14 +484,25 @@
             //this bit is only here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!
                 //edit: and of course, they weren't special enough, so they added custom ones that are °˳⁠˚⁠∘⁠✧super special✧∘⁠˚⁠˳⁠°!! 
             if(personalityName === "My Own") {
-                document.getElementById("customselect").style.display = "block";
-                var customfrontSelection = customfrontJson[customfront.value];
-                var custombackSelection = custombackJson[customback.value];
+                document.getElementById("myownselect").style.display = "block";
+                var myownfrontSelection = myownfrontJson[myownfront.value];
+                var myownbackSelection = myownbackJson[myownback.value];
                 canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
-                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", custombackSelection[custombackcolour.value])
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", myownbackSelection[myownbackcolour.value])
                 });
                 canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
-                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", customfrontSelection[customfrontcolour.value])
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", myownfrontSelection[myownfrontcolour.value])
+                });
+            }
+            else if (personalityName === "My Heart") {
+                document.getElementById("myheartselect").style.display = "block";
+                var myheartfrontSelection = myheartfrontJson[myheartfront.value];
+                var myheartbackSelection = myheartbackJson[myheartback.value];
+                canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", myheartbackSelection[myheartbackcolour.value])
+                });
+                canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", myheartfrontSelection[myheartfrontcolour.value])
                 });
             }
             else if (personalityJson[personalityName].each !== undefined) {
@@ -528,25 +584,47 @@
         <select id="personality" name="personality" onchange="updatePersonalityUrl();">
         </select>
     
-        <div id="customselect">
+        <div id="myownselect">
             <br>
-            <!--selection for custom fronts where entries are appended-->
+            <!--selection for My Own fronts where entries are appended-->
             <b>Front</b>&nbsp;
-            <select id="customfront" name="customfront" onchange="updatePersonalityUrl();">
+            <select id="myownfront" name="myownfront" onchange="updatePersonalityUrl();">
             </select>
     
-            <!--selection for custom front colours where entries are appended-->
-            <select id="customfrontcolour" name="customfrontcolour" onchange="updatePersonalityUrl();">
+            <!--selection for My Own front colours where entries are appended-->
+            <select id="myownfrontcolour" name="myownfrontcolour" onchange="updatePersonalityUrl();">
             </select>
             <br><br>
     
-            <!--selection for custom backs where entries are appended-->
+            <!--selection for My Own backs where entries are appended-->
             <b>Back</b>&nbsp;
-            <select id="customback" name="customback" onchange="updatePersonalityUrl();">
+            <select id="myownback" name="myownback" onchange="updatePersonalityUrl();">
             </select>
     
-            <!--selection for custom back colours where entries are appended-->
-            <select id="custombackcolour" name="custombackcolour" onchange="updatePersonalityUrl();">
+            <!--selection for My Own back colours where entries are appended-->
+            <select id="myownbackcolour" name="myownbackcolour" onchange="updatePersonalityUrl();">
+            </select>
+        </div>
+
+        <div id="myheartselect">
+            <br>
+            <!--selection for My Heart fronts where entries are appended-->
+            <b>Front</b>&nbsp;
+            <select id="myheartfront" name="myheartfront" onchange="updatePersonalityUrl();">
+            </select>
+        
+            <!--selection for My Heart front colours where entries are appended-->
+            <select id="myheartfrontcolour" name="myheartfrontcolour" onchange="updatePersonalityUrl();">
+            </select>
+            <br><br>
+        
+            <!--selection for My Heart backs where entries are appended-->
+            <b>Back</b>&nbsp;
+            <select id="myheartback" name="myheartback" onchange="updatePersonalityUrl();">
+            </select>
+        
+            <!--selection for My Heart back colours where entries are appended-->
+            <select id="myheartbackcolour" name="myheartbackcolour" onchange="updatePersonalityUrl();">
             </select>
         </div>
         <br><br>

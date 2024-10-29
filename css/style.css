@@ -237,7 +237,14 @@ select:focus {
   outline: 0;
 }
 
-#customselect {
+#myownselect {
+  display: none;
+  select {
+    width: 100px;
+  }
+}
+
+#myheartselect {
   display: none;
   select {
     width: 100px;
