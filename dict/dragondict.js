@@ -23072,7 +23072,7 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "Default (EPILEPSY WARNING)",
+            "formDisplay": "Default (FLASHING)",
             "genders": {
               "f": {
                 "color": "r"
@@ -23095,7 +23095,7 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
-            "formDisplay": "Default (EPILEPSY WARNING)",
+            "formDisplay": "Default (FLASHING)",
             "genders": {
               "f": {
                 "color": "r"
@@ -23118,7 +23118,7 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
-            "formDisplay": "Default (EPILEPSY WARNING)",
+            "formDisplay": "Default (FLASHING)",
             "genders": {
               "f": {
                 "color": "r"
@@ -23141,7 +23141,7 @@ const speciesJson = {
       "essence": {
         "forms": {
           "01": {
-            "formDisplay": "Default (EPILEPSY WARNING)",
+            "formDisplay": "Default (FLASHING)",
             "genders": {
               "f": {
                 "color": "r"
@@ -32287,7 +32287,7 @@ const speciesJson = {
       "essence": {
         "forms": {
           "01": {
-            "formDisplay": "Default (EPILEPSY WARNING)",
+            "formDisplay": "Default (FLASHING)",
             "genders": {
               "f": {
                 "color": "bk"
@@ -32318,7 +32318,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Beserk",
+            "formDisplay": "Berserk (FLASHING)",
             "genders": {
               "f": {
                 "color": "w"
@@ -32344,7 +32344,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Beserk",
+            "formDisplay": "Berserk (FLASHING)",
             "genders": {
               "f": {
                 "color": "bk"
@@ -32370,7 +32370,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Beserk",
+            "formDisplay": "Berserk (FLASHING)",
             "genders": {
               "f": {
                 "color": "bk"
@@ -44706,7 +44706,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Lord of Lightning (EPILEPSY WARNING)",
+            "formDisplay": "Lord of Lightning (FLASHING)",
             "genders": {
               "f": {
                 "color": "w"
@@ -44817,7 +44817,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Lord of Lightning (EPILEPSY WARNING)",
+            "formDisplay": "Lord of Lightning (FLASHING)",
             "genders": {
               "f": {
                 "color": "w"
@@ -44928,7 +44928,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Lord of Lightning (EPILEPSY WARNING)",
+            "formDisplay": "Lord of Lightning (FLASHING)",
             "genders": {
               "f": {
                 "color": "w"
