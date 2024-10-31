@@ -499,10 +499,10 @@
                 var myheartfrontSelection = myheartfrontJson[myheartfront.value];
                 var myheartbackSelection = myheartbackJson[myheartback.value];
                 canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
-                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", myheartbackSelection[myheartbackcolour.value])
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_myheart/aura_myheart", myheartbackSelection[myheartbackcolour.value])
                 });
                 canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
-                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", myheartfrontSelection[myheartfrontcolour.value])
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_myheart/aura_myheart", myheartfrontSelection[myheartfrontcolour.value])
                 });
             }
             else if (personalityJson[personalityName].each !== undefined) {

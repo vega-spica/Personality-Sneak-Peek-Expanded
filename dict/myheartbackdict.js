@@ -59,7 +59,7 @@ const myheartbackJson = {
         "White": "back_d_w",
         "Yellow": "back_d_y"
     },
-    "Back E": {
+    "Back E (FLASHING)": {
         "Black": "back_e_bk",
         "Blue": "back_e_b",
         "Green": "back_e_g",
