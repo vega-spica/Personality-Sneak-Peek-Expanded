@@ -502,6 +502,320 @@ const speciesJson = {
       }
     }
   },
+  "aftea": {
+    "speciesDisplay": "Aftea",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Fruit Tea",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Coffee",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Honey Tea",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Love Potion",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Fruit Tea",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Coffee",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Honey Tea",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Love Potion",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Fruit Tea",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Coffee",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Honey Tea",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Love Potion",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Fruit Tea",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Coffee",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Honey Tea",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Love Potion",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Fruit Tea",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Coffee",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Honey Tea",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Love Potion",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Fruit Tea",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Coffee",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Honey Tea",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Love Potion",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "agares": {
     "speciesDisplay": "Agares",
     "stage": {
@@ -14098,11 +14412,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
-            "formDisplay": "Undead",
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "undead01": {
+            "formDisplay": "Undead (Default)",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }

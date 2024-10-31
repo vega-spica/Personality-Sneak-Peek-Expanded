@@ -2,6 +2,12 @@ const cavebgJson = {
     "[None]": {
         "res": "none"
     },
+    "Aftea": {
+        "res": "aftea/aftea_bg_01/aftea_bg_01"
+    },
+    "Aftea (Special)": {
+        "res": "aftea/aftea_bg_02/aftea_bg_02"
+    },
     "Apocalyptic Kingdom (FLASHING)": {
         "res": "kingdomoftheend/kingdomoftheend_bg_01/kingdomoftheend_bg_01"
     },

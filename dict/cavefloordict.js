@@ -2,6 +2,12 @@ const cavefloorJson = {
     "[None]": {
         "res": "none"
     },
+    "Aftea": {
+        "res": "aftea/aftea_floor_01/aftea_floor_01"
+    },
+    "Aftea (Special)": {
+        "res": "aftea/aftea_floor_02/aftea_floor_02"
+    },
     "Apocalyptic Kingdom": {
         "res": "kingdomoftheend/kingdomoftheend_floor_01/kingdomoftheend_floor_01"
     },
