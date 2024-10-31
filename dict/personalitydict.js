@@ -295,9 +295,9 @@ const personalityJson = {
 		"back" : "back_a",
 		"front" : "front_a"
 	},
-	"My Own": {
-	},
 	"My Heart": {
+	},
+	"My Own": {
 	},
 	"Mysterious": {
 		"each": "aura_s_dreamlike_enigmatic",
