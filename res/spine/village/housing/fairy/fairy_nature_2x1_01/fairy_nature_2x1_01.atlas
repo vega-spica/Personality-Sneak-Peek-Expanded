@@ -1,0 +1,11 @@
+fairy_nature_2x1_01.png
+size:270,200
+filter:Linear,Linear
+pma:true
+tree_1_down
+bounds:228,110,88,40
+offsets:2,2,92,44
+rotate:90
+tree_1_up
+bounds:2,2,224,196
+offsets:2,2,228,200

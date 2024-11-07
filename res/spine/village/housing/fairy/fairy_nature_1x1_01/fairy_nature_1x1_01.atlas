@@ -1,0 +1,10 @@
+fairy_nature_1x1_01.png
+size:272,96
+filter:Linear,Linear
+pma:true
+object_2_flower1
+bounds:226,42,44,52
+object_2_flower2
+bounds:2,2,112,92
+object_2_leaf
+bounds:116,10,108,84

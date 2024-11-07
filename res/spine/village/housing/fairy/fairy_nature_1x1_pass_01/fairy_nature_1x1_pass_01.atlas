@@ -1,0 +1,12 @@
+fairy_nature_1x1_pass_01.png
+size:99,110
+filter:Linear,Linear
+object_1_light1
+bounds:12,6,4,4
+offsets:2,2,8,8
+object_1_light2
+bounds:2,2,8,8
+offsets:2,2,12,12
+object_1_light22
+bounds:2,12,95,96
+offsets:2,2,99,100
