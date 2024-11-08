@@ -40280,7 +40280,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Snow Field",
+            "formDisplay": "Snowfield",
             "genders": {
               "f": {
                 "color": "b"
@@ -40347,7 +40347,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Snow Field",
+            "formDisplay": "Snowfield",
             "genders": {
               "f": {
                 "color": "b"
@@ -40414,7 +40414,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Snow Field",
+            "formDisplay": "Snowfield",
             "genders": {
               "f": {
                 "color": "b"
