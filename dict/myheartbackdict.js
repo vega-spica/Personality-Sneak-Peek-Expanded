@@ -6,8 +6,8 @@ const myheartbackJson = {
         "Navy": "",
         "Pink": "",
         "Purple": "",
+        "Rainbow": "",
         "Red": "",
-        "Special": "",
         "White": "",
         "Yellow": ""
     },
@@ -18,8 +18,8 @@ const myheartbackJson = {
         "Navy": "back_a_pb",
         "Pink": "back_a_pk",
         "Purple": "back_a_p",
+        "Rainbow": "back_a_spc",
         "Red": "back_a_r",
-        "Special": "back_a_spc",
         "White": "back_a_w",
         "Yellow": "back_a_y"
     },
@@ -30,8 +30,8 @@ const myheartbackJson = {
         "Navy": "back_b_pb",
         "Pink": "back_b_pk",
         "Purple": "back_b_p",
+        "Rainbow": "back_b_spc",
         "Red": "back_b_r",
-        "Special": "back_b_spc",
         "White": "back_b_w",
         "Yellow": "back_b_y"
     },
@@ -42,8 +42,8 @@ const myheartbackJson = {
         "Navy": "back_c_pb",
         "Pink": "back_c_pk",
         "Purple": "back_c_p",
+        "Rainbow": "back_c_spc",
         "Red": "back_c_r",
-        "Special": "back_c_spc",
         "White": "back_c_w",
         "Yellow": "back_c_y"
     },
@@ -54,8 +54,8 @@ const myheartbackJson = {
         "Navy": "back_d_pb",
         "Pink": "back_d_pk",
         "Purple": "back_d_p",
+        "Rainbow": "back_d_spc",
         "Red": "back_d_r",
-        "Special": "back_d_spc",
         "White": "back_d_w",
         "Yellow": "back_d_y"
     },
@@ -66,8 +66,8 @@ const myheartbackJson = {
         "Navy": "back_e_pb",
         "Pink": "back_e_pk",
         "Purple": "back_e_p",
+        "Rainbow": "back_e_spc",
         "Red": "back_e_r",
-        "Special": "back_e_spc",
         "White": "back_e_w",
         "Yellow": "back_e_y"
     },

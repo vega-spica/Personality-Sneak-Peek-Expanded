@@ -6,8 +6,8 @@ const myheartfrontJson = {
         "Navy": "",
         "Pink": "",
         "Purple": "",
+        "Rainbow": "",
         "Red": "",
-        "Special": "",
         "White": "",
         "Yellow": ""
     },
@@ -18,8 +18,8 @@ const myheartfrontJson = {
         "Navy": "front_a_pb",
         "Pink": "front_a_pk",
         "Purple": "front_a_p",
+        "Rainbow": "front_a_spc",
         "Red": "front_a_r",
-        "Special": "front_a_spc",
         "White": "front_a_w",
         "Yellow": "front_a_y"
     },
@@ -30,8 +30,8 @@ const myheartfrontJson = {
         "Navy": "front_b_pb",
         "Pink": "front_b_pk",
         "Purple": "front_b_p",
+        "Rainbow": "front_b_spc",
         "Red": "front_b_r",
-        "Special": "front_b_spc",
         "White": "front_b_w",
         "Yellow": "front_b_y"
     },
@@ -42,8 +42,8 @@ const myheartfrontJson = {
         "Navy": "front_c_pb",
         "Pink": "front_c_pk",
         "Purple": "front_c_p",
+        "Rainbow": "front_c_spc",
         "Red": "front_c_r",
-        "Special": "front_c_spc",
         "White": "front_c_w",
         "Yellow": "front_c_y"
     },
@@ -54,8 +54,8 @@ const myheartfrontJson = {
         "Navy": "front_d_pb",
         "Pink": "front_d_pk",
         "Purple": "front_d_p",
+        "Rainbow": "front_d_spc",
         "Red": "front_d_r",
-        "Special": "front_d_spc",
         "White": "front_d_w",
         "Yellow": "front_d_y"
     },
@@ -66,8 +66,8 @@ const myheartfrontJson = {
         "Navy": "front_e_pb",
         "Pink": "front_e_pk",
         "Purple": "front_e_p",
+        "Rainbow": "front_e_spc",
         "Red": "front_e_r",
-        "Special": "front_e_spc",
         "White": "front_e_w",
         "Yellow": "front_e_y"
     },
