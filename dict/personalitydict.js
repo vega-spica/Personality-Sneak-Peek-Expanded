@@ -3,16 +3,6 @@ const personalityJson = {
 		"back" : "",
 		"front" : ""
 	},
-	"(Undisclosed L)": {
-		"each": "aura_s_liberated",
-		"back": "back_b",
-		"front": "front_b"
-	},
-	"(Undisclosed R)": {
-		"each": "aura_s_liberated",
-		"back": "back_c",
-		"front": "front_c"
-	},
 	"Abundant" : {
 		"back" : "aura_e_emart",
 		"front" : "aura_e_emart"
@@ -28,6 +18,11 @@ const personalityJson = {
 	"Affable" : {
 		"back" : "aura_s_xmas_b",
 		"front" : "aura_s_xmas_b"
+	},
+	"Affable Liberated": {
+		"each": "aura_s_liberated",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Angry": {
 		"each": "aura_a4",
@@ -138,6 +133,11 @@ const personalityJson = {
 	"Dawn" : {
 		"back" : "aura_a2_white",
 		"front" : "a2_whitegold"
+	},
+	"Distorted Liberated": {
+		"each": "aura_s_liberated",
+		"back": "back_c",
+		"front": "front_c"
 	},
 	"Distracted" : {
 		"back" : "aura_s_mint",
