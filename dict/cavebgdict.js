@@ -89,6 +89,9 @@ const cavebgJson = {
     "Shockwave (Special)": {
         "res": "shockwave/shockwave_bg_02/shockwave_bg_02"
     },*/
+    "Signature 2024": {
+        "res": "signature_2024/signature_2024_bg_02/signature_2024_bg_02"
+    },
     "Symphonia": {
         "res": "symphonia/symphonia_bg_01/symphonia_bg_01"
     },

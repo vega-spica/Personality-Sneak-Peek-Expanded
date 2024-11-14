@@ -6669,6 +6669,100 @@ const speciesJson = {
       }
     }
   },
+  "caretakerdarknix": {
+    "speciesDisplay": "Caretaker Darknix",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Restrained",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Restrained",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Restrained",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Sealed",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "keepergoddragon": {
     "speciesDisplay": "Caretaker God Dragon",
     "stage": {
@@ -8471,6 +8565,17 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
           }
         }
       }
@@ -9588,7 +9693,7 @@ const speciesJson = {
               }
             }
           },
-          "02": {
+          "03": {
             "formDisplay": "Jealousy (Legacy)",
             "genders": {
               "f": {
@@ -9607,7 +9712,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -9630,7 +9735,7 @@ const speciesJson = {
               }
             }
           },
-          "02": {
+          "03": {
             "formDisplay": "Jealousy (Legacy)",
             "genders": {
               "f": {
@@ -9649,7 +9754,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -9673,6 +9778,17 @@ const speciesJson = {
             }
           },
           "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "03": {
             "formDisplay": "Jealousy (Legacy)",
             "genders": {
               "f": {
@@ -9691,11 +9807,19 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -14746,7 +14870,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -14769,7 +14893,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -14792,11 +14916,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -15363,7 +15506,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -15386,7 +15529,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -15409,11 +15552,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -20353,7 +20515,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -20387,7 +20549,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -20421,11 +20583,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "03": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -28422,7 +28603,7 @@ const speciesJson = {
     }
   },
   "mystictiny": {
-    "speciesDisplay": "Mystictiny",
+    "speciesDisplay": "Mystic Tiny",
     "stage": {
       "hatch": {
         "forms": {
@@ -28437,7 +28618,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -28460,7 +28641,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -28483,11 +28664,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "g"
+              },
+              "m": {
+                "color": "g"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -30607,6 +30807,17 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
           }
         }
       }
@@ -32519,7 +32730,7 @@ const speciesJson = {
               }
             }
           },
-          "02": {
+          "03": {
             "formDisplay": "Devil",
             "genders": {
               "f": {
@@ -32530,7 +32741,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "f": {
@@ -32556,7 +32767,7 @@ const speciesJson = {
               }
             }
           },
-          "02": {
+          "03": {
             "formDisplay": "Devil",
             "genders": {
               "f": {
@@ -32567,7 +32778,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "f": {
@@ -32594,6 +32805,17 @@ const speciesJson = {
             }
           },
           "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "03": {
             "formDisplay": "Devil",
             "genders": {
               "f": {
@@ -32604,7 +32826,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "f": {
@@ -32612,6 +32834,14 @@ const speciesJson = {
               },
               "m": {
                 "undeadres": "drake_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "power_signature_l_adult_w"
               }
             }
           }
@@ -34895,6 +35125,56 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "wyvern_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "reghi": {
+    "speciesDisplay": "Reghi",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           }
@@ -40778,6 +41058,56 @@ const speciesJson = {
       }
     }
   },
+  "surprisedragon": {
+    "speciesDisplay": "Surprise Dragon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "surtr": {
     "speciesDisplay": "Surtr",
     "stage": {
@@ -44386,7 +44716,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -44420,7 +44750,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -44454,11 +44784,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "03": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_n_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -46964,7 +47313,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -46987,7 +47336,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -47010,11 +47359,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }

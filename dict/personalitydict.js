@@ -111,6 +111,11 @@ const personalityJson = {
 		"back" : "aura_a2_purple",
 		"front" : "a2"
 	},
+	"Cozy": {
+		"each": "aura_s_signature",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Creepy": {
 		"each": "aura_s_halloween",
 		"back": "back_a",
@@ -173,6 +178,11 @@ const personalityJson = {
 	"Extroverted" : {
 		"back" : "aura_s_prism",
 		"front" : "aura_s_prism"
+	},
+	"Familiar": {
+		"each": "aura_s_signature",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Fantastical": {
 		"each": "aura_s_hopeful",
