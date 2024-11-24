@@ -28442,11 +28442,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "03": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_n_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
