@@ -28442,6 +28442,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Musical Genius",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
           "03": {
             "formDisplay": "Signature",
             "genders": {
