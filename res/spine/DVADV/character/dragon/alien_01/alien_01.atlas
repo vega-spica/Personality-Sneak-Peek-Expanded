@@ -1,0 +1,17 @@
+alien_01.png
+size:66,162
+filter:Linear,Linear
+body_1
+bounds:2,66,46,46
+effect_1
+bounds:2,142,34,18
+head_1
+bounds:2,2,62,62
+leg_f_l_1
+bounds:2,114,30,26
+leg_f_r_1
+bounds:38,142,18,22
+rotate:90
+wing_l_1
+bounds:34,114,26,30
+rotate:90

@@ -1,0 +1,11 @@
+hatchery.png
+size:1208,432
+filter:Linear,Linear
+egg_0101
+bounds:1042,226,164,204
+hatchery_01
+bounds:544,62,368,496
+rotate:90
+hatchery_02
+bounds:2,2,428,540
+rotate:90

@@ -1,0 +1,11 @@
+package_eff.png
+size:83,55
+filter:Linear,Linear
+heart
+bounds:53,27,28,26
+up
+bounds:53,2,23,26
+offsets:3,3,29,32
+rotate:90
+watch
+bounds:2,3,49,50

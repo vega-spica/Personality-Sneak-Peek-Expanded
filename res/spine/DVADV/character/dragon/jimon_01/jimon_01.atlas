@@ -1,0 +1,10 @@
+jimon_01.png
+size:50,38
+filter:Linear,Linear
+pma:true
+body
+bounds:2,2,34,36
+rotate:90
+mouth
+bounds:40,26,10,8
+rotate:90

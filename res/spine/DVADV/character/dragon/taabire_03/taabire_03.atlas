@@ -1,0 +1,37 @@
+taabire_03.png
+size:114,232
+filter:Linear,Linear
+body acc_3
+bounds:2,37,37,29
+body_3
+bounds:2,148,75,41
+hair_3
+bounds:92,56,27,19
+rotate:90
+head acc_
+bounds:39,2,33,25
+head_3
+bounds:49,52,41,31
+leg_b_l_3
+bounds:79,142,33,45
+leg_b_r_3
+bounds:80,27,23,29
+rotate:90
+leg_f_l_3
+bounds:83,189,29,41
+leg_f_r_3
+bounds:2,6,29,35
+rotate:90
+tail_3
+bounds:59,85,45,55
+wing_l_3_1
+bounds:2,93,53,55
+rotate:90
+wing_l_3_2
+bounds:2,68,45,23
+wing_r_3_1
+bounds:2,191,39,79
+rotate:90
+wing_r_3_2
+bounds:41,29,21,37
+rotate:90

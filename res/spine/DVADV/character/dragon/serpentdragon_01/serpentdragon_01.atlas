@@ -1,0 +1,13 @@
+serpentdragon_01.png
+size:104,40
+filter:Linear,Linear
+body_1
+bounds:2,2,40,36
+head_1
+bounds:44,2,36,38
+rotate:90
+tail_acc_1
+bounds:84,20,18,18
+wing_l_1
+bounds:84,2,16,18
+rotate:90

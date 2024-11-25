@@ -1,0 +1,13 @@
+slimedragon_01.png
+size:78,44
+filter:Linear,Linear
+body_1
+bounds:38,20,38,22
+head_1
+bounds:2,4,38,34
+rotate:90
+tail_1
+bounds:62,2,16,10
+rotate:90
+wing_l_1
+bounds:38,2,22,16

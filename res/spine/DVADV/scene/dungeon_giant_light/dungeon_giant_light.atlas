@@ -1,0 +1,11 @@
+dungeon_giant_light.png
+size:514,104
+filter:Linear,Linear
+shader_moodlight_00
+bounds:2,2,100,250
+rotate:90
+shader_particle_lightdust
+bounds:506,96,6,6
+shader_spotlight_00
+bounds:254,2,100,250
+rotate:90

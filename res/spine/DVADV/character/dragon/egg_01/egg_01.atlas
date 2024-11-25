@@ -1,0 +1,10 @@
+egg_01.png
+size:64,38
+filter:Linear,Linear
+back
+bounds:40,12,22,24
+body_1
+bounds:2,2,34,36
+rotate:90
+eye_1
+bounds:40,6,12,4

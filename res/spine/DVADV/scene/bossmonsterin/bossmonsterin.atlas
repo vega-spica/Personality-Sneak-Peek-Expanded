@@ -1,0 +1,11 @@
+bossmonsterin.png
+size:1603,1284
+filter:Linear,Linear
+black
+bounds:2,2,720,1280
+effect
+bounds:724,2,720,1280
+warning
+bounds:1446,797,485,155
+offsets:0,16,485,189
+rotate:90
