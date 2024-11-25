@@ -1,0 +1,8 @@
+effect_bm_hurryup.png
+size:192,59
+filter:Linear,Linear
+package_alarm_0101
+bounds:2,2,146,55
+offsets:2,2,150,59
+package_alarm_0201
+bounds:150,11,40,46

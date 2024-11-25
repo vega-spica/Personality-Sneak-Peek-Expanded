@@ -1,7 +1,6 @@
 zone_03.png
 size:1781,792
 filter:Linear,Linear
-pma:true
 bone_00000
 bounds:1554,40,66,68
 offsets:116,120,300,300
@@ -74,12 +73,12 @@ bounds:1377,113,80,104
 mountain_of_fire_bomb_03
 bounds:234,2,96,112
 rotate:90
-mountain_of_fire_caroot_01
+mountain_of_fire_carrot_01
 bounds:1305,219,132,116
-mountain_of_fire_caroot_02
+mountain_of_fire_carrot_02
 bounds:1173,337,100,140
 rotate:90
-mountain_of_fire_caroot_03
+mountain_of_fire_carrot_03
 bounds:445,100,136,152
 rotate:90
 mountain_of_fire_charcoal_01
