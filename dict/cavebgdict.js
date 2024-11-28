@@ -47,6 +47,9 @@ const cavebgJson = {
     "Halloween 2023 (FLASHING)": {
         "res": "halloween_2023/halloween_2023_bg_01/halloween_2023_bg_01"
     },
+    "Happy Memory Signature Background": {
+        "res": "signature_2024/signature_2024_bg_02/signature_2024_bg_02"
+    },
     "Janus": {
         "res": "janus/janus_bg_01/janus_bg_01"
     },
@@ -89,9 +92,6 @@ const cavebgJson = {
     "Shockwave (Special)": {
         "res": "shockwave/shockwave_bg_02/shockwave_bg_02"
     },*/
-    "Signature 2024": {
-        "res": "signature_2024/signature_2024_bg_02/signature_2024_bg_02"
-    },
     "Symphonia": {
         "res": "symphonia/symphonia_bg_01/symphonia_bg_01"
     },
