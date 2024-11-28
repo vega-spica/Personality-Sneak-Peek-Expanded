@@ -1,0 +1,12 @@
+frostina_floor_02.png
+size:342,112
+filter:Linear,Linear
+floor_main
+bounds:2,2,320,108
+offsets:8,0,336,356
+snow_00
+bounds:324,94,16,16
+snow_01
+bounds:324,84,8,8
+snow_02
+bounds:324,78,4,4
