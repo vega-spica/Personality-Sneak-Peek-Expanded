@@ -44,6 +44,12 @@ const cavebgJson = {
     "Feruna (Special)": {
         "res": "feruna/feruna_bg_02/feruna_bg_02"
     },
+    "Frostina": {
+        "res": "frostina/frostina_bg_01/frostina_bg_01"
+    },
+    "Frostina (Special)": {
+        "res": "frostina/frostina_bg_02/frostina_bg_02"
+    },
     "Halloween 2023 (FLASHING)": {
         "res": "halloween_2023/halloween_2023_bg_01/halloween_2023_bg_01"
     },

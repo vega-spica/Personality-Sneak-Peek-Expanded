@@ -44,6 +44,12 @@ const cavefloorJson = {
     "Feruna (Special)": {
         "res": "feruna/feruna_floor_02/feruna_floor_02"
     },
+    "Frostina": {
+        "res": "frostina/frostina_floor_01/frostina_floor_01"
+    },
+    "Frostina (Special)": {
+        "res": "frostina/frostina_floor_02/frostina_floor_02"
+    },
     "Halloween 2023": {
         "res": "halloween_2023/halloween_2023_floor_01/halloween_2023_floor_01"
     },
