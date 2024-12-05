@@ -1,7 +1,6 @@
 lotusfiredragon_floor_01.png
 size:912,262
 filter:Linear,Linear
-pma:true
 floor_main
 bounds:2,10,400,250
 flower00
