@@ -197,6 +197,11 @@ const personalityJson = {
 		"back" : "aura_s_blackgreen",
 		"front" : "aura_s_blackgreen"
 	},
+	"Friendly": {
+		"each": "aura_a_gentle",
+		"back": "back",
+		"front": "front"
+	},
 	"Full Moon" : {
 		"back" : "aura_s_moon_yellow",
 		"front" : "aura_s_transparent_yellow"
@@ -278,6 +283,11 @@ const personalityJson = {
 	"Lonely" : {
 		"back" : "aura_a_lavender",
 		"front" : "a"
+	},
+	"Longing": {
+		"each": "aura_s_admiring",
+		"back": "back",
+		"front": "front"
 	},
 	"Lousy" : {
 		"back" : "aura_a_navypurple",
@@ -445,6 +455,11 @@ const personalityJson = {
 	"Unknown" : {
 		"back" : "aura_s_universe3",
 		"front" : "aura_s_universe3"
+	},
+	"Upright": {
+		"each": "aura_s_robust",
+		"back": "back",
+		"front": "front"
 	},
 	"Wild" : {
 		"back" : "aura_s_blackred",
