@@ -478,5 +478,53 @@ const personalityJson = {
 		"each": "aura_s_hopeful",
 		"back": "back_a",
 		"front": "front_a"
+	},
+	"(a_apricot)": {
+		"back": "aura_a_apricot",
+		"front": "a"
+	},
+	"(a_black)": {
+		"back": "aura_a_black",
+		"front": "a"
+	},
+	"(a_darknavy)": {
+		"back": "aura_a_darknavy",
+		"front": "a"
+	},
+	"(a_peridot)": {
+		"back": "aura_a_peridot",
+		"front": "a"
+	},
+	"(a_vivamagenta)": {
+		"back": "aura_a_vivamagenta",
+		"front": "a"
+	},
+	"(a_whight)": {
+		"back": "aura_a_whight",
+		"front": "a"
+	},
+	"(a2_blue)": {
+		"back": "aura_a2_blue",
+		"front": "a2"
+	},
+	"(a2_darkgreen)": {
+		"back": "aura_a2_darkgreen",
+		"front": "a2"
+	},
+	"(a2_darkpurple)": {
+		"back": "aura_a2_darkpurple",
+		"front": "a2"
+	},
+	"(s_black)": {
+		"back": "aura_s_black",
+		"front": "a2"
+	},
+	"(s_pearl2)": {
+		"back": "aura_s_pearl2",
+		"front": "aura_s_pearl"
+	},
+	"(s_transparent2)": {
+		"back": "aura_s_transparent2",
+		"front": "aura_s_star"
 	}
 }
