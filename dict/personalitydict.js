@@ -59,6 +59,11 @@ const personalityJson = {
 		"back": "back_a_fly",
 		"front": "front_a"
 	},
+	"Blessed": {
+		"each": "aura_s_holy_blessed",
+		"back": "back_b",
+		"front": "front_b"
+	},
 	"Blue Moon" : {
 		"back" : "aura_s_moon_blue",
 		"front" : "aura_s_transparent_blue"
@@ -245,6 +250,11 @@ const personalityJson = {
 	"Hasty" : {
 		"back" : "aura_b_orangered",
 		"front" : ""
+	},
+	"Holy": {
+		"each": "aura_s_holy_blessed",
+		"back": "back_a",
+		"front": "front_a"
 	},
 	"Honorable": {
 		"back" : "aura_s_pvp_a",
