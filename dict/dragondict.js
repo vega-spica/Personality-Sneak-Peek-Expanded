@@ -7122,7 +7122,7 @@ const speciesJson = {
     }
   },
   "catsgon": {
-    "speciesDisplay": "Catsgon",
+    "speciesDisplay": "Cat Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -11364,7 +11364,7 @@ const speciesJson = {
     }
   },
   "devilgon": {
-    "speciesDisplay": "Devilgon",
+    "speciesDisplay": "Devil Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -16622,7 +16622,7 @@ const speciesJson = {
     }
   },
   "gautlinggon": {
-    "speciesDisplay": "Gautling-Gon",
+    "speciesDisplay": "Gatling-Gun Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -19723,7 +19723,7 @@ const speciesJson = {
     }
   },
   "hydragon": {
-    "speciesDisplay": "Hydragon",
+    "speciesDisplay": "Hydra Dragon",
     "stage": {
       "hatchling": {
         "forms": {
@@ -20076,7 +20076,7 @@ const speciesJson = {
     }
   },
   "iguagon": {
-    "speciesDisplay": "Iguagon",
+    "speciesDisplay": "Iguana Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -23290,7 +23290,7 @@ const speciesJson = {
     }
   },
   "lambgon": {
-    "speciesDisplay": "Lambgon",
+    "speciesDisplay": "Lamb Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -23375,7 +23375,7 @@ const speciesJson = {
     }
   },
   "lattegon": {
-    "speciesDisplay": "Lattegon",
+    "speciesDisplay": "Latte Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -32321,7 +32321,7 @@ const speciesJson = {
     }
   },
   "pharaogon": {
-    "speciesDisplay": "Pharaogon",
+    "speciesDisplay": "Pharaoh Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -39366,7 +39366,7 @@ const speciesJson = {
     }
   },
   "skelegon": {
-    "speciesDisplay": "Skelegon",
+    "speciesDisplay": "Skeleton Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -45392,7 +45392,7 @@ const speciesJson = {
     }
   },
   "tutankhagon": {
-    "speciesDisplay": "Tutankhagon",
+    "speciesDisplay": "Tutankha Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -47349,7 +47349,7 @@ const speciesJson = {
     }
   },
   "vonsharkgon": {
-    "speciesDisplay": "Vonsharkgon",
+    "speciesDisplay": "Vonshark Dragon",
     "stage": {
       "hatch": {
         "forms": {
