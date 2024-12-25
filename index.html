@@ -52,9 +52,15 @@
         var myheartfrontcolour;
         var myheartback;
         var myheartbackcolour;
+        var customfront;
+        var customfrontcolour;
+        var customback;
+        var custombackcolour;
         var personalityName;
         var cavebg;
         var cavefloor;
+        var bgSelection;
+        var floorSelection;
         var bgState = "idle";
         var floorState = "idle";
         
@@ -70,6 +76,30 @@
                     //sad times.
             var personalityParam = new URLSearchParams(location.search).get('personality');
             personalityName = personalityParam === null ? personalityName : personalityParam;
+
+            var formParam = new URLSearchParams(location.search).get('form');
+            formNumber = formParam === null ? formNumber : formParam;
+
+            var stageParam = new URLSearchParams(location.search).get('stage');
+            stage = stageParam === null ? stage : stageParam;
+
+            var frontParam = new URLSearchParams(location.search).get('front');
+            customfront = frontParam === null ? "[None]" : frontParam;
+
+            var backParam = new URLSearchParams(location.search).get('back');
+            customback = backParam === null ? "[None]" : backParam;
+
+            var frontColourParam = new URLSearchParams(location.search).get('frontcolour');
+            customfrontcolour = frontColourParam === null ? "Black" : frontColourParam;
+
+            var backColourParam = new URLSearchParams(location.search).get('backcolour');
+            custombackcolour = backColourParam === null ? "Black" : backColourParam;
+
+            var bgParam = new URLSearchParams(location.search).get('bg');
+            bgSelection = bgParam === null ? cavebg : bgParam;
+
+            var floorParam = new URLSearchParams(location.search).get('floor');
+            floorSelection = floorParam === null ? cavefloor : floorParam;
             
             //get list of species
             var speciesKeys = Object.keys(speciesJson);
@@ -151,6 +181,9 @@
                 formOption.value = formKeys[i];
                 form.appendChild(formOption);
             };
+            if (formNumber){
+                form.value = formNumber;
+            }
 
             //create option tags for custom Fronts
             var myownfrontOption;
@@ -220,6 +253,36 @@
                 myheartbackcolour.appendChild(myheartbackcolourOption);
             };
 
+            //pre-assign custom personality values if personality is set to that custom
+            if (personalityName === "My Own") {
+                if (customfront){
+                    myownfront.value = customfront;
+                }
+                if (customfrontcolour) {
+                    myownfrontcolour.value = customfrontcolour;
+                }
+                if (customback) {
+                    myownback.value = customback;
+                }
+                if (custombackcolour) {
+                    myownbackcolour.value = custombackcolour;
+                }
+            }
+            else if (personalityName === "My Heart") {
+                if (customfront) {
+                    myheartfront.value = customfront;
+                }
+                if (customfrontcolour) {
+                    myheartfrontcolour.value = customfrontcolour;
+                }
+                if (customback) {
+                    myheartback.value = customback;
+                }
+                if (custombackcolour) {
+                    myheartbackcolour.value = custombackcolour;
+                }
+            }
+
             //create option tags for backgrounds
             var cavebgOption;
             for (var i = 0; i < cavebgKeys.length; i++) {
@@ -228,6 +291,9 @@
                 cavebgOption.value = cavebgKeys[i];
                 cavebg.appendChild(cavebgOption);
             };
+            if (bgSelection) {
+                cavebg.value = bgSelection;
+            }
 
             //create option tags for floors
             var cavefloorOption;
@@ -237,10 +303,47 @@
                 cavefloorOption.value = cavefloorKeys[i];
                 cavefloor.appendChild(cavefloorOption);
             };
+            if (floorSelection){
+                cavefloor.value = floorSelection;
+            }
 
             initializeGenderButtons();
+            
+            //if gender param exists, update gender
+            var genderParam = new URLSearchParams(location.search).get('gender');
+            if (genderParam !== null) {
+                gender = genderParam;
+                switch (gender) {
+                    case "m":
+                        {
+                            maleButton.checked = true;
+                            break;
+                        }
+                    case "f":
+                        {
+                            femaleButton.checked = true;
+                            break;
+                        }
+                    case "n":
+                        {
+                            neutralButton.checked = true;
+                            break;
+                        }
+                    default:
+                        {
+                            maleButton.checked = true;
+                        }
+                }
+            }
+
             initializeStageButtons();
             changeDragonSprite();
+            if (bgSelection){
+                updateBackgroundUrl();
+            };
+            if (floorSelection) {
+                updateFloorUrl();
+            };
             //(okay, so we're gonna put a tiny timeout here for aura url params to work)
                 //(because Spine is being stupid for some reason)
             setTimeout(() => {
@@ -347,6 +450,38 @@
                 essenceLabel.classList.remove("disabledButton");
                 essenceLabel.setAttribute('aria-disabled', false);
             }
+
+            switch (stage){
+                case 'adult': {
+                    adultButton.checked = true;
+                    adultButton.setAttribute('aria-disabled', false);
+                    adultLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                case 'essence': {
+                    essenceButton.checked = true;
+                    essenceButton.setAttribute('aria-disabled', false);
+                    essenceLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                case 'hatchling': {
+                    hatchlingButton.checked = true;
+                    hatchlingButton.setAttribute('aria-disabled', false);
+                    hatchlingLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                case 'hatch': {
+                    hatchButton.checked = true;
+                    hatchButton.setAttribute('aria-disabled', false);
+                    hatchLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                default: {
+                    adultButton.checked = true;
+                    adultButton.setAttribute('aria-disabled', false);
+                    adultLabel.setAttribute('aria-disabled', false);
+                }
+            }
         }
         
         //enable only the valid gender buttons
@@ -369,6 +504,8 @@
             
             //get keys for current species' genders
             var genderKeys = Object.keys(speciesJson[speciesName].stage[stage].forms[formNumber].genders);
+
+            
 
             //enable all valid keys
             for (var i = 0; i < genderKeys.length; i++){
@@ -527,7 +664,7 @@
         //well, you wanted backgrounds, so...
         function updateBackgroundUrl() {
            //get background url parts
-            var bgSelection = cavebgJson[cavebg.value].res;
+            bgSelection = cavebgJson[cavebg.value].res;
 
             if (canvases.background) {
                 canvases.background.dispose();
@@ -551,7 +688,7 @@
 
         function updateFloorUrl() {
                 //get background url parts
-                var floorSelection = cavefloorJson[cavefloor.value].res;
+                floorSelection = cavefloorJson[cavefloor.value].res;
 
                 if (canvases.floor) {
                     canvases.floor.dispose();
@@ -570,6 +707,34 @@
                         app: new SpineObject(floorurl, floorState)
                     });
                 }
+            }
+
+        function copySharelink() {
+                // initialize shareLink with required values
+                var shareLink = `https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/?species=${speciesName}&form=${formNumber}&gender=${gender}&stage=${stage}`
+
+                //add optional values
+                if (personalityName !== null){
+                    shareLink = shareLink + `&personality=${personalityName}`;
+                }
+                if (cavebg.value !== '[None]') {
+                    shareLink = shareLink + `&bg=${cavebg.value}`;
+                }
+                if (cavefloor.value !== '[None]') {
+                    shareLink = shareLink + `&floor=${cavefloor.value}`;
+                }
+                if (personalityName === "My Own"){
+                    shareLink = shareLink + `&front=${myownfront.value}&back=${myownback.value}&frontcolour=${myownfrontcolour.value}&backcolour=${myownbackcolour.value}`;
+                }
+                else if (personalityName === "My Heart"){
+                    shareLink = shareLink + `&front=${myheartfront.value}&back=${myheartback.value}&frontcolour=${myheartfrontcolour.value}&backcolour=${myheartbackcolour.value}`;
+                }
+
+                // copy sharelink
+                navigator.clipboard.writeText(shareLink);
+
+                // alert for copied sharelink
+                alert("Copied!");
             }
 
     </script>
@@ -661,6 +826,8 @@
             <input type="radio" name="floor" value="" id="floorstop" onchange="setfloorState(this.value)" />
             <label for="floorstop" id="floorstopLabel">Stop</label>
         </div>
+        <br>
+        <input type="image" onclick="copySharelink()" src="./res/img/link_0202.png" width="40px" alt="Copy Sharelink"></input>
     </div>
 
     <div class="center-container">
