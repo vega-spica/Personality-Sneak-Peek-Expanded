@@ -1,0 +1,12 @@
+bluesnakedragon_bg_02.png
+size:984,404
+filter:Linear,Linear
+background_flowers
+bounds:564,2,400,392
+rotate:90
+background_main
+bounds:2,2,400,560
+rotate:90
+flying_leaf
+bounds:958,366,36,24
+rotate:90

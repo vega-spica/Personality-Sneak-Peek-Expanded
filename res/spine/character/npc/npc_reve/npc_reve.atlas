@@ -1,0 +1,16 @@
+npc_reve.png
+size:726,1108
+filter:Linear,Linear
+angry
+bounds:2,2,184,164
+happy
+bounds:560,148,184,164
+rotate:90
+npc_reve
+bounds:2,334,684,772
+sad
+bounds:374,168,184,164
+special1
+bounds:188,168,184,164
+surprise
+bounds:2,168,184,164
