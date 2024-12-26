@@ -734,7 +734,12 @@
                 navigator.clipboard.writeText(shareLink);
 
                 // alert for copied sharelink
-                alert("Copied!");
+                var alert = document.getElementById("buttonAlert");
+                alert.style.display = "block";
+
+                setTimeout(()=> {
+                    alert.style.display = "none";
+                }, 2500);
             }
 
     </script>
@@ -828,6 +833,8 @@
         </div>
         <br>
         <input type="image" onclick="copySharelink()" src="./res/img/link_0202.png" width="40px" alt="Copy Sharelink"></input>
+        <br>
+        <p id="buttonAlert">Copied!</p>
     </div>
 
     <div class="center-container">

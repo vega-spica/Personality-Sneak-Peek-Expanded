@@ -257,6 +257,10 @@ select:focus {
   position: relative;
 }
 
+#buttonAlert {
+  display: none;
+}
+
 /* nifty radio buttons. yes, they're nifty. */
 #genderRadios label {
   cursor: pointer;
