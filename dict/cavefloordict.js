@@ -23,6 +23,12 @@ const cavefloorJson = {
     "Arca's Execution Hall": {
         "res": "executor/executor_floor_01/executor_floor_01"
     },
+    /*"Blue Snake Dragon": {
+        "res": "bluesnakedragon/bluesnakedragon_floor_01/bluesnakedragon_floor_01"
+    },
+    "Blue Snake Dragon (Special)": {
+        "res": "bluesnakedragon/bluesnakedragon_floor_02/bluesnakedragon_floor_02"
+    },*/
     "Clavis": {
         "res": "clavis/clavis_floor_01/clavis_floor_01"
     },

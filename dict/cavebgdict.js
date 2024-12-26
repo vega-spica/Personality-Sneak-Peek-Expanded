@@ -23,6 +23,12 @@ const cavebgJson = {
     "Arca's Execution Hall": {
         "res": "executor/executor_bg_01/executor_bg_01"
     },
+    /*"Blue Snake Dragon": {
+        "res": "bluesnakedragon/bluesnakedragon_bg_01/bluesnakedragon_bg_01"
+    },
+    "Blue Snake Dragon (Special)": {
+        "res": "bluesnakedragon/bluesnakedragon_bg_02/bluesnakedragon_bg_02"
+    },*/
     "Clavis" : {
         "res": "clavis/clavis_bg_01/clavis_bg_01"
     },
