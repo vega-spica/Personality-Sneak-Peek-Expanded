@@ -731,6 +731,7 @@
                 }
 
                 // copy sharelink
+                shareLink = shareLink.replace(/ /g,"%20");
                 navigator.clipboard.writeText(shareLink);
 
                 // alert for copied sharelink
