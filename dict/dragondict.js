@@ -12510,7 +12510,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -12544,7 +12544,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -12578,7 +12578,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -12765,7 +12765,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "gy"
@@ -12799,7 +12799,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "gy"
@@ -12833,7 +12833,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "gy"
@@ -12979,7 +12979,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "y"
@@ -13013,7 +13013,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "y"
@@ -13047,7 +13047,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "y"
@@ -13083,7 +13083,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "n": {
                 "color": "w"
@@ -13111,7 +13111,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "n": {
                 "color": "w"
@@ -13139,7 +13139,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "n": {
                 "color": "w"
@@ -13175,7 +13175,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "r"
@@ -13209,7 +13209,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "r"
@@ -13243,7 +13243,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "r"
@@ -20939,7 +20939,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "w"
@@ -20973,7 +20973,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "w"
@@ -21007,7 +21007,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "w"
@@ -26044,7 +26044,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "w"
@@ -26078,7 +26078,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "w"
@@ -26112,7 +26112,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "w"
@@ -30198,7 +30198,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "w"
@@ -30232,7 +30232,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "w"
@@ -30266,7 +30266,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "w"
@@ -32861,7 +32861,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -32895,7 +32895,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -32929,7 +32929,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Oblivion",
+            "formDisplay": "Illusion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -38048,7 +38048,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "bg"
@@ -38074,7 +38074,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "bg"
@@ -38100,7 +38100,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "bg"
@@ -40065,7 +40065,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -40099,7 +40099,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -40133,7 +40133,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -43885,7 +43885,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -43911,7 +43911,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -43937,7 +43937,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Illusion",
+            "formDisplay": "Oblivion",
             "genders": {
               "f": {
                 "color": "bk"
