@@ -175,6 +175,7 @@
             
             //create option tags for Forms
             var formKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms);
+            formKeys = formKeys.sort();
             for (var i = 0; i < formKeys.length; i++){
                 formOption = document.createElement("option");
                 formOption.innerText = speciesJson[speciesName].stage["adult"].forms[formKeys[i]].formDisplay;
@@ -390,7 +391,8 @@
                 adultButton.checked = true;
                 form.innerHTML = "";
                 var formKeys = Object.keys(speciesJson[speciesName].stage[stage].forms);
-
+                formKeys = formKeys.sort();
+                
                 for (var i = 0; i < formKeys.length; i++){
                     formOption = document.createElement("option");
                         formOption.innerText = speciesJson[speciesName].stage[stage].forms[formKeys[i]].formDisplay;						
