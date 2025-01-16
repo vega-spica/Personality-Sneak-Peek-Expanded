@@ -6239,11 +6239,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "10": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "bluesnakedragon_n_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "bluesnakedragon_signature_s_adult_w"
               }
             }
           }
