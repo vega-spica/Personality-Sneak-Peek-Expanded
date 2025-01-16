@@ -92,6 +92,11 @@ const personalityJson = {
 		"back" : "aura_b_black",
 		"front" : ""
 	},
+	"Changing": {
+		"each": "aura_s_growth_evolving",
+		"back": "back_b",
+		"front": "front_b"
+	},
 	"Chaotic" : {
 		"back" : "aura_s_blackblue",
 		"front" : "aura_s_blackblue"
@@ -158,6 +163,11 @@ const personalityJson = {
 	"Dawn" : {
 		"back" : "aura_a2_white",
 		"front" : "a2_whitegold"
+	},
+	"Developing": {
+		"each": "aura_s_growth_evolving",
+		"back": "back_a",
+		"front": "front_a"
 	},
 	"Distorted Liberated": {
 		"each": "aura_s_liberated",
