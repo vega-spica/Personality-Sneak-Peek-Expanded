@@ -59,6 +59,12 @@ const cavefloorJson = {
     "Halloween 2023": {
         "res": "halloween_2023/halloween_2023_floor_01/halloween_2023_floor_01"
     },
+    /*"Hatsya": {
+        "res": "hatsya/hatsya_floor_01/hatsya_floor_01"
+    },
+    "Hatsya (Special)": {
+        "res": "hatsya/hatsya_floor_02/hatsya_floor_02"
+    },*/
     "Janus": {
         "res": "janus/janus_floor_01/janus_floor_01"
     },

@@ -62,6 +62,12 @@ const cavebgJson = {
     "Happy Memory Signature Background": {
         "res": "signature_2024/signature_2024_bg_02/signature_2024_bg_02"
     },
+    /*"Hatsya": {
+        "res": "hatsya/hatsya_bg_01/hatsya_bg_01"
+    },
+    "Hatsya (Special)": {
+        "res": "hatsya/hatsya_bg_02/hatsya_bg_02"
+    },*/
     "Janus": {
         "res": "janus/janus_bg_01/janus_bg_01"
     },
