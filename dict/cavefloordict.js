@@ -2,6 +2,9 @@ const cavefloorJson = {
     "[None]": {
         "res": "none"
     },
+    /*"2025 Premium Membership Slate": {
+        "res": "vip_2025/vip_2025_floor_01/vip_2025_floor_01"
+    },*/
     "Aftea": {
         "res": "aftea/aftea_floor_01/aftea_floor_01"
     },
