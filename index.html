@@ -139,6 +139,8 @@
             adultLabel = document.getElementById("adultLabel");
             essenceButton = document.getElementById("essence");
             essenceLabel = document.getElementById("essenceLabel");
+            prismButton = document.getElementById("prism");
+            prismLabel = document.getElementById("prismLabel");
             myownfront = document.getElementById("myownfront");
             myownfrontcolour = document.getElementById("myownfrontcolour");
             myownback = document.getElementById("myownback");
@@ -424,14 +426,18 @@
             hatchlingButton.setAttribute('aria-disabled', true);
             essenceButton.disabled = true;
             essenceButton.setAttribute('aria-disabled', true);
+            prismButton.disabled = true;
+            prismButton.setAttribute('aria-disabled', true);
 
-            //add disabled class to hatch, hatchling, and essence labels
+            //add disabled class to hatch, hatchling, essence, and prism labels
             hatchLabel.classList.add("disabledButton");
             hatchLabel.setAttribute('aria-disabled', true);
             hatchlingLabel.classList.add("disabledButton");
             hatchlingLabel.setAttribute('aria-disabled', true);
             essenceLabel.classList.add("disabledButton");
             essenceLabel.setAttribute('aria-disabled', true);
+            prismLabel.classList.add("disabledButton");
+            prismLabel.setAttribute('aria-disabled', true);
 
             //enable valid buttons
             if (speciesJson[speciesName].stage['hatch'] !== undefined && speciesJson[speciesName].stage['hatch'].forms[formNumber] !== undefined){
@@ -452,6 +458,13 @@
                 essenceLabel.classList.remove("disabledButton");
                 essenceLabel.setAttribute('aria-disabled', false);
             }
+            if (speciesJson[speciesName].stage['prism'] !== undefined && speciesJson[speciesName].stage['prism'].forms[formNumber] !== undefined) {
+                prismButton.disabled = false;
+                prismButton.setAttribute('aria-disabled', false);
+                prismLabel.classList.remove("disabledButton");
+                prismLabel.setAttribute('aria-disabled', false);
+            }
+
 
             switch (stage){
                 case 'adult': {
@@ -464,6 +477,12 @@
                     essenceButton.checked = true;
                     essenceButton.setAttribute('aria-disabled', false);
                     essenceLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                case 'prism': {
+                    prismButton.checked = true;
+                    prismButton.setAttribute('aria-disabled', false);
+                    prismLabel.setAttribute('aria-disabled', false);
                     break;
                 }
                 case 'hatchling': {
@@ -940,9 +959,14 @@
             <label for="adult" id="adultLabel" aria-disabled="false">
                 <img src="./res/img/stage_adult.png" alt="adult selection">
             </label>
+            <br>
             <input type="radio" name="stage" value="essence" id="essence" onchange="setStage(this.value)" />
             <label for="essence" id="essenceLabel" aria-disabled="false">
                 <img src="./res/img/stage_essence.png" alt="essence selection">
+            </label>
+            <input type="radio" name="stage" value="prism" id="prism" onchange="setStage(this.value)" />
+            <label for="prism" id="prismLabel" aria-disabled="false">
+                <img src="./res/img/stage_prism.png" alt="prism selection">
             </label>
         </div>
         <br>
