@@ -753,6 +753,8 @@
 
                 // copy sharelink
                 shareLink = shareLink.replace(/ /g,"%20");
+                shareLink = shareLink.replace(/\[/g, "%5B");
+                shareLink = shareLink.replace(/\]/g, "%5D");
                 navigator.clipboard.writeText(shareLink);
 
                 // alert for copied sharelink
