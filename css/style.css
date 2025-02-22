@@ -10,45 +10,46 @@ and now that you have the cool font, i can force you to use it!
 		that would be sad, wouldn't it?
 */
 body {
-  font-family: 'NotoSans',sans-serif;
-  text-shadow:2px 2px 4px black;
+  font-family: 'NotoSans', sans-serif;
+  text-shadow: 2px 2px 4px black;
   letter-spacing: 0.px;
-  background-color: rgba(47,34,26,1.0);
+  background-color: rgba(47, 34, 26, 1.0);
   background-image: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/Background.png");
   background-size: 100%;
 }
 
-a { 
-    color: skyblue;
+a {
+  color: skyblue;
 }
 
-a:link, a:visited {
-    color: skyblue;
+a:link,
+a:visited {
+  color: skyblue;
 }
 
 a:hover {
-    color: #dd4343;
-	cursor: pointer;
+  color: #dd4343;
+  cursor: pointer;
 }
 
 /* hic sunt dracones */
 .spineCanvas {
-    width: 800%;
-    height: 400%;
-    position: absolute;
-    transform: translate(-50%, -0%);
+  width: 800%;
+  height: 400%;
+  position: absolute;
+  transform: translate(-50%, -0%);
 }
 
 .auraBackCanvas {
-    z-index: -1;
-    padding: 100% 100% 100% 100%;
-    margin-top: 120%;
+  z-index: -1;
+  padding: 100% 100% 100% 100%;
+  margin-top: 120%;
 }
 
 .dragonCanvas {
-    z-index: 0;
-    padding: 100% 100% 100% 100%;
-    margin-top: 120%;
+  z-index: 0;
+  padding: 100% 100% 100% 100%;
+  margin-top: 120%;
 }
 
 /* frame. FRAME!!! */
@@ -67,59 +68,59 @@ a:hover {
 }
 
 .backgroundCanvas {
-    z-index: -3;
-    width: 800%;
-    height: 400%;
-    position: absolute;
+  z-index: -3;
+  width: 800%;
+  height: 400%;
+  position: absolute;
 
 }
 
 .floorCanvas {
-    width: 800%;
-    height: 400%;
-    position: absolute;
-    margin-top: 42%;
-    z-index: -2;
+  width: 800%;
+  height: 400%;
+  position: absolute;
+  margin-top: 42%;
+  z-index: -2;
 }
 
 /* why is everything such a pain to center?!? */
 .grid-container {
   display: grid;
   justify-content: center;
-  height:250px;
+  height: 250px;
 }
 
 .grid-item {
-  position:relative;
+  position: relative;
   text-align: center;
-	height: 200px;
-	width: 100px;
+  height: 200px;
+  width: 100px;
 }
 
 /* i had to restyle this WHOLE site just to add backgrounds... */
-    /* never again... */
+/* never again... */
 .left-container {
-    color: #c0cc83;
-    max-width: 450px;
-    font-size: 15px;
-    text-align: right;
-    line-height: 20px;
-    position: relative;
-    padding-top: 17%;
-    padding-left: 10%;
-    z-index: 2;
+  color: #c0cc83;
+  max-width: 450px;
+  font-size: 15px;
+  text-align: right;
+  line-height: 20px;
+  position: relative;
+  padding-top: 17%;
+  padding-left: 10%;
+  z-index: 2;
 }
 
 .right-container {
-    color: #c0cc83;
-    max-width: 450px;
-    font-size: 15px;
-    text-align: center;
-    line-height: 20px;
-    position: relative;
-    padding-top: 17%;
-    padding-right: 8%;
-    z-index: 2;
+  color: #c0cc83;
+  max-width: 450px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  position: relative;
+  padding-top: 17%;
+  padding-right: 8%;
+  z-index: 2;
 }
 
 .center-container {
@@ -161,23 +162,23 @@ a:hover {
 
 /* totally for the header bar at the top */
 .header {
-	color:white;
-	text-align: center;
+  color: white;
+  text-align: center;
   font-family: "NotoSans";
   font-size: 14px;
-	position: relative;
-	z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 /* footer, now with 33% more feet. */
 .footer {
-    color: #dfc690;
-    text-align: center;
-    font-family: 'NotoSans', sans-serif;
-    font-size: 14px;
-    padding-top: 85%;
-    position: relative;
-    z-index: 2;
+  color: #dfc690;
+  text-align: center;
+  font-family: 'NotoSans', sans-serif;
+  font-size: 14px;
+  padding-top: 85%;
+  position: relative;
+  z-index: 2;
 }
 
 /* new fancy dropdowns~ */
@@ -192,8 +193,8 @@ select {
   width: 205px;
   padding: .5em 3.5em .5em .75em;
 
-/* clears out the default arrows. because ew, defaults. */
-  margin: 0;      
+  /* clears out the default arrows. because ew, defaults. */
+  margin: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -239,6 +240,7 @@ select:focus {
 
 #myownselect {
   display: none;
+
   select {
     width: 100px;
   }
@@ -246,6 +248,7 @@ select:focus {
 
 #myheartselect {
   display: none;
+
   select {
     width: 100px;
   }
@@ -275,24 +278,24 @@ select:focus {
 }
 
 #stageRadios label {
-    cursor: pointer;
-    position: relative;
-    vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
 }
 
 #stageRadios label img {
-    cursor: pointer;
-    position: relative;
-    vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
 }
 
 input[type='radio'] {
-    accent-color: #blue;
+  accent-color: #blue;
 }
 
 /* disappearing gender buttons are also nifty. */
-.disabledButton{
-	opacity: 0.3;
+.disabledButton {
+  opacity: 0.3;
 }
 
 /* in the dragon world, genders have tooltips. */
@@ -307,7 +310,7 @@ input[type='radio'] {
   right: 0;
   opacity: 0.75;
   background-color: #323232;
-  color: #fff;  
+  color: #fff;
   padding: 3px;
   border-radius: 4px;
   display: block;
@@ -315,11 +318,11 @@ input[type='radio'] {
 
 /* would you like that giftwrapped? */
 .wrapper {
-	max-width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 16px;
-	padding-right: 16px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
   display: flex;
   flex-direction: row;
 }
@@ -367,12 +370,55 @@ input[type='radio'] {
   }
 }
 
+/*even NEWER dropdowns*/
+.dropdown {
+  position: relative;
+  width: 205px;
+  color: #000000;
+  background-color: #f0f0f0;
+  border: thin solid black;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: left;
+  text-shadow: none;
+  font-size: 12px;
+  z-index: 3;
+}
+
+.search-box {
+  width: 100%;
+  border-radius: 4px;
+  padding: .5em 3.5em .5em .75em;
+  background: #f0f0f0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  background: #f0f0f0;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.dropdown-content div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-content div:hover {
+  background: #f0f0f0;
+}
+
 /* and for those of us at 150% because we can't see */
 @media (min-resolution: 125dpi) {
-	.spineCanvas {
-		width: 550%;
-		height: 280%;
-	}
+  .spineCanvas {
+    width: 550%;
+    height: 280%;
+  }
 
   .auraBackCanvas {
     padding: 70% 70% 70% 70%;
@@ -393,15 +439,15 @@ input[type='radio'] {
     margin-top: 28%;
   }
 
-	#dragon-image {
-  margin-top: 65%;
+  #dragon-image {
+    margin-top: 65%;
   }
 
   .left-container {
     padding-left: 2%;
   }
 
-  .right-container{
+  .right-container {
     padding-right: 0%;
   }
 

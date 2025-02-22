@@ -882,8 +882,6 @@
             <img id="dragon-image">
         </div>
         
-        
-   
         <!--initial blank back aura canvas is loaded on page open-->
         <script type="text/javascript">
             let loadSpineAuraBackAura = function() { 
@@ -920,7 +918,13 @@
         <div class="species-container">
             <!--selection for species where entries are appended-->
             <b>Species</b>&nbsp;
-            <select id="species" name="species" onchange="updateSpecies();">
+            <div class="dropdown">
+                <input type="text" class="search-box" id="search" placeholder="Search..." onkeyup="filterFunction()"
+                    onfocus="showAll()">
+                <div class="dropdown-content" id="dropdown"></div>
+            </div>
+            
+            <select id="species" name="species" style="display: none;" onchange="updateSpecies();">
             </select>
             <br><br>
 
@@ -928,6 +932,77 @@
             <b>Form</b>&nbsp;
             <select id="form" name="form" onchange="updateForm();">
             </select>
+
+            <script>
+                //okay, okay, i get it. you want a searchbar.
+                    //you get ONE searchbar.
+                function populateDropdown() {
+                    let select = document.getElementById("species");
+                    let dropdown = document.getElementById("dropdown");
+                    dropdown.innerHTML = ""; // wipe existing options
+
+                    for (let option of select.options) {
+                        let div = document.createElement("div");
+                        div.textContent = option.text;
+                        div.setAttribute("data-value", option.value);
+                        div.onclick = function () {
+                            document.getElementById("search").value = this.textContent;
+                            document.getElementById("species").value = this.getAttribute("data-value");
+                            document.getElementById("dropdown").style.display = "none";
+                            updateSpecies();
+                        };
+                        dropdown.appendChild(div);
+                    }
+                }
+
+                // show all options on focus 
+                    //"onclick" was not cooperating, so we fired them.
+                function showAll() {
+                    let dropdown = document.getElementById("dropdown");
+                    let items = dropdown.getElementsByTagName("div");
+                    dropdown.style.display = "block";
+
+                    for (let i = 0; i < items.length; i++) {
+                        items[i].style.display = "block";
+                    }
+                }
+
+                // filter options
+                function filterFunction() {
+                    let input = document.getElementById("search");
+                    let filter = input.value.toLowerCase();
+                    let dropdown = document.getElementById("dropdown");
+                    let items = dropdown.getElementsByTagName("div");
+                    dropdown.style.display = filter ? "block" : "none";
+
+                    for (let i = 0; i < items.length; i++) {
+                        let txtValue = items[i].textContent || items[i].innerText;
+                        items[i].style.display = txtValue.toLowerCase().includes(filter) ? "block" : "none";
+                    }
+                }
+
+                // close dropdown on outside click
+                document.addEventListener("click", function (event) {
+                    let dropdown = document.getElementById("dropdown");
+                    let searchBox = document.getElementById("search");
+                    if (!searchBox.contains(event.target) && !dropdown.contains(event.target)) {
+                        dropdown.style.display = "none";
+                    }
+                });
+
+                // observe species changes and update dropdown
+                function observeSpeciesChanges() {
+                    let speciesSelect = document.getElementById("species");
+
+                    new MutationObserver(() => {
+                        populateDropdown(); // re-populate dropdown when new species are added
+                    }).observe(speciesSelect, { childList: true });
+                }
+
+                // initialize dropdown list, observe species changes
+                populateDropdown();
+                observeSpeciesChanges();
+            </script>
         </div>
         <br><br>
 
