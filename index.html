@@ -920,7 +920,7 @@
             <b>Species</b>&nbsp;
             <div class="dropdown">
                 <input type="text" class="search-box" id="search" placeholder="Search..." onkeyup="filterFunction()"
-                    onfocus="showAll()">
+                    onfocus="onFocusHandler()">
                 <div class="dropdown-content" id="dropdown"></div>
             </div>
             
@@ -956,7 +956,7 @@
                 }
 
                 // show all options on focus 
-                    //"onclick" was not cooperating, so we fired them.
+                    //"onclick" was not cooperating, so i fired them.
                 function showAll() {
                     let dropdown = document.getElementById("dropdown");
                     let items = dropdown.getElementsByTagName("div");
@@ -966,6 +966,11 @@
                         items[i].style.display = "block";
                     }
                 }
+
+                // select searchbox text on focus (if there is already text present)
+                    function selectText() {
+                        document.getElementById("search").select();
+                    }
 
                 // filter options
                 function filterFunction() {
@@ -1002,6 +1007,12 @@
                 // initialize dropdown list, observe species changes
                 populateDropdown();
                 observeSpeciesChanges();
+
+                // select all text and show all options on focus
+                    function onFocusHandler() {
+                        selectText();
+                        showAll();
+                    }
             </script>
         </div>
         <br><br>
