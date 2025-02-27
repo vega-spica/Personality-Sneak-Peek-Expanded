@@ -485,6 +485,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Surreal": {
+		"each": "aura_s_magical",
+		"back": "back",
+		"front": "front"
+	},
 	"Talented" : {
 		"back" : "aura_s_game_b",
 		"front" : "aura_s_game_b"

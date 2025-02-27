@@ -47,6 +47,12 @@ const cavefloorJson = {
     "Eshu": {
         "res": "eshu/eshu_floor_01/eshu_floor_01"
     },
+    "Everness": {
+        "res": "everness/everness_floor_01/everness_floor_01"
+    },
+    "Everness (Special)": {
+        "res": "everness/everness_floor_02/everness_floor_02"
+    },
     "Feruna": {
         "res": "feruna/feruna_floor_01/feruna_floor_01"
     },

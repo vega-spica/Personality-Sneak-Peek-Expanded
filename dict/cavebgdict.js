@@ -44,6 +44,12 @@ const cavebgJson = {
     "Eshu": {
         "res": "eshu/eshu_bg_01/eshu_bg_01"
     },
+    "Everness": {
+        "res": "everness/everness_bg_01/everness_bg_01"
+    },
+    "Everness (Special)": {
+        "res": "everness/everness_bg_02/everness_bg_02"
+    },
     "Feruna": {
         "res": "feruna/feruna_bg_01/feruna_bg_01"
     },

@@ -8391,8 +8391,8 @@ const speciesJson = {
       }
     }
   },
-  "cherubim": {
-    "speciesDisplay": "Cherubim",
+  "chubbycatdragon": {
+    "speciesDisplay": "Chubby Cat Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -8408,24 +8408,21 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Celestial",
+            "formDisplay": "Snooze",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "w"
               },
               "m": {
-                "color": "bk"
+                "color": "w"
               }
             }
           },
-          "03": {
-            "formDisplay": "Inactive",
+          "undead": {
+            "formDisplay": "Undead",
             "genders": {
-              "f": {
-                "color": "w"
-              },
-              "m": {
-                "color": "w"
+              "n": {
+                "undeadres": "muscle_w_hatch_w"
               }
             }
           }
@@ -8445,24 +8442,21 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Celestial",
+            "formDisplay": "Snooze",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "w"
               },
               "m": {
-                "color": "bk"
+                "color": "w"
               }
             }
           },
-          "03": {
-            "formDisplay": "Inactive",
+          "undead": {
+            "formDisplay": "Undead",
             "genders": {
-              "f": {
-                "color": "w"
-              },
-              "m": {
-                "color": "w"
+              "n": {
+                "undeadres": "muscle_w_hatchling_w"
               }
             }
           }
@@ -8482,24 +8476,21 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Celestial",
+            "formDisplay": "Snooze",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "w"
               },
               "m": {
-                "color": "bk"
+                "color": "w"
               }
             }
           },
-          "03": {
-            "formDisplay": "Inactive",
+          "undead": {
+            "formDisplay": "Undead",
             "genders": {
-              "f": {
-                "color": "w"
-              },
-              "m": {
-                "color": "w"
+              "n": {
+                "undeadres": "muscle_w_adult_w"
               }
             }
           }
@@ -15017,6 +15008,344 @@ const speciesJson = {
       }
     }
   },
+  "everness": {
+    "speciesDisplay": "Everness",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Eternal Life Form",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Eternal Friendship Form",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Eternal Bond Form",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Eternal Mystery Form",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Eternal Life Form",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Eternal Friendship Form",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Eternal Bond Form",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Eternal Mystery Form",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Eternal Life Form",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Eternal Friendship Form",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Eternal Bond Form",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Eternal Mystery Form",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Eternal Life Form",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Eternal Friendship Form",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Eternal Bond Form",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Eternal Mystery Form",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Eternal Life Form",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Eternal Friendship Form",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Eternal Bond Form",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Eternal Mystery Form",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Eternal Life Form",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Eternal Friendship Form",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Eternal Bond Form",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Eternal Mystery Form",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "fairydragon": {
     "speciesDisplay": "Fairy Dragon",
     "stage": {
@@ -15150,6 +15479,80 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "fairymushroomdragon": {
+    "speciesDisplay": "Fairy Mushroom Dragon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_adult_w"
               }
             }
           }
