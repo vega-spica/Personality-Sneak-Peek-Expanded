@@ -44893,6 +44893,21 @@ const speciesJson = {
             }
           }
         }
+      },
+      "essence": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -46190,6 +46205,32 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "essence": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "g"
+              },
+              "m": {
+                "color": "g"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Maple Swamp",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
               }
             }
           }
