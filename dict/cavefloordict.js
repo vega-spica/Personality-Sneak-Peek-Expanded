@@ -26,6 +26,9 @@ const cavefloorJson = {
     "Arca's Execution Hall": {
         "res": "executor/executor_floor_01/executor_floor_01"
     },
+    /*"Balance of the Universe": {
+        "res": "equilibrial/equilibrial_floor_01/equilibrial_floor_01"
+    },*/
     /*"Blue Snake Dragon": {
         "res": "bluesnakedragon/bluesnakedragon_floor_01/bluesnakedragon_floor_01"
     },
@@ -59,6 +62,12 @@ const cavefloorJson = {
     "Feruna (Special)": {
         "res": "feruna/feruna_floor_02/feruna_floor_02"
     },
+    /*"Firewall": {
+        "res": "firewall/firewall_floor_01/firewall_floor_01"
+    },
+    "Firewall (Special)": {
+        "res": "firewall/firewall_floor_02/firewall_floor_02"
+    },*/
     "Frostina": {
         "res": "frostina/frostina_floor_01/frostina_floor_01"
     },

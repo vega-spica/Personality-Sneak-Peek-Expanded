@@ -23,6 +23,9 @@ const cavebgJson = {
     "Arca's Execution Hall": {
         "res": "executor/executor_bg_01/executor_bg_01"
     },
+    /*"Balance of the Universe": {
+        "res": "equilibrial/equilibrial_bg_01/equilibrial_bg_01"
+    },*/
     /*"Blue Snake Dragon": {
         "res": "bluesnakedragon/bluesnakedragon_bg_01/bluesnakedragon_bg_01"
     },
@@ -56,6 +59,12 @@ const cavebgJson = {
     "Feruna (Special)": {
         "res": "feruna/feruna_bg_02/feruna_bg_02"
     },
+    /*"Firewall": {
+        "res": "firewall/firewall_bg_01/firewall_bg_01"
+    },
+    "Firewall (Special)": {
+        "res": "firewall/firewall_bg_02/firewall_bg_02"
+    },*/
     "Frostina": {
         "res": "frostina/frostina_bg_01/frostina_bg_01"
     },
