@@ -3344,6 +3344,17 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
           }
         }
       }
@@ -6046,6 +6057,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
               }
             }
           },
@@ -9296,6 +9318,17 @@ const speciesJson = {
         "forms": {
           "01": {
             "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Balance",
             "genders": {
               "f": {
                 "color": "b"
@@ -13889,6 +13922,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -15462,6 +15506,71 @@ const speciesJson = {
       }
     }
   },
+  "evillady": {
+    "speciesDisplay": "Evil Lady",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "f": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "f": {
+                "undeadres": "muscle_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "f": {
+                "undeadres": "muscle_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "fairydragon": {
     "speciesDisplay": "Fairy Dragon",
     "stage": {
@@ -16561,6 +16670,320 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "firewall": {
+    "speciesDisplay": "Firewall",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Firewall",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Vaccine",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Tracking",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Bug",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Firewall",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Vaccine",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Tracking",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Bug",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Firewall",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Vaccine",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Tracking",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Bug",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Firewall",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Vaccine",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Tracking",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Bug",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Firewall",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Vaccine",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Tracking",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Bug",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Firewall",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Vaccine",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Tracking",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Bug",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
               }
             }
           }
@@ -20441,6 +20864,17 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
           }
         }
       }
@@ -21612,6 +22046,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "yr"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           }
@@ -23586,6 +24031,17 @@ const speciesJson = {
               }
             }
           },
+          "04": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
           "undead01": {
             "formDisplay": "Undead",
             "genders": {
@@ -23665,6 +24121,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "pb"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           },
@@ -24470,6 +24937,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
               }
             }
           },
@@ -25315,6 +25793,56 @@ const speciesJson = {
             "genders": {
               "f": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lagtail": {
+    "speciesDisplay": "Lagtail",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
               }
             }
           }
@@ -28399,6 +28927,17 @@ const speciesJson = {
               }
             }
           },
+          "03": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -31039,6 +31578,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -31265,6 +31815,28 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Balance",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -31285,6 +31857,28 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Balance",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           },
@@ -31312,7 +31906,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Balance",
             "genders": {
               "f": {
                 "color": "w"
@@ -31323,7 +31917,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "03",
+            "formDisplay": "Prism Balance",
             "genders": {
               "f": {
                 "color": "bk"
@@ -31346,7 +31940,7 @@ const speciesJson = {
       "prism": {
         "forms": {
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Balance",
             "genders": {
               "f": {
                 "color": "w"
@@ -31357,7 +31951,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "03",
+            "formDisplay": "Prism Balance",
             "genders": {
               "f": {
                 "color": "bk"
@@ -33572,6 +34166,89 @@ const speciesJson = {
       }
     }
   },
+  "novella": {
+    "speciesDisplay": "Novella",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Eternal Symbiosis",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Eternal Symbiosis",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Eternal Symbiosis",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "nox": {
     "speciesDisplay": "Nox",
     "stage": {
@@ -33812,6 +34489,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "r"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
               }
             }
           },
@@ -40629,6 +41317,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -42718,6 +43417,17 @@ const speciesJson = {
           },
           "02": {
             "formDisplay": "Festival",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Balance",
             "genders": {
               "f": {
                 "color": "w"
@@ -50113,6 +50823,17 @@ const speciesJson = {
               }
             }
           },
+          "03": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -50141,6 +50862,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -50161,6 +50893,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "p"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           },
@@ -50188,7 +50931,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Balance",
             "genders": {
               "f": {
                 "color": "w"
@@ -52804,6 +53547,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -52834,6 +53588,17 @@ const speciesJson = {
                 "undeadres": "dragon_w_hatchling_w"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
           }
         }
       },
@@ -52851,7 +53616,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Balance",
             "genders": {
               "f": {
                 "color": "w"
@@ -53118,6 +53883,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Balance",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -53132,6 +53908,17 @@ const speciesJson = {
         "forms": {
           "01": {
             "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Balance",
             "genders": {
               "f": {
                 "color": "bk"
@@ -53165,7 +53952,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "02",
+            "formDisplay": "Balance",
             "genders": {
               "f": {
                 "color": "bk"
