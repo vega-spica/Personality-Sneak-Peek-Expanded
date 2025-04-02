@@ -1,6 +1,6 @@
 const speciesJson = {
   "dummydragon": {
-    "speciesDisplay": "[Dummy Dwagon]",
+    "speciesDisplay": "[Dummy Dragon]",
     "stage": {
       "adult": {
         "forms": {
@@ -124,7 +124,7 @@ const speciesJson = {
     }
   },
   "abvalle": {
-    "speciesDisplay": "Ab Valley",
+    "speciesDisplay": "Abvalle",
     "stage": {
       "hatch": {
         "forms": {
@@ -503,7 +503,7 @@ const speciesJson = {
     }
   },
   "aftea": {
-    "speciesDisplay": "AFTY",
+    "speciesDisplay": "Aftea",
     "stage": {
       "hatch": {
         "forms": {
@@ -833,7 +833,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -867,7 +867,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -901,7 +901,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -1114,7 +1114,7 @@ const speciesJson = {
     }
   },
   "alien": {
-    "speciesDisplay": "Alien Dwagon",
+    "speciesDisplay": "Alien Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -1255,7 +1255,7 @@ const speciesJson = {
     }
   },
   "altarzero": {
-    "speciesDisplay": "Altair Zero",
+    "speciesDisplay": "Altar Zero",
     "stage": {
       "hatch": {
         "forms": {
@@ -1519,7 +1519,7 @@ const speciesJson = {
     }
   },
   "anemone": {
-    "speciesDisplay": "Anemone (Blanket)",
+    "speciesDisplay": "Anemone",
     "stage": {
       "hatch": {
         "forms": {
@@ -1799,7 +1799,7 @@ const speciesJson = {
     }
   },
   "angel": {
-    "speciesDisplay": "Angel Dwagon",
+    "speciesDisplay": "Angel Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -2084,7 +2084,7 @@ const speciesJson = {
     }
   },
   "animala": {
-    "speciesDisplay": "Animara",
+    "speciesDisplay": "Animala",
     "stage": {
       "hatch": {
         "forms": {
@@ -2282,7 +2282,7 @@ const speciesJson = {
     }
   },
   "applecheek": {
-    "speciesDisplay": "Apple Chick",
+    "speciesDisplay": "Applecheek",
     "stage": {
       "hatch": {
         "forms": {
@@ -2393,7 +2393,7 @@ const speciesJson = {
     }
   },
   "aquadragon": {
-    "speciesDisplay": "Aqua Dwagon",
+    "speciesDisplay": "Aqua Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -2560,7 +2560,7 @@ const speciesJson = {
     }
   },
   "arcaangeldragon": {
-    "speciesDisplay": "Arca Angel Dwagon",
+    "speciesDisplay": "Arca Angel Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -2740,7 +2740,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "yr"
@@ -2774,7 +2774,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "yr"
@@ -2808,7 +2808,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "yr"
@@ -2847,7 +2847,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "b"
@@ -2881,7 +2881,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "b"
@@ -2915,7 +2915,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "b"
@@ -3435,7 +3435,7 @@ const speciesJson = {
     }
   },
   "avernale": {
-    "speciesDisplay": "Abernayle",
+    "speciesDisplay": "Avernale",
     "stage": {
       "hatch": {
         "forms": {
@@ -3811,7 +3811,7 @@ const speciesJson = {
     }
   },
   "babydarknix": {
-    "speciesDisplay": "Baby Dark Knicks",
+    "speciesDisplay": "Baby Darknix",
     "stage": {
       "adult": {
         "forms": {
@@ -3831,7 +3831,7 @@ const speciesJson = {
     }
   },
   "babygoddragon": {
-    "speciesDisplay": "Baby God Dwagon",
+    "speciesDisplay": "Baby God Dragon",
     "stage": {
       "adult": {
         "forms": {
@@ -3999,7 +3999,7 @@ const speciesJson = {
     }
   },
   "balod": {
-    "speciesDisplay": "Foot Road",
+    "speciesDisplay": "Balod",
     "stage": {
       "hatch": {
         "forms": {
@@ -4049,7 +4049,7 @@ const speciesJson = {
     }
   },
   "balrog": {
-    "speciesDisplay": "Barlog",
+    "speciesDisplay": "Balrog",
     "stage": {
       "hatch": {
         "forms": {
@@ -4363,7 +4363,7 @@ const speciesJson = {
     }
   },
   "bato": {
-    "speciesDisplay": "Batto",
+    "speciesDisplay": "Bato",
     "stage": {
       "hatch": {
         "forms": {
@@ -4486,7 +4486,7 @@ const speciesJson = {
     }
   },
   "beardeddragon": {
-    "speciesDisplay": "Bearded Dwagon",
+    "speciesDisplay": "Bearded Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -4513,7 +4513,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Ice King Queendom",
+            "formDisplay": "Ice Kingdom",
             "genders": {
               "f": {
                 "color": "b"
@@ -4580,7 +4580,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Ice King Queendom",
+            "formDisplay": "Ice Kingdom",
             "genders": {
               "f": {
                 "color": "b"
@@ -4647,7 +4647,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Ice King Queendom",
+            "formDisplay": "Ice Kingdom",
             "genders": {
               "f": {
                 "color": "b"
@@ -4692,7 +4692,7 @@ const speciesJson = {
     }
   },
   "beastroar": {
-    "speciesDisplay": "Bistroer",
+    "speciesDisplay": "Beast Roar",
     "stage": {
       "hatch": {
         "forms": {
@@ -4859,7 +4859,7 @@ const speciesJson = {
     }
   },
   "berris": {
-    "speciesDisplay": "Berrys",
+    "speciesDisplay": "Berris",
     "stage": {
       "hatch": {
         "forms": {
@@ -4933,7 +4933,7 @@ const speciesJson = {
     }
   },
   "biblos": {
-    "speciesDisplay": "Byblos",
+    "speciesDisplay": "Biblos",
     "stage": {
       "hatch": {
         "forms": {
@@ -5277,7 +5277,7 @@ const speciesJson = {
     }
   },
   "blackdragon": {
-    "speciesDisplay": "Black Dwagon",
+    "speciesDisplay": "Black Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -5354,7 +5354,7 @@ const speciesJson = {
     }
   },
   "blackholedragon": {
-    "speciesDisplay": "Black Hole Dwagon",
+    "speciesDisplay": "Black Hole Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -5428,7 +5428,7 @@ const speciesJson = {
     }
   },
   "bladedragon": {
-    "speciesDisplay": "Blade Dwagon",
+    "speciesDisplay": "Blade Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -5502,7 +5502,7 @@ const speciesJson = {
     }
   },
   "puffergoldie": {
-    "speciesDisplay": "Pufferfish Goldie",
+    "speciesDisplay": "Blowfish Goldie",
     "stage": {
       "hatch": {
         "forms": {
@@ -5595,7 +5595,7 @@ const speciesJson = {
     }
   },
   "bluebirdberris": {
-    "speciesDisplay": "Blue Bird Berrys",
+    "speciesDisplay": "Blue Bird Berris",
     "stage": {
       "hatch": {
         "forms": {
@@ -5669,7 +5669,7 @@ const speciesJson = {
     }
   },
   "bluecharacen": {
-    "speciesDisplay": "Blue Karasun",
+    "speciesDisplay": "Blue Characen",
     "stage": {
       "hatch": {
         "forms": {
@@ -5743,7 +5743,7 @@ const speciesJson = {
     }
   },
   "blue": {
-    "speciesDisplay": "Blue Dwagon",
+    "speciesDisplay": "Blue Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -5851,7 +5851,7 @@ const speciesJson = {
     }
   },
   "blueamberdragon": {
-    "speciesDisplay": "Blue Amber Dwagon",
+    "speciesDisplay": "Blue Amber Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -5999,7 +5999,7 @@ const speciesJson = {
     }
   },
   "bluelightning": {
-    "speciesDisplay": "Blue Lightning Dwagon",
+    "speciesDisplay": "Blue Lightning Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -6084,7 +6084,7 @@ const speciesJson = {
     }
   },
   "bluesnakedragon": {
-    "speciesDisplay": "Blue Snake Dwagon",
+    "speciesDisplay": "Blue Snake Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -6530,7 +6530,7 @@ const speciesJson = {
     }
   },
   "bomberdragon": {
-    "speciesDisplay": "Bomber Dwagon",
+    "speciesDisplay": "Bomber Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -6780,7 +6780,7 @@ const speciesJson = {
     }
   },
   "bubbledragon": {
-    "speciesDisplay": "Bubble Dwagon",
+    "speciesDisplay": "Bubble Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -6854,7 +6854,7 @@ const speciesJson = {
     }
   },
   "burnesce": {
-    "speciesDisplay": "Burns",
+    "speciesDisplay": "Burnesce",
     "stage": {
       "hatch": {
         "forms": {
@@ -6928,7 +6928,7 @@ const speciesJson = {
     }
   },
   "cactusdragon": {
-    "speciesDisplay": "Cactus Dwagon",
+    "speciesDisplay": "Cactus Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -7024,7 +7024,7 @@ const speciesJson = {
     }
   },
   "caleuche": {
-    "speciesDisplay": "Calesh",
+    "speciesDisplay": "Caleuche",
     "stage": {
       "hatch": {
         "forms": {
@@ -7131,7 +7131,7 @@ const speciesJson = {
     }
   },
   "caretakerbluedragon": {
-    "speciesDisplay": "Caretaker Blue Dwagon",
+    "speciesDisplay": "Caretaker Blue Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -7247,7 +7247,7 @@ const speciesJson = {
     }
   },
   "caretakerdarknix": {
-    "speciesDisplay": "Caretaker Dark Knicks",
+    "speciesDisplay": "Caretaker Darknix",
     "stage": {
       "hatch": {
         "forms": {
@@ -7341,7 +7341,7 @@ const speciesJson = {
     }
   },
   "keepergoddragon": {
-    "speciesDisplay": "Caretaker Gosin",
+    "speciesDisplay": "Caretaker God Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -7435,7 +7435,7 @@ const speciesJson = {
     }
   },
   "caslux": {
-    "speciesDisplay": "Casslux",
+    "speciesDisplay": "Caslux",
     "stage": {
       "hatch": {
         "forms": {
@@ -7509,7 +7509,7 @@ const speciesJson = {
     }
   },
   "castigue": {
-    "speciesDisplay": "Castigar",
+    "speciesDisplay": "Castigue",
     "stage": {
       "hatch": {
         "forms": {
@@ -7649,7 +7649,7 @@ const speciesJson = {
     }
   },
   "catsgon": {
-    "speciesDisplay": "Cat Dwagon",
+    "speciesDisplay": "Cat Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -7756,7 +7756,7 @@ const speciesJson = {
     }
   },
   "celsior": {
-    "speciesDisplay": "Celsiore",
+    "speciesDisplay": "Celsior",
     "stage": {
       "hatch": {
         "forms": {
@@ -7830,7 +7830,7 @@ const speciesJson = {
     }
   },
   "centipededragon": {
-    "speciesDisplay": "Gyeah",
+    "speciesDisplay": "Centipede Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -8044,7 +8044,7 @@ const speciesJson = {
     }
   },
   "chameleondragon": {
-    "speciesDisplay": "For Chameleon",
+    "speciesDisplay": "Chameleon Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -8118,7 +8118,7 @@ const speciesJson = {
     }
   },
   "chaosfear": {
-    "speciesDisplay": "Chaos Sphere",
+    "speciesDisplay": "Chaos Fear",
     "stage": {
       "hatch": {
         "forms": {
@@ -8201,7 +8201,7 @@ const speciesJson = {
     }
   },
   "chaosjanerr": {
-    "speciesDisplay": "Chaos Journal",
+    "speciesDisplay": "Chaos Janerr",
     "stage": {
       "hatch": {
         "forms": {
@@ -8266,7 +8266,7 @@ const speciesJson = {
     }
   },
   "characen": {
-    "speciesDisplay": "Karasun",
+    "speciesDisplay": "Characen",
     "stage": {
       "hatch": {
         "forms": {
@@ -8340,7 +8340,7 @@ const speciesJson = {
     }
   },
   "charlottedragon": {
-    "speciesDisplay": "Charlotte Dwagon",
+    "speciesDisplay": "Charlotte Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -8414,7 +8414,7 @@ const speciesJson = {
     }
   },
   "cherubim": {
-    "speciesDisplay": "Cherub",
+    "speciesDisplay": "Cherubim",
     "stage": {
       "hatch": {
         "forms": {
@@ -8530,7 +8530,7 @@ const speciesJson = {
     }
   },
   "chubbycatdragon": {
-    "speciesDisplay": "Chubby Cat Dwagon",
+    "speciesDisplay": "Chubby Cat Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -8711,7 +8711,7 @@ const speciesJson = {
     }
   },
   "circledragon": {
-    "speciesDisplay": "Circle Dwagon",
+    "speciesDisplay": "Circle Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -9089,7 +9089,7 @@ const speciesJson = {
     }
   },
   "cleio": {
-    "speciesDisplay": "Clayo",
+    "speciesDisplay": "Cleio",
     "stage": {
       "hatch": {
         "forms": {
@@ -9205,7 +9205,7 @@ const speciesJson = {
     }
   },
   "clockworkdragon": {
-    "speciesDisplay": "Clockwork Dwagon",
+    "speciesDisplay": "Clockwork Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -9266,7 +9266,7 @@ const speciesJson = {
     }
   },
   "cloud": {
-    "speciesDisplay": "Cloud Dwagon",
+    "speciesDisplay": "Cloud Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -9366,7 +9366,7 @@ const speciesJson = {
     }
   },
   "cobradragon": {
-    "speciesDisplay": "Cobra Dwagon",
+    "speciesDisplay": "Cobra Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -9514,7 +9514,7 @@ const speciesJson = {
     }
   },
   "cometdragon": {
-    "speciesDisplay": "Comet Dwagon",
+    "speciesDisplay": "Comet Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -9588,7 +9588,7 @@ const speciesJson = {
     }
   },
   "coralnessiebig": {
-    "speciesDisplay": "Coral Nesivic",
+    "speciesDisplay": "Coral Nessiebig",
     "stage": {
       "adult": {
         "forms": {
@@ -9753,7 +9753,7 @@ const speciesJson = {
     }
   },
   "cotty": {
-    "speciesDisplay": "Coty",
+    "speciesDisplay": "Cotty",
     "stage": {
       "hatch": {
         "forms": {
@@ -9827,7 +9827,7 @@ const speciesJson = {
     }
   },
   "cozydragon": {
-    "speciesDisplay": "Sundunggon",
+    "speciesDisplay": "Cozy Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -9912,7 +9912,7 @@ const speciesJson = {
     }
   },
   "cratio": {
-    "speciesDisplay": "Crateio",
+    "speciesDisplay": "Cratio",
     "stage": {
       "hatch": {
         "forms": {
@@ -10052,7 +10052,7 @@ const speciesJson = {
     }
   },
   "cresteddragon": {
-    "speciesDisplay": "Crested Dwagon",
+    "speciesDisplay": "Crested Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -10373,7 +10373,7 @@ const speciesJson = {
     }
   },
   "cuanade": {
-    "speciesDisplay": "Quaneed",
+    "speciesDisplay": "Cuanade",
     "stage": {
       "hatch": {
         "forms": {
@@ -10597,7 +10597,7 @@ const speciesJson = {
     }
   },
   "cupifriend": {
-    "speciesDisplay": "Cupi Friend Friend's Friend",
+    "speciesDisplay": "Cupi Friend",
     "stage": {
       "hatch": {
         "forms": {
@@ -10737,7 +10737,7 @@ const speciesJson = {
     }
   },
   "cursereaper": {
-    "speciesDisplay": "Cursor Ripper",
+    "speciesDisplay": "Curse Reaper",
     "stage": {
       "hatch": {
         "forms": {
@@ -10861,7 +10861,7 @@ const speciesJson = {
     }
   },
   "darkangeldragon": {
-    "speciesDisplay": "Dark Angel Dwagon",
+    "speciesDisplay": "Dark Angel Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -10951,7 +10951,7 @@ const speciesJson = {
     }
   },
   "darkcloud": {
-    "speciesDisplay": "Dark Cloud Dwagon",
+    "speciesDisplay": "Dark Cloud Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -11025,7 +11025,7 @@ const speciesJson = {
     }
   },
   "darkgoddragon": {
-    "speciesDisplay": "Gosin of Darkness",
+    "speciesDisplay": "Dark God Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -11099,7 +11099,7 @@ const speciesJson = {
     }
   },
   "darklightningdragon": {
-    "speciesDisplay": "Dark Lightning Dwagon",
+    "speciesDisplay": "Dark Lightning Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -11173,7 +11173,7 @@ const speciesJson = {
     }
   },
   "darknix": {
-    "speciesDisplay": "Dark Knicks",
+    "speciesDisplay": "Darknix",
     "stage": {
       "hatch": {
         "forms": {
@@ -11355,7 +11355,7 @@ const speciesJson = {
     }
   },
   "deathriver": {
-    "speciesDisplay": "Death Reaver",
+    "speciesDisplay": "Death River",
     "stage": {
       "hatch": {
         "forms": {
@@ -11429,7 +11429,7 @@ const speciesJson = {
     }
   },
   "deepbluepurplelips": {
-    "speciesDisplay": "Deep Blue The Square is too crowded to join.",
+    "speciesDisplay": "Deep Blue Purple Lips",
     "stage": {
       "hatch": {
         "forms": {
@@ -11602,7 +11602,7 @@ const speciesJson = {
     }
   },
   "deepseawaterdragon": {
-    "speciesDisplay": "Deep Sea Water Dwagon",
+    "speciesDisplay": "Deep Sea Water Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -12009,7 +12009,7 @@ const speciesJson = {
     }
   },
   "devilgon": {
-    "speciesDisplay": "Devil Dwagon",
+    "speciesDisplay": "Devil Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -12083,7 +12083,7 @@ const speciesJson = {
     }
   },
   "dianu": {
-    "speciesDisplay": "Diane",
+    "speciesDisplay": "Dianu",
     "stage": {
       "hatch": {
         "forms": {
@@ -12223,7 +12223,7 @@ const speciesJson = {
     }
   },
   "dilrang": {
-    "speciesDisplay": "Dylan",
+    "speciesDisplay": "Dilrang",
     "stage": {
       "hatch": {
         "forms": {
@@ -12297,7 +12297,7 @@ const speciesJson = {
     }
   },
   "dimensiondragon": {
-    "speciesDisplay": "Dimension Dwagon",
+    "speciesDisplay": "Dimension Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -12404,7 +12404,7 @@ const speciesJson = {
     }
   },
   "disguisechameleondragon": {
-    "speciesDisplay": "For Disguise Chameleon",
+    "speciesDisplay": "Disguise Chameleon Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -12618,7 +12618,7 @@ const speciesJson = {
     }
   },
   "dragonoid": {
-    "speciesDisplay": "Dwagonoid",
+    "speciesDisplay": "Dragonoid",
     "stage": {
       "hatch": {
         "forms": {
@@ -12668,7 +12668,7 @@ const speciesJson = {
     }
   },
   "dragonoidsoul": {
-    "speciesDisplay": "Dwagonoid Soul",
+    "speciesDisplay": "Dragonoid Soul",
     "stage": {
       "hatch": {
         "forms": {
@@ -12718,7 +12718,7 @@ const speciesJson = {
     }
   },
   "dragonslayer": {
-    "speciesDisplay": "Dwagon Slayer",
+    "speciesDisplay": "Dragon Slayer",
     "stage": {
       "hatch": {
         "forms": {
@@ -12801,7 +12801,7 @@ const speciesJson = {
     }
   },
   "dreamcatsgon": {
-    "speciesDisplay": "Dream Cat Dwagon",
+    "speciesDisplay": "Dream Cat Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -12982,7 +12982,7 @@ const speciesJson = {
     }
   },
   "dreamwaterdragon": {
-    "speciesDisplay": "Dream Water Dwagon",
+    "speciesDisplay": "Dream Water Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -13466,7 +13466,7 @@ const speciesJson = {
     }
   },
   "dreamweaverlambdragon": {
-    "speciesDisplay": "Dreamweaver Lamb Dwagon",
+    "speciesDisplay": "Dreamweaver Lamb Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -13573,7 +13573,7 @@ const speciesJson = {
     }
   },
   "dummbbluedragon": {
-    "speciesDisplay": "Dumbo Blue Dwagon",
+    "speciesDisplay": "Dumbo Blue Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -13721,7 +13721,7 @@ const speciesJson = {
     }
   },
   "eclipesdragon": {
-    "speciesDisplay": "Eclipse Dwagon",
+    "speciesDisplay": "Eclipse Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -13861,7 +13861,7 @@ const speciesJson = {
     }
   },
   "eelosdragon": {
-    "speciesDisplay": "Ilos",
+    "speciesDisplay": "Eelos Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -13946,7 +13946,7 @@ const speciesJson = {
     }
   },
   "egg": {
-    "speciesDisplay": "Egg Dwagon",
+    "speciesDisplay": "Egg Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -14067,7 +14067,7 @@ const speciesJson = {
     }
   },
   "eggmayodragon": {
-    "speciesDisplay": "For Eggma",
+    "speciesDisplay": "Egg Mayo Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -14161,7 +14161,7 @@ const speciesJson = {
     }
   },
   "elderlydragon": {
-    "speciesDisplay": "Elderly Dwagon",
+    "speciesDisplay": "Elderly Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -14342,7 +14342,7 @@ const speciesJson = {
     }
   },
   "emerald": {
-    "speciesDisplay": "Emerald Dwagon",
+    "speciesDisplay": "Emerald Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -14466,7 +14466,7 @@ const speciesJson = {
     }
   },
   "enokidragon": {
-    "speciesDisplay": "Enoki Dwagon",
+    "speciesDisplay": "Enoki Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -14680,7 +14680,7 @@ const speciesJson = {
     }
   },
   "eos": {
-    "speciesDisplay": "EOS",
+    "speciesDisplay": "Eos",
     "stage": {
       "hatch": {
         "forms": {
@@ -15053,7 +15053,7 @@ const speciesJson = {
     }
   },
   "esperer": {
-    "speciesDisplay": "Espel",
+    "speciesDisplay": "Esperer",
     "stage": {
       "hatch": {
         "forms": {
@@ -15169,7 +15169,7 @@ const speciesJson = {
     }
   },
   "everness": {
-    "speciesDisplay": "Eberness",
+    "speciesDisplay": "Everness",
     "stage": {
       "hatch": {
         "forms": {
@@ -15572,7 +15572,7 @@ const speciesJson = {
     }
   },
   "fairydragon": {
-    "speciesDisplay": "Fairy Dwagon",
+    "speciesDisplay": "Fairy Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -15712,7 +15712,7 @@ const speciesJson = {
     }
   },
   "fairymushroomdragon": {
-    "speciesDisplay": "Fairy Mushroom Dwagon",
+    "speciesDisplay": "Fairy Mushroom Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -15786,7 +15786,7 @@ const speciesJson = {
     }
   },
   "fat": {
-    "speciesDisplay": "Pat",
+    "speciesDisplay": "Fat",
     "stage": {
       "hatch": {
         "forms": {
@@ -15919,7 +15919,7 @@ const speciesJson = {
     }
   },
   "feros": {
-    "speciesDisplay": "Peros",
+    "speciesDisplay": "Feros",
     "stage": {
       "hatch": {
         "forms": {
@@ -16059,7 +16059,7 @@ const speciesJson = {
     }
   },
   "feruna": {
-    "speciesDisplay": "Peru",
+    "speciesDisplay": "Feruna",
     "stage": {
       "hatch": {
         "forms": {
@@ -16241,7 +16241,7 @@ const speciesJson = {
     }
   },
   "feyrex": {
-    "speciesDisplay": "Payrex",
+    "speciesDisplay": "Feyrex",
     "stage": {
       "hatch": {
         "forms": {
@@ -16422,7 +16422,7 @@ const speciesJson = {
     }
   },
   "fireghostdragon": {
-    "speciesDisplay": "Fire Ghost Dwagon",
+    "speciesDisplay": "Fire Ghost Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -16496,7 +16496,7 @@ const speciesJson = {
     }
   },
   "fire": {
-    "speciesDisplay": "Fire Dwagon",
+    "speciesDisplay": "Fire Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -16604,7 +16604,7 @@ const speciesJson = {
     }
   },
   "firetail": {
-    "speciesDisplay": "Firefly",
+    "speciesDisplay": "Firetail",
     "stage": {
       "hatch": {
         "forms": {
@@ -16678,7 +16678,7 @@ const speciesJson = {
     }
   },
   "firewall": {
-    "speciesDisplay": "FireWOL",
+    "speciesDisplay": "Firewall",
     "stage": {
       "hatch": {
         "forms": {
@@ -16992,7 +16992,7 @@ const speciesJson = {
     }
   },
   "flamedragon": {
-    "speciesDisplay": "Flame Dwagon",
+    "speciesDisplay": "Flame Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -17066,7 +17066,7 @@ const speciesJson = {
     }
   },
   "fleecyclouddragon": {
-    "speciesDisplay": "Fleecy Cloud Dwagon",
+    "speciesDisplay": "Fleecy Cloud Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -17190,7 +17190,7 @@ const speciesJson = {
     }
   },
   "flowerdragon": {
-    "speciesDisplay": "Flower Dwagon",
+    "speciesDisplay": "Flower Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -17283,7 +17283,7 @@ const speciesJson = {
     }
   },
   "prohibitedwitchdragon": {
-    "speciesDisplay": "The Forbidden Witch Dwagon",
+    "speciesDisplay": "Forbidden Witch Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -17481,7 +17481,7 @@ const speciesJson = {
     }
   },
   "frankensteindragon": {
-    "speciesDisplay": "Frankenstein Dwagon",
+    "speciesDisplay": "Frankenstein Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -17531,7 +17531,7 @@ const speciesJson = {
     }
   },
   "frog": {
-    "speciesDisplay": "Frog Dwagon",
+    "speciesDisplay": "Frog Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -17752,7 +17752,7 @@ const speciesJson = {
     }
   },
   "frostbluedragon": {
-    "speciesDisplay": "Frost Blue Dwagon",
+    "speciesDisplay": "Frost Blue Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -17826,7 +17826,7 @@ const speciesJson = {
     }
   },
   "frost": {
-    "speciesDisplay": "Bingo",
+    "speciesDisplay": "Frost Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -17934,7 +17934,7 @@ const speciesJson = {
     }
   },
   "frostina": {
-    "speciesDisplay": "King Queen Prostina",
+    "speciesDisplay": "Frostina",
     "stage": {
       "hatch": {
         "forms": {
@@ -17950,7 +17950,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_Ice King Queen",
+            "formDisplay": "P_Ice King",
             "genders": {
               "f": {
                 "color": "b"
@@ -17961,7 +17961,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_Ancient King Queen",
+            "formDisplay": "P_Ancient King",
             "genders": {
               "f": {
                 "color": "bk"
@@ -17972,7 +17972,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_Jade King Queen",
+            "formDisplay": "P_Jade King",
             "genders": {
               "f": {
                 "color": "gy"
@@ -17983,7 +17983,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_Blessed King Queen",
+            "formDisplay": "P_Blessed King",
             "genders": {
               "f": {
                 "color": "r"
@@ -17994,7 +17994,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Ice King Queen",
+            "formDisplay": "Ice King",
             "genders": {
               "f": {
                 "color": "b"
@@ -18005,7 +18005,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Ancient King Queen",
+            "formDisplay": "Ancient King",
             "genders": {
               "f": {
                 "color": "bk"
@@ -18016,7 +18016,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Jade King Queen",
+            "formDisplay": "Jade King",
             "genders": {
               "f": {
                 "color": "gy"
@@ -18027,7 +18027,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Blessed King Queen",
+            "formDisplay": "Blessed King",
             "genders": {
               "f": {
                 "color": "r"
@@ -18061,7 +18061,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_Ice King Queen",
+            "formDisplay": "P_Ice King",
             "genders": {
               "f": {
                 "color": "b"
@@ -18072,7 +18072,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_Ancient King Queen",
+            "formDisplay": "P_Ancient King",
             "genders": {
               "f": {
                 "color": "bk"
@@ -18083,7 +18083,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_Jade King Queen",
+            "formDisplay": "P_Jade King",
             "genders": {
               "f": {
                 "color": "gy"
@@ -18094,7 +18094,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_Blessed King Queen",
+            "formDisplay": "P_Blessed King",
             "genders": {
               "f": {
                 "color": "r"
@@ -18105,7 +18105,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Ice King Queen",
+            "formDisplay": "Ice King",
             "genders": {
               "f": {
                 "color": "b"
@@ -18116,7 +18116,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Ancient King Queen",
+            "formDisplay": "Ancient King",
             "genders": {
               "f": {
                 "color": "bk"
@@ -18127,7 +18127,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Jade King Queen Queen",
+            "formDisplay": "Jade King",
             "genders": {
               "f": {
                 "color": "gy"
@@ -18138,7 +18138,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Blessed King Queen",
+            "formDisplay": "Blessed King",
             "genders": {
               "f": {
                 "color": "r"
@@ -18172,7 +18172,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_Ice King Queen",
+            "formDisplay": "P_Ice King",
             "genders": {
               "f": {
                 "color": "b"
@@ -18183,7 +18183,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_Ancient King Queen",
+            "formDisplay": "P_Ancient King",
             "genders": {
               "f": {
                 "color": "bk"
@@ -18194,7 +18194,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_Jade King Queen",
+            "formDisplay": "P_Jade King",
             "genders": {
               "f": {
                 "color": "gy"
@@ -18205,7 +18205,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_Blessed King Queen",
+            "formDisplay": "P_Blessed King",
             "genders": {
               "f": {
                 "color": "r"
@@ -18216,7 +18216,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Ice King Queen",
+            "formDisplay": "Ice King",
             "genders": {
               "f": {
                 "color": "b"
@@ -18227,7 +18227,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Ancient King Queen",
+            "formDisplay": "Ancient King",
             "genders": {
               "f": {
                 "color": "bk"
@@ -18238,7 +18238,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Jade King Queen",
+            "formDisplay": "Jade King",
             "genders": {
               "f": {
                 "color": "gy"
@@ -18249,7 +18249,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Blessed King Queen",
+            "formDisplay": "Blessed King",
             "genders": {
               "f": {
                 "color": "r"
@@ -18288,7 +18288,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -18322,7 +18322,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -18356,7 +18356,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -18379,7 +18379,7 @@ const speciesJson = {
     }
   },
   "furfur": {
-    "speciesDisplay": "Purpur",
+    "speciesDisplay": "Furfur",
     "stage": {
       "hatch": {
         "forms": {
@@ -18726,7 +18726,7 @@ const speciesJson = {
     }
   },
   "gandharba": {
-    "speciesDisplay": "Gandharba",
+    "speciesDisplay": "Gandharva",
     "stage": {
       "hatch": {
         "forms": {
@@ -18800,7 +18800,7 @@ const speciesJson = {
     }
   },
   "gautlinggon": {
-    "speciesDisplay": "Gatling-Gun Dwagon",
+    "speciesDisplay": "Gatling-Gun Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -18874,7 +18874,7 @@ const speciesJson = {
     }
   },
   "ges": {
-    "speciesDisplay": "Guess",
+    "speciesDisplay": "Ges",
     "stage": {
       "hatch": {
         "forms": {
@@ -18998,7 +18998,7 @@ const speciesJson = {
     }
   },
   "girdletaildragon": {
-    "speciesDisplay": "Girdletail Dwagon",
+    "speciesDisplay": "Girdletail Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -19254,7 +19254,7 @@ const speciesJson = {
     }
   },
   "gmdragon": {
-    "speciesDisplay": "GM Dwagon (NPC)",
+    "speciesDisplay": "GM Dragon (NPC)",
     "stage": {
       "hatch": {
         "forms": {
@@ -19295,7 +19295,7 @@ const speciesJson = {
     }
   },
   "goblindragon": {
-    "speciesDisplay": "Wake up",
+    "speciesDisplay": "Goblin Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -19388,7 +19388,7 @@ const speciesJson = {
     }
   },
   "goddragon": {
-    "speciesDisplay": "Gosin",
+    "speciesDisplay": "God Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -19496,7 +19496,7 @@ const speciesJson = {
     }
   },
   "godquestiondragon": {
-    "speciesDisplay": "Go? The Great Dragon",
+    "speciesDisplay": "God? Dragon",
     "stage": {
       "adult": {
         "forms": {
@@ -19516,7 +19516,7 @@ const speciesJson = {
     }
   },
   "goddragonjr": {
-    "speciesDisplay": "Korea University Jr",
+    "speciesDisplay": "God Jr",
     "stage": {
       "hatch": {
         "forms": {
@@ -19655,7 +19655,7 @@ const speciesJson = {
     }
   },
   "gold": {
-    "speciesDisplay": "Gold Dwagon",
+    "speciesDisplay": "Gold Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -19738,7 +19738,7 @@ const speciesJson = {
     }
   },
   "goldenangeldragon": {
-    "speciesDisplay": "Golden Angel Dwagon",
+    "speciesDisplay": "Golden Angel Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -20210,7 +20210,7 @@ const speciesJson = {
     }
   },
   "gothrelia": {
-    "speciesDisplay": "Gosrelia",
+    "speciesDisplay": "Gothrelia",
     "stage": {
       "hatch": {
         "forms": {
@@ -20482,7 +20482,7 @@ const speciesJson = {
     }
   },
   "gust": {
-    "speciesDisplay": "Guest",
+    "speciesDisplay": "Gust",
     "stage": {
       "hatch": {
         "forms": {
@@ -20556,7 +20556,7 @@ const speciesJson = {
     }
   },
   "hacer": {
-    "speciesDisplay": "Aser",
+    "speciesDisplay": "Hacer",
     "stage": {
       "hatch": {
         "forms": {
@@ -21293,7 +21293,7 @@ const speciesJson = {
     }
   },
   "haze": {
-    "speciesDisplay": "Everything has possibilities!",
+    "speciesDisplay": "Haze",
     "stage": {
       "hatch": {
         "forms": {
@@ -21343,7 +21343,7 @@ const speciesJson = {
     }
   },
   "hedgebatdragon": {
-    "speciesDisplay": "Baddog Dwagon",
+    "speciesDisplay": "Hedgebat Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -21631,7 +21631,7 @@ const speciesJson = {
     }
   },
   "hell": {
-    "speciesDisplay": "Hell Dwagon",
+    "speciesDisplay": "Hell Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -21729,7 +21729,7 @@ const speciesJson = {
     }
   },
   "henes": {
-    "speciesDisplay": "Hennessy",
+    "speciesDisplay": "Henes",
     "stage": {
       "hatch": {
         "forms": {
@@ -21803,7 +21803,7 @@ const speciesJson = {
     }
   },
   "herculesdragon": {
-    "speciesDisplay": "Hercules Dwagon",
+    "speciesDisplay": "Hercules Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -21888,7 +21888,7 @@ const speciesJson = {
     }
   },
   "hosiery": {
-    "speciesDisplay": "Hogeri",
+    "speciesDisplay": "Hosiery",
     "stage": {
       "hatch": {
         "forms": {
@@ -22004,7 +22004,7 @@ const speciesJson = {
     }
   },
   "hourglassdragon": {
-    "speciesDisplay": "Hourglass Dwagon",
+    "speciesDisplay": "Hourglass Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -22065,7 +22065,7 @@ const speciesJson = {
     }
   },
   "hungrydragon": {
-    "speciesDisplay": "Hungry Dwagon",
+    "speciesDisplay": "Hungry Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -22081,7 +22081,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -22115,7 +22115,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -22149,7 +22149,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -22172,7 +22172,7 @@ const speciesJson = {
     }
   },
   "hurricane": {
-    "speciesDisplay": "Hurricane Dwagon",
+    "speciesDisplay": "Hurricane Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -22261,7 +22261,7 @@ const speciesJson = {
     }
   },
   "hydragon": {
-    "speciesDisplay": "Hydra Dwagon",
+    "speciesDisplay": "Hydra Dragon",
     "stage": {
       "hatchling": {
         "forms": {
@@ -22318,7 +22318,7 @@ const speciesJson = {
     }
   },
   "hyeonmu": {
-    "speciesDisplay": "Hyunnmoo",
+    "speciesDisplay": "Hyeonmu",
     "stage": {
       "hatch": {
         "forms": {
@@ -22721,7 +22721,7 @@ const speciesJson = {
     }
   },
   "iguagon": {
-    "speciesDisplay": "Iguana Dwagon",
+    "speciesDisplay": "Iguana Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -23001,7 +23001,7 @@ const speciesJson = {
     }
   },
   "insectdragon": {
-    "speciesDisplay": "Insect Dwagon",
+    "speciesDisplay": "Insect Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -23302,7 +23302,7 @@ const speciesJson = {
     }
   },
   "iron": {
-    "speciesDisplay": "Iron Dwagon",
+    "speciesDisplay": "Iron Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -23367,7 +23367,7 @@ const speciesJson = {
     }
   },
   "janerr": {
-    "speciesDisplay": "Journal",
+    "speciesDisplay": "Janerr",
     "stage": {
       "hatch": {
         "forms": {
@@ -23441,7 +23441,7 @@ const speciesJson = {
     }
   },
   "jango": {
-    "speciesDisplay": "Django",
+    "speciesDisplay": "Jango",
     "stage": {
       "hatch": {
         "forms": {
@@ -23926,7 +23926,7 @@ const speciesJson = {
     }
   },
   "jetdragon": {
-    "speciesDisplay": "Jet Dwagon",
+    "speciesDisplay": "Jet Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -24063,7 +24063,7 @@ const speciesJson = {
     }
   },
   "jima": {
-    "speciesDisplay": "Don't do it",
+    "speciesDisplay": "Jima",
     "stage": {
       "hatch": {
         "forms": {
@@ -24148,7 +24148,7 @@ const speciesJson = {
     }
   },
   "jimon": {
-    "speciesDisplay": "It's time",
+    "speciesDisplay": "Jimon",
     "stage": {
       "hatch": {
         "forms": {
@@ -24213,7 +24213,7 @@ const speciesJson = {
     }
   },
   "jujag": {
-    "speciesDisplay": "Forgery",
+    "speciesDisplay": "Jujak",
     "stage": {
       "hatch": {
         "forms": {
@@ -24287,7 +24287,7 @@ const speciesJson = {
     }
   },
   "jumpdragon": {
-    "speciesDisplay": "Jump Dwagon",
+    "speciesDisplay": "Jump Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -24361,7 +24361,7 @@ const speciesJson = {
     }
   },
   "kalavinka": {
-    "speciesDisplay": "Calavinka",
+    "speciesDisplay": "Kalavinka",
     "stage": {
       "hatch": {
         "forms": {
@@ -24435,7 +24435,7 @@ const speciesJson = {
     }
   },
   "kangkang": {
-    "speciesDisplay": "Gang gang",
+    "speciesDisplay": "Kangkang",
     "stage": {
       "hatch": {
         "forms": {
@@ -24509,7 +24509,7 @@ const speciesJson = {
     }
   },
   "kangarabbit": {
-    "speciesDisplay": "Kangaroo trading bit",
+    "speciesDisplay": "Kangarabbit",
     "stage": {
       "hatch": {
         "forms": {
@@ -24583,7 +24583,7 @@ const speciesJson = {
     }
   },
   "kangarano": {
-    "speciesDisplay": "Kangaroo & Rano",
+    "speciesDisplay": "Kanga & Rano",
     "stage": {
       "hatch": {
         "forms": {
@@ -24657,7 +24657,7 @@ const speciesJson = {
     }
   },
   "kanthaka": {
-    "speciesDisplay": "Cantaka",
+    "speciesDisplay": "Kanthaka",
     "stage": {
       "hatch": {
         "forms": {
@@ -24805,7 +24805,7 @@ const speciesJson = {
     }
   },
   "kelpswampdragon": {
-    "speciesDisplay": "Kelp Swamp Dwagon",
+    "speciesDisplay": "Kelp Swamp Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -24879,7 +24879,7 @@ const speciesJson = {
     }
   },
   "khan": {
-    "speciesDisplay": "Cannes",
+    "speciesDisplay": "Khan",
     "stage": {
       "hatch": {
         "forms": {
@@ -24964,7 +24964,7 @@ const speciesJson = {
     }
   },
   "khanmarino": {
-    "speciesDisplay": "Canmarino",
+    "speciesDisplay": "Khan Marino",
     "stage": {
       "hatch": {
         "forms": {
@@ -25186,7 +25186,7 @@ const speciesJson = {
     }
   },
   "klid": {
-    "speciesDisplay": "Clid",
+    "speciesDisplay": "Klid",
     "stage": {
       "hatch": {
         "forms": {
@@ -25326,7 +25326,7 @@ const speciesJson = {
     }
   },
   "knightdragon": {
-    "speciesDisplay": "Night Dwagon",
+    "speciesDisplay": "Knight Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -25548,7 +25548,7 @@ const speciesJson = {
     }
   },
   "laby": {
-    "speciesDisplay": "Ravi",
+    "speciesDisplay": "Laby",
     "stage": {
       "hatch": {
         "forms": {
@@ -25688,7 +25688,7 @@ const speciesJson = {
     }
   },
   "lady": {
-    "speciesDisplay": "Lady Dwagon",
+    "speciesDisplay": "Lady Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -26018,7 +26018,7 @@ const speciesJson = {
     }
   },
   "lambgon": {
-    "speciesDisplay": "Lamb Dwagon",
+    "speciesDisplay": "Lamb Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -26103,7 +26103,7 @@ const speciesJson = {
     }
   },
   "lattegon": {
-    "speciesDisplay": "Latte Dwagon",
+    "speciesDisplay": "Latte Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -26245,7 +26245,7 @@ const speciesJson = {
     }
   },
   "lauha": {
-    "speciesDisplay": "Laua",
+    "speciesDisplay": "Lauha",
     "stage": {
       "hatch": {
         "forms": {
@@ -26319,7 +26319,7 @@ const speciesJson = {
     }
   },
   "lava": {
-    "speciesDisplay": "Lava Dwagon",
+    "speciesDisplay": "Lava Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -26393,7 +26393,7 @@ const speciesJson = {
     }
   },
   "leafdragon": {
-    "speciesDisplay": "Leaf Dwagon",
+    "speciesDisplay": "Leaf Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -26467,7 +26467,7 @@ const speciesJson = {
     }
   },
   "leglien": {
-    "speciesDisplay": "Legion",
+    "speciesDisplay": "Leglien",
     "stage": {
       "hatch": {
         "forms": {
@@ -26532,7 +26532,7 @@ const speciesJson = {
     }
   },
   "leoparddragon": {
-    "speciesDisplay": "Leopard Dwagon",
+    "speciesDisplay": "Leopard Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -26903,7 +26903,7 @@ const speciesJson = {
     }
   },
   "librodragon": {
-    "speciesDisplay": "Libro Dwagon",
+    "speciesDisplay": "Libro Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -26977,7 +26977,7 @@ const speciesJson = {
     }
   },
   "lichmond": {
-    "speciesDisplay": "Richmond",
+    "speciesDisplay": "Lichmond",
     "stage": {
       "hatch": {
         "forms": {
@@ -27027,7 +27027,7 @@ const speciesJson = {
     }
   },
   "liferiver": {
-    "speciesDisplay": "Life Reaver",
+    "speciesDisplay": "Life River",
     "stage": {
       "hatch": {
         "forms": {
@@ -27101,7 +27101,7 @@ const speciesJson = {
     }
   },
   "lightdarknix": {
-    "speciesDisplay": "Light Dark Knicks",
+    "speciesDisplay": "Light Darknix",
     "stage": {
       "hatch": {
         "forms": {
@@ -27175,7 +27175,7 @@ const speciesJson = {
     }
   },
   "lightning": {
-    "speciesDisplay": "Burngo",
+    "speciesDisplay": "Lightning Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -27412,7 +27412,7 @@ const speciesJson = {
     }
   },
   "liondragon": {
-    "speciesDisplay": "Lygon",
+    "speciesDisplay": "Lion Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -27530,7 +27530,7 @@ const speciesJson = {
     }
   },
   "lios": {
-    "speciesDisplay": "Leos",
+    "speciesDisplay": "Lios",
     "stage": {
       "hatch": {
         "forms": {
@@ -27687,7 +27687,7 @@ const speciesJson = {
     }
   },
   "lololli": {
-    "speciesDisplay": "Rololi",
+    "speciesDisplay": "Lololli",
     "stage": {
       "hatch": {
         "forms": {
@@ -27761,7 +27761,7 @@ const speciesJson = {
     }
   },
   "lotusfiredragon": {
-    "speciesDisplay": "Lotus Fire Dwagon",
+    "speciesDisplay": "Lotus Fire Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -28099,7 +28099,7 @@ const speciesJson = {
     }
   },
   "luacheia": {
-    "speciesDisplay": "Luashea",
+    "speciesDisplay": "Luacheia",
     "stage": {
       "hatch": {
         "forms": {
@@ -28951,7 +28951,7 @@ const speciesJson = {
     }
   },
   "lusong": {
-    "speciesDisplay": "lusong",
+    "speciesDisplay": "Lusong",
     "stage": {
       "hatch": {
         "forms": {
@@ -29025,7 +29025,7 @@ const speciesJson = {
     }
   },
   "macarondragon": {
-    "speciesDisplay": "Macaron Dwagon",
+    "speciesDisplay": "Macaron Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -29075,7 +29075,7 @@ const speciesJson = {
     }
   },
   "maga": {
-    "speciesDisplay": "Marc",
+    "speciesDisplay": "Maga",
     "stage": {
       "hatch": {
         "forms": {
@@ -29149,7 +29149,7 @@ const speciesJson = {
     }
   },
   "mago": {
-    "speciesDisplay": "Margo",
+    "speciesDisplay": "Mago",
     "stage": {
       "hatch": {
         "forms": {
@@ -29288,7 +29288,7 @@ const speciesJson = {
     }
   },
   "magpiedragon": {
-    "speciesDisplay": "Magpie Dwagon",
+    "speciesDisplay": "Magpie Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -29872,7 +29872,7 @@ const speciesJson = {
     }
   },
   "maloden": {
-    "speciesDisplay": "Malodhan",
+    "speciesDisplay": "Maloden",
     "stage": {
       "hatch": {
         "forms": {
@@ -30044,7 +30044,7 @@ const speciesJson = {
     }
   },
   "maniacalpowerdragon": {
-    "speciesDisplay": "Maniacal Power Dwagon",
+    "speciesDisplay": "Maniacal Power Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -30127,7 +30127,7 @@ const speciesJson = {
     }
   },
   "manimekalai": {
-    "speciesDisplay": "Manimekalai",
+    "speciesDisplay": "Manimekhala",
     "stage": {
       "hatch": {
         "forms": {
@@ -30143,7 +30143,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "r"
@@ -30177,7 +30177,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "r"
@@ -30211,7 +30211,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "r"
@@ -30352,7 +30352,7 @@ const speciesJson = {
     }
   },
   "mapledragon": {
-    "speciesDisplay": "Maple Dwagon",
+    "speciesDisplay": "Maple Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -30739,7 +30739,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -30773,7 +30773,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -30807,7 +30807,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "bk"
@@ -31022,7 +31022,7 @@ const speciesJson = {
     }
   },
   "metal": {
-    "speciesDisplay": "Metal Dwagon",
+    "speciesDisplay": "Metal Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -31105,7 +31105,7 @@ const speciesJson = {
     }
   },
   "meteordragon": {
-    "speciesDisplay": "Meteor Dwagon",
+    "speciesDisplay": "Meteor Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -31750,7 +31750,7 @@ const speciesJson = {
     }
   },
   "mistdragon": {
-    "speciesDisplay": "MIST DWAGON",
+    "speciesDisplay": "Mist Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -32073,7 +32073,7 @@ const speciesJson = {
     }
   },
   "mud": {
-    "speciesDisplay": "Mud Dwagon",
+    "speciesDisplay": "Mud Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -32138,7 +32138,7 @@ const speciesJson = {
     }
   },
   "mummydragon": {
-    "speciesDisplay": "Mummy Dwagon",
+    "speciesDisplay": "Mummy Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -32328,7 +32328,7 @@ const speciesJson = {
     }
   },
   "mushroom": {
-    "speciesDisplay": "Mushroom Dwagon",
+    "speciesDisplay": "Mushroom Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -32421,7 +32421,7 @@ const speciesJson = {
     }
   },
   "mushroomknight": {
-    "speciesDisplay": "Mushroom Night",
+    "speciesDisplay": "Mushroom Knight",
     "stage": {
       "hatch": {
         "forms": {
@@ -32495,7 +32495,7 @@ const speciesJson = {
     }
   },
   "musicdragon": {
-    "speciesDisplay": "Music Dwagon",
+    "speciesDisplay": "Music Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -32840,7 +32840,7 @@ const speciesJson = {
     }
   },
   "naga": {
-    "speciesDisplay": "Get out",
+    "speciesDisplay": "Naga",
     "stage": {
       "hatch": {
         "forms": {
@@ -32856,7 +32856,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -32890,7 +32890,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -32924,7 +32924,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -32997,7 +32997,7 @@ const speciesJson = {
     }
   },
   "nakir": {
-    "speciesDisplay": "Kyle Room",
+    "speciesDisplay": "Nakir",
     "stage": {
       "hatch": {
         "forms": {
@@ -33252,7 +33252,7 @@ const speciesJson = {
     }
   },
   "neondragon": {
-    "speciesDisplay": "Neon Dwagon",
+    "speciesDisplay": "Neon Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -33400,7 +33400,7 @@ const speciesJson = {
     }
   },
   "nessie": {
-    "speciesDisplay": "4 o'clock",
+    "speciesDisplay": "Nessie",
     "stage": {
       "hatch": {
         "forms": {
@@ -33507,7 +33507,7 @@ const speciesJson = {
     }
   },
   "nessiebig": {
-    "speciesDisplay": "Nesivic",
+    "speciesDisplay": "Nessiebig",
     "stage": {
       "adult": {
         "forms": {
@@ -33680,7 +33680,7 @@ const speciesJson = {
     }
   },
   "nightmarelucio": {
-    "speciesDisplay": "Lucio of nightmare",
+    "speciesDisplay": "Nightmare Lucio",
     "stage": {
       "hatch": {
         "forms": {
@@ -33754,7 +33754,7 @@ const speciesJson = {
     }
   },
   "ninjadragon": {
-    "speciesDisplay": "Ninja Dwagon",
+    "speciesDisplay": "Ninja Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -33828,7 +33828,7 @@ const speciesJson = {
     }
   },
   "ninmunia": {
-    "speciesDisplay": "Ninmmnia",
+    "speciesDisplay": "Ninmunia",
     "stage": {
       "hatch": {
         "forms": {
@@ -34051,7 +34051,7 @@ const speciesJson = {
     }
   },
   "non": {
-    "speciesDisplay": "Rice Field",
+    "speciesDisplay": "Non",
     "stage": {
       "hatch": {
         "forms": {
@@ -34250,7 +34250,7 @@ const speciesJson = {
     }
   },
   "nox": {
-    "speciesDisplay": "Knox",
+    "speciesDisplay": "Nox",
     "stage": {
       "hatch": {
         "forms": {
@@ -34324,7 +34324,7 @@ const speciesJson = {
     }
   },
   "nubestella": {
-    "speciesDisplay": "Nuvestellar",
+    "speciesDisplay": "Nubestella",
     "stage": {
       "hatch": {
         "forms": {
@@ -34516,7 +34516,7 @@ const speciesJson = {
     }
   },
   "oculus": {
-    "speciesDisplay": "Okurus",
+    "speciesDisplay": "Oculus",
     "stage": {
       "hatch": {
         "forms": {
@@ -34590,7 +34590,7 @@ const speciesJson = {
     }
   },
   "omiyakon": {
-    "speciesDisplay": "Omiyacon",
+    "speciesDisplay": "Omiyakon",
     "stage": {
       "hatch": {
         "forms": {
@@ -34640,7 +34640,7 @@ const speciesJson = {
     }
   },
   "ophanim": {
-    "speciesDisplay": "Opa",
+    "speciesDisplay": "Ophanim",
     "stage": {
       "hatch": {
         "forms": {
@@ -34978,7 +34978,7 @@ const speciesJson = {
     }
   },
   "pancakedragon": {
-    "speciesDisplay": "Pancake Dwagon",
+    "speciesDisplay": "Pancake Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -35028,7 +35028,7 @@ const speciesJson = {
     }
   },
   "pangpang": {
-    "speciesDisplay": "?????????",
+    "speciesDisplay": "Pangpang",
     "stage": {
       "hatch": {
         "forms": {
@@ -35093,7 +35093,7 @@ const speciesJson = {
     }
   },
   "panmunia": {
-    "speciesDisplay": "Panminnia",
+    "speciesDisplay": "Panmunia",
     "stage": {
       "hatch": {
         "forms": {
@@ -35219,7 +35219,7 @@ const speciesJson = {
     }
   },
   "party": {
-    "speciesDisplay": "Party Dwagon",
+    "speciesDisplay": "Party Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -35426,7 +35426,7 @@ const speciesJson = {
     }
   },
   "patroa": {
-    "speciesDisplay": "Fat Loa",
+    "speciesDisplay": "Patroa",
     "stage": {
       "hatch": {
         "forms": {
@@ -35515,7 +35515,7 @@ const speciesJson = {
     }
   },
   "pencilcasedragon": {
-    "speciesDisplay": "Pencil Case Dwagon",
+    "speciesDisplay": "Pencil Case Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -35729,7 +35729,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "yr"
@@ -35763,7 +35763,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "yr"
@@ -35797,7 +35797,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "yr"
@@ -35820,7 +35820,7 @@ const speciesJson = {
     }
   },
   "pharaogon": {
-    "speciesDisplay": "Pharaoh Dwagon",
+    "speciesDisplay": "Pharaoh Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -36012,7 +36012,7 @@ const speciesJson = {
     }
   },
   "phoenix": {
-    "speciesDisplay": "Phoenix Dwagon",
+    "speciesDisplay": "Phoenix Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -36189,7 +36189,7 @@ const speciesJson = {
     }
   },
   "pierrotdragon": {
-    "speciesDisplay": "Pierrot Dwagon",
+    "speciesDisplay": "Pierrot Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -36296,7 +36296,7 @@ const speciesJson = {
     }
   },
   "pinatadragon": {
-    "speciesDisplay": "Pinata Dwagon",
+    "speciesDisplay": "Pinata Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -36898,7 +36898,7 @@ const speciesJson = {
     }
   },
   "popomo": {
-    "speciesDisplay": "Popo mo",
+    "speciesDisplay": "Popomo",
     "stage": {
       "hatch": {
         "forms": {
@@ -37186,7 +37186,7 @@ const speciesJson = {
     }
   },
   "portunus": {
-    "speciesDisplay": "Poltunus",
+    "speciesDisplay": "Portunus",
     "stage": {
       "hatch": {
         "forms": {
@@ -37276,7 +37276,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -37310,7 +37310,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -37344,7 +37344,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "pb"
@@ -37367,7 +37367,7 @@ const speciesJson = {
     }
   },
   "power": {
-    "speciesDisplay": "Power Dwagon",
+    "speciesDisplay": "Power Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -37517,7 +37517,7 @@ const speciesJson = {
     }
   },
   "protoalpha": {
-    "speciesDisplay": "Proto alpha",
+    "speciesDisplay": "Proto Alpha",
     "stage": {
       "hatch": {
         "forms": {
@@ -37600,7 +37600,7 @@ const speciesJson = {
     }
   },
   "psyche": {
-    "speciesDisplay": "Saiki",
+    "speciesDisplay": "Psyche",
     "stage": {
       "hatch": {
         "forms": {
@@ -37674,7 +37674,7 @@ const speciesJson = {
     }
   },
   "psyker": {
-    "speciesDisplay": "Psycher",
+    "speciesDisplay": "Psyker",
     "stage": {
       "hatch": {
         "forms": {
@@ -37748,7 +37748,7 @@ const speciesJson = {
     }
   },
   "pummunia": {
-    "speciesDisplay": "Pumpkinia",
+    "speciesDisplay": "Pummunia",
     "stage": {
       "adult": {
         "forms": {
@@ -37779,7 +37779,7 @@ const speciesJson = {
     }
   },
   "puppeteer": {
-    "speciesDisplay": "Perfetti",
+    "speciesDisplay": "Puppeteer",
     "stage": {
       "hatch": {
         "forms": {
@@ -37897,7 +37897,7 @@ const speciesJson = {
     }
   },
   "pureevilnon": {
-    "speciesDisplay": "Pure Evil Rice Field",
+    "speciesDisplay": "Pure Evil Non",
     "stage": {
       "hatch": {
         "forms": {
@@ -38021,7 +38021,7 @@ const speciesJson = {
     }
   },
   "purplelips": {
-    "speciesDisplay": "The Square is too crowded to join.",
+    "speciesDisplay": "Purple Lips",
     "stage": {
       "hatch": {
         "forms": {
@@ -38433,7 +38433,7 @@ const speciesJson = {
     }
   },
   "puzzledragon": {
-    "speciesDisplay": "Puzzle Dwagon",
+    "speciesDisplay": "Puzzle Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -38699,7 +38699,7 @@ const speciesJson = {
     }
   },
   "qualle": {
-    "speciesDisplay": "Kuale",
+    "speciesDisplay": "Quale",
     "stage": {
       "hatch": {
         "forms": {
@@ -39415,7 +39415,7 @@ const speciesJson = {
     }
   },
   "ravendragon": {
-    "speciesDisplay": "Raven Dwagon",
+    "speciesDisplay": "Raven Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -39563,7 +39563,7 @@ const speciesJson = {
     }
   },
   "recorddragon": {
-    "speciesDisplay": "Record Dwagon",
+    "speciesDisplay": "Record Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -39637,7 +39637,7 @@ const speciesJson = {
     }
   },
   "redbulldragon": {
-    "speciesDisplay": "Redbull Dwagon",
+    "speciesDisplay": "Redbull Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -39859,7 +39859,7 @@ const speciesJson = {
     }
   },
   "reghi": {
-    "speciesDisplay": "Reggie",
+    "speciesDisplay": "Reghi",
     "stage": {
       "hatch": {
         "forms": {
@@ -40049,7 +40049,7 @@ const speciesJson = {
     }
   },
   "rekmall": {
-    "speciesDisplay": "Rek Mall",
+    "speciesDisplay": "Rekmall",
     "stage": {
       "hatch": {
         "forms": {
@@ -40123,7 +40123,7 @@ const speciesJson = {
     }
   },
   "reishidragon": {
-    "speciesDisplay": "Reishi Dwagon",
+    "speciesDisplay": "Reishi Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -40503,7 +40503,7 @@ const speciesJson = {
     }
   },
   "rewarddragon": {
-    "speciesDisplay": "Reward Dwagon",
+    "speciesDisplay": "Reward Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -40577,7 +40577,7 @@ const speciesJson = {
     }
   },
   "rock": {
-    "speciesDisplay": "Rock Dwagon",
+    "speciesDisplay": "Rock Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -40684,7 +40684,7 @@ const speciesJson = {
     }
   },
   "rosegold": {
-    "speciesDisplay": "Rose Gold Dwagon",
+    "speciesDisplay": "Rose Gold Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -40767,7 +40767,7 @@ const speciesJson = {
     }
   },
   "rudeore": {
-    "speciesDisplay": "Rood Ore",
+    "speciesDisplay": "Rude Ore",
     "stage": {
       "hatch": {
         "forms": {
@@ -41014,7 +41014,7 @@ const speciesJson = {
     }
   },
   "rugar": {
-    "speciesDisplay": "Lugar",
+    "speciesDisplay": "Rugar",
     "stage": {
       "hatch": {
         "forms": {
@@ -41088,7 +41088,7 @@ const speciesJson = {
     }
   },
   "rukbat": {
-    "speciesDisplay": "Luke Bart",
+    "speciesDisplay": "Rukbat",
     "stage": {
       "hatch": {
         "forms": {
@@ -41626,7 +41626,7 @@ const speciesJson = {
     }
   },
   "sand": {
-    "speciesDisplay": "Sand Dwagon",
+    "speciesDisplay": "Sand Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -41896,7 +41896,7 @@ const speciesJson = {
     }
   },
   "scorpiondragon": {
-    "speciesDisplay": "Scorpion Dwagon",
+    "speciesDisplay": "Scorpion Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -41970,7 +41970,7 @@ const speciesJson = {
     }
   },
   "haemagon": {
-    "speciesDisplay": "Haemagon",
+    "speciesDisplay": "Seahorse Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -42077,7 +42077,7 @@ const speciesJson = {
     }
   },
   "sealeddarknix": {
-    "speciesDisplay": "Sealed Dark Knicks",
+    "speciesDisplay": "Sealed Darknix",
     "stage": {
       "hatch": {
         "forms": {
@@ -42463,7 +42463,7 @@ const speciesJson = {
     }
   },
   "seraphim": {
-    "speciesDisplay": "Seraph",
+    "speciesDisplay": "Seraphim",
     "stage": {
       "hatch": {
         "forms": {
@@ -42579,7 +42579,7 @@ const speciesJson = {
     }
   },
   "serpentdragon": {
-    "speciesDisplay": "Serpent Dwagon",
+    "speciesDisplay": "Serpent Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -42644,7 +42644,7 @@ const speciesJson = {
     }
   },
   "serpentflower": {
-    "speciesDisplay": "Serpent Flower Dwagon",
+    "speciesDisplay": "Serpent Flower Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -42709,7 +42709,7 @@ const speciesJson = {
     }
   },
   "shadow": {
-    "speciesDisplay": "Shadow Dwagon",
+    "speciesDisplay": "Shadow Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -42750,7 +42750,7 @@ const speciesJson = {
     }
   },
   "sharkgon": {
-    "speciesDisplay": "Shark Dwagon",
+    "speciesDisplay": "Shark Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -43312,7 +43312,7 @@ const speciesJson = {
     }
   },
   "shootingstardragon": {
-    "speciesDisplay": "Shooting Star Dwagon",
+    "speciesDisplay": "Shooting Star Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -43386,7 +43386,7 @@ const speciesJson = {
     }
   },
   "siamesedragon": {
-    "speciesDisplay": "Siamese Dwagon",
+    "speciesDisplay": "Siamese Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -43520,7 +43520,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "r"
@@ -43554,7 +43554,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "r"
@@ -43588,7 +43588,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "r"
@@ -43611,7 +43611,7 @@ const speciesJson = {
     }
   },
   "sion": {
-    "speciesDisplay": "Zion",
+    "speciesDisplay": "Sion",
     "stage": {
       "hatch": {
         "forms": {
@@ -43825,7 +43825,7 @@ const speciesJson = {
     }
   },
   "skelegon": {
-    "speciesDisplay": "Skeleton Dwagon",
+    "speciesDisplay": "Skeleton Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -43884,7 +43884,7 @@ const speciesJson = {
     }
   },
   "skinkdragon": {
-    "speciesDisplay": "Skink Dwagon",
+    "speciesDisplay": "Skink Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -44057,7 +44057,7 @@ const speciesJson = {
     }
   },
   "skoorum": {
-    "speciesDisplay": "Schoolroom",
+    "speciesDisplay": "Skoorum",
     "stage": {
       "hatch": {
         "forms": {
@@ -44131,7 +44131,7 @@ const speciesJson = {
     }
   },
   "skycuanade": {
-    "speciesDisplay": "Sky Quaneed",
+    "speciesDisplay": "Sky Cuanade",
     "stage": {
       "hatch": {
         "forms": {
@@ -44419,7 +44419,7 @@ const speciesJson = {
     }
   },
   "slimedragon": {
-    "speciesDisplay": "Slime Dwagon",
+    "speciesDisplay": "Slime Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -44508,7 +44508,7 @@ const speciesJson = {
     }
   },
   "slosi": {
-    "speciesDisplay": "Shlosh",
+    "speciesDisplay": "Slosi",
     "stage": {
       "hatch": {
         "forms": {
@@ -44731,7 +44731,7 @@ const speciesJson = {
     }
   },
   "smart": {
-    "speciesDisplay": "Smart Dwagon",
+    "speciesDisplay": "Smart Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -44844,7 +44844,7 @@ const speciesJson = {
     }
   },
   "snowfairydragon": {
-    "speciesDisplay": "Snow Fairy Dwagon",
+    "speciesDisplay": "Snow Fairy Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -44918,7 +44918,7 @@ const speciesJson = {
     }
   },
   "snowflowerpopomo": {
-    "speciesDisplay": "Snow Flower Popo mo",
+    "speciesDisplay": "Snow Flower Popomo",
     "stage": {
       "hatch": {
         "forms": {
@@ -44992,7 +44992,7 @@ const speciesJson = {
     }
   },
   "snowfrostdragon": {
-    "speciesDisplay": "Snow Frost Dwagon",
+    "speciesDisplay": "Snow Frost Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -45066,7 +45066,7 @@ const speciesJson = {
     }
   },
   "solardragon": {
-    "speciesDisplay": "Solar Dwagon",
+    "speciesDisplay": "Solar Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -45140,7 +45140,7 @@ const speciesJson = {
     }
   },
   "solucanis": {
-    "speciesDisplay": "Sollu Canis",
+    "speciesDisplay": "Solucanis",
     "stage": {
       "hatch": {
         "forms": {
@@ -45313,7 +45313,7 @@ const speciesJson = {
     }
   },
   "spica": {
-    "speciesDisplay": "Speaker",
+    "speciesDisplay": "Spica",
     "stage": {
       "hatch": {
         "forms": {
@@ -45578,7 +45578,7 @@ const speciesJson = {
     }
   },
   "spike": {
-    "speciesDisplay": "Spike Dwagon",
+    "speciesDisplay": "Spike Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -45676,7 +45676,7 @@ const speciesJson = {
     }
   },
   "spinedragon": {
-    "speciesDisplay": "Spine Dwagon",
+    "speciesDisplay": "Spine Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -45997,7 +45997,7 @@ const speciesJson = {
     }
   },
   "starrydragon": {
-    "speciesDisplay": "Starry Dwagon",
+    "speciesDisplay": "Starry Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -46154,7 +46154,7 @@ const speciesJson = {
     }
   },
   "stealthdragon": {
-    "speciesDisplay": "Stealth Dwagon",
+    "speciesDisplay": "Stealth Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -46458,7 +46458,7 @@ const speciesJson = {
     }
   },
   "studdragon": {
-    "speciesDisplay": "Stud Dwagon",
+    "speciesDisplay": "Stud Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -46532,7 +46532,7 @@ const speciesJson = {
     }
   },
   "sullae": {
-    "speciesDisplay": "Tagger",
+    "speciesDisplay": "Sullae",
     "stage": {
       "hatch": {
         "forms": {
@@ -46606,7 +46606,7 @@ const speciesJson = {
     }
   },
   "suradragon": {
-    "speciesDisplay": "Sura Dwagon",
+    "speciesDisplay": "Sura Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -46680,7 +46680,7 @@ const speciesJson = {
     }
   },
   "surprisedragon": {
-    "speciesDisplay": "Surfrigon",
+    "speciesDisplay": "Surprise Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -46870,7 +46870,7 @@ const speciesJson = {
     }
   },
   "swamp": {
-    "speciesDisplay": "Swamp Dwagon",
+    "speciesDisplay": "Swamp Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -47341,7 +47341,7 @@ const speciesJson = {
     }
   },
   "trexdragon": {
-    "speciesDisplay": "T-Rex Dwagon",
+    "speciesDisplay": "T-Rex Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -47504,7 +47504,7 @@ const speciesJson = {
     }
   },
   "taildragon": {
-    "speciesDisplay": "Tail Dwagon",
+    "speciesDisplay": "Tail Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -47578,7 +47578,7 @@ const speciesJson = {
     }
   },
   "takchaka": {
-    "speciesDisplay": "Takshaka",
+    "speciesDisplay": "Takchaka",
     "stage": {
       "hatch": {
         "forms": {
@@ -47999,7 +47999,7 @@ const speciesJson = {
     }
   },
   "tattoodragon": {
-    "speciesDisplay": "tattoo dwagon",
+    "speciesDisplay": "Tattoo Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -48213,7 +48213,7 @@ const speciesJson = {
     }
   },
   "teddydragon": {
-    "speciesDisplay": "Teddy Dwagon",
+    "speciesDisplay": "Teddy Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -48296,7 +48296,7 @@ const speciesJson = {
     }
   },
   "tediblo": {
-    "speciesDisplay": "Teddy Blo",
+    "speciesDisplay": "Tediblo",
     "stage": {
       "hatch": {
         "forms": {
@@ -48898,7 +48898,7 @@ const speciesJson = {
     }
   },
   "thunderboltdragon": {
-    "speciesDisplay": "Thunderbolt Dwagon",
+    "speciesDisplay": "Thunderbolt Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -49433,7 +49433,7 @@ const speciesJson = {
     }
   },
   "timber": {
-    "speciesDisplay": "Timber Dwagon",
+    "speciesDisplay": "Timber Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -49596,7 +49596,7 @@ const speciesJson = {
     }
   },
   "toarnesce": {
-    "speciesDisplay": "Tones",
+    "speciesDisplay": "Toarnesce",
     "stage": {
       "hatch": {
         "forms": {
@@ -49670,7 +49670,7 @@ const speciesJson = {
     }
   },
   "toddletomtom": {
-    "speciesDisplay": "Turdle tom tom",
+    "speciesDisplay": "Toddletomtom",
     "stage": {
       "hatch": {
         "forms": {
@@ -49818,7 +49818,7 @@ const speciesJson = {
     }
   },
   "totemdragon": {
-    "speciesDisplay": "Totem Dwagon",
+    "speciesDisplay": "Totem Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -50082,7 +50082,7 @@ const speciesJson = {
     }
   },
   "tutankhagon": {
-    "speciesDisplay": "Tutankha Dwagon",
+    "speciesDisplay": "Tutankha Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -50156,7 +50156,7 @@ const speciesJson = {
     }
   },
   "tycane": {
-    "speciesDisplay": "Tykein",
+    "speciesDisplay": "Tycane",
     "stage": {
       "hatch": {
         "forms": {
@@ -50230,7 +50230,7 @@ const speciesJson = {
     }
   },
   "typhoondragon": {
-    "speciesDisplay": "Typhoon Dwagon",
+    "speciesDisplay": "Typhoon Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -50304,7 +50304,7 @@ const speciesJson = {
     }
   },
   "ullr": {
-    "speciesDisplay": "Uhh",
+    "speciesDisplay": "Ullr",
     "stage": {
       "hatch": {
         "forms": {
@@ -50387,7 +50387,7 @@ const speciesJson = {
     }
   },
   "underground": {
-    "speciesDisplay": "Underground Dwagon",
+    "speciesDisplay": "Underground Dragon",
     "stage": {
       "hatchling": {
         "forms": {
@@ -50460,7 +50460,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "rp"
@@ -50494,7 +50494,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "rp"
@@ -50528,7 +50528,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Persion Sion",
+            "formDisplay": "Persion",
             "genders": {
               "f": {
                 "color": "rp"
@@ -50570,7 +50570,7 @@ const speciesJson = {
     }
   },
   "unicorndragon": {
-    "speciesDisplay": "Unicorn Dwagon",
+    "speciesDisplay": "Unicorn Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -50659,7 +50659,7 @@ const speciesJson = {
     }
   },
   "valcan": {
-    "speciesDisplay": "Balkan",
+    "speciesDisplay": "Valcan",
     "stage": {
       "hatch": {
         "forms": {
@@ -50709,7 +50709,7 @@ const speciesJson = {
     }
   },
   "valefor": {
-    "speciesDisplay": "Ballet For",
+    "speciesDisplay": "Valefor",
     "stage": {
       "hatch": {
         "forms": {
@@ -50901,7 +50901,7 @@ const speciesJson = {
     }
   },
   "vargr": {
-    "speciesDisplay": "Barg",
+    "speciesDisplay": "Vargr",
     "stage": {
       "hatch": {
         "forms": {
@@ -51163,7 +51163,7 @@ const speciesJson = {
     }
   },
   "vaska": {
-    "speciesDisplay": "Vaska :godshy:",
+    "speciesDisplay": "Vaska",
     "stage": {
       "hatch": {
         "forms": {
@@ -51501,7 +51501,7 @@ const speciesJson = {
     }
   },
   "vefal": {
-    "speciesDisplay": "Bepal",
+    "speciesDisplay": "Vefal",
     "stage": {
       "hatch": {
         "forms": {
@@ -51658,7 +51658,7 @@ const speciesJson = {
     }
   },
   "venomdragon": {
-    "speciesDisplay": "Venom Dwagon",
+    "speciesDisplay": "Venom Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -51782,7 +51782,7 @@ const speciesJson = {
     }
   },
   "vetala": {
-    "speciesDisplay": "Beta",
+    "speciesDisplay": "Vetala",
     "stage": {
       "hatch": {
         "forms": {
@@ -51950,7 +51950,7 @@ const speciesJson = {
     }
   },
   "volcano": {
-    "speciesDisplay": "Volcano Dwagon",
+    "speciesDisplay": "Volcano Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -52024,7 +52024,7 @@ const speciesJson = {
     }
   },
   "voncias": {
-    "speciesDisplay": "Boneshas",
+    "speciesDisplay": "Voncias",
     "stage": {
       "hatch": {
         "forms": {
@@ -52098,7 +52098,7 @@ const speciesJson = {
     }
   },
   "vonsharkgon": {
-    "speciesDisplay": "Bone Shark Dwagon",
+    "speciesDisplay": "Vonshark Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -52172,7 +52172,7 @@ const speciesJson = {
     }
   },
   "voodoodragon": {
-    "speciesDisplay": "For Voodoo",
+    "speciesDisplay": "Voodoo Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -52222,7 +52222,7 @@ const speciesJson = {
     }
   },
   "vritra": {
-    "speciesDisplay": "Britra",
+    "speciesDisplay": "Vritra",
     "stage": {
       "hatch": {
         "forms": {
@@ -52296,7 +52296,7 @@ const speciesJson = {
     }
   },
   "wardendragon": {
-    "speciesDisplay": "Warden Dwagon",
+    "speciesDisplay": "Warden Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -52485,7 +52485,7 @@ const speciesJson = {
     }
   },
   "water": {
-    "speciesDisplay": "Water Dwagon",
+    "speciesDisplay": "Water Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -52574,7 +52574,7 @@ const speciesJson = {
     }
   },
   "wavebluedragon": {
-    "speciesDisplay": "Blue dragon with a blue face",
+    "speciesDisplay": "Wave Blue Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -52648,7 +52648,7 @@ const speciesJson = {
     }
   },
   "whaledragon": {
-    "speciesDisplay": "Whale Dwagon",
+    "speciesDisplay": "Whale Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -52722,7 +52722,7 @@ const speciesJson = {
     }
   },
   "whiteapple": {
-    "speciesDisplay": "White Apple Chick",
+    "speciesDisplay": "White Applecheek",
     "stage": {
       "hatch": {
         "forms": {
@@ -52796,7 +52796,7 @@ const speciesJson = {
     }
   },
   "whitedragon": {
-    "speciesDisplay": "White Dwagon",
+    "speciesDisplay": "White Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -52861,7 +52861,7 @@ const speciesJson = {
     }
   },
   "whitegold": {
-    "speciesDisplay": "White Gold Dwagon",
+    "speciesDisplay": "White Gold Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -53018,7 +53018,7 @@ const speciesJson = {
     }
   },
   "wind": {
-    "speciesDisplay": "Wind Dwagon",
+    "speciesDisplay": "Wind Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -53171,7 +53171,7 @@ const speciesJson = {
     }
   },
   "wings": {
-    "speciesDisplay": "Wings Dwagon",
+    "speciesDisplay": "Wings Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -53279,7 +53279,7 @@ const speciesJson = {
     }
   },
   "witchdragon": {
-    "speciesDisplay": "Witch Dwagon",
+    "speciesDisplay": "Witch Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -53372,7 +53372,7 @@ const speciesJson = {
     }
   },
   "wonderdragon": {
-    "speciesDisplay": "Wonder Dwagon",
+    "speciesDisplay": "Wonder Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -53446,7 +53446,7 @@ const speciesJson = {
     }
   },
   "xmasdragon": {
-    "speciesDisplay": "For creamery",
+    "speciesDisplay": "Xmas Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -53708,7 +53708,7 @@ const speciesJson = {
     }
   },
   "yurqa": {
-    "speciesDisplay": "Yurka",
+    "speciesDisplay": "Yurqa",
     "stage": {
       "hatch": {
         "forms": {
@@ -53782,7 +53782,7 @@ const speciesJson = {
     }
   },
   "zaeldelta": {
-    "speciesDisplay": "Jail delta",
+    "speciesDisplay": "Zael Delta",
     "stage": {
       "hatch": {
         "forms": {
@@ -54044,7 +54044,7 @@ const speciesJson = {
     }
   },
   "zithakula": {
-    "speciesDisplay": "Gitakula",
+    "speciesDisplay": "Zithakula",
     "stage": {
       "hatch": {
         "forms": {
@@ -54094,7 +54094,7 @@ const speciesJson = {
     }
   },
   "zombiedragon": {
-    "speciesDisplay": "Zombie Dwagon",
+    "speciesDisplay": "Zombie Dragon",
     "stage": {
       "hatch": {
         "forms": {
