@@ -8043,6 +8043,80 @@ const speciesJson = {
       }
     }
   },
+  "chachawung": {
+    "speciesDisplay": "Chachawung",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "chameleondragon": {
     "speciesDisplay": "Chameleon Dragon",
     "stage": {
@@ -24212,7 +24286,7 @@ const speciesJson = {
       }
     }
   },
-  "jujag": {
+  "jujak": {
     "speciesDisplay": "Jujak",
     "stage": {
       "hatch": {
@@ -27679,6 +27753,56 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "muscle_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "littlestarbaekho": {
+    "speciesDisplay": "littlestarbaekho",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           }
@@ -46359,6 +46483,80 @@ const speciesJson = {
       }
     }
   },
+  "steelhammer": {
+    "speciesDisplay": "Steel Hammer",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "drake_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "drake_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "stra": {
     "speciesDisplay": "Stra",
     "stage": {
@@ -46598,6 +46796,56 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "sunrisejujak": {
+    "speciesDisplay": "sunrisejujak",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
               }
             }
           }
