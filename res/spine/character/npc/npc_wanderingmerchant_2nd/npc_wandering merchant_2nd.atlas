@@ -1,0 +1,19 @@
+npc_wandering merchant_2nd.png
+size:560,1244
+filter:Linear,Linear
+2ndspecial1
+bounds:178,4,172,128
+angry
+bounds:2,2,174,130
+happy
+bounds:354,134,174,130
+idle
+bounds:2,266,556,976
+sad
+bounds:178,134,174,130
+surprise
+bounds:2,134,174,130
+twinkle_1
+bounds:414,56,60,76
+twinkle_2
+bounds:352,56,60,76
