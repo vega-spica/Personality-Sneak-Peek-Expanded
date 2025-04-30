@@ -64,6 +64,11 @@ const personalityJson = {
 		"back": "back_a_fly",
 		"front": "front_a"
 	},
+	"Blazing": {
+		"each": "aura_s_blazing_tenebris",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Blessed": {
 		"each": "aura_s_holy_blessed",
 		"back": "back_b",
@@ -521,6 +526,11 @@ const personalityJson = {
 	"Tired" : {
 		"back" : "aura_a_skywhite",
 		"front" : "a3_skywhite"
+	},
+	"Umbrous": {
+		"each": "aura_s_blazing_tenebris",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Unknown" : {
 		"back" : "aura_s_universe3",

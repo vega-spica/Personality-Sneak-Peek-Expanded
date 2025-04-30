@@ -3912,11 +3912,31 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_n_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -24348,11 +24368,31 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "wyvern_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -25247,11 +25287,30 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_n_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -27761,7 +27820,7 @@ const speciesJson = {
     }
   },
   "littlestarbaekho": {
-    "speciesDisplay": "littlestarbaekho",
+    "speciesDisplay": "Little Star Baekho",
     "stage": {
       "hatch": {
         "forms": {
@@ -46804,7 +46863,7 @@ const speciesJson = {
     }
   },
   "sunrisejujak": {
-    "speciesDisplay": "sunrisejujak",
+    "speciesDisplay": "Sunrise Jujak",
     "stage": {
       "hatch": {
         "forms": {
