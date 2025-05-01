@@ -8,5 +8,4 @@ i receive no monetary compensation for building this, nor do i use it to adverti
 <br>
 한국어 (시토콘드리아): https://ctcdra.github.io/Personality-Sneak-Peek-Expanded_KRtranslate/<br>
 <br>
-<a href="https://discord.gg/dvc">Official DVC Discord</a><br>
 If you enjoyed using this tool, please consider contributing to the <a href=https://dragon-village-collection.fandom.com/wiki/Dragon_Village_Collection_Wiki>DVC Fandom Wiki</a>.
