@@ -1,0 +1,15 @@
+mg_2nd_monster_1.png
+size:206,178
+filter:Linear,Linear
+mon_1
+bounds:108,88,96,88
+offsets:4,12,104,100
+mon_2
+bounds:2,92,104,84
+offsets:0,12,104,100
+mon_3
+bounds:2,2,100,88
+offsets:0,12,104,100
+mon_4
+bounds:104,2,96,84
+offsets:0,12,104,100
