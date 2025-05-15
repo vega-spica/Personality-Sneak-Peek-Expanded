@@ -35431,7 +35431,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Scorched",
+            "formDisplay": "Charred",
             "genders": {
               "f": {
                 "color": "bk"
@@ -35442,7 +35442,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Blank",
+            "formDisplay": "Blank Paper",
             "genders": {
               "f": {
                 "color": "w"
@@ -35453,7 +35453,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Insulated Paper (FLASHING)",
+            "formDisplay": "Insulating Paper (FLASHING)",
             "genders": {
               "f": {
                 "color": "bk"
@@ -35490,7 +35490,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Scorched",
+            "formDisplay": "Charred",
             "genders": {
               "f": {
                 "color": "bk"
@@ -35501,7 +35501,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Blank",
+            "formDisplay": "Blank Paper",
             "genders": {
               "f": {
                 "color": "w"
@@ -35512,7 +35512,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Insulated Paper (FLASHING)",
+            "formDisplay": "Insulating Paper (FLASHING)",
             "genders": {
               "f": {
                 "color": "bk"
@@ -35549,7 +35549,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Scorched",
+            "formDisplay": "Charred",
             "genders": {
               "f": {
                 "color": "bk"
@@ -35560,7 +35560,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Blank",
+            "formDisplay": "Blank Paper",
             "genders": {
               "f": {
                 "color": "w"
@@ -35571,7 +35571,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Insulated Paper (FLASHING)",
+            "formDisplay": "Insulating Paper (FLASHING)",
             "genders": {
               "f": {
                 "color": "bk"
