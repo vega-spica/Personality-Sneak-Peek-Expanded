@@ -306,6 +306,11 @@ const personalityJson = {
 		"back" : "aura_a2_red",
 		"front" : "a2"
 	},
+	"Iridescent": {
+		"each": "aura_s_luminous",
+		"back": "back",
+		"front": "front"
+	},
 	"Joyful": {
 		"each": "aura_s_exciting_blithe",
 		"back": "back_b",
@@ -393,6 +398,11 @@ const personalityJson = {
 	"Perfectionist" : {
 		"back" : "aura_s_universe1",
 		"front" : "aura_s_universe1"
+	},
+	"Pleasant": {
+		"each": "aura_s_melodious",
+		"back": "back",
+		"front": "front"
 	},
 	"Pure" : {
 		"back" : "aura_s_transparent",
@@ -531,6 +541,11 @@ const personalityJson = {
 		"each": "aura_s_blazing_tenebris",
 		"back": "back_b",
 		"front": "front_b"
+	},
+	"Unconscious": {
+		"each": "aura_s_unconscious",
+		"back": "back_a",
+		"front": "front_a"
 	},
 	"Unknown" : {
 		"back" : "aura_s_universe3",
