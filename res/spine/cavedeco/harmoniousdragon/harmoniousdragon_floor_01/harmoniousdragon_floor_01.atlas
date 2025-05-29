@@ -1,0 +1,16 @@
+harmoniousdragon_floor_01.png
+size:456,340
+filter:Linear,Linear
+floor_main
+bounds:2,2,336,356
+rotate:90
+smoke_01
+bounds:360,190,30,148
+smoke_02
+bounds:360,40,30,148
+smoke_03
+bounds:392,190,30,148
+smoke_04
+bounds:392,40,30,148
+smoke_05
+bounds:424,190,30,148
