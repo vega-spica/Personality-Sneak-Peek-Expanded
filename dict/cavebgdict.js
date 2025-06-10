@@ -44,6 +44,9 @@ const cavebgJson = {
     "Dark Nation": {
         "res": "kkamaknara/kkamaknara_bg_01/kkamaknara_bg_01"
     },
+    /*"Dream Within a Dream": {
+        "res": "dreamwithinadream/dreamwithinadream_bg_01/dreamwithinadream_bg_01"
+    },*/
     "Eshu": {
         "res": "eshu/eshu_bg_01/eshu_bg_01"
     },
@@ -76,6 +79,12 @@ const cavebgJson = {
     },
     "Happy Memory Signature Background": {
         "res": "signature_2024/signature_2024_bg_02/signature_2024_bg_02"
+    },
+    "Harmonious Dragon": {
+        "res": "harmoniousdragon/harmoniousdragon_bg_01/harmoniousdragon_bg_01"
+    },
+    "Harmonious Dragon (Special)": {
+        "res": "harmoniousdragon/harmoniousdragon_bg_02/harmoniousdragon_bg_02"
     },
     /*"Hatsya": {
         "res": "hatsya/hatsya_bg_01/hatsya_bg_01"

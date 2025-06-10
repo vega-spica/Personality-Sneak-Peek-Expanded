@@ -47,6 +47,9 @@ const cavefloorJson = {
     "Dark Nation": {
         "res": "kkamaknara/kkamaknara_floor_01/kkamaknara_floor_01"
     },
+    /*"Dream Within a Dream": {
+        "res": "dreamwithinadream/dreamwithinadream_floor_01/dreamwithinadream_floor_01"
+    },*/
     "Eshu": {
         "res": "eshu/eshu_floor_01/eshu_floor_01"
     },
@@ -76,6 +79,12 @@ const cavefloorJson = {
     },
     "Halloween 2023": {
         "res": "halloween_2023/halloween_2023_floor_01/halloween_2023_floor_01"
+    },
+    "Harmonious Dragon": {
+        "res": "harmoniousdragon/harmoniousdragon_floor_01/harmoniousdragon_floor_01"
+    },
+    "Harmonious Dragon (Special)": {
+        "res": "harmoniousdragon/harmoniousdragon_floor_02/harmoniousdragon_floor_02"
     },
     /*"Hatsya": {
         "res": "hatsya/hatsya_floor_01/hatsya_floor_01"
