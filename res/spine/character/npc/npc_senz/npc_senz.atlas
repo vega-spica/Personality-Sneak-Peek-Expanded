@@ -1,0 +1,16 @@
+npc_senz.png
+size:1446,924
+filter:Linear,Linear
+angry
+bounds:1296,774,148,148
+happy
+bounds:1296,624,148,148
+npc_senz
+bounds:2,2,920,1292
+rotate:90
+sad
+bounds:1296,474,148,148
+speical
+bounds:1296,324,148,148
+surprise
+bounds:1296,174,148,148
