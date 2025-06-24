@@ -128,6 +128,12 @@ const cavebgJson = {
     /*"Ranky": {
         "res": "ranky/ranky_bg_01/ranky_bg_01"
     },*/
+    /*"Shafir": {
+        "res": "shafir/shafir_bg_01/shafir_bg_01"
+    },
+    "Shafir (Special)": {
+        "res": "shafir/shafir_bg_02/shafir_bg_02"
+    }, */
     /*"Shockwave": {
         "res": "shockwave/shockwave_bg_01/shockwave_bg_01"
     },
