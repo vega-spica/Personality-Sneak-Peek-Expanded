@@ -1,0 +1,11 @@
+shafir_floor_01.png
+size:742,360
+filter:Linear,Linear
+floor_main
+bounds:2,2,336,356
+light_particle_01
+bounds:340,4,286,94
+light_particle_02
+bounds:340,100,296,104
+lightroad
+bounds:340,206,400,152

@@ -1,0 +1,11 @@
+shafir_floor_02.png
+size:506,340
+filter:Linear,Linear
+fire
+bounds:360,94,244,144
+rotate:90
+fire_particle
+bounds:360,89,3,3
+floor_main
+bounds:2,2,336,356
+rotate:90

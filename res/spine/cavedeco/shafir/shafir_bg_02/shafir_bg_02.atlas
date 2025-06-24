@@ -1,0 +1,11 @@
+shafir_bg_02.png
+size:736,404
+filter:Linear,Linear
+background_main
+bounds:2,2,400,560
+rotate:90
+sunflare_01
+bounds:564,228,174,170
+rotate:90
+sunflare_02
+bounds:564,52,170,174
