@@ -12587,7 +12587,7 @@ const speciesJson = {
       }
     }
   },
-/*  "deserti": {
+  "deserti": {
     "speciesDisplay": "Deserti",
     "stage": {
       "hatch": {
@@ -12653,14 +12653,14 @@ const speciesJson = {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "undeadres": "dragon_n_adult_w"
+                "undeadres": "dragon_n_hatchling_w"
               }
             }
           }
         }
       }
     }
-  },*/
+  },
   "deva": {
     "speciesDisplay": "Deva",
     "stage": {
@@ -37000,7 +37000,7 @@ const speciesJson = {
       }
     }
   },
-/*  "opuntiadragon": {
+  "opuntiadragon": {
     "speciesDisplay": "Opuntia Dragon",
     "stage": {
       "hatch": {
@@ -37073,7 +37073,7 @@ const speciesJson = {
         }
       }
     }
-  },*/
+  },
   "ordo": {
     "speciesDisplay": "Ordo",
     "stage": {
@@ -45523,7 +45523,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_Sand Guide",
+            "formDisplay": "P_Guide of Sand",
             "genders": {
               "f": {
                 "color": "y"
@@ -45534,7 +45534,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_Moonlight Guide",
+            "formDisplay": "P_Guide of Moonlight",
             "genders": {
               "f": {
                 "color": "bk"
@@ -45545,7 +45545,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_Flame Guide",
+            "formDisplay": "P_Guide of Flames",
             "genders": {
               "f": {
                 "color": "r"
@@ -45556,7 +45556,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_Sky Guide",
+            "formDisplay": "P_Guide of Sky",
             "genders": {
               "f": {
                 "color": "w"
@@ -45567,7 +45567,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Sand Guide",
+            "formDisplay": "Guide of Sand",
             "genders": {
               "f": {
                 "color": "y"
@@ -45578,7 +45578,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Moonlight Guide",
+            "formDisplay": "Guide of Moonlight",
             "genders": {
               "f": {
                 "color": "bk"
@@ -45589,7 +45589,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Flame Guide",
+            "formDisplay": "Guide of Flames",
             "genders": {
               "f": {
                 "color": "r"
@@ -45600,7 +45600,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Sky Guide",
+            "formDisplay": "Guide of Sky",
             "genders": {
               "f": {
                 "color": "w"
@@ -45634,7 +45634,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_Sand Guide",
+            "formDisplay": "P_Guide of Sand",
             "genders": {
               "f": {
                 "color": "y"
@@ -45645,7 +45645,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_Moonlight Guide",
+            "formDisplay": "P_Guide of Moonlight",
             "genders": {
               "f": {
                 "color": "bk"
@@ -45656,7 +45656,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_Flame Guide",
+            "formDisplay": "P_Guide of Flames",
             "genders": {
               "f": {
                 "color": "r"
@@ -45667,7 +45667,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_Sky Guide",
+            "formDisplay": "P_Guide of Sky",
             "genders": {
               "f": {
                 "color": "w"
@@ -45678,7 +45678,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Sand Guide",
+            "formDisplay": "Guide of Sand",
             "genders": {
               "f": {
                 "color": "y"
@@ -45689,7 +45689,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Moonlight Guide",
+            "formDisplay": "Guide of Moonlight",
             "genders": {
               "f": {
                 "color": "bk"
@@ -45700,7 +45700,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Flame Guide",
+            "formDisplay": "Guide of Flames",
             "genders": {
               "f": {
                 "color": "r"
@@ -45711,7 +45711,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Sky Guide",
+            "formDisplay": "Guide of Sky",
             "genders": {
               "f": {
                 "color": "w"
@@ -45745,7 +45745,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_Sand Guide",
+            "formDisplay": "P_Guide of Sand",
             "genders": {
               "f": {
                 "color": "y"
@@ -45756,7 +45756,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_Moonlight Guide",
+            "formDisplay": "P_Guide of Moonlight",
             "genders": {
               "f": {
                 "color": "bk"
@@ -45767,7 +45767,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_Flame Guide",
+            "formDisplay": "P_Guide of Flames",
             "genders": {
               "f": {
                 "color": "r"
@@ -45778,7 +45778,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_Sky Guide",
+            "formDisplay": "P_Guide of Sky",
             "genders": {
               "f": {
                 "color": "w"
@@ -45789,7 +45789,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Sand Guide",
+            "formDisplay": "Guide of Sand",
             "genders": {
               "f": {
                 "color": "y"
@@ -45800,7 +45800,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Moonlight Guide",
+            "formDisplay": "Guide of Moonlight",
             "genders": {
               "f": {
                 "color": "bk"
@@ -45811,7 +45811,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Flame Guide",
+            "formDisplay": "Guide of Flames",
             "genders": {
               "f": {
                 "color": "r"
@@ -45822,7 +45822,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Sky Guide",
+            "formDisplay": "Guide of Sky",
             "genders": {
               "f": {
                 "color": "w"
