@@ -10614,6 +10614,43 @@ const speciesJson = {
       }
     }
   },
+  "crepin": {
+    "speciesDisplay": "Crepin",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "N/A",
+            "genders": {
+              "f": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "[dessertrepublic]",
+            "genders": {
+              "f": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "[dessertrepublic]",
+            "genders": {
+              "f": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "cresteddragon": {
     "speciesDisplay": "Crested Dragon",
     "stage": {
@@ -29696,11 +29733,31 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "[dessertrepublic]",
+            "genders": {
+              "f": {
+                "color": "gy"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "[dessertrepublic]",
+            "genders": {
+              "f": {
+                "color": "gy"
               }
             }
           }
@@ -37465,11 +37522,31 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "[dessertrepublic]",
+            "genders": {
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "[dessertrepublic]",
+            "genders": {
+              "m": {
+                "color": "w"
               }
             }
           }
@@ -54328,6 +54405,14 @@ const speciesJson = {
               }
             }
           },
+          "04": {
+            "formDisplay": "[dessertrepublic]",
+            "genders": {
+              "f": {
+                "color": "gy"
+              }
+            }
+          },
           "undead01": {
             "formDisplay": "Undead",
             "genders": {
@@ -54341,6 +54426,18 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "signature_s_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "04": {
+            "formDisplay": "[dessertrepublic]",
+            "genders": {
+              "f": {
+                "color": "gy"
               }
             }
           }
@@ -55864,11 +55961,31 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "[dessertrepublic]",
+            "genders": {
+              "f": {
+                "color": "yr"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "[dessertrepublic]",
+            "genders": {
+              "f": {
+                "color": "yr"
               }
             }
           }
