@@ -290,7 +290,7 @@ select:focus {
 }
 
 input[type='radio'] {
-  accent-color: #blue;
+  accent-color: blue;
 }
 
 /* disappearing gender buttons are also nifty. */
