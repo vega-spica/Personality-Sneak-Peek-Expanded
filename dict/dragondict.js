@@ -11326,7 +11326,7 @@ const speciesJson = {
               }
             }
           },
-          "j_legacy": {
+          "legacyj": {
             "formDisplay": "Jealousy (Legacy)",
             "genders": {
               "f": {
@@ -11368,7 +11368,7 @@ const speciesJson = {
               }
             }
           },
-          "j_legacy": {
+          "legacyj": {
             "formDisplay": "Jealousy (Legacy)",
             "genders": {
               "f": {
@@ -11432,7 +11432,7 @@ const speciesJson = {
               }
             }
           },
-          "j_legacy": {
+          "legacyj": {
             "formDisplay": "Jealousy (Legacy)",
             "genders": {
               "f": {
