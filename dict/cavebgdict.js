@@ -47,6 +47,12 @@ const cavebgJson = {
     /*"Dream Within a Dream": {
         "res": "dreamwithinadream/dreamwithinadream_bg_01/dreamwithinadream_bg_01"
     },*/
+    /*"Echore": {
+        "res": "echore/echore_bg_01/echore_bg_01"
+    },
+    "Echore (Special)": {
+        "res": "echore/echore_bg_02/echore_bg_02"
+    },*/
     "Eshu": {
         "res": "eshu/eshu_bg_01/eshu_bg_01"
     },

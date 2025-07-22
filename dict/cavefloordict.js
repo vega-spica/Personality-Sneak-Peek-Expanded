@@ -50,6 +50,12 @@ const cavefloorJson = {
     /*"Dream Within a Dream": {
         "res": "dreamwithinadream/dreamwithinadream_floor_01/dreamwithinadream_floor_01"
     },*/
+    /*"Echore": {
+        "res": "echore/echore_floor_01/echore_floor_01"
+    },
+    "Echore (Special)": {
+        "res": "echore/echore_floor_02/echore_floor_02"
+    },*/
     "Eshu": {
         "res": "eshu/eshu_floor_01/eshu_floor_01"
     },

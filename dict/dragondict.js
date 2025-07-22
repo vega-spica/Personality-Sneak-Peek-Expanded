@@ -1210,6 +1210,17 @@ const speciesJson = {
               }
             }
           },
+          "04": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -4872,6 +4883,17 @@ const speciesJson = {
               }
             }
           },
+          "03": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
           "key": {
             "formDisplay": "Key [NPC Only]",
             "genders": {
@@ -7035,7 +7057,7 @@ const speciesJson = {
             }
           },
           "undead01": {
-            "formDisplay": "Undead (Default)",
+            "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "drake_w_hatch_w"
@@ -7058,7 +7080,7 @@ const speciesJson = {
             }
           },
           "undead01": {
-            "formDisplay": "Undead (Default)",
+            "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "drake_w_hatchling_w"
@@ -7091,8 +7113,19 @@ const speciesJson = {
               }
             }
           },
+          "03": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
           "undead01": {
-            "formDisplay": "Undead (Default)",
+            "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "muscle_w_adult_w"
@@ -7327,6 +7360,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "bg"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
               }
             }
           },
@@ -10617,21 +10661,136 @@ const speciesJson = {
   "crepin": {
     "speciesDisplay": "Crepin",
     "stage": {
-      "adult": {
+      "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "N/A",
+            "formDisplay": "Default",
             "genders": {
               "f": {
+                "color": "w"
+              },
+              "m": {
                 "color": "w"
               }
             }
           },
           "02": {
-            "formDisplay": "[dessertrepublic]",
+            "formDisplay": "Dessert Crepe",
             "genders": {
               "f": {
                 "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Dessert Cocoa Crepe",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Dessert Crepe",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Dessert Cocoa Crepe",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Dessert Crepe",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Dessert Cocoa Crepe",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_adult_w"
               }
             }
           }
@@ -10640,10 +10799,24 @@ const speciesJson = {
       "prism": {
         "forms": {
           "02": {
-            "formDisplay": "[dessertrepublic]",
+            "formDisplay": "Dessert Crepe",
             "genders": {
               "f": {
                 "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Dessert Cocoa Crepe",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
               }
             }
           }
@@ -11145,7 +11318,15 @@ const speciesJson = {
               }
             }
           },
-          "03": {
+          "legacy": {
+            "formDisplay": "Male (Legacy)",
+            "genders": {
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "j_legacy": {
             "formDisplay": "Jealousy (Legacy)",
             "genders": {
               "f": {
@@ -11153,14 +11334,6 @@ const speciesJson = {
               },
               "m": {
                 "color": "pb"
-              }
-            }
-          },
-          "legacy": {
-            "formDisplay": "Male (Legacy)",
-            "genders": {
-              "m": {
-                "color": "r"
               }
             }
           },
@@ -11187,7 +11360,15 @@ const speciesJson = {
               }
             }
           },
-          "03": {
+          "legacy": {
+            "formDisplay": "Male (Legacy)",
+            "genders": {
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "j_legacy": {
             "formDisplay": "Jealousy (Legacy)",
             "genders": {
               "f": {
@@ -11195,14 +11376,6 @@ const speciesJson = {
               },
               "m": {
                 "color": "pb"
-              }
-            }
-          },
-          "legacy": {
-            "formDisplay": "Male (Legacy)",
-            "genders": {
-              "m": {
-                "color": "r"
               }
             }
           },
@@ -11241,13 +11414,13 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Jealousy (Legacy)",
+            "formDisplay": "Dessert",
             "genders": {
               "f": {
-                "color": "pb"
+                "color": "rp"
               },
               "m": {
-                "color": "pb"
+                "color": "rp"
               }
             }
           },
@@ -11256,6 +11429,17 @@ const speciesJson = {
             "genders": {
               "m": {
                 "color": "r"
+              }
+            }
+          },
+          "j_legacy": {
+            "formDisplay": "Jealousy (Legacy)",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
               }
             }
           },
@@ -14658,6 +14842,344 @@ const speciesJson = {
       }
     }
   },
+  "echore": {
+    "speciesDisplay": "Echore",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Dream Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Abyssal Melody",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Sanctum Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Forest Melody",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Dream Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Abyssal Melody",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Sanctum Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Forest Melody",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "sixleg_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Dream Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Abyssal Melody",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Sanctum Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Forest Melody",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Dream Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Abyssal Melody",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Sanctum Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Forest Melody",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "sixleg_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Dream Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Abyssal Melody",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Sanctum Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Forest Melody",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Dream Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Abyssal Melody",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Sanctum Melody",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Forest Melody",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "sixleg_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "eclipesdragon": {
     "speciesDisplay": "Eclipse Dragon",
     "stage": {
@@ -14966,6 +15488,17 @@ const speciesJson = {
             "genders": {
               "m": {
                 "color": "r"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
               }
             }
           },
@@ -18086,6 +18619,80 @@ const speciesJson = {
       }
     }
   },
+  "fishingtaildragon": {
+    "speciesDisplay": "Fishing Tail Dragon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "flamedragon": {
     "speciesDisplay": "Flame Dragon",
     "stage": {
@@ -18197,6 +18804,17 @@ const speciesJson = {
         "forms": {
           "01": {
             "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Dessert",
             "genders": {
               "f": {
                 "color": "w"
@@ -25167,6 +25785,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -27063,6 +27692,80 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "signature_s_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "kirschdragon": {
+    "speciesDisplay": "Kirsch Dragon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
               }
             }
           }
@@ -29687,6 +30390,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -29707,6 +30421,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
               }
             }
           },
@@ -29734,9 +30459,12 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "[dessertrepublic]",
+            "formDisplay": "Dessert",
             "genders": {
               "f": {
+                "color": "gy"
+              },
+              "m": {
                 "color": "gy"
               }
             }
@@ -29754,9 +30482,12 @@ const speciesJson = {
       "prism": {
         "forms": {
           "02": {
-            "formDisplay": "[dessertrepublic]",
+            "formDisplay": "Dessert",
             "genders": {
               "f": {
+                "color": "gy"
+              },
+              "m": {
                 "color": "gy"
               }
             }
@@ -37010,6 +37741,17 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
           }
         }
       }
@@ -37476,6 +38218,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -37496,6 +38249,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "bg"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           },
@@ -37523,8 +38287,11 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "[dessertrepublic]",
+            "formDisplay": "Dessert",
             "genders": {
+              "f": {
+                "color": "w"
+              },
               "m": {
                 "color": "w"
               }
@@ -37543,8 +38310,11 @@ const speciesJson = {
       "prism": {
         "forms": {
           "02": {
-            "formDisplay": "[dessertrepublic]",
+            "formDisplay": "Dessert",
             "genders": {
+              "f": {
+                "color": "w"
+              },
               "m": {
                 "color": "w"
               }
@@ -41590,6 +42360,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "rp"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
               }
             }
           },
@@ -45761,6 +46542,14 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "m": {
+                "color": "y"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -48044,6 +48833,14 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "04": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "n": {
+                "color": "y"
+              }
+            }
           }
         }
       }
@@ -49279,6 +50076,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -50132,6 +50940,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "rp"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
               }
             }
           },
@@ -54326,6 +55145,17 @@ const speciesJson = {
               }
             }
           },
+          "04": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
           "undead01": {
             "formDisplay": "Undead",
             "genders": {
@@ -54357,6 +55187,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "rp"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
               }
             }
           },
@@ -54406,9 +55247,23 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "[dessertrepublic]",
+            "formDisplay": "Dessert",
             "genders": {
               "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
                 "color": "gy"
               }
             }
@@ -54434,9 +55289,12 @@ const speciesJson = {
       "prism": {
         "forms": {
           "04": {
-            "formDisplay": "[dessertrepublic]",
+            "formDisplay": "Dessert",
             "genders": {
               "f": {
+                "color": "gy"
+              },
+              "m": {
                 "color": "gy"
               }
             }
@@ -55915,6 +56773,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -55935,6 +56804,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
               }
             }
           },
@@ -55962,9 +56842,12 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "[dessertrepublic]",
+            "formDisplay": "Dessert",
             "genders": {
               "f": {
+                "color": "yr"
+              },
+              "m": {
                 "color": "yr"
               }
             }
@@ -55982,9 +56865,12 @@ const speciesJson = {
       "prism": {
         "forms": {
           "02": {
-            "formDisplay": "[dessertrepublic]",
+            "formDisplay": "Dessert",
             "genders": {
               "f": {
+                "color": "yr"
+              },
+              "m": {
                 "color": "yr"
               }
             }
@@ -57982,6 +58868,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Dessert",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
               }
             }
           }

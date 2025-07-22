@@ -225,6 +225,11 @@ const personalityJson = {
 		"back": "back_b",
 		"front": "front_b"
 	},
+	"Eternal Subconscious": {
+		"each": "aura_s_unconscious",
+		"back": "back_c",
+		"front": "front_c"
+	},
 	"Excited": {
 		"each": "aura_s_exciting_blithe",
 		"back": "back_a",
@@ -264,6 +269,11 @@ const personalityJson = {
 	"Full Moon (Fly)" : {
 		"back" : "aura_s_moon_yellow_fly",
 		"front" : "aura_s_transparent_yellow_fly"
+	},
+	"Gleaming": {
+		"each": "aura_s_glazed",
+		"back": "back",
+		"front": "front"
 	},
 	"Glorious": {
 		"back" : "aura_s_pvp_b",
@@ -525,6 +535,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Subconscious": {
+		"each": "aura_s_unconscious",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Surreal": {
 		"each": "aura_s_magical",
 		"back": "back",
@@ -557,11 +572,6 @@ const personalityJson = {
 		"back": "back_b",
 		"front": "front_b"
 	},
-	"Unconscious": {
-		"each": "aura_s_unconscious",
-		"back": "back_a",
-		"front": "front_a"
-	},
 	"Unknown" : {
 		"back" : "aura_s_universe3",
 		"front" : "aura_s_universe3"
@@ -570,6 +580,11 @@ const personalityJson = {
 		"each": "aura_s_robust",
 		"back": "back",
 		"front": "front"
+	},
+	"Void Subconscious": {
+		"each": "aura_s_unconscious",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Wild" : {
 		"back" : "aura_s_blackred",
