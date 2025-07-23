@@ -1265,6 +1265,56 @@ const speciesJson = {
       }
     }
   },
+  "alrescha": {
+    "speciesDisplay": "Alrescha",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w_m1"
+              },
+              "m": {
+                "color": "w_m1"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w_m1"
+              },
+              "m": {
+                "color": "w_m1"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w_m1"
+              },
+              "m": {
+                "color": "w_m1"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "altarzero": {
     "speciesDisplay": "Altar Zero",
     "stage": {
