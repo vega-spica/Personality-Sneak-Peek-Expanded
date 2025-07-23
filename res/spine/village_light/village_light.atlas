@@ -21,7 +21,7 @@ bounds:946,160,42,25
 offsets:0,0,42,28
 rotate:90
 butterfly
-bounds:1696,280,28,28
+bounds:576,12,28,28
 cat_ring
 bounds:1696,348,60,32
 offsets:1,9,62,42
@@ -88,7 +88,7 @@ bounds:919,204,60,80
 fx_2
 bounds:1359,2,64,68
 fx_3
-bounds:576,12,28,28
+bounds:911,12,28,28
 fx_4
 bounds:823,4,36,44
 rotate:90
@@ -137,6 +137,15 @@ monthly_egg_deco_2x1_202507_eff3
 bounds:1499,161,116,116
 monthly_egg_deco_2x1_202507_eff4
 bounds:1352,531,192,132
+monthly_egg_deco_2x1_202508_deco
+bounds:955,286,24,28
+rotate:90
+monthly_egg_deco_2x1_202508_deco2
+bounds:1696,280,28,32
+rotate:90
+monthly_egg_deco_2x1_202508_deco3
+bounds:869,4,36,40
+rotate:90
 moonlight
 bounds:1083,34,108,108
 obj_line2
@@ -169,7 +178,7 @@ spotlight
 bounds:1434,330,114,199
 offsets:6,3,125,206
 star_01
-bounds:955,295,15,15
+bounds:1499,295,15,15
 offsets:16,16,47,47
 star_02
 bounds:1083,7,25,25
