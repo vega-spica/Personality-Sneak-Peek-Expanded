@@ -1132,6 +1132,12 @@ const speciesJson = {
           "02": {
             "formDisplay": "Red Alien",
             "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              },
               "n": {
                 "color": "r"
               }
@@ -1163,6 +1169,12 @@ const speciesJson = {
           "02": {
             "formDisplay": "Red Alien",
             "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              },
               "n": {
                 "color": "r"
               }
@@ -1194,6 +1206,12 @@ const speciesJson = {
           "02": {
             "formDisplay": "Red Alien",
             "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              },
               "n": {
                 "color": "r"
               }
@@ -25458,7 +25476,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Unconscious",
+            "formDisplay": "Subconscious",
             "genders": {
               "f": {
                 "color": "pb"
@@ -25495,7 +25513,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Unconscious",
+            "formDisplay": "Subconscious",
             "genders": {
               "f": {
                 "color": "pb"
@@ -25532,7 +25550,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Unconscious",
+            "formDisplay": "Subconscious",
             "genders": {
               "f": {
                 "color": "pb"
@@ -44194,7 +44212,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Unconscious",
+            "formDisplay": "Subconscious",
             "genders": {
               "f": {
                 "color": "pb"
@@ -44231,7 +44249,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Unconscious",
+            "formDisplay": "Subconscious",
             "genders": {
               "f": {
                 "color": "pb"
@@ -44268,7 +44286,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Unconscious",
+            "formDisplay": "Subconscious",
             "genders": {
               "f": {
                 "color": "pb"
@@ -53921,7 +53939,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Unconscious",
+            "formDisplay": "Subconscious",
             "genders": {
               "f": {
                 "color": "pb"
@@ -53958,7 +53976,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Unconscious",
+            "formDisplay": "Subconscious",
             "genders": {
               "f": {
                 "color": "pb"
@@ -53995,7 +54013,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Unconscious",
+            "formDisplay": "Subconscious",
             "genders": {
               "f": {
                 "color": "pb"

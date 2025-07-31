@@ -1,0 +1,594 @@
+
+hallucinationlucio_water_03.png
+size: 1858,530
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lucio_03_body_01
+  rotate: false
+  xy: 1591, 272
+  size: 115, 91
+  orig: 115, 91
+  offset: 0, 0
+  index: -1
+lucio_03_body_02
+  rotate: true
+  xy: 680, 222
+  size: 130, 173
+  orig: 130, 173
+  offset: 0, 0
+  index: -1
+lucio_03_body_03
+  rotate: false
+  xy: 983, 229
+  size: 110, 143
+  orig: 110, 143
+  offset: 0, 0
+  index: -1
+lucio_03_body_04
+  rotate: false
+  xy: 1675, 389
+  size: 178, 139
+  orig: 178, 139
+  offset: 0, 0
+  index: -1
+lucio_03_body_05
+  rotate: false
+  xy: 483, 355
+  size: 232, 173
+  orig: 232, 173
+  offset: 0, 0
+  index: -1
+lucio_03_body_light_01
+  rotate: true
+  xy: 1084, 6
+  size: 78, 91
+  orig: 78, 91
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_01
+  rotate: false
+  xy: 1483, 2
+  size: 56, 53
+  orig: 56, 53
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_02
+  rotate: true
+  xy: 1239, 2
+  size: 70, 49
+  orig: 70, 49
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_03
+  rotate: false
+  xy: 1241, 74
+  size: 81, 68
+  orig: 81, 68
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_04
+  rotate: false
+  xy: 1644, 69
+  size: 62, 59
+  orig: 62, 59
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_05
+  rotate: false
+  xy: 1748, 148
+  size: 60, 50
+  orig: 60, 50
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_06
+  rotate: false
+  xy: 1412, 2
+  size: 69, 53
+  orig: 69, 53
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_07
+  rotate: false
+  xy: 1513, 147
+  size: 70, 59
+  orig: 70, 59
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_08
+  rotate: false
+  xy: 1177, 4
+  size: 60, 77
+  orig: 60, 77
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_09
+  rotate: false
+  xy: 1818, 181
+  size: 38, 33
+  orig: 38, 33
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_10
+  rotate: true
+  xy: 1818, 259
+  size: 41, 38
+  orig: 41, 38
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_11
+  rotate: false
+  xy: 1802, 105
+  size: 38, 36
+  orig: 38, 36
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_12
+  rotate: false
+  xy: 1746, 13
+  size: 41, 44
+  orig: 41, 44
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_13
+  rotate: false
+  xy: 1677, 6
+  size: 67, 61
+  orig: 67, 61
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_14
+  rotate: true
+  xy: 990, 2
+  size: 57, 56
+  orig: 57, 56
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_15
+  rotate: true
+  xy: 344, 2
+  size: 47, 59
+  orig: 47, 59
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_16
+  rotate: true
+  xy: 1048, 17
+  size: 42, 34
+  orig: 42, 34
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_17
+  rotate: false
+  xy: 1708, 81
+  size: 41, 49
+  orig: 41, 49
+  offset: 0, 0
+  index: -1
+lucio_03_crystal_18
+  rotate: true
+  xy: 1541, 2
+  size: 54, 64
+  orig: 54, 64
+  offset: 0, 0
+  index: -1
+lucio_03_eye_01
+  rotate: true
+  xy: 878, 2
+  size: 40, 31
+  orig: 40, 31
+  offset: 0, 0
+  index: -1
+lucio_03_eye_02
+  rotate: true
+  xy: 1818, 216
+  size: 41, 36
+  orig: 41, 36
+  offset: 0, 0
+  index: -1
+lucio_03_eye_03
+  rotate: true
+  xy: 1824, 2
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+lucio_03_eye_04
+  rotate: false
+  xy: 1789, 23
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1
+lucio_03_eye_05
+  rotate: false
+  xy: 1799, 65
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+lucio_03_eye_06
+  rotate: false
+  xy: 1810, 143
+  size: 41, 36
+  orig: 41, 36
+  offset: 0, 0
+  index: -1
+lucio_03_eyelid_01
+  rotate: false
+  xy: 1204, 213
+  size: 35, 30
+  orig: 35, 30
+  offset: 0, 0
+  index: -1
+lucio_03_eyelid_02
+  rotate: false
+  xy: 1204, 188
+  size: 28, 23
+  orig: 28, 23
+  offset: 0, 0
+  index: -1
+lucio_03_eyelid_03
+  rotate: false
+  xy: 1405, 212
+  size: 31, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+lucio_03_eyelid_04
+  rotate: true
+  xy: 1824, 31
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+lucio_03_goldenring_01
+  rotate: false
+  xy: 1177, 83
+  size: 62, 102
+  orig: 62, 102
+  offset: 0, 0
+  index: -1
+lucio_03_goldenring_02
+  rotate: true
+  xy: 470, 2
+  size: 48, 81
+  orig: 48, 81
+  offset: 0, 0
+  index: -1
+lucio_03_goldenring_03
+  rotate: true
+  xy: 1585, 130
+  size: 56, 101
+  orig: 56, 101
+  offset: 0, 0
+  index: -1
+lucio_03_goldenring_04
+  rotate: true
+  xy: 760, 14
+  size: 43, 81
+  orig: 43, 81
+  offset: 0, 0
+  index: -1
+lucio_03_halo_01
+  rotate: false
+  xy: 605, 68
+  size: 153, 152
+  orig: 153, 152
+  offset: 0, 0
+  index: -1
+lucio_03_halo_02
+  rotate: false
+  xy: 262, 51
+  size: 206, 204
+  orig: 206, 204
+  offset: 0, 0
+  index: -1
+lucio_03_halo_03
+  rotate: false
+  xy: 2, 257
+  size: 273, 271
+  orig: 273, 271
+  offset: 0, 0
+  index: -1
+lucio_03_head_01
+  rotate: false
+  xy: 1438, 287
+  size: 151, 76
+  orig: 151, 76
+  offset: 0, 0
+  index: -1
+lucio_03_horn_01
+  rotate: false
+  xy: 553, 2
+  size: 37, 48
+  orig: 37, 48
+  offset: 0, 0
+  index: -1
+lucio_03_horn_02
+  rotate: false
+  xy: 1324, 55
+  size: 86, 88
+  orig: 86, 88
+  offset: 0, 0
+  index: -1
+lucio_03_pillar_01
+  rotate: false
+  xy: 277, 257
+  size: 204, 271
+  orig: 204, 271
+  offset: 0, 0
+  index: -1
+lucio_03_small_halo_01
+  rotate: false
+  xy: 1412, 57
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+lucio_03_small_halo_02
+  rotate: false
+  xy: 1095, 245
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+lucio_03_small_halo_03
+  rotate: false
+  xy: 1510, 365
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+lucio_03_small_halo_04
+  rotate: false
+  xy: 1312, 145
+  size: 91, 92
+  orig: 91, 92
+  offset: 0, 0
+  index: -1
+lucio_03_small_halo_05
+  rotate: false
+  xy: 1312, 239
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+lucio_03_small_halo_06
+  rotate: false
+  xy: 1344, 365
+  size: 164, 163
+  orig: 164, 163
+  offset: 0, 0
+  index: -1
+lucio_03_smoke_01
+  rotate: true
+  xy: 717, 354
+  size: 174, 218
+  orig: 174, 218
+  offset: 0, 0
+  index: -1
+lucio_03_smoke_02
+  rotate: false
+  xy: 470, 52
+  size: 133, 178
+  orig: 133, 178
+  offset: 0, 0
+  index: -1
+lucio_03_smoke_03
+  rotate: false
+  xy: 2, 17
+  size: 258, 238
+  orig: 258, 238
+  offset: 0, 0
+  index: -1
+lucio_03_smoke_04
+  rotate: false
+  xy: 1221, 246
+  size: 89, 123
+  orig: 89, 123
+  offset: 0, 0
+  index: -1
+lucio_03_smoke_05
+  rotate: false
+  xy: 1708, 200
+  size: 108, 100
+  orig: 108, 100
+  offset: 0, 0
+  index: -1
+lucio_03_smoke_06
+  rotate: true
+  xy: 760, 59
+  size: 161, 126
+  orig: 161, 126
+  offset: 0, 0
+  index: -1
+lucio_03_tail_01
+  rotate: false
+  xy: 990, 61
+  size: 92, 166
+  orig: 92, 166
+  offset: 0, 0
+  index: -1
+lucio_03_tail_02
+  rotate: false
+  xy: 1084, 86
+  size: 91, 99
+  orig: 91, 99
+  offset: 0, 0
+  index: -1
+lucio_03_tongue_01
+  rotate: false
+  xy: 1505, 58
+  size: 59, 87
+  orig: 59, 87
+  offset: 0, 0
+  index: -1
+lucio_03_wing_01
+  rotate: false
+  xy: 1585, 188
+  size: 114, 82
+  orig: 114, 82
+  offset: 0, 0
+  index: -1
+lucio_03_wing_02
+  rotate: true
+  xy: 705, 8
+  size: 58, 53
+  orig: 58, 53
+  offset: 0, 0
+  index: -1
+lucio_03_wing_03
+  rotate: false
+  xy: 855, 224
+  size: 126, 128
+  orig: 126, 128
+  offset: 0, 0
+  index: -1
+lucio_03_wing_04
+  rotate: true
+  xy: 1150, 371
+  size: 157, 192
+  orig: 157, 192
+  offset: 0, 0
+  index: -1
+lucio_03_wing_05
+  rotate: true
+  xy: 1607, 5
+  size: 62, 68
+  orig: 62, 68
+  offset: 0, 0
+  index: -1
+lucio_03_wing_06
+  rotate: true
+  xy: 405, 6
+  size: 43, 58
+  orig: 43, 58
+  offset: 0, 0
+  index: -1
+lucio_03_wing_07
+  rotate: true
+  xy: 1688, 132
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+lucio_03_wing_08
+  rotate: false
+  xy: 843, 2
+  size: 33, 55
+  orig: 33, 55
+  offset: 0, 0
+  index: -1
+lucio_03_wing_09
+  rotate: true
+  xy: 937, 374
+  size: 154, 211
+  orig: 154, 211
+  offset: 0, 0
+  index: -1
+lucio_03_wing_10
+  rotate: true
+  xy: 605, 2
+  size: 64, 98
+  orig: 64, 98
+  offset: 0, 0
+  index: -1
+lucio_03_wing_11
+  rotate: true
+  xy: 1290, 2
+  size: 51, 59
+  orig: 51, 59
+  offset: 0, 0
+  index: -1
+lucio_03_wing_12
+  rotate: false
+  xy: 1708, 302
+  size: 128, 85
+  orig: 128, 85
+  offset: 0, 0
+  index: -1
+lucio_03_wing_13
+  rotate: false
+  xy: 1351, 15
+  size: 58, 38
+  orig: 58, 38
+  offset: 0, 0
+  index: -1
+lucio_03_wing_14
+  rotate: true
+  xy: 1566, 70
+  size: 58, 76
+  orig: 58, 76
+  offset: 0, 0
+  index: -1
+lucio_03_wing_15
+  rotate: false
+  xy: 483, 232
+  size: 195, 121
+  orig: 195, 121
+  offset: 0, 0
+  index: -1
+lucio_03_wing_16
+  rotate: true
+  xy: 888, 44
+  size: 178, 100
+  orig: 178, 100
+  offset: 0, 0
+  index: -1
+lucio_03_wing_17
+  rotate: false
+  xy: 1751, 105
+  size: 49, 41
+  orig: 49, 41
+  offset: 0, 0
+  index: -1
+lucio_03_wing_18
+  rotate: false
+  xy: 1751, 59
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+lucio_03_wing_19
+  rotate: true
+  xy: 1241, 144
+  size: 100, 69
+  orig: 100, 69
+  offset: 0, 0
+  index: -1
+lucio_03_wing_20
+  rotate: false
+  xy: 1095, 187
+  size: 107, 56
+  orig: 107, 56
+  offset: 0, 0
+  index: -1
+lucio_03_wing_eye_01
+  rotate: false
+  xy: 262, 2
+  size: 80, 47
+  orig: 80, 47
+  offset: 0, 0
+  index: -1
+lucio_03_wing_eye_02
+  rotate: true
+  xy: 1438, 208
+  size: 77, 145
+  orig: 77, 145
+  offset: 0, 0
+  index: -1
+lucio_03_wing_eye_03
+  rotate: false
+  xy: 1405, 150
+  size: 106, 56
+  orig: 106, 56
+  offset: 0, 0
+  index: -1
+lucio_03_wing_eye_04
+  rotate: false
+  xy: 911, 6
+  size: 60, 36
+  orig: 60, 36
+  offset: 0, 0
+  index: -1
