@@ -6,6 +6,4 @@ Dragon Village Collection assets and all Dragon Village characters ©highbrow Co
 i will do my best to continue updating this tool as i am able, and to ensure that it does not contain or collect any sensitive information.<br>
 i receive no monetary compensation for building this, nor do i use it to advertise any sort of paid goods or services.<br>
 <br>
-한국어 (시토콘드리아): https://ctcdra.github.io/Personality-Sneak-Peek-Expanded_KRtranslate/<br>
-<br>
 If you enjoyed using this tool, please consider contributing to the <a href=https://dragon-village-collection.fandom.com/wiki/Dragon_Village_Collection_Wiki>DVC Fandom Wiki</a>.
