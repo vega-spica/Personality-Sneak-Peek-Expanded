@@ -1,0 +1,15 @@
+star.png
+size:123,49
+filter:Linear,Linear
+star_01
+bounds:96,5,15,15
+offsets:16,16,47,47
+star_02
+bounds:96,22,25,25
+offsets:11,11,47,47
+star_03
+bounds:2,2,45,45
+offsets:1,1,47,47
+star_04
+bounds:49,2,45,45
+offsets:1,1,47,47

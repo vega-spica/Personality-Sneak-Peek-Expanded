@@ -1,0 +1,13 @@
+shootingstar2.png
+size:200,139
+filter:Linear,Linear
+light_pixel_00000
+bounds:2,2,135,135
+offsets:12,13,160,160
+star
+bounds:139,20,52,52
+offsets:4,4,60,60
+trail
+bounds:139,74,63,59
+offsets:0,3,64,64
+rotate:90
