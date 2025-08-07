@@ -530,6 +530,11 @@ const personalityJson = {
 		"back" : "aura_s_halloween_a_fly",
 		"front" : "aura_s_halloween_a"
 	},
+	"Starry Sea": {
+		"each": "aura_s_starsea",
+		"back": "back",
+		"front": "front"
+	},
 	"Strategic": {
 		"each": "aura_a_strategist",
 		"back": "back",
