@@ -18135,7 +18135,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Angel of Love",
+            "formDisplay": "Love Angel",
             "genders": {
               "f": {
                 "color": "w"
@@ -18194,7 +18194,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Angel of Love",
+            "formDisplay": "Love Angel",
             "genders": {
               "f": {
                 "color": "w"
@@ -18253,7 +18253,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "Angel of Love",
+            "formDisplay": "Love Angel",
             "genders": {
               "f": {
                 "color": "w"
