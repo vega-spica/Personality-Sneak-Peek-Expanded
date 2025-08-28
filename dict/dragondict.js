@@ -1275,7 +1275,6 @@ const speciesJson = {
             "genders": {
               "n": {
                 "color": "r"
-
               }
             }
           }
@@ -9944,6 +9943,18 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "fusion": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "w"
               }
             }
           }

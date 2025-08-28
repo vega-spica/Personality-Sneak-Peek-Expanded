@@ -140,6 +140,8 @@
             essenceLabel = document.getElementById("essenceLabel");
             prismButton = document.getElementById("prism");
             prismLabel = document.getElementById("prismLabel");
+            fusionButton = document.getElementById("fusion");
+            fusionLabel = document.getElementById("fusionLabel");
             myownfront = document.getElementById("myownfront");
             myownfrontcolour = document.getElementById("myownfrontcolour");
             myownback = document.getElementById("myownback");
@@ -427,8 +429,10 @@
             essenceButton.setAttribute('aria-disabled', true);
             prismButton.disabled = true;
             prismButton.setAttribute('aria-disabled', true);
+            fusionButton.disabled = true;
+            fusionButton.setAttribute('aria-disabled', true);
 
-            //add disabled class to hatch, hatchling, essence, and prism labels
+            //add disabled class to hatch, hatchling, essence, prism, and fusion labels
             hatchLabel.classList.add("disabledButton");
             hatchLabel.setAttribute('aria-disabled', true);
             hatchlingLabel.classList.add("disabledButton");
@@ -437,6 +441,8 @@
             essenceLabel.setAttribute('aria-disabled', true);
             prismLabel.classList.add("disabledButton");
             prismLabel.setAttribute('aria-disabled', true);
+            fusionLabel.classList.add("disabledButton");
+            fusionLabel.setAttribute('aria-disabled', true);
 
             //enable valid buttons
             if (speciesJson[speciesName].stage['hatch'] !== undefined && speciesJson[speciesName].stage['hatch'].forms[formNumber] !== undefined){
@@ -463,6 +469,12 @@
                 prismLabel.classList.remove("disabledButton");
                 prismLabel.setAttribute('aria-disabled', false);
             }
+            if (speciesJson[speciesName].stage['fusion'] !== undefined && speciesJson[speciesName].stage['fusion'].forms[formNumber] !== undefined) {
+                fusionButton.disabled = false;
+                fusionButton.setAttribute('aria-disabled', false);
+                fusionLabel.classList.remove("disabledButton");
+                fusionLabel.setAttribute('aria-disabled', false);
+            }
 
 
             switch (stage){
@@ -482,6 +494,12 @@
                     prismButton.checked = true;
                     prismButton.setAttribute('aria-disabled', false);
                     prismLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                case 'fusion': {
+                    fusionButton.checked = true;
+                    fusionButton.setAttribute('aria-disabled', false);
+                    fusionLabel.setAttribute('aria-disabled', false);
                     break;
                 }
                 case 'hatchling': {
@@ -592,6 +610,9 @@
             }
             else if (stage.indexOf("prism") !== -1) {
                 url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/prism/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName;
+            }
+            else if (stage.indexOf("fusion") !== -1) {
+                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/fusion/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName;
             }
             else {
                 url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber +"_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber +"_" + gender + "_" + stage + "_" + colorName;
@@ -1057,6 +1078,11 @@
             <input type="radio" name="stage" value="prism" id="prism" onchange="setStage(this.value)" />
             <label for="prism" id="prismLabel" aria-disabled="false">
                 <img src="./res/img/stage_prism.png" alt="prism selection">
+            </label>
+            <br>
+            <input type="radio" name="stage" value="fusion" id="fusion" onchange="setStage(this.value)" />
+            <label for="fusion" id="fusionLabel" aria-disabled="false">
+                <img src="./res/img/stage_prism.png" alt="fusion selection">
             </label>
         </div>
         <br>
