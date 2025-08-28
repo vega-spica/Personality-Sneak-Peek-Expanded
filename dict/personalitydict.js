@@ -434,6 +434,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Protecting": {
+		"each": "aura_s_gurdian",
+		"back": "back",
+		"front": "front"
+	},
 	"Pure" : {
 		"back" : "aura_s_transparent",
 		"front" : "aura_s_transparent"

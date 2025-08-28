@@ -118,7 +118,13 @@ const cavefloorJson = {
     },
     "Malcartis (Special)": {
         "res": "malcartis/malcartis_floor_02/malcartis_floor_02"
-    },   
+    },
+    /*"Meteora": {
+        "res": "meteora/meteora_floor_01/meteora_floor_01"
+    },
+    "Meteora (Special)": {
+        "res": "meteora/meteora_floor_02/meteora_floor_02"
+    },*/   
     "Metis": {
         "res": "metis/metis_floor_01/metis_floor_01"
     },

@@ -12823,6 +12823,47 @@ const speciesJson = {
       }
     }
   },
+  "deathreaperdragon": {
+    "speciesDisplay": "Death Reaper Dragon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "deathriver": {
     "speciesDisplay": "Death River",
     "stage": {
@@ -21000,6 +21041,80 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "gargula": {
+    "speciesDisplay": "Gargula",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "gargula_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "gargula_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "gargula_n_adult_w"
               }
             }
           }
@@ -32727,7 +32842,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Blood Moon",
+            "formDisplay": "Bloodmoon",
             "genders": {
               "f": {
                 "color": "r"
@@ -32738,7 +32853,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Frost Moon",
+            "formDisplay": "Frostmoon",
             "genders": {
               "f": {
                 "color": "b"
@@ -32749,7 +32864,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Bright Moon",
+            "formDisplay": "Brightmoon",
             "genders": {
               "f": {
                 "color": "w"
@@ -32760,7 +32875,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Viper Moon",
+            "formDisplay": "Brightmoon",
             "genders": {
               "f": {
                 "color": "g"
@@ -32838,7 +32953,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Blood Moon",
+            "formDisplay": "Bloodmoon",
             "genders": {
               "f": {
                 "color": "r"
@@ -32849,7 +32964,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Frost Moon",
+            "formDisplay": "Frostmoon",
             "genders": {
               "f": {
                 "color": "b"
@@ -32860,7 +32975,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Bright Moon",
+            "formDisplay": "Brightmoon",
             "genders": {
               "f": {
                 "color": "w"
@@ -32871,7 +32986,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Viper Moon",
+            "formDisplay": "Brightmoon",
             "genders": {
               "f": {
                 "color": "g"
@@ -32949,7 +33064,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Blood Moon",
+            "formDisplay": "Bloodmoon",
             "genders": {
               "f": {
                 "color": "r"
@@ -32960,7 +33075,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Frost Moon",
+            "formDisplay": "Frostmoon",
             "genders": {
               "f": {
                 "color": "b"
@@ -32971,7 +33086,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Bright Moon",
+            "formDisplay": "Brightmoon",
             "genders": {
               "f": {
                 "color": "w"
@@ -32982,7 +33097,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Viper Moon",
+            "formDisplay": "Brightmoon",
             "genders": {
               "f": {
                 "color": "g"
@@ -34402,6 +34517,344 @@ const speciesJson = {
               },
               "m": {
                 "undeadres": "drake_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "meteora": {
+    "speciesDisplay": "Meteora",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Bloodmoon",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Frostmoon",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Brightmoon",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Vipermoon",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Bloodmoon",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Frostmoon",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Brightmoon",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Brightmoon",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Bloodmoon",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Frostmoon",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Brightmoon",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Vipermoon",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Bloodmoon",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Frostmoon",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Brightmoon",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Brightmoon",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Bloodmoon",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Frostmoon",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Brightmoon",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Vipermoon",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Bloodmoon",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Frostmoon",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Brightmoon",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Brightmoon",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
               }
             }
           }
