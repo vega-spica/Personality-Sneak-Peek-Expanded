@@ -1,0 +1,17 @@
+meteora_bg_01.png
+size:804,284
+pma:true
+background_main
+bounds:2,2,200,280
+curtain_01
+bounds:204,144,198,138
+curtain_02
+bounds:204,4,198,138
+curtain_03
+bounds:404,144,198,138
+curtain_04
+bounds:404,4,198,138
+curtain_05
+bounds:604,144,198,138
+curtain_06
+bounds:604,4,198,138
