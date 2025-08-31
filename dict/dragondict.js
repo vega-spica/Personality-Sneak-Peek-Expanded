@@ -21075,11 +21075,11 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "deaddead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "undeadres": "gargula_hatch_w"
+                "color": ".png"
               }
             }
           }
@@ -21098,11 +21098,11 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "deaddead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "undeadres": "gargula_n_hatchling_w"
+                "color": ".png"
               }
             }
           }
@@ -21121,11 +21121,11 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "deaddead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "undeadres": "gargula_n_adult_w"
+                "color": ".png"
               }
             }
           }

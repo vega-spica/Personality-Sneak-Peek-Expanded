@@ -116,12 +116,12 @@ const cavebgJson = {
     "Malcartis (Special)": {
         "res": "malcartis/malcartis_bg_02/malcartis_bg_02"
     },
-    /*"Meteora": {
+    "Meteora": {
         "res": "meteora/meteora_bg_01/meteora_bg_01"
     },
     "Meteora (Special)": {
         "res": "meteora/meteora_bg_02/meteora_bg_02"
-    },*/     
+    },   
     "Metis": {
         "res": "metis/metis_bg_01/metis_bg_01"
     },
