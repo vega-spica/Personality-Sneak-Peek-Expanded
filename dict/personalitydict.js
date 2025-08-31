@@ -288,6 +288,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Guarding": {
+		"each": "aura_s_gurdian",
+		"back": "back",
+		"front": "front"
+	},
 	"Hardy" : {
 		"back" : "aura_b_darkbrown",
 		"front" : ""
@@ -431,11 +436,6 @@ const personalityJson = {
 	},
 	"Pleasant": {
 		"each": "aura_s_melodious",
-		"back": "back",
-		"front": "front"
-	},
-	"Protecting": {
-		"each": "aura_s_gurdian",
 		"back": "back",
 		"front": "front"
 	},
