@@ -166,16 +166,6 @@ const personalityJson = {
 		"back": "back_a_fly",
 		"front": "front_a"
 	},
-	"Crimson Moon": {
-		"each": "aura_s_fullmoon",
-		"back": "back_b",
-		"front": "front_b"
-	},
-	"Crimson Moon (Fly) [Unused]": {
-		"each": "aura_s_fullmoon",
-		"back": "back_b_fly",
-		"front": "front_b"
-	},
 	"Curious" : {
 		"back" : "aura_a2_green",
 		"front" : "a2"
@@ -473,6 +463,16 @@ const personalityJson = {
 		"each": "aura_a4",
 		"back": "back_b",
 		"front": "front_a"
+	},
+	"Red Moon": {
+		"each": "aura_s_fullmoon",
+		"back": "back_b",
+		"front": "front_b"
+	},
+	"Red Moon (Fly) [Unused]": {
+		"each": "aura_s_fullmoon",
+		"back": "back_b_fly",
+		"front": "front_b"
 	},
 	"Reserved": {
 		"each": "aura_a_shy",
