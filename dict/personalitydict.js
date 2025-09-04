@@ -3,6 +3,11 @@ const personalityJson = {
 		"back" : "",
 		"front" : ""
 	},
+	"Absolute": {
+		"each": "aura_s_usirping_absolutic",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Abundant" : {
 		"back" : "aura_e_emart",
 		"front" : "aura_e_emart"
@@ -595,6 +600,11 @@ const personalityJson = {
 		"each": "aura_s_robust",
 		"back": "back",
 		"front": "front"
+	},
+	"Usurping": {
+		"each": "aura_s_usirping_absolutic",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Void Subconscious": {
 		"each": "aura_s_unconscious",

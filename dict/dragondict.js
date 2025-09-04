@@ -8449,6 +8449,28 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Castor",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Pollux",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -30214,6 +30236,17 @@ const speciesJson = {
         "forms": {
           "01": {
             "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Observer",
             "genders": {
               "f": {
                 "color": "gy"
