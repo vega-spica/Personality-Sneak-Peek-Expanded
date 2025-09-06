@@ -207,6 +207,11 @@ const personalityJson = {
 		"back": "back_a",
 		"front": "front_a"
 	},
+	"Dreamy (Legacy)": {
+		"each": "aura_s_dreamlike_enigmatic_legacy",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Dull" : {
 		"back" : "aura_a_babyblue",
 		"front" : "a"
@@ -401,6 +406,11 @@ const personalityJson = {
 	},
 	"Mysterious": {
 		"each": "aura_s_dreamlike_enigmatic",
+		"back": "back_b",
+		"front": "front_b"
+	},
+	"Mysterious (Legacy)": {
+		"each": "aura_s_dreamlike_enigmatic_legacy",
 		"back": "back_b",
 		"front": "front_b"
 	},
@@ -621,6 +631,11 @@ const personalityJson = {
 	},
 	"Wishful": {
 		"each": "aura_s_wishful",
+		"back": "back",
+		"front": "front"
+	},
+	"Wishful (Legacy)": {
+		"each": "aura_s_wishful_legacy",
 		"back": "back",
 		"front": "front"
 	},
