@@ -46,8 +46,14 @@ a:hover {
   margin-top: 120%;
 }
 
-.dragonCanvas {
+.spotlightCanvas {
   z-index: 0;
+  padding: 100% 100% 100% 100%;
+  margin-top: 120%;
+}
+
+.dragonCanvas {
+  z-index: 1;
   padding: 100% 100% 100% 100%;
   margin-top: 120%;
 }
@@ -62,7 +68,7 @@ a:hover {
 }
 
 .auraFrontCanvas {
-  z-index: 1;
+  z-index: 2;
   padding: 100% 100% 100% 100%;
   margin-top: 120%;
 }
@@ -289,6 +295,22 @@ select:focus {
   vertical-align: middle;
 }
 
+.spotlightRadios {
+  text-align: center;
+}
+
+#spotlightRadios label {
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+
+#spotlightRadios label img {
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+
 input[type='radio'] {
   accent-color: blue;
 }
@@ -349,6 +371,10 @@ input[type='radio'] {
 /*that strange 125% display...*/
 @media (min-resolution: 120dpi) {
   .auraBackCanvas {
+    margin-top: 87%;
+  }
+
+  .spotlightCanvas {
     margin-top: 87%;
   }
 
@@ -421,6 +447,11 @@ input[type='radio'] {
   }
 
   .auraBackCanvas {
+    padding: 70% 70% 70% 70%;
+    margin-top: 77%;
+  }
+
+  .spotlightCanvas {
     padding: 70% 70% 70% 70%;
     margin-top: 77%;
   }

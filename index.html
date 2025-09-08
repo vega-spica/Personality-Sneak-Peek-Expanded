@@ -62,6 +62,7 @@
         var floorSelection;
         var bgState = "idle";
         var floorState = "idle";
+        var spotlightState = "";
         
         function init() {
             //hey, wanna see a cool trick?
@@ -152,6 +153,7 @@
             myheartbackcolour = document.getElementById("myheartbackcolour");
             cavebg = document.getElementById("cavebg");
             cavefloor = document.getElementById("cavefloor");
+            spotlight = document.getElementById("spotlight");
             
             //create option tags for Species
             var speciesOption;
@@ -378,6 +380,11 @@
         function setfloorState(floorValue) {
             floorState = floorValue;
             updateFloorUrl();
+        }
+
+        function setspotlightState(spotlightValue) {
+            spotlightState = spotlightValue;
+            updateSpotlightUrl();
         }
 
         function setbrightness(brightnessValue) {
@@ -752,6 +759,13 @@
                     });
                 }
             }
+            
+        function updateSpotlightUrl() {
+                //not really a url, but animation state needs updating, so...         
+                    canvases.spotlight = new spine.SpineCanvas(document.getElementById("Spotlight"), {
+                        app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/license_growth_010/license_growth_010", spotlightState)
+                    });
+                }
 
         function copySharelink() {
                 // initialize shareLink with required values
@@ -879,6 +893,23 @@
             <label for="floorstop" id="floorstopLabel">Stop</label>
         </div>
         <br>
+
+        <!--spotlight for top 20 Mystic rank-->
+        <div id="spotlightRadios" class="spotlightRadios">
+            <input type="radio" name="spotlight" value="" id="spotlightoff" onchange="setspotlightState(this.value)" onchange="updateSpotlightUrl();" checked />
+            <label for="spotlightoff" id="spotlightoffLabel">
+                <img src="./res/img/license_00.png" alt="spotlight off">
+            </label>
+            &nbsp;
+            <input type="radio" name="spotlight" value="idle" id="spotlightidle" onchange="setspotlightState(this.value)" onchange="updateSpotlightUrl();" />
+            <label for="spotlightidle" id="spotlightidleLabel">
+                <img src="./res/img/license_10.png" alt="spotlight on">
+            </label>
+        </div>
+        <br>
+
+        <!--sharelinks. because sharing is caring.-->
+            <!--(it doesn't track views though, sorry)-->
         <input type="image" onclick="copySharelink()" src="./res/img/link_0202.png" width="40px" alt="Copy Sharelink"></input>
         <br>
         <p id="buttonAlert">Copied!</p>
@@ -898,6 +929,7 @@
                 <canvas id="dragonCanvas" class="spineCanvas dragonCanvas"></canvas>
                 <canvas id="Auraback" class="spineCanvas auraBackCanvas"></canvas>
                 <canvas id="Aurafront" class="spineCanvas auraFrontCanvas"></canvas>
+                <canvas id="Spotlight" class="spineCanvas spotlightCanvas"></canvas>
                 <canvas id="Background" class="spineCanvas backgroundCanvas"></canvas>
                 <canvas id="Floor" class="spineCanvas floorCanvas"></canvas>
                 
