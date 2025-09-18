@@ -1,7 +1,5 @@
 kairos_03_f_hatch_w.png
 size:173,263
-filter:Linear,Linear
-pma:true
 body_1
 bounds:151,227,11,12
 rotate:90
