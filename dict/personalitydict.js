@@ -3,6 +3,21 @@ const personalityJson = {
 		"back" : "",
 		"front" : ""
 	},
+	"[event 2025-09a]": {
+		"each": "aura_s_event_2509",
+		"back": "back_a",
+		"front": "front_a"
+	},
+	"[event 2025-09b]": {
+		"each": "aura_s_event_2509",
+		"back": "back_b",
+		"front": "front_b"
+	},
+	"[event 2025-09c]": {
+		"each": "aura_s_event_2509",
+		"back": "back_c",
+		"front": "front_c"
+	},
 	"Absolute": {
 		"each": "aura_s_usirping_absolutic",
 		"back": "back_a",
@@ -183,6 +198,11 @@ const personalityJson = {
 	"Dawn" : {
 		"back" : "aura_a2_white",
 		"front" : "a2_whitegold"
+	},
+	"Destructive": {
+		"each": "aura_s_ruinous",
+		"back": "back",
+		"front": "front"
 	},
 	"Developing": {
 		"each": "aura_s_growth_evolving",

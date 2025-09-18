@@ -1529,6 +1529,67 @@ const speciesJson = {
       }
     }
   },
+  "alterion": {
+    "speciesDisplay": "Alterion",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Unsealed",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "amaltheia": {
     "speciesDisplay": "Amaltheia",
     "stage": {
@@ -2479,7 +2540,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Fall",
+            "formDisplay": "Autumn",
             "genders": {
               "f": {
                 "color": "r"
@@ -2513,7 +2574,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Fall",
+            "formDisplay": "Autumn",
             "genders": {
               "f": {
                 "color": "r"
@@ -35179,7 +35240,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Fall",
+            "formDisplay": "Autumn",
             "genders": {
               "f": {
                 "color": "y"
@@ -35290,7 +35351,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Fall",
+            "formDisplay": "Autumn",
             "genders": {
               "f": {
                 "color": "y"
@@ -35401,7 +35462,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Fall",
+            "formDisplay": "Autumn",
             "genders": {
               "f": {
                 "color": "y"
