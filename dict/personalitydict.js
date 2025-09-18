@@ -199,7 +199,7 @@ const personalityJson = {
 		"back" : "aura_a2_white",
 		"front" : "a2_whitegold"
 	},
-	"Destructive": {
+	"Destruction": {
 		"each": "aura_s_ruinous",
 		"back": "back",
 		"front": "front"
