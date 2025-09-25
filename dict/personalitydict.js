@@ -3,21 +3,6 @@ const personalityJson = {
 		"back" : "",
 		"front" : ""
 	},
-	"[event 2025-09a]": {
-		"each": "aura_s_event_2509",
-		"back": "back_a",
-		"front": "front_a"
-	},
-	"[event 2025-09b]": {
-		"each": "aura_s_event_2509",
-		"back": "back_b",
-		"front": "front_b"
-	},
-	"[event 2025-09c]": {
-		"each": "aura_s_event_2509",
-		"back": "back_c",
-		"front": "front_c"
-	},
 	"Absolute": {
 		"each": "aura_s_usirping_absolutic",
 		"back": "back_a",
@@ -170,6 +155,11 @@ const personalityJson = {
 	"Clumsy" : {
 		"back" : "aura_a2_purple",
 		"front" : "a2"
+	},
+	"Cold Moon": {
+		"each": "aura_s_event_2509",
+		"back": "back_c",
+		"front": "front_c"
 	},
 	"Cozy": {
 		"each": "aura_s_signature",
@@ -536,6 +526,16 @@ const personalityJson = {
 	"Silent" : {
 		"back" : "aura_a2_darkblue",
 		"front" : "a2"
+	},
+	"Silent Moon": {
+		"each": "aura_s_event_2509",
+		"back": "back_b",
+		"front": "front_b"
+	},
+	"Silver Moon": {
+		"each": "aura_s_event_2509",
+		"back": "back_a",
+		"front": "front_a"
 	},
 	"Skilled" : {
 		"back" : "aura_s_game_a",

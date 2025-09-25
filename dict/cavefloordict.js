@@ -26,6 +26,12 @@ const cavefloorJson = {
     "Arca's Execution Hall": {
         "res": "executor/executor_floor_01/executor_floor_01"
     },
+    /*"Bademus": {
+        "res": "bademus/bademus_floor_01/bademus_floor_01"
+    },
+    "Bademus (Special)": {
+        "res": "bademus/bademus_floor_02/bademus_floor_02"
+    },*/
     /*"Balance of the Universe": {
         "res": "equilibrial/equilibrial_floor_01/equilibrial_floor_01"
     },*/

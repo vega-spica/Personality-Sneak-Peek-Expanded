@@ -4284,6 +4284,344 @@ const speciesJson = {
       }
     }
   },
+  "bademus": {
+    "speciesDisplay": "Bademus",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Light Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Bloody Spectator",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Spectator of Abundance",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Shadow's Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Light Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Bloody Spectator",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Spectator of Abundance",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Shadow's Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Light Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Bloody Spectator",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Spectator of Abundance",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Shadow's Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Light Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Bloody Spectator",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Spectator of Abundance",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Shadow's Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Light Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Bloody Spectator",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Spectator of Abundance Form",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Shadow's Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Light Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Bloody Spectator",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Spectator of Abundance Form",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Shadow's Observer",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "baekho": {
     "speciesDisplay": "Baekho",
     "stage": {
@@ -28217,6 +28555,80 @@ const speciesJson = {
       }
     }
   },
+  "kesha": {
+    "speciesDisplay": "Kesha",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "feros_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "feros_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "feros_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "khan": {
     "speciesDisplay": "Khan",
     "stage": {
@@ -32797,6 +33209,80 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "eggend_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "magnas": {
+    "speciesDisplay": "Magnas",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
               }
             }
           }
@@ -45239,6 +45725,124 @@ const speciesJson = {
               },
               "m": {
                 "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "renavia": {
+    "speciesDisplay": "Renavia",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Master of the Mansion",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Master of the Mansion",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Master of the Mansion",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Awakened Eye",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           },
