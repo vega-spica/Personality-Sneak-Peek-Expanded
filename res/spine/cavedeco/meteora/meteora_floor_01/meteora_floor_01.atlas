@@ -1,6 +1,5 @@
 meteora_floor_01.png
 size:251,173
-filter:Linear,Linear
 floor_main
 bounds:2,3,168,178
 rotate:90
