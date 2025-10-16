@@ -392,6 +392,11 @@ const personalityJson = {
 		"back" : "aura_a_babypink",
 		"front" : "a"
 	},
+	"Loyal": {
+		"each": "aura_s_faithful",
+		"back": "back",
+		"front": "front"
+	},
 	"Lunatic" : {
 		"back" : "aura_s_purplelight",
 		"front" : "aura_s_purplelight"
@@ -566,6 +571,11 @@ const personalityJson = {
 	"Somber" : {
 		"back" : "aura_a2_brown",
 		"front" : "a2_copper"
+	},
+	"Sparkling": {
+		"each": "aura_s_twinkling",
+		"back": "back",
+		"front": "front"
 	},
 	"Spooky" : {
 		"back" : "aura_s_halloween_a",
