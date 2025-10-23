@@ -212,6 +212,11 @@ const personalityJson = {
 		"back" : "aura_b_green",
 		"front" : ""
 	},
+	"Double-Natured": {
+		"each": "aura_s_twofold",
+		"back": "back",
+		"front": "front"
+	},
 	"Dreamy": {
 		"each": "aura_s_dreamlike_enigmatic",
 		"back": "back_a",

@@ -89,6 +89,9 @@ const cavebgJson = {
     "Halloween 2023 (FLASHING)": {
         "res": "halloween_2023/halloween_2023_bg_01/halloween_2023_bg_01"
     },
+    "Halloween Special": {
+        "res": "prismhalloween/prismhalloween_bg_01/prismhalloween_bg_01"
+    },
     "Happy Memory Signature Background": {
         "res": "signature_2024/signature_2024_bg_02/signature_2024_bg_02"
     },

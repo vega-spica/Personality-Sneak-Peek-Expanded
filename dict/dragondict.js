@@ -1659,6 +1659,17 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
           }
         }
       }
@@ -2486,6 +2497,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "y"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           },
@@ -3787,6 +3809,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           }
@@ -11457,6 +11490,17 @@ const speciesJson = {
               }
             }
           },
+          "03": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "g"
+              },
+              "m": {
+                "color": "g"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -14110,6 +14154,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -16312,6 +16367,172 @@ const speciesJson = {
       }
     }
   },
+  "eddymaddy": {
+    "speciesDisplay": "Eddy&Maddy",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Mad Scientist",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Mad Scientist",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "wyvern_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Mad Scientist",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Mad Scientist",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "wyvern_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Mad Scientist",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Mad Scientist",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "wyvern_w_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "Mad Scientist",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Mad Scientist",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "eelosdragon": {
     "speciesDisplay": "Eelos Dragon",
     "stage": {
@@ -18273,6 +18494,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -18293,6 +18525,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
               }
             }
           },
@@ -18319,11 +18562,37 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_n_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
               }
             }
           }
@@ -24659,6 +24928,17 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
           }
         }
       }
@@ -24723,6 +25003,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
               }
             }
           },
@@ -25612,6 +25903,14 @@ const speciesJson = {
             "genders": {
               "n": {
                 "color": "bg"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "n": {
+                "color": "bk"
               }
             }
           },
@@ -28660,11 +28959,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "03": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead Halloween",
+            "genders": {
+              "n": {
+                "undeadres": "drake_n_hatch_w"
               }
             }
           }
@@ -28683,11 +29001,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "03": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_n_hatchling_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead Halloween",
+            "genders": {
+              "n": {
+                "undeadres": "drake_n_hatchling_w"
               }
             }
           }
@@ -28717,11 +29054,45 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "03": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "drake_n_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead Halloween",
+            "genders": {
+              "n": {
+                "undeadres": "drake_n_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "03": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
               }
             }
           }
@@ -29250,6 +29621,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -29264,6 +29646,17 @@ const speciesJson = {
         "forms": {
           "01": {
             "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Halloween",
             "genders": {
               "f": {
                 "color": "b"
@@ -29296,11 +29689,37 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
               }
             }
           }
@@ -29990,6 +30409,17 @@ const speciesJson = {
           },
           "02": {
             "formDisplay": "Clumpy",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Halloween",
             "genders": {
               "f": {
                 "color": "y"
@@ -33478,6 +33908,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -33492,6 +33933,17 @@ const speciesJson = {
         "forms": {
           "01": {
             "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Halloween",
             "genders": {
               "f": {
                 "color": "bk"
@@ -33524,11 +33976,37 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           }
@@ -35447,7 +35925,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Brightmoon",
+            "formDisplay": "Vipermoon",
             "genders": {
               "f": {
                 "color": "bk"
@@ -35558,7 +36036,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Brightmoon",
+            "formDisplay": "Vipermoon",
             "genders": {
               "f": {
                 "color": "bk"
@@ -35669,7 +36147,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Brightmoon",
+            "formDisplay": "Vipermoon",
             "genders": {
               "f": {
                 "color": "bk"
@@ -38436,6 +38914,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
               }
             }
           },
@@ -41248,6 +41737,17 @@ const speciesJson = {
               }
             }
           },
+          "03": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -41721,6 +42221,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
               }
             }
           },
@@ -43099,6 +43610,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "rp"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           },
@@ -45757,6 +46279,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "bg"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           }
@@ -54614,6 +55147,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "Halloween",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           },

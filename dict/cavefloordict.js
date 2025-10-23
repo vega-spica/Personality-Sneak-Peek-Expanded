@@ -92,6 +92,9 @@ const cavefloorJson = {
     "Halloween 2023": {
         "res": "halloween_2023/halloween_2023_floor_01/halloween_2023_floor_01"
     },
+    "Halloween Special": {
+        "res": "prismhalloween/prismhalloween_floor_01/prismhalloween_floor_01"
+    },
     "Harmonious Dragon": {
         "res": "harmoniousdragon/harmoniousdragon_floor_01/harmoniousdragon_floor_01"
     },
