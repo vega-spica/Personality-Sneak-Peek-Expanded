@@ -3698,7 +3698,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_ASTOR02",
+            "formDisplay": "P_Dream Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3709,7 +3709,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_ASTOR03",
+            "formDisplay": "P_Sea Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3720,7 +3720,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_ASTOR04",
+            "formDisplay": "P_Snowfield Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3731,7 +3731,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_ASTOR05",
+            "formDisplay": "P_Fantasy Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3742,7 +3742,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "ASTOR02",
+            "formDisplay": "Dream Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3753,7 +3753,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "ASTOR03",
+            "formDisplay": "Sea Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3764,7 +3764,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "ASTOR04",
+            "formDisplay": "Snowfield Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3775,7 +3775,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "ASTOR05",
+            "formDisplay": "Fantasy Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3794,7 +3794,7 @@ const speciesJson = {
             }
           },
           "deaddead02": {
-            "formDisplay": "Undead P_ASTOR02",
+            "formDisplay": "Undead P_Dream Navigator",
             "genders": {
               "n": {
                 "color": ".png"
@@ -3802,7 +3802,7 @@ const speciesJson = {
             }
           },
           "deaddead03": {
-            "formDisplay": "Undead P_ASTOR03",
+            "formDisplay": "Undead P_Sea Navigator",
             "genders": {
               "n": {
                 "color": ".png"
@@ -3810,7 +3810,7 @@ const speciesJson = {
             }
           },
           "deaddead04": {
-            "formDisplay": "Undead P_ASTOR04",
+            "formDisplay": "Undead P_Snowfield Navigator",
             "genders": {
               "n": {
                 "color": ".png"
@@ -3818,7 +3818,7 @@ const speciesJson = {
             }
           },
           "deaddead05": {
-            "formDisplay": "Undead P_ASTOR05",
+            "formDisplay": "Undead P_Fantasy Navigator",
             "genders": {
               "n": {
                 "color": ".png"
@@ -3841,7 +3841,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_ASTOR02",
+            "formDisplay": "P_Dream Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3852,7 +3852,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_ASTOR03",
+            "formDisplay": "P_Sea Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3863,7 +3863,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_ASTOR04",
+            "formDisplay": "P_Snowfield Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3874,7 +3874,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_ASTOR05",
+            "formDisplay": "P_Fantasy Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3885,7 +3885,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "ASTOR02",
+            "formDisplay": "Dream Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3896,7 +3896,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "ASTOR03",
+            "formDisplay": "Sea Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3907,7 +3907,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "ASTOR04",
+            "formDisplay": "Snowfield Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3918,7 +3918,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "ASTOR05",
+            "formDisplay": "Fantasy Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3937,7 +3937,7 @@ const speciesJson = {
             }
           },
           "deaddead02": {
-            "formDisplay": "Undead P_ASTOR02",
+            "formDisplay": "Undead P_Dream Navigator",
             "genders": {
               "n": {
                 "color": ".png"
@@ -3945,7 +3945,7 @@ const speciesJson = {
             }
           },
           "deaddead03": {
-            "formDisplay": "Undead P_ASTOR03",
+            "formDisplay": "Undead P_Sea Navigator",
             "genders": {
               "n": {
                 "color": ".png"
@@ -3953,7 +3953,7 @@ const speciesJson = {
             }
           },
           "deaddead04": {
-            "formDisplay": "Undead P_ASTOR04",
+            "formDisplay": "Undead P_Snowfield Navigator",
             "genders": {
               "n": {
                 "color": ".png"
@@ -3961,7 +3961,7 @@ const speciesJson = {
             }
           },
           "deaddead05": {
-            "formDisplay": "Undead P_ASTOR05",
+            "formDisplay": "Undead P_Fantasy Navigator",
             "genders": {
               "n": {
                 "color": ".png"
@@ -3984,7 +3984,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_ASTOR02",
+            "formDisplay": "P_Dream Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -3995,7 +3995,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_ASTOR03",
+            "formDisplay": "P_Sea Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -4006,7 +4006,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_ASTOR04",
+            "formDisplay": "P_Snowfield Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -4017,7 +4017,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_ASTOR05",
+            "formDisplay": "P_Fantasy Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -4028,7 +4028,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "ASTOR02",
+            "formDisplay": "Dream Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -4039,7 +4039,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "ASTOR03",
+            "formDisplay": "Sea Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -4050,7 +4050,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "ASTOR04",
+            "formDisplay": "Snowfield Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -4061,7 +4061,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "ASTOR05",
+            "formDisplay": "Fantasy Navigator",
             "genders": {
               "f": {
                 "color": "w"
@@ -4080,7 +4080,7 @@ const speciesJson = {
             }
           },
           "deaddead02": {
-            "formDisplay": "Undead P_ASTOR02",
+            "formDisplay": "Undead P_Dream Navigator",
             "genders": {
               "n": {
                 "color": ".png"
@@ -4088,7 +4088,7 @@ const speciesJson = {
             }
           },
           "deaddead03": {
-            "formDisplay": "Undead P_ASTOR03",
+            "formDisplay": "Undead P_Sea Navigator",
             "genders": {
               "n": {
                 "color": ".png"
@@ -4096,7 +4096,7 @@ const speciesJson = {
             }
           },
           "deaddead04": {
-            "formDisplay": "Undead P_ASTOR04",
+            "formDisplay": "Undead P_Snowfield Navigator",
             "genders": {
               "n": {
                 "color": ".png"
@@ -4104,7 +4104,7 @@ const speciesJson = {
             }
           },
           "deaddead05": {
-            "formDisplay": "Undead P_ASTOR05",
+            "formDisplay": "Undead P_Fantasy Navigator",
             "genders": {
               "n": {
                 "color": ".png"
