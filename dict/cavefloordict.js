@@ -11,12 +11,12 @@ const cavefloorJson = {
     "Aftea (Special)": {
         "res": "aftea/aftea_floor_02/aftea_floor_02"
     },
-    /*"Astor": {
+    "Astor": {
         "res": "astor/astor_floor_01/astor_floor_01"
     },
     "Astor (Special)": {
         "res": "astor/astor_floor_02/astor_floor_02"
-    },*/
+    },
     "Apocalyptic Kingdom": {
         "res": "kingdomoftheend/kingdomoftheend_floor_01/kingdomoftheend_floor_01"
     },

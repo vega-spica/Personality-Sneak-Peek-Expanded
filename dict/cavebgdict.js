@@ -23,12 +23,12 @@ const cavebgJson = {
     "Arca's Execution Hall": {
         "res": "executor/executor_bg_01/executor_bg_01"
     },
-    /*"Astor": {
+    "Astor": {
         "res": "astor/astor_bg_01/astor_bg_01"
     },
     "Astor (Special)": {
         "res": "astor/astor_bg_02/astor_bg_02"
-    },*/
+    },
     /*"Bademus": {
         "res": "bademus/bademus_bg_01/bademus_bg_01"
     },
