@@ -3681,6 +3681,440 @@ const speciesJson = {
       }
     }
   },
+  "astor": {
+    "speciesDisplay": "Astor",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_ASTOR02",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_ASTOR03",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_ASTOR04",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_ASTOR05",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "ASTOR02",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "ASTOR03",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "ASTOR04",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "ASTOR05",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead02": {
+            "formDisplay": "Undead P_ASTOR02",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead03": {
+            "formDisplay": "Undead P_ASTOR03",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead04": {
+            "formDisplay": "Undead P_ASTOR04",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead05": {
+            "formDisplay": "Undead P_ASTOR05",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_ASTOR02",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_ASTOR03",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_ASTOR04",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_ASTOR05",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "ASTOR02",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "ASTOR03",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "ASTOR04",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "ASTOR05",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead02": {
+            "formDisplay": "Undead P_ASTOR02",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead03": {
+            "formDisplay": "Undead P_ASTOR03",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead04": {
+            "formDisplay": "Undead P_ASTOR04",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead05": {
+            "formDisplay": "Undead P_ASTOR05",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_ASTOR02",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_ASTOR03",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_ASTOR04",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_ASTOR05",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "ASTOR02",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "ASTOR03",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "ASTOR04",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "ASTOR05",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead02": {
+            "formDisplay": "Undead P_ASTOR02",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead03": {
+            "formDisplay": "Undead P_ASTOR03",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead04": {
+            "formDisplay": "Undead P_ASTOR04",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead05": {
+            "formDisplay": "Undead P_ASTOR05",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "augus": {
     "speciesDisplay": "Augus",
     "stage": {
@@ -12297,6 +12731,80 @@ const speciesJson = {
       }
     }
   },
+  "cucus": {
+    "speciesDisplay": "Cucus",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "cupid": {
     "speciesDisplay": "Cupid",
     "stage": {
@@ -14962,6 +15470,80 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "dreambubbledragon": {
+    "speciesDisplay": "Dream Bubble Dragon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_naga_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_naga_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_naga_w"
               }
             }
           }
