@@ -277,6 +277,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Friendship": {
+		"each": "aura_s_affectionate",
+		"back": "back",
+		"front": "front"
+	},
 	"Full Moon" : {
 		"back" : "aura_s_moon_yellow",
 		"front" : "aura_s_transparent_yellow"
@@ -377,6 +382,16 @@ const personalityJson = {
 	},
 	"Liberated": {
 		"each": "aura_s_liberated",
+		"back": "back_a",
+		"front": "front_a"
+	},
+	"Little Sea": {
+		"each": "aura_s_littlestar_smallsea",
+		"back": "back_b",
+		"front": "front_b"
+	},
+	"Little Star": {
+		"each": "aura_s_littlestar_smallsea",
 		"back": "back_a",
 		"front": "front_a"
 	},

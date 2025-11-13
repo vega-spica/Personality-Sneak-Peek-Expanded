@@ -4751,6 +4751,43 @@ const speciesJson = {
       }
     }
   },
+  "babynebula": {
+    "speciesDisplay": "Baby Nebula",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "bk"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "babyshark": {
+    "speciesDisplay": "Baby Shark",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "bademus": {
     "speciesDisplay": "Bademus",
     "stage": {
@@ -26660,7 +26697,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -26683,7 +26720,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -26706,11 +26743,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "bg"
+              },
+              "m": {
+                "color": "bg"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "hyeonmu_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -37991,7 +38047,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -38011,7 +38067,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -38031,11 +38087,27 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "n": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -39396,7 +39468,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -39419,7 +39491,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -39442,11 +39514,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_n_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -48061,7 +48152,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -48084,7 +48175,7 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
@@ -48107,11 +48198,30 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "drake_n_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
               }
             }
           }
