@@ -21205,7 +21205,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM 02",
+            "formDisplay": "Salvation",
             "genders": {
               "f": {
                 "color": "rp"
@@ -21227,7 +21227,7 @@ const speciesJson = {
             }
           },
           "undead02": {
-            "formDisplay": "Undead (FORM 02)",
+            "formDisplay": "Undead (Salvation)",
             "genders": {
               "f": {
                 "undeadres": "freyja02_f_hatch_pb"
@@ -21253,7 +21253,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM 02",
+            "formDisplay": "Salvation",
             "genders": {
               "f": {
                 "color": "rp"
@@ -21275,7 +21275,7 @@ const speciesJson = {
             }
           },
           "undead02": {
-            "formDisplay": "Undead (FORM 02)",
+            "formDisplay": "Undead (Salvation)",
             "genders": {
               "f": {
                 "undeadres": "freyja02_f_hatchling_pb"
@@ -21301,7 +21301,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM 02",
+            "formDisplay": "Salvation",
             "genders": {
               "f": {
                 "color": "rp"
@@ -21323,7 +21323,7 @@ const speciesJson = {
             }
           },
           "undead02": {
-            "formDisplay": "Undead (FORM 02)",
+            "formDisplay": "Undead (Salvation)",
             "genders": {
               "f": {
                 "undeadres": "freyja02_f_adult_pb"
@@ -26409,7 +26409,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Guardian",
             "genders": {
               "f": {
                 "color": "b"
@@ -26420,7 +26420,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Fated",
             "genders": {
               "f": {
                 "color": "w"
@@ -26446,7 +26446,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Guardian",
             "genders": {
               "f": {
                 "color": "b"
@@ -26457,7 +26457,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Fated",
             "genders": {
               "f": {
                 "color": "w"
@@ -26483,7 +26483,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Guardian",
             "genders": {
               "f": {
                 "color": "b"
@@ -26494,7 +26494,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Fated",
             "genders": {
               "f": {
                 "color": "w"
@@ -26702,7 +26702,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Guardian",
             "genders": {
               "f": {
                 "color": "w"
@@ -26713,7 +26713,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Fated",
             "genders": {
               "f": {
                 "color": "w"
@@ -26739,7 +26739,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Guardian",
             "genders": {
               "f": {
                 "color": "w"
@@ -26750,7 +26750,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Fated",
             "genders": {
               "f": {
                 "color": "w"
@@ -26776,7 +26776,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Guardian",
             "genders": {
               "f": {
                 "color": "w"
@@ -26787,7 +26787,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Fated",
             "genders": {
               "f": {
                 "color": "w"
@@ -52576,7 +52576,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Guardian",
             "genders": {
               "f": {
                 "color": "w"
@@ -52587,7 +52587,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Fated",
             "genders": {
               "f": {
                 "color": "w"
@@ -52613,7 +52613,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Guardian",
             "genders": {
               "f": {
                 "color": "w"
@@ -52624,7 +52624,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Fated",
             "genders": {
               "f": {
                 "color": "w"
@@ -52650,7 +52650,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Guardian",
             "genders": {
               "f": {
                 "color": "w"
@@ -52661,7 +52661,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Fated",
             "genders": {
               "f": {
                 "color": "w"

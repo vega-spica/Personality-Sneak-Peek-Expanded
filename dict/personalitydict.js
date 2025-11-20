@@ -264,7 +264,7 @@ const personalityJson = {
 		"back": "back_c",
 		"front": "front_c"
 	},
-	"Fated": {
+	"Fateful": {
 		"each": "aura_s_fated",
 		"back": "back_a",
 		"front": "front_a"
@@ -675,6 +675,11 @@ const personalityJson = {
 		"each": "aura_s_unconscious",
 		"back": "back_b",
 		"front": "front_b"
+	},
+	"Wavering": {
+		"each": "aura_a_fickle",
+		"back": "back",
+		"front": "front"
 	},
 	"Wild" : {
 		"back" : "aura_s_blackred",
