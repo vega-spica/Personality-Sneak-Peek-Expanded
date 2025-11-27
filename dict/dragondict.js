@@ -36083,7 +36083,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Brightmoon",
+            "formDisplay": "Vipermoon",
             "genders": {
               "f": {
                 "color": "g"
@@ -36194,7 +36194,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Brightmoon",
+            "formDisplay": "Vipermoon",
             "genders": {
               "f": {
                 "color": "g"
@@ -36305,7 +36305,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Brightmoon",
+            "formDisplay": "Vipermoon",
             "genders": {
               "f": {
                 "color": "g"
