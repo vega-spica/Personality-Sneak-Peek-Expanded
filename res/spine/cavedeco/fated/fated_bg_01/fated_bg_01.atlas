@@ -1,0 +1,33 @@
+fated_bg_01.png
+size:1065,206
+pma:true
+Layer 15
+bounds:286,6,203,198
+Layer 20
+bounds:491,13,202,191
+Layer 22
+bounds:2,2,202,282
+rotate:90
+Layer 34
+bounds:695,137,185,67
+Layer 37
+bounds:695,95,202,40
+sprite_sheet/tree_1
+bounds:769,15,71,78
+sprite_sheet/tree_2
+bounds:842,15,71,78
+sprite_sheet/tree_3
+bounds:899,126,71,78
+sprite_sheet/tree_4
+bounds:972,126,71,78
+sprite_sheet/tree_5
+bounds:915,46,71,78
+sprite_sheet/tree_6
+bounds:988,46,71,78
+tree_1
+bounds:695,13,72,80
+treeacc2_1
+bounds:915,26,22,18
+treeacc_1
+bounds:1045,182,22,18
+rotate:90

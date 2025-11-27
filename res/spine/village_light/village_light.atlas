@@ -92,12 +92,12 @@ bounds:1950,461,78,48
 emart_font_2
 bounds:1363,49,118,46
 emart_font_3
-bounds:588,12,104,48
+bounds:1599,68,104,48
 event_landmark_reward2506_7x4_01_eff
 bounds:1750,1226,248,236
 rotate:90
 fx_1
-bounds:424,107,60,80
+bounds:228,176,60,80
 fx_2
 bounds:424,189,64,68
 fx_3
@@ -108,7 +108,7 @@ fx_6
 bounds:2015,779,44,16
 rotate:90
 fx_7
-bounds:228,192,64,60
+bounds:1827,73,64,60
 rotate:90
 gm/light_pixel_00000
 bounds:2,2,135,135
@@ -137,8 +137,7 @@ lumindis_light
 bounds:887,282,148,148
 offsets:24,4,172,156
 meteora
-bounds:424,5,100,56
-rotate:90
+bounds:588,4,100,56
 monimo
 bounds:1311,231,224,94
 offsets:0,2,224,96
@@ -160,8 +159,10 @@ bounds:1997,825,24,28
 monthly_egg_deco_2x1_202508_deco2
 bounds:1997,986,28,32
 monthly_egg_deco_2x1_202508_deco3
-bounds:1674,351,36,40
+bounds:1363,11,36,40
 rotate:90
+monthly_egg_deco_2x1_202512_eff
+bounds:424,75,60,112
 moonlight
 bounds:707,6,108,108
 obj_line2
@@ -185,9 +186,10 @@ ring_glow
 bounds:1407,328,127,127
 offsets:1,0,128,128
 snow
-bounds:1599,32,96,84
+bounds:1483,4,96,84
 snow_line
-bounds:1483,32,64,56
+bounds:1674,391,64,56
+rotate:90
 spotlight
 bounds:1037,231,114,199
 offsets:6,3,125,206
@@ -204,7 +206,7 @@ star_04
 bounds:817,22,45,45
 offsets:1,1,47,47
 star_05
-bounds:228,143,51,47
+bounds:1674,342,51,47
 offsets:8,9,64,64
 subscribe_202505_4x4_01_light
 bounds:2,458,1348,1016
@@ -215,4 +217,4 @@ offsets:4,0,80,213
 sword_halo
 bounds:1536,335,136,120
 wing
-bounds:1674,389,56,66
+bounds:424,7,56,66
