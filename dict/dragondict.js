@@ -4805,7 +4805,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_Light Observer",
+            "formDisplay": "P_Observer of Light",
             "genders": {
               "f": {
                 "color": "w"
@@ -4816,7 +4816,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_Bloody Spectator",
+            "formDisplay": "P_Observer of Blood",
             "genders": {
               "f": {
                 "color": "w"
@@ -4827,7 +4827,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_Spectator of Abundance",
+            "formDisplay": "P_Observer of Abundance",
             "genders": {
               "f": {
                 "color": "y"
@@ -4838,7 +4838,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_Shadow's Observer",
+            "formDisplay": "P_Observer of Shadows",
             "genders": {
               "f": {
                 "color": "w"
@@ -4849,7 +4849,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Light Observer",
+            "formDisplay": "Observer of Light",
             "genders": {
               "f": {
                 "color": "w"
@@ -4860,7 +4860,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Bloody Spectator",
+            "formDisplay": "Observer of Blood",
             "genders": {
               "f": {
                 "color": "w"
@@ -4871,7 +4871,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Spectator of Abundance",
+            "formDisplay": "Observer of Abundance",
             "genders": {
               "f": {
                 "color": "y"
@@ -4882,7 +4882,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Shadow's Observer",
+            "formDisplay": "Observer of Shadows",
             "genders": {
               "f": {
                 "color": "w"
@@ -4916,7 +4916,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_Light Observer",
+            "formDisplay": "P_Observer of Light",
             "genders": {
               "f": {
                 "color": "w"
@@ -4927,7 +4927,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_Bloody Spectator",
+            "formDisplay": "P_Observer of Blood",
             "genders": {
               "f": {
                 "color": "w"
@@ -4938,7 +4938,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_Spectator of Abundance",
+            "formDisplay": "P_Observer of Abundance",
             "genders": {
               "f": {
                 "color": "y"
@@ -4949,7 +4949,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_Shadow's Observer",
+            "formDisplay": "P_Observer of Shadows",
             "genders": {
               "f": {
                 "color": "w"
@@ -4960,7 +4960,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Light Observer",
+            "formDisplay": "Observer of Light",
             "genders": {
               "f": {
                 "color": "w"
@@ -4971,7 +4971,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Bloody Spectator",
+            "formDisplay": "Observer of Blood",
             "genders": {
               "f": {
                 "color": "w"
@@ -4982,7 +4982,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Spectator of Abundance",
+            "formDisplay": "Observer of Abundance",
             "genders": {
               "f": {
                 "color": "y"
@@ -4993,7 +4993,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Shadow's Observer",
+            "formDisplay": "Observer of Shadows",
             "genders": {
               "f": {
                 "color": "w"
@@ -5027,7 +5027,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_Light Observer",
+            "formDisplay": "P_Observer of Light",
             "genders": {
               "f": {
                 "color": "w"
@@ -5038,7 +5038,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_Bloody Spectator",
+            "formDisplay": "P_Observer of Blood",
             "genders": {
               "f": {
                 "color": "w"
@@ -5049,7 +5049,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_Spectator of Abundance Form",
+            "formDisplay": "P_Observer of Abundance Form",
             "genders": {
               "f": {
                 "color": "y"
@@ -5060,7 +5060,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_Shadow's Observer",
+            "formDisplay": "P_Observer of Shadows",
             "genders": {
               "f": {
                 "color": "w"
@@ -5071,7 +5071,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "Light Observer",
+            "formDisplay": "Observer of Light",
             "genders": {
               "f": {
                 "color": "w"
@@ -5082,7 +5082,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "Bloody Spectator",
+            "formDisplay": "Observer of Blood",
             "genders": {
               "f": {
                 "color": "w"
@@ -5093,7 +5093,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Spectator of Abundance Form",
+            "formDisplay": "Observer of Abundance Form",
             "genders": {
               "f": {
                 "color": "y"
@@ -5104,7 +5104,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Shadow's Observer",
+            "formDisplay": "Observer of Shadows",
             "genders": {
               "f": {
                 "color": "w"
@@ -11724,6 +11724,80 @@ const speciesJson = {
       }
     }
   },
+  "coralthornnail": {
+    "speciesDisplay": "Coral Thorn Nail",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "drake_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "drake_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "drake_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "cortus": {
     "speciesDisplay": "Cortus",
     "stage": {
@@ -14033,6 +14107,80 @@ const speciesJson = {
       }
     }
   },
+  "deathshekate": {
+    "speciesDisplay": "Death's Hekate",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "feros_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "feros_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "feros_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "deepbluepurplelips": {
     "speciesDisplay": "Deep Blue Purple Lips",
     "stage": {
@@ -14757,6 +14905,80 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "devourerneptune": {
+    "speciesDisplay": "Devourer Neptune",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bg"
+              },
+              "m": {
+                "color": "bg"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           },
@@ -25836,6 +26058,56 @@ const speciesJson = {
       }
     }
   },
+  "healingvenom": {
+    "speciesDisplay": "Healing Venom",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "hedgebatdragon": {
     "speciesDisplay": "Hedgebat Dragon",
     "stage": {
@@ -30937,6 +31209,418 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "knitty": {
+    "speciesDisplay": "Knitty",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "bluesnakedragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "bluesnakedragon_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "bluesnakedragon_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "krampus": {
+    "speciesDisplay": "Krampus",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Warm Christmas",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_White Christmas",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Joyful Christmas",
+            "genders": {
+              "f": {
+                "color": "g"
+              },
+              "m": {
+                "color": "g"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Terrifying Christmas",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Warm Christmas",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "White Christmas",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Joyful Christmas",
+            "genders": {
+              "f": {
+                "color": "g"
+              },
+              "m": {
+                "color": "g"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Terrifying Christmas",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Warm Christmas",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_White Christmas",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Joyful Christmas",
+            "genders": {
+              "f": {
+                "color": "g"
+              },
+              "m": {
+                "color": "g"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Terrifying Christmas",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Warm Christmas",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "White Christmas",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Joyful Christmas",
+            "genders": {
+              "f": {
+                "color": "g"
+              },
+              "m": {
+                "color": "g"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Terrifying Christmas",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Warm Christmas",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_White Christmas",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Joyful Christmas",
+            "genders": {
+              "f": {
+                "color": "g"
+              },
+              "m": {
+                "color": "g"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Terrifying Christmas",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Warm Christmas",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "White Christmas",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Joyful Christmas",
+            "genders": {
+              "f": {
+                "color": "g"
+              },
+              "m": {
+                "color": "g"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Terrifying Christmas",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
               }
             }
           }
@@ -41201,6 +41885,56 @@ const speciesJson = {
       }
     }
   },
+  "obliterationcleio": {
+    "speciesDisplay": "Obliteration Cleio",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "oculus": {
     "speciesDisplay": "Oculus",
     "stage": {
@@ -45228,6 +45962,80 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "purifiedtiamat": {
+    "speciesDisplay": "Purified Tiamat",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "tiamat_n_hatch_bk"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "tiamat_n_hatchling_bk"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "tiamat_n_adult_bk"
               }
             }
           }
@@ -50387,6 +51195,80 @@ const speciesJson = {
       }
     }
   },
+  "shacklesauros": {
+    "speciesDisplay": "Shackles Auros",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "feros_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "feros_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "feros_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "shadow": {
     "speciesDisplay": "Shadow Dragon",
     "stage": {
@@ -51620,6 +52502,56 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "silentnoah": {
+    "speciesDisplay": "Silent Noah",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           }
@@ -62409,6 +63341,80 @@ const speciesJson = {
               },
               "m": {
                 "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "wreathtail": {
+    "speciesDisplay": "Wreath Tail",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "muscle_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "muscle_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           },

@@ -11,12 +11,12 @@ const cavefloorJson = {
     "Aftea (Special)": {
         "res": "aftea/aftea_floor_02/aftea_floor_02"
     },
-    "Astor": {
+    /*"Astor": {
         "res": "astor/astor_floor_01/astor_floor_01"
     },
     "Astor (Special)": {
         "res": "astor/astor_floor_02/astor_floor_02"
-    },
+    },*/
     "Apocalyptic Kingdom": {
         "res": "kingdomoftheend/kingdomoftheend_floor_01/kingdomoftheend_floor_01"
     },
@@ -119,6 +119,12 @@ const cavefloorJson = {
     "Janus (Special)": {
         "res": "janus/janus_floor_02/janus_floor_02"
     },
+    /*"Krampus": {
+        "res": "krampus/krampus_floor_01/krampus_floor_01"
+    },
+    "Krampus (Special)": {
+        "res": "krampus/krampus_floor_02/krampus_floor_02"
+    },*/
     "Lotus Fire Dragon": {
         "res": "lotusfiredragon/lotusfiredragon_floor_01/lotusfiredragon_floor_01"
     },

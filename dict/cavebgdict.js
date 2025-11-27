@@ -23,12 +23,12 @@ const cavebgJson = {
     "Arca's Execution Hall": {
         "res": "executor/executor_bg_01/executor_bg_01"
     },
-    "Astor": {
+    /*"Astor": {
         "res": "astor/astor_bg_01/astor_bg_01"
     },
     "Astor (Special)": {
         "res": "astor/astor_bg_02/astor_bg_02"
-    },
+    },*/
     /*"Bademus": {
         "res": "bademus/bademus_bg_01/bademus_bg_01"
     },
@@ -119,6 +119,12 @@ const cavebgJson = {
     "Janus (Special)": {
         "res": "janus/janus_bg_02/janus_bg_02"
     },
+    /*"Krampus": {
+        "res": "krampus/krampus_bg_01/krampus_bg_01"
+    },
+    "Krampus (Special)": {
+        "res": "krampus/krampus_bg_02/krampus_bg_02"
+    },*/
     "Lotus Fire Dragon": {
         "res": "lotusfiredragon/lotusfiredragon_bg_01/lotusfiredragon_bg_01"
     },
