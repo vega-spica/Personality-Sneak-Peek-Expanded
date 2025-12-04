@@ -529,6 +529,11 @@ const personalityJson = {
 		"back": "back_b_fly",
 		"front": "front_b"
 	},
+	"Relaxed": {
+		"each": "aura_a_placid",
+		"back": "back",
+		"front": "front"
+	},
 	"Reserved": {
 		"each": "aura_a_shy",
 		"back": "back",
