@@ -12678,6 +12678,17 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "03": {
+            "formDisplay": "Dream Knight",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
           }
         }
       },
@@ -12704,6 +12715,17 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "03": {
+            "formDisplay": "Dream Knight",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
           }
         }
       },
@@ -12722,6 +12744,17 @@ const speciesJson = {
           },
           "02": {
             "formDisplay": "Goddess' Authority",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Dream Knight",
             "genders": {
               "f": {
                 "color": "pb"
@@ -54117,6 +54150,111 @@ const speciesJson = {
       }
     }
   },
+  "snowball": {
+    "speciesDisplay": "Snowball",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead (Default)",
+            "genders": {
+              "f": {
+                "color": ".png"
+              },
+              "m": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead (Default)",
+            "genders": {
+              "f": {
+                "color": ".png"
+              },
+              "m": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Eve's Dream",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
+          "deaddead01": {
+            "formDisplay": "Undead (Default)",
+            "genders": {
+              "f": {
+                "color": ".png"
+              },
+              "m": {
+                "color": ".png"
+              }
+            }
+          },
+          "deaddead02": {
+            "formDisplay": "Undead (Eve's Dream)",
+            "genders": {
+              "f": {
+                "color": ".png"
+              },
+              "m": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "snowfairydragon": {
     "speciesDisplay": "Snow Fairy Dragon",
     "stage": {
@@ -56415,6 +56553,56 @@ const speciesJson = {
               },
               "m": {
                 "color": "yr"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "symbioticmurger": {
+    "speciesDisplay": "Symbiotic Murger Dragon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
               }
             }
           }
