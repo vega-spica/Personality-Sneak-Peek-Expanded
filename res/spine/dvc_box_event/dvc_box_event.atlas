@@ -207,11 +207,11 @@ rotate:90
 lock_dim3
 bounds:1045,389,19,19
 offsets:0,0,20,20
-lucky_egg_box_1113
+lucky_egg_event_box_yutakan_0101
 bounds:892,63,112,100
 offsets:8,12,128,128
 rotate:90
-lucky_egg_box_open_1113
+lucky_egg_event_box_yutakan_0201
 bounds:847,410,120,116
 offsets:4,12,128,128
 particle_paper
