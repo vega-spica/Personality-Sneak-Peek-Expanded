@@ -56561,7 +56561,7 @@ const speciesJson = {
     }
   },
   "symbioticmurger": {
-    "speciesDisplay": "Symbiotic Murger Dragon",
+    "speciesDisplay": "Symbiotic Murger",
     "stage": {
       "hatch": {
         "forms": {
@@ -63409,7 +63409,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Hair Loss",
+            "formDisplay": "Hair Wings",
             "genders": {
               "f": {
                 "color": "bk"
