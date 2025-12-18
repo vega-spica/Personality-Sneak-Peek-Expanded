@@ -5049,7 +5049,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_Observer of Abundance Form",
+            "formDisplay": "P_Observer of Abundance",
             "genders": {
               "f": {
                 "color": "y"
@@ -5093,7 +5093,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Observer of Abundance Form",
+            "formDisplay": "Observer of Abundance",
             "genders": {
               "f": {
                 "color": "y"
@@ -49521,6 +49521,146 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "signature_s_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rudolph": {
+    "speciesDisplay": "Rudolph",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Day Deer",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Night Deer",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Sleigh",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Day Deer",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Night Deer",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Sleigh",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Day Deer",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Night Deer",
+            "genders": {
+              "f": {
+                "color": "pb"
+              },
+              "m": {
+                "color": "pb"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Sleigh",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
               }
             }
           }

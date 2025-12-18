@@ -484,6 +484,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Precious Memory": {
+		"each": "aura_s_cherishedmemory",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Pure" : {
 		"back" : "aura_s_transparent",
 		"front" : "aura_s_transparent"
@@ -688,6 +693,11 @@ const personalityJson = {
 	},
 	"Void Subconscious": {
 		"each": "aura_s_unconscious",
+		"back": "back_b",
+		"front": "front_b"
+	},
+	"Warm Memory": {
+		"each": "aura_s_cherishedmemory",
 		"back": "back_b",
 		"front": "front_b"
 	},
