@@ -161,6 +161,12 @@ const cavebgJson = {
     /*"Ranky": {
         "res": "ranky/ranky_bg_01/ranky_bg_01"
     },*/
+    /*"Red Horse Dragon": {
+        "res": "redhorse/redhorse_bg_01/redhorse_bg_01"
+    },
+    "Red Horse Dragon (Special)": {
+        "res": "redhorse/redhorse_bg_02/redhorse_bg_02"
+    }, */
     /*"Shafir": {
         "res": "shafir/shafir_bg_01/shafir_bg_01"
     },

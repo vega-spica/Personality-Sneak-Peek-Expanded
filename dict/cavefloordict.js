@@ -164,6 +164,12 @@ const cavefloorJson = {
     /*"Ranky": {
         "res": "ranky/ranky_floor_01/ranky_floor_01"
     },*/
+    /*""Red Horse Dragon": {
+        "res": "redhorse/redhorse_floor_01/redhorse_floor_01"
+    },
+    "Red Horse Dragon (Special)": {
+        "res": "redhorse/redhorse_floor_02/redhorse_floor_02"
+    },*/
     /*"Shafir": {
         "res": "shafir/shafir_floor_01/shafir_floor_01"
     },
