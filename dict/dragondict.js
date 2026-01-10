@@ -23768,7 +23768,7 @@ const speciesJson = {
       }
     }
   },
-  "gmdragon": {
+  "gm": {
     "speciesDisplay": "GM Dragon (NPC)",
     "stage": {
       "hatch": {
