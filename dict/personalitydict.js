@@ -3,6 +3,16 @@ const personalityJson = {
 		"back" : "",
 		"front" : ""
 	},
+	"1000 Days": {
+		"each": "aura_s_1000days",
+		"back": "back",
+		"front": "front"
+	},
+	"1000 Nights": {
+		"each": "aura_s_1000nights",
+		"back": "back",
+		"front": "front"
+	},
 	"Absolute": {
 		"each": "aura_s_usirping_absolutic",
 		"back": "back_a",
