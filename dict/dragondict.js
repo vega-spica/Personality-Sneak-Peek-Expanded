@@ -27027,6 +27027,14 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "04": {
+            "formDisplay": "Dubai Chewy Cookie",
+            "genders": {
+              "f": {
+                "color": "w"
+              }
+            }
           }
         }
       },
@@ -27064,6 +27072,14 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "04": {
+            "formDisplay": "Dubai Chewy Cookie",
+            "genders": {
+              "f": {
+                "color": "w"
+              }
+            }
           }
         }
       },
@@ -27098,6 +27114,14 @@ const speciesJson = {
                 "color": "w"
               },
               "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "Dubai Chewy Cookie",
+            "genders": {
+              "f": {
                 "color": "w"
               }
             }
