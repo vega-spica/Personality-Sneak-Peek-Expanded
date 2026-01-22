@@ -1,7 +1,5 @@
 square_blacksmith'sshop.png
 size:475,857
-filter:Linear,Linear
-pma:true
 bubble_1
 bounds:263,245,41,33
 rotate:90

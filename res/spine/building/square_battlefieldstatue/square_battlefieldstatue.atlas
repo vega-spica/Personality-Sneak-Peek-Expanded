@@ -1,8 +1,8 @@
 square_battlefieldstatue.png
 size:1267,323
-filter:Linear,Linear
 all_03_light_1
-bounds:1168,40,53,53
+bounds:1168,42,52,51
+offsets:0,1,53,53
 레이어 1
 bounds:2,2,463,319
 레이어 11

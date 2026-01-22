@@ -1,7 +1,5 @@
 square_dragonlab.png
 size:674,366
-filter:Linear,Linear
-pma:true
 bubble_1
 bounds:550,120,42,34
 rotate:90

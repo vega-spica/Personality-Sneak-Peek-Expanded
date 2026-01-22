@@ -1,7 +1,5 @@
 square_museum.png
 size:659,482
-filter:Linear,Linear
-pma:true
 building
 bounds:2,4,486,476
 light

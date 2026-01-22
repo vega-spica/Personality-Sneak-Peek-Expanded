@@ -1,7 +1,5 @@
 square_sinkhole.png
 size:568,369
-filter:Linear,Linear
-pma:true
 base
 bounds:2,2,413,365
 fire_1

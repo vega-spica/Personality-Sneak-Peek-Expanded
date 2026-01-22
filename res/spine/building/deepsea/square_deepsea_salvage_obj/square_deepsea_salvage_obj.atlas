@@ -1,11 +1,10 @@
 square_deepsea_salvage_obj.png
-size:522,134
-filter:Linear,Linear
+size:521,134
 generatior_bubble_01
 bounds:502,70,14,14
 light
-bounds:406,8,60,56
-offsets:0,0,60,60
+bounds:406,9,59,55
+offsets:0,1,60,60
 rotate:90
 salvage_obj/NPC
 bounds:484,86,34,46
@@ -13,7 +12,7 @@ salvage_obj/cage_b
 bounds:406,82,50,76
 rotate:90
 salvage_obj/cage_f
-bounds:464,12,56,56
+bounds:463,12,56,56
 salvage_obj/main_obj
 bounds:2,2,130,82
 rotate:90

@@ -1,7 +1,5 @@
 square_guild.png
 size:948,522
-filter:Linear,Linear
-pma:true
 door_core
 bounds:225,8,24,24
 offsets:1,1,26,26

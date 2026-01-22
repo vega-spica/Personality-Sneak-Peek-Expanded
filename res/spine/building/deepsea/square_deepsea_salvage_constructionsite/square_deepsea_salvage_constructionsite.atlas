@@ -1,7 +1,5 @@
 square_deepsea_salvage_constructionsite.png
 size:276,282
-filter:Linear,Linear
-pma:true
 salvage_constructionsite/cart
 bounds:186,190,80,90
 salvage_constructionsite/gard

@@ -1,7 +1,5 @@
 square_exchange.png
 size:440,1027
-filter:Linear,Linear
-pma:true
 acc
 bounds:2,76,484,232
 rotate:90

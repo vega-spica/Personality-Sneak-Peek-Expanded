@@ -1,7 +1,5 @@
 square_colosseum.png
 size:422,334
-filter:Linear,Linear
-pma:true
 building
 bounds:2,32,300,342
 rotate:90

@@ -1,7 +1,5 @@
 square_magicshop.png
 size:380,499
-filter:Linear,Linear
-pma:true
 acc
 bounds:256,181,68,26
 acc_2

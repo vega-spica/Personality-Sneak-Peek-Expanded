@@ -1,7 +1,5 @@
 square_deepsea_lighthouse.png
 size:1778,468
-filter:Linear,Linear
-pma:true
 building_body
 bounds:496,76,390,314
 rotate:90

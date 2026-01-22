@@ -1,7 +1,5 @@
 square_temple.png
 size:370,693
-filter:Linear,Linear
-pma:true
 building
 bounds:2,350,342,185
 dome

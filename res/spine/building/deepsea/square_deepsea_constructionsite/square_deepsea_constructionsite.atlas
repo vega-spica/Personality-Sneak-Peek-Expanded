@@ -1,7 +1,5 @@
 square_deepsea_constructionsite.png
 size:1172,236
-filter:Linear,Linear
-pma:true
 background_tile
 bounds:846,56,178,156
 rotate:90
