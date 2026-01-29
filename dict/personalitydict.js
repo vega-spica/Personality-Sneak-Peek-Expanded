@@ -8,6 +8,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	/*"1000-Day Light's (Numberless)": {
+		"each": "aura_s_1000days_CUSTOM",
+		"back": "back",
+		"front": "front"
+	},*/
 	"1000-Day Night's": {
 		"each": "aura_s_1000nights",
 		"back": "back",
@@ -455,6 +460,11 @@ const personalityJson = {
 		"back" : "back_a",
 		"front" : "front_a"
 	},
+	"Misfated": {
+		"each": "aura_s_fated",
+		"back": "back_c",
+		"front": "front_c"
+	},
 	"My Heart": {
 	},
 	"My Own": {
@@ -691,6 +701,11 @@ const personalityJson = {
 	"Tired" : {
 		"back" : "aura_a_skywhite",
 		"front" : "a3_skywhite"
+	},
+	"Truefated": {
+		"each": "aura_s_fated",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Umbrous": {
 		"each": "aura_s_blazing_tenebris",

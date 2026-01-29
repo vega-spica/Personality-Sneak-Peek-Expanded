@@ -5758,6 +5758,80 @@ const speciesJson = {
       }
     }
   },
+  "barito": {
+    "speciesDisplay": "Barito",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "sixleg_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "sixleg_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "sixleg_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "baskerville": {
     "speciesDisplay": "Baskerville",
     "stage": {
@@ -34585,8 +34659,8 @@ const speciesJson = {
       }
     }
   },
-  "lotusfiredragon": {
-    "speciesDisplay": "Lotus Fire Dragon",
+  "eunryeong": {
+    "speciesDisplay": "Eunryeong",
     "stage": {
       "hatch": {
         "forms": {
@@ -34594,98 +34668,98 @@ const speciesJson = {
             "formDisplay": "Default",
             "genders": {
               "f": {
-                "color": "r"
+                "color": "w"
               },
               "m": {
-                "color": "r"
+                "color": "w"
               }
             }
           },
           "02": {
-            "formDisplay": "P_Lotus",
+            "formDisplay": "P_FORM02",
             "genders": {
               "f": {
-                "color": "r"
+                "color": "w"
               },
               "m": {
-                "color": "r"
+                "color": "w"
               }
             }
           },
           "03": {
-            "formDisplay": "P_Sea Wish",
+            "formDisplay": "P_FORM03",
             "genders": {
               "f": {
-                "color": "b"
+                "color": "y"
               },
               "m": {
-                "color": "b"
+                "color": "y"
               }
             }
           },
           "04": {
-            "formDisplay": "P_Red Spider Lily",
+            "formDisplay": "P_FORM04",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "gy"
               },
               "m": {
-                "color": "bk"
+                "color": "gy"
               }
             }
           },
           "05": {
-            "formDisplay": "P_Lucid Dream",
+            "formDisplay": "P_FORM05",
             "genders": {
               "f": {
-                "color": "p"
+                "color": "bk"
               },
               "m": {
-                "color": "p"
+                "color": "bk"
               }
             }
           },
           "06": {
-            "formDisplay": "Lotus",
+            "formDisplay": "FORM02",
             "genders": {
               "f": {
-                "color": "r"
+                "color": "w"
               },
               "m": {
-                "color": "r"
+                "color": "w"
               }
             }
           },
           "07": {
-            "formDisplay": "Sea Wish",
+            "formDisplay": "FORM03",
             "genders": {
               "f": {
-                "color": "b"
+                "color": "y"
               },
               "m": {
-                "color": "b"
+                "color": "y"
               }
             }
           },
           "08": {
-            "formDisplay": "Red Spider Lily",
+            "formDisplay": "FORM04",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "gy"
               },
               "m": {
-                "color": "bk"
+                "color": "gy"
               }
             }
           },
           "09": {
-            "formDisplay": "Lucid Dream",
+            "formDisplay": "FORM05",
             "genders": {
               "f": {
-                "color": "p"
+                "color": "bk"
               },
               "m": {
-                "color": "p"
+                "color": "bk"
               }
             }
           },
@@ -34693,7 +34767,7 @@ const speciesJson = {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "undeadres": "dragon_n_hatch_w"
+                "undeadres": "naga_n_hatch_w"
               }
             }
           }
@@ -34705,98 +34779,98 @@ const speciesJson = {
             "formDisplay": "Default",
             "genders": {
               "f": {
-                "color": "r"
+                "color": "w"
               },
               "m": {
-                "color": "r"
+                "color": "w"
               }
             }
           },
           "02": {
-            "formDisplay": "P_Lotus",
+            "formDisplay": "P_FORM02",
             "genders": {
               "f": {
-                "color": "r"
+                "color": "w"
               },
               "m": {
-                "color": "r"
+                "color": "w"
               }
             }
           },
           "03": {
-            "formDisplay": "P_Sea Wish",
+            "formDisplay": "P_FORM03",
             "genders": {
               "f": {
-                "color": "b"
+                "color": "y"
               },
               "m": {
-                "color": "b"
+                "color": "y"
               }
             }
           },
           "04": {
-            "formDisplay": "P_Red Spider Lily",
+            "formDisplay": "P_FORM04",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "gy"
               },
               "m": {
-                "color": "bk"
+                "color": "gy"
               }
             }
           },
           "05": {
-            "formDisplay": "P_Lucid Dream",
+            "formDisplay": "P_FORM05",
             "genders": {
               "f": {
-                "color": "p"
+                "color": "bk"
               },
               "m": {
-                "color": "p"
+                "color": "bk"
               }
             }
           },
           "06": {
-            "formDisplay": "Lotus",
+            "formDisplay": "FORM02",
             "genders": {
               "f": {
-                "color": "r"
+                "color": "w"
               },
               "m": {
-                "color": "r"
+                "color": "w"
               }
             }
           },
           "07": {
-            "formDisplay": "Sea Wish",
+            "formDisplay": "FORM03",
             "genders": {
               "f": {
-                "color": "b"
+                "color": "y"
               },
               "m": {
-                "color": "b"
+                "color": "y"
               }
             }
           },
           "08": {
-            "formDisplay": "Red Spider Lily",
+            "formDisplay": "FORM04",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "gy"
               },
               "m": {
-                "color": "bk"
+                "color": "gy"
               }
             }
           },
           "09": {
-            "formDisplay": "Lucid Dream",
+            "formDisplay": "FORM05",
             "genders": {
               "f": {
-                "color": "p"
+                "color": "bk"
               },
               "m": {
-                "color": "p"
+                "color": "bk"
               }
             }
           },
@@ -34804,7 +34878,7 @@ const speciesJson = {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "undeadres": "dragon_n_hatchling_w"
+                "undeadres": "naga_n_hatchling_w"
               }
             }
           }
@@ -34816,98 +34890,98 @@ const speciesJson = {
             "formDisplay": "Default",
             "genders": {
               "f": {
-                "color": "r"
+                "color": "w"
               },
               "m": {
-                "color": "r"
+                "color": "w"
               }
             }
           },
           "02": {
-            "formDisplay": "P_Lotus",
+            "formDisplay": "P_FORM02",
             "genders": {
               "f": {
-                "color": "r"
+                "color": "w"
               },
               "m": {
-                "color": "r"
+                "color": "w"
               }
             }
           },
           "03": {
-            "formDisplay": "P_Sea Wish",
+            "formDisplay": "P_FORM03",
             "genders": {
               "f": {
-                "color": "b"
+                "color": "y"
               },
               "m": {
-                "color": "b"
+                "color": "y"
               }
             }
           },
           "04": {
-            "formDisplay": "P_Red Spider Lily",
+            "formDisplay": "P_FORM04",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "gy"
               },
               "m": {
-                "color": "bk"
+                "color": "gy"
               }
             }
           },
           "05": {
-            "formDisplay": "P_Lucid Dream",
+            "formDisplay": "P_FORM05",
             "genders": {
               "f": {
-                "color": "p"
+                "color": "bk"
               },
               "m": {
-                "color": "p"
+                "color": "bk"
               }
             }
           },
           "06": {
-            "formDisplay": "Lotus",
+            "formDisplay": "FORM02",
             "genders": {
               "f": {
-                "color": "r"
+                "color": "w"
               },
               "m": {
-                "color": "r"
+                "color": "w"
               }
             }
           },
           "07": {
-            "formDisplay": "Sea Wish",
+            "formDisplay": "FORM03",
             "genders": {
               "f": {
-                "color": "b"
+                "color": "y"
               },
               "m": {
-                "color": "b"
+                "color": "y"
               }
             }
           },
           "08": {
-            "formDisplay": "Red Spider Lily",
+            "formDisplay": "FORM04",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "gy"
               },
               "m": {
-                "color": "bk"
+                "color": "gy"
               }
             }
           },
           "09": {
-            "formDisplay": "Lucid Dream",
+            "formDisplay": "FORM05",
             "genders": {
               "f": {
-                "color": "p"
+                "color": "bk"
               },
               "m": {
-                "color": "p"
+                "color": "bk"
               }
             }
           },
@@ -34915,7 +34989,7 @@ const speciesJson = {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "undeadres": "dragon_n_adult_w"
+                "undeadres": "naga_n_adult_w"
               }
             }
           }
@@ -55959,6 +56033,80 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "spinyblowfishgoldie": {
+    "speciesDisplay": "Spiny Blowfish Goldie",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_adult_w"
               }
             }
           }
