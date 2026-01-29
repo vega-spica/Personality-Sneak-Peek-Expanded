@@ -34676,7 +34676,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_FORM02",
+            "formDisplay": "P_Noble Silver Dagger",
             "genders": {
               "f": {
                 "color": "w"
@@ -34687,7 +34687,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_FORM03",
+            "formDisplay": "P_Brilliant Gold Dagger",
             "genders": {
               "f": {
                 "color": "y"
@@ -34698,7 +34698,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_FORM04",
+            "formDisplay": "P_Serene Jade Dagger",
             "genders": {
               "f": {
                 "color": "gy"
@@ -34709,7 +34709,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_FORM05",
+            "formDisplay": "P_Silent Black Dagger",
             "genders": {
               "f": {
                 "color": "bk"
@@ -34720,7 +34720,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Noble Silver Dagger",
             "genders": {
               "f": {
                 "color": "w"
@@ -34731,7 +34731,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Brilliant Gold Dagger",
             "genders": {
               "f": {
                 "color": "y"
@@ -34742,7 +34742,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "FORM04",
+            "formDisplay": "Serene Jade Dagger",
             "genders": {
               "f": {
                 "color": "gy"
@@ -34753,7 +34753,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "FORM05",
+            "formDisplay": "Silent Black Dagger",
             "genders": {
               "f": {
                 "color": "bk"
@@ -34787,7 +34787,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_FORM02",
+            "formDisplay": "P_Noble Silver Dagger",
             "genders": {
               "f": {
                 "color": "w"
@@ -34798,7 +34798,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_FORM03",
+            "formDisplay": "P_Brilliant Gold Dagger",
             "genders": {
               "f": {
                 "color": "y"
@@ -34809,7 +34809,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_FORM04",
+            "formDisplay": "P_Serene Jade Dagger",
             "genders": {
               "f": {
                 "color": "gy"
@@ -34820,7 +34820,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_FORM05",
+            "formDisplay": "P_Silent Black Dagger",
             "genders": {
               "f": {
                 "color": "bk"
@@ -34831,7 +34831,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Noble Silver Dagger",
             "genders": {
               "f": {
                 "color": "w"
@@ -34842,7 +34842,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Brilliant Gold Dagger",
             "genders": {
               "f": {
                 "color": "y"
@@ -34853,7 +34853,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "FORM04",
+            "formDisplay": "Serene Jade Dagger",
             "genders": {
               "f": {
                 "color": "gy"
@@ -34864,7 +34864,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "FORM05",
+            "formDisplay": "Silent Black Dagger",
             "genders": {
               "f": {
                 "color": "bk"
@@ -34898,7 +34898,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_FORM02",
+            "formDisplay": "P_Noble Silver Dagger",
             "genders": {
               "f": {
                 "color": "w"
@@ -34909,7 +34909,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_FORM03",
+            "formDisplay": "P_Brilliant Gold Dagger",
             "genders": {
               "f": {
                 "color": "y"
@@ -34920,7 +34920,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_FORM04",
+            "formDisplay": "P_Serene Jade Dagger",
             "genders": {
               "f": {
                 "color": "gy"
@@ -34931,7 +34931,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_FORM05",
+            "formDisplay": "P_Silent Black Dagger",
             "genders": {
               "f": {
                 "color": "bk"
@@ -34942,7 +34942,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "FORM02",
+            "formDisplay": "Noble Silver Dagger",
             "genders": {
               "f": {
                 "color": "w"
@@ -34953,7 +34953,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "FORM03",
+            "formDisplay": "Brilliant Gold Dagger",
             "genders": {
               "f": {
                 "color": "y"
@@ -34964,7 +34964,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "FORM04",
+            "formDisplay": "Serene Jade Dagger",
             "genders": {
               "f": {
                 "color": "gy"
@@ -34975,7 +34975,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "FORM05",
+            "formDisplay": "Silent Black Dagger",
             "genders": {
               "f": {
                 "color": "bk"
