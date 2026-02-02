@@ -71,6 +71,12 @@ const cavefloorJson = {
     "Eshu": {
         "res": "eshu/eshu_floor_01/eshu_floor_01"
     },
+    "Eunryeong": {
+        "res": "eunryeong/eunryeong_floor_01/eunryeong_floor_01"
+    },
+    "Eunryeong (Special)": {
+        "res": "eunryeong/eunryeong_floor_02/eunryeong_floor_02"
+    },
     "Everness": {
         "res": "everness/everness_floor_01/everness_floor_01"
     },
@@ -119,12 +125,12 @@ const cavefloorJson = {
     "Janus (Special)": {
         "res": "janus/janus_floor_02/janus_floor_02"
     },
-    /*"Krampus": {
+    "Krampus": {
         "res": "krampus/krampus_floor_01/krampus_floor_01"
     },
     "Krampus (Special)": {
         "res": "krampus/krampus_floor_02/krampus_floor_02"
-    },*/
+    },
     "Lotus Fire Dragon": {
         "res": "lotusfiredragon/lotusfiredragon_floor_01/lotusfiredragon_floor_01"
     },
@@ -164,12 +170,12 @@ const cavefloorJson = {
     /*"Ranky": {
         "res": "ranky/ranky_floor_01/ranky_floor_01"
     },*/
-    /*""Red Horse Dragon": {
+    "Red Horse Dragon": {
         "res": "redhorse/redhorse_floor_01/redhorse_floor_01"
     },
     "Red Horse Dragon (Special)": {
         "res": "redhorse/redhorse_floor_02/redhorse_floor_02"
-    },*/
+    },
     /*"Shafir": {
         "res": "shafir/shafir_floor_01/shafir_floor_01"
     },

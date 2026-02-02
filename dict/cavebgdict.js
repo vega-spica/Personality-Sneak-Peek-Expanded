@@ -68,6 +68,12 @@ const cavebgJson = {
     "Eshu": {
         "res": "eshu/eshu_bg_01/eshu_bg_01"
     },
+    "Eunryeong": {
+        "res": "eunryeong/eunryeong_bg_01/eunryeong_bg_01"
+    },
+    "Eunryeong (Special)": {
+        "res": "eunryeong/eunryeong_bg_02/eunryeong_bg_02"
+    },
     "Everness": {
         "res": "everness/everness_bg_01/everness_bg_01"
     },
@@ -119,12 +125,12 @@ const cavebgJson = {
     "Janus (Special)": {
         "res": "janus/janus_bg_02/janus_bg_02"
     },
-    /*"Krampus": {
+    "Krampus": {
         "res": "krampus/krampus_bg_01/krampus_bg_01"
     },
     "Krampus (Special)": {
         "res": "krampus/krampus_bg_02/krampus_bg_02"
-    },*/
+    },
     "Lotus Fire Dragon": {
         "res": "lotusfiredragon/lotusfiredragon_bg_01/lotusfiredragon_bg_01"
     },
@@ -161,12 +167,12 @@ const cavebgJson = {
     /*"Ranky": {
         "res": "ranky/ranky_bg_01/ranky_bg_01"
     },*/
-    /*"Red Horse Dragon": {
+    "Red Horse Dragon": {
         "res": "redhorse/redhorse_bg_01/redhorse_bg_01"
     },
     "Red Horse Dragon (Special)": {
         "res": "redhorse/redhorse_bg_02/redhorse_bg_02"
-    }, */
+    },
     /*"Shafir": {
         "res": "shafir/shafir_bg_01/shafir_bg_01"
     },
