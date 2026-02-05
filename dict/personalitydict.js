@@ -209,6 +209,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Determined": {
+		"each": "aura_s_gritty",
+		"back": "back",
+		"front": "front"
+	},
 	"Developing": {
 		"each": "aura_s_growth_evolving",
 		"back": "back_a",
@@ -563,6 +568,11 @@ const personalityJson = {
 		"each": "aura_s_fullmoon",
 		"back": "back_b_fly",
 		"front": "front_b"
+	},
+	"Refined": {
+		"each": "aura_a_lofty",
+		"back": "back",
+		"front": "front"
 	},
 	"Relaxed": {
 		"each": "aura_a_placid",
