@@ -19195,6 +19195,344 @@ const speciesJson = {
       }
     }
   },
+  "eunryeong": {
+    "speciesDisplay": "Eunryeong",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Noble Silver Dagger",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Brilliant Gold Dagger",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Serene Jade Dagger",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Silent Black Dagger",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Noble Silver Dagger",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Brilliant Gold Dagger",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Serene Jade Dagger",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Silent Black Dagger",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "naga_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Noble Silver Dagger",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Brilliant Gold Dagger",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Serene Jade Dagger",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Silent Black Dagger",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Noble Silver Dagger",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Brilliant Gold Dagger",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Serene Jade Dagger",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Silent Black Dagger",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "naga_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "P_Noble Silver Dagger",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "P_Brilliant Gold Dagger",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "P_Serene Jade Dagger",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "05": {
+            "formDisplay": "P_Silent Black Dagger",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "06": {
+            "formDisplay": "Noble Silver Dagger",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "07": {
+            "formDisplay": "Brilliant Gold Dagger",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "08": {
+            "formDisplay": "Serene Jade Dagger",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Silent Black Dagger",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "naga_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "everness": {
     "speciesDisplay": "Everness",
     "stage": {
@@ -20570,80 +20908,6 @@ const speciesJson = {
       }
     }
   },
-  "fireghostdragon": {
-    "speciesDisplay": "Fire Ghost Dragon",
-    "stage": {
-      "hatch": {
-        "forms": {
-          "01": {
-            "formDisplay": "Default",
-            "genders": {
-              "f": {
-                "color": "r"
-              },
-              "m": {
-                "color": "r"
-              }
-            }
-          },
-          "undead": {
-            "formDisplay": "Undead",
-            "genders": {
-              "n": {
-                "undeadres": "dragon_n_hatch_w"
-              }
-            }
-          }
-        }
-      },
-      "hatchling": {
-        "forms": {
-          "01": {
-            "formDisplay": "Default",
-            "genders": {
-              "f": {
-                "color": "r"
-              },
-              "m": {
-                "color": "r"
-              }
-            }
-          },
-          "undead": {
-            "formDisplay": "Undead",
-            "genders": {
-              "n": {
-                "undeadres": "dragon_n_hatchling_w"
-              }
-            }
-          }
-        }
-      },
-      "adult": {
-        "forms": {
-          "01": {
-            "formDisplay": "Default",
-            "genders": {
-              "f": {
-                "color": "r"
-              },
-              "m": {
-                "color": "r"
-              }
-            }
-          },
-          "undead": {
-            "formDisplay": "Undead",
-            "genders": {
-              "n": {
-                "undeadres": "worm_n_adult_w"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
   "fire": {
     "speciesDisplay": "Fire Dragon",
     "stage": {
@@ -20745,6 +21009,80 @@ const speciesJson = {
               },
               "m": {
                 "color": "r"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "fireghostdragon": {
+    "speciesDisplay": "Fire Ghost Dragon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "worm_n_adult_w"
               }
             }
           }
@@ -34756,8 +35094,8 @@ const speciesJson = {
       }
     }
   },
-  "eunryeong": {
-    "speciesDisplay": "Eunryeong",
+  "lotusfiredragon": {
+    "speciesDisplay": "Lotus Fire Dragon",
     "stage": {
       "hatch": {
         "forms": {
@@ -34765,98 +35103,98 @@ const speciesJson = {
             "formDisplay": "Default",
             "genders": {
               "f": {
-                "color": "w"
+                "color": "r"
               },
               "m": {
-                "color": "w"
+                "color": "r"
               }
             }
           },
           "02": {
-            "formDisplay": "P_Noble Silver Dagger",
+            "formDisplay": "P_Lotus",
             "genders": {
               "f": {
-                "color": "w"
+                "color": "r"
               },
               "m": {
-                "color": "w"
+                "color": "r"
               }
             }
           },
           "03": {
-            "formDisplay": "P_Brilliant Gold Dagger",
+            "formDisplay": "P_Sea Wish",
             "genders": {
               "f": {
-                "color": "y"
+                "color": "b"
               },
               "m": {
-                "color": "y"
+                "color": "b"
               }
             }
           },
           "04": {
-            "formDisplay": "P_Serene Jade Dagger",
+            "formDisplay": "P_Red Spider Lily",
             "genders": {
               "f": {
-                "color": "gy"
+                "color": "bk"
               },
               "m": {
-                "color": "gy"
+                "color": "bk"
               }
             }
           },
           "05": {
-            "formDisplay": "P_Silent Black Dagger",
+            "formDisplay": "P_Lucid Dream",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "p"
               },
               "m": {
-                "color": "bk"
+                "color": "p"
               }
             }
           },
           "06": {
-            "formDisplay": "Noble Silver Dagger",
+            "formDisplay": "Lotus",
             "genders": {
               "f": {
-                "color": "w"
+                "color": "r"
               },
               "m": {
-                "color": "w"
+                "color": "r"
               }
             }
           },
           "07": {
-            "formDisplay": "Brilliant Gold Dagger",
+            "formDisplay": "Sea Wish",
             "genders": {
               "f": {
-                "color": "y"
+                "color": "b"
               },
               "m": {
-                "color": "y"
+                "color": "b"
               }
             }
           },
           "08": {
-            "formDisplay": "Serene Jade Dagger",
+            "formDisplay": "Red Spider Lily",
             "genders": {
               "f": {
-                "color": "gy"
+                "color": "bk"
               },
               "m": {
-                "color": "gy"
+                "color": "bk"
               }
             }
           },
           "09": {
-            "formDisplay": "Silent Black Dagger",
+            "formDisplay": "Lucid Dream",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "p"
               },
               "m": {
-                "color": "bk"
+                "color": "p"
               }
             }
           },
@@ -34864,7 +35202,7 @@ const speciesJson = {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "undeadres": "naga_n_hatch_w"
+                "undeadres": "dragon_n_hatch_w"
               }
             }
           }
@@ -34876,98 +35214,98 @@ const speciesJson = {
             "formDisplay": "Default",
             "genders": {
               "f": {
-                "color": "w"
+                "color": "r"
               },
               "m": {
-                "color": "w"
+                "color": "r"
               }
             }
           },
           "02": {
-            "formDisplay": "P_Noble Silver Dagger",
+            "formDisplay": "P_Lotus",
             "genders": {
               "f": {
-                "color": "w"
+                "color": "r"
               },
               "m": {
-                "color": "w"
+                "color": "r"
               }
             }
           },
           "03": {
-            "formDisplay": "P_Brilliant Gold Dagger",
+            "formDisplay": "P_Sea Wish",
             "genders": {
               "f": {
-                "color": "y"
+                "color": "b"
               },
               "m": {
-                "color": "y"
+                "color": "b"
               }
             }
           },
           "04": {
-            "formDisplay": "P_Serene Jade Dagger",
+            "formDisplay": "P_Red Spider Lily",
             "genders": {
               "f": {
-                "color": "gy"
+                "color": "bk"
               },
               "m": {
-                "color": "gy"
+                "color": "bk"
               }
             }
           },
           "05": {
-            "formDisplay": "P_Silent Black Dagger",
+            "formDisplay": "P_Lucid Dream",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "p"
               },
               "m": {
-                "color": "bk"
+                "color": "p"
               }
             }
           },
           "06": {
-            "formDisplay": "Noble Silver Dagger",
+            "formDisplay": "Lotus",
             "genders": {
               "f": {
-                "color": "w"
+                "color": "r"
               },
               "m": {
-                "color": "w"
+                "color": "r"
               }
             }
           },
           "07": {
-            "formDisplay": "Brilliant Gold Dagger",
+            "formDisplay": "Sea Wish",
             "genders": {
               "f": {
-                "color": "y"
+                "color": "b"
               },
               "m": {
-                "color": "y"
+                "color": "b"
               }
             }
           },
           "08": {
-            "formDisplay": "Serene Jade Dagger",
+            "formDisplay": "Red Spider Lily",
             "genders": {
               "f": {
-                "color": "gy"
+                "color": "bk"
               },
               "m": {
-                "color": "gy"
+                "color": "bk"
               }
             }
           },
           "09": {
-            "formDisplay": "Silent Black Dagger",
+            "formDisplay": "Lucid Dream",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "p"
               },
               "m": {
-                "color": "bk"
+                "color": "p"
               }
             }
           },
@@ -34975,7 +35313,7 @@ const speciesJson = {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "undeadres": "naga_n_hatchling_w"
+                "undeadres": "dragon_n_hatchling_w"
               }
             }
           }
@@ -34987,98 +35325,98 @@ const speciesJson = {
             "formDisplay": "Default",
             "genders": {
               "f": {
-                "color": "w"
+                "color": "r"
               },
               "m": {
-                "color": "w"
+                "color": "r"
               }
             }
           },
           "02": {
-            "formDisplay": "P_Noble Silver Dagger",
+            "formDisplay": "P_Lotus",
             "genders": {
               "f": {
-                "color": "w"
+                "color": "r"
               },
               "m": {
-                "color": "w"
+                "color": "r"
               }
             }
           },
           "03": {
-            "formDisplay": "P_Brilliant Gold Dagger",
+            "formDisplay": "P_Sea Wish",
             "genders": {
               "f": {
-                "color": "y"
+                "color": "b"
               },
               "m": {
-                "color": "y"
+                "color": "b"
               }
             }
           },
           "04": {
-            "formDisplay": "P_Serene Jade Dagger",
+            "formDisplay": "P_Red Spider Lily",
             "genders": {
               "f": {
-                "color": "gy"
+                "color": "bk"
               },
               "m": {
-                "color": "gy"
+                "color": "bk"
               }
             }
           },
           "05": {
-            "formDisplay": "P_Silent Black Dagger",
+            "formDisplay": "P_Lucid Dream",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "p"
               },
               "m": {
-                "color": "bk"
+                "color": "p"
               }
             }
           },
           "06": {
-            "formDisplay": "Noble Silver Dagger",
+            "formDisplay": "Lotus",
             "genders": {
               "f": {
-                "color": "w"
+                "color": "r"
               },
               "m": {
-                "color": "w"
+                "color": "r"
               }
             }
           },
           "07": {
-            "formDisplay": "Brilliant Gold Dagger",
+            "formDisplay": "Sea Wish",
             "genders": {
               "f": {
-                "color": "y"
+                "color": "b"
               },
               "m": {
-                "color": "y"
+                "color": "b"
               }
             }
           },
           "08": {
-            "formDisplay": "Serene Jade Dagger",
+            "formDisplay": "Red Spider Lily",
             "genders": {
               "f": {
-                "color": "gy"
+                "color": "bk"
               },
               "m": {
-                "color": "gy"
+                "color": "bk"
               }
             }
           },
           "09": {
-            "formDisplay": "Silent Black Dagger",
+            "formDisplay": "Lucid Dream",
             "genders": {
               "f": {
-                "color": "bk"
+                "color": "p"
               },
               "m": {
-                "color": "bk"
+                "color": "p"
               }
             }
           },
@@ -35086,7 +35424,7 @@ const speciesJson = {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "undeadres": "naga_n_adult_w"
+                "undeadres": "dragon_n_adult_w"
               }
             }
           }
