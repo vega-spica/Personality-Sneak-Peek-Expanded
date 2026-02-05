@@ -10769,7 +10769,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "FORM2 (FLASHING)",
+            "formDisplay": "Fighting God (FLASHING)",
             "genders": {
               "f": {
                 "color": "r"
