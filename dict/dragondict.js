@@ -34720,95 +34720,6 @@ const speciesJson = {
       }
     }
   },
-  "linlang": {
-    "speciesDisplay": "Linlang",
-    "stage": {
-      "hatch": {
-        "forms": {
-          "01": {
-            "formDisplay": "Default",
-            "genders": {
-              "f": {
-                "color": "r"
-              },
-              "m": {
-                "color": "r"
-              }
-            }
-          },
-          "deaddead": {
-            "formDisplay": "Undead",
-            "genders": {
-              "n": {
-                "color": ".png"
-              }
-            }
-          }
-        }
-      },
-      "hatchling": {
-        "forms": {
-          "01": {
-            "formDisplay": "Default",
-            "genders": {
-              "f": {
-                "color": "r"
-              },
-              "m": {
-                "color": "r"
-              }
-            }
-          },
-          "deaddead": {
-            "formDisplay": "Undead",
-            "genders": {
-              "n": {
-                "color": ".png"
-              }
-            }
-          }
-        }
-      },
-      "adult": {
-        "forms": {
-          "01": {
-            "formDisplay": "Default",
-            "genders": {
-              "f": {
-                "color": "r"
-              },
-              "m": {
-                "color": "r"
-              }
-            }
-          },
-          "deaddead": {
-            "formDisplay": "Undead",
-            "genders": {
-              "n": {
-                "color": ".png"
-              }
-            }
-          }
-        }
-      },
-      "prism": {
-        "forms": {
-          "01": {
-            "formDisplay": "Default",
-            "genders": {
-              "f": {
-                "color": "r"
-              },
-              "m": {
-                "color": "r"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
   "linu": {
     "speciesDisplay": "Linu",
     "stage": {
@@ -50719,6 +50630,95 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "linlang": {
+    "speciesDisplay": "Rinrang",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "deaddead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "deaddead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "deaddead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
               }
             }
           }
