@@ -1737,6 +1737,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Traditional Instrument",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -11010,6 +11021,17 @@ const speciesJson = {
               }
             }
           },
+          "03": {
+            "formDisplay": "Lucky Cat",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -12014,6 +12036,17 @@ const speciesJson = {
         "forms": {
           "01": {
             "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Okchun",
             "genders": {
               "f": {
                 "color": "w"
@@ -18682,6 +18715,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "p"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Celestial Maiden",
+            "genders": {
+              "f": {
+                "color": "rp"
+              },
+              "m": {
+                "color": "rp"
               }
             }
           },
@@ -28224,6 +28268,17 @@ const speciesJson = {
               }
             }
           },
+          "03": {
+            "formDisplay": "Turtle Ship",
+            "genders": {
+              "f": {
+                "color": "bg"
+              },
+              "m": {
+                "color": "bg"
+              }
+            }
+          },
           "undead01": {
             "formDisplay": "Undead",
             "genders": {
@@ -32997,6 +33052,28 @@ const speciesJson = {
               }
             }
           },
+          "03": {
+            "formDisplay": "Taoist Priest",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "Prism Illusionist",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -33017,6 +33094,28 @@ const speciesJson = {
               },
               "m": {
                 "color": "yr"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Taoist Priest",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "Prism Illusionist",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           },
@@ -33051,6 +33150,54 @@ const speciesJson = {
               },
               "m": {
                 "color": "yr"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Taoist Priest",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "Prism Illusionist",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "03": {
+            "formDisplay": "Taoist Priest",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "04": {
+            "formDisplay": "Prism Illusionist",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           },
@@ -34566,6 +34713,95 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "linlang": {
+    "speciesDisplay": "Linlang",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "deaddead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "deaddead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "deaddead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "color": ".png"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
               }
             }
           }
@@ -36373,6 +36609,17 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Yakgwa",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
           }
         }
       },
@@ -36388,6 +36635,17 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "02": {
+            "formDisplay": "Yakgwa",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
           }
         }
       },
@@ -36401,6 +36659,32 @@ const speciesJson = {
               },
               "m": {
                 "color": "rp"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Yakgwa",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "Yakgwa",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           }
@@ -42018,6 +42302,113 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "lucio_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "ninetailedfoxdragon": {
+    "speciesDisplay": "Nine-Tailed Fox",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Fantasy",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Fantasy",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Fantasy",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_adult_w"
               }
             }
           }
@@ -65040,6 +65431,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Tengu",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -65060,6 +65462,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "yr"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Tengu",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           },
@@ -65086,11 +65499,37 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Tengu",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "Tengu",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           }

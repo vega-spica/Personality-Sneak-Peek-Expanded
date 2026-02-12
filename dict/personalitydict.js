@@ -251,6 +251,11 @@ const personalityJson = {
 		"back" : "aura_a_babyblue",
 		"front" : "a"
 	},
+	"Ecstatic": {
+		"each": "aura_s_gorgeous",
+		"back": "back",
+		"front": "front"
+	},
 	"Elegant" : {
 		"back" : "aura_s_blackhole",
 		"front" : "aura_s_star"
@@ -450,6 +455,11 @@ const personalityJson = {
 	"Lunatic" : {
 		"back" : "aura_s_purplelight",
 		"front" : "aura_s_purplelight"
+	},
+	"Majestic": {
+		"each": "aura_s_mysical",
+		"back": "back",
+		"front": "front"
 	},
 	"Magnificent": {
 		"each": "aura_s_grand",

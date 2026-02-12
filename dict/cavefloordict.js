@@ -206,6 +206,9 @@ const cavefloorJson = {
     "The Path to Hope": {
         "res": "apathtohope/apathtohope_floor_01/apathtohope_floor_01"
     },
+    "Touhou Continent": {
+        "res": "prismtouhou/prismtouhou_floor_01/prismtouhou_floor_01"
+    },
     "Vaska": {
         "res": "vaska/vaska_floor_01/vaska_floor_01"
     },

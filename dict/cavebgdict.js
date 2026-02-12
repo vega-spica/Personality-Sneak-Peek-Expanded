@@ -203,6 +203,9 @@ const cavebgJson = {
     "The Path to Hope": {
         "res": "apathtohope/apathtohope_bg_01/apathtohope_bg_01"
     },
+    "Touhou Continent": {
+        "res": "prismtouhou/prismtouhou_bg_01/prismtouhou_bg_01"
+    },
     "Vaska": {
         "res": "vaska/vaska_bg_01/vaska_bg_01"
     },
