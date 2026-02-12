@@ -44,6 +44,11 @@ const personalityJson = {
 		"back": "back_b",
 		"front": "front_b"
 	},
+	"Amicable": {
+		"each": "aura_s_affectionate",
+		"back": "back",
+		"front": "front"
+	},
 	"Angry": {
 		"each": "aura_a4",
 		"back": "back_a",
@@ -307,11 +312,6 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
-	"Friendship": {
-		"each": "aura_s_affectionate",
-		"back": "back",
-		"front": "front"
-	},
 	"Full Moon" : {
 		"back" : "aura_s_moon_yellow",
 		"front" : "aura_s_transparent_yellow"
@@ -456,11 +456,6 @@ const personalityJson = {
 		"back" : "aura_s_purplelight",
 		"front" : "aura_s_purplelight"
 	},
-	"Majestic": {
-		"each": "aura_s_mysical",
-		"back": "back",
-		"front": "front"
-	},
 	"Magnificent": {
 		"each": "aura_s_grand",
 		"back": "back_a",
@@ -591,6 +586,11 @@ const personalityJson = {
 	},
 	"Reserved": {
 		"each": "aura_a_shy",
+		"back": "back",
+		"front": "front"
+	},
+	"Sacred": {
+		"each": "aura_s_mysical",
 		"back": "back",
 		"front": "front"
 	},
