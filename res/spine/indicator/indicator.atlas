@@ -1,0 +1,12 @@
+indicator.png
+size:689,204
+blur
+bounds:2,2,200,200
+center
+bounds:598,56,146,89
+offsets:29,98,200,200
+rotate:90
+main
+bounds:406,12,190,190
+rador
+bounds:204,2,200,200
