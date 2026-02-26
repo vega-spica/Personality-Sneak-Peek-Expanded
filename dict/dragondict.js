@@ -43378,7 +43378,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_FORM1",
+            "formDisplay": "P_Order",
             "genders": {
               "f": {
                 "color": "w"
@@ -43389,7 +43389,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_FORM2",
+            "formDisplay": "P_Wisdom",
             "genders": {
               "f": {
                 "color": "w"
@@ -43400,7 +43400,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_FORM3",
+            "formDisplay": "P_Healing",
             "genders": {
               "f": {
                 "color": "pb"
@@ -43411,7 +43411,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_FORM4",
+            "formDisplay": "P_Yearning",
             "genders": {
               "f": {
                 "color": "bk"
@@ -43422,7 +43422,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "FORM1",
+            "formDisplay": "Order",
             "genders": {
               "f": {
                 "color": "w"
@@ -43433,7 +43433,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "FORM2",
+            "formDisplay": "Wisdom",
             "genders": {
               "f": {
                 "color": "w"
@@ -43444,7 +43444,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "FORM3",
+            "formDisplay": "Healing",
             "genders": {
               "f": {
                 "color": "pb"
@@ -43455,7 +43455,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "FORM4",
+            "formDisplay": "Yearning",
             "genders": {
               "f": {
                 "color": "bk"
@@ -43489,7 +43489,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_FORM1",
+            "formDisplay": "P_Order",
             "genders": {
               "f": {
                 "color": "w"
@@ -43500,7 +43500,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_FORM2",
+            "formDisplay": "P_Wisdom",
             "genders": {
               "f": {
                 "color": "w"
@@ -43511,7 +43511,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_FORM3",
+            "formDisplay": "P_Healing",
             "genders": {
               "f": {
                 "color": "pb"
@@ -43522,7 +43522,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_FORM4",
+            "formDisplay": "P_Yearning",
             "genders": {
               "f": {
                 "color": "bk"
@@ -43533,7 +43533,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "FORM1",
+            "formDisplay": "Order",
             "genders": {
               "f": {
                 "color": "w"
@@ -43544,7 +43544,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "FORM2",
+            "formDisplay": "Wisdom",
             "genders": {
               "f": {
                 "color": "w"
@@ -43555,7 +43555,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "FORM3",
+            "formDisplay": "Healing",
             "genders": {
               "f": {
                 "color": "pb"
@@ -43566,7 +43566,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "FORM4",
+            "formDisplay": "Yearning",
             "genders": {
               "f": {
                 "color": "bk"
@@ -43600,7 +43600,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "P_FORM1",
+            "formDisplay": "P_Order",
             "genders": {
               "f": {
                 "color": "w"
@@ -43611,7 +43611,7 @@ const speciesJson = {
             }
           },
           "03": {
-            "formDisplay": "P_FORM2",
+            "formDisplay": "P_Wisdom",
             "genders": {
               "f": {
                 "color": "w"
@@ -43622,7 +43622,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "P_FORM3",
+            "formDisplay": "P_Healing",
             "genders": {
               "f": {
                 "color": "pb"
@@ -43633,7 +43633,7 @@ const speciesJson = {
             }
           },
           "05": {
-            "formDisplay": "P_FORM4",
+            "formDisplay": "P_Yearning",
             "genders": {
               "f": {
                 "color": "bk"
@@ -43644,7 +43644,7 @@ const speciesJson = {
             }
           },
           "06": {
-            "formDisplay": "FORM1",
+            "formDisplay": "Order",
             "genders": {
               "f": {
                 "color": "w"
@@ -43655,7 +43655,7 @@ const speciesJson = {
             }
           },
           "07": {
-            "formDisplay": "FORM2",
+            "formDisplay": "Wisdom",
             "genders": {
               "f": {
                 "color": "w"
@@ -43666,7 +43666,7 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "FORM3",
+            "formDisplay": "Healing",
             "genders": {
               "f": {
                 "color": "pb"
@@ -43677,7 +43677,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "FORM4",
+            "formDisplay": "Yearning",
             "genders": {
               "f": {
                 "color": "bk"
