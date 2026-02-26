@@ -158,6 +158,12 @@ const cavefloorJson = {
     "Metis (Special)": {
         "res": "metis/metis_floor_02/metis_floor_02"
     },
+    /*"Odin [FLASHING]": {
+        "res": "odin/odin_floor_01/odin_floor_01"
+    },
+    "Odin (Special)": {
+        "res": "odin/odin_floor_02/odin_floor_02"
+    },*/
     "Old Palace": {
         "res": "korean_palace/korean_palace_floor_01/korean_palace_floor_01"
     },

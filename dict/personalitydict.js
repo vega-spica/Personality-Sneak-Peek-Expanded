@@ -746,6 +746,11 @@ const personalityJson = {
 		"back": "back_b",
 		"front": "front_b"
 	},
+	"Vernal": {
+		"each": "aura_s_vernal",
+		"back": "back",
+		"front": "front"
+	},
 	"Void Subconscious": {
 		"each": "aura_s_unconscious",
 		"back": "back_b",

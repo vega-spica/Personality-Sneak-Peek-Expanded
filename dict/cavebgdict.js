@@ -8,7 +8,7 @@ const cavebgJson = {
     "Aftea (Special)": {
         "res": "aftea/aftea_bg_02/aftea_bg_02"
     },
-    "Apocalyptic Kingdom (FLASHING)": {
+    "Apocalyptic Kingdom [FLASHING]": {
         "res": "kingdomoftheend/kingdomoftheend_bg_01/kingdomoftheend_bg_01"
     },
     "Aquiris Abyss": {
@@ -98,7 +98,7 @@ const cavebgJson = {
     "Frostina (Special)": {
         "res": "frostina/frostina_bg_02/frostina_bg_02"
     },
-    "Halloween 2023 (FLASHING)": {
+    "Halloween 2023 [FLASHING]": {
         "res": "halloween_2023/halloween_2023_bg_01/halloween_2023_bg_01"
     },
     "Halloween Special": {
@@ -155,6 +155,12 @@ const cavebgJson = {
     "Metis (Special)": {
         "res": "metis/metis_bg_02/metis_bg_02"
     },
+    /*"Odin [FLASHING]": {
+        "res": "odin/odin_bg_01/odin_bg_01"
+    },
+    "Odin (Special)": {
+        "res": "odin/odin_bg_02/odin_bg_02"
+    },*/
     "Old Palace": {
         "res": "korean_palace/korean_palace_bg_01/korean_palace_bg_01"
     },
