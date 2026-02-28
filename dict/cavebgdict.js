@@ -155,12 +155,12 @@ const cavebgJson = {
     "Metis (Special)": {
         "res": "metis/metis_bg_02/metis_bg_02"
     },
-    /*"Odin [FLASHING]": {
+    "Odin [FLASHING]": {
         "res": "odin/odin_bg_01/odin_bg_01"
     },
     "Odin (Special)": {
         "res": "odin/odin_bg_02/odin_bg_02"
-    },*/
+    },
     "Old Palace": {
         "res": "korean_palace/korean_palace_bg_01/korean_palace_bg_01"
     },
