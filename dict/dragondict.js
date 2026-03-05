@@ -30403,6 +30403,18 @@ const speciesJson = {
             }
           }
         }
+      },
+      "essence": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "rp"
+              }
+            }
+          }
+        }
       }
     }
   },
