@@ -685,6 +685,11 @@ const personalityJson = {
 		"back" : "aura_s_halloween_a_fly",
 		"front" : "aura_s_halloween_a"
 	},
+	"Spring Day": {
+		"each": "aura_s_vernal",
+		"back": "back",
+		"front": "front"
+	},
 	"Starry Sea": {
 		"each": "aura_s_starsea",
 		"back": "back",
@@ -750,11 +755,6 @@ const personalityJson = {
 		"each": "aura_s_usirping_absolutic",
 		"back": "back_b",
 		"front": "front_b"
-	},
-	"Vernal": {
-		"each": "aura_s_vernal",
-		"back": "back",
-		"front": "front"
 	},
 	"Void Subconscious": {
 		"each": "aura_s_unconscious",
