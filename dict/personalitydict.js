@@ -317,6 +317,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Frosty Spring": {
+		"each": "aura_s_frostyspring",
+		"back": "back",
+		"front": "front"
+	},
 	"Full Moon" : {
 		"back" : "aura_s_moon_yellow",
 		"front" : "aura_s_transparent_yellow"
