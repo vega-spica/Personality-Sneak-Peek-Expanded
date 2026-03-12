@@ -55238,7 +55238,7 @@ const speciesJson = {
             }
           },
           "02": {
-            "formDisplay": "Blooming Form",
+            "formDisplay": "Blooming",
             "genders": {
               "f": {
                 "color": "w"
