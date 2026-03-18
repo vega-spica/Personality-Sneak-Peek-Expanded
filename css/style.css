@@ -46,7 +46,7 @@ a:hover {
   margin-top: 120%;
 }
 
-.spotlightCanvas {
+.haloCanvas {
   z-index: 0;
   padding: 100% 100% 100% 100%;
   margin-top: 120%;
@@ -295,17 +295,17 @@ select:focus {
   vertical-align: middle;
 }
 
-.spotlightRadios {
-  text-align: center;
+.haloRadios {
+  text-align: right;
 }
 
-#spotlightRadios label {
+#haloRadios label {
   cursor: pointer;
   position: relative;
   vertical-align: middle;
 }
 
-#spotlightRadios label img {
+#haloRadios label img {
   cursor: pointer;
   position: relative;
   vertical-align: middle;
@@ -374,7 +374,7 @@ input[type='radio'] {
     margin-top: 87%;
   }
 
-  .spotlightCanvas {
+  .haloCanvas {
     margin-top: 87%;
   }
 
@@ -451,7 +451,7 @@ input[type='radio'] {
     margin-top: 77%;
   }
 
-  .spotlightCanvas {
+  .haloCanvas {
     padding: 70% 70% 70% 70%;
     margin-top: 77%;
   }

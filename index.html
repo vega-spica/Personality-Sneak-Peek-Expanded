@@ -62,7 +62,7 @@
         var floorSelection;
         var bgState = "idle";
         var floorState = "idle";
-        var spotlightState = "";
+        var haloState = "";
         
         function init() {
             //hey, wanna see a cool trick?
@@ -153,7 +153,7 @@
             myheartbackcolour = document.getElementById("myheartbackcolour");
             cavebg = document.getElementById("cavebg");
             cavefloor = document.getElementById("cavefloor");
-            spotlight = document.getElementById("spotlight");
+            halo = document.getElementById("halo");
             
             //create option tags for Species
             var speciesOption;
@@ -382,9 +382,9 @@
             updateFloorUrl();
         }
 
-        function setspotlightState(spotlightValue) {
-            spotlightState = spotlightValue;
-            updateSpotlightUrl();
+        function sethaloState(haloValue) {
+            haloState = haloValue;
+            updateHaloUrl();
         }
 
         function setbrightness(brightnessValue) {
@@ -760,10 +760,10 @@
                 }
             }
             
-        function updateSpotlightUrl() {
+        function updateHaloUrl() {
                 //not really a url, but animation state needs updating, so...         
-                    canvases.spotlight = new spine.SpineCanvas(document.getElementById("Spotlight"), {
-                        app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/license_growth_010/license_growth_010", spotlightState)
+                    canvases.halo = new spine.SpineCanvas(document.getElementById("Halo"), {
+                        app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/license_growth_010/license_growth_010", haloState)
                     });
                 }
 
@@ -894,17 +894,22 @@
         </div>
         <br>
 
-        <!--spotlight for top 20 Mystic rank-->
-        <div id="spotlightRadios" class="spotlightRadios">
-            <input type="radio" name="spotlight" value="" id="spotlightoff" onchange="setspotlightState(this.value)" onchange="updateSpotlightUrl();" checked />
-            <label for="spotlightoff" id="spotlightoffLabel">
-                <img src="./res/img/license_00.png" alt="spotlight off">
+        <!--halo for top 20 Mystic rank-->
+        <div id="haloRadios" class="haloRadios">
+            <input type="radio" name="halo" value="" id="halooff" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" checked />
+            <label for="halooff" id="halooffLabel">
+                <img src="./res/img/license_00.png" alt="halo off">
             </label>
             &nbsp;
-            <input type="radio" name="spotlight" value="idle" id="spotlightidle" onchange="setspotlightState(this.value)" onchange="updateSpotlightUrl();" />
-            <label for="spotlightidle" id="spotlightidleLabel">
-                <img src="./res/img/license_10.png" alt="spotlight on">
+            <input type="radio" name="halo" value="idle" id="haloidle" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" />
+            <label for="haloidle" id="haloidleLabel">
+                <img src="./res/img/license_10.png" alt="halo idle">
             </label>
+            &nbsp;
+            <input type="radio" name="halo" value="appear" id="haloburst" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" />
+            <label for="haloburst" id="haloburstLabel">
+                <img src="./res/img/license_10.png" alt="halo burst">
+            </label>*
         </div>
         <br>
 
@@ -929,7 +934,7 @@
                 <canvas id="dragonCanvas" class="spineCanvas dragonCanvas"></canvas>
                 <canvas id="Auraback" class="spineCanvas auraBackCanvas"></canvas>
                 <canvas id="Aurafront" class="spineCanvas auraFrontCanvas"></canvas>
-                <canvas id="Spotlight" class="spineCanvas spotlightCanvas"></canvas>
+                <canvas id="Halo" class="spineCanvas haloCanvas"></canvas>
                 <canvas id="Background" class="spineCanvas backgroundCanvas"></canvas>
                 <canvas id="Floor" class="spineCanvas floorCanvas"></canvas>
                 
