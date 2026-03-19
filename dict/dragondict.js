@@ -46653,6 +46653,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Flowerpot",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -46676,6 +46687,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Flowerpot",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -46690,6 +46712,17 @@ const speciesJson = {
         "forms": {
           "01": {
             "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Flowerpot",
             "genders": {
               "f": {
                 "color": "r"
@@ -56722,6 +56755,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Flowerpot",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -56745,6 +56789,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Flowerpot",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -56759,6 +56814,17 @@ const speciesJson = {
         "forms": {
           "01": {
             "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Flowerpot",
             "genders": {
               "f": {
                 "color": "w"
