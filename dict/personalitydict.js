@@ -705,6 +705,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Strange": {
+		"each": "aura_s_strange",
+		"back": "back",
+		"front": "front"
+	},
 	"Strategic": {
 		"each": "aura_a_strategist",
 		"back": "back",
