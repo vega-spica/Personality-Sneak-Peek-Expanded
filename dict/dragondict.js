@@ -12386,11 +12386,11 @@ const speciesJson = {
               }
             }
           },
-          "deaddead": {
+          "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "color": ".png"
+                "undeadres": "cortus_w_hatch_w"
               }
             }
           }
@@ -12431,11 +12431,11 @@ const speciesJson = {
               }
             }
           },
-          "deaddead": {
+          "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "color": ".png"
+                "undeadres": "cortus_w_hatchling_w"
               }
             }
           }
@@ -12476,11 +12476,11 @@ const speciesJson = {
               }
             }
           },
-          "deaddead": {
+          "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "color": ".png"
+                "undeadres": "cortus_w_adult_w"
               }
             }
           }
