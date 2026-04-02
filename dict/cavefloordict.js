@@ -158,12 +158,12 @@ const cavefloorJson = {
     "Metis (Special)": {
         "res": "metis/metis_floor_02/metis_floor_02"
     },
-    /*"Njord": {
+    "Njord": {
         "res": "njord/njord_floor_01/njord_floor_01"
     },
     "Njord (Special)": {
         "res": "njord/njord_floor_02/njord_floor_02"
-    },*/
+    },
     "Odin [FLASHING]": {
         "res": "odin/odin_floor_01/odin_floor_01"
     },

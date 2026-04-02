@@ -155,12 +155,12 @@ const cavebgJson = {
     "Metis (Special)": {
         "res": "metis/metis_bg_02/metis_bg_02"
     },
-    /*"Njord": {
+    "Njord": {
         "res": "njord/njord_bg_01/njord_bg_01"
     },
     "Njord (Special)": {
         "res": "njord/njord_bg_02/njord_bg_02"
-    },*/
+    },
     "Odin [FLASHING]": {
         "res": "odin/odin_bg_01/odin_bg_01"
     },
