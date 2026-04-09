@@ -407,6 +407,11 @@ const personalityJson = {
 		"back" : "back",
 		"front" : "front"
 	},
+	"Inquisitive": {
+		"each": "aura_s_deepdive",
+		"back": "back",
+		"front": "front"
+	},
 	"Introvert" : {
 		"back" : "aura_a2_red",
 		"front" : "a2"
