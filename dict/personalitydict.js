@@ -619,7 +619,7 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
-	"Rifted": {
+	"Rift": {
 		"each": "aura_a_rifted",
 		"back": "back",
 		"front": "front"
