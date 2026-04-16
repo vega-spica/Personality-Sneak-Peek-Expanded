@@ -229,6 +229,11 @@ const personalityJson = {
 		"back": "back_a",
 		"front": "front_a"
 	},
+	"Dimensional": {
+		"each": "aura_s_dimensional",
+		"back": "back",
+		"front": "front"
+	},
 	"Distorted Liberated": {
 		"each": "aura_s_liberated",
 		"back": "back_c",
@@ -611,6 +616,11 @@ const personalityJson = {
 	},
 	"Reserved": {
 		"each": "aura_a_shy",
+		"back": "back",
+		"front": "front"
+	},
+	"Rifted": {
+		"each": "aura_a_rifted",
 		"back": "back",
 		"front": "front"
 	},
