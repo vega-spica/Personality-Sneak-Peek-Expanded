@@ -16305,7 +16305,7 @@ const speciesJson = {
             "formDisplay": "Undead",
             "genders": {
               "n": {
-                "undeadres": "dragon_w_adult_w"
+                "undeadres": "dragon_w_hatchling_w"
               }
             }
           }
