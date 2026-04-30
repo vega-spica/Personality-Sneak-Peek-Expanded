@@ -9,7 +9,16 @@ const myheartbackJson = {
         "Rainbow": "",
         "Red": "",
         "White": "",
-        "Yellow": ""
+        "Yellow": "",
+        "Purity (Divine)": "",
+        "Golden (Divine)": "",
+        "Life (Divine)": "",
+        "Mystery (Reverie)": "",
+        "Radiance (Reverie)": "",
+        "Clarity (Reverie)": "",
+        "Karma Fire (Runaway)": "",
+        "Dead (Runaway)": "",
+        "Corrosion (Runaway)": ""
     },
     "Back A": {
         "Black": "back_a_bk",
@@ -70,5 +79,20 @@ const myheartbackJson = {
         "Red": "back_e_r",
         "White": "back_e_w",
         "Yellow": "back_e_y"
+    },
+    "Divine": {
+        "Purity (Divine)": "back_f_w",
+        "Golden (Divine)": "back_f_y",
+        "Life (Divine)": "back_f_bg"
+    },
+    "Reverie": {
+        "Mystery (Reverie)": "back_g_p",
+        "Radiance (Reverie)": "back_g_y",
+        "Clarity (Reverie)": "back_g_bg"
+    },
+    "Runaway": {
+        "Karma Fire (Runaway)": "back_h_bkr",
+        "Dead (Runaway)": "back_h_bkp",
+        "Corrosion (Runaway)": "back_h_bkbg"
     },
 }
