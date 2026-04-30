@@ -1,0 +1,12 @@
+transition_map.png
+size:782,412
+filter:Linear,Linear
+cloud_1
+bounds:544,2,408,236
+offsets:2,3,413,241
+rotate:90
+cloud_2
+bounds:2,150,540,260
+offsets:2,3,545,265
+dim
+bounds:2,138,10,10

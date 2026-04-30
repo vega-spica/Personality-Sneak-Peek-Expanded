@@ -1,0 +1,10 @@
+back_y.png
+size:374,244
+filter:Linear,Linear
+glow
+bounds:253,122,120,119
+offsets:3,6,128,128
+rotate:90
+sun
+bounds:2,2,249,240
+offsets:2,7,256,256
