@@ -10,15 +10,15 @@ const myheartfrontJson = {
         "Red": "",
         "White": "",
         "Yellow": "",
-        "Purity (Divine)": "",
-        "Golden (Divine)": "",
-        "Life (Divine)": "",
-        "Mystery (Reverie)": "",
-        "Radiance (Reverie)": "",
-        "Clarity (Reverie)": "",
-        "Karma Fire (Runaway)": "",
-        "Dead (Runaway)": "",
-        "Corrosion (Runaway)": ""
+        "Purity (Holy)": "",
+        "Golden (Holy)": "",
+        "Life (Holy)": "",
+        "Mystery (Dreamlike)": "",
+        "Radiance (Dreamlike)": "",
+        "Clarity (Dreamlike)": "",
+        "Karma Fire (Rampage)": "",
+        "Dead (Rampage)": "",
+        "Corrosion (Rampage)": ""
     },
     "Front A" : {
         "Black": "front_a_bk",
@@ -80,19 +80,19 @@ const myheartfrontJson = {
         "White": "front_e_w",
         "Yellow": "front_e_y"
     },
-    "Divine": {
-        "Purity (Divine)": "front_f_w",
-        "Golden (Divine)": "front_f_y",
-        "Life (Divine)": "front_f_bg"
+    "Holy": {
+        "Purity (Holy)": "front_f_w",
+        "Golden (Holy)": "front_f_y",
+        "Life (Holy)": "front_f_bg"
     },
-    "Reverie": {    
-        "Mystery (Reverie)": "front_g_p",
-        "Radiance (Reverie)": "front_g_y",
-        "Clarity (Reverie)": "front_g_bg"
+    "Dreamlike": {    
+        "Mystery (Dreamlike)": "front_g_p",
+        "Radiance (Dreamlike)": "front_g_y",
+        "Clarity (Dreamlike)": "front_g_bg"
     },
-    "Runaway": {
-        "Karma Fire (Runaway)": "front_h_bkr",
-        "Dead (Runaway)": "front_h_bkp",
-        "Corrosion (Runaway)": "front_h_bkbg"
+    "Rampage": {
+        "Karma Fire (Rampage)": "front_h_bkr",
+        "Dead (Rampage)": "front_h_bkp",
+        "Corrosion (Rampage)": "front_h_bkbg"
     },
 }

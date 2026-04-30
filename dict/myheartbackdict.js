@@ -10,15 +10,15 @@ const myheartbackJson = {
         "Red": "",
         "White": "",
         "Yellow": "",
-        "Purity (Divine)": "",
-        "Golden (Divine)": "",
-        "Life (Divine)": "",
-        "Mystery (Reverie)": "",
-        "Radiance (Reverie)": "",
-        "Clarity (Reverie)": "",
-        "Karma Fire (Runaway)": "",
-        "Dead (Runaway)": "",
-        "Corrosion (Runaway)": ""
+        "Purity (Holy)": "",
+        "Golden (Holy)": "",
+        "Life (Holy)": "",
+        "Mystery (Dreamlike)": "",
+        "Radiance (Dreamlike)": "",
+        "Clarity (Dreamlike)": "",
+        "Karma Fire (Rampage)": "",
+        "Dead (Rampage)": "",
+        "Corrosion (Rampage)": ""
     },
     "Back A": {
         "Black": "back_a_bk",
@@ -80,19 +80,19 @@ const myheartbackJson = {
         "White": "back_e_w",
         "Yellow": "back_e_y"
     },
-    "Divine": {
-        "Purity (Divine)": "back_f_w",
-        "Golden (Divine)": "back_f_y",
-        "Life (Divine)": "back_f_bg"
+    "Holy": {
+        "Purity (Holy)": "back_f_w",
+        "Golden (Holy)": "back_f_y",
+        "Life (Holy)": "back_f_bg"
     },
-    "Reverie": {
-        "Mystery (Reverie)": "back_g_p",
-        "Radiance (Reverie)": "back_g_y",
-        "Clarity (Reverie)": "back_g_bg"
+    "Dreamlike": {
+        "Mystery (Dreamlike)": "back_g_p",
+        "Radiance (Dreamlike)": "back_g_y",
+        "Clarity (Dreamlike)": "back_g_bg"
     },
-    "Runaway": {
-        "Karma Fire (Runaway)": "back_h_bkr",
-        "Dead (Runaway)": "back_h_bkp",
-        "Corrosion (Runaway)": "back_h_bkbg"
+    "Rampage": {
+        "Karma Fire (Rampage)": "back_h_bkr",
+        "Dead (Rampage)": "back_h_bkp",
+        "Corrosion (Rampage)": "back_h_bkbg"
     },
 }
