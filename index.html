@@ -236,10 +236,13 @@
 
             var myheartbackOption;
             for (var i = 0; i < myheartbackKeys.length; i++) {
-                myheartbackOption = document.createElement("option");
-                myheartbackOption.innerText = myheartbackKeys[i];
-                myheartbackOption.value = myheartbackKeys[i];
-                myheartback.appendChild(myheartbackOption);
+                // Check if the current key exists as a top-level property in myheartbackJson
+                if (myheartbackJson.hasOwnProperty(myheartbackKeys[i])) {
+                    myheartbackOption = document.createElement("option");
+                    myheartbackOption.innerText = myheartbackKeys[i];
+                    myheartbackOption.value = myheartbackKeys[i];
+                    myheartback.appendChild(myheartbackOption);
+                }
             };
 
             //create option tags for custom Back Colours
@@ -669,12 +672,53 @@
     if (canvases.frontAura) { canvases.frontAura.dispose(); }
 
             personalityName = personality.value;
-            //this bit is only here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!
+            //this is now here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!
                 //edit: and of course, they weren't special enough, so they added custom ones that are °˳⁠˚⁠∘⁠✧super special✧∘⁠˚⁠˳⁠°!! 
             if(personalityName === "My Own") {
                 document.getElementById("myownselect").style.display = "block";
                 var myownfrontSelection = myownfrontJson[myownfront.value];
                 var myownbackSelection = myownbackJson[myownback.value];
+
+            //okay, so apparently even the °˳⁠˚⁠∘⁠✧super special✧∘⁠˚⁠˳⁠° custom auras weren't special enough.
+            //so now we have to account for °˳⁠˚⁠∘⁠✧super-special-awesome-chocolatey-fudge-coated✧∘⁠˚⁠˳⁠° custom auras.
+                // --- front My Own colours ---
+                var previousFrontColour = myownfrontcolour.value;
+
+                myownfrontcolour.innerHTML = "";
+                var frontColours = Object.keys(myownfrontSelection);
+
+                for (var i = 0; i < frontColours.length; i++) {
+                    var option = document.createElement("option");
+                    option.innerText = frontColours[i];
+                    option.value = frontColours[i];
+                    myownfrontcolour.appendChild(option);
+                }
+
+                // restore My Own colour selection upon changing shape if still valid
+                if (frontColours.includes(previousFrontColour)) {
+                    myownfrontcolour.value = previousFrontColour;
+                } else {
+                    myownfrontcolour.value = frontColours[0];
+                }
+
+                // --- back My Own colours ---
+                var previousBackColour = myownbackcolour.value;
+
+                myownbackcolour.innerHTML = "";
+                var backColours = Object.keys(myownbackSelection);
+
+                for (var i = 0; i < backColours.length; i++) {
+                    var option = document.createElement("option");
+                    option.innerText = backColours[i];
+                    option.value = backColours[i];
+                    myownbackcolour.appendChild(option);
+                }
+
+                if (backColours.includes(previousBackColour)) {
+                    myownbackcolour.value = previousBackColour;
+                } else {
+                    myownbackcolour.value = backColours[0];
+                }
                 canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
                     app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", myownbackSelection[myownbackcolour.value])
                 });
@@ -686,6 +730,46 @@
                 document.getElementById("myheartselect").style.display = "block";
                 var myheartfrontSelection = myheartfrontJson[myheartfront.value];
                 var myheartbackSelection = myheartbackJson[myheartback.value];
+
+            //again accounting for °˳⁠˚⁠∘⁠✧super-special-awesome-chocolatey-fudge-coated✧∘⁠˚⁠˳⁠° custom auras.
+                // --- front My Heart colours ---
+                var previousFrontColour = myheartfrontcolour.value;
+
+                myheartfrontcolour.innerHTML = "";
+                var frontColours = Object.keys(myheartfrontSelection);
+
+                for (var i = 0; i < frontColours.length; i++) {
+                    var option = document.createElement("option");
+                    option.innerText = frontColours[i];
+                    option.value = frontColours[i];
+                    myheartfrontcolour.appendChild(option);
+                }
+
+                // restore My Heart colour selection upon changing shape if still valid
+                if (frontColours.includes(previousFrontColour)) {
+                    myheartfrontcolour.value = previousFrontColour;
+                } else {
+                    myheartfrontcolour.value = frontColours[0];
+                }
+
+                // --- back My Heart colours ---
+                var previousBackColour = myheartbackcolour.value;
+
+                myheartbackcolour.innerHTML = "";
+                var backColours = Object.keys(myheartbackSelection);
+
+                for (var i = 0; i < backColours.length; i++) {
+                    var option = document.createElement("option");
+                    option.innerText = backColours[i];
+                    option.value = backColours[i];
+                    myheartbackcolour.appendChild(option);
+                }
+
+                if (backColours.includes(previousBackColour)) {
+                    myheartbackcolour.value = previousBackColour;
+                } else {
+                    myheartbackcolour.value = backColours[0];
+                }
                 canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
                     app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_myheart/aura_myheart", myheartbackSelection[myheartbackcolour.value])
                 });

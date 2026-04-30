@@ -1,15 +1,6 @@
 const myownfrontJson = {
     "[None]": {
-        "Black": "",
-        "Blue": "",
-        "Green": "",
-        "Navy": "",
-        "Pink": "",
-        "Purple": "",
-        "Rainbow": "",
-        "Red": "",
-        "White": "",
-        "Yellow": ""
+        "N/A": ""
     },
     "Front A": {
         "Black": "front_a_bk",

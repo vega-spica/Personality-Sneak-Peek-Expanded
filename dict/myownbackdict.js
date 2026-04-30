@@ -1,15 +1,6 @@
 const myownbackJson = {
     "[None]": {
-        "Black": "",
-        "Blue": "",
-        "Green": "",
-        "Navy": "",
-        "Pink": "",
-        "Purple": "",
-        "Rainbow": "",
-        "Red": "",
-        "White": "",
-        "Yellow": ""
+        "N/A": ""
     },
     "Back A": {
         "Black": "back_a_bk",

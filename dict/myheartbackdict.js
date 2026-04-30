@@ -1,24 +1,6 @@
 const myheartbackJson = {
     "[None]" : {
-        "Black": "",
-        "Blue": "",
-        "Green": "",
-        "Navy": "",
-        "Pink": "",
-        "Purple": "",
-        "Rainbow": "",
-        "Red": "",
-        "White": "",
-        "Yellow": "",
-        "Purity (Holy)": "",
-        "Golden (Holy)": "",
-        "Life (Holy)": "",
-        "Mystery (Dreamlike)": "",
-        "Radiance (Dreamlike)": "",
-        "Clarity (Dreamlike)": "",
-        "Karma Fire (Rampage)": "",
-        "Dead (Rampage)": "",
-        "Corrosion (Rampage)": ""
+        "N/A": ""
     },
     "Back A": {
         "Black": "back_a_bk",
@@ -81,18 +63,18 @@ const myheartbackJson = {
         "Yellow": "back_e_y"
     },
     "Holy": {
-        "Purity (Holy)": "back_f_w",
-        "Golden (Holy)": "back_f_y",
-        "Life (Holy)": "back_f_bg"
+        "Purity": "back_f_w",
+        "Golden": "back_f_y",
+        "Life": "back_f_bg"
     },
     "Dreamlike": {
-        "Mystery (Dreamlike)": "back_g_p",
-        "Radiance (Dreamlike)": "back_g_y",
-        "Clarity (Dreamlike)": "back_g_bg"
+        "Mystery": "back_g_p",
+        "Radiance": "back_g_y",
+        "Clarity": "back_g_bg"
     },
     "Rampage": {
-        "Karma Fire (Rampage)": "back_h_bkr",
-        "Dead (Rampage)": "back_h_bkp",
-        "Corrosion (Rampage)": "back_h_bkbg"
+        "Karma Fire": "back_h_bkr",
+        "Dead": "back_h_bkp",
+        "Corrosion": "back_h_bkbg"
     },
 }

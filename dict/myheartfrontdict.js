@@ -1,24 +1,6 @@
 const myheartfrontJson = {
     "[None]" : {
-        "Black": "",
-        "Blue": "",
-        "Green": "",
-        "Navy": "",
-        "Pink": "",
-        "Purple": "",
-        "Rainbow": "",
-        "Red": "",
-        "White": "",
-        "Yellow": "",
-        "Purity (Holy)": "",
-        "Golden (Holy)": "",
-        "Life (Holy)": "",
-        "Mystery (Dreamlike)": "",
-        "Radiance (Dreamlike)": "",
-        "Clarity (Dreamlike)": "",
-        "Karma Fire (Rampage)": "",
-        "Dead (Rampage)": "",
-        "Corrosion (Rampage)": ""
+        "N/A": "",
     },
     "Front A" : {
         "Black": "front_a_bk",
@@ -81,18 +63,18 @@ const myheartfrontJson = {
         "Yellow": "front_e_y"
     },
     "Holy": {
-        "Purity (Holy)": "front_f_w",
-        "Golden (Holy)": "front_f_y",
-        "Life (Holy)": "front_f_bg"
+        "Purity": "front_f_w",
+        "Golden": "front_f_y",
+        "Life": "front_f_bg"
     },
     "Dreamlike": {    
-        "Mystery (Dreamlike)": "front_g_p",
-        "Radiance (Dreamlike)": "front_g_y",
-        "Clarity (Dreamlike)": "front_g_bg"
+        "Mystery": "front_g_p",
+        "Radiance": "front_g_y",
+        "Clarity": "front_g_bg"
     },
     "Rampage": {
-        "Karma Fire (Rampage)": "front_h_bkr",
-        "Dead (Rampage)": "front_h_bkp",
-        "Corrosion (Rampage)": "front_h_bkbg"
+        "Karma Fire": "front_h_bkr",
+        "Dead": "front_h_bkp",
+        "Corrosion": "front_h_bkbg"
     },
 }
