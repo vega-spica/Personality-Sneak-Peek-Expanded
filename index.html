@@ -175,8 +175,7 @@
             };
             if (personalityName) {
                 personality.value = personalityName;
-            }
-            
+            } 
             
             //create option tags for Forms
             var formKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms);
@@ -228,15 +227,18 @@
             //create option tags for custom Backs
             var myownbackOption;
             for (var i = 0; i < myownbackKeys.length; i++) {
-                myownbackOption = document.createElement("option");
-                myownbackOption.innerText = myownbackKeys[i];
-                myownbackOption.value = myownbackKeys[i];
-                myownback.appendChild(myownbackOption);
+                // check if the current key exists as a top-level property in myownbackJson
+                if (myownbackJson.hasOwnProperty(myownbackKeys[i])) {
+                    myownbackOption = document.createElement("option");
+                    myownbackOption.innerText = myownbackKeys[i];
+                    myownbackOption.value = myownbackKeys[i];
+                    myownback.appendChild(myownbackOption);
+                }
             };
 
             var myheartbackOption;
             for (var i = 0; i < myheartbackKeys.length; i++) {
-                // Check if the current key exists as a top-level property in myheartbackJson
+                // check if the current key exists as a top-level property in myheartbackJson
                 if (myheartbackJson.hasOwnProperty(myheartbackKeys[i])) {
                     myheartbackOption = document.createElement("option");
                     myheartbackOption.innerText = myheartbackKeys[i];
@@ -354,7 +356,7 @@
                 updateFloorUrl();
             };
             //(okay, so we're gonna put a tiny timeout here for aura url params to work)
-                //(because Spine is being stupid for some reason)
+                //(because Spine is being difficult for some reason)
             setTimeout(() => {
                 updatePersonalityUrl();
             });
@@ -394,8 +396,7 @@
             brightness = brightnessValue;
             document.getElementById("Background").style.filter = `brightness(${brightnessValue})`;
         }
-
-        
+       
         function updateSpecies(){
             //if new species, clear form options and append again
             if (speciesName !== species.value){
@@ -486,7 +487,6 @@
                 fusionLabel.setAttribute('aria-disabled', false);
             }
 
-
             switch (stage){
                 case 'adult': {
                     adultButton.checked = true;
@@ -552,8 +552,6 @@
             
             //get keys for current species' genders
             var genderKeys = Object.keys(speciesJson[speciesName].stage[stage].forms[formNumber].genders);
-
-            
 
             //enable all valid keys
             for (var i = 0; i < genderKeys.length; i++){
@@ -896,7 +894,12 @@
 
         <!--selection for auras where entries are appended-->
         <b>Personality</b>&nbsp;
-        <select id="personality" name="personality" onchange="updatePersonalityUrl();">
+        <div class="dropdown">
+            <input type="text" class="search-box" id="personalitySearch" placeholder="Search...">
+            <div class="dropdown-content" id="personalityDropdown"></div>
+        </div>
+
+        <select id="personality" name="personality" style="display: none;" onchange="updatePersonalityUrl();">
         </select>
     
         <div id="myownselect">
@@ -946,7 +949,12 @@
     
         <!--selection for backgrounds where entries are appended-->
         <b>Background</b>&nbsp;
-        <select id="cavebg" name="cavebg" onchange="updateBackgroundUrl();">
+        <div class="dropdown">
+            <input type="text" class="search-box" id="bgSearch" placeholder="Search..." autocomplete="off">
+            <div class="dropdown-content" id="bgDropdown"></div>
+        </div>
+
+        <select id="cavebg" name="cavebg" style="display: none;" onchange="updateBackgroundUrl();">
         </select>
         <br>
         <div id="bgRadios" class="bgRadios">
@@ -966,7 +974,12 @@
     
         <!--selection for floors where entries are appended-->
         <b>Floor</b>&nbsp;
-        <select id="cavefloor" name="cavefloor" onchange="updateFloorUrl();">
+        <div class="dropdown">
+            <input type="text" class="search-box" id="floorSearch" placeholder="Search..." autocomplete="off">
+            <div class="dropdown-content" id="floorDropdown"></div>
+        </div>
+
+        <select id="cavefloor" name="cavefloor" style="display: none;" onchange="updateFloorUrl();">
         </select>
         <br>
         <div id="floorRadios" class="floorRadios">
@@ -1063,8 +1076,7 @@
             <!--selection for species where entries are appended-->
             <b>Species</b>&nbsp;
             <div class="dropdown">
-                <input type="text" class="search-box" id="search" placeholder="Search..." onkeyup="filterFunction()"
-                    onfocus="onFocusHandler()">
+                <input type="text" class="search-box" id="speciesSearch" placeholder="Search...">
                 <div class="dropdown-content" id="dropdown"></div>
             </div>
             
@@ -1080,83 +1092,107 @@
             <script>
                 //okay, okay, i get it. you want a searchbar.
                     //you get ONE searchbar.
-                function populateDropdown() {
-                    let select = document.getElementById("species");
-                    let dropdown = document.getElementById("dropdown");
-                    dropdown.innerHTML = ""; // wipe existing options
+                function createSearchDropdown({ searchId, dropdownId, selectId, onChange }) {
+                    const searchBox = document.getElementById(searchId);
+                    const dropdown = document.getElementById(dropdownId);
+                    const select = document.getElementById(selectId);
 
-                    for (let option of select.options) {
-                        let div = document.createElement("div");
-                        div.textContent = option.text;
-                        div.setAttribute("data-value", option.value);
-                        div.onclick = function () {
-                            document.getElementById("search").value = this.textContent;
-                            document.getElementById("species").value = this.getAttribute("data-value");
-                            document.getElementById("dropdown").style.display = "none";
-                            updateSpecies();
-                        };
-                        dropdown.appendChild(div);
-                    }
-                }
+                    function populate() {
+                        dropdown.innerHTML = "";
 
-                // show all options on focus 
-                    //"onclick" was not cooperating, so i fired them.
-                function showAll() {
-                    let dropdown = document.getElementById("dropdown");
-                    let items = dropdown.getElementsByTagName("div");
-                    dropdown.style.display = "block";
+                        for (let option of select.options) {
+                            let div = document.createElement("div");
+                            div.textContent = option.text;
+                            div.setAttribute("data-value", option.value);
 
-                    for (let i = 0; i < items.length; i++) {
-                        items[i].style.display = "block";
-                    }
-                }
+                            div.onclick = function () {
+                                searchBox.value = this.textContent;
+                                select.value = this.getAttribute("data-value");
+                                dropdown.style.display = "none";
+                                dropdown.parentElement.classList.remove("active");
+                                onChange();
+                            };
 
-                // select searchbox text on focus (if there is already text present)
-                    function selectText() {
-                        document.getElementById("search").select();
+                            dropdown.appendChild(div);
+                        }
                     }
 
-                // filter options
-                function filterFunction() {
-                    let input = document.getElementById("search");
-                    let filter = input.value.toLowerCase();
-                    let dropdown = document.getElementById("dropdown");
-                    let items = dropdown.getElementsByTagName("div");
-                    dropdown.style.display = filter ? "block" : "none";
+                    // filter options
+                    function filter() {
+                        let filter = searchBox.value.toLowerCase();
+                        let items = dropdown.getElementsByTagName("div");
 
-                    for (let i = 0; i < items.length; i++) {
-                        let txtValue = items[i].textContent || items[i].innerText;
-                        items[i].style.display = txtValue.toLowerCase().includes(filter) ? "block" : "none";
+                        dropdown.style.display = filter ? "block" : "none";
+
+                        for (let item of items) {
+                            let txt = item.textContent.toLowerCase();
+                            item.style.display = txt.includes(filter) ? "block" : "none";
+                        }
                     }
-                }
 
-                // close dropdown on outside click
-                document.addEventListener("click", function (event) {
-                    let dropdown = document.getElementById("dropdown");
-                    let searchBox = document.getElementById("search");
-                    if (!searchBox.contains(event.target) && !dropdown.contains(event.target)) {
-                        dropdown.style.display = "none";
+                    // show all options on focus 
+                        //"onclick" was not cooperating, so i fired them.
+                    function showAll() {
+                        dropdown.style.display = "block";
+                        dropdown.parentElement.classList.add("active");
+
+                        let items = dropdown.getElementsByTagName("div");
+                        for (let item of items) {
+                            item.style.display = "block";
+                        }
                     }
-                });
 
-                // observe species changes and update dropdown
-                function observeSpeciesChanges() {
-                    let speciesSelect = document.getElementById("species");
-
-                    new MutationObserver(() => {
-                        populateDropdown(); // re-populate dropdown when new species are added
-                    }).observe(speciesSelect, { childList: true });
-                }
-
-                // initialize dropdown list, observe species changes
-                populateDropdown();
-                observeSpeciesChanges();
-
-                // select all text and show all options on focus
-                    function onFocusHandler() {
-                        selectText();
+                    function onFocus() {
+                        searchBox.select();// select searchbox text on focus (if there is already text present)
                         showAll();
                     }
+
+                    // events
+                    searchBox.addEventListener("keyup", filter);
+                    searchBox.addEventListener("focus", onFocus);
+
+                    // close dropdown on outside click
+                    document.addEventListener("click", function (event) {
+                        if (!searchBox.contains(event.target) && !dropdown.contains(event.target)) {
+                            dropdown.style.display = "none";
+                            dropdown.parentElement.classList.remove("active");
+                        }
+                    });
+
+                    // observe changes
+                    new MutationObserver(populate).observe(select, { childList: true });
+
+                    populate();
+                }
+
+                // one searchbar.
+                createSearchDropdown({
+                    searchId: "speciesSearch",
+                    dropdownId: "dropdown",
+                    selectId: "species",
+                    onChange: updateSpecies
+                });
+                //...okay, fine, you can have more searchbars.            
+                createSearchDropdown({
+                    searchId: "personalitySearch",
+                    dropdownId: "personalityDropdown",
+                    selectId: "personality",
+                    onChange: updatePersonalityUrl
+                });
+
+                createSearchDropdown({
+                    searchId: "bgSearch",
+                    dropdownId: "bgDropdown",
+                    selectId: "cavebg",
+                    onChange: updateBackgroundUrl
+                });
+
+                createSearchDropdown({
+                    searchId: "floorSearch",
+                    dropdownId: "floorDropdown",
+                    selectId: "cavefloor",
+                    onChange: updateFloorUrl
+                });
             </script>
         </div>
         <br><br>

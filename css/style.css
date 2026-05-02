@@ -244,6 +244,22 @@ select:focus {
   outline: 0;
 }
 
+/* maybe had a slight issue with dropdowns clipping. nothing serious.*/
+/* ...okay, maybe it was a little serious. */
+.dropdown {
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown.active {
+    z-index: 99;
+}
+
+.dropdown-content {
+    position: absolute;
+    z-index: 100;
+}
+
 #myownselect {
   display: none;
 
