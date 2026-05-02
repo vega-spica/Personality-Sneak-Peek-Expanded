@@ -38,6 +38,12 @@ const cavebgJson = {
     /*"Balance of the Universe": {
         "res": "equilibrial/equilibrial_bg_01/equilibrial_bg_01"
     },*/
+    "Bene": {
+        "res": "bene/bene_bg_01/bene_bg_01"
+    },
+    "Bene (Special)": {
+        "res": "bene/bene_bg_02/bene_bg_02"
+    },
     /*"Blue Snake Dragon": {
         "res": "bluesnakedragon/bluesnakedragon_bg_01/bluesnakedragon_bg_01"
     },

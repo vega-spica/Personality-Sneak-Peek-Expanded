@@ -950,7 +950,7 @@
         <!--selection for backgrounds where entries are appended-->
         <b>Background</b>&nbsp;
         <div class="dropdown">
-            <input type="text" class="search-box" id="bgSearch" placeholder="Search..." autocomplete="off">
+            <input type="text" class="search-box" id="bgSearch" placeholder="Search...">
             <div class="dropdown-content" id="bgDropdown"></div>
         </div>
 
@@ -975,7 +975,7 @@
         <!--selection for floors where entries are appended-->
         <b>Floor</b>&nbsp;
         <div class="dropdown">
-            <input type="text" class="search-box" id="floorSearch" placeholder="Search..." autocomplete="off">
+            <input type="text" class="search-box" id="floorSearch" placeholder="Search...">
             <div class="dropdown-content" id="floorDropdown"></div>
         </div>
 
@@ -1098,7 +1098,7 @@
                     const select = document.getElementById(selectId);
 
                     function populate() {
-                        dropdown.innerHTML = "";
+                        dropdown.innerHTML = ""; // wipe existing options
 
                         for (let option of select.options) {
                             let div = document.createElement("div");

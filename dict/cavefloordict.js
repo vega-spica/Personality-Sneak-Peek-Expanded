@@ -41,6 +41,12 @@ const cavefloorJson = {
     /*"Balance of the Universe": {
         "res": "equilibrial/equilibrial_floor_01/equilibrial_floor_01"
     },*/
+    "Bene": {
+        "res": "bene/bene_floor_01/bene_floor_01"
+    },
+    "Bene (Special)": {
+        "res": "bene/bene_floor_02/bene_floor_02"
+    },
     /*"Blue Snake Dragon": {
         "res": "bluesnakedragon/bluesnakedragon_floor_01/bluesnakedragon_floor_01"
     },
