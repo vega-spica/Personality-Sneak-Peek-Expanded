@@ -154,7 +154,16 @@
             cavebg = document.getElementById("cavebg");
             cavefloor = document.getElementById("cavefloor");
             halo = document.getElementById("halo");
-            
+
+        //autofill search box with url params, if any
+            // y'know, so people know what they just clicked on.
+        function syncSearchBox(searchId, selectElement) {
+            var searchBox = document.getElementById(searchId);
+
+            if (selectElement.selectedIndex >= 0) {
+                searchBox.value = selectElement.options[selectElement.selectedIndex].text;
+            }
+        }
             //create option tags for Species
             var speciesOption;
             for (var i = 0; i < speciesKeys.length; i++){
@@ -164,6 +173,7 @@
                 species.appendChild(speciesOption);
             };
             species.value = speciesName;
+            syncSearchBox("speciesSearch", species);
             
             //create option tags for Personalities
             var personalityOption;
@@ -175,7 +185,8 @@
             };
             if (personalityName) {
                 personality.value = personalityName;
-            } 
+                syncSearchBox("personalitySearch", personality);
+            }
             
             //create option tags for Forms
             var formKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms);
@@ -304,6 +315,7 @@
             };
             if (bgSelection) {
                 cavebg.value = bgSelection;
+                syncSearchBox("bgSearch", cavebg);
             }
 
             //create option tags for floors
@@ -314,8 +326,9 @@
                 cavefloorOption.value = cavefloorKeys[i];
                 cavefloor.appendChild(cavefloorOption);
             };
-            if (floorSelection){
+            if (floorSelection) {
                 cavefloor.value = floorSelection;
+                syncSearchBox("floorSearch", cavefloor);
             }
 
             initializeGenderButtons();
@@ -682,6 +695,12 @@
                 // --- front My Own colours ---
                 var previousFrontColour = myownfrontcolour.value;
 
+                // override once from frontcolour url param
+                if (customfrontcolour !== null) {
+                    previousFrontColour = customfrontcolour;
+                    customfrontcolour = null;
+                }
+
                 myownfrontcolour.innerHTML = "";
                 var frontColours = Object.keys(myownfrontSelection);
 
@@ -701,6 +720,12 @@
 
                 // --- back My Own colours ---
                 var previousBackColour = myownbackcolour.value;
+
+                // override once from backcolour url param
+                if (custombackcolour !== null) {
+                    previousBackColour = custombackcolour;
+                    custombackcolour = null;
+                }
 
                 myownbackcolour.innerHTML = "";
                 var backColours = Object.keys(myownbackSelection);
@@ -733,6 +758,12 @@
                 // --- front My Heart colours ---
                 var previousFrontColour = myheartfrontcolour.value;
 
+                // override once from frontcolour url param
+                if (customfrontcolour !== null) {
+                    previousFrontColour = customfrontcolour;
+                    customfrontcolour = null;
+                }
+
                 myheartfrontcolour.innerHTML = "";
                 var frontColours = Object.keys(myheartfrontSelection);
 
@@ -752,6 +783,12 @@
 
                 // --- back My Heart colours ---
                 var previousBackColour = myheartbackcolour.value;
+
+                // override once from backcolour url param
+                if (custombackcolour !== null) {
+                    previousBackColour = custombackcolour;
+                    custombackcolour = null;
+                }
 
                 myheartbackcolour.innerHTML = "";
                 var backColours = Object.keys(myheartbackSelection);
