@@ -694,6 +694,16 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Soft Happiness": {
+		"each": "aura_s_tenderlove_tenderjoy",
+		"back": "back_b",
+		"front": "front_b"
+	},
+	"Soft Love": {
+		"each": "aura_s_tenderlove_tenderjoy",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Solitary" : {
 		"back" : "aura_a2_warmgray",
 		"front" : "a2"

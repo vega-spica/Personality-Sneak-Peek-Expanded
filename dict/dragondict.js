@@ -4784,6 +4784,26 @@ const speciesJson = {
       }
     }
   },
+    "babycupid": {
+    "speciesDisplay": "Baby Cupid",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "babydarknix": {
     "speciesDisplay": "Baby Darknix",
     "stage": {
@@ -4817,6 +4837,26 @@ const speciesJson = {
               },
               "m": {
                 "color": "w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+    "babyliberte": {
+    "speciesDisplay": "Baby Liberte",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
               }
             }
           }
