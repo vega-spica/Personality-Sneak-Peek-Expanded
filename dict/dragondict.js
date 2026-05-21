@@ -18788,7 +18788,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Prism Toy Train",
+            "formDisplay": "Prism Train",
             "genders": {
               "f": {
                 "color": "p"
@@ -18833,7 +18833,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Prism Toy Train",
+            "formDisplay": "Prism Train",
             "genders": {
               "f": {
                 "color": "p"
@@ -18889,7 +18889,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Prism Toy Train",
+            "formDisplay": "Prism Train",
             "genders": {
               "f": {
                 "color": "p"
@@ -18923,7 +18923,7 @@ const speciesJson = {
             }
           },
           "04": {
-            "formDisplay": "Prism Toy Train",
+            "formDisplay": "Prism Train",
             "genders": {
               "f": {
                 "color": "p"
