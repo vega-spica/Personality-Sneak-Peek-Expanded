@@ -227,6 +227,9 @@ const cavefloorJson = {
     "Touhou Continent": {
         "res": "prismtouhou/prismtouhou_floor_01/prismtouhou_floor_01"
     },
+    /*"Toy Ark": {
+        "res": "prismtoyark/prismtoyark_floor_01/prismtoyark_floor_01"
+    },*/
     "Vaska": {
         "res": "vaska/vaska_floor_01/vaska_floor_01"
     },

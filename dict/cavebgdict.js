@@ -224,6 +224,9 @@ const cavebgJson = {
     "Touhou Continent": {
         "res": "prismtouhou/prismtouhou_bg_01/prismtouhou_bg_01"
     },
+    /*"Toy Ark": {
+        "res": "prismtoyark/prismtoyark_bg_01/prismtoyark_bg_01"
+    },*/
     "Vaska": {
         "res": "vaska/vaska_bg_01/vaska_bg_01"
     },
