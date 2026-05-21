@@ -1,0 +1,16 @@
+eelosdragon_03_f_hatch_b.png
+size:47,30
+pma:true
+body_1
+bounds:2,7,21,13
+rotate:90
+body_2_1
+bounds:35,16,12,10
+rotate:90
+face_fin_1
+bounds:35,5,9,9
+head_1
+bounds:17,11,16,17
+tail_1
+bounds:17,2,7,12
+rotate:90

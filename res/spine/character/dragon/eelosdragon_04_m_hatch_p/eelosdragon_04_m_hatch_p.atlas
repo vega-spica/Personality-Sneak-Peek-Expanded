@@ -1,0 +1,16 @@
+eelosdragon_04_m_hatch_p.png
+size:40,46
+pma:true
+balloon_1
+bounds:25,24,13,20
+body_1
+bounds:2,31,21,13
+body_2_1
+bounds:26,12,12,10
+face_fin_1
+bounds:15,2,9,9
+head_1
+bounds:2,13,16,16
+tail_1
+bounds:2,2,9,11
+rotate:90
