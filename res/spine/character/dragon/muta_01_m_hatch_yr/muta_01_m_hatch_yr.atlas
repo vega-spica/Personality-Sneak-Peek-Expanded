@@ -1,0 +1,12 @@
+muta_01_m_hatch_yr.png
+size:43,21
+pma:true
+body_1
+bounds:2,2,21,17
+horn_1
+bounds:35,5,4,4
+tail_1
+bounds:25,11,16,8
+wing_1
+bounds:25,2,7,8
+rotate:90
