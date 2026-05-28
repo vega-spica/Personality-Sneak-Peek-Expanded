@@ -17,6 +17,12 @@ const cavebgJson = {
     "Aquiris Under The Sea": {
         "res": "shallowsea/shallowsea_bg_01/shallowsea_bg_01"
     },
+    "Aran": {
+        "res": "aran/aran_bg_01/aran_bg_01"
+    },
+    "Aran (Special)": {
+        "res": "aran/aran_bg_02/aran_bg_02"
+    },
     "Arca's Court": {
         "res": "judge/judge_bg_01/judge_bg_01"
     },
@@ -224,9 +230,9 @@ const cavebgJson = {
     "Touhou Continent": {
         "res": "prismtouhou/prismtouhou_bg_01/prismtouhou_bg_01"
     },
-    /*"Toy Ark": {
+    "Toy Ark": {
         "res": "prismtoyark/prismtoyark_bg_01/prismtoyark_bg_01"
-    },*/
+    },
     "Vaska": {
         "res": "vaska/vaska_bg_01/vaska_bg_01"
     },

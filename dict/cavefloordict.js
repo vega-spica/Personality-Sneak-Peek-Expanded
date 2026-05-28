@@ -26,6 +26,12 @@ const cavefloorJson = {
     "Aquiris Under The Sea": {
         "res": "shallowsea/shallowsea_floor_01/shallowsea_floor_01"
     },
+    "Aran": {
+        "res": "aran/aran_floor_01/aran_floor_01"
+    },
+    "Aran (Special)": {
+        "res": "aran/aran_floor_02/aran_floor_02"
+    },
     "Arca's Court": {
         "res": "judge/judge_floor_01/judge_floor_01"
     },
@@ -227,9 +233,9 @@ const cavefloorJson = {
     "Touhou Continent": {
         "res": "prismtouhou/prismtouhou_floor_01/prismtouhou_floor_01"
     },
-    /*"Toy Ark": {
+    "Toy Ark": {
         "res": "prismtoyark/prismtoyark_floor_01/prismtoyark_floor_01"
-    },*/
+    },
     "Vaska": {
         "res": "vaska/vaska_floor_01/vaska_floor_01"
     },
