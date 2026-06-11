@@ -18806,11 +18806,33 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
-            "formDisplay": "Undead",
+          "04": {
+            "formDisplay": "Crimson Moon",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead01": {
+            "formDisplay": "Undead (Default)",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Crimson Moon)",
+            "genders": {
+              "f": {
+                "undeadres": "eclipesdragon_04_f_hatch_bg"
+              },
+              "m": {
+                "undeadres": "eclipesdragon_04_m_hatch_bg"
               }
             }
           }
@@ -18851,11 +18873,33 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
-            "formDisplay": "Undead",
+          "04": {
+            "formDisplay": "Crimson Moon",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead01": {
+            "formDisplay": "Undead (Default)",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Crimson Moon)",
+            "genders": {
+              "f": {
+                "undeadres": "eclipesdragon_04_f_hatchling_bg"
+              },
+              "m": {
+                "undeadres": "eclipesdragon_04_m_hatchling_bg"
               }
             }
           }
@@ -18896,11 +18940,33 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
-            "formDisplay": "Undead",
+          "04": {
+            "formDisplay": "Crimson Moon",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "undead01": {
+            "formDisplay": "Undead (Default)",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Crimson Moon)",
+            "genders": {
+              "f": {
+                "undeadres": "eclipesdragon_04_f_adult_bg"
+              },
+              "m": {
+                "undeadres": "eclipesdragon_04_m_adult_bg"
               }
             }
           }
