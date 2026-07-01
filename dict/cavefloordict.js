@@ -152,6 +152,12 @@ const cavefloorJson = {
     "Lumindis": {
         "res": "lumindis/lumindis_floor_01/lumindis_floor_01"
     },
+    "Makoa": {
+        "res": "makoa/makoa_floor_01/makoa_floor_01"
+    },
+    "Makoa (Special)": {
+        "res": "makoa/makoa_floor_02/makoa_floor_02"
+    },
     "Malcartis": {
         "res": "malcartis/malcartis_floor_01/malcartis_floor_01"
     },
