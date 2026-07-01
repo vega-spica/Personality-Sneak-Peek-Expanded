@@ -332,6 +332,7 @@
             }
 
             initializeGenderButtons();
+            initializeAnimationButtons();
             
             //if gender param exists, update gender
             var genderParam = new URLSearchParams(location.search).get('gender');
@@ -429,6 +430,7 @@
                 formNumber = "01";
                 initializeGenderButtons();
                 initializeStageButtons();
+                initializeAnimationButtons();
             }
             changeDragonSprite();
         }
@@ -609,6 +611,32 @@
                         gender = "m";
                     }
                 }
+            }
+        }
+
+        //Selora GenDive almost comfirmed to be in Smash. almost.
+        function initializeAnimationButtons() {
+            const form = speciesJson?.[speciesName]?.stage?.[stage]?.forms?.[formNumber];
+            if (!form) return;
+
+            let hasCombat = false;
+
+            for (const g in form.genders) {
+                if (form.genders[g]?.color === "dv3") {
+                    hasCombat = true;
+                    break;
+                }
+            }
+
+            const combatDiv = document.getElementById("combatAnims");
+
+            combatDiv.style.display = hasCombat ? "" : "none";
+
+            //in case a selected animation goes poof.
+            if (document.getElementById("attack").checked ||
+                document.getElementById("skill").checked) {
+                document.getElementById("idle").checked = true;
+                setanimState("idle");
             }
         }
 
@@ -1295,8 +1323,16 @@
             <input type="radio" name="animation" value="touch" id="touch" onchange="setanimState(this.value)">
             <label for="touch" id="touchLabel">Touch</label>
             <br>
+            <div id="combatAnims">
+            <input type="radio" name="animation" value="attack" id="attack" onchange="setanimState(this.value)">
+            <label for="attack" id="attackLabel">Attack</label>
+            <br>
+            <input type="radio" name="animation" value="skill" id="skill" onchange="setanimState(this.value)">
+            <label for="skill" id="skillLabel">Skill</label>
+            <br>
+            </div>
             <input type="radio" name="animation" value="" id="none" onchange="setanimState(this.value)">
-            <label for="none" id="touchLabel">None</label>
+            <label for="none" id="noneLabel">None</label>
         </div>
     </div>
 </div>

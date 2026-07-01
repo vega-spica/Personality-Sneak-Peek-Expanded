@@ -23091,6 +23091,47 @@ const speciesJson = {
       }
     }
   },
+  "flamber": {
+    "speciesDisplay": "Flamber",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "flamedragon": {
     "speciesDisplay": "Flame Dragon",
     "stage": {
@@ -27065,6 +27106,47 @@ const speciesJson = {
               },
               "m": {
                 "color": "p"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "gripo": {
+    "speciesDisplay": "Griptor",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
               }
             }
           }
@@ -33535,6 +33617,47 @@ const speciesJson = {
               },
               "m": {
                 "color": "b"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "kleptos": {
+    "speciesDisplay": "Kleptos",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
               }
             }
           }
@@ -56019,6 +56142,47 @@ const speciesJson = {
       }
     }
   },
+  "selora": {
+    "speciesDisplay": "Selora",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "semilla": {
     "speciesDisplay": "Semilla",
     "stage": {
@@ -63486,6 +63650,47 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tellus": {
+    "speciesDisplay": "Tellus",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3 Only]",
+            "genders": {
+              "n": {
+                "color": "dv3"
               }
             }
           }
