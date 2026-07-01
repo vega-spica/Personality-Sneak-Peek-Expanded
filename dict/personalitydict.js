@@ -869,6 +869,11 @@ const personalityJson = {
 		"back": "back_a",
 		"front": "front_a"
 	},
+	/*"[DV3] Completion": {
+		"each": "aura_a_complete",
+		"back": "back",
+		"front": "front"
+	},*/
 	"(a_apricot)": {
 		"back": "aura_a_apricot",
 		"front": "a"
