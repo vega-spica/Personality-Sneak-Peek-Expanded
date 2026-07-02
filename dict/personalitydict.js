@@ -869,11 +869,176 @@ const personalityJson = {
 		"back": "back_a",
 		"front": "front_a"
 	},
-	/*"[DV3] Completion": {
-		"each": "aura_a_complete",
-		"back": "back",
-		"front": "front"
-	},*/
+    "[DV3] Ascension": {
+        "each": "aura_c_rise",
+        "back": "back",
+        "front": ""
+    },
+    "[DV3] Beauty": {
+        "each": "aura_s_beauty",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Calm": {
+        "each": "aura_a_serenity",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Combat": {
+        "each": "aura_c_battle",
+        "back": "back",
+        "front": ""
+    },
+    "[DV3] Completion": {
+        "each": "aura_a_complete",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Conquest": {
+        "each": "aura_b_conquest",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Courage": {
+        "each": "aura_c_courage",
+        "back": "back",
+        "front": ""
+    },
+    "[DV3] Cuteness": {
+        "each": "aura_b_cute",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Dominance": {
+        "each": "aura_a_control",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Emblem": {
+        "each": "aura_a_emblem",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Enchanting Purge": {
+        "each": "aura_ss_goddragon",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Excellence": {
+        "each": "aura_b_excellent",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Purge (Black)": {
+        "each": "aura_a_lightdarkwar_black",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Purge (Blue)": {
+        "each": "aura_a_lightdarkwar_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Purge (Green)": {
+        "each": "aura_a_lightdarkwar_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Purge (Purple)": {
+        "each": "aura_a_lightdarkwar_purple",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Purge (Red)": {
+        "each": "aura_a_lightdarkwar_red",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Growth": {
+        "each": "aura_c_growth",
+        "back": "back",
+        "front": ""
+    },
+    "[DV3] Indomitable": {
+        "each": "aura_a_indomitable",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Love": {
+        "each": "aura_a_love",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Patience": {
+        "each": "aura_b_patience",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Perfection": {
+        "each": "aura_a_perfect",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Popularity": {
+        "each": "aura_c_popularity",
+        "back": "back",
+        "front": ""
+    },
+    "[DV3] Power": {
+        "each": "aura_b_power",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Purge (Black)": {
+        "each": "aura_b_lightdarkwar_black",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Purge (Blue)": {
+        "each": "aura_b_lightdarkwar_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Purge (Frost Dragon)": {
+        "each": "aura_s_frost",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Purge (God Dragon)": {
+        "each": "aura_s_goddragon",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Purge (Green)": {
+        "each": "aura_b_lightdarkwar_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Purge (Purple)": {
+        "each": "aura_b_lightdarkwar_purple",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Purge (Red)": {
+        "each": "aura_b_lightdarkwar_red",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Purge (Selora)": {
+        "each": "aura_s_selora",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Radiant Purge": {
+        "each": "aura_ss_selora",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Resplendent Purge": {
+        "each": "aura_ss_frost",
+        "back": "back",
+        "front": "front"
+    },
 	"(a_apricot)": {
 		"back": "aura_a_apricot",
 		"front": "a"
