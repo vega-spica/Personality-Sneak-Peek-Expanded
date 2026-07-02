@@ -15276,7 +15276,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -15307,7 +15307,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -15349,7 +15349,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -22325,7 +22325,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -22356,7 +22356,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -22387,7 +22387,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -23145,7 +23145,7 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -23157,7 +23157,7 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -23169,7 +23169,7 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -23332,7 +23332,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -23363,7 +23363,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -23394,7 +23394,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -24215,7 +24215,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -24246,7 +24246,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -24288,7 +24288,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -26100,7 +26100,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -26131,7 +26131,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -26173,7 +26173,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -27239,7 +27239,7 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -27251,7 +27251,7 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -27263,7 +27263,7 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -33750,7 +33750,7 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -33762,7 +33762,7 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -33774,7 +33774,7 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -36448,7 +36448,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -36479,7 +36479,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -36510,7 +36510,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -37651,7 +37651,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -37682,7 +37682,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -37713,7 +37713,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -45952,7 +45952,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -45983,7 +45983,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -46025,7 +46025,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -50044,7 +50044,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -50089,7 +50089,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -50145,7 +50145,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -56364,7 +56364,7 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -56376,7 +56376,7 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -56388,7 +56388,7 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -63879,7 +63879,7 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -63891,7 +63891,7 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
@@ -63903,7 +63903,7 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3 Only]",
+            "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
