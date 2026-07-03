@@ -159,6 +159,11 @@ const personalityJson = {
 		"back" : "aura_a2_orange",
 		"front" : "a2"
 	},
+	"Chilling Spring": {
+		"each": "aura_s_frostyspring",
+		"back": "back",
+		"front": "front"
+	},
 	"Christmas" : {
 		"back" : "aura_s_xmas_a",
 		"front" : "aura_s_xmas_a"
@@ -324,11 +329,6 @@ const personalityJson = {
 	},
 	"Friendly": {
 		"each": "aura_a_gentle",
-		"back": "back",
-		"front": "front"
-	},
-	"Frosty Spring": {
-		"each": "aura_s_frostyspring",
 		"back": "back",
 		"front": "front"
 	},

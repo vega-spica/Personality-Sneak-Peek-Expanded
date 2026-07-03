@@ -11865,6 +11865,56 @@ void main () {
 `;
       return new _Shader(context, vs, fs);
     }
+static newTwoColoredTexturedSwizzle(context, swizzle) {
+    let vs = `
+attribute vec4 ${_Shader.POSITION};
+attribute vec4 ${_Shader.COLOR};
+attribute vec4 ${_Shader.COLOR2};
+attribute vec2 ${_Shader.TEXCOORDS};
+uniform mat4 ${_Shader.MVP_MATRIX};
+varying vec4 v_light;
+varying vec4 v_dark;
+varying vec2 v_texCoords;
+
+void main () {
+    v_light = ${_Shader.COLOR};
+    v_dark = ${_Shader.COLOR2};
+    v_texCoords = ${_Shader.TEXCOORDS};
+    gl_Position = ${_Shader.MVP_MATRIX} * ${_Shader.POSITION};
+}
+`;
+
+    let fs = `
+#ifdef GL_ES
+    #define LOWP lowp
+    precision mediump float;
+#else
+    #define LOWP
+#endif
+varying LOWP vec4 v_light;
+varying LOWP vec4 v_dark;
+varying vec2 v_texCoords;
+uniform sampler2D u_texture;
+
+void main () {
+    vec4 texColor = texture2D(u_texture, v_texCoords);
+
+    texColor = vec4(
+        texColor.${swizzle},
+        texColor.a
+    );
+
+    gl_FragColor.a = texColor.a * v_light.a;
+    gl_FragColor.rgb =
+        ((texColor.a - 1.0) * v_dark.a + 1.0 - texColor.rgb)
+        * v_dark.rgb
+        + texColor.rgb * v_light.rgb;
+}
+`;
+
+    return new _Shader(context, vs, fs);
+}
+
     static newColored(context) {
       let vs = `
 attribute vec4 ${_Shader.POSITION};
@@ -12949,12 +12999,23 @@ void main () {
       this.context = context instanceof ManagedWebGLRenderingContext ? context : new ManagedWebGLRenderingContext(context);
       this.twoColorTint = twoColorTint;
       this.camera = new OrthoCamera(canvas.width, canvas.height);
-      this.batcherShader = twoColorTint ? Shader.newTwoColoredTextured(this.context) : Shader.newColoredTextured(this.context);
+      this.batcherShaders = {
+          rgb: Shader.newTwoColoredTextured(this.context),
+          gbr: Shader.newTwoColoredTexturedSwizzle(this.context, "gbr"),
+          rbg: Shader.newTwoColoredTexturedSwizzle(this.context, "rbg"),
+          bgr: Shader.newTwoColoredTexturedSwizzle(this.context, "bgr"),
+          grb: Shader.newTwoColoredTexturedSwizzle(this.context, "grb"),
+          brg: Shader.newTwoColoredTexturedSwizzle(this.context, "brg")
+      };
+      this.batcherShader = this.batcherShaders.rgb;
       this.batcher = new PolygonBatcher(this.context, twoColorTint);
       this.shapesShader = Shader.newColored(this.context);
       this.shapes = new ShapeRenderer(this.context);
       this.skeletonRenderer = new SkeletonRenderer(this.context, twoColorTint);
       this.skeletonDebugRenderer = new SkeletonDebugRenderer(this.context);
+    }
+    setChroma(mode) {
+        this.batcherShader = this.batcherShaders[mode] || this.batcherShaders.rgb;
     }
     dispose() {
       this.batcher.dispose();

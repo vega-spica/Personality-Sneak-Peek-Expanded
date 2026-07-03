@@ -63,6 +63,7 @@
         var bgState = "idle";
         var floorState = "idle";
         var haloState = "";
+        var chromaState = "rgb";
         
         function init() {
             //hey, wanna see a cool trick?
@@ -100,6 +101,9 @@
 
             var floorParam = new URLSearchParams(location.search).get('floor');
             floorSelection = floorParam === null ? cavefloor : floorParam;
+
+            var chromaParam = new URLSearchParams(location.search).get('chroma');
+            chromaState = chromaParam === null ? "rgb" : chromaParam;
             
             //get list of species
             var speciesKeys = Object.keys(speciesJson);
@@ -334,7 +338,7 @@
             initializeGenderButtons();
             initializeAnimationButtons();
             
-            //if gender param exists, update gender
+            //if gender param exists, update gender buttons
             var genderParam = new URLSearchParams(location.search).get('gender');
             if (genderParam !== null) {
                 gender = genderParam;
@@ -360,6 +364,9 @@
                         }
                 }
             }
+
+            //if chroma param exists, update chroma buttons
+            document.getElementById(chromaState).checked = true;
 
             initializeStageButtons();
             changeDragonSprite();
@@ -404,6 +411,13 @@
         function sethaloState(haloValue) {
             haloState = haloValue;
             updateHaloUrl();
+        }
+    
+        function setchromaState(value) {
+            chromaState = value;
+
+            if (canvases.dragon)
+                canvases.dragon.renderer.setChroma(chromaState);
         }
 
         function setbrightness(brightnessValue) {
@@ -700,6 +714,8 @@
         canvases.dragon = new spine.SpineCanvas(dragonCanvasElem, {
         app: new SpineObject(url, animState)
         });
+
+        canvases.dragon.renderer.setChroma(chromaState);
             }				
         }
 
@@ -917,7 +933,7 @@
 
         function copySharelink() {
                 // initialize shareLink with required values
-                var shareLink = `https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/?species=${speciesName}&form=${formNumber}&gender=${gender}&stage=${stage}`
+                var shareLink = `https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/?species=${speciesName}&form=${formNumber}&gender=${gender}&stage=${stage}&chroma=${chromaState}`;
 
                 //add optional values
                 if (personalityName !== null){
@@ -1057,7 +1073,7 @@
         </div>
         <br>
 
-        <!--halo for top 20 Mystic rank-->
+        <!--the ugly halo for top 20 Mystic rank-->
         <div id="haloRadios" class="haloRadios">
             <input type="radio" name="halo" value="" id="halooff" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" checked />
             <label for="halooff" id="halooffLabel">
@@ -1073,6 +1089,28 @@
             <label for="haloburst" id="haloburstLabel">
                 <img src="./res/img/license_10.png" alt="halo burst">
             </label>*
+        </div>
+        <br>
+
+        <!--no way, is that a CHROMA?!?-->
+        <div id="chromaRadios" class="chromaRadios">
+            <input type="radio" name="chroma" value="rgb" id="rgb" onchange="setchromaState(this.value)" checked />
+            <label for="rgb" id="rgbLabel">Default</label>
+            <br>
+            <input type="radio" name="chroma" value="gbr" id="gbr" onchange="setchromaState(this.value)">
+            <label for="gbr" id="gbrLabel">GBR</label>
+            <br>
+            <input type="radio" name="chroma" value="rbg" id="rbg" onchange="setchromaState(this.value)">
+            <label for="rbg" id="rbgLabel">RBG</label>
+            <br>
+            <input type="radio" name="chroma" value="bgr" id="bgr" onchange="setchromaState(this.value)">
+            <label for="bgr" id="bgrLabel">BGR</label>
+            <br>
+            <input type="radio" name="chroma" value="grb" id="grb" onchange="setchromaState(this.value)">
+            <label for="grb" id="grbLabel">GRB</label>
+            <br>
+            <input type="radio" name="chroma" value="brg" id="brg" onchange="setchromaState(this.value)">
+            <label for="brg" id="brgLabel">BRG</label>
         </div>
         <br>
 
@@ -1099,8 +1137,7 @@
                 <canvas id="Aurafront" class="spineCanvas auraFrontCanvas"></canvas>
                 <canvas id="Halo" class="spineCanvas haloCanvas"></canvas>
                 <canvas id="Background" class="spineCanvas backgroundCanvas"></canvas>
-                <canvas id="Floor" class="spineCanvas floorCanvas"></canvas>
-                
+                <canvas id="Floor" class="spineCanvas floorCanvas"></canvas>                
             </div>
             <img id="dragon-image">
         </div>
@@ -1231,7 +1268,7 @@
                     populate();
                 }
 
-                // one searchbar.
+                // ONE searchbar.
                 createSearchDropdown({
                     searchId: "speciesSearch",
                     dropdownId: "dropdown",

@@ -150,6 +150,12 @@ a:hover {
   margin-left: 35%;
 }
 
+.chromaRadios {
+  text-align: left;
+  line-height: 150%;
+  margin-left: 50%;
+}
+
 .genderRadios {
   margin-right: 10%;
 }
@@ -278,6 +284,11 @@ select:focus {
 
 /* clickable radio labels are very much in style. */
 #animRadios label {
+  cursor: pointer;
+  position: relative;
+}
+
+#chromaRadios label {
   cursor: pointer;
   position: relative;
 }
