@@ -12260,7 +12260,7 @@ void main () {
   __publicField(PolygonBatcher, "globalDrawCalls", 0);
   __publicField(PolygonBatcher, "blendModesGL", [
     { srcRgb: GL_SRC_ALPHA, srcRgbPma: GL_ONE, dstRgb: GL_ONE_MINUS_SRC_ALPHA, srcAlpha: GL_ONE },
-    { srcRgb: GL_SRC_ALPHA, srcRgbPma: GL_ONE, dstRgb: GL_ONE, srcAlpha: GL_ONE },
+    { srcRgb: GL_SRC_ALPHA, dstRgb: GL_ONE_MINUS_SRC_ALPHA },
     { srcRgb: GL_DST_COLOR, srcRgbPma: GL_DST_COLOR, dstRgb: GL_ONE_MINUS_SRC_ALPHA, srcAlpha: GL_ONE },
     { srcRgb: GL_ONE, srcRgbPma: GL_ONE, dstRgb: GL_ONE_MINUS_SRC_COLOR, srcAlpha: GL_ONE }
   ]);
