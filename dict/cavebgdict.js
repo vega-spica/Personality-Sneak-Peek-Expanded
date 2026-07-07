@@ -29,33 +29,33 @@ const cavebgJson = {
     "Arca's Execution Hall": {
         "res": "executor/executor_bg_01/executor_bg_01"
     },
-    /*"Astor": {
+    "Astor": {
         "res": "astor/astor_bg_01/astor_bg_01"
     },
     "Astor (Special)": {
         "res": "astor/astor_bg_02/astor_bg_02"
-    },*/
-    /*"Bademus": {
+    },
+    "Bademus": {
         "res": "bademus/bademus_bg_01/bademus_bg_01"
     },
     "Bademus (Special)": {
         "res": "bademus/bademus_bg_02/bademus_bg_02"
-    },*/
-    /*"Balance of the Universe": {
+    },
+    "Balance of the Universe": {
         "res": "equilibrial/equilibrial_bg_01/equilibrial_bg_01"
-    },*/
+    },
     "Bene": {
         "res": "bene/bene_bg_01/bene_bg_01"
     },
     "Bene (Special)": {
         "res": "bene/bene_bg_02/bene_bg_02"
     },
-    /*"Blue Snake Dragon": {
+    "Blue Snake Dragon": {
         "res": "bluesnakedragon/bluesnakedragon_bg_01/bluesnakedragon_bg_01"
     },
     "Blue Snake Dragon (Special)": {
         "res": "bluesnakedragon/bluesnakedragon_bg_02/bluesnakedragon_bg_02"
-    },*/
+    },
     "Clavis" : {
         "res": "clavis/clavis_bg_01/clavis_bg_01"
     },
@@ -68,15 +68,15 @@ const cavebgJson = {
     "Dark Nation": {
         "res": "kkamaknara/kkamaknara_bg_01/kkamaknara_bg_01"
     },
-    /*"Dream Within a Dream": {
+    "Dream Within a Dream": {
         "res": "dreamwithinadream/dreamwithinadream_bg_01/dreamwithinadream_bg_01"
-    },*/
-    /*"Echore": {
+    },
+    "Echore": {
         "res": "echore/echore_bg_01/echore_bg_01"
     },
     "Echore (Special)": {
         "res": "echore/echore_bg_02/echore_bg_02"
-    },*/
+    },
     "Eshu": {
         "res": "eshu/eshu_bg_01/eshu_bg_01"
     },
@@ -98,12 +98,12 @@ const cavebgJson = {
     "Feruna (Special)": {
         "res": "feruna/feruna_bg_02/feruna_bg_02"
     },
-    /*"Firewall": {
+    "Firewall": {
         "res": "firewall/firewall_bg_01/firewall_bg_01"
     },
     "Firewall (Special)": {
         "res": "firewall/firewall_bg_02/firewall_bg_02"
-    },*/
+    },
     "Frostina": {
         "res": "frostina/frostina_bg_01/frostina_bg_01"
     },
@@ -125,12 +125,12 @@ const cavebgJson = {
     "Harmonious Dragon (Special)": {
         "res": "harmoniousdragon/harmoniousdragon_bg_02/harmoniousdragon_bg_02"
     },
-    /*"Hatsya": {
+    "Hatsya": {
         "res": "hatsya/hatsya_bg_01/hatsya_bg_01"
     },
     "Hatsya (Special)": {
         "res": "hatsya/hatsya_bg_02/hatsya_bg_02"
-    },*/
+    },
     "Janus": {
         "res": "janus/janus_bg_01/janus_bg_01"
     },
@@ -194,27 +194,27 @@ const cavebgJson = {
     "Pusom (Special)": {
         "res": "pusom/pusom_bg_02/pusom_bg_02"
     },
-    /*"Ranky": {
+    "Ranky": {
         "res": "ranky/ranky_bg_01/ranky_bg_01"
-    },*/
+    },
     "Red Horse Dragon": {
         "res": "redhorse/redhorse_bg_01/redhorse_bg_01"
     },
     "Red Horse Dragon (Special)": {
         "res": "redhorse/redhorse_bg_02/redhorse_bg_02"
     },
-    /*"Shafir": {
+    "Shafir": {
         "res": "shafir/shafir_bg_01/shafir_bg_01"
     },
     "Shafir (Special)": {
         "res": "shafir/shafir_bg_02/shafir_bg_02"
-    }, */
-    /*"Shockwave": {
+    }, 
+    "Shockwave": {
         "res": "shockwave/shockwave_bg_01/shockwave_bg_01"
     },
     "Shockwave (Special)": {
         "res": "shockwave/shockwave_bg_02/shockwave_bg_02"
-    },*/
+    },
     "Symphonia": {
         "res": "symphonia/symphonia_bg_01/symphonia_bg_01"
     },
@@ -245,7 +245,7 @@ const cavebgJson = {
     "Vaska (Special)": {
         "res": "vaska/vaska_bg_02/vaska_bg_02"
     },
-    /*"Xmas 2023": {
+    "Xmas 2023": {
         "res": "xmas_2023/xmas_2023_bg_01/xmas_2023_bg_01"
-    },*/
+    },
 }

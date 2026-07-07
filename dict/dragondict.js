@@ -12178,6 +12178,14 @@ const speciesJson = {
               }
             }
           },
+          "09": {
+            "formDisplay": "Default [DV3]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -12198,6 +12206,14 @@ const speciesJson = {
               }
             }
           },
+          "09": {
+            "formDisplay": "Default [DV3]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -12215,6 +12231,14 @@ const speciesJson = {
             "genders": {
               "n": {
                 "color": "w"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Default [DV3]",
+            "genders": {
+              "n": {
+                "color": "dv3"
               }
             }
           },

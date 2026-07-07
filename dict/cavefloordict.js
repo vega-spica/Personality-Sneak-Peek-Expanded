@@ -2,21 +2,21 @@ const cavefloorJson = {
     "[None]": {
         "res": "none"
     },
-    /*"2025 Premium Membership Slate": {
+    "2025 Premium Membership Slate": {
         "res": "vip_2025/vip_2025_floor_01/vip_2025_floor_01"
-    },*/
+    },
     "Aftea": {
         "res": "aftea/aftea_floor_01/aftea_floor_01"
     },
     "Aftea (Special)": {
         "res": "aftea/aftea_floor_02/aftea_floor_02"
     },
-    /*"Astor": {
+    "Astor": {
         "res": "astor/astor_floor_01/astor_floor_01"
     },
     "Astor (Special)": {
         "res": "astor/astor_floor_02/astor_floor_02"
-    },*/
+    },
     "Apocalyptic Kingdom": {
         "res": "kingdomoftheend/kingdomoftheend_floor_01/kingdomoftheend_floor_01"
     },
@@ -38,27 +38,27 @@ const cavefloorJson = {
     "Arca's Execution Hall": {
         "res": "executor/executor_floor_01/executor_floor_01"
     },
-    /*"Bademus": {
+    "Bademus": {
         "res": "bademus/bademus_floor_01/bademus_floor_01"
     },
     "Bademus (Special)": {
         "res": "bademus/bademus_floor_02/bademus_floor_02"
-    },*/
-    /*"Balance of the Universe": {
+    },
+    "Balance of the Universe": {
         "res": "equilibrial/equilibrial_floor_01/equilibrial_floor_01"
-    },*/
+    },
     "Bene": {
         "res": "bene/bene_floor_01/bene_floor_01"
     },
     "Bene (Special)": {
         "res": "bene/bene_floor_02/bene_floor_02"
     },
-    /*"Blue Snake Dragon": {
+    "Blue Snake Dragon": {
         "res": "bluesnakedragon/bluesnakedragon_floor_01/bluesnakedragon_floor_01"
     },
     "Blue Snake Dragon (Special)": {
         "res": "bluesnakedragon/bluesnakedragon_floor_02/bluesnakedragon_floor_02"
-    },*/
+    },
     "Clavis": {
         "res": "clavis/clavis_floor_01/clavis_floor_01"
     },
@@ -71,15 +71,15 @@ const cavefloorJson = {
     "Dark Nation": {
         "res": "kkamaknara/kkamaknara_floor_01/kkamaknara_floor_01"
     },
-    /*"Dream Within a Dream": {
+    "Dream Within a Dream": {
         "res": "dreamwithinadream/dreamwithinadream_floor_01/dreamwithinadream_floor_01"
-    },*/
-    /*"Echore": {
+    },
+    "Echore": {
         "res": "echore/echore_floor_01/echore_floor_01"
     },
     "Echore (Special)": {
         "res": "echore/echore_floor_02/echore_floor_02"
-    },*/
+    },
     "Eshu": {
         "res": "eshu/eshu_floor_01/eshu_floor_01"
     },
@@ -101,12 +101,12 @@ const cavefloorJson = {
     "Feruna (Special)": {
         "res": "feruna/feruna_floor_02/feruna_floor_02"
     },
-    /*"Firewall": {
+    "Firewall": {
         "res": "firewall/firewall_floor_01/firewall_floor_01"
     },
     "Firewall (Special)": {
         "res": "firewall/firewall_floor_02/firewall_floor_02"
-    },*/
+    },
     "Frostina": {
         "res": "frostina/frostina_floor_01/frostina_floor_01"
     },
@@ -125,12 +125,12 @@ const cavefloorJson = {
     "Harmonious Dragon (Special)": {
         "res": "harmoniousdragon/harmoniousdragon_floor_02/harmoniousdragon_floor_02"
     },
-    /*"Hatsya": {
+    "Hatsya": {
         "res": "hatsya/hatsya_floor_01/hatsya_floor_01"
     },
     "Hatsya (Special)": {
         "res": "hatsya/hatsya_floor_02/hatsya_floor_02"
-    },*/
+    },
     "Janus": {
         "res": "janus/janus_floor_01/janus_floor_01"
     },
@@ -197,27 +197,27 @@ const cavefloorJson = {
     "Pusom (Special)": {
         "res": "pusom/pusom_floor_02/pusom_floor_02"
     },
-    /*"Ranky": {
+    "Ranky": {
         "res": "ranky/ranky_floor_01/ranky_floor_01"
-    },*/
+    },
     "Red Horse Dragon": {
         "res": "redhorse/redhorse_floor_01/redhorse_floor_01"
     },
     "Red Horse Dragon (Special)": {
         "res": "redhorse/redhorse_floor_02/redhorse_floor_02"
     },
-    /*"Shafir": {
+    "Shafir": {
         "res": "shafir/shafir_floor_01/shafir_floor_01"
     },
     "Shafir (Special)": {
         "res": "shafir/shafir_floor_02/shafir_floor_02"
-    },*/
-    /*"Shockwave": {
+    },
+    "Shockwave": {
         "res": "shockwave/shockwave_floor_01/shockwave_floor_01"
     },
     "Shockwave (Special)": {
         "res": "shockwave/shockwave_floor_02/shockwave_floor_02"
-    },*/
+    },
     "Symphonia": {
     "res": "symphonia/symphonia_floor_01/symphonia_floor_01"
     },
@@ -248,7 +248,7 @@ const cavefloorJson = {
     "Vaska (Special)": {
         "res": "vaska/vaska_floor_02/vaska_floor_02"
     },
-    /*"Xmas 2023": {
+    "Xmas 2023": {
         "res": "xmas_2023/xmas_2023_floor_01/xmas_2023_floor_01"
-    },*/
+    },
 }

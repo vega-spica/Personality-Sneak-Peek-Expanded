@@ -183,6 +183,7 @@ const personalityJson = {
 	},
 	"Cold Moon": {
 		"each": "aura_s_event_2509",
+		"transparencyFix": true,
 		"back": "back_c",
 		"front": "front_c"
 	},
@@ -679,11 +680,13 @@ const personalityJson = {
 	},
 	"Silent Moon": {
 		"each": "aura_s_event_2509",
+		"transparencyFix": true,
 		"back": "back_b",
 		"front": "front_b"
 	},
 	"Silver Moon": {
 		"each": "aura_s_event_2509",
+		"transparencyFix": true,
 		"back": "back_a",
 		"front": "front_a"
 	},
@@ -752,6 +755,7 @@ const personalityJson = {
 	},
 	"Spring Day": {
 		"each": "aura_s_vernal",
+		"transparencyFix": true,
 		"back": "back",
 		"front": "front"
 	},
