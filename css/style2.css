@@ -1,0 +1,361 @@
+/* see this cool font? it's a magic trick. */
+@font-face {
+  font-family: 'NotoSans';
+  src: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/font/Noto%20Sans%20CJK%20KR%20Bold.ttf") format("truetype");
+}
+
+/*
+and now that you have the cool font, i can force you to use it!
+	unless your device doesn't support it. then you get boring font.
+		that would be sad, wouldn't it?
+*/
+
+:root {
+  background: #3a2a23;
+  color: #c0cc83;
+  background-color: rgba(47, 34, 26, 1.0);
+  font-weight: 800;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+}
+
+body {
+  font-family: 'NotoSans', sans-serif;
+  text-shadow: 2px 2px 4px black;
+  letter-spacing: 0.px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/Background.png") center top / 720px auto repeat-y, #3b2a22;
+}
+
+.title-header {
+  font-size: 1.1em;
+}
+
+a {
+  color: skyblue;
+}
+
+a:link,
+a:visited {
+  color: skyblue;
+}
+
+a:hover {
+  color: #dd4343;
+  cursor: pointer;
+}
+
+/* would you like that giftwrapped? */
+.fit-wrapper {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.page {
+    position: relative;
+    width: 720px;
+    padding: 10px 16px 28px;
+    margin: 0;
+    flex-shrink: 0;
+    visibility: hidden;
+    transform-origin: top center;
+}
+
+.page.fit-ready {
+    visibility: visible;
+    transition: transform 0.18s ease;
+}
+
+/* this frames the preview area – if it is increased, then the viewing area will get bigger, but it'll be lopsided unless other styling is changed to accomodate. */
+/* centering things can never be easy, after all. */
+.preview {
+  position: relative;
+  width: 688px;
+  height: 810px;
+  overflow: hidden;
+  border: 5px solid #050403;
+  border-radius: 30px;
+  background: #1b0c07;
+}
+
+/*so you want to embiggen something in the canvas? well, you've come to the wrong place.*/
+/*this canvas is merciless. see spineObject.js for instructions on how to embiggen (or emsmallen) something.*/
+.spineCanvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.auraBackCanvas {
+  z-index: -2;
+}
+
+.haloCanvas {
+  z-index: -1;
+}
+
+/* hic sunt dracones */
+.dragonCanvas {
+  z-index: 0;
+}
+
+.auraFrontCanvas {
+  z-index: 2;
+}
+
+.auraBackCanvas,
+.haloCanvas,
+.dragonCanvas,
+.auraFrontCanvas {
+  transform: translate(0px, -17px);
+}
+
+.backgroundCanvas {
+  z-index: -4;
+  transform: translate(0px, -161px);
+}
+
+.floorCanvas {
+  z-index: -3;
+  transform: translate(0px, -87px);
+}
+
+/* frame. FRAME!!! */
+#dragon-image {
+  z-index: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -25%);
+}
+
+/* increasing the size of this grid-item will extend the edges of the canvas, but it won't make anything inside any bigger.*/
+.grid-item {
+  position: relative;
+  height: 1000px;
+  width: 1000px;
+}
+
+.summary-bar {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  gap: 24px;
+  width: 688px;
+  min-height: 72px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 5px solid #050403;
+  border-bottom: 0;
+  border-radius: 18px 18px 0 0;
+  background: #050505;
+  background: #201819;
+  color: #c0cc83;
+}
+
+.summary-bar-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-panel {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 688px;
+  padding: 8px 16px 12px;
+  border: 5px solid #050403;
+  border-top: 0;
+  border-radius: 0 0 18px 18px;
+  background: #050505;
+}
+
+.control-panel1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 688px;
+  margin-top: 8px;
+  padding: 14px 24px;
+  border: 5px solid #050403;
+  border-radius: 18px;
+  background: #050505;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.control-panel2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 688px;
+  margin-top: 8px;
+  padding: 14px 24px;
+  border: 5px solid #050403;
+  border-radius: 18px;
+  background: #050505;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.genderRadios {
+  display: flex;
+  align-items: center;
+}
+
+/* to disappear those annoying blue dots.*/
+.radio-selector input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* highlights are cooler, right?*/
+.radio-selector label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3px 3px;
+
+    border: 2px solid transparent;
+    border-radius: 8px;
+
+    cursor: pointer;
+    transition: background-color 0.15s, border-color 0.15s;
+}
+
+.radio-selector label:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.radio-selector input[type="radio"]:checked + label {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: currentColor;
+}
+
+/* totally for the header at the top */
+.header {
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+
+/* footer, now with 33% more feet. */
+.footer {
+  color: #dfc690;
+  text-align: center;
+}
+
+.dragon-stage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 820px;
+  z-index: 2;
+  display: flex;
+}
+
+/* fancy dropdowns~ */
+select {
+  background-color: #dfdfde;
+  font: inherit;
+  width: 205px;
+}
+
+/*even NEWER dropdowns*/
+.dropdown {
+  position: relative;
+  width: 205px;
+  color: #000000;
+  text-shadow: none;
+}
+
+.search-box {
+  width: 100%;
+  font: inherit;
+}
+
+.dropdown-content {
+  position: absolute;
+  z-index: 100;
+  display: none;
+  background: #dfdfde;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.dropdown-content div {
+  padding: 4px;
+  cursor: default;
+}
+
+.dropdown-content div:hover {
+  background: #c0cc83;
+}
+
+#myownselect,
+#myheartselect {
+  display: none;
+
+  select {
+    width: 100px;
+  }
+}
+
+/* copied!*/
+#buttonAlert {
+  display: none;
+}
+
+/* nifty radio buttons. yes, they're nifty. */
+#genderRadios label {
+  position: relative;
+}
+
+#haloRadios label {
+  vertical-align: middle;
+}
+
+#stageRadios,
+#chromaRadios,
+#animRadios {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* disappearing gender buttons are also nifty. */
+.disabledButton {
+  opacity: 0.3;
+}
+
+/* in the dragon world, genders have tooltips. */
+#genderRadios label:hover::before {
+  content: attr(for);
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 120%;
+  opacity: 0.75;
+  background-color: #323232;
+  color: #fff;
+  padding: 3px;
+  border-radius: 4px;
+  display: block;
+}

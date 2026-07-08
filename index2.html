@@ -1,0 +1,1475 @@
+<head>
+    <link rel="stylesheet" href="./css/style2.css" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="./res/img/favicon.png">
+    <title>DVC Plus: APPEND</title>
+    <meta name="description" content="Dragon Village Collection Plus: APPEND, formerly known as Personality Sneak-Peek (Expanded). The fanmade archival model viewer for Dragon Village Collection and more.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <script src="./js/spineObject2.js"></script>
+    <script src="./dict/dragondict.js"></script>
+    <script src="./dict/personalitydict.js"></script>
+    <script src="./dict/myownfrontdict.js"></script>
+    <script src="./dict/myownbackdict.js"></script>
+    <script src="./dict/myheartfrontdict.js"></script>
+    <script src="./dict/myheartbackdict.js"></script>
+    <script src="./dict/cavebgdict.js"></script>
+    <script src="./dict/cavefloordict.js"></script>
+    <script src="./js/spine-webgl2.js"></script>
+    <script>
+        window.onload = init;
+
+    // Cache all Spine Canvases instances here so can dispose later
+    var canvases = {
+        backAura: null,
+        frontAura: null,
+        dragon: null,
+        background: null,
+        floor: null
+    };
+
+        var species;
+        var personality;
+        var gender = "m";
+        var form;
+        //the species name here must be manually set to the first dragon in the list.
+            // or else bad stuff happens.
+        var speciesName = "dummydragon";
+        var formNumber = "01";
+        var animState = "idle";
+        var maleButton;
+        var femaleButton;
+        var neutralButton;
+        var maleLabel;
+        var femaleLabel;
+        var neutralLabel;
+        var speciesDisplay;
+        var formDisplay;
+        var stage = "adult";
+        var myownfront;
+        var myownfrontcolour;
+        var myownback;
+        var myownbackcolour;
+        var myheartfront;
+        var myheartfrontcolour;
+        var myheartback;
+        var myheartbackcolour;
+        var customfront;
+        var customfrontcolour;
+        var customback;
+        var custombackcolour;
+        var personalityName;
+        var cavebg;
+        var cavefloor;
+        var bgSelection;
+        var floorSelection;
+        var bgState = "idle";
+        var floorState = "idle";
+        var haloState = "";
+        var chromaState = "rgb";
+        
+        function init() {
+            //hey, wanna see a cool trick?
+                //https://vega-spica.github.io/Personality-Sneak-Peek-Expanded?species=chaosjanerr
+                    //now you're forced to see Gerner!
+            var speciesParam = new URLSearchParams(location.search).get('species');
+            speciesName = speciesParam === null ? speciesName : speciesParam;
+
+            //and now i can force you to see Gerner with a matching aura it can never have.
+                //https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/?species=chaosjanerr&personality=Baleful
+                    //sad times.
+            var personalityParam = new URLSearchParams(location.search).get('personality');
+            personalityName = personalityParam === null ? personalityName : personalityParam;
+
+            var formParam = new URLSearchParams(location.search).get('form');
+            formNumber = formParam === null ? formNumber : formParam;
+
+            var stageParam = new URLSearchParams(location.search).get('stage');
+            stage = stageParam === null ? stage : stageParam;
+
+            var frontParam = new URLSearchParams(location.search).get('front');
+            customfront = frontParam === null ? "[None]" : frontParam;
+
+            var backParam = new URLSearchParams(location.search).get('back');
+            customback = backParam === null ? "[None]" : backParam;
+
+            var frontColourParam = new URLSearchParams(location.search).get('frontcolour');
+            customfrontcolour = frontColourParam === null ? "Black" : frontColourParam;
+
+            var backColourParam = new URLSearchParams(location.search).get('backcolour');
+            custombackcolour = backColourParam === null ? "Black" : backColourParam;
+
+            var bgParam = new URLSearchParams(location.search).get('bg');
+            bgSelection = bgParam === null ? cavebg : bgParam;
+
+            var floorParam = new URLSearchParams(location.search).get('floor');
+            floorSelection = floorParam === null ? cavefloor : floorParam;
+
+            var chromaParam = new URLSearchParams(location.search).get('chroma');
+            chromaState = chromaParam === null ? "rgb" : chromaParam;
+            
+            //get list of species
+            var speciesKeys = Object.keys(speciesJson);
+            
+            //get a list of personalities
+            var personalityKeys = Object.keys(personalityJson);
+
+            //get a list of custom fronts
+            var myownfrontKeys = Object.keys(myownfrontJson);
+            var myheartfrontKeys = Object.keys(myheartfrontJson);
+
+            //get a list of custom backs
+            var myownbackKeys = Object.keys(myownbackJson);
+            var myheartbackKeys = Object.keys(myheartbackJson);
+
+            //get a list of backgrounds
+            var cavebgKeys = Object.keys(cavebgJson);
+
+            //get a list of floors
+            var cavefloorKeys = Object.keys(cavefloorJson);
+            
+            // assign the appearance control elements to the global variables
+            species = document.getElementById("species");
+            personality = document.getElementById("personality");
+            form = document.getElementById("form");
+            maleButton = document.getElementById("male");
+            maleLabel = document.getElementById("maleLabel");
+            femaleButton = document.getElementById("female");
+            femaleLabel = document.getElementById("femaleLabel");
+            neutralButton = document.getElementById("neutral");
+            neutralLabel = document.getElementById("neutralLabel");
+            hatchButton = document.getElementById("hatch");
+            hatchLabel = document.getElementById("hatchLabel");
+            hatchlingButton = document.getElementById("hatchling");
+            hatchlingLabel = document.getElementById("hatchlingLabel");
+            adultButton = document.getElementById("adult");
+            adultLabel = document.getElementById("adultLabel");
+            essenceButton = document.getElementById("essence");
+            essenceLabel = document.getElementById("essenceLabel");
+            prismButton = document.getElementById("prism");
+            prismLabel = document.getElementById("prismLabel");
+            fusionButton = document.getElementById("fusion");
+            fusionLabel = document.getElementById("fusionLabel");
+            myownfront = document.getElementById("myownfront");
+            myownfrontcolour = document.getElementById("myownfrontcolour");
+            myownback = document.getElementById("myownback");
+            myownbackcolour = document.getElementById("myownbackcolour");
+            myheartfront = document.getElementById("myheartfront");
+            myheartfrontcolour = document.getElementById("myheartfrontcolour");
+            myheartback = document.getElementById("myheartback");
+            myheartbackcolour = document.getElementById("myheartbackcolour");
+            cavebg = document.getElementById("cavebg");
+            cavefloor = document.getElementById("cavefloor");
+            halo = document.getElementById("halo");
+
+        //autofill search box with url params, if any
+            // y'know, so people know what they just clicked on.
+        function syncSearchBox(searchId, selectElement) {
+            var searchBox = document.getElementById(searchId);
+
+            if (selectElement.selectedIndex >= 0) {
+                searchBox.value = selectElement.options[selectElement.selectedIndex].text;
+            }
+        }
+            //create option tags for Species
+            var speciesOption;
+            for (var i = 0; i < speciesKeys.length; i++){
+                speciesOption = document.createElement("option");
+                speciesOption.innerText = speciesJson[speciesKeys[i]].speciesDisplay;
+                speciesOption.value = speciesKeys[i];
+                species.appendChild(speciesOption);
+            };
+            species.value = speciesName;
+            syncSearchBox("speciesSearch", species);
+            
+            //create option tags for Personalities
+            var personalityOption;
+            for (var i = 0; i < personalityKeys.length; i++){
+                personalityOption = document.createElement("option");
+                personalityOption.innerText = personalityKeys[i];
+                personalityOption.value = personalityKeys[i];
+                personality.appendChild(personalityOption);
+            };
+            if (personalityName) {
+                personality.value = personalityName;
+                syncSearchBox("personalitySearch", personality);
+            }
+            
+            //create option tags for Forms
+            var formKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms);
+            formKeys = formKeys.sort();
+            for (var i = 0; i < formKeys.length; i++){
+                formOption = document.createElement("option");
+                formOption.innerText = speciesJson[speciesName].stage["adult"].forms[formKeys[i]].formDisplay;
+                formOption.value = formKeys[i];
+                form.appendChild(formOption);
+            };
+            if (formNumber){
+                form.value = formNumber;
+            }
+
+            //create option tags for custom Fronts
+            var myownfrontOption;
+            for (var i = 0; i < myownfrontKeys.length; i++) {
+                myownfrontOption = document.createElement("option");
+                myownfrontOption.innerText = myownfrontKeys[i];
+                myownfrontOption.value = myownfrontKeys[i];
+                myownfront.appendChild(myownfrontOption);
+            };
+
+            var myheartfrontOption;
+            for (var i = 0; i < myheartfrontKeys.length; i++) {
+                myheartfrontOption = document.createElement("option");
+                myheartfrontOption.innerText = myheartfrontKeys[i];
+                myheartfrontOption.value = myheartfrontKeys[i];
+                myheartfront.appendChild(myheartfrontOption);
+            };
+
+            //create option tags for custom Front Colours
+            var myownfrontcolourKeys = Object.keys(myownfrontJson["[None]"]);
+            for (var i = 0; i < myownfrontcolourKeys.length; i++) {
+                myownfrontcolourOption = document.createElement("option");
+                myownfrontcolourOption.innerText = myownfrontcolourKeys[i];
+                myownfrontcolourOption.value = myownfrontcolourKeys[i];
+                myownfrontcolour.appendChild(myownfrontcolourOption);
+            };
+
+            var myheartfrontcolourKeys = Object.keys(myheartfrontJson["[None]"]);
+            for (var i = 0; i < myheartfrontcolourKeys.length; i++) {
+                myheartfrontcolourOption = document.createElement("option");
+                myheartfrontcolourOption.innerText = myheartfrontcolourKeys[i];
+                myheartfrontcolourOption.value = myheartfrontcolourKeys[i];
+                myheartfrontcolour.appendChild(myheartfrontcolourOption);
+            };
+
+            //create option tags for custom Backs
+            var myownbackOption;
+            for (var i = 0; i < myownbackKeys.length; i++) {
+                // check if the current key exists as a top-level property in myownbackJson
+                if (myownbackJson.hasOwnProperty(myownbackKeys[i])) {
+                    myownbackOption = document.createElement("option");
+                    myownbackOption.innerText = myownbackKeys[i];
+                    myownbackOption.value = myownbackKeys[i];
+                    myownback.appendChild(myownbackOption);
+                }
+            };
+
+            var myheartbackOption;
+            for (var i = 0; i < myheartbackKeys.length; i++) {
+                // check if the current key exists as a top-level property in myheartbackJson
+                if (myheartbackJson.hasOwnProperty(myheartbackKeys[i])) {
+                    myheartbackOption = document.createElement("option");
+                    myheartbackOption.innerText = myheartbackKeys[i];
+                    myheartbackOption.value = myheartbackKeys[i];
+                    myheartback.appendChild(myheartbackOption);
+                }
+            };
+
+            //create option tags for custom Back Colours
+            var myownbackcolourKeys = Object.keys(myownbackJson["[None]"]);
+            for (var i = 0; i < myownbackcolourKeys.length; i++) {
+                myownbackcolourOption = document.createElement("option");
+                myownbackcolourOption.innerText = myownbackcolourKeys[i];
+                myownbackcolourOption.value = myownbackcolourKeys[i];
+                myownbackcolour.appendChild(myownbackcolourOption);
+            };
+
+            var myheartbackcolourKeys = Object.keys(myheartbackJson["[None]"]);
+            for (var i = 0; i < myheartbackcolourKeys.length; i++) {
+                myheartbackcolourOption = document.createElement("option");
+                myheartbackcolourOption.innerText = myheartbackcolourKeys[i];
+                myheartbackcolourOption.value = myheartbackcolourKeys[i];
+                myheartbackcolour.appendChild(myheartbackcolourOption);
+            };
+
+            //pre-assign custom personality values if personality is set to that custom
+            if (personalityName === "My Own") {
+                if (customfront){
+                    myownfront.value = customfront;
+                }
+                if (customfrontcolour) {
+                    myownfrontcolour.value = customfrontcolour;
+                }
+                if (customback) {
+                    myownback.value = customback;
+                }
+                if (custombackcolour) {
+                    myownbackcolour.value = custombackcolour;
+                }
+            }
+            else if (personalityName === "My Heart") {
+                if (customfront) {
+                    myheartfront.value = customfront;
+                }
+                if (customfrontcolour) {
+                    myheartfrontcolour.value = customfrontcolour;
+                }
+                if (customback) {
+                    myheartback.value = customback;
+                }
+                if (custombackcolour) {
+                    myheartbackcolour.value = custombackcolour;
+                }
+            }
+
+            //create option tags for backgrounds
+            var cavebgOption;
+            for (var i = 0; i < cavebgKeys.length; i++) {
+                cavebgOption = document.createElement("option");
+                cavebgOption.innerText = cavebgKeys[i];
+                cavebgOption.value = cavebgKeys[i];
+                cavebg.appendChild(cavebgOption);
+            };
+            if (bgSelection) {
+                cavebg.value = bgSelection;
+                syncSearchBox("bgSearch", cavebg);
+            }
+
+            //create option tags for floors
+            var cavefloorOption;
+            for (var i = 0; i < cavefloorKeys.length; i++) {
+                cavefloorOption = document.createElement("option");
+                cavefloorOption.innerText = cavefloorKeys[i];
+                cavefloorOption.value = cavefloorKeys[i];
+                cavefloor.appendChild(cavefloorOption);
+            };
+            if (floorSelection) {
+                cavefloor.value = floorSelection;
+                syncSearchBox("floorSearch", cavefloor);
+            }
+
+            initializeGenderButtons();
+            initializeAnimationButtons();
+            
+            //if gender param exists, update gender buttons
+            var genderParam = new URLSearchParams(location.search).get('gender');
+            if (genderParam !== null) {
+                gender = genderParam;
+                switch (gender) {
+                    case "m":
+                        {
+                            maleButton.checked = true;
+                            break;
+                        }
+                    case "f":
+                        {
+                            femaleButton.checked = true;
+                            break;
+                        }
+                    case "n":
+                        {
+                            neutralButton.checked = true;
+                            break;
+                        }
+                    default:
+                        {
+                            maleButton.checked = true;
+                        }
+                }
+            }
+
+            //if chroma param exists, update chroma buttons
+            document.getElementById(chromaState).checked = true;
+
+            initializeStageButtons();
+            changeDragonSprite();
+            if (bgSelection){
+                updateBackgroundUrl();
+            };
+            if (floorSelection) {
+                updateFloorUrl();
+            };
+            //(okay, so we're gonna put a tiny timeout here for aura url params to work)
+                //(because Spine is being difficult for some reason)
+            setTimeout(() => {
+                updatePersonalityUrl();
+            });
+        }
+        
+        function setGender(genderValue){
+            gender = genderValue;
+            changeDragonSprite();
+        }
+
+        function setStage(stageValue){
+            stage = stageValue;
+            changeDragonSprite();
+        }
+        
+        function setanimState(animationValue){
+            animState = animationValue;
+            changeDragonSprite();
+        }
+        
+        function setbgState(bgValue) {
+            bgState = bgValue;
+            updateBackgroundUrl();
+        }
+        
+        function setfloorState(floorValue) {
+            floorState = floorValue;
+            updateFloorUrl();
+        }
+
+        function sethaloState(haloValue) {
+            haloState = haloValue;
+            updateHaloUrl();
+        }
+
+        function setbrightness(brightnessValue) {
+            brightness = brightnessValue;
+            document.getElementById("Background").style.filter = `brightness(${brightnessValue})`;
+        }
+
+        //do not be fooled by the mention of "canvas" in this function; this specifically applies chroma filters to a static png image
+        //chroma filters for animated models are handled in spine-webgl.js
+        const CHROMA_CHANNEL_INDEX = { r: 0, g: 1, b: 2 };
+
+        async function applyChromaToImage(img, swizzle) {
+            if (!img || !img.src) return;
+
+            const srcR = CHROMA_CHANNEL_INDEX[swizzle[0]];
+            const srcG = CHROMA_CHANNEL_INDEX[swizzle[1]];
+            const srcB = CHROMA_CHANNEL_INDEX[swizzle[2]];
+
+            if (srcR === undefined || srcG === undefined || srcB === undefined)
+                return;
+
+            const source = new Image();
+            source.crossOrigin = "anonymous";
+
+            source.onload = () => {
+                const canvas = document.createElement("canvas");
+                canvas.width = source.naturalWidth;
+                canvas.height = source.naturalHeight;
+
+                const ctx = canvas.getContext("2d");
+                ctx.drawImage(source, 0, 0);
+
+                const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+                const data = imageData.data;
+
+                for (let i = 0; i < data.length; i += 4) {
+                    const r = data[i];
+                    const g = data[i + 1];
+                    const b = data[i + 2];
+
+                    data[i]     = [r, g, b][srcR];
+                    data[i + 1] = [r, g, b][srcG];
+                    data[i + 2] = [r, g, b][srcB];
+                }
+
+                ctx.putImageData(imageData, 0, 0);
+
+                img.src = canvas.toDataURL("image/png");
+            };
+
+            source.src = img.dataset.originalSrc;
+        }
+
+        function setchromaState(value) {
+            chromaState = value;
+
+            if (canvases.dragon)
+                canvases.dragon.renderer.setChroma(chromaState);
+
+            applyChromaToImage(
+                document.getElementById("dragon-image"),
+                chromaState
+            );
+        }
+       
+        function updateSpecies(){
+            //if new species, clear form options and append again
+            if (speciesName !== species.value){
+                speciesName = species.value;
+                stage = "adult";
+                adultButton.checked = true;
+                form.innerHTML = "";
+                var formKeys = Object.keys(speciesJson[speciesName].stage[stage].forms);
+                formKeys = formKeys.sort();
+                
+                for (var i = 0; i < formKeys.length; i++){
+                    formOption = document.createElement("option");
+                        formOption.innerText = speciesJson[speciesName].stage[stage].forms[formKeys[i]].formDisplay;						
+                    formOption.value = formKeys[i];
+                    form.appendChild(formOption);
+                }
+                formNumber = "01";
+                initializeGenderButtons();
+                initializeStageButtons();
+                initializeAnimationButtons();
+            }
+            changeDragonSprite();
+        }
+        
+        function updateForm(){
+            formNumber = form.value;
+            stage = "adult";
+            adultButton.checked = true;
+            initializeGenderButtons();
+            initializeStageButtons();
+            initializeAnimationButtons();
+            changeDragonSprite();
+        }
+
+        //enable only the valid stage buttons
+        function initializeStageButtons() {
+            //disable all non-adult buttons
+            hatchButton.disabled = true;
+            hatchButton.setAttribute('aria-disabled', true);
+            hatchlingButton.disabled = true;
+            hatchlingButton.setAttribute('aria-disabled', true);
+            essenceButton.disabled = true;
+            essenceButton.setAttribute('aria-disabled', true);
+            prismButton.disabled = true;
+            prismButton.setAttribute('aria-disabled', true);
+            fusionButton.disabled = true;
+            fusionButton.setAttribute('aria-disabled', true);
+
+            //add disabled class to hatch, hatchling, essence, prism, and fusion labels
+            hatchLabel.classList.add("disabledButton");
+            hatchLabel.setAttribute('aria-disabled', true);
+            hatchlingLabel.classList.add("disabledButton");
+            hatchlingLabel.setAttribute('aria-disabled', true);
+            essenceLabel.classList.add("disabledButton");
+            essenceLabel.setAttribute('aria-disabled', true);
+            prismLabel.classList.add("disabledButton");
+            prismLabel.setAttribute('aria-disabled', true);
+            fusionLabel.classList.add("disabledButton");
+            fusionLabel.setAttribute('aria-disabled', true);
+
+            //enable valid buttons
+            if (speciesJson[speciesName].stage['hatch'] !== undefined && speciesJson[speciesName].stage['hatch'].forms[formNumber] !== undefined){
+                hatchButton.disabled = false;
+                hatchButton.setAttribute('aria-disabled', false);
+                hatchLabel.classList.remove("disabledButton");
+                hatchLabel.setAttribute('aria-disabled', false);
+            }
+            if (speciesJson[speciesName].stage['hatchling'] !== undefined && speciesJson[speciesName].stage['hatchling'].forms[formNumber] !== undefined) {
+                hatchlingButton.disabled = false;
+                hatchlingButton.setAttribute('aria-disabled', false);
+                hatchlingLabel.classList.remove("disabledButton");
+                hatchlingLabel.setAttribute('aria-disabled', false);
+            }
+            if (speciesJson[speciesName].stage['essence'] !== undefined && speciesJson[speciesName].stage['essence'].forms[formNumber] !== undefined) {
+                essenceButton.disabled = false;
+                essenceButton.setAttribute('aria-disabled', false);
+                essenceLabel.classList.remove("disabledButton");
+                essenceLabel.setAttribute('aria-disabled', false);
+            }
+            if (speciesJson[speciesName].stage['prism'] !== undefined && speciesJson[speciesName].stage['prism'].forms[formNumber] !== undefined) {
+                prismButton.disabled = false;
+                prismButton.setAttribute('aria-disabled', false);
+                prismLabel.classList.remove("disabledButton");
+                prismLabel.setAttribute('aria-disabled', false);
+            }
+            if (speciesJson[speciesName].stage['fusion'] !== undefined && speciesJson[speciesName].stage['fusion'].forms[formNumber] !== undefined) {
+                fusionButton.disabled = false;
+                fusionButton.setAttribute('aria-disabled', false);
+                fusionLabel.classList.remove("disabledButton");
+                fusionLabel.setAttribute('aria-disabled', false);
+            }
+
+            switch (stage){
+                case 'adult': {
+                    adultButton.checked = true;
+                    adultButton.setAttribute('aria-disabled', false);
+                    adultLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                case 'essence': {
+                    essenceButton.checked = true;
+                    essenceButton.setAttribute('aria-disabled', false);
+                    essenceLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                case 'prism': {
+                    prismButton.checked = true;
+                    prismButton.setAttribute('aria-disabled', false);
+                    prismLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                case 'fusion': {
+                    fusionButton.checked = true;
+                    fusionButton.setAttribute('aria-disabled', false);
+                    fusionLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                case 'hatchling': {
+                    hatchlingButton.checked = true;
+                    hatchlingButton.setAttribute('aria-disabled', false);
+                    hatchlingLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                case 'hatch': {
+                    hatchButton.checked = true;
+                    hatchButton.setAttribute('aria-disabled', false);
+                    hatchLabel.setAttribute('aria-disabled', false);
+                    break;
+                }
+                default: {
+                    adultButton.checked = true;
+                    adultButton.setAttribute('aria-disabled', false);
+                    adultLabel.setAttribute('aria-disabled', false);
+                }
+            }
+        }
+        
+        //enable only the valid gender buttons
+        function initializeGenderButtons(){
+            //disable all 3 buttons
+            maleButton.disabled = true;
+            maleButton.setAttribute('aria-disabled', true);
+            femaleButton.disabled = true;
+            femaleButton.setAttribute('aria-disabled', true);
+            neutralButton.disabled = true;
+            neutralButton.setAttribute('aria-disabled', true);
+            
+            //add disabled class to all 3 labels
+            maleLabel.classList.add("disabledButton");
+            maleLabel.setAttribute('aria-disabled', true);
+            femaleLabel.classList.add("disabledButton");
+            femaleLabel.setAttribute('aria-disabled', true);
+            neutralLabel.classList.add("disabledButton");
+            neutralLabel.setAttribute('aria-disabled', true);
+            
+            //get keys for current species' genders
+            var genderKeys = Object.keys(speciesJson[speciesName].stage[stage].forms[formNumber].genders);
+
+            //enable all valid keys
+            for (var i = 0; i < genderKeys.length; i++){
+                switch(genderKeys[i]){
+                    case "m":
+                    {
+                        maleButton.disabled = false;
+                        maleLabel.classList.remove("disabledButton");
+                        maleButton.checked = true;
+                        maleButton.setAttribute('aria-disabled', false);
+                        maleLabel.setAttribute('aria-disabled', false);
+                        gender = "m";
+                        break;
+                    }
+                    case "f":
+                    {
+                        femaleButton.disabled = false;
+                        femaleLabel.classList.remove("disabledButton");
+                        femaleButton.checked = true;
+                        femaleButton.setAttribute('aria-disabled', false);
+                        femaleLabel.setAttribute('aria-disabled', false);
+                        gender = "f";
+                        break;
+                    }
+                    case "n":
+                    {
+                        neutralButton.disabled = false;
+                        neutralLabel.classList.remove("disabledButton");
+                        neutralButton.checked = true;
+                        neutralButton.setAttribute('aria-disabled', false);
+                        neutralLabel.setAttribute('aria-disabled', false);
+                        gender = "n";
+                        break;
+                    }
+                    default:
+                    {
+                        maleButton.disabled = false;
+                        maleLabel.classList.remove("disabledButton");
+                        maleButton.checked = true;
+                        maleButton.setAttribute('aria-disabled', false);
+                        maleLabel.setAttribute('aria-disabled', false);
+                        gender = "m";
+                    }
+                }
+            }
+        }
+
+        //Selora GenDive almost comfirmed to be in Smash. almost.
+        function initializeAnimationButtons() {
+            const form = speciesJson?.[speciesName]?.stage?.[stage]?.forms?.[formNumber];
+            if (!form) return;
+
+            let hasCombat = false;
+
+            for (const g in form.genders) {
+                if (form.genders[g]?.color === "dv3") {
+                    hasCombat = true;
+                    break;
+                }
+            }
+
+            const combatDiv = document.getElementById("combatAnims");
+
+            combatDiv.style.display = hasCombat ? "" : "none";
+
+            //in case a selected animation goes poof.
+            if (document.getElementById("attack").checked ||
+                document.getElementById("skill").checked) {
+                document.getElementById("idle").checked = true;
+                setanimState("idle");
+            }
+        }
+
+        //load new dragon when changed
+        function changeDragonSprite(){
+            //get dragon url parts
+            formNumber = form.value;
+            var colorName = speciesJson[speciesName].stage[stage].forms[formNumber].genders[gender].color;
+
+            //construct url
+            var url = "";
+            //is it undead? or is it dead dead?
+            if (formNumber.indexOf("undead") !== -1){
+                var undeadres = speciesJson[speciesName].stage[stage].forms[formNumber].genders[gender].undeadres;
+                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + "undead" + "/" + "undead" +"_" + undeadres + "/" + "undead" + "_" + undeadres;
+            }
+            //no idea why they put these in a separate folder but sure i guess??
+            else if (stage.indexOf("essence") !== -1) {
+                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/essence/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName;
+            }
+            else if (stage.indexOf("prism") !== -1) {
+                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/prism/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName;
+            }
+            else if (stage.indexOf("fusion") !== -1) {
+                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/fusion/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName;
+            }
+            else {
+                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber +"_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber +"_" + gender + "_" + stage + "_" + colorName;
+            }
+
+            //print url to console log (i'm hopeless and need this here for debugging, don't judge me)
+            //console.log(url);
+
+    const dragonCanvasElem = document.getElementById("dragonCanvas");
+    const dragonImageElem = document.getElementById("dragon-image");
+            
+            //load new dragon to canvas
+            if (url.includes(".png")) {
+                //remake url for png
+                    //because Frame.
+                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + colorName;
+                
+                //hide canvas
+                dragonCanvasElem.style.display = "none";
+                
+                //load image
+                dragonImageElem.style.display = "inline-block";
+                dragonImageElem.src = url;
+                dragonImageElem.dataset.originalSrc = url;
+                applyChromaToImage(dragonImageElem, chromaState);
+            } else {
+                //hide image
+                dragonImageElem.style.display = "none";
+        
+        // disposing of old resource before assigning new one to avoid performance issue
+        if (canvases.dragon) {
+        canvases.dragon.dispose();
+        }
+
+                //show canvas
+        dragonCanvasElem.style.display = "inline-block";
+        canvases.dragon = new spine.SpineCanvas(dragonCanvasElem, {
+        app: new SpineObject(url, animState)
+        });
+
+        canvases.dragon.renderer.setChroma(chromaState);
+            }				
+        }
+
+        //load new personality when changed
+        function updatePersonalityUrl() {
+            document.getElementById("myownselect").style.display = "none";
+            document.getElementById("myheartselect").style.display = "none";
+    // disposing of old resources before assigning new one to avoid performance issue
+    if (canvases.backAura) { canvases.backAura.dispose(); }
+    if (canvases.frontAura) { canvases.frontAura.dispose(); }
+
+            personalityName = personality.value;
+            //this is now here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!
+                //edit: and of course, they weren't special enough, so they added custom ones that are °˳⁠˚⁠∘⁠✧super special✧∘⁠˚⁠˳⁠°!! 
+            if(personalityName === "My Own") {
+                document.getElementById("myownselect").style.display = "block";
+                var myownfrontSelection = myownfrontJson[myownfront.value];
+                var myownbackSelection = myownbackJson[myownback.value];
+
+            //okay, so apparently even the °˳⁠˚⁠∘⁠✧super special✧∘⁠˚⁠˳⁠° custom auras weren't special enough.
+            //so now we have to account for °˳⁠˚⁠∘⁠✧super-special-awesome-chocolatey-fudge-coated✧∘⁠˚⁠˳⁠° custom auras.
+                // --- front My Own colours ---
+                var previousFrontColour = myownfrontcolour.value;
+
+                // override once from frontcolour url param
+                if (customfrontcolour !== null) {
+                    previousFrontColour = customfrontcolour;
+                    customfrontcolour = null;
+                }
+
+                myownfrontcolour.innerHTML = "";
+                var frontColours = Object.keys(myownfrontSelection);
+
+                for (var i = 0; i < frontColours.length; i++) {
+                    var option = document.createElement("option");
+                    option.innerText = frontColours[i];
+                    option.value = frontColours[i];
+                    myownfrontcolour.appendChild(option);
+                }
+
+                // restore My Own colour selection upon changing shape if still valid
+                if (frontColours.includes(previousFrontColour)) {
+                    myownfrontcolour.value = previousFrontColour;
+                } else {
+                    myownfrontcolour.value = frontColours[0];
+                }
+
+                // --- back My Own colours ---
+                var previousBackColour = myownbackcolour.value;
+
+                // override once from backcolour url param
+                if (custombackcolour !== null) {
+                    previousBackColour = custombackcolour;
+                    custombackcolour = null;
+                }
+
+                myownbackcolour.innerHTML = "";
+                var backColours = Object.keys(myownbackSelection);
+
+                for (var i = 0; i < backColours.length; i++) {
+                    var option = document.createElement("option");
+                    option.innerText = backColours[i];
+                    option.value = backColours[i];
+                    myownbackcolour.appendChild(option);
+                }
+
+                if (backColours.includes(previousBackColour)) {
+                    myownbackcolour.value = previousBackColour;
+                } else {
+                    myownbackcolour.value = backColours[0];
+                }
+                canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", myownbackSelection[myownbackcolour.value])
+                });
+                canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_blissfull/aura_blissfull", myownfrontSelection[myownfrontcolour.value])
+                });
+            }
+            else if (personalityName === "My Heart") {
+                document.getElementById("myheartselect").style.display = "block";
+                var myheartfrontSelection = myheartfrontJson[myheartfront.value];
+                var myheartbackSelection = myheartbackJson[myheartback.value];
+
+            //again accounting for °˳⁠˚⁠∘⁠✧super-special-awesome-chocolatey-fudge-coated✧∘⁠˚⁠˳⁠° custom auras.
+                // --- front My Heart colours ---
+                var previousFrontColour = myheartfrontcolour.value;
+
+                // override once from frontcolour url param
+                if (customfrontcolour !== null) {
+                    previousFrontColour = customfrontcolour;
+                    customfrontcolour = null;
+                }
+
+                myheartfrontcolour.innerHTML = "";
+                var frontColours = Object.keys(myheartfrontSelection);
+
+                for (var i = 0; i < frontColours.length; i++) {
+                    var option = document.createElement("option");
+                    option.innerText = frontColours[i];
+                    option.value = frontColours[i];
+                    myheartfrontcolour.appendChild(option);
+                }
+
+                // restore My Heart colour selection upon changing shape if still valid
+                if (frontColours.includes(previousFrontColour)) {
+                    myheartfrontcolour.value = previousFrontColour;
+                } else {
+                    myheartfrontcolour.value = frontColours[0];
+                }
+
+                // --- back My Heart colours ---
+                var previousBackColour = myheartbackcolour.value;
+
+                // override once from backcolour url param
+                if (custombackcolour !== null) {
+                    previousBackColour = custombackcolour;
+                    custombackcolour = null;
+                }
+
+                myheartbackcolour.innerHTML = "";
+                var backColours = Object.keys(myheartbackSelection);
+
+                for (var i = 0; i < backColours.length; i++) {
+                    var option = document.createElement("option");
+                    option.innerText = backColours[i];
+                    option.value = backColours[i];
+                    myheartbackcolour.appendChild(option);
+                }
+
+                if (backColours.includes(previousBackColour)) {
+                    myheartbackcolour.value = previousBackColour;
+                } else {
+                    myheartbackcolour.value = backColours[0];
+                }
+                canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_myheart/aura_myheart", myheartbackSelection[myheartbackcolour.value])
+                });
+                canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/aura_myheart/aura_myheart", myheartfrontSelection[myheartfrontcolour.value])
+                });
+            }
+            else if (personalityJson[personalityName].each !== undefined) {
+                const fix = !!personalityJson[personalityName].transparencyFix;
+
+                canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
+                    app: new SpineObject(
+                        `https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/${personalityJson[personalityName].each}/${personalityJson[personalityName].each}`,
+                        personalityJson[personalityName].back,
+                        fix
+                    )
+                });
+
+                canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
+                    app: new SpineObject(
+                        `https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura_each/${personalityJson[personalityName].each}/${personalityJson[personalityName].each}`,
+                        personalityJson[personalityName].front,
+                        fix
+                    )
+                });
+            }
+            //of course, we love all the rest of them. but they're not special.
+            else {
+                canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", personalityJson[personalityName].back)
+                });
+                canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_front/aura_front", personalityJson[personalityName].front)
+                });
+            }
+        }
+
+        //well, you wanted backgrounds, so...
+        function updateBackgroundUrl() {
+           //get background url parts
+            bgSelection = cavebgJson[cavebg.value].res;
+
+            if (canvases.background) {
+                canvases.background.dispose();
+            }
+
+            //construct url
+            var bgurl = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/cavedeco/" + bgSelection;
+            //yes, the "none" option is just an invisible aura...
+                //don't question it
+            if (bgSelection === "none") {
+                canvases.background = new spine.SpineCanvas(document.getElementById("Background"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", "")
+                });
+            }
+            else {
+                canvases.background = new spine.SpineCanvas(document.getElementById("Background"), {
+                    app: new SpineObject(bgurl, bgState, false, {
+                        offsetY: 0,
+                        scale: 1.20
+                    })
+                });
+            }
+        }
+
+        function updateFloorUrl() {
+            //get background url parts
+            floorSelection = cavefloorJson[cavefloor.value].res;
+
+            if (canvases.floor) {
+                canvases.floor.dispose();
+            }
+
+            //construct url
+            var floorurl = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/cavedeco/" + floorSelection;
+            // invisible aura is best aura.
+            if (floorSelection === "none") {
+                canvases.floor = new spine.SpineCanvas(document.getElementById("Floor"), {
+                    app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", "")
+                });
+            }
+            else {
+                canvases.floor = new spine.SpineCanvas(document.getElementById("Floor"), {
+                    app: new SpineObject(floorurl, floorState, false, {
+                        offsetY: 0,
+                        scale: 1.20
+                    })
+                });
+            }
+        }
+            
+        function updateHaloUrl() {
+                //not really a url, but animation state needs updating, so...         
+                    canvases.halo = new spine.SpineCanvas(document.getElementById("Halo"), {
+                        app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/license_growth_010/license_growth_010", haloState)
+                    });
+                }
+
+        function copySharelink() {
+                // initialize shareLink with required values
+                var shareLink = `https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/?species=${speciesName}&form=${formNumber}&gender=${gender}&stage=${stage}&chroma=${chromaState}`;
+
+                //add optional values
+                if (personalityName !== null){
+                    shareLink = shareLink + `&personality=${personalityName}`;
+                }
+                if (cavebg.value !== '[None]') {
+                    shareLink = shareLink + `&bg=${cavebg.value}`;
+                }
+                if (cavefloor.value !== '[None]') {
+                    shareLink = shareLink + `&floor=${cavefloor.value}`;
+                }
+                if (personalityName === "My Own"){
+                    shareLink = shareLink + `&front=${myownfront.value}&back=${myownback.value}&frontcolour=${myownfrontcolour.value}&backcolour=${myownbackcolour.value}`;
+                }
+                else if (personalityName === "My Heart"){
+                    shareLink = shareLink + `&front=${myheartfront.value}&back=${myheartback.value}&frontcolour=${myheartfrontcolour.value}&backcolour=${myheartbackcolour.value}`;
+                }
+
+                // copy sharelink
+                shareLink = shareLink.replace(/ /g,"%20");
+                shareLink = shareLink.replace(/\[/g, "%5B");
+                shareLink = shareLink.replace(/\]/g, "%5D");
+                navigator.clipboard.writeText(shareLink);
+
+                // alert for copied sharelink
+                var alert = document.getElementById("buttonAlert");
+                alert.style.display = "block";
+
+                setTimeout(()=> {
+                    alert.style.display = "none";
+                }, 2500);
+            }
+
+        //auto page resizing; pretty cool, right?
+        //well, touch this and the entire site falls apart. not so cool.
+        var fitPageEl = null;
+        var fitResizeRaf = 0;
+
+        function fitPage(instant) {
+            var page = fitPageEl || (fitPageEl = document.querySelector(".page"));
+            if (!page) return;
+            var pageWidth = page.offsetWidth;
+            var pageHeight = page.offsetHeight;
+            if (!pageWidth || !pageHeight) return;
+            var scale = Math.min(window.innerWidth / pageWidth, window.innerHeight / pageHeight, 1);
+            if (instant) {
+            var prev = page.style.transition;
+            page.style.transition = "none";
+            page.style.transform = "scale(" + scale + ")";
+            void page.offsetHeight;
+            page.style.transition = prev;
+            } else {
+            page.style.transform = "scale(" + scale + ")";
+            }
+        }
+
+        function fitPageOnResize() {
+            if (fitResizeRaf) return;
+            fitResizeRaf = requestAnimationFrame(function () {
+            fitResizeRaf = 0;
+            fitPage(false);
+            });
+        }
+
+        function initFitToScreen() {
+            fitPage(false);
+            var page = fitPageEl || (fitPageEl = document.querySelector(".page"));
+            if (page) page.classList.add("fit-ready");
+            window.addEventListener("resize", fitPageOnResize);
+            if (document.fonts && document.fonts.ready) {
+            document.fonts.ready.then(function () { fitPage(true); });
+            }
+            window.addEventListener("load", function () { fitPage(true); });
+        }
+
+        initFitToScreen();
+
+    </script>
+</head>
+
+<!--super-cool, chocolatey fudge-coated page content. now comes *with* the wrapper, thankfully.-->
+<body>
+    <div class="fit-wrapper">
+        <main class="page fit-ready">
+            <section class="preview">
+                <!--is this really a header? or is it all just an illusion..?-->
+                <div class="header">
+                    <img src="./res/img/logo_plus.png" width="400px" z-index="10" alt="Dragon Village Collection Plus: APPEND">
+                </div>
+
+                <div class="dragon-stage">
+                
+                    <div class="grid-item">
+                        <canvas id="dragonCanvas" class="spineCanvas dragonCanvas"></canvas>
+                        <canvas id="Auraback" class="spineCanvas auraBackCanvas"></canvas>
+                        <canvas id="Aurafront" class="spineCanvas auraFrontCanvas"></canvas>
+                        <canvas id="Halo" class="spineCanvas haloCanvas"></canvas>
+                        <canvas id="Background" class="spineCanvas backgroundCanvas"></canvas>
+                        <canvas id="Floor" class="spineCanvas floorCanvas"></canvas>                
+                    </div>
+                    <img id="dragon-image">
+                </div>
+                
+                <!--initial blank back aura canvas is loaded on page open-->
+                <script type="text/javascript">
+                    let loadSpineAuraBackAura = function() { 
+                        canvases.backAura = new spine.SpineCanvas(document.getElementById("Auraback"), {
+                            app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", "")
+                        })
+                    }
+                    window.addEventListener("load", loadSpineAuraBackAura);
+                </script>
+
+                <!--initial blank front aura canvas is loaded on page open-->
+                <script type="text/javascript"> 
+                    let loadSpineAuraFrontAura = function() {
+                        canvases.frontAura = new spine.SpineCanvas(document.getElementById("Aurafront"), {
+                            app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_front/aura_front", "")
+                        })
+                    }
+                    window.addEventListener("load", loadSpineAuraFrontAura);
+                </script>
+            </section>
+
+            <section class="summary-bar">
+                <div class="summary-bar-group">
+                    <!--selection for species where entries are appended-->
+                    <span class="title-header">Species</span>
+                    <div class="dropdown">
+                        <input type="text" class="search-box" id="speciesSearch" placeholder="Search...">
+                        <div class="dropdown-content" id="dropdown"></div>
+                    </div>
+                </div>
+
+                <select id="species" name="species" style="display: none;" onchange="updateSpecies();">
+                </select>
+                
+                <div class="summary-bar-group">
+                    <!--selection for forms where entries are appended-->
+                    <span class="title-header">Form</span>
+                    <select id="form" name="form" onchange="updateForm();">
+                    </select>
+                </div>
+
+                <div class="summary-bar-group">
+                    <!--who needs text for radio buttons, anyways?-->
+                    <div id="genderRadios" class="genderRadios radio-selector">
+                        <input type="radio" name="gender" value="m" id="male" onchange="setGender(this.value)" checked />
+                        <label for="male" id="maleLabel" aria-disabled="false">
+                            <img src="./res/img/gender_m_0201.png" alt="male selection">
+                        </label>
+                        <input type="radio" name="gender" value="f" id="female" onchange="setGender(this.value)" />
+                        <label for="female" id="femaleLabel" aria-disabled="false">
+                            <img src="./res/img/gender_f_0201.png" alt="female selection">
+                        </label>
+                        <input type="radio" name="gender" value="n" id="neutral" onchange="setGender(this.value)">
+                        <label for="neutral" id="neutralLabel" aria-disabled="false">
+                            <img src="./res/img/gender_n_0201.png" alt="neutral selection">
+                        </label>
+                    </div>
+                </div>
+            </section>
+                
+            <section class="summary-panel">
+                <!--selection for auras where entries are appended-->
+                <span class="title-header">Personality</span>
+                <div class="dropdown">
+                    <input type="text" class="search-box" id="personalitySearch" placeholder="Search...">
+                    <div class="dropdown-content" id="personalityDropdown"></div>
+                </div>
+
+                <select id="personality" name="personality" style="display: none;" onchange="updatePersonalityUrl();">
+                </select>
+            
+                <div id="myownselect">
+                    <!--selection for My Own fronts where entries are appended-->
+                    <b>Front</b>
+                    <select id="myownfront" name="myownfront" onchange="updatePersonalityUrl();">
+                    </select>
+            
+                    <!--selection for My Own front colours where entries are appended-->
+                    <select id="myownfrontcolour" name="myownfrontcolour" onchange="updatePersonalityUrl();">
+                    </select>
+            
+                    <!--selection for My Own backs where entries are appended-->
+                    <b>Back</b>
+                    <select id="myownback" name="myownback" onchange="updatePersonalityUrl();">
+                    </select>
+            
+                    <!--selection for My Own back colours where entries are appended-->
+                    <select id="myownbackcolour" name="myownbackcolour" onchange="updatePersonalityUrl();">
+                    </select>
+                </div>
+
+                <div id="myheartselect">
+                    <!--selection for My Heart fronts where entries are appended-->
+                    <b>Front</b>
+                    <select id="myheartfront" name="myheartfront" onchange="updatePersonalityUrl();">
+                    </select>
+                
+                    <!--selection for My Heart front colours where entries are appended-->
+                    <select id="myheartfrontcolour" name="myheartfrontcolour" onchange="updatePersonalityUrl();">
+                    </select>
+                
+                    <!--selection for My Heart backs where entries are appended-->
+                    <b>Back</b>
+                    <select id="myheartback" name="myheartback" onchange="updatePersonalityUrl();">
+                    </select>
+                
+                    <!--selection for My Heart back colours where entries are appended-->
+                    <select id="myheartbackcolour" name="myheartbackcolour" onchange="updatePersonalityUrl();">
+                    </select>
+                </div>
+
+                <div id="stageRadios" class="stageRadios radio-selector">
+                    <input type="radio" name="stage" value="hatch" id="hatch" onchange="setStage(this.value)" />
+                    <label for="hatch" id="hatchLabel" aria-disabled="false">Hatch</label>
+                    
+                    <input type="radio" name="stage" value="hatchling" id="hatchling" onchange="setStage(this.value)" />
+                    <label for="hatchling" id="hatchlingLabel" aria-disabled="false">Hatchling</label>
+                    
+                    <input type="radio" name="stage" value="adult" id="adult" onchange="setStage(this.value)" checked>
+                    <label for="adult" id="adultLabel" aria-disabled="false">Adult</label>
+                    
+                    <input type="radio" name="stage" value="essence" id="essence" onchange="setStage(this.value)" />
+                    <label for="essence" id="essenceLabel" aria-disabled="false">Special Evolution</label>
+                    
+                    <input type="radio" name="stage" value="prism" id="prism" onchange="setStage(this.value)" />
+                    <label for="prism" id="prismLabel" aria-disabled="false">Prism Evolution</label>
+                    
+                    <input type="radio" name="stage" value="fusion" id="fusion" onchange="setStage(this.value)" />
+                    <label for="fusion" id="fusionLabel" aria-disabled="false">Fusion Evolution</label>
+                </div>
+            </section>
+
+            <section class="control-panel1">
+                 <!--no way, is that a CHROMA?!?-->
+                <div id="chromaRadios" class="chromaRadios radio-selector">
+                    <input type="radio" name="chroma" value="rgb" id="rgb" onchange="setchromaState(this.value)" checked />
+                    <label for="rgb" id="rgbLabel">Default</label>
+                    
+                    <input type="radio" name="chroma" value="gbr" id="gbr" onchange="setchromaState(this.value)">
+                    <label for="gbr" id="gbrLabel">GBR</label>
+                    
+                    <input type="radio" name="chroma" value="rbg" id="rbg" onchange="setchromaState(this.value)">
+                    <label for="rbg" id="rbgLabel">RBG</label>
+                    
+                    <input type="radio" name="chroma" value="bgr" id="bgr" onchange="setchromaState(this.value)">
+                    <label for="bgr" id="bgrLabel">BGR</label>
+                    
+                    <input type="radio" name="chroma" value="grb" id="grb" onchange="setchromaState(this.value)">
+                    <label for="grb" id="grbLabel">GRB</label>
+                    
+                    <input type="radio" name="chroma" value="brg" id="brg" onchange="setchromaState(this.value)">
+                    <label for="brg" id="brgLabel">BRG</label>
+                </div>
+
+                <div id="animRadios" class="animRadios radio-selector">
+                    <input type="radio" name="animation" value="idle" id="idle" onchange="setanimState(this.value)" checked />
+                    <label for="idle" id="idleLabel">Idle</label>
+                    
+                    <input type="radio" name="animation" value="move" id="move" onchange="setanimState(this.value)" />
+                    <label for="move" id="moveLabel">Moving</label>
+                    
+                    <input type="radio" name="animation" value="holding" id="holding" onchange="setanimState(this.value)">
+                    <label for="holding" id="holdingLabel">Holding</label>
+                    
+                    <input type="radio" name="animation" value="touch" id="touch" onchange="setanimState(this.value)">
+                    <label for="touch" id="touchLabel">Touch</label>
+                    
+                    <div id="combatAnims">
+                    <input type="radio" name="animation" value="attack" id="attack" onchange="setanimState(this.value)">
+                    <label for="attack" id="attackLabel">Attack</label>
+                    
+                    <input type="radio" name="animation" value="skill" id="skill" onchange="setanimState(this.value)">
+                    <label for="skill" id="skillLabel">Skill</label>
+                    
+                    </div>
+                    <input type="radio" name="animation" value="" id="none" onchange="setanimState(this.value)">
+                    <label for="none" id="noneLabel">None</label>
+                </div>
+                
+                <!--the ugly halo for top 20 Mystic rank-->
+                <div id="haloRadios" class="haloRadios radio-selector">
+                    <input type="radio" name="halo" value="" id="halooff" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" checked />
+                    <label for="halooff" id="halooffLabel">
+                        <img src="./res/img/license_00.png" alt="halo off">
+                    </label>
+                    
+                    <input type="radio" name="halo" value="idle" id="haloidle" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" />
+                    <label for="haloidle" id="haloidleLabel">
+                        <img src="./res/img/license_10.png" alt="halo idle">
+                    </label>
+                    
+                    <input type="radio" name="halo" value="appear" id="haloburst" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" />
+                    <label for="haloburst" id="haloburstLabel">
+                        <img src="./res/img/license_10.png" alt="halo burst">
+                    </label>*               
+                </div>
+
+                <!--sharelinks. because sharing is caring.-->
+                    <!--(it doesn't track views though, sorry)-->
+                <input type="image" onclick="copySharelink()" src="./res/img/link_0202.png" width="40px" alt="Copy Sharelink"></input>
+                <br>
+                <p id="buttonAlert">Copied!</p>
+            </section>
+
+            <section class="control-panel2">            
+                <!--selection for backgrounds where entries are appended-->
+                <span class="title-header">Background</span>
+                <div class="dropdown">
+                    <input type="text" class="search-box" id="bgSearch" placeholder="Search...">
+                    <div class="dropdown-content" id="bgDropdown"></div>
+                </div>
+
+                <select id="cavebg" name="cavebg" style="display: none;" onchange="updateBackgroundUrl();">
+                </select>
+                <div id="bgRadios" class="bgRadios radio-selector">
+                    <input type="radio" name="bg" value="idle" id="bgidle" onchange="setbgState(this.value)" checked />
+                    <label for="bgidle" id="bgidleLabel">Idle</label>
+                    
+                    <input type="radio" name="bg" value="" id="bgstop" onchange="setbgState(this.value)" />
+                    <label for="bgstop" id="bgstopLabel">Stop</label>
+                    
+                    <input type="radio" name="brightness" value="1" id="bright" onchange="setbrightness(this.value)" checked />
+                    <label for="bright" id="brightLabel">Bright</label>
+                    
+                    <input type="radio" name="brightness" value="0.4" id="dark" onchange="setbrightness(this.value)" />
+                    <label for="dark" id="darkLabel">Dark</label>           
+                </div>
+            
+                <!--selection for floors where entries are appended-->
+                <span class="title-header">Floor</span>
+                <div class="dropdown">
+                    <input type="text" class="search-box" id="floorSearch" placeholder="Search...">
+                    <div class="dropdown-content" id="floorDropdown"></div>
+                </div>
+
+                <select id="cavefloor" name="cavefloor" style="display: none;" onchange="updateFloorUrl();">
+                </select>
+                <div id="floorRadios" class="floorRadios radio-selector">
+                    <input type="radio" name="floor" value="idle" id="flooridle" onchange="setfloorState(this.value)" checked />
+                    <label for="flooridle" id="flooridleLabel">Idle</label>
+                    
+                    <input type="radio" name="floor" value="" id="floorstop" onchange="setfloorState(this.value)" />
+                    <label for="floorstop" id="floorstopLabel">Stop</label>
+                </div>
+            </section>
+
+            <div class="footer">
+                <!--just a horizontal line. nothing to see here.-->
+                <hr size=1>
+                <!--i don't own these assets; please don't sue me.-->
+                <a href="https://github.com/vega-spica/Personality-Sneak-Peek-Expanded">Github repository</a> – All Dragon Village assets and characters <a href="https://www.highbrow.com/en">©highbrow Inc</a>.<br>
+                If you enjoyed using this tool, please consider contributing to the <a href=https://dragon-village-collection.fandom.com/wiki/Home>DVC Fandom Wiki</a>.
+            </div>
+
+            <script>
+                //okay, okay, i get it. you want a searchbar.
+                    //you get ONE searchbar.
+                function createSearchDropdown({ searchId, dropdownId, selectId, onChange }) {
+                    const searchBox = document.getElementById(searchId);
+                    const dropdown = document.getElementById(dropdownId);
+                    const select = document.getElementById(selectId);
+
+                    function populate() {
+                        dropdown.innerHTML = ""; // wipe existing options
+
+                        for (let option of select.options) {
+                            let div = document.createElement("div");
+                            div.textContent = option.text;
+                            div.setAttribute("data-value", option.value);
+
+                            div.onclick = function () {
+                                searchBox.value = this.textContent;
+                                select.value = this.getAttribute("data-value");
+                                dropdown.style.display = "none";
+                                dropdown.parentElement.classList.remove("active");
+                                onChange();
+                            };
+
+                            dropdown.appendChild(div);
+                        }
+                    }
+
+                    // filter options
+                    function filter() {
+                        let filter = searchBox.value.toLowerCase();
+                        let items = dropdown.getElementsByTagName("div");
+
+                        dropdown.style.display = filter ? "block" : "none";
+
+                        for (let item of items) {
+                            let txt = item.textContent.toLowerCase();
+                            item.style.display = txt.includes(filter) ? "block" : "none";
+                        }
+                    }
+
+                    // show all options on focus 
+                        //"onclick" was not cooperating, so i fired them.
+                    function showAll() {
+                        dropdown.style.display = "block";
+                        dropdown.parentElement.classList.add("active");
+
+                        let items = dropdown.getElementsByTagName("div");
+                        for (let item of items) {
+                            item.style.display = "block";
+                        }
+                    }
+
+                    function onFocus() {
+                        searchBox.select();// select searchbox text on focus (if there is already text present)
+                        showAll();
+                    }
+
+                    // events
+                    searchBox.addEventListener("keyup", filter);
+                    searchBox.addEventListener("focus", onFocus);
+
+                    // close dropdown on outside click
+                    document.addEventListener("click", function (event) {
+                        if (!searchBox.contains(event.target) && !dropdown.contains(event.target)) {
+                            dropdown.style.display = "none";
+                            dropdown.parentElement.classList.remove("active");
+                        }
+                    });
+
+                    // observe changes
+                    new MutationObserver(populate).observe(select, { childList: true });
+
+                    populate();
+                }
+
+                // ONE searchbar.
+                createSearchDropdown({
+                    searchId: "speciesSearch",
+                    dropdownId: "dropdown",
+                    selectId: "species",
+                    onChange: updateSpecies
+                });
+                //...okay, fine, you can have more searchbars.            
+                createSearchDropdown({
+                    searchId: "personalitySearch",
+                    dropdownId: "personalityDropdown",
+                    selectId: "personality",
+                    onChange: updatePersonalityUrl
+                });
+
+                createSearchDropdown({
+                    searchId: "bgSearch",
+                    dropdownId: "bgDropdown",
+                    selectId: "cavebg",
+                    onChange: updateBackgroundUrl
+                });
+
+                createSearchDropdown({
+                    searchId: "floorSearch",
+                    dropdownId: "floorDropdown",
+                    selectId: "cavefloor",
+                    onChange: updateFloorUrl
+                });
+            </script>
+
+            </div><!--this ends the wrapper. or does it?-->
+        </main>
+    </div>
+</body>

@@ -1,12 +1,23 @@
+//when creating a new canvas on the page in html, you must follow the format given in the constructor, ex:
+//app: new SpineObject("urlpath", "animationstate", false, {offsetY: 0})
+//the constructor is order-sensitive; if you add a variable to it, you must add it at the END, or all existing canavases will break.
 class SpineObject {
-    constructor(spineUrl, initialAnimation) {
+    constructor(spineUrl, initialAnimation, transparencyFix = false, options = {}) {
         this.skeleton = null;
         this.animationState = null;
         this.binaryUrl = spineUrl + '.skel';
         this.atlasUrl = spineUrl + '.atlas';
         this.initialAnimation = initialAnimation;
+        this.transparencyFix = transparencyFix;
         this.skeletonBinary = null;
         this.skeletonScale = null;
+        //default camera position set to x=0, -240
+        this.offsetX = options.offsetX ?? 0;
+        this.offsetY = options.offsetY ?? -240;
+        //default scale setting defined here; used for sizing dragon/aura canvases on the page
+        //if the default scale is not set to 1, the models will suffer from blurring and artifacts and the static undead images will not match in scale, so do not touch it.
+        //background and floor is not scaled here, see the html for that
+        this.skeletonScale = options.scale ?? 1;
     }
 
     loadAssets(canvas) {
@@ -30,10 +41,14 @@ class SpineObject {
         this.skeletonBinary = skeletonBinary;
 
         // Set the scale to apply during parsing, parse the file, and create a new skeleton.
-        this.applyProperScale()
         skeletonBinary.scale = this.skeletonScale;
         var skeletonData = skeletonBinary.readSkeletonData(assetManager.require(this.binaryUrl));
         this.skeleton = new spine.Skeleton(skeletonData);
+        //added this here to center the camera
+        //the offset should be defined in html when creating a canvas if the default offsets at the top of this document are not suitable.
+        //to extend the edges of the canvas itself, increase the size of the grid-item instead.
+        this.skeleton.x = this.offsetX;
+        this.skeleton.y = this.offsetY;
 
         // Create an AnimationState, and set the "run" animation in looping mode.
         var animationStateData = new spine.AnimationStateData(skeletonData);
@@ -53,6 +68,10 @@ class SpineObject {
 
     render(canvas) {
         let renderer = canvas.renderer;
+
+        // passing the transparencyFix flag to the renderer (for Silent Moon, Spring Day, etc)
+        renderer.transparencyFix = this.transparencyFix;
+
         // Resize the viewport to the full canvas.
         renderer.resize(spine.ResizeMode.Expand);
 
@@ -65,9 +84,5 @@ class SpineObject {
         renderer.drawSkeleton(this.skeleton, false);
         // Complete rendering.
         renderer.end();
-    }
-
-    applyProperScale() {
-        this.skeletonScale = 1;
     }
 }
