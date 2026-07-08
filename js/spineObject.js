@@ -68,6 +68,30 @@ class SpineObject {
     }
 
     applyProperScale() {
-        this.skeletonScale = 1;
+        var isMobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i)
+        if (isMobile) {
+            if (window.devicePixelRatio <= 2) {
+                if (window.innerWidth < 500)
+                    this.skeletonScale = 1;
+                else if (window.innerWidth > 800)
+                    this.skeletonScale = 2;
+                else
+                    this.skeletonScale = 1.5;
+            }
+            else {
+                if (window.innerWidth < 300)
+                    this.skeletonScale = 1;
+                else
+                    this.skeletonScale = 1.5;
+            }
+        }
+        else {
+            this.skeletonScale = 0.7;
+        }
+
+        // console.log(navigator.userAgent)
+        // console.log(window.devicePixelRatio)
+        // console.log(window.innerWidth)
+        // console.log(this.skeletonScale)
     }
 }
