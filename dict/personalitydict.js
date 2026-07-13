@@ -8,7 +8,8 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
-	/*"1000-Day Light's (Numberless)": {
+	/*test custom entry
+	"1000-Day Light's (Numberless)": {
 		"each": "aura_s_1000days_CUSTOM",
 		"back": "back",
 		"front": "front"
@@ -923,6 +924,11 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Dazzling Thunderclap": {
+        "each": "aura_ss_citael",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Dominance": {
         "each": "aura_a_control",
         "back": "back",
@@ -980,6 +986,11 @@ const personalityJson = {
     },
     "[DV3] Love": {
         "each": "aura_a_love",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Lustrous Thunderclap": {
+        "each": "aura_ss_darknix",
         "back": "back",
         "front": "front"
     },
@@ -1048,8 +1059,78 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Radiant Thunderclap": {
+        "each": "aura_ss_power",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Resplendent Purge": {
         "each": "aura_ss_frost",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Thunderclap (Blue)": {
+        "each": "aura_a_thunderclap_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Thunderclap (Green)": {
+        "each": "aura_a_thunderclap_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Thunderclap (Pink)": {
+        "each": "aura_a_thunderclap_pink",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Thunderclap (Purple)": {
+        "each": "aura_a_thunderclap_navy",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Thunderclap (Red)": {
+        "each": "aura_a_thunderclap_red",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Thunderclap (Blue)": {
+        "each": "aura_b_thunderclap_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Thunderclap (Citael)": {
+        "each": "aura_s_citael",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Thunderclap (Darknix)": {
+        "each": "aura_s_darknix",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Thunderclap (Green)": {
+        "each": "aura_b_thunderclap_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Thunderclap (Pink)": {
+        "each": "aura_b_thunderclap_pink",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Thunderclap (Power Dragon)": {
+        "each": "aura_s_power",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Thunderclap (Purple)": {
+        "each": "aura_b_thunderclap_navy",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Thunderclap (Red)": {
+        "each": "aura_b_thunderclap_red",
         "back": "back",
         "front": "front"
     },
