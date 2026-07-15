@@ -1,6 +1,7 @@
 mud_01_n_adult_yr.png
 size:1684,245
 filter:Linear,Linear
+premultipliedAlpha:true
 body_3
 bounds:1534,135,76,46
 head_3
