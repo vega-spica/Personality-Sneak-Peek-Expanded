@@ -1,0 +1,4 @@
+hello, world!
+(not very helpful, is it...?)
+
+click "X" or hit "ESC" to close this menu.
