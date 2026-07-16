@@ -651,6 +651,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Resolute": {
+		"each": "aura_a_determined",
+		"back": "back",
+		"front": "front"
+	},
 	"Rift": {
 		"each": "aura_a_rifted",
 		"back": "back",

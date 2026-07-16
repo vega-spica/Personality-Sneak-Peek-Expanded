@@ -59751,6 +59751,47 @@ const speciesJson = {
       }
     }
   },
+  "slothdragon": {
+    "speciesDisplay": "Sloth Dragon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default [DV3]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "sluha": {
     "speciesDisplay": "Sluha",
     "stage": {
