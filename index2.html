@@ -420,8 +420,8 @@
             document.getElementById("Background").style.filter = `brightness(${brightnessValue})`;
         }
 
-        //do not be fooled by the mention of "canvas" in this function; this specifically applies chroma filters to a static png image
-        //chroma filters for animated models are handled in spine-webgl.js
+        //do not be fooled by the mention of "canvas" in this function; this specifically applies chroma filters to a static png image.
+        //chroma filters for animated models have been added to spine-webgl.js. but we don't talk about that.
         const CHROMA_CHANNEL_INDEX = { r: 0, g: 1, b: 2 };
 
         async function applyChromaToImage(img, swizzle) {
@@ -682,7 +682,7 @@
             }
         }
 
-        //Selora GenDive almost comfirmed to be in Smash. almost.
+        //Selora GenDive almost confirmed to be in Smash. almost.
         function initializeAnimationButtons() {
             const form = speciesJson?.[speciesName]?.stage?.[stage]?.forms?.[formNumber];
             if (!form) return;
@@ -698,7 +698,7 @@
 
             const combatDiv = document.getElementById("combatAnims");
 
-            combatDiv.style.display = hasCombat ? "" : "none";
+            combatDiv.style.opacity = hasCombat ? "" : "0.3";
 
             //in case a selected animation goes poof.
             if (document.getElementById("attack").checked ||
@@ -786,7 +786,7 @@
             //this is now here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!
                 //edit: and of course, they weren't special enough, so they added custom ones that are °˳⁠˚⁠∘⁠✧super special✧∘⁠˚⁠˳⁠°!! 
             if(personalityName === "My Own") {
-                document.getElementById("myownselect").style.display = "block";
+                document.getElementById("myownselect").style.display = "flex";
                 var myownfrontSelection = myownfrontJson[myownfront.value];
                 var myownbackSelection = myownbackJson[myownback.value];
 
@@ -850,7 +850,7 @@
                 });
             }
             else if (personalityName === "My Heart") {
-                document.getElementById("myheartselect").style.display = "block";
+                document.getElementById("myheartselect").style.display = "flex";
                 var myheartfrontSelection = myheartfrontJson[myheartfront.value];
                 var myheartbackSelection = myheartbackJson[myheartback.value];
 
@@ -1029,15 +1029,33 @@
                 shareLink = shareLink.replace(/\[/g, "%5B");
                 shareLink = shareLink.replace(/\]/g, "%5D");
                 navigator.clipboard.writeText(shareLink);
-
-                // alert for copied sharelink
-                var alert = document.getElementById("buttonAlert");
-                alert.style.display = "block";
-
-                setTimeout(()=> {
-                    alert.style.display = "none";
-                }, 2500);
+                showToast("Copied!");
             }
+
+        /* here's where we'll make the toast. */
+            /* no, not that kind of toast, unfortunately. */
+        let toastTimer;
+
+        function showToast(message) {
+            let toast = document.getElementById("toast");
+
+            if (!toast) {
+                toast = document.createElement("div");
+                toast.id = "toast";
+                toast.className = "toast";
+                document.body.appendChild(toast);
+            }
+
+            toast.textContent = message;
+
+            clearTimeout(toastTimer);
+
+            toast.classList.add("show");
+
+            toastTimer = setTimeout(() => {
+                toast.classList.remove("show");
+            }, 2500);
+        }
 
         //auto page resizing; pretty cool, right?
         //well, touch this and the entire site falls apart. not so cool.
@@ -1170,100 +1188,168 @@
             </section>
                 
             <section class="summary-panel">
+                <div class="summary-left">
                 <!--selection for auras where entries are appended-->
-                <span class="title-header">Personality</span>
-                <div class="dropdown">
-                    <input type="text" class="search-box" id="personalitySearch" placeholder="Search...">
-                    <div class="dropdown-content" id="personalityDropdown"></div>
-                </div>
+                    <span class="title-header">Personality</span>
+                    <div class="dropdown">
+                        <input type="text" class="search-box" id="personalitySearch" placeholder="Search...">
+                        <div class="dropdown-content" id="personalityDropdown"></div>
+                    </div>
 
-                <select id="personality" name="personality" style="display: none;" onchange="updatePersonalityUrl();">
-                </select>
-            
-                <div id="myownselect">
-                    <!--selection for My Own fronts where entries are appended-->
-                    <b>Front</b>
-                    <select id="myownfront" name="myownfront" onchange="updatePersonalityUrl();">
-                    </select>
-            
-                    <!--selection for My Own front colours where entries are appended-->
-                    <select id="myownfrontcolour" name="myownfrontcolour" onchange="updatePersonalityUrl();">
-                    </select>
-            
-                    <!--selection for My Own backs where entries are appended-->
-                    <b>Back</b>
-                    <select id="myownback" name="myownback" onchange="updatePersonalityUrl();">
-                    </select>
-            
-                    <!--selection for My Own back colours where entries are appended-->
-                    <select id="myownbackcolour" name="myownbackcolour" onchange="updatePersonalityUrl();">
-                    </select>
-                </div>
-
-                <div id="myheartselect">
-                    <!--selection for My Heart fronts where entries are appended-->
-                    <b>Front</b>
-                    <select id="myheartfront" name="myheartfront" onchange="updatePersonalityUrl();">
+                    <select id="personality" name="personality" style="display: none;" onchange="updatePersonalityUrl();">
                     </select>
                 
-                    <!--selection for My Heart front colours where entries are appended-->
-                    <select id="myheartfrontcolour" name="myheartfrontcolour" onchange="updatePersonalityUrl();">
-                    </select>
+                    <div id="myownselect">
+                        <!--selection for My Own fronts where entries are appended-->
+                        <span class="aura-header">Front</span>
+                        <select id="myownfront" name="myownfront" onchange="updatePersonalityUrl();">
+                        </select>
                 
-                    <!--selection for My Heart backs where entries are appended-->
-                    <b>Back</b>
-                    <select id="myheartback" name="myheartback" onchange="updatePersonalityUrl();">
-                    </select>
+                        <!--selection for My Own front colours where entries are appended-->
+                        <select id="myownfrontcolour" name="myownfrontcolour" onchange="updatePersonalityUrl();">
+                        </select>
                 
-                    <!--selection for My Heart back colours where entries are appended-->
-                    <select id="myheartbackcolour" name="myheartbackcolour" onchange="updatePersonalityUrl();">
-                    </select>
-                </div>
+                        <!--selection for My Own backs where entries are appended-->
+                        <span class="aura-header">Back</span>
+                        <select id="myownback" name="myownback" onchange="updatePersonalityUrl();">
+                        </select>
+                
+                        <!--selection for My Own back colours where entries are appended-->
+                        <select id="myownbackcolour" name="myownbackcolour" onchange="updatePersonalityUrl();">
+                        </select>
+                    </div>
 
-                <div id="stageRadios" class="stageRadios radio-selector">
-                    <input type="radio" name="stage" value="hatch" id="hatch" onchange="setStage(this.value)" />
-                    <label for="hatch" id="hatchLabel" aria-disabled="false">Hatch</label>
+                    <div id="myheartselect">
+                        <!--selection for My Heart fronts where entries are appended-->
+                        <span class="aura-header">Front</span>
+                        <select id="myheartfront" name="myheartfront" onchange="updatePersonalityUrl();">
+                        </select>
                     
-                    <input type="radio" name="stage" value="hatchling" id="hatchling" onchange="setStage(this.value)" />
-                    <label for="hatchling" id="hatchlingLabel" aria-disabled="false">Hatchling</label>
+                        <!--selection for My Heart front colours where entries are appended-->
+                        <select id="myheartfrontcolour" name="myheartfrontcolour" onchange="updatePersonalityUrl();">
+                        </select>
                     
-                    <input type="radio" name="stage" value="adult" id="adult" onchange="setStage(this.value)" checked>
-                    <label for="adult" id="adultLabel" aria-disabled="false">Adult</label>
+                        <!--selection for My Heart backs where entries are appended-->
+                        <span class="aura-header">Back</span>
+                        <select id="myheartback" name="myheartback" onchange="updatePersonalityUrl();">
+                        </select>
                     
-                    <input type="radio" name="stage" value="essence" id="essence" onchange="setStage(this.value)" />
-                    <label for="essence" id="essenceLabel" aria-disabled="false">Special Evolution</label>
-                    
-                    <input type="radio" name="stage" value="prism" id="prism" onchange="setStage(this.value)" />
-                    <label for="prism" id="prismLabel" aria-disabled="false">Prism Evolution</label>
-                    
-                    <input type="radio" name="stage" value="fusion" id="fusion" onchange="setStage(this.value)" />
-                    <label for="fusion" id="fusionLabel" aria-disabled="false">Fusion Evolution</label>
+                        <!--selection for My Heart back colours where entries are appended-->
+                        <select id="myheartbackcolour" name="myheartbackcolour" onchange="updatePersonalityUrl();">
+                        </select>
+                    </div>
+                    <div class="sharelink-button">
+                        <!--sharelinks. because sharing is caring.-->
+                        <!--(it doesn't track views though, sorry)-->
+                        <input type="image" onclick="copySharelink()" src="./res/img/link_0202.png" alt="Copy Sharelink"></input>
+                    </div>
+                    <div class="help-button">
+                        <input type="image" onclick="helpMenu()" src="./res/img/help_0101.png" alt="Help Menu"></input>
+                    </div>
+                </div>
+                <div class="summary-center">
+                    <div id="stageRadios" class="stageRadios radio-selector">
+                        <span class="title-header">Evolution Stage</span>
+                        <input type="radio" name="stage" value="hatch" id="hatch" onchange="setStage(this.value)" />
+                        <label for="hatch" id="hatchLabel" aria-disabled="false">
+                            <img src="./res/img/stage_hatch.png" alt="hatch selection">
+                        </label>
+                        <input type="radio" name="stage" value="hatchling" id="hatchling" onchange="setStage(this.value)" />
+                        <label for="hatchling" id="hatchlingLabel" aria-disabled="false">
+                            <img src="./res/img/stage_hatchling.png" alt="hatchling selection">
+                        </label>
+                        <input type="radio" name="stage" value="adult" id="adult" onchange="setStage(this.value)" checked>
+                        <label for="adult" id="adultLabel" aria-disabled="false">
+                            <img src="./res/img/stage_adult.png" alt="adult selection">
+                        </label>
+                        <input type="radio" name="stage" value="essence" id="essence" onchange="setStage(this.value)" />
+                        <label for="essence" id="essenceLabel" aria-disabled="false">
+                            <img src="./res/img/stage_essence.png" alt="essence selection">
+                        </label>
+                        <input type="radio" name="stage" value="prism" id="prism" onchange="setStage(this.value)" />
+                        <label for="prism" id="prismLabel" aria-disabled="false">
+                            <img src="./res/img/stage_prism.png" alt="prism selection">
+                        </label>
+                        <input type="radio" name="stage" value="fusion" id="fusion" onchange="setStage(this.value)" />
+                        <label for="fusion" id="fusionLabel" aria-disabled="false">
+                            <img src="./res/img/stage_fusion.png" alt="fusion selection">
+                        </label>
+                    </div>
+                </div>
+                <div class="summary-right">
+                    <!--no way, is that a CHROMA?!?-->
+                    <span class="title-header">Chroma Mode</span>
+                    <div id="chromaRadios" class="chromaRadios radio-selector">
+                        <input type="radio" name="chroma" value="rgb" id="rgb" onchange="setchromaState(this.value)" checked />
+                        <label for="rgb" id="rgbLabel">Default</label>
+                        
+                        <input type="radio" name="chroma" value="gbr" id="gbr" onchange="setchromaState(this.value)">
+                        <label for="gbr" id="gbrLabel">GBR</label>
+                        
+                        <input type="radio" name="chroma" value="rbg" id="rbg" onchange="setchromaState(this.value)">
+                        <label for="rbg" id="rbgLabel">RBG</label>
+                        
+                        <input type="radio" name="chroma" value="bgr" id="bgr" onchange="setchromaState(this.value)">
+                        <label for="bgr" id="bgrLabel">BGR</label>
+                        
+                        <input type="radio" name="chroma" value="grb" id="grb" onchange="setchromaState(this.value)">
+                        <label for="grb" id="grbLabel">GRB</label>
+                        
+                        <input type="radio" name="chroma" value="brg" id="brg" onchange="setchromaState(this.value)">
+                        <label for="brg" id="brgLabel">BRG</label>
+                    </div>
                 </div>
             </section>
 
             <section class="control-panel1">
-                 <!--no way, is that a CHROMA?!?-->
-                <div id="chromaRadios" class="chromaRadios radio-selector">
-                    <input type="radio" name="chroma" value="rgb" id="rgb" onchange="setchromaState(this.value)" checked />
-                    <label for="rgb" id="rgbLabel">Default</label>
-                    
-                    <input type="radio" name="chroma" value="gbr" id="gbr" onchange="setchromaState(this.value)">
-                    <label for="gbr" id="gbrLabel">GBR</label>
-                    
-                    <input type="radio" name="chroma" value="rbg" id="rbg" onchange="setchromaState(this.value)">
-                    <label for="rbg" id="rbgLabel">RBG</label>
-                    
-                    <input type="radio" name="chroma" value="bgr" id="bgr" onchange="setchromaState(this.value)">
-                    <label for="bgr" id="bgrLabel">BGR</label>
-                    
-                    <input type="radio" name="chroma" value="grb" id="grb" onchange="setchromaState(this.value)">
-                    <label for="grb" id="grbLabel">GRB</label>
-                    
-                    <input type="radio" name="chroma" value="brg" id="brg" onchange="setchromaState(this.value)">
-                    <label for="brg" id="brgLabel">BRG</label>
+                <div class="background-group">
+                    <!--selection for backgrounds where entries are appended-->
+                    <span class="title-header">Background</span>
+                    <div class="dropdown">
+                        <input type="text" class="search-box" id="bgSearch" placeholder="Search...">
+                        <div class="dropdown-content" id="bgDropdown"></div>
+                    </div>
+
+                    <select id="cavebg" name="cavebg" style="display: none;" onchange="updateBackgroundUrl();">
+                    </select>
+                    <div id="bgRadios" class="bgRadios radio-selector">
+                        <input type="radio" name="bg" value="idle" id="bgidle" onchange="setbgState(this.value)" checked />
+                        <label for="bgidle" id="bgidleLabel">Idle</label>
+                        
+                        <input type="radio" name="bg" value="" id="bgstop" onchange="setbgState(this.value)" />
+                        <label for="bgstop" id="bgstopLabel">Stop</label>
+                        
+                        <input type="radio" name="brightness" value="1" id="bright" onchange="setbrightness(this.value)" checked />
+                        <label for="bright" id="brightLabel">Bright</label>
+                        
+                        <input type="radio" name="brightness" value="0.4" id="dark" onchange="setbrightness(this.value)" />
+                        <label for="dark" id="darkLabel">Dark</label>           
+                    </div>
                 </div>
 
+                <div class="floor-group">
+                    <!--selection for floors where entries are appended-->
+                    <span class="title-header">Floor</span>
+                    <div class="dropdown">
+                        <input type="text" class="search-box" id="floorSearch" placeholder="Search...">
+                        <div class="dropdown-content" id="floorDropdown"></div>
+                    </div>
+
+                    <select id="cavefloor" name="cavefloor" style="display: none;" onchange="updateFloorUrl();">
+                    </select>
+                    <div id="floorRadios" class="floorRadios radio-selector">
+                        <input type="radio" name="floor" value="idle" id="flooridle" onchange="setfloorState(this.value)" checked />
+                        <label for="flooridle" id="flooridleLabel">Idle</label>
+                        
+                        <input type="radio" name="floor" value="" id="floorstop" onchange="setfloorState(this.value)" />
+                        <label for="floorstop" id="floorstopLabel">Stop</label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="control-panel2">
                 <div id="animRadios" class="animRadios radio-selector">
+                    <span class="title-header">Animation</span>
                     <input type="radio" name="animation" value="idle" id="idle" onchange="setanimState(this.value)" checked />
                     <label for="idle" id="idleLabel">Idle</label>
                     
@@ -1275,83 +1361,30 @@
                     
                     <input type="radio" name="animation" value="touch" id="touch" onchange="setanimState(this.value)">
                     <label for="touch" id="touchLabel">Touch</label>
-                    
-                    <div id="combatAnims">
-                    <input type="radio" name="animation" value="attack" id="attack" onchange="setanimState(this.value)">
-                    <label for="attack" id="attackLabel">Attack</label>
-                    
-                    <input type="radio" name="animation" value="skill" id="skill" onchange="setanimState(this.value)">
-                    <label for="skill" id="skillLabel">Skill</label>
-                    
-                    </div>
+
                     <input type="radio" name="animation" value="" id="none" onchange="setanimState(this.value)">
                     <label for="none" id="noneLabel">None</label>
+                    
+                    <div id="combatAnims">
+                        <input type="radio" name="animation" value="attack" id="attack" onchange="setanimState(this.value)">
+                        <label for="attack" id="attackLabel">Attack</label>
+                        
+                        <input type="radio" name="animation" value="skill" id="skill" onchange="setanimState(this.value)">
+                        <label for="skill" id="skillLabel">Skill</label>                    
+                    </div>
                 </div>
                 
                 <!--the ugly halo for top 20 Mystic rank-->
                 <div id="haloRadios" class="haloRadios radio-selector">
+                    <span class="title-header">Spotlight</span>
                     <input type="radio" name="halo" value="" id="halooff" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" checked />
-                    <label for="halooff" id="halooffLabel">
-                        <img src="./res/img/license_00.png" alt="halo off">
-                    </label>
+                    <label for="halooff" id="halooffLabel">Off</label>
                     
                     <input type="radio" name="halo" value="idle" id="haloidle" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" />
-                    <label for="haloidle" id="haloidleLabel">
-                        <img src="./res/img/license_10.png" alt="halo idle">
-                    </label>
+                    <label for="haloidle" id="haloidleLabel">On</label>
                     
                     <input type="radio" name="halo" value="appear" id="haloburst" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" />
-                    <label for="haloburst" id="haloburstLabel">
-                        <img src="./res/img/license_10.png" alt="halo burst">
-                    </label>*               
-                </div>
-
-                <!--sharelinks. because sharing is caring.-->
-                    <!--(it doesn't track views though, sorry)-->
-                <input type="image" onclick="copySharelink()" src="./res/img/link_0202.png" width="40px" alt="Copy Sharelink"></input>
-                <br>
-                <p id="buttonAlert">Copied!</p>
-            </section>
-
-            <section class="control-panel2">            
-                <!--selection for backgrounds where entries are appended-->
-                <span class="title-header">Background</span>
-                <div class="dropdown">
-                    <input type="text" class="search-box" id="bgSearch" placeholder="Search...">
-                    <div class="dropdown-content" id="bgDropdown"></div>
-                </div>
-
-                <select id="cavebg" name="cavebg" style="display: none;" onchange="updateBackgroundUrl();">
-                </select>
-                <div id="bgRadios" class="bgRadios radio-selector">
-                    <input type="radio" name="bg" value="idle" id="bgidle" onchange="setbgState(this.value)" checked />
-                    <label for="bgidle" id="bgidleLabel">Idle</label>
-                    
-                    <input type="radio" name="bg" value="" id="bgstop" onchange="setbgState(this.value)" />
-                    <label for="bgstop" id="bgstopLabel">Stop</label>
-                    
-                    <input type="radio" name="brightness" value="1" id="bright" onchange="setbrightness(this.value)" checked />
-                    <label for="bright" id="brightLabel">Bright</label>
-                    
-                    <input type="radio" name="brightness" value="0.4" id="dark" onchange="setbrightness(this.value)" />
-                    <label for="dark" id="darkLabel">Dark</label>           
-                </div>
-            
-                <!--selection for floors where entries are appended-->
-                <span class="title-header">Floor</span>
-                <div class="dropdown">
-                    <input type="text" class="search-box" id="floorSearch" placeholder="Search...">
-                    <div class="dropdown-content" id="floorDropdown"></div>
-                </div>
-
-                <select id="cavefloor" name="cavefloor" style="display: none;" onchange="updateFloorUrl();">
-                </select>
-                <div id="floorRadios" class="floorRadios radio-selector">
-                    <input type="radio" name="floor" value="idle" id="flooridle" onchange="setfloorState(this.value)" checked />
-                    <label for="flooridle" id="flooridleLabel">Idle</label>
-                    
-                    <input type="radio" name="floor" value="" id="floorstop" onchange="setfloorState(this.value)" />
-                    <label for="floorstop" id="floorstopLabel">Stop</label>
+                    <label for="haloburst" id="haloburstLabel">Burst</label>
                 </div>
             </section>
 
@@ -1359,8 +1392,13 @@
                 <!--just a horizontal line. nothing to see here.-->
                 <hr size=1>
                 <!--i don't own these assets; please don't sue me.-->
-                <a href="https://github.com/vega-spica/Personality-Sneak-Peek-Expanded">Github repository</a> – All Dragon Village assets and characters <a href="https://www.highbrow.com/en">©highbrow Inc</a>.<br>
-                If you enjoyed using this tool, please consider contributing to the <a href=https://dragon-village-collection.fandom.com/wiki/Home>DVC Fandom Wiki</a>.
+                <a href="https://github.com/vega-spica/Personality-Sneak-Peek-Expanded">Github repository</a> – All Dragon Village assets and characters <a href="https://www.highbrow.com/en">©highbrow Inc</a>.
+            </div>
+            <div id="helpOverlay" class="help-overlay">
+                <div class="help-popup">
+                    <button class="help-close" onclick="helpMenu()">×</button>
+                    <div id="helpText">Loading...</div>
+                </div>
             </div>
 
             <script>
@@ -1467,9 +1505,60 @@
                     selectId: "cavefloor",
                     onChange: updateFloorUrl
                 });
+
+                let helpOpen = false;
+                let helpLoaded = false;
+
+                /* it's okay. we all need some help sometimes. */
+                async function helpMenu() {
+                    const overlay = document.getElementById("helpOverlay");
+                    const helpText = document.getElementById("helpText");
+
+                    helpOpen = !helpOpen;
+
+                    if (helpOpen) {
+                        overlay.classList.add("open");
+
+                        if (!helpLoaded) {
+                            try {
+                                const response = await fetch("./help_menu.txt");
+
+                                if (!response.ok) {
+                                    throw new Error("Could not load help menu.");
+                                }
+
+                                const text = await response.text();
+
+                                helpText.innerHTML = text.replace(/\n/g, "<br>");
+                                helpLoaded = true;
+
+                            } catch (error) {
+                                console.error(error);
+                                helpText.textContent = "Failed to load help menu.";
+                            }
+                        }
+                    } else {
+                        overlay.classList.remove("open");
+                    }
+                }
+
+                //close button
+                document.getElementById("helpOverlay").addEventListener("click", function(event) {
+                    if (event.target === this) {
+                        helpMenu();
+                    }
+                });
+
+                //or ESC button
+                document.addEventListener("keydown", function(event) {
+                    if (event.key === "Escape" && helpOpen) {
+                        helpMenu();
+                    }
+                });
             </script>
 
             </div><!--this ends the wrapper. or does it?-->
         </main>
     </div>
+    <div id="toast" class="toast"></div>
 </body>

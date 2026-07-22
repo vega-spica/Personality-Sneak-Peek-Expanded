@@ -1,4 +1,21 @@
-hello, world!
-(not very helpful, is it...?)
 
-click "X" or hit "ESC" to close this menu.
+<center><span style="font-size:1.3em;">Help</span></center>
+<span class="help-header">Species</span>: can be searched by keyword or scrolled through. entries labelled [DV3] are used specifically for DV3.
+
+<span class="help-header">Form</span>: entries with animations that may be harmful to users with photosensitivity are labelled with "FLASHING".
+
+<span class="help-header">Personality</span>: can be searched by keyword or scrolled through. entries labelled "Fly" replace the normal versions in-game if a model is designated as flying (or floating) above the ground. entries labelled [DV3] are used specifically for DV3, and entries with internal resource names in parentheses are dummied out and inaccessible in-game.
+
+<span class="help-header">Chroma Mode</span>: applies shaders that emulate the post-processing filters used for Chromas in Dragon Village 3. each species in DV3 is limited to one Chroma filter in-game, but this tool freely allows for the selection of any of the five options available in DV3's Chroma Check developer menu.
+
+<span class="help-header">Background/Floor</span>: entries with animations that may be harmful to users with photosensitivity are labelled with "FLASHING".
+
+<span class="help-header">Animation</span>: the selected animation will persist even when the species is changed. the "None" animation falls back to the setup pose, which may not necessarily match the in-game still sprite art for a dragon species. the "Attack" and "Skill" animations are only available when a DV3 model is selected, and will default back to “Idle” when the species is next changed.
+
+<span class="help-header">Spotlight</span>: the obtrusive orange spotlight that appears over the top 20 rankers in a server. the Burst animation is the halo burst that appears when a ranker taps their own dragon in the Square.
+
+<span class="help-header">Sharelink</span>: the yellow share button will copy a sharelink to the clipboard. this exports a link to the current dragon as it is, with its personality and cave decorations.
+
+for mobile users, the site should automatically resize based on device screen size to reduce the amount of space at the top and bottom of the page. if it does not, please ensure that “Desktop Mode” is not enabled on this site. a shortcut to the site can also be installed to the home screen for easier access.
+
+this is an unofficial tool, and i don't receive any money for making it. but if you’d like to see more archival like this, consider contributing to the <a href="https://dragon-village-collection.fandom.com/wiki/">DVC Fandom Wiki</a>.
