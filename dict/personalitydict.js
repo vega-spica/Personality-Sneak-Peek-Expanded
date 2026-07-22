@@ -626,6 +626,11 @@ const personalityJson = {
 		"back": "back_b",
 		"front": "front_a"
 	},
+	"Redemptive": {
+		"each": "aura_s_redemptive",
+		"back": "back",
+		"front": "front"
+	},
 	"Red Moon": {
 		"each": "aura_s_fullmoon",
 		"back": "back_b",

@@ -56667,10 +56667,29 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
             "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatch_w"
               }
             }
           }
@@ -56679,10 +56698,29 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
             "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_hatchling_w"
               }
             }
           }
@@ -56691,10 +56729,29 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "09": {
             "formDisplay": "Default [DV3]",
             "genders": {
               "n": {
                 "color": "dv3"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_w_adult_w"
               }
             }
           }
