@@ -1094,7 +1094,7 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
-    "[DV3] Shining Thunderclap (Purple)": {
+    "[DV3] Shining Thunderclap (Indigo)": {
         "each": "aura_a_thunderclap_navy",
         "back": "back",
         "front": "front"
@@ -1134,7 +1134,7 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
-    "[DV3] Thunderclap (Purple)": {
+    "[DV3] Thunderclap (Indigo)": {
         "each": "aura_b_thunderclap_navy",
         "back": "back",
         "front": "front"
