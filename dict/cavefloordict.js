@@ -206,6 +206,9 @@ const cavefloorJson = {
     "Red Horse Dragon (Special)": {
         "res": "redhorse/redhorse_floor_02/redhorse_floor_02"
     },
+    "Selora": {
+        "res": "selora/selora_floor_01/selora_floor_01"
+    },
     "Shafir": {
         "res": "shafir/shafir_floor_01/shafir_floor_01"
     },

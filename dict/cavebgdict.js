@@ -203,6 +203,9 @@ const cavebgJson = {
     "Red Horse Dragon (Special)": {
         "res": "redhorse/redhorse_bg_02/redhorse_bg_02"
     },
+    "Selora": {
+        "res": "selora/selora_bg_01/selora_bg_01"
+    },
     "Shafir": {
         "res": "shafir/shafir_bg_01/shafir_bg_01"
     },
