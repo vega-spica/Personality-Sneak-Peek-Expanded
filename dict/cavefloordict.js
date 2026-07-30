@@ -221,6 +221,12 @@ const cavefloorJson = {
     "Shockwave (Special)": {
         "res": "shockwave/shockwave_floor_02/shockwave_floor_02"
     },
+    "Sirius": {
+        "res": "sirius/sirius_floor_01/sirius_floor_01"
+    },
+    "Sirius (Special)": {
+        "res": "sirius/sirius_floor_02/sirius_floor_02"
+    }, 
     "Symphonia": {
     "res": "symphonia/symphonia_floor_01/symphonia_floor_01"
     },
