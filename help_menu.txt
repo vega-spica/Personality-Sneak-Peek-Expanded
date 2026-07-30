@@ -10,7 +10,7 @@
 
 <span class="help-header">Background/Floor</span>: entries with animations that may be harmful to users with photosensitivity are labelled with "FLASHING".
 
-<span class="help-header">Animation</span>: the selected animation will persist even when the species is changed. the "None" animation falls back to the setup pose, which may not necessarily match the in-game still sprite art for a dragon species. the "Attack" and "Skill" animations are only available when a DV3 model is selected, and will default back to “Idle” when the species is next changed.
+<span class="help-header">Animation</span>: the selected animation will persist even when the species is changed. the "None" animation falls back to the setup pose, which may not necessarily match the in-game still sprite art for a dragon species. certain animations are only available when a DV3 model is selected, and will default back to “Idle” when the species is next changed.
 
 <span class="help-header">Spotlight</span>: the obtrusive orange spotlight that appears over the top 20 rankers in a server. the Burst animation is the halo burst that appears when a ranker taps their own dragon in the Square.
 

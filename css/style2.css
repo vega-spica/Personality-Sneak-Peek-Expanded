@@ -41,6 +41,7 @@ body {
 
 .aura-header {
   color: #dfc690;
+  grid-column: 1 / -1;
 }
 
 .help-header {
@@ -185,7 +186,6 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   position: relative;
   display: flex;
   align-items: flex-end;
-  justify-content: space-evenly;
   gap: 24px;
   width: 688px;
   min-height: 72px;
@@ -207,15 +207,16 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .genderRadios {
   display: flex;
   align-items: center;
+  padding-left: 10px;
 }
 
 .summary-panel {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 34px;
+  gap: 20px;
   width: 688px;
   height: 220px;
-  padding: 7px 30px 12px 30px;
+  padding: 7px 20px 12px 20px;
   border: 5px solid #050403;
   border-top: 0;
   border-radius: 0 0 18px 18px;
@@ -225,26 +226,22 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .summary-left,
 .summary-center,
 .summary-right {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-.sharelink-button {
-    position: absolute;
-    right: 0;
-    bottom: 67;
+.summary-left {
+  width: 250px;
+}
+
+.summary-center {
+    padding-right: 18px;
 }
 
 .sharelink-button input[type="image"] {
     width: auto;
     height: 40px;
-}
-
-.help-button {
-    position: absolute;
-    right: 0;
-    bottom: 18;
 }
 
 .help-button input[type="image"] {
@@ -255,7 +252,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .stageRadios {
     display: grid;
     grid-template-columns: repeat(3, max-content);
-    gap: 5px;
+    gap: 8px;
 }
 
 .stageRadios .title-header {
@@ -271,20 +268,28 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
     display: grid;
     grid-template-columns: repeat(2, max-content);
     gap: 5px 15px;
+    padding-top: 8px;
 }
 
 .control-panel1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 70px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, max-content);
+  gap: 24px;
   width: 688px;
   margin-top: 8px;
-  padding: 10px 30px;
+  padding: 10px 20px;
   border: 5px solid #050403;
   border-radius: 18px;
   background: #050505;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.button-box {
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 
 .control-panel2 {
@@ -293,7 +298,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   gap: 50px;
   width: 688px;
   margin-top: 8px;
-  padding: 10px 30px;
+  padding: 10px 20px;
   border: 5px solid #050403;
   border-radius: 18px;
   background: #050505;
@@ -376,18 +381,41 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 }
 
 /* fancy dropdowns~ */
-select {
-  background-color: #dfdfde;
-  font: inherit;
-  width: 205px;
-}
-
-/* even NEWER dropdowns */
 .dropdown {
   position: relative;
   width: 205px;
   color: #000000;
   text-shadow: none;
+  width: 250px;
+}
+
+.form-dropdown {
+    width: 195px;
+}
+
+.customaura-dropdown {
+    width: 120px;
+}
+
+.dropdown:has(.no-search)::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+
+  width: 7px;
+  height: 7px;
+
+  border-right: 2px solid #555;
+  border-bottom: 2px solid #555;
+
+  transform: translateY(-65%) rotate(45deg);
+  transition: transform 0.15s;
+  pointer-events: none;
+}
+
+.dropdown.active:has(.no-search)::after {
+  transform: translateY(-35%) rotate(-135deg);
 }
 
 /* ggrks!! (¬ `ꞈ´ ¬) */
@@ -396,12 +424,20 @@ select {
   font: inherit;
 }
 
+.search-box.no-search {
+  cursor: pointer;
+  caret-color: transparent;
+  user-select: none;
+  padding-right: 24px;
+}
+
 .dropdown-content {
   position: absolute;
   z-index: 100;
   display: none;
   background: #dfdfde;
   max-height: 200px;
+  width: 100%;
   overflow-y: auto;
 }
 
@@ -416,12 +452,11 @@ select {
 
 #myownselect,
 #myheartselect {
-  display: none;
-  flex-direction: column;
-
-  select {
-    width: 120px;
-  }
+    display: none;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 8px;
+    row-gap: 4px;
+    align-items: center;
 }
 
 /* nifty radio buttons. yes, they're nifty. */
