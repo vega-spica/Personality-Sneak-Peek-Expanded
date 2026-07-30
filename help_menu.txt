@@ -1,10 +1,10 @@
 
 <center><span style="font-size:1.3em;">Help</span></center>
-<span class="help-header">Species</span>: can be searched by keyword or scrolled through. entries labelled [DV3] are used specifically for DV3.
+<span class="help-header">Species</span>: can be searched by keyword or scrolled through.
 
 <span class="help-header">Form</span>: entries with animations that may be harmful to users with photosensitivity are labelled with "FLASHING".
 
-<span class="help-header">Personality</span>: can be searched by keyword or scrolled through. entries labelled "Fly" replace the normal versions in-game if a model is designated as flying (or floating) above the ground. entries labelled [DV3] are used specifically for DV3, and entries with internal resource names in parentheses are dummied out and inaccessible in-game.
+<span class="help-header">Personality</span>: can be searched by keyword or scrolled through. entries labelled "Fly" replace the normal versions in-game if a model is designated as flying (or floating) above the ground. entries with internal resource names in parentheses are dummied out and inaccessible in-game.
 
 <span class="help-header">Chroma Mode</span>: applies shaders that emulate the post-processing filters used for Chromas in Dragon Village 3. each species in DV3 is limited to one Chroma filter in-game, but this tool freely allows for the selection of any of the five options available in DV3's Chroma Check developer menu.
 

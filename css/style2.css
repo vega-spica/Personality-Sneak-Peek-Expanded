@@ -98,7 +98,10 @@ a:hover {
     transform-origin: top center;
 }
 
-/* one size fits all! */
+/* 
+load-bearing css property. do not touch. do not look at it directly. the fate of Alitia depends upon it.
+  or does it...? maybe. you shouldn't risk it though, just don't touch it.
+*/
 .page.fit-ready {
     visibility: visible;
     transition: transform 0.18s ease;
@@ -344,6 +347,32 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 
     cursor: pointer;
     transition: background-color 0.15s, border-color 0.15s;
+    position: relative;
+}
+
+/* in the dragon world, genders have tooltips. */
+.radio-selector label::before {
+    content: attr(data-tooltip);
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    opacity: 0;
+    pointer-events: none;
+
+    background-color: #323232;
+    color: #fff;
+    padding: 3px;
+    border-radius: 4px;
+
+    transition: opacity 0.15s;
+}
+
+.radio-selector label:hover::before,
+.radio-selector label.tooltip-visible::before {
+    opacity: 0.9;
 }
 
 .radio-selector label:hover {
@@ -444,6 +473,9 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .dropdown-content div {
   padding: 4px;
   cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
 }
 
 .dropdown-content div:hover {
@@ -459,28 +491,9 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
     align-items: center;
 }
 
-/* nifty radio buttons. yes, they're nifty. */
-#genderRadios label {
-  position: relative;
-}
-
-/* disappearing gender buttons are also nifty. */
+//* nifty disappearing radio buttons. yes, they're nifty. */
 .disabledButton {
   opacity: 0.3;
-}
-
-/* in the dragon world, genders have tooltips. */
-#genderRadios label:hover::before {
-  content: attr(for);
-  text-transform: capitalize;
-  position: absolute;
-  bottom: 120%;
-  opacity: 0.75;
-  background-color: #323232;
-  color: #fff;
-  padding: 3px;
-  border-radius: 4px;
-  display: block;
 }
 
 /* always be sure to read the enclosed instruction booklet. */

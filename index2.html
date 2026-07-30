@@ -1033,8 +1033,23 @@
                 showToast("Copied!");
             }
 
-        /* here's where we'll make the toast. */
-            /* no, not that kind of toast, unfortunately. */
+            /* look, i'm a hologram! */
+            document.querySelectorAll(".radio-selector label").forEach(label => {
+                label.addEventListener("touchstart", () => {
+                    document.querySelectorAll(".tooltip-visible")
+                        .forEach(other => other.classList.remove("tooltip-visible"));
+
+                    label.classList.add("tooltip-visible");
+
+                    clearTimeout(label.tooltipTimer);
+                    label.tooltipTimer = setTimeout(() => {
+                        label.classList.remove("tooltip-visible");
+                    }, 1000);
+                });
+            });
+
+        //here's where we'll make the toast. 
+            //no, not that kind of toast, unfortunately.
         let toastTimer;
 
         function showToast(message) {
@@ -1081,6 +1096,7 @@
             }
         }
 
+        //one size fits all!
         function fitPageOnResize() {
             if (fitResizeRaf) return;
             fitResizeRaf = requestAnimationFrame(function () {
@@ -1154,7 +1170,7 @@
                     <!--selection for species where entries are appended-->
                     <span class="title-header">Species</span>
                     <div class="dropdown">
-                        <input type="text" class="search-box" id="speciesSearch" placeholder="Search...">
+                        <input type="text" class="search-box" id="speciesSearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="dropdown"></div>
                     </div>
                 </div>
@@ -1166,7 +1182,7 @@
                     <!--selection for forms where entries are appended-->
                     <span class="title-header">Form</span>
                     <div class="dropdown form-dropdown">
-                        <input type="text" class="search-box no-search" id="formSearch" readonly>
+                        <input type="text" class="search-box no-search" id="formSearch" autocomplete="off" readonly>
                         <div class="dropdown-content" id="formDropdown"></div>
                     </div>
                 </div>
@@ -1178,15 +1194,15 @@
                     <!--who needs text for radio buttons, anyways?-->
                     <div id="genderRadios" class="genderRadios radio-selector">
                         <input type="radio" name="gender" value="m" id="male" onchange="setGender(this.value)" checked />
-                        <label for="male" id="maleLabel" aria-disabled="false">
+                        <label for="male" id="maleLabel" data-tooltip="Male" aria-disabled="false">
                             <img src="./res/img/gender_m_0201.png" alt="male selection">
                         </label>
                         <input type="radio" name="gender" value="f" id="female" onchange="setGender(this.value)" />
-                        <label for="female" id="femaleLabel" aria-disabled="false">
+                        <label for="female" id="femaleLabel" data-tooltip="Female" aria-disabled="false">
                             <img src="./res/img/gender_f_0201.png" alt="female selection">
                         </label>
                         <input type="radio" name="gender" value="n" id="neutral" onchange="setGender(this.value)">
-                        <label for="neutral" id="neutralLabel" aria-disabled="false">
+                        <label for="neutral" id="neutralLabel" data-tooltip="Neutral" aria-disabled="false">
                             <img src="./res/img/gender_n_0201.png" alt="neutral selection">
                         </label>
                     </div>
@@ -1198,7 +1214,7 @@
                 <!--selection for auras where entries are appended-->
                     <span class="title-header">Personality</span>
                     <div class="dropdown">
-                        <input type="text" class="search-box" id="personalitySearch" placeholder="Search...">
+                        <input type="text" class="search-box" id="personalitySearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="personalityDropdown"></div>
                     </div>
 
@@ -1209,7 +1225,7 @@
                         <!--selection for My Own fronts where entries are appended-->
                         <span class="aura-header">Front</span>
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myownfrontSearch" readonly>
+                            <input type="text" class="search-box no-search" id="myownfrontSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myownfrontDropdown"></div>
                         </div>
                         <select id="myownfront" name="myownfront" style="display: none;" onchange="updatePersonalityUrl();">
@@ -1217,7 +1233,7 @@
                 
                         <!--selection for My Own front colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myownfrontcolourSearch" readonly>
+                            <input type="text" class="search-box no-search" id="myownfrontcolourSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myownfrontcolourDropdown"></div>
                         </div>
                         <select id="myownfrontcolour" name="myownfrontcolour" style="display: none;" onchange="updatePersonalityUrl();">
@@ -1226,7 +1242,7 @@
                         <!--selection for My Own backs where entries are appended-->
                         <span class="aura-header">Back</span>
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myownbackSearch" readonly>
+                            <input type="text" class="search-box no-search" id="myownbackSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myownbackDropdown"></div>
                         </div>
                         <select id="myownback" name="myownback" style="display: none;" onchange="updatePersonalityUrl();">
@@ -1234,7 +1250,7 @@
                 
                         <!--selection for My Own back colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myownbackcolourSearch" readonly>
+                            <input type="text" class="search-box no-search" id="myownbackcolourSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myownbackcolourDropdown"></div>
                         </div>
                         <select id="myownbackcolour" name="myownbackcolour" style="display: none;" onchange="updatePersonalityUrl();">
@@ -1245,7 +1261,7 @@
                         <!--selection for My Heart fronts where entries are appended-->
                         <span class="aura-header">Front</span>
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myheartfrontSearch" readonly>
+                            <input type="text" class="search-box no-search" id="myheartfrontSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myheartfrontDropdown"></div>
                         </div>
                         <select id="myheartfront" name="myheartfront" style="display: none;" onchange="updatePersonalityUrl();">
@@ -1253,7 +1269,7 @@
                 
                         <!--selection for My Heart front colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myheartfrontcolourSearch" readonly>
+                            <input type="text" class="search-box no-search" id="myheartfrontcolourSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myheartfrontcolourDropdown"></div>
                         </div>
                         <select id="myheartfrontcolour" name="myheartfrontcolour" style="display: none;" onchange="updatePersonalityUrl();">
@@ -1262,7 +1278,7 @@
                         <!--selection for My Heart backs where entries are appended-->
                         <span class="aura-header">Back</span>
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myheartbackSearch" readonly>
+                            <input type="text" class="search-box no-search" id="myheartbackSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myheartbackDropdown"></div>
                         </div>
                         <select id="myheartback" name="myheartback" style="display: none;" onchange="updatePersonalityUrl();">
@@ -1270,7 +1286,7 @@
                 
                         <!--selection for My Heart back colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myheartbackcolourSearch" readonly>
+                            <input type="text" class="search-box no-search" id="myheartbackcolourSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myheartbackcolourDropdown"></div>
                         </div>
                         <select id="myheartbackcolour" name="myheartbackcolour" style="display: none;" onchange="updatePersonalityUrl();">
@@ -1281,27 +1297,27 @@
                     <div id="stageRadios" class="stageRadios radio-selector">
                         <span class="title-header"><center>Evolution Stage</center></span>
                         <input type="radio" name="stage" value="hatch" id="hatch" onchange="setStage(this.value)" />
-                        <label for="hatch" id="hatchLabel" aria-disabled="false">
+                        <label for="hatch" id="hatchLabel" data-tooltip="Hatch" aria-disabled="false">
                             <img src="./res/img/stage_hatch.png" alt="hatch selection">
                         </label>
                         <input type="radio" name="stage" value="hatchling" id="hatchling" onchange="setStage(this.value)" />
-                        <label for="hatchling" id="hatchlingLabel" aria-disabled="false">
+                        <label for="hatchling" id="hatchlingLabel" data-tooltip="Hatchling" aria-disabled="false">
                             <img src="./res/img/stage_hatchling.png" alt="hatchling selection">
                         </label>
                         <input type="radio" name="stage" value="adult" id="adult" onchange="setStage(this.value)" checked>
-                        <label for="adult" id="adultLabel" aria-disabled="false">
+                        <label for="adult" id="adultLabel" data-tooltip="Adult" aria-disabled="false">
                             <img src="./res/img/stage_adult.png" alt="adult selection">
                         </label>
                         <input type="radio" name="stage" value="essence" id="essence" onchange="setStage(this.value)" />
-                        <label for="essence" id="essenceLabel" aria-disabled="false">
+                        <label for="essence" id="essenceLabel" data-tooltip="Special Evolution" aria-disabled="false">
                             <img src="./res/img/stage_essence.png" alt="essence selection">
                         </label>
                         <input type="radio" name="stage" value="prism" id="prism" onchange="setStage(this.value)" />
-                        <label for="prism" id="prismLabel" aria-disabled="false">
+                        <label for="prism" id="prismLabel" data-tooltip="Prism Evolution" aria-disabled="false">
                             <img src="./res/img/stage_prism.png" alt="prism selection">
                         </label>
                         <input type="radio" name="stage" value="fusion" id="fusion" onchange="setStage(this.value)" />
-                        <label for="fusion" id="fusionLabel" aria-disabled="false">
+                        <label for="fusion" id="fusionLabel" data-tooltip="Fusion Evolution" aria-disabled="false">
                             <img src="./res/img/stage_fusion.png" alt="fusion selection">
                         </label>
                     </div>
@@ -1336,7 +1352,7 @@
                     <!--selection for backgrounds where entries are appended-->
                     <span class="title-header">Background</span>
                     <div class="dropdown">
-                        <input type="text" class="search-box" id="bgSearch" placeholder="Search...">
+                        <input type="text" class="search-box" id="bgSearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="bgDropdown"></div>
                     </div>
 
@@ -1361,7 +1377,7 @@
                     <!--selection for floors where entries are appended-->
                     <span class="title-header">Floor</span>
                     <div class="dropdown">
-                        <input type="text" class="search-box" id="floorSearch" placeholder="Search...">
+                        <input type="text" class="search-box" id="floorSearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="floorDropdown"></div>
                     </div>
 
