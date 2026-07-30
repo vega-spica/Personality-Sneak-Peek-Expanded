@@ -370,7 +370,14 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
     transition: opacity 0.15s;
 }
 
-.radio-selector label:hover::before,
+/* OH NO! media queries! */
+@media (hover: hover) and (pointer: fine) {
+    .radio-selector label:hover::before {
+        opacity: 0.9;
+    }
+}
+
+/* mobile devices are safe from the queries. for now. */
 .radio-selector label.tooltip-visible::before {
     opacity: 0.9;
 }
@@ -384,7 +391,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
     border-color: currentColor;
 }
 
-/* totally for the header at the top */
+/* totally for the header at the top. */
 .header {
   text-align: center;
   z-index: 10;
@@ -491,7 +498,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
     align-items: center;
 }
 
-//* nifty disappearing radio buttons. yes, they're nifty. */
+/* nifty disappearing radio buttons. yes, they're nifty. */
 .disabledButton {
   opacity: 0.3;
 }

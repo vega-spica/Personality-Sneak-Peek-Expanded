@@ -1033,11 +1033,18 @@
                 showToast("Copied!");
             }
 
-            /* look, i'm a hologram! */
-            document.querySelectorAll(".radio-selector label").forEach(label => {
-                label.addEventListener("touchstart", () => {
+        /* tooltips got a little... "sticky" on mobile. */
+        document.addEventListener("DOMContentLoaded", () => {
+            const labels = document.querySelectorAll(".radio-selector label");
+
+            labels.forEach(label => {
+                label.addEventListener("pointerdown", () => {
+
                     document.querySelectorAll(".tooltip-visible")
-                        .forEach(other => other.classList.remove("tooltip-visible"));
+                        .forEach(other => {
+                            other.classList.remove("tooltip-visible");
+                            clearTimeout(other.tooltipTimer);
+                        });
 
                     label.classList.add("tooltip-visible");
 
@@ -1047,6 +1054,7 @@
                     }, 1000);
                 });
             });
+        });
 
         //here's where we'll make the toast. 
             //no, not that kind of toast, unfortunately.
