@@ -1,0 +1,15 @@
+jimon_03.png
+size:54,46
+filter:Linear,Linear
+pma:true
+body
+bounds:2,2,36,42
+foot1
+bounds:40,4,12,6
+offsets:1,1,14,8
+foot2
+bounds:40,12,14,6
+rotate:90
+tail
+bounds:40,28,16,12
+rotate:90

@@ -1,0 +1,12 @@
+egg_01.png
+size:59,24
+pma:true
+back
+bounds:35,2,20,22
+offsets:1,1,22,24
+rotate:90
+body_1
+bounds:16,6,16,17
+rotate:90
+eye_1
+bounds:2,10,12,12

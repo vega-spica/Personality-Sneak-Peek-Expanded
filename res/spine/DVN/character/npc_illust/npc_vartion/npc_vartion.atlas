@@ -1,0 +1,14 @@
+npc_vartion.png
+size:746,1654
+filter:Linear,Linear
+angry
+bounds:2,2,250,238
+happy
+bounds:506,230,250,238
+rotate:90
+idle
+bounds:2,482,666,1170
+sad
+bounds:254,242,250,238
+surprise
+bounds:2,242,250,238

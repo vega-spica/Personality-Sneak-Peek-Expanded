@@ -1,0 +1,12 @@
+serpentflower_01.png
+size:100,44
+filter:Linear,Linear
+body_1
+bounds:40,2,40,34
+rotate:90
+head_1
+bounds:2,4,36,38
+tail_acc_1
+bounds:76,22,22,20
+wing_l_1
+bounds:76,2,16,18

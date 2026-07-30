@@ -1,0 +1,10 @@
+event_reward_eff.png
+size:355,244
+filter:Linear,Linear
+sun
+bounds:2,2,249,240
+offsets:2,7,256,256
+ui_frontglow
+bounds:253,19,223,100
+offsets:14,1,252,102
+rotate:90

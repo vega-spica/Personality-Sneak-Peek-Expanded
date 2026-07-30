@@ -1,0 +1,16 @@
+zone_03.png
+size:544,510
+filter:Linear,Linear
+stage_1_4
+bounds:292,36,250,113
+offsets:1,0,251,113
+stage_2
+bounds:311,312,231,196
+offsets:0,0,237,196
+stage_3
+bounds:2,244,264,307
+rotate:90
+stage_5
+bounds:2,2,288,240
+stone
+bounds:311,151,208,159

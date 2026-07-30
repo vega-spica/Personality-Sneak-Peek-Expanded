@@ -1,0 +1,25 @@
+npc_nelson.png
+size:154,70
+filter:Linear,Linear
+pma:true
+arm_2
+bounds:98,26,42,14
+rotate:90
+arm_l_1
+bounds:95,2,22,26
+rotate:90
+arm_r_1
+bounds:121,10,22,22
+body
+bounds:74,30,38,22
+rotate:90
+close eye
+bounds:114,34,34,14
+rotate:90
+head
+bounds:2,6,70,62
+leg_l
+bounds:130,33,22,22
+leg_r
+bounds:67,2,26,26
+rotate:270

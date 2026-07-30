@@ -1,0 +1,6 @@
+heal_eff.png
+size:41,41
+filter:Linear,Linear
+plus
+bounds:2,2,37,37
+offsets:2,2,41,41

@@ -1,0 +1,16 @@
+coffe_rush_eff.png
+size:404,370
+filter:Linear,Linear
+backglow_00005
+bounds:2,2,244,124
+offsets:26,25,288,167
+glow
+bounds:248,4,94,92
+offsets:3,3,100,100
+sun
+bounds:2,128,249,240
+offsets:2,7,256,256
+ui_frontglow
+bounds:253,98,270,149
+offsets:17,15,304,179
+rotate:90

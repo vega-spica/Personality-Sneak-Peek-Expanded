@@ -1,0 +1,17 @@
+npc_kangalo.png
+size:542,1466
+filter:Linear,Linear
+angry
+bounds:2,2,142,158
+rotate:90
+happy
+bounds:322,146,142,158
+rotate:90
+idle
+bounds:2,290,538,1174
+sad
+bounds:162,146,142,158
+rotate:90
+surprise
+bounds:2,146,142,158
+rotate:90

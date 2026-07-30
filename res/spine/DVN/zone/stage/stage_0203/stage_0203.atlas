@@ -1,0 +1,16 @@
+stage_0203.png
+size:970,513
+filter:Linear,Linear
+bird_1
+bounds:816,6,42,145
+offsets:0,0,42,147
+rotate:90
+bird_2
+bounds:816,50,151,59
+floor_2_3
+bounds:2,2,812,509
+offsets:13,2,825,525
+tree_5
+bounds:816,267,152,244
+tree_9
+bounds:816,111,93,154

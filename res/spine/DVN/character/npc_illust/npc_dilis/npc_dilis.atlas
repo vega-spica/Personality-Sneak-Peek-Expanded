@@ -1,0 +1,17 @@
+npc_dilis.png
+size:530,1242
+filter:Linear,Linear
+angry
+bounds:134,2,130,114
+happy
+bounds:2,2,130,114
+idle
+bounds:2,234,526,1006
+sad
+bounds:398,118,130,114
+special0
+bounds:266,118,130,114
+special1
+bounds:134,118,130,114
+surprise
+bounds:2,118,130,114

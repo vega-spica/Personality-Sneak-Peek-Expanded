@@ -1,0 +1,16 @@
+zone_01_bg_eff.png
+size:164,164
+filter:Linear,Linear
+debris_00000
+bounds:65,32,14,14
+offsets:1,1,16,16
+leaf_00000
+bounds:65,48,17,18
+offsets:6,6,30,30
+quad
+bounds:2,2,64,61
+offsets:0,1,64,64
+rotate:90
+smoke_00000
+bounds:2,68,92,94
+offsets:18,18,128,128

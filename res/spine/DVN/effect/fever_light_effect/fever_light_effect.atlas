@@ -1,0 +1,8 @@
+fever_light_effect.png
+size:255,139
+circle
+bounds:166,50,87,87
+mirror
+bounds:2,2,135,162
+offsets:0,0,135,163
+rotate:90

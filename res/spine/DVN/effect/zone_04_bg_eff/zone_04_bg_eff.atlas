@@ -1,0 +1,17 @@
+zone_04_bg_eff.png
+size:161,96
+debris_00000
+bounds:118,14,14,14
+offsets:1,1,16,16
+leaf_00000
+bounds:98,11,17,18
+offsets:6,6,30,30
+rotate:90
+quad
+bounds:98,30,64,61
+offsets:0,1,64,64
+rotate:90
+smoke_00000
+bounds:2,2,92,94
+offsets:18,18,128,128
+rotate:90

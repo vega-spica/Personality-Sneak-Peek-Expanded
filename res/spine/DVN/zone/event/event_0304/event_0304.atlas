@@ -1,0 +1,10 @@
+event_0304.png
+size:1064,323
+filter:Linear,Linear
+event_4_claer
+bounds:824,65,256,238
+rotate:90
+event_4_idle
+bounds:429,81,393,240
+event_4_off
+bounds:2,2,425,319

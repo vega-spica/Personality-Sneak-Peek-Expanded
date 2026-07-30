@@ -1,0 +1,16 @@
+npc_pino.png
+size:542,1858
+filter:Linear,Linear
+angry
+bounds:286,486,254,282
+happy
+bounds:2,2,254,282
+rotate:90
+idle
+bounds:2,770,402,1086
+sad
+bounds:2,258,254,282
+rotate:90
+surprised
+bounds:2,514,254,282
+rotate:90

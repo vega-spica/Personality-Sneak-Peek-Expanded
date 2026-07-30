@@ -1,0 +1,16 @@
+zone_01.png
+size:453,555
+filter:Linear,Linear
+mushroom_1
+bounds:2,100,267,205
+rotate:90
+pinkslime
+bounds:2,2,86,96
+stone_new
+bounds:209,6,198,148
+offsets:1,0,199,148
+zone_0101
+bounds:209,156,211,238
+rotate:90
+zone_0103
+bounds:2,369,449,184

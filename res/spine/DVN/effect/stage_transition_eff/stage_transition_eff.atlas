@@ -1,0 +1,11 @@
+stage_transition_eff.png
+size:688,418
+filter:Linear,Linear
+grd_all
+bounds:2,2,414,450
+offsets:0,1,414,451
+rotate:90
+star_line
+bounds:454,175,241,232
+offsets:9,15,256,256
+rotate:90

@@ -1,0 +1,21 @@
+npc_ani.png
+size:82,202
+filter:Linear,Linear
+pma:true
+arm_l
+bounds:30,2,18,22
+rotate:90
+arm_r
+bounds:50,38,22,26
+body
+bounds:2,38,46,38
+close eye
+bounds:42,22,34,14
+hair
+bounds:2,78,78,62
+head
+bounds:2,130,70,70
+leg_l
+bounds:54,2,18,18
+leg_r
+bounds:2,14,26,22

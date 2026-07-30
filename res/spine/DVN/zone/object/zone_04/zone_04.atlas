@@ -1,0 +1,15 @@
+zone_04.png
+size:438,558
+stage_01
+bounds:260,26,288,176
+rotate:90
+stage_02
+bounds:2,224,332,250
+offsets:0,6,332,256
+rotate:90
+stage_03
+bounds:2,2,220,256
+rotate:90
+stone
+bounds:254,316,240,178
+rotate:90

@@ -1,0 +1,11 @@
+square_bg_eff.png
+size:87,68
+filter:Linear,Linear
+debris_00000
+bounds:68,31,14,15
+offsets:1,1,16,16
+leaf_00000
+bounds:68,48,17,18
+offsets:6,6,30,30
+quad
+bounds:2,2,64,64

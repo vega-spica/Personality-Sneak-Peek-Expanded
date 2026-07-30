@@ -1,0 +1,9 @@
+tamer_partner_aura.png
+size:384,254
+filter:Linear,Linear
+effect_glow2
+bounds:254,124,128,128
+offsets:11,11,150,150
+ring2
+bounds:2,2,250,250
+offsets:3,3,256,256

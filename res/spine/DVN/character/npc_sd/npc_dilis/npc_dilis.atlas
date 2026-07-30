@@ -1,0 +1,25 @@
+npc_dilis.png
+size:199,93
+filter:Linear,Linear
+pma:true
+arm_l
+bounds:109,5,22,18
+arm_r
+bounds:138,11,38,22
+body
+bounds:90,21,70,46
+rotate:90
+close eye
+bounds:73,5,34,14
+egg
+bounds:135,35,38,42
+rotate:180
+head
+bounds:2,17,86,74
+head_ac
+bounds:175,57,22,34
+rotate:180
+leg_l
+bounds:2,2,22,22
+leg_r
+bounds:175,23,22,26
