@@ -696,14 +696,33 @@
                 }
             }
 
-            const combatDiv = document.getElementById("combatAnims");
+            const combatButtons = [
+                document.getElementById("attack"),
+                document.getElementById("skill"),
+                document.getElementById("die")
+            ];
 
-            combatDiv.style.opacity = hasCombat ? "" : "0.3";
+            const combatLabels = [
+                document.getElementById("attackLabel"),
+                document.getElementById("skillLabel"),
+                document.getElementById("dieLabel")
+            ];
+
+            combatButtons.forEach(button => {
+                button.disabled = !hasCombat;
+            });
+
+            combatLabels.forEach(label => {
+                label.classList.toggle("disabledButton", !hasCombat);
+                label.setAttribute("aria-disabled", !hasCombat);
+            });
 
             //in case a selected animation goes poof.
-            if (document.getElementById("attack").checked ||
+            if (!hasCombat && (
+                document.getElementById("attack").checked ||
                 document.getElementById("skill").checked ||
-                document.getElementById("die").checked) {
+                document.getElementById("die").checked
+            )) {
                 document.getElementById("idle").checked = true;
                 setanimState("idle");
             }
@@ -1317,15 +1336,15 @@
                             <img src="./res/img/stage_adult.png" alt="adult selection">
                         </label>
                         <input type="radio" name="stage" value="essence" id="essence" onchange="setStage(this.value)" />
-                        <label for="essence" id="essenceLabel" data-tooltip="Special Evolution" aria-disabled="false">
+                        <label for="essence" id="essenceLabel" data-tooltip="Special" aria-disabled="false">
                             <img src="./res/img/stage_essence.png" alt="essence selection">
                         </label>
                         <input type="radio" name="stage" value="prism" id="prism" onchange="setStage(this.value)" />
-                        <label for="prism" id="prismLabel" data-tooltip="Prism Evolution" aria-disabled="false">
+                        <label for="prism" id="prismLabel" data-tooltip="Prism" aria-disabled="false">
                             <img src="./res/img/stage_prism.png" alt="prism selection">
                         </label>
                         <input type="radio" name="stage" value="fusion" id="fusion" onchange="setStage(this.value)" />
-                        <label for="fusion" id="fusionLabel" data-tooltip="Fusion Evolution" aria-disabled="false">
+                        <label for="fusion" id="fusionLabel" data-tooltip="Fusion" aria-disabled="false">
                             <img src="./res/img/stage_fusion.png" alt="fusion selection">
                         </label>
                     </div>
@@ -1372,7 +1391,7 @@
                         
                         <input type="radio" name="bg" value="" id="bgstop" onchange="setbgState(this.value)" />
                         <label for="bgstop" id="bgstopLabel">Stop</label>
-                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <input type="radio" name="brightness" value="1" id="bright" onchange="setbrightness(this.value)" checked />
                         <label for="bright" id="brightLabel">Bright</label>
                         

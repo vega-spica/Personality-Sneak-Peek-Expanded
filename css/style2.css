@@ -289,6 +289,11 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bgRadios,
+.floorRadios {
+    padding-top: 4px;
+}
+
 .button-box {
   display: flex;
   gap: 12px;
@@ -351,7 +356,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 }
 
 /* in the dragon world, genders have tooltips. */
-.radio-selector label::before {
+.radio-selector label[data-tooltip]::before {
     content: attr(data-tooltip);
     text-transform: capitalize;
     position: absolute;
@@ -372,13 +377,13 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 
 /* OH NO! media queries! */
 @media (hover: hover) and (pointer: fine) {
-    .radio-selector label:hover::before {
+    .radio-selector label[data-tooltip]:hover::before {
         opacity: 0.9;
     }
 }
 
 /* mobile devices are safe from the queries. for now. */
-.radio-selector label.tooltip-visible::before {
+.radio-selector label[data-tooltip].tooltip-visible::before {
     opacity: 0.9;
 }
 
@@ -499,8 +504,12 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 }
 
 /* nifty disappearing radio buttons. yes, they're nifty. */
+.disabledButton > img {
+    opacity: 0.3;
+}
+
 .disabledButton {
-  opacity: 0.3;
+    color: rgba(136, 136, 136, 0.5);
 }
 
 /* always be sure to read the enclosed instruction booklet. */
