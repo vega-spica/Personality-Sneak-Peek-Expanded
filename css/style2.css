@@ -35,12 +35,12 @@ body {
 
 .title-header {
   font-size: 1.1em;
-  color: #dfc690;
+  color: #ebe1b0;
   padding-bottom: 1px;
 }
 
 .aura-header {
-  color: #dfc690;
+  color: #ebe1b0;
   grid-column: 1 / -1;
 }
 
@@ -468,7 +468,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   box-sizing: border-box;
   width: 100%;
   background: #050505;
-  color: #e5cd8d;
+  color: #c1ab78;
   padding: 0px 10px;
   border-radius: 10px;
   border: 2px solid #705435;
@@ -504,7 +504,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   width: 100%;
   overflow-y: auto;
   background: #050505;
-  color: #e5cd8d;
+  color: #c1ab78;
   border-radius: 0 0 10px 10px;
   border: 2px solid #705435;
   border-top: none;
