@@ -197,7 +197,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   width: 688px;
   min-height: 72px;
   margin-top: 8px;
-  padding: 5px 20px 8px 20px;
+  padding: 10px 20px 8px 20px;
   border: 5px solid #050403;
   border-bottom: 0;
   border-radius: 18px 18px 0 0;
@@ -221,8 +221,8 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   grid-template-columns: 1fr 1fr 1fr;
   gap: 13px;
   width: 688px;
-  height: 204px;
-  padding: 7px 20px 12px 20px;
+  height: 200px;
+  padding: 0px 20px 12px 20px;
   border: 5px solid #050403;
   border-top: 0;
   border-radius: 0 0 18px 18px;
@@ -243,7 +243,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 
 .summary-center,
 .summary-right {
-  padding-top: 12px;
+  padding-top: 16px;
 }
 
 .sharelink-button input[type="image"] {
@@ -259,7 +259,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .stageRadios {
     display: grid;
     grid-template-columns: repeat(3, max-content);
-    gap: 8px;
+    gap: 10px 8px;
 }
 
 .stageRadios .title-header {
@@ -275,7 +275,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .chromaRadios {
     display: grid;
     grid-template-columns: repeat(2, max-content);
-    gap: 10px 15px;
+    gap: 9px 15px;
     padding-top: 8px;
 }
 
@@ -582,7 +582,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
     overflow-y: auto;
     padding: 25px;
     color: #dfc690;
-    background: rgb(30 27 25 / 90%);
+    background: rgba(30,27,25,0.95);
     border-radius: 12px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.35);
     transform: scale(0.95);
@@ -595,13 +595,28 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 
 .help-close {
     position: absolute;
-    top: 10px;
-    right: 15px;
+    top: 20px;
+    right: 20px;
     border: none;
-    color: #dfc690;
     background: none;
-    font-size: 40px;
+    padding: 0;
     cursor: pointer;
+}
+
+.help-close img {
+    display: block;
+    width: 38px;
+    height: auto;
+    user-select: none;
+    pointer-events: none;
+}
+
+.help-close img {
+    content: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/close_0101.png");
+}
+
+.help-close:active img {
+    content: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/close_0102.png");
 }
 
 /* mmm.... toast. */

@@ -1493,7 +1493,9 @@
             </div>
             <div id="helpOverlay" class="help-overlay">
                 <div class="help-popup">
-                    <button class="help-close" onclick="helpMenu()">×</button>
+                    <button class="help-close" onclick="helpMenu()" aria-label="Close help">
+                        <img src="./images/close_0101.png" alt="" draggable="false">
+                    </button>
                     <div id="helpText">Loading...</div>
                 </div>
             </div>
@@ -1702,7 +1704,7 @@
 
                         if (!helpLoaded) {
                             try {
-                                const response = await fetch("./help_menu.txt");
+                                const response = await fetch("./help_menu.html");
 
                                 if (!response.ok) {
                                     throw new Error("Could not load help menu.");
@@ -1710,7 +1712,7 @@
 
                                 const text = await response.text();
 
-                                helpText.innerHTML = text.replace(/\n/g, "<br>");
+                                helpText.innerHTML = text;
                                 helpLoaded = true;
 
                             } catch (error) {
