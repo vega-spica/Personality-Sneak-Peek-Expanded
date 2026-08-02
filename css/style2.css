@@ -172,6 +172,18 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   transform: translate(0px, -87px);
 }
 
+/* now presenting...! */
+.dragon-stage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 820px;
+  z-index: 2;
+  display: flex;
+}
+
 /* frame. FRAME!!! */
 #dragon-image {
   z-index: 0;
@@ -186,6 +198,84 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   position: relative;
   height: 1000px;
   width: 1000px;
+}
+
+/* to disappear those annoying blue dots.*/
+.radio-selector input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* highlights are cooler, right?*/
+.radio-selector label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 3px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+
+    cursor: pointer;
+    transition: background-color 0.15s, border-color 0.15s;
+    position: relative;
+}
+
+/* in the dragon world, genders have tooltips. */
+.radio-selector label[data-tooltip]::before {
+    content: attr(data-tooltip);
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    opacity: 0;
+    pointer-events: none;
+
+    background-color: #323232;
+    color: #fff;
+    padding: 3px;
+    border-radius: 4px;
+
+    transition: opacity 0.15s;
+}
+
+/* OH NO! media queries! */
+@media (hover: hover) and (pointer: fine) {
+    .radio-selector label[data-tooltip]:hover::before {
+        opacity: 0.9;
+    }
+}
+
+/* mobile devices are safe from the queries. for now. */
+.radio-selector label[data-tooltip].tooltip-visible::before {
+    opacity: 0.9;
+}
+
+.radio-selector label:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.radio-selector input[type="radio"]:checked + label {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: currentColor;
+}
+
+/* nifty disappearing radio buttons. yes, they're nifty. */
+.disabledButton > img {
+    opacity: 0.3;
+}
+
+.disabledButton {
+    color: rgba(136, 136, 136, 0.5);
+}
+
+/* totally for the header at the top. */
+.header {
+  text-align: center;
+  z-index: 10;
+  position: relative;
 }
 
 /* updates. i warned you about updates. */
@@ -246,14 +336,18 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   padding-top: 16px;
 }
 
-.sharelink-button input[type="image"] {
-    width: auto;
-    height: 40px;
-}
-
+.sharelink-button input[type="image"],
 .help-button input[type="image"] {
     width: auto;
     height: 40px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+/* clicky buttons. because everyone loves clicky buttons. */
+.sharelink-button input[type="image"]:active,
+.help-button input[type="image"]:active {
+    transform: scale(0.90);
 }
 
 .stageRadios {
@@ -339,91 +433,10 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
     gap: 2px;
 }
 
-/* to disappear those annoying blue dots.*/
-.radio-selector input[type="radio"] {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-}
-
-/* highlights are cooler, right?*/
-.radio-selector label {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 3px 3px;
-    border: 2px solid transparent;
-    border-radius: 12px;
-
-    cursor: pointer;
-    transition: background-color 0.15s, border-color 0.15s;
-    position: relative;
-}
-
-/* in the dragon world, genders have tooltips. */
-.radio-selector label[data-tooltip]::before {
-    content: attr(data-tooltip);
-    text-transform: capitalize;
-    position: absolute;
-    bottom: 120%;
-    left: 50%;
-    transform: translateX(-50%);
-
-    opacity: 0;
-    pointer-events: none;
-
-    background-color: #323232;
-    color: #fff;
-    padding: 3px;
-    border-radius: 4px;
-
-    transition: opacity 0.15s;
-}
-
-/* OH NO! media queries! */
-@media (hover: hover) and (pointer: fine) {
-    .radio-selector label[data-tooltip]:hover::before {
-        opacity: 0.9;
-    }
-}
-
-/* mobile devices are safe from the queries. for now. */
-.radio-selector label[data-tooltip].tooltip-visible::before {
-    opacity: 0.9;
-}
-
-.radio-selector label:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-
-.radio-selector input[type="radio"]:checked + label {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: currentColor;
-}
-
-/* totally for the header at the top. */
-.header {
-  text-align: center;
-  z-index: 10;
-  position: relative;
-}
-
 /* footer, now with 33% more feet. */
 .footer {
   color: #dfc690;
   text-align: center;
-}
-
-/* now presenting...! */
-.dragon-stage {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 700px;
-  height: 820px;
-  z-index: 2;
-  display: flex;
 }
 
 /* fancy dropdowns~ */
@@ -547,15 +560,6 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
     column-gap: 8px;
     row-gap: 4px;
     align-items: center;
-}
-
-/* nifty disappearing radio buttons. yes, they're nifty. */
-.disabledButton > img {
-    opacity: 0.3;
-}
-
-.disabledButton {
-    color: rgba(136, 136, 136, 0.5);
 }
 
 /* always be sure to read the enclosed instruction booklet. */
