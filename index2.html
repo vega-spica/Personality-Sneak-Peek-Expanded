@@ -1391,7 +1391,7 @@
                     </select>
 
                     <div class="bgRadios">
-                        <fieldset id="bgAnimRadios" class="bgAnimRadios radio-selector no-border">
+                        <fieldset id="bgAnimRadios" class="bgAnimRadios radio-selector">
                             <legend class="sr-only">Background Animation State</legend>
                             <input type="radio" name="bg" value="idle" id="bgidle" onchange="setbgState(this.value)" checked />
                             <label for="bgidle" id="bgidleLabel">Idle</label>
@@ -1399,7 +1399,7 @@
                             <input type="radio" name="bg" value="" id="bgstop" onchange="setbgState(this.value)" />
                             <label for="bgstop" id="bgstopLabel">Stop</label>
                         </fieldset>
-                        <fieldset id="bgBrightnessRadios" class="bgBrightnessRadios radio-selector no-border">
+                        <fieldset id="bgBrightnessRadios" class="bgBrightnessRadios radio-selector">
                             <legend class="sr-only">Background Brightness</legend>
                             <input type="radio" name="brightness" value="1" id="bright" onchange="setbrightness(this.value)" checked />
                             <label for="bright" id="brightLabel">Bright</label>
@@ -1421,7 +1421,7 @@
                     <select id="cavefloor" name="cavefloor" style="display: none;" onchange="updateFloorUrl();">
                     </select>
 
-                    <fieldset id="floorRadios" class="floorRadios radio-selector no-border">
+                    <fieldset id="floorRadios" class="floorRadios radio-selector">
                         <legend class="sr-only">Floor Animation State</legend>
                         <input type="radio" name="floor" value="idle" id="flooridle" onchange="setfloorState(this.value)" checked />
                         <label for="flooridle" id="flooridleLabel">Idle</label>
@@ -1485,11 +1485,10 @@
                 </fieldset>
             </section>
 
+            <!--just a footer. nothing to see here.-->
             <div class="footer">
-                <!--just a horizontal line. nothing to see here.-->
-                <hr size=1>
                 <!--i don't own these assets; please don't sue me.-->
-                All Dragon Village assets and characters <a href="https://www.highbrow.com/en">©highbrow Inc</a>.
+                All Dragon Village assets and characters ©highbrow Inc.
             </div>
             <div id="helpOverlay" class="help-overlay">
                 <div class="help-popup">

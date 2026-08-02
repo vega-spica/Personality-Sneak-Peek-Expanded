@@ -80,6 +80,7 @@ a:hover {
     user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
+    justify-content: center
 }
 
 /* would you like that giftwrapped? */
@@ -95,7 +96,7 @@ a:hover {
 .page {
     position: relative;
     width: 720px;
-    padding: 10px 16px 10px;
+    padding: 2px 16px 2px;
     margin: 0;
     flex-shrink: 0;
     visibility: hidden;
@@ -109,21 +110,6 @@ load-bearing css property. do not touch. do not look at it directly. the fate of
 .page.fit-ready {
     visibility: visible;
     transition: transform 0.18s ease;
-}
-
-/*
-this frames the preview area.
-  if it is increased, then the viewing area will get bigger, but it'll be lopsided unless other styling is changed to accomodate.
-    centering things can never be easy, after all.
-*/
-.preview {
-  position: relative;
-  width: 688px;
-  height: 810px;
-  overflow: hidden;
-  border: 5px solid #050403;
-  border-radius: 30px;
-  background: #1b0c07;
 }
 
 /*
@@ -273,25 +259,49 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 
 /* totally for the header at the top. */
 .header {
-  text-align: center;
   z-index: 10;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 46px;
+  transform: translate(-50%, -25%);
 }
 
 /* updates. i warned you about updates. */
+.preview,
+.summary-bar,
+.summary-panel,
+.control-panel1,
+.control-panel2 {
+/* if you touch this width, you are responsible for editing ALL of the panel image parts in an image editor to avoid artifacts. */
+  width: 688px;
+  border-radius: 10px;
+  margin-top: 2px;
+  background:
+      url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/panel_top.png) top no-repeat,
+      url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/panel_bottom.png) bottom no-repeat,
+      url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/panel_center.png) center repeat-y;
+}
+
+/*
+this frames the preview area. if the height is increased, then the viewing window will get bigger.
+this may sound like a good thing, but all other elements on the page will attempt to resize to accomodate.
+you might end up with a UI for ants. there's only so much real estate on the page, after all.
+*/
+.preview {
+  position: relative;
+  height: 810px;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
 .summary-bar {
   position: relative;
   display: flex;
   align-items: flex-end;
   gap: 24px;
-  width: 688px;
   min-height: 72px;
-  margin-top: 8px;
-  padding: 10px 20px 8px 20px;
-  border: 5px solid #050403;
+  padding: 6px 20px 14px 20px;
   border-bottom: 0;
-  border-radius: 18px 18px 0 0;
-  background: #1c140a;
   color: #c0cc83;
 }
 
@@ -309,14 +319,10 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .summary-panel {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 13px;
-  width: 688px;
-  height: 200px;
-  padding: 0px 20px 12px 20px;
-  border: 5px solid #050403;
+  gap: 14px;
+  height: 202px;
+  padding: 6px 20px 12px 20px;
   border-top: 0;
-  border-radius: 0 0 18px 18px;
-  background: #1c140a;
 }
 
 .summary-left,
@@ -333,7 +339,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 
 .summary-center,
 .summary-right {
-  padding-top: 16px;
+  padding-top: 8px;
 }
 
 .sharelink-button input[type="image"],
@@ -378,19 +384,19 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(3, max-content);
   gap: 24px;
-  width: 688px;
-  margin-top: 8px;
-  padding: 10px 20px;
-  border: 5px solid #050403;
-  border-radius: 18px;
-  background: #1c140a;
+  padding: 6px 20px 12px 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bgRadios,
+.floorRadios {
+  margin-top: 4px;
+  display: flex;
+}
+
 .bgRadios {
-    display: flex;
-    gap: 16px;
+    gap: 2px;
 }
 
 .button-box {
@@ -402,13 +408,8 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .control-panel2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  width: 688px;
-  margin-top: 8px;
-  padding: 10px 20px;
-  border: 5px solid #050403;
-  border-radius: 18px;
-  background: #1c140a;
+  gap: 32px;
+  padding: 6px 20px 14px 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -437,6 +438,8 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .footer {
   color: #dfc690;
   text-align: center;
+  font-size: 0.9em;
+  margin-top: 2px;
 }
 
 /* fancy dropdowns~ */
@@ -481,7 +484,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   box-sizing: border-box;
   width: 100%;
   background:rgba(5, 5, 5, 0.95);
-  color: #c1ab78;
+  color: #cdb886;
   padding: 0px 10px;
   border-radius: 10px;
   border: 2px solid #705435;
@@ -524,11 +527,11 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   position: absolute;
   z-index: 100;
   display: none;
-  max-height: 200px;
+  max-height: 174px;
   width: 100%;
   overflow-y: auto;
   background:rgba(5, 5, 5, 0.95);
-  color: #c1ab78;
+  color: #cdb886;
   border-radius: 0 0 10px 10px;
   border: 2px solid #705435;
   border-top: none;
@@ -549,7 +552,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 }
 
 .dropdown-content div:hover {
-  background: #c0cc83;
+  background: #cdb886;
   color: #000000;
 }
 
@@ -650,6 +653,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 /* stop trying to make default fieldset styling happen. it's not going to happen. */
 fieldset {
     padding: 4px;
+    width: fit-content;
     background-color: #050505;
     border: 3px solid #705435;
     border-radius: 12px;
