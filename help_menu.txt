@@ -18,4 +18,4 @@
 
 for mobile users, the site should automatically resize based on device screen size to reduce the amount of space at the top and bottom of the page. if it does not, please ensure that “Desktop Mode” is not enabled on this site. a shortcut to the site can also be installed to the home screen for easier access.
 
-this is an unofficial tool, and i don't receive any money for making it. but if you’d like to see more archival like this, consider contributing to the <a href="https://dragon-village-collection.fandom.com/wiki/">DVC Fandom Wiki</a>.
+this is an unofficial tool and open source <a href="https://github.com/vega-spica/Personality-Sneak-Peek-Expanded">repository</a>. i don't receive any money for making this. but if you’d like to see more archival like this, consider contributing to the <a href="https://dragon-village-collection.fandom.com/wiki/">DVC Fandom Wiki</a>.

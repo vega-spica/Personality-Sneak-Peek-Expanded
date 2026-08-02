@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <link rel="stylesheet" href="./css/style2.css" type="text/css">
     <link rel="shortcut icon" type="image/png" href="./res/img/favicon.png">
@@ -1154,9 +1156,11 @@
         <main class="page fit-ready">
             <section class="preview">
                 <!--is this really a header? or is it all just an illusion..?-->
-                <div class="header">
-                    <img src="./res/img/logo_plus.png" width="400px" z-index="10" alt="Dragon Village Collection Plus: APPEND">
-                </div>
+                <h1>
+                    <div class="header">
+                        <img src="./res/img/logo_plus.png" width="400px" z-index="10" alt="Dragon Village Collection Plus: APPEND">
+                    </div>
+                </h1>
 
                 <div class="dragon-stage">
                 
@@ -1168,7 +1172,7 @@
                         <canvas id="Background" class="spineCanvas backgroundCanvas"></canvas>
                         <canvas id="Floor" class="spineCanvas floorCanvas"></canvas>                
                     </div>
-                    <img id="dragon-image">
+                    <img id="dragon-image" alt="Static preview image – no animated model exists for this selection.">
                 </div>
                 
                 <!--initial blank back aura canvas is loaded on page open-->
@@ -1195,7 +1199,7 @@
             <section class="summary-bar">
                 <div class="summary-bar-group">
                     <!--selection for species where entries are appended-->
-                    <span class="title-header">Species</span>
+                    <label class="title-header" for="speciesSearch">Species</label>
                     <div class="dropdown">
                         <input type="text" class="search-box" id="speciesSearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="dropdown"></div>
@@ -1207,7 +1211,7 @@
                 
                 <div class="summary-bar-group">
                     <!--selection for forms where entries are appended-->
-                    <span class="title-header">Form</span>
+                    <label class="title-header" for="formSearch">Form</label>
                     <div class="dropdown form-dropdown">
                         <input type="text" class="search-box no-search" id="formSearch" autocomplete="off" readonly>
                         <div class="dropdown-content" id="formDropdown"></div>
@@ -1239,7 +1243,7 @@
             <section class="summary-panel">
                 <div class="summary-left">
                 <!--selection for auras where entries are appended-->
-                    <span class="title-header">Personality</span>
+                    <label class="title-header" for="personalitySearch">Personality</label>
                     <div class="dropdown">
                         <input type="text" class="search-box" id="personalitySearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="personalityDropdown"></div>
@@ -1250,7 +1254,7 @@
                 
                     <div id="myownselect">
                         <!--selection for My Own fronts where entries are appended-->
-                        <span class="aura-header">Front</span>
+                        <label class="aura-header">Front</label>
                         <div class="dropdown customaura-dropdown">
                             <input type="text" class="search-box no-search" id="myownfrontSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myownfrontDropdown"></div>
@@ -1267,7 +1271,7 @@
                         </select>
                 
                         <!--selection for My Own backs where entries are appended-->
-                        <span class="aura-header">Back</span>
+                        <label class="aura-header">Back</label>
                         <div class="dropdown customaura-dropdown">
                             <input type="text" class="search-box no-search" id="myownbackSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myownbackDropdown"></div>
@@ -1286,7 +1290,7 @@
 
                     <div id="myheartselect">
                         <!--selection for My Heart fronts where entries are appended-->
-                        <span class="aura-header">Front</span>
+                        <label class="aura-header">Front</label>
                         <div class="dropdown customaura-dropdown">
                             <input type="text" class="search-box no-search" id="myheartfrontSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myheartfrontDropdown"></div>
@@ -1303,7 +1307,7 @@
                         </select>
                 
                         <!--selection for My Heart backs where entries are appended-->
-                        <span class="aura-header">Back</span>
+                        <label class="aura-header">Back</label>
                         <div class="dropdown customaura-dropdown">
                             <input type="text" class="search-box no-search" id="myheartbackSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myheartbackDropdown"></div>
@@ -1321,8 +1325,8 @@
                     </div>
                 </div>
                 <div class="summary-center">
-                    <div id="stageRadios" class="stageRadios radio-selector">
-                        <span class="title-header"><center>Evolution Stage</center></span>
+                    <fieldset id="stageRadios" class="stageRadios radio-selector">
+                        <legend class="title-header center-header">Evolution Stage</legend>
                         <input type="radio" name="stage" value="hatch" id="hatch" onchange="setStage(this.value)" />
                         <label for="hatch" id="hatchLabel" data-tooltip="Hatch" aria-disabled="false">
                             <img src="./res/img/stage_hatch.png" alt="hatch selection">
@@ -1347,12 +1351,12 @@
                         <label for="fusion" id="fusionLabel" data-tooltip="Fusion" aria-disabled="false">
                             <img src="./res/img/stage_fusion.png" alt="fusion selection">
                         </label>
-                    </div>
+                    </fieldset>
                 </div>
                 <div class="summary-right">
                     <!--no way, is that a CHROMA?!?-->
-                    <span class="title-header"><center>Chroma Mode</center></span>
-                    <div id="chromaRadios" class="chromaRadios radio-selector">
+                    <fieldset id="chromaRadios" class="chromaRadios radio-selector">
+                        <legend class="title-header center-header">Chroma</legend>
                         <input type="radio" name="chroma" value="rgb" id="rgb" onchange="setchromaState(this.value)" checked />
                         <label for="rgb" id="rgbLabel">Default</label>
                         
@@ -1370,14 +1374,14 @@
                         
                         <input type="radio" name="chroma" value="brg" id="brg" onchange="setchromaState(this.value)">
                         <label for="brg" id="brgLabel">BRG</label>
-                    </div>
+                    </fieldset>
                 </div>
             </section>
 
             <section class="control-panel1">
                 <div class="background-group">
                     <!--selection for backgrounds where entries are appended-->
-                    <span class="title-header">Background</span>
+                    <label class="title-header" for="bgSearch">Background</label>
                     <div class="dropdown">
                         <input type="text" class="search-box" id="bgSearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="bgDropdown"></div>
@@ -1385,24 +1389,30 @@
 
                     <select id="cavebg" name="cavebg" style="display: none;" onchange="updateBackgroundUrl();">
                     </select>
-                    <div id="bgRadios" class="bgRadios radio-selector">
-                        <input type="radio" name="bg" value="idle" id="bgidle" onchange="setbgState(this.value)" checked />
-                        <label for="bgidle" id="bgidleLabel">Idle</label>
-                        
-                        <input type="radio" name="bg" value="" id="bgstop" onchange="setbgState(this.value)" />
-                        <label for="bgstop" id="bgstopLabel">Stop</label>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="radio" name="brightness" value="1" id="bright" onchange="setbrightness(this.value)" checked />
-                        <label for="bright" id="brightLabel">Bright</label>
-                        
-                        <input type="radio" name="brightness" value="0.4" id="dark" onchange="setbrightness(this.value)" />
-                        <label for="dark" id="darkLabel">Dark</label>           
+
+                    <div class="bgRadios">
+                        <fieldset id="bgAnimRadios" class="bgAnimRadios radio-selector no-border">
+                            <legend class="sr-only">Background Animation State</legend>
+                            <input type="radio" name="bg" value="idle" id="bgidle" onchange="setbgState(this.value)" checked />
+                            <label for="bgidle" id="bgidleLabel">Idle</label>
+                            
+                            <input type="radio" name="bg" value="" id="bgstop" onchange="setbgState(this.value)" />
+                            <label for="bgstop" id="bgstopLabel">Stop</label>
+                        </fieldset>
+                        <fieldset id="bgBrightnessRadios" class="bgBrightnessRadios radio-selector no-border">
+                            <legend class="sr-only">Background Brightness</legend>
+                            <input type="radio" name="brightness" value="1" id="bright" onchange="setbrightness(this.value)" checked />
+                            <label for="bright" id="brightLabel">Bright</label>
+                            
+                            <input type="radio" name="brightness" value="0.4" id="dark" onchange="setbrightness(this.value)" />
+                            <label for="dark" id="darkLabel">Dark</label>           
+                        </fieldset>
                     </div>
                 </div>
 
                 <div class="floor-group">
                     <!--selection for floors where entries are appended-->
-                    <span class="title-header">Floor</span>
+                    <label class="title-header" for="floorSearch">Floor</label>
                     <div class="dropdown">
                         <input type="text" class="search-box" id="floorSearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="floorDropdown"></div>
@@ -1410,13 +1420,15 @@
 
                     <select id="cavefloor" name="cavefloor" style="display: none;" onchange="updateFloorUrl();">
                     </select>
-                    <div id="floorRadios" class="floorRadios radio-selector">
+
+                    <fieldset id="floorRadios" class="floorRadios radio-selector no-border">
+                        <legend class="sr-only">Floor Animation State</legend>
                         <input type="radio" name="floor" value="idle" id="flooridle" onchange="setfloorState(this.value)" checked />
                         <label for="flooridle" id="flooridleLabel">Idle</label>
                         
                         <input type="radio" name="floor" value="" id="floorstop" onchange="setfloorState(this.value)" />
                         <label for="floorstop" id="floorstopLabel">Stop</label>
-                    </div>
+                    </fieldset>
                 </div>
 
                 <div class="button-box">
@@ -1432,8 +1444,8 @@
             </section>
 
             <section class="control-panel2">
-                <div id="animRadios" class="animRadios radio-selector">
-                    <span class="title-header">Animation</span>
+                <fieldset id="animRadios" class="animRadios radio-selector">
+                    <legend class="title-header center-header">Animation</legend>
                     <input type="radio" name="animation" value="idle" id="idle" onchange="setanimState(this.value)" checked />
                     <label for="idle" id="idleLabel">Idle</label>
                     
@@ -1449,21 +1461,19 @@
                     <input type="radio" name="animation" value="" id="none" onchange="setanimState(this.value)">
                     <label for="none" id="noneLabel">None</label>
                     
-                    <div id="combatAnims">
-                        <input type="radio" name="animation" value="attack" id="attack" onchange="setanimState(this.value)">
-                        <label for="attack" id="attackLabel">Attack</label>
+                    <input type="radio" name="animation" value="attack" id="attack" onchange="setanimState(this.value)">
+                    <label for="attack" id="attackLabel">Attack</label>
                         
-                        <input type="radio" name="animation" value="skill" id="skill" onchange="setanimState(this.value)">
-                        <label for="skill" id="skillLabel">Skill</label>
+                    <input type="radio" name="animation" value="skill" id="skill" onchange="setanimState(this.value)">
+                    <label for="skill" id="skillLabel">Skill</label>
                         
-                        <input type="radio" name="animation" value="die" id="die" onchange="setanimState(this.value)">
-                        <label for="die" id="dieLabel">KO</label><!-- sorry folks, but "die" is a bit NG here. -->
-                    </div>
-                </div>
+                    <input type="radio" name="animation" value="die" id="die" onchange="setanimState(this.value)">
+                    <label for="die" id="dieLabel">KO</label><!-- sorry folks, but "die" is a bit NG here. -->
+                </fieldset>
                 
                 <!--the ugly halo for top 20 Mystic rank-->
-                <div id="haloRadios" class="haloRadios radio-selector">
-                    <span class="title-header">Spotlight</span>
+                <fieldset id="haloRadios" class="haloRadios radio-selector">
+                    <legend class="title-header center-header">Spotlight</legend>
                     <input type="radio" name="halo" value="" id="halooff" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" checked />
                     <label for="halooff" id="halooffLabel">Off</label>
                     
@@ -1472,14 +1482,14 @@
                     
                     <input type="radio" name="halo" value="appear" id="haloburst" onchange="sethaloState(this.value)" onchange="updateHaloUrl();" />
                     <label for="haloburst" id="haloburstLabel">Burst</label>
-                </div>
+                </fieldset>
             </section>
 
             <div class="footer">
                 <!--just a horizontal line. nothing to see here.-->
                 <hr size=1>
                 <!--i don't own these assets; please don't sue me.-->
-                <a href="https://github.com/vega-spica/Personality-Sneak-Peek-Expanded">Github repository</a> – All Dragon Village assets and characters <a href="https://www.highbrow.com/en">©highbrow Inc</a>.
+                All Dragon Village assets and characters <a href="https://www.highbrow.com/en">©highbrow Inc</a>.
             </div>
             <div id="helpOverlay" class="help-overlay">
                 <div class="help-popup">
