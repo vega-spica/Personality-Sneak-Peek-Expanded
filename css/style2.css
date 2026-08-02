@@ -467,7 +467,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .search-box {
   box-sizing: border-box;
   width: 100%;
-  background: #050505;
+  background:rgba(5, 5, 5, 0.95);
   color: #c1ab78;
   padding: 0px 10px;
   border-radius: 10px;
@@ -491,6 +491,17 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   outline: none;
 }
 
+.search-box.search-icon {
+    padding-right: 30px;
+}
+
+.search-box.search-icon:placeholder-shown {
+    background-image: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/search_0101.png");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+}
+
 .dropdown.active .search-box {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -503,7 +514,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   max-height: 200px;
   width: 100%;
   overflow-y: auto;
-  background: #050505;
+  background:rgba(5, 5, 5, 0.95);
   color: #c1ab78;
   border-radius: 0 0 10px 10px;
   border: 2px solid #705435;

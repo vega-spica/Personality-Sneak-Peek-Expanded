@@ -423,7 +423,7 @@
         }
 
         //do not be fooled by the mention of "canvas" in this function; this specifically applies chroma filters to a static png image.
-        //chroma filters for animated models have been added to spine-webgl.js. but we don't talk about that.
+        //through pain and suffering, chroma filters for animated models have been added to spine-webgl.js.
         const CHROMA_CHANNEL_INDEX = { r: 0, g: 1, b: 2 };
 
         async function applyChromaToImage(img, swizzle) {
@@ -976,7 +976,7 @@
             //construct url
             var bgurl = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/cavedeco/" + bgSelection;
             //yes, the "none" option is just an invisible aura...
-                //don't question it
+                //don't question it.
             if (bgSelection === "none") {
                 canvases.background = new spine.SpineCanvas(document.getElementById("Background"), {
                     app: new SpineObject("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/aura/aura_back/aura_back", "")
@@ -1201,7 +1201,7 @@
                     <!--selection for species where entries are appended-->
                     <label class="title-header" for="speciesSearch">Species</label>
                     <div class="dropdown">
-                        <input type="text" class="search-box" id="speciesSearch" autocomplete="off" placeholder="Search...">
+                        <input type="text" class="search-box search-icon" id="speciesSearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="dropdown"></div>
                     </div>
                 </div>
@@ -1245,7 +1245,7 @@
                 <!--selection for auras where entries are appended-->
                     <label class="title-header" for="personalitySearch">Personality</label>
                     <div class="dropdown">
-                        <input type="text" class="search-box" id="personalitySearch" autocomplete="off" placeholder="Search...">
+                        <input type="text" class="search-box search-icon" id="personalitySearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="personalityDropdown"></div>
                     </div>
 
@@ -1383,7 +1383,7 @@
                     <!--selection for backgrounds where entries are appended-->
                     <label class="title-header" for="bgSearch">Background</label>
                     <div class="dropdown">
-                        <input type="text" class="search-box" id="bgSearch" autocomplete="off" placeholder="Search...">
+                        <input type="text" class="search-box search-icon" id="bgSearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="bgDropdown"></div>
                     </div>
 
@@ -1414,7 +1414,7 @@
                     <!--selection for floors where entries are appended-->
                     <label class="title-header" for="floorSearch">Floor</label>
                     <div class="dropdown">
-                        <input type="text" class="search-box" id="floorSearch" autocomplete="off" placeholder="Search...">
+                        <input type="text" class="search-box search-icon" id="floorSearch" autocomplete="off" placeholder="Search...">
                         <div class="dropdown-content" id="floorDropdown"></div>
                     </div>
 
@@ -1501,7 +1501,7 @@
             <script>
                 //okay, okay, i get it. you want a searchbar.
                     //you get ONE searchbar.
-                function createSearchDropdown({ searchId, dropdownId, selectId, onChange }) {
+                function createSearchDropdown({ searchId, dropdownId, selectId, onChange, blankNone = false }) {
                     const searchBox = document.getElementById(searchId);
                     const dropdown = document.getElementById(dropdownId);
                     const select = document.getElementById(selectId);
@@ -1526,11 +1526,14 @@
                             dropdown.appendChild(div);
                         }
 
-                        // Display the currently selected option.
-                        if (select.selectedIndex >= 0) {
-                            searchBox.value = select.options[select.selectedIndex].text;
-                        } else {
-                            searchBox.value = "";
+                        // display the currently selected option
+                        if (disableSearch || blankNone) {
+                            if (select.selectedIndex >= 0) {
+                                const text = select.options[select.selectedIndex].text;
+                                searchBox.value = (blankNone && text === "[None]") ? "" : text; //for searchable dropdowns, blank if they have no option selected
+                            } else {
+                                searchBox.value = "";
+                            }
                         }
                     }
 
@@ -1597,7 +1600,7 @@
                     searchId: "speciesSearch",
                     dropdownId: "dropdown",
                     selectId: "species",
-                    onChange: updateSpecies
+                    onChange: updateSpecies,
                 });
                 //...okay, fine, you can have more searchbars.            
                 createSearchDropdown({
@@ -1632,14 +1635,14 @@
                     searchId: "myownfrontSearch",
                     dropdownId: "myownfrontDropdown",
                     selectId: "myownfront",
-                    onChange: updatePersonalityUrl
+                    onChange: updatePersonalityUrl,
                 });
         
                 createSearchDropdown({
                     searchId: "myownbackSearch",
                     dropdownId: "myownbackDropdown",
                     selectId: "myownback",
-                    onChange: updatePersonalityUrl
+                    onChange: updatePersonalityUrl,
                 });
 
                 createSearchDropdown({
@@ -1735,7 +1738,7 @@
                 });
             </script>
 
-            </div><!--this ends the wrapper. or does it?-->
+            </div><!--this ends the wrapper. farewell, wrapper.-->
         </main>
     </div>
     <div id="toast" class="toast"></div>
