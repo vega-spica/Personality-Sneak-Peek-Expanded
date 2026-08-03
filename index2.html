@@ -1435,7 +1435,7 @@
                     <div class="sharelink-button">
                         <!--sharelinks. because sharing is caring.-->
                         <!--(it doesn't track views though, sorry)-->
-                        <input type="image" onclick="copySharelink()" src="./res/img/link_0202.png" alt="Copy Sharelink"></input>
+                        <input type="image" onclick="copySharelink()" src="./res/img/link_0101.png" alt="Copy Sharelink"></input>
                     </div>
                     <div class="help-button">
                         <input type="image" onclick="helpMenu()" src="./res/img/help_0101.png" alt="Help Menu"></input>
@@ -1567,7 +1567,7 @@
 
                     function onFocus() {
                         if (!disableSearch) {
-                            searchBox.select();// select searchbox text on focus (if there is already text present)
+                            searchBox.value = ""; //blank out current text, if any, when clicking inside a searchable field
                         }
 
                         showAll();

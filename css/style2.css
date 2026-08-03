@@ -6,7 +6,7 @@
 
 :root {
   background: #3a2a23;
-  color: #c0cc83;
+  color: #f0ece3;
   background-color: rgba(47, 34, 26, 1.0);
   font-size: 17px;
   font-weight: 800;
@@ -35,13 +35,18 @@ body {
 
 .title-header {
   font-size: 1.1em;
-  color: #ebe1b0;
   padding-bottom: 1px;
 }
 
 .aura-header {
-  color: #ebe1b0;
   grid-column: 1 / -1;
+  margin-bottom: -4px;
+}
+
+.title-header,
+.aura-header {
+  color: #ebe1b0;
+  padding-left: 2px;
 }
 
 .help-header {
@@ -215,16 +220,14 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
     bottom: 120%;
     left: 50%;
     transform: translateX(-50%);
-
     opacity: 0;
     pointer-events: none;
-
     background-color: #323232;
     color: #fff;
     padding: 3px;
     border-radius: 4px;
-
     transition: opacity 0.15s;
+    z-index: 600;
 }
 
 /* OH NO! media queries! */
@@ -245,7 +248,10 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 
 .radio-selector input[type="radio"]:checked + label {
     background: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 234, 91); /* in-game colour is 'chick' */
     border-color: currentColor;
+    /* avoids clipping; for whatever reason, the background colour on hover seems to have a z-index of around 500 or so. */
+    z-index: 510;
 }
 
 /* nifty disappearing radio buttons. yes, they're nifty. */
@@ -282,6 +288,14 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
       url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/panel_center.png) center repeat-y;
 }
 
+.summary-bar,
+.summary-panel,
+.control-panel1,
+.control-panel2 {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
 /*
 this frames the preview area. if the height is increased, then the viewing window will get bigger.
 this may sound like a good thing, but all other elements on the page will attempt to resize to accomodate.
@@ -300,7 +314,8 @@ you might end up with a UI for ants. there's only so much real estate on the pag
   align-items: flex-end;
   gap: 24px;
   min-height: 72px;
-  padding: 6px 20px 14px 20px;
+  padding-top: 8px;
+  padding-bottom: 16px;
   border-bottom: 0;
   color: #c0cc83;
 }
@@ -313,15 +328,15 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 .genderRadios {
   display: flex;
   align-items: center;
-  padding-left: 4px;
 }
 
 .summary-panel {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 14px;
+  gap: 18px;
   height: 202px;
-  padding: 6px 20px 12px 20px;
+  padding-top: 8px;
+  padding-bottom: 14px;
   border-top: 0;
 }
 
@@ -339,11 +354,12 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 
 .summary-center,
 .summary-right {
-  padding-top: 8px;
+  padding-top: 34px;
 }
 
 .sharelink-button input[type="image"],
-.help-button input[type="image"] {
+.help-button input[type="image"],
+.help-close img {
     width: auto;
     height: 40px;
     cursor: pointer;
@@ -352,7 +368,8 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 
 /* clicky buttons. because everyone loves clicky buttons. */
 .sharelink-button input[type="image"]:active,
-.help-button input[type="image"]:active {
+.help-button input[type="image"]:active,
+.help-close:active img {
     transform: scale(0.90);
 }
 
@@ -384,7 +401,8 @@ you might end up with a UI for ants. there's only so much real estate on the pag
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(3, max-content);
   gap: 24px;
-  padding: 6px 20px 12px 20px;
+  padding-top: 8px;
+  padding-bottom: 12px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -396,7 +414,11 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 }
 
 .bgRadios {
-    gap: 2px;
+  gap: 18px;
+}
+
+.floorRadios {
+  margin-left: 2px;
 }
 
 .button-box {
@@ -408,8 +430,9 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 .control-panel2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 32px;
-  padding: 6px 20px 14px 20px;
+  gap: 42px;
+  padding-top: 34px;
+  padding-bottom: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -525,7 +548,7 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 
 .dropdown-content {
   position: absolute;
-  z-index: 100;
+  z-index: 900;
   display: none;
   max-height: 174px;
   width: 100%;
@@ -560,6 +583,7 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 #myheartselect {
     display: none;
     grid-template-columns: repeat(2, max-content);
+    margin-top: 2px;
     column-gap: 8px;
     row-gap: 4px;
     align-items: center;
@@ -618,14 +642,6 @@ you might end up with a UI for ants. there's only so much real estate on the pag
     pointer-events: none;
 }
 
-.help-close img {
-    content: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/close_0101.png");
-}
-
-.help-close:active img {
-    content: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/close_0102.png");
-}
-
 /* mmm.... toast. */
 .toast {
     position: fixed;
@@ -652,12 +668,21 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 
 /* stop trying to make default fieldset styling happen. it's not going to happen. */
 fieldset {
-    padding: 4px;
+    position: relative;
+    padding: 0px;
     width: fit-content;
-    background-color: #050505;
+    background-color: #251b14;
     border: 3px solid #705435;
     border-radius: 12px;
     padding-block: 0;
+}
+
+legend {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
 }
 
 .no-border {
