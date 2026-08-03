@@ -548,7 +548,7 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 
 .dropdown-content {
   position: absolute;
-  z-index: 900;
+  z-index: 800;
   display: none;
   max-height: 174px;
   width: 100%;
@@ -600,7 +600,7 @@ you might end up with a UI for ants. there's only so much real estate on the pag
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s ease;
-    z-index: 500;
+    z-index: 900;
 }
 
 .help-overlay.open {
