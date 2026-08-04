@@ -49,9 +49,16 @@ body {
   padding-left: 2px;
 }
 
+h2#helpTitle {
+  font-size: 1.4em;
+  text-align:center;
+}
+
 .help-header {
   text-decoration: underline;
-  text-decoration-thickness: 2.25px; 
+  text-decoration-thickness: 2.25px;
+  margin-bottom: 0px;
+  font-size: 1.1em;
 }
 
 .center-header {
@@ -268,8 +275,12 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   z-index: 10;
   position: absolute;
   left: 50%;
-  top: 46px;
+  top: 30px;
   transform: translate(-50%, -25%);
+}
+
+.header img {
+  width: 450px
 }
 
 /* updates. i warned you about updates. */
@@ -574,7 +585,8 @@ you might end up with a UI for ants. there's only so much real estate on the pag
   -webkit-user-drag: none;
 }
 
-.dropdown-content div:hover {
+.dropdown-content div:hover,
+.dropdown-content div.highlighted {
   background: #cdb886;
   color: #000000;
 }
@@ -611,7 +623,7 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 .help-popup {
     position: relative;
     overflow-y: auto;
-    padding: 25px;
+    padding: 0px 25px 25px 25px;
     color: #dfc690;
     background: rgba(30,27,25,0.95);
     border-radius: 12px;
@@ -622,6 +634,10 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 
 .help-overlay.open .help-popup {
     transform: scale(1);
+}
+
+.help-overlay p {
+    margin-top: 0;
 }
 
 .help-close {
@@ -703,4 +719,4 @@ legend {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
-}
+} /* except WAVE. WAVE knows. it always knows. */
