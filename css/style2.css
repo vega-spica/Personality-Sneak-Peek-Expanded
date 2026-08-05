@@ -210,10 +210,10 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 3px 3px;
+    width: fit-content;
+    padding: 3px;
     border: 2px solid transparent;
     border-radius: 12px;
-
     cursor: pointer;
     transition: background-color 0.15s, border-color 0.15s;
     position: relative;
@@ -405,6 +405,7 @@ you might end up with a UI for ants. there's only so much real estate on the pag
     grid-template-columns: repeat(2, max-content);
     gap: 9px 15px;
     padding-top: 8px;
+    justify-items: center;
 }
 
 .control-panel1 {
@@ -460,6 +461,7 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 
 .haloRadios {
     grid-template-columns: repeat(3, max-content);
+    gap: 4px;
 }
 
 .animRadios .title-header,
