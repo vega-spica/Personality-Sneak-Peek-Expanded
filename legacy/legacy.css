@@ -1,0 +1,516 @@
+/* see this cool font? it's a magic trick. */
+@font-face {
+  font-family: 'NotoSans';
+  src: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/font/Noto%20Sans%20CJK%20KR%20Bold.ttf") format("truetype");
+}
+
+/*
+and now that you have the cool font, i can force you to use it!
+	unless your device doesn't support it. then you get boring font.
+		that would be sad, wouldn't it?
+*/
+body {
+  font-family: 'NotoSans', sans-serif;
+  text-shadow: 2px 2px 4px black;
+  letter-spacing: 0.px;
+  background-color: rgba(47, 34, 26, 1.0);
+  background-image: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/Background.png");
+  background-size: 100%;
+}
+
+a {
+  color: skyblue;
+}
+
+a:link,
+a:visited {
+  color: skyblue;
+}
+
+a:hover {
+  color: #dd4343;
+  cursor: pointer;
+}
+
+/* hic sunt dracones */
+.spineCanvas {
+  width: 800%;
+  height: 400%;
+  position: absolute;
+  transform: translate(-50%, -0%);
+}
+
+.auraBackCanvas {
+  z-index: -1;
+  padding: 100% 100% 100% 100%;
+  margin-top: 120%;
+}
+
+.haloCanvas {
+  z-index: 0;
+  padding: 100% 100% 100% 100%;
+  margin-top: 120%;
+}
+
+.dragonCanvas {
+  z-index: 1;
+  padding: 100% 100% 100% 100%;
+  margin-top: 120%;
+}
+
+/* frame. FRAME!!! */
+#dragon-image {
+  position: absolute;
+  z-index: 0;
+  max-width: 40%;
+  margin-top: 54%;
+  margin-left: 30%;
+}
+
+.auraFrontCanvas {
+  z-index: 2;
+  padding: 100% 100% 100% 100%;
+  margin-top: 120%;
+}
+
+.backgroundCanvas {
+  z-index: -3;
+  width: 800%;
+  height: 400%;
+  position: absolute;
+
+}
+
+.floorCanvas {
+  width: 800%;
+  height: 400%;
+  position: absolute;
+  margin-top: 42%;
+  z-index: -2;
+}
+
+/* why is everything such a pain to center?!? */
+.grid-container {
+  display: grid;
+  justify-content: center;
+  height: 250px;
+}
+
+.grid-item {
+  position: relative;
+  text-align: center;
+  height: 200px;
+  width: 100px;
+}
+
+/* i had to restyle this WHOLE site just to add backgrounds... */
+/* never again... */
+.left-container {
+  color: #c0cc83;
+  max-width: 450px;
+  font-size: 15px;
+  text-align: right;
+  line-height: 20px;
+  position: relative;
+  padding-top: 17%;
+  padding-left: 10%;
+  z-index: 2;
+}
+
+.right-container {
+  color: #c0cc83;
+  max-width: 450px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  position: relative;
+  padding-top: 17%;
+  padding-right: 8%;
+  z-index: 2;
+}
+
+.center-container {
+  color: #c0cc83;
+  max-width: 1000px;
+  text-align: center;
+  line-height: 20px;
+  flex-grow: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.species-container {
+  text-align: right;
+  margin-right: 22%;
+}
+
+.animRadios {
+  text-align: left;
+  line-height: 150%;
+  margin-left: 35%;
+}
+
+.chromaRadios {
+  text-align: left;
+  line-height: 150%;
+  margin-left: 50%;
+}
+
+.genderRadios {
+  margin-right: 10%;
+}
+
+.bgRadios {
+  text-align: left;
+  line-height: 150%;
+  margin-left: 30%;
+}
+
+.floorRadios {
+  text-align: left;
+  line-height: 150%;
+  margin-left: 30%;
+}
+
+/* totally for the header bar at the top */
+.header {
+  color: white;
+  text-align: center;
+  font-family: "NotoSans";
+  font-size: 14px;
+  position: relative;
+  z-index: 2;
+}
+
+/* footer, now with 33% more feet. */
+.footer {
+  color: #dfc690;
+  text-align: center;
+  font-family: 'NotoSans', sans-serif;
+  font-size: 14px;
+  padding-top: 85%;
+  position: relative;
+  z-index: 2;
+}
+
+/* new fancy dropdowns~ */
+select {
+  background-color: #dfdfde;
+  border: thin solid black;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  font-size: 12px;
+  line-height: 1.5em;
+  width: 205px;
+  padding: .5em 3.5em .5em .75em;
+
+  /* clears out the default arrows. because ew, defaults. */
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* you see that little arrow next to the dropdown...? */
+select {
+  background-image:
+    linear-gradient(45deg, transparent 50%, blue 50%),
+    linear-gradient(135deg, blue 50%, transparent 50%),
+    linear-gradient(to right, skyblue, skyblue);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    3em 2.5em;
+  background-repeat: no-repeat;
+}
+
+/* ...click it. you know you want to. */
+select:focus {
+  background-image:
+    linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    linear-gradient(to right, gray, gray);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat;
+  border-color: grey;
+  outline: 0;
+}
+
+/* maybe had a slight issue with dropdowns clipping. nothing serious.*/
+/* ...okay, maybe it was a little serious. */
+.dropdown {
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown.active {
+    z-index: 99;
+}
+
+.dropdown-content {
+    position: absolute;
+    z-index: 100;
+}
+
+#myownselect {
+  display: none;
+
+  select {
+    width: 100px;
+  }
+}
+
+#myheartselect {
+  display: none;
+
+  select {
+    width: 100px;
+  }
+}
+
+/* clickable radio labels are very much in style. */
+#animRadios label {
+  cursor: pointer;
+  position: relative;
+}
+
+#chromaRadios label {
+  cursor: pointer;
+  position: relative;
+}
+
+#buttonAlert {
+  display: none;
+}
+
+/* nifty radio buttons. yes, they're nifty. */
+#genderRadios label {
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+
+#genderRadios label img {
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+
+#stageRadios label {
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+
+#stageRadios label img {
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+
+.haloRadios {
+  text-align: right;
+}
+
+#haloRadios label {
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+
+#haloRadios label img {
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+
+input[type='radio'] {
+  accent-color: blue;
+}
+
+/* disappearing gender buttons are also nifty. */
+.disabledButton {
+  opacity: 0.3;
+}
+
+/* in the dragon world, genders have tooltips. */
+#genderRadios label:hover::before {
+  content: attr(for);
+  font-family: 'NotoSans', sans-serif;
+  text-transform: capitalize;
+  font-size: 11px;
+  position: absolute;
+  top: 170%;
+  left: 0;
+  right: 0;
+  opacity: 0.75;
+  background-color: #323232;
+  color: #fff;
+  padding: 3px;
+  border-radius: 4px;
+  display: block;
+}
+
+/* would you like that giftwrapped? */
+.wrapper {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+/*boy, do i hate mobile...*/
+@media screen and (max-width: 560px) {
+  .footer {
+    padding-top: 120%;
+  }
+
+  .dragonCanvas {
+    margin-top: 145%;
+  }
+
+  #dragon-image {
+    position: absolute;
+    z-index: 0;
+    max-width: 40%;
+    margin-top: 54%;
+    margin-left: 30%;
+  }
+}
+
+/*that strange 125% display...*/
+@media (min-resolution: 120dpi) {
+  .auraBackCanvas {
+    margin-top: 87%;
+  }
+
+  .haloCanvas {
+    margin-top: 87%;
+  }
+
+  .dragonCanvas {
+    margin-top: 87%;
+  }
+
+  .auraFrontCanvas {
+    margin-top: 87%;
+  }
+
+  #dragon-image {
+    margin-top: 97%;
+  }
+
+  .footer {
+    font-size: 11px;
+    padding-top: 120%;
+  }
+}
+
+/*even NEWER dropdowns*/
+.dropdown {
+  position: relative;
+  width: 205px;
+  color: #000000;
+  background-color: #f0f0f0;
+  border: thin solid black;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: left;
+  text-shadow: none;
+  font-size: 12px;
+  z-index: 3;
+}
+
+.search-box {
+  width: 100%;
+  border-radius: 4px;
+  padding: .5em 3.5em .5em .75em;
+  background: #f0f0f0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  background: #f0f0f0;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.dropdown-content div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-content div:hover {
+  background: #f0f0f0;
+}
+
+/* and for those of us at 150% because we can't see */
+@media (min-resolution: 125dpi) {
+  .spineCanvas {
+    width: 550%;
+    height: 280%;
+  }
+
+  .auraBackCanvas {
+    padding: 70% 70% 70% 70%;
+    margin-top: 77%;
+  }
+
+  .haloCanvas {
+    padding: 70% 70% 70% 70%;
+    margin-top: 77%;
+  }
+
+  .dragonCanvas {
+    padding: 70% 70% 70% 70%;
+    margin-top: 77%;
+  }
+
+  .auraFrontCanvas {
+    padding: 70% 70% 70% 70%;
+    margin-top: 77%;
+  }
+
+  .floorCanvas {
+    margin-top: 28%;
+  }
+
+  #dragon-image {
+    margin-top: 65%;
+  }
+
+  .left-container {
+    padding-left: 0%;
+  }
+
+  .right-container {
+    padding-right: 0%;
+  }
+
+  .footer {
+    font-size: 11px;
+    padding-top: 80%;
+  }
+}

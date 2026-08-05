@@ -4,6 +4,20 @@
   src: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/font/Noto%20Sans%20CJK%20KR%20Bold.ttf") format("truetype");
 }
 
+:root {
+  background: #3a2a23;
+  color: #f0ece3;
+  background-color: rgba(47, 34, 26, 1.0);
+  font-size: 17px;
+  font-weight: 800;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+}
+
 /*
 and now that you have the cool font, i can force you to use it!
 	unless your device doesn't support it. then you get boring font.
@@ -13,9 +27,42 @@ body {
   font-family: 'NotoSans', sans-serif;
   text-shadow: 2px 2px 4px black;
   letter-spacing: 0.px;
-  background-color: rgba(47, 34, 26, 1.0);
-  background-image: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/Background.png");
-  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/Background.png") center top / 720px auto repeat-y, #3b2a22;
+}
+
+.title-header {
+  font-size: 1.1em;
+  padding-bottom: 1px;
+}
+
+.aura-header {
+  grid-column: 1 / -1;
+  margin-bottom: -4px;
+}
+
+.title-header,
+.aura-header {
+  color: #ebe1b0;
+  padding-left: 2px;
+}
+
+h2#helpTitle {
+  font-size: 1.4em;
+  text-align:center;
+}
+
+.help-header {
+  text-decoration: underline;
+  text-decoration-thickness: 2.25px;
+  margin-bottom: 0px;
+  font-size: 1.1em;
+}
+
+.center-header {
+    text-align: center;
 }
 
 a {
@@ -32,485 +79,646 @@ a:hover {
   cursor: pointer;
 }
 
-/* hic sunt dracones */
+/* unfortunately, the text select likes eating buttons for breakfast. */
+.genderRadios,
+.stageRadios,
+.chromaRadios,
+.bgRadios,
+.floorRadios,
+.animRadios,
+.haloRadios,
+.sharelink-button,
+.help-button {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    justify-content: center
+}
+
+/* would you like that giftwrapped? */
+.fit-wrapper {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.page {
+    position: relative;
+    width: 720px;
+    padding: 2px 16px 2px;
+    margin: 0;
+    flex-shrink: 0;
+    visibility: hidden;
+    transform-origin: top center;
+}
+
+/* 
+load-bearing css property. do not touch. do not look at it directly. the fate of Alitia depends upon it.
+  or does it...? maybe. you shouldn't risk it though, just don't touch it.
+*/
+.page.fit-ready {
+    visibility: visible;
+    transition: transform 0.18s ease;
+}
+
+/*
+so you want to embiggen something in the canvas? well, you've come to the wrong place.
+  this canvas is merciless. see spineObject.js for instructions on how to embiggen (or emsmallen) something.
+*/
 .spineCanvas {
-  width: 800%;
-  height: 400%;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  transform: translate(-50%, -0%);
+  inset: 0;
+  pointer-events: none;
 }
 
 .auraBackCanvas {
-  z-index: -1;
-  padding: 100% 100% 100% 100%;
-  margin-top: 120%;
+  z-index: -2;
 }
 
 .haloCanvas {
-  z-index: 0;
-  padding: 100% 100% 100% 100%;
-  margin-top: 120%;
+  z-index: -1;
 }
 
+/* hic sunt dracones */
 .dragonCanvas {
-  z-index: 1;
-  padding: 100% 100% 100% 100%;
-  margin-top: 120%;
-}
-
-/* frame. FRAME!!! */
-#dragon-image {
-  position: absolute;
   z-index: 0;
-  max-width: 40%;
-  margin-top: 54%;
-  margin-left: 30%;
 }
 
 .auraFrontCanvas {
   z-index: 2;
-  padding: 100% 100% 100% 100%;
-  margin-top: 120%;
+}
+
+.auraBackCanvas,
+.haloCanvas,
+.dragonCanvas,
+.auraFrontCanvas {
+  transform: translate(0px, -17px);
 }
 
 .backgroundCanvas {
-  z-index: -3;
-  width: 800%;
-  height: 400%;
-  position: absolute;
-
+  z-index: -4;
+  transform: translate(0px, -161px);
 }
 
 .floorCanvas {
-  width: 800%;
-  height: 400%;
+  z-index: -3;
+  transform: translate(0px, -87px);
+}
+
+/* now presenting...! */
+.dragon-stage {
   position: absolute;
-  margin-top: 42%;
-  z-index: -2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 820px;
+  z-index: 2;
+  display: flex;
 }
 
-/* why is everything such a pain to center?!? */
-.grid-container {
-  display: grid;
-  justify-content: center;
-  height: 250px;
+/* frame. FRAME!!! */
+#dragon-image {
+  z-index: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -25%);
 }
 
+/* increasing the size of this grid-item will extend the edges of the canvas, but it won't make anything inside any bigger.*/
 .grid-item {
   position: relative;
-  text-align: center;
-  height: 200px;
-  width: 100px;
+  height: 1000px;
+  width: 1000px;
 }
 
-/* i had to restyle this WHOLE site just to add backgrounds... */
-/* never again... */
-.left-container {
-  color: #c0cc83;
-  max-width: 450px;
-  font-size: 15px;
-  text-align: right;
-  line-height: 20px;
+/* to disappear those annoying blue dots.*/
+.radio-selector input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* highlights are cooler, right?*/
+.radio-selector label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 3px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.15s, border-color 0.15s;
+    position: relative;
+}
+
+/* in the dragon world, genders have tooltips. */
+.radio-selector label[data-tooltip]::before {
+    content: attr(data-tooltip);
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    pointer-events: none;
+    background-color: #323232;
+    color: #fff;
+    padding: 3px;
+    border-radius: 4px;
+    transition: opacity 0.15s;
+    z-index: 600;
+}
+
+/* OH NO! media queries! */
+@media (hover: hover) and (pointer: fine) {
+    .radio-selector label[data-tooltip]:hover::before {
+        opacity: 0.9;
+    }
+}
+
+/* mobile devices are safe from the queries. for now. */
+.radio-selector label[data-tooltip].tooltip-visible::before {
+    opacity: 0.9;
+}
+
+.radio-selector label:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.radio-selector input[type="radio"]:checked + label {
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 234, 91); /* in-game colour is 'chick' */
+    border-color: currentColor;
+    /* avoids clipping; for whatever reason, the background colour on hover seems to have a z-index of around 500 or so. */
+    z-index: 510;
+}
+
+/* nifty disappearing radio buttons. yes, they're nifty. */
+.disabledButton > img {
+    opacity: 0.3;
+}
+
+.disabledButton {
+    color: rgba(136, 136, 136, 0.5);
+}
+
+/* totally for the header at the top. */
+.header {
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  transform: translate(-50%, -25%);
+}
+
+.header img {
+  width: 450px
+}
+
+/* updates. i warned you about updates. */
+.preview,
+.summary-bar,
+.summary-panel,
+.control-panel1,
+.control-panel2 {
+/* if you touch this width, you are responsible for editing ALL of the panel image parts in an image editor to avoid artifacts. */
+  width: 688px;
+  border-radius: 10px;
+  margin-top: 2px;
+  background:
+      url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/panel_top.png) top no-repeat,
+      url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/panel_bottom.png) bottom no-repeat,
+      url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/panel_center.png) center repeat-y;
+}
+
+.summary-bar,
+.summary-panel,
+.control-panel1,
+.control-panel2 {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+/*
+this frames the preview area. if the height is increased, then the viewing window will get bigger.
+this may sound like a good thing, but all other elements on the page will attempt to resize to accomodate.
+you might end up with a UI for ants. there's only so much real estate on the page, after all.
+*/
+.preview {
   position: relative;
-  padding-top: 17%;
-  padding-left: 10%;
-  z-index: 2;
+  height: 810px;
+  overflow: hidden;
+  margin-bottom: 4px;
 }
 
-.right-container {
-  color: #c0cc83;
-  max-width: 450px;
-  font-size: 15px;
-  text-align: center;
-  line-height: 20px;
+.summary-bar {
   position: relative;
-  padding-top: 17%;
-  padding-right: 8%;
-  z-index: 2;
-}
-
-.center-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+  min-height: 72px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  border-bottom: 0;
   color: #c0cc83;
-  max-width: 1000px;
-  text-align: center;
-  line-height: 20px;
-  flex-grow: 1;
-  position: relative;
-  z-index: 1;
 }
 
-.species-container {
-  text-align: right;
-  margin-right: 22%;
-}
-
-.animRadios {
-  text-align: left;
-  line-height: 150%;
-  margin-left: 35%;
-}
-
-.chromaRadios {
-  text-align: left;
-  line-height: 150%;
-  margin-left: 50%;
+.summary-bar-group {
+  display: flex;
+  flex-direction: column;
 }
 
 .genderRadios {
-  margin-right: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.summary-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 18px;
+  height: 202px;
+  padding-top: 8px;
+  padding-bottom: 14px;
+  border-top: 0;
+}
+
+.summary-left,
+.summary-center,
+.summary-right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-left {
+  width: 250px;
+}
+
+.summary-center,
+.summary-right {
+  padding-top: 34px;
+}
+
+.sharelink-button input[type="image"],
+.help-button input[type="image"],
+.help-close img {
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+/* clicky buttons. because everyone loves clicky buttons. */
+.sharelink-button input[type="image"]:active,
+.help-button input[type="image"]:active,
+.help-close:active img {
+    transform: scale(0.90);
+}
+
+.stageRadios {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 10px 8px;
+}
+
+.stageRadios .title-header {
+    grid-column: 1 / -1;
+}
+
+.stageRadios img {
+    width: 50px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.chromaRadios {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 9px 15px;
+    padding-top: 8px;
+    justify-items: center;
+}
+
+.control-panel1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, max-content);
+  gap: 24px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bgRadios,
+.floorRadios {
+  margin-top: 4px;
+  display: flex;
 }
 
 .bgRadios {
-  text-align: left;
-  line-height: 150%;
-  margin-left: 30%;
+  gap: 18px;
 }
 
 .floorRadios {
-  text-align: left;
-  line-height: 150%;
-  margin-left: 30%;
+  margin-left: 2px;
 }
 
-/* totally for the header bar at the top */
-.header {
-  color: white;
-  text-align: center;
-  font-family: "NotoSans";
-  font-size: 14px;
-  position: relative;
-  z-index: 2;
+.button-box {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.control-panel2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 42px;
+  padding-top: 34px;
+  padding-bottom: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.animRadios,
+.haloRadios {
+    position: relative;
+    display: grid;
+}
+
+.animRadios {
+    grid-template-columns: repeat(8, max-content);
+}
+
+.haloRadios {
+    grid-template-columns: repeat(3, max-content);
+    gap: 4px;
+}
+
+.animRadios .title-header,
+.haloRadios .title-header {
+    grid-column: 1 / -1;
+    gap: 2px;
 }
 
 /* footer, now with 33% more feet. */
 .footer {
   color: #dfc690;
   text-align: center;
-  font-family: 'NotoSans', sans-serif;
-  font-size: 14px;
-  padding-top: 85%;
-  position: relative;
-  z-index: 2;
+  font-size: 0.9em;
+  margin-top: 2px;
 }
 
-/* new fancy dropdowns~ */
-select {
-  background-color: #dfdfde;
-  border: thin solid black;
-  border-radius: 4px;
-  display: inline-block;
-  font: inherit;
-  font-size: 12px;
-  line-height: 1.5em;
-  width: 205px;
-  padding: .5em 3.5em .5em .75em;
-
-  /* clears out the default arrows. because ew, defaults. */
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-/* you see that little arrow next to the dropdown...? */
-select {
-  background-image:
-    linear-gradient(45deg, transparent 50%, blue 50%),
-    linear-gradient(135deg, blue 50%, transparent 50%),
-    linear-gradient(to right, skyblue, skyblue);
-  background-position:
-    calc(100% - 20px) calc(1em + 2px),
-    calc(100% - 15px) calc(1em + 2px),
-    100% 0;
-  background-size:
-    5px 5px,
-    5px 5px,
-    3em 2.5em;
-  background-repeat: no-repeat;
-}
-
-/* ...click it. you know you want to. */
-select:focus {
-  background-image:
-    linear-gradient(45deg, white 50%, transparent 50%),
-    linear-gradient(135deg, transparent 50%, white 50%),
-    linear-gradient(to right, gray, gray);
-  background-position:
-    calc(100% - 15px) 1em,
-    calc(100% - 20px) 1em,
-    100% 0;
-  background-size:
-    5px 5px,
-    5px 5px,
-    2.5em 2.5em;
-  background-repeat: no-repeat;
-  border-color: grey;
-  outline: 0;
-}
-
-/* maybe had a slight issue with dropdowns clipping. nothing serious.*/
-/* ...okay, maybe it was a little serious. */
-.dropdown {
-    position: relative;
-    z-index: 1;
-}
-
-.dropdown.active {
-    z-index: 99;
-}
-
-.dropdown-content {
-    position: absolute;
-    z-index: 100;
-}
-
-#myownselect {
-  display: none;
-
-  select {
-    width: 100px;
-  }
-}
-
-#myheartselect {
-  display: none;
-
-  select {
-    width: 100px;
-  }
-}
-
-/* clickable radio labels are very much in style. */
-#animRadios label {
-  cursor: pointer;
-  position: relative;
-}
-
-#chromaRadios label {
-  cursor: pointer;
-  position: relative;
-}
-
-#buttonAlert {
-  display: none;
-}
-
-/* nifty radio buttons. yes, they're nifty. */
-#genderRadios label {
-  cursor: pointer;
-  position: relative;
-  vertical-align: middle;
-}
-
-#genderRadios label img {
-  cursor: pointer;
-  position: relative;
-  vertical-align: middle;
-}
-
-#stageRadios label {
-  cursor: pointer;
-  position: relative;
-  vertical-align: middle;
-}
-
-#stageRadios label img {
-  cursor: pointer;
-  position: relative;
-  vertical-align: middle;
-}
-
-.haloRadios {
-  text-align: right;
-}
-
-#haloRadios label {
-  cursor: pointer;
-  position: relative;
-  vertical-align: middle;
-}
-
-#haloRadios label img {
-  cursor: pointer;
-  position: relative;
-  vertical-align: middle;
-}
-
-input[type='radio'] {
-  accent-color: blue;
-}
-
-/* disappearing gender buttons are also nifty. */
-.disabledButton {
-  opacity: 0.3;
-}
-
-/* in the dragon world, genders have tooltips. */
-#genderRadios label:hover::before {
-  content: attr(for);
-  font-family: 'NotoSans', sans-serif;
-  text-transform: capitalize;
-  font-size: 11px;
-  position: absolute;
-  top: 170%;
-  left: 0;
-  right: 0;
-  opacity: 0.75;
-  background-color: #323232;
-  color: #fff;
-  padding: 3px;
-  border-radius: 4px;
-  display: block;
-}
-
-/* would you like that giftwrapped? */
-.wrapper {
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-  display: flex;
-  flex-direction: row;
-}
-
-/*boy, do i hate mobile...*/
-@media screen and (max-width: 560px) {
-  .footer {
-    padding-top: 120%;
-  }
-
-  .dragonCanvas {
-    margin-top: 145%;
-  }
-
-  #dragon-image {
-    position: absolute;
-    z-index: 0;
-    max-width: 40%;
-    margin-top: 54%;
-    margin-left: 30%;
-  }
-}
-
-/*that strange 125% display...*/
-@media (min-resolution: 120dpi) {
-  .auraBackCanvas {
-    margin-top: 87%;
-  }
-
-  .haloCanvas {
-    margin-top: 87%;
-  }
-
-  .dragonCanvas {
-    margin-top: 87%;
-  }
-
-  .auraFrontCanvas {
-    margin-top: 87%;
-  }
-
-  #dragon-image {
-    margin-top: 97%;
-  }
-
-  .footer {
-    font-size: 11px;
-    padding-top: 120%;
-  }
-}
-
-/*even NEWER dropdowns*/
+/* fancy dropdowns~ */
 .dropdown {
   position: relative;
   width: 205px;
-  color: #000000;
-  background-color: #f0f0f0;
-  border: thin solid black;
-  border-radius: 4px;
-  display: inline-block;
-  text-align: left;
+  color: #dfc690;
   text-shadow: none;
-  font-size: 12px;
-  z-index: 3;
+  width: 250px;
+  box-sizing: border-box;
 }
 
+.form-dropdown {
+    width: 195px;
+}
+
+.customaura-dropdown {
+    width: 120px;
+}
+
+.dropdown:has(.no-search)::after {
+  content: "";
+  position: absolute;
+  font: inherit;
+  right: 10px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  border-right: 2px solid #a87f5e;
+  border-bottom: 2px solid #a87f5e;
+  transform: translateY(-65%) rotate(45deg);
+  transition: transform 0.15s;
+  pointer-events: none;
+}
+
+.dropdown.active:has(.no-search)::after {
+  transform: translateY(-35%) rotate(-135deg);
+}
+
+/* ggrks!! (¬ `ꞈ´ ¬) */
 .search-box {
-  width: 100%;
-  border-radius: 4px;
-  padding: .5em 3.5em .5em .75em;
-  background: #f0f0f0;
   box-sizing: border-box;
+  width: 100%;
+  background:rgba(5, 5, 5, 0.95);
+  color: #cdb886;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: 2px solid #705435;
+  box-shadow: 
+      inset 0 0 0 1px #805c3c,
+      inset 0 0 0 3px #050505;
   font: inherit;
 }
 
+.search-box.no-search {
+  cursor: pointer;
+  caret-color: transparent;
+  user-select: none;
+  padding-right: 24px;
+}
+
+/* the white browser ring on active searchbar was ruining the immersion a bit. */
+.search-box:focus,
+.search-box:focus-visible {
+  outline: none;
+}
+
+.search-box.search-icon {
+    padding-right: 30px;
+}
+
+.search-box.search-icon:placeholder-shown {
+    background-image: url("https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/search_0101.png");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+}
+
+.dropdown.active .search-box {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .dropdown-content {
-  display: none;
   position: absolute;
+  z-index: 800;
+  display: none;
+  max-height: 174px;
   width: 100%;
-  border: 1px solid #f0f0f0;
-  background: #f0f0f0;
-  max-height: 250px;
   overflow-y: auto;
+  background:rgba(5, 5, 5, 0.95);
+  color: #cdb886;
+  border-radius: 0 0 10px 10px;
+  border: 2px solid #705435;
+  border-top: none;
+  top: 100%; 
+  margin-top: -2px;
+  box-shadow: 
+      inset 0 0 0 1px #805c3c, 
+      inset 0 0 0 3px #050505;
+  scrollbar-color: #705435 transparent; /* [thumb color] [track color] */
 }
 
 .dropdown-content div {
-  padding: 8px;
-  cursor: pointer;
+  padding: 2px 10px;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
 }
 
-.dropdown-content div:hover {
-  background: #f0f0f0;
+.dropdown-content div:hover,
+.dropdown-content div.highlighted {
+  background: #cdb886;
+  color: #000000;
 }
 
-/* and for those of us at 150% because we can't see */
-@media (min-resolution: 125dpi) {
-  .spineCanvas {
-    width: 550%;
-    height: 280%;
-  }
-
-  .auraBackCanvas {
-    padding: 70% 70% 70% 70%;
-    margin-top: 77%;
-  }
-
-  .haloCanvas {
-    padding: 70% 70% 70% 70%;
-    margin-top: 77%;
-  }
-
-  .dragonCanvas {
-    padding: 70% 70% 70% 70%;
-    margin-top: 77%;
-  }
-
-  .auraFrontCanvas {
-    padding: 70% 70% 70% 70%;
-    margin-top: 77%;
-  }
-
-  .floorCanvas {
-    margin-top: 28%;
-  }
-
-  #dragon-image {
-    margin-top: 65%;
-  }
-
-  .left-container {
-    padding-left: 0%;
-  }
-
-  .right-container {
-    padding-right: 0%;
-  }
-
-  .footer {
-    font-size: 11px;
-    padding-top: 80%;
-  }
+#myownselect,
+#myheartselect {
+    display: none;
+    grid-template-columns: repeat(2, max-content);
+    margin-top: 2px;
+    column-gap: 8px;
+    row-gap: 4px;
+    align-items: center;
 }
+
+/* always be sure to read the enclosed instruction booklet. */
+.help-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 900;
+}
+
+.help-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.help-popup {
+    position: relative;
+    overflow-y: auto;
+    padding: 0px 25px 25px 25px;
+    color: #dfc690;
+    background: rgba(30,27,25,0.95);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+    transform: scale(0.95);
+    transition: transform 0.2s ease;
+}
+
+.help-overlay.open .help-popup {
+    transform: scale(1);
+}
+
+.help-overlay p {
+    margin-top: 0;
+}
+
+.help-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.help-close img {
+    display: block;
+    width: 38px;
+    height: auto;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* mmm.... toast. */
+.toast {
+    position: fixed;
+    left: 50%;
+    bottom: 24px;
+    transform: translateX(-50%) translateY(20px);
+    padding: 12px 20px;
+    background: rgba(30, 30, 30, 0.9);
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    pointer-events: none;
+    opacity: 0;
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+    z-index: 300;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* stop trying to make default fieldset styling happen. it's not going to happen. */
+fieldset {
+    position: relative;
+    padding: 0px;
+    width: fit-content;
+    background-color: #251b14;
+    border: 3px solid #705435;
+    border-radius: 12px;
+    padding-block: 0;
+}
+
+legend {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.no-border {
+    border: none;
+    margin: 0;
+    padding-top: 4px;
+    background-color: transparent;
+}
+
+/* it's a secret to everybody. */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+} /* except WAVE. WAVE knows. it always knows. */

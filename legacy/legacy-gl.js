@@ -12162,7 +12162,6 @@ void main () {
       this.srcColorBlend = gl.SRC_ALPHA;
       this.srcAlphaBlend = gl.ONE;
       this.dstBlend = gl.ONE_MINUS_SRC_ALPHA;
-      this.transparencyFix = false;
     }
     begin(shader) {
       if (this.isDrawing)
@@ -12181,11 +12180,7 @@ void main () {
       }
     }
     setBlendMode(blendMode, premultipliedAlpha) {
-      const blendTable = this.transparencyFix
-          ? _PolygonBatcher.blendModesGLTransparencyFix
-          : _PolygonBatcher.blendModesGL;
-
-      const blendModeGL = blendTable[blendMode];
+      const blendModeGL = _PolygonBatcher.blendModesGL[blendMode];
       const srcColorBlend = premultipliedAlpha ? blendModeGL.srcRgbPma : blendModeGL.srcRgb;
       const srcAlphaBlend = blendModeGL.srcAlpha;
       const dstBlend = blendModeGL.dstRgb;
@@ -12266,13 +12261,6 @@ void main () {
   __publicField(PolygonBatcher, "blendModesGL", [
     { srcRgb: GL_SRC_ALPHA, srcRgbPma: GL_ONE, dstRgb: GL_ONE_MINUS_SRC_ALPHA, srcAlpha: GL_ONE },
     { srcRgb: GL_SRC_ALPHA, srcRgbPma: GL_ONE, dstRgb: GL_ONE, srcAlpha: GL_ONE },
-    { srcRgb: GL_DST_COLOR, srcRgbPma: GL_DST_COLOR, dstRgb: GL_ONE_MINUS_SRC_ALPHA, srcAlpha: GL_ONE },
-    { srcRgb: GL_ONE, srcRgbPma: GL_ONE, dstRgb: GL_ONE_MINUS_SRC_COLOR, srcAlpha: GL_ONE }
-  ]);
-
-  __publicField(PolygonBatcher, "blendModesGLTransparencyFix", [
-    { srcRgb: GL_SRC_ALPHA, srcRgbPma: GL_ONE, dstRgb: GL_ONE_MINUS_SRC_ALPHA, srcAlpha: GL_ONE },
-    { srcRgb: GL_SRC_ALPHA, dstRgb: GL_ONE_MINUS_SRC_ALPHA },
     { srcRgb: GL_DST_COLOR, srcRgbPma: GL_DST_COLOR, dstRgb: GL_ONE_MINUS_SRC_ALPHA, srcAlpha: GL_ONE },
     { srcRgb: GL_ONE, srcRgbPma: GL_ONE, dstRgb: GL_ONE_MINUS_SRC_COLOR, srcAlpha: GL_ONE }
   ]);
@@ -12999,7 +12987,6 @@ void main () {
     canvas;
     camera;
     batcher;
-    transparencyFix = false;
     twoColorTint = false;
     batcherShader;
     shapes;
@@ -13043,9 +13030,6 @@ void main () {
     }
     drawSkeleton(skeleton, premultipliedAlpha = false, slotRangeStart = -1, slotRangeEnd = -1, transform = null) {
       this.enableRenderer(this.batcher);
-      
-      this.batcher.transparencyFix = this.transparencyFix;
-
       this.skeletonRenderer.premultipliedAlpha = premultipliedAlpha;
       this.skeletonRenderer.draw(this.batcher, skeleton, slotRangeStart, slotRangeEnd, transform);
     }
@@ -13399,9 +13383,8 @@ void main () {
     resize(resizeMode) {
       let canvas = this.canvas;
       var dpr = window.devicePixelRatio || 1;
-      var rect = canvas.getBoundingClientRect();
-      var w = Math.round(canvas.clientWidth);
-      var h = Math.round(canvas.clientHeight);
+      var w = Math.round(canvas.clientWidth * dpr);
+      var h = Math.round(canvas.clientHeight * dpr);
       if (canvas.width != w || canvas.height != h) {
         canvas.width = w;
         canvas.height = h;
