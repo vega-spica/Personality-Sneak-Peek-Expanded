@@ -1,7 +1,10 @@
 {
   "name": "Dragon Village Collection+: APPEND",
   "short_name": "+APPEND",
+  "description": "Dragon Village Collection Plus: APPEND, formerly known as Personality Sneak-Peek (Expanded). The fanmade archival model viewer for Dragon Village Collection and more.",
+  "categories": ["reference", "games"],
   "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "background_color": "#3a2a23",
   "icons": [
