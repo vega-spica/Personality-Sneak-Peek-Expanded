@@ -16537,6 +16537,14 @@ const speciesJson = {
               }
             }
           },
+          "09": {
+            "formDisplay": "Default [DV3]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -16565,6 +16573,14 @@ const speciesJson = {
               }
             }
           },
+          "09": {
+            "formDisplay": "Default [DV3]",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -16590,6 +16606,14 @@ const speciesJson = {
             "genders": {
               "m": {
                 "color": "g"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Default [DV3]",
+            "genders": {
+              "n": {
+                "color": "dv3"
               }
             }
           },
@@ -71163,6 +71187,47 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "dragon_n_hatchling_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "utriel": {
+    "speciesDisplay": "Yutriel",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "dv3"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "dv3"
               }
             }
           }
