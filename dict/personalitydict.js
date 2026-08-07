@@ -909,6 +909,11 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Brilliant Primordial (Lightning Dragon) [FLASHING]": {
+        "each": "aura_ss_lightning",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Calm": {
         "each": "aura_a_serenity",
         "back": "back",
@@ -941,6 +946,11 @@ const personalityJson = {
     },
     "[DV3] Dazzling Thunderclap": {
         "each": "aura_ss_citael",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Dazzling Primordial (Deva)": {
+        "each": "aura_ss_deva",
         "back": "back",
         "front": "front"
     },
@@ -1029,6 +1039,46 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Primordial (Blue)": {
+        "each": "aura_b_primeval_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Primordial (Deva)": {
+        "each": "aura_s_deva",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Primordial (Florea)": {
+        "each": "aura_s_florea",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Primordial (Green)": {
+        "each": "aura_b_primeval_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Primordial (Lightning Dragon) [FLASHING]": {
+        "each": "aura_s_lightning",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Primordial (Purple)": {
+        "each": "aura_b_primeval_purple",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Primordial (Red)": {
+        "each": "aura_b_primeval_red",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Primordial (Yellow)": {
+        "each": "aura_b_primeval_yellow",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Purge (Black)": {
         "each": "aura_b_lightdarkwar_black",
         "back": "back",
@@ -1079,8 +1129,38 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Resplendent Primordial (Florea)": {
+        "each": "aura_ss_florea",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Resplendent Purge": {
         "each": "aura_ss_frost",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Primordial (Blue)": {
+        "each": "aura_a_primeval_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Primordial (Green)": {
+        "each": "aura_a_primeval_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Primordial (Purple)": {
+        "each": "aura_a_primeval_purple",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Primordial (Red)": {
+        "each": "aura_a_primeval_red",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Primordial (Yellow)": {
+        "each": "aura_a_primeval_yellow",
         "back": "back",
         "front": "front"
     },

@@ -71195,7 +71195,7 @@ const speciesJson = {
     }
   },
   "utriel": {
-    "speciesDisplay": "Yutriel",
+    "speciesDisplay": "Utriel",
     "stage": {
       "hatch": {
         "forms": {
