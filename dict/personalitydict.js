@@ -800,6 +800,11 @@ const personalityJson = {
 		"back": "back_a",
 		"front": "front_a"
 	},
+	"Supernova": {
+		"each": "aura_s_supernova",
+		"back": "back",
+		"front": "front"
+	},
 	"Surreal": {
 		"each": "aura_s_magical",
 		"back": "back",

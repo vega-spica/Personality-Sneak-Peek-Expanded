@@ -2437,6 +2437,95 @@ const speciesJson = {
       }
     }
   },
+  "antares": {
+    "speciesDisplay": "Antares",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bg"
+              },
+              "m": {
+                "color": "bg"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dianu_w_hatch_w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bg"
+              },
+              "m": {
+                "color": "bg"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dianu_w_hatchling_w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bg"
+              },
+              "m": {
+                "color": "bg"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dianu_w_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bg"
+              },
+              "m": {
+                "color": "bg"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "anurhada": {
     "speciesDisplay": "Anurhada",
     "stage": {
@@ -2450,6 +2539,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           },
@@ -2476,6 +2576,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -2499,11 +2610,37 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "granos_w_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
               }
             }
           }
@@ -8134,6 +8271,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -12274,6 +12422,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           },
@@ -39351,6 +39510,28 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Destruction",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -39371,6 +39552,28 @@ const speciesJson = {
               },
               "m": {
                 "color": "w"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Destruction",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           },
@@ -39397,11 +39600,59 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Destruction",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_adult_w"
+              }
+            }
+          }
+        }
+      },
+      "prism": {
+        "forms": {
+          "02": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Prism Destruction",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
               }
             }
           }
@@ -48956,11 +49207,33 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "04": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
                 "undeadres": "dragon_w_hatch_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Destruction)",
+            "genders": {
+              "f": {
+                "undeadres": "dragon_w_hatch_w"
+              },
+              "m": {
+                "undeadres": "wyvern_w_hatch_w"
               }
             }
           }
@@ -49001,10 +49274,21 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
+                "undeadres": "dragon_w_hatchling_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Destruction)",
+            "genders": {
+              "f": {
+                "undeadres": "dragon_w_hatchling_w"
+              },
+              "m": {
                 "undeadres": "dragon_w_hatchling_w"
               }
             }
@@ -49046,10 +49330,32 @@ const speciesJson = {
               }
             }
           },
-          "undead": {
+          "04": {
+            "formDisplay": "Destruction",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
+          "undead01": {
             "formDisplay": "Undead",
             "genders": {
               "n": {
+                "undeadres": "dragon_w_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Destruction)",
+            "genders": {
+              "f": {
+                "undeadres": "dragon_w_adult_w"
+              },
+              "m": {
                 "undeadres": "dragon_w_adult_w"
               }
             }
@@ -68902,6 +69208,17 @@ const speciesJson = {
         "forms": {
           "01": {
             "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Destruction",
             "genders": {
               "f": {
                 "color": "bk"
