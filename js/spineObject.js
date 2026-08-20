@@ -11,6 +11,7 @@ class SpineObject {
         this.transparencyFix = transparencyFix;
         this.skeletonBinary = null;
         this.skeletonScale = null;
+        this.premultipliedAlpha = false;
         //default camera position set to x=0, -240
         this.offsetX = options.offsetX ?? 0;
         this.offsetY = options.offsetY ?? -240;
@@ -32,6 +33,9 @@ class SpineObject {
 
         // Create the texture atlas.
         var atlas = assetManager.require(this.atlasUrl);
+  
+        // determine from atlas if model uses premultiplied alpha
+        this.premultipliedAlpha = atlas.pages.some(page => page.pma);
 
         // Create a AtlasAttachmentLoader that resolves region, mesh, boundingbox and path attachments
         var atlasLoader = new spine.AtlasAttachmentLoader(atlas);
@@ -81,7 +85,8 @@ class SpineObject {
         // Begin rendering.
         renderer.begin();
         // Draw the skeleton
-        renderer.drawSkeleton(this.skeleton, false);
+            //added: use PMA setting from the atlas
+        renderer.drawSkeleton(this.skeleton, this.premultipliedAlpha);
         // Complete rendering.
         renderer.end();
     }
