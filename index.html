@@ -1098,10 +1098,10 @@
             clearTimeout(toastTimer);
             clearTimeout(toastClearTimer);
 
-            // Clear the previous message so the screen reader detects a change.
+            // clearing previous message for accessibility
+            // (the screenreader won't read out after the first instance unless something has changed, so this is an artificial ""change"".)
             toast.textContent = "";
 
-            // Give the live region a moment to register the clearing.
             toastClearTimer = setTimeout(() => {
                 toast.textContent = message;
                 toast.classList.add("show");
