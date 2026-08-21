@@ -1082,6 +1082,7 @@
         //here's where we'll make the toast. 
             //no, not that kind of toast, unfortunately.
         let toastTimer;
+        let toastClearTimer;
 
         function showToast(message) {
             let toast = document.getElementById("toast");
@@ -1090,18 +1091,25 @@
                 toast = document.createElement("div");
                 toast.id = "toast";
                 toast.className = "toast";
+                toast.setAttribute("role", "status");
                 document.body.appendChild(toast);
             }
 
-            toast.textContent = message;
-
             clearTimeout(toastTimer);
+            clearTimeout(toastClearTimer);
 
-            toast.classList.add("show");
+            // Clear the previous message so the screen reader detects a change.
+            toast.textContent = "";
 
-            toastTimer = setTimeout(() => {
-                toast.classList.remove("show");
-            }, 2500);
+            // Give the live region a moment to register the clearing.
+            toastClearTimer = setTimeout(() => {
+                toast.textContent = message;
+                toast.classList.add("show");
+
+                toastTimer = setTimeout(() => {
+                    toast.classList.remove("show");
+                }, 2500);
+            }, 50);
         }
 
         //auto page resizing; pretty cool, right?
@@ -1208,7 +1216,7 @@
                     </div>
                 </div>
 
-                <select hidden id="species" name="species" onchange="updateSpecies();">
+                <select hidden id="species" name="species" aria-label="Species" onchange="updateSpecies();">
                 </select>
                 
                 <div class="summary-bar-group">
@@ -1220,7 +1228,7 @@
                     </div>
                 </div>
 
-                <select hidden id="form" name="form" style="display: none;" onchange="updateForm();">
+                <select hidden id="form" name="form" style="display: none;" aria-label="Form" onchange="updateForm();">
                 </select>
 
                 <div class="summary-bar-group">
@@ -1253,7 +1261,7 @@
                         <div class="dropdown-content" id="personalityDropdown"></div>
                     </div>
 
-                    <select hidden id="personality" name="personality" style="display: none;" onchange="updatePersonalityUrl();">
+                    <select hidden id="personality" name="personality" style="display: none;" aria-label="Personality" onchange="updatePersonalityUrl();">
                     </select>
                 
                     <div id="myownselect">
@@ -1263,15 +1271,15 @@
                             <input type="text" class="search-box no-search" id="myownfrontSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myownfrontDropdown"></div>
                         </div>
-                        <select hidden id="myownfront" name="myownfront" style="display: none;" onchange="updatePersonalityUrl();">
+                        <select hidden id="myownfront" name="myownfront" style="display: none;" aria-label="My Own Front" onchange="updatePersonalityUrl();">
                         </select>
                 
                         <!--selection for My Own front colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myownfrontcolourSearch" autocomplete="off" readonly>
+                            <input type="text" class="search-box no-search" id="myownfrontcolourSearch" autocomplete="off" readonly aria-label="Front color">
                             <div class="dropdown-content" id="myownfrontcolourDropdown"></div>
                         </div>
-                        <select hidden id="myownfrontcolour" name="myownfrontcolour" style="display: none;" onchange="updatePersonalityUrl();">
+                        <select hidden id="myownfrontcolour" name="myownfrontcolour" style="display: none;" aria-label="My Own Front Colour" onchange="updatePersonalityUrl();">
                         </select>
                 
                         <!--selection for My Own backs where entries are appended-->
@@ -1280,15 +1288,15 @@
                             <input type="text" class="search-box no-search" id="myownbackSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myownbackDropdown"></div>
                         </div>
-                        <select hidden id="myownback" name="myownback" style="display: none;" onchange="updatePersonalityUrl();">
+                        <select hidden id="myownback" name="myownback" style="display: none;" aria-label="My Own Back" onchange="updatePersonalityUrl();">
                         </select>
                 
                         <!--selection for My Own back colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myownbackcolourSearch" autocomplete="off" readonly>
+                            <input type="text" class="search-box no-search" id="myownbackcolourSearch" autocomplete="off" readonly aria-label="Back color">
                             <div class="dropdown-content" id="myownbackcolourDropdown"></div>
                         </div>
-                        <select hidden id="myownbackcolour" name="myownbackcolour" style="display: none;" onchange="updatePersonalityUrl();">
+                        <select hidden id="myownbackcolour" name="myownbackcolour" style="display: none;" aria-label="My Own Back Colour" onchange="updatePersonalityUrl();">
                         </select>
                     </div>
 
@@ -1299,15 +1307,15 @@
                             <input type="text" class="search-box no-search" id="myheartfrontSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myheartfrontDropdown"></div>
                         </div>
-                        <select hidden id="myheartfront" name="myheartfront" style="display: none;" onchange="updatePersonalityUrl();">
+                        <select hidden id="myheartfront" name="myheartfront" style="display: none;" aria-label="My Heart Front" onchange="updatePersonalityUrl();">
                         </select>
                 
                         <!--selection for My Heart front colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myheartfrontcolourSearch" autocomplete="off" readonly>
+                            <input type="text" class="search-box no-search" id="myheartfrontcolourSearch" autocomplete="off" readonly aria-label="Front color">
                             <div class="dropdown-content" id="myheartfrontcolourDropdown"></div>
                         </div>
-                        <select hidden id="myheartfrontcolour" name="myheartfrontcolour" style="display: none;" onchange="updatePersonalityUrl();">
+                        <select hidden id="myheartfrontcolour" name="myheartfrontcolour" style="display: none;" aria-label="My Heart Front Colour" onchange="updatePersonalityUrl();">
                         </select>
                 
                         <!--selection for My Heart backs where entries are appended-->
@@ -1316,15 +1324,15 @@
                             <input type="text" class="search-box no-search" id="myheartbackSearch" autocomplete="off" readonly>
                             <div class="dropdown-content" id="myheartbackDropdown"></div>
                         </div>
-                        <select hidden id="myheartback" name="myheartback" style="display: none;" onchange="updatePersonalityUrl();">
+                        <select hidden id="myheartback" name="myheartback" style="display: none;" aria-label="My Heart Back" onchange="updatePersonalityUrl();">
                         </select>
                 
                         <!--selection for My Heart back colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myheartbackcolourSearch" autocomplete="off" readonly>
+                            <input type="text" class="search-box no-search" id="myheartbackcolourSearch" autocomplete="off" readonly aria-label="Back color">
                             <div class="dropdown-content" id="myheartbackcolourDropdown"></div>
                         </div>
-                        <select hidden id="myheartbackcolour" name="myheartbackcolour" style="display: none;" onchange="updatePersonalityUrl();">
+                        <select hidden id="myheartbackcolour" name="myheartbackcolour" style="display: none;" aria-label="My Heart Back Colour" onchange="updatePersonalityUrl();">
                         </select>
                     </div>
                 </div>
@@ -1391,7 +1399,7 @@
                         <div class="dropdown-content" id="bgDropdown"></div>
                     </div>
 
-                    <select hidden id="cavebg" name="cavebg" style="display: none;" onchange="updateBackgroundUrl();">
+                    <select hidden id="cavebg" name="cavebg" style="display: none;" aria-label="Background" onchange="updateBackgroundUrl();">
                     </select>
 
                     <div class="bgRadios">
@@ -1422,7 +1430,7 @@
                         <div class="dropdown-content" id="floorDropdown"></div>
                     </div>
 
-                    <select hidden id="cavefloor" name="cavefloor" style="display: none;" onchange="updateFloorUrl();">
+                    <select hidden id="cavefloor" name="cavefloor" style="display: none;" aria-label="Floor" onchange="updateFloorUrl();">
                     </select>
 
                     <fieldset id="floorRadios" class="floorRadios radio-selector">
@@ -1499,6 +1507,7 @@
                     <button class="help-close" onclick="helpMenu()" aria-label="Close help">
                         <img src="./res/img/close_0101.png" alt="" draggable="false">
                     </button>
+                    <h2 id="helpTitle">Help</h2>
                     <div id="helpText">Loading...</div>
                 </div>
             </div>
@@ -1914,5 +1923,5 @@
             </div><!--this div ends the wrapper. just in case you were lost.-->
         </main>
     </div>
-    <div id="toast" class="toast"></div>
+    <div id="toast" class="toast" role="status"></div>
 </body>
