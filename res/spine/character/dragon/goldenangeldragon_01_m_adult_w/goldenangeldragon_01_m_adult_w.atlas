@@ -1,6 +1,7 @@
 goldenangeldragon_01_m_adult_w.png
 size:1937,262
 filter:Linear,Linear
+pma:true
 body_3
 bounds:1897,192,68,38
 rotate:90
