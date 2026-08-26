@@ -388,6 +388,11 @@ const personalityJson = {
 		"back" : "aura_b_orangered",
 		"front" : ""
 	},
+	"Heartwarming" : {
+		"each": "aura_s_heartwarming",
+		"back": "back",
+		"front": "front"
+	},
 	"Holy": {
 		"each": "aura_s_holy_blessed",
 		"back": "back_a",
@@ -466,6 +471,11 @@ const personalityJson = {
 		"each": "aura_s_liberated",
 		"back": "back_a",
 		"front": "front_a"
+	},
+	"Libra" : {
+		"each": "aura_s_equitable",
+		"back": "back",
+		"front": "front"
 	},
 	"Little Sea": {
 		"each": "aura_s_littlestar_smallsea",
