@@ -1,0 +1,15 @@
+flamber_01_m_hatch_yr.png
+size:44,22
+pma:true
+body_1
+bounds:2,2,19,9
+head_1
+bounds:28,3,17,14
+rotate:90
+leg_f_l_1
+bounds:2,14,6,7
+rotate:90
+leg_f_r_1
+bounds:19,13,7,7
+wing_l_1
+bounds:11,14,6,6
