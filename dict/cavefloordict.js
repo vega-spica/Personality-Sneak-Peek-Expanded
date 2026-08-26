@@ -152,6 +152,12 @@ const cavefloorJson = {
     "Lumindis": {
         "res": "lumindis/lumindis_floor_01/lumindis_floor_01"
     },
+    "Lunacrad": {
+        "res": "lunacrad/lunacrad_floor_01/lunacrad_floor_01"
+    },
+    "Lunacrad (Special)": {
+        "res": "lunacrad/lunacrad_floor_02/lunacrad_floor_02"
+    },
     "Makoa": {
         "res": "makoa/makoa_floor_01/makoa_floor_01"
     },
