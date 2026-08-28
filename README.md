@@ -4,4 +4,4 @@ in this day and age, data preservation has become ever more important, especiall
 
 this is an unofficial tool, and i don't receive any money for making it. but if you’d like to see more archival like this, consider contributing to the <a href="https://dragon-village-collection.fandom.com/wiki/">DVC Fandom Wiki</a>.
 
-all Dragon Village assets and characters in this repository <a href="https://www.highbrow.com/en">©highbrow Inc</a>.
+all Dragon Village assets and characters in this repository <a href="https://www.highbrow.com/en">©highbrow Inc</a>. to view Dragon Village 1 models, see Nix's <a href="https://yejoo0519.github.io/dogam/en/aura-preview.html">Advent Preview</a> tool.
