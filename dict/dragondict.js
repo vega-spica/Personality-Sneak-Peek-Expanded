@@ -12486,7 +12486,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -12510,7 +12510,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -12534,7 +12534,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -15595,7 +15595,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -15622,7 +15622,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -15660,8 +15660,13 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
+          },
+          "10": {
+            "formDisplay": "DV3 (Blood)",
+            "series": "dv3",
+            "seriesindex": "blood"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -16697,7 +16702,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -16729,7 +16734,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -16761,7 +16766,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -22825,7 +22830,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -22852,7 +22857,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -22879,7 +22884,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -23644,7 +23649,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -23663,7 +23668,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -23682,7 +23687,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -23841,7 +23846,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -23868,7 +23873,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -23895,7 +23900,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -24712,7 +24717,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -24739,7 +24744,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -24777,7 +24782,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -26659,11 +26664,11 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Default [DVE]",
+            "formDisplay": "DV Adventure",
             "series": "dve"
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -26690,11 +26695,11 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Default [DVE]",
+            "formDisplay": "DV Adventure",
             "series": "dve"
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -26732,12 +26737,17 @@ const speciesJson = {
             }
           },
           "08": {
-            "formDisplay": "Default [DVE]",
+            "formDisplay": "DV Adventure",
             "series": "dve"
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
+          },
+          "10": {
+            "formDisplay": "DV3 (Blood)",
+            "series": "dv3",
+            "seriesindex": "blood"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -26808,7 +26818,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -26832,7 +26842,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -26856,7 +26866,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -27810,7 +27820,7 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -27818,7 +27828,7 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -27826,7 +27836,7 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -34309,7 +34319,7 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -34317,7 +34327,7 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -34325,7 +34335,7 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -36797,7 +36807,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -36816,7 +36826,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -36835,7 +36845,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -37007,7 +37017,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -37034,7 +37044,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -37061,7 +37071,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -38198,7 +38208,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -38225,7 +38235,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -38252,7 +38262,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -40674,7 +40684,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -40709,7 +40719,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -40744,7 +40754,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -46929,7 +46939,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -46956,7 +46966,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -46994,7 +47004,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -51064,7 +51074,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -51105,7 +51115,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -51157,7 +51167,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -55817,7 +55827,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -55844,7 +55854,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -55882,7 +55892,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead01": {
@@ -57469,7 +57479,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -57496,7 +57506,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -57523,7 +57533,7 @@ const speciesJson = {
             }
           },
           "09": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           },
           "undead": {
@@ -60931,7 +60941,7 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -60939,7 +60949,7 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -60947,7 +60957,7 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -65382,7 +65392,7 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -65390,7 +65400,7 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -65398,7 +65408,7 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -71767,7 +71777,7 @@ const speciesJson = {
       "hatch": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -71775,7 +71785,7 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }
@@ -71783,7 +71793,7 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
-            "formDisplay": "Default [DV3]",
+            "formDisplay": "DV3",
             "series": "dv3"
           }
         }

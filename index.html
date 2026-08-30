@@ -199,14 +199,17 @@
             }
             
             //create option tags for Forms
-            var formKeys = Object.keys(speciesJson[speciesName].stage["adult"].forms);
-            formKeys = formKeys.sort();
+            var forms = speciesJson[speciesName].stage["adult"].forms;
+            var formKeys = Object.keys(forms);
+            sortFormKeys(formKeys, forms);
+
             for (var i = 0; i < formKeys.length; i++){
                 formOption = document.createElement("option");
-                formOption.innerText = speciesJson[speciesName].stage["adult"].forms[formKeys[i]].formDisplay;
+                formOption.innerText = forms[formKeys[i]].formDisplay;
                 formOption.value = formKeys[i];
                 form.appendChild(formOption);
-            };
+            }
+
             if (formNumber){
                 form.value = formNumber;
             }
@@ -497,6 +500,36 @@
                 chromaState
             );
         }
+
+        // custom sort for form options
+        function sortFormKeys(formKeys, forms) {
+            return formKeys.sort(function(a, b) {
+                const formA = forms[a];
+                const formB = forms[b];
+
+                // if series is defined, group after undefined (dvc) models
+                const seriesA = formA.series !== undefined;
+                const seriesB = formB.series !== undefined;
+
+                if (seriesA !== seriesB) {
+                    return seriesA - seriesB;
+                }
+
+                // sort undeads at end of undefined (dvc) model group
+                const undeadA = a.startsWith("undead");
+                const undeadB = b.startsWith("undead");
+
+                if (undeadA !== undeadB) {
+                    return undeadA - undeadB;
+                }
+
+                // all else sort numerically
+                const numberA = parseInt(a.replace(/\D/g, ""), 10);
+                const numberB = parseInt(b.replace(/\D/g, ""), 10);
+
+                return numberA - numberB;
+            });
+        }
        
         function updateSpecies(){
             //if new species, clear form options and append again
@@ -505,15 +538,18 @@
                 stage = "adult";
                 adultButton.checked = true;
                 form.innerHTML = "";
-                var formKeys = Object.keys(speciesJson[speciesName].stage[stage].forms);
-                formKeys = formKeys.sort();
+
+                var forms = speciesJson[speciesName].stage[stage].forms;
+                var formKeys = Object.keys(forms);
+                sortFormKeys(formKeys, forms);
                 
                 for (var i = 0; i < formKeys.length; i++){
                     formOption = document.createElement("option");
-                        formOption.innerText = speciesJson[speciesName].stage[stage].forms[formKeys[i]].formDisplay;						
+                    formOption.innerText = forms[formKeys[i]].formDisplay;
                     formOption.value = formKeys[i];
                     form.appendChild(formOption);
                 }
+
                 formNumber = "01";
                 initializeGenderButtons();
                 initializeStageButtons();
@@ -883,8 +919,16 @@
 
         // for Dragon Village 3 models
         function getDv3DragonRes() {
+            const formData =
+                speciesJson[speciesName]
+                    .stage[stage]
+                    .forms[formNumber];
+
+            // default to 00 if no seriesindex specified
+            const seriesIndex = formData.seriesindex || "00";
+
             const resName =
-                speciesName + "_00_" + stage;
+                speciesName + "_" + seriesIndex + "_" + stage;
 
             const path =
                 spineBaseUrl + "DV3/character/dragon/";
