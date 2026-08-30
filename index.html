@@ -980,8 +980,8 @@
         function updatePersonalityUrl() {
             document.getElementById("myownselect").style.display = "none";
             document.getElementById("myheartselect").style.display = "none";
-            
-            // disposing of old resources before assigning new one to avoid performance issue
+
+            // dispose of old spine res
             if (canvases.backAura) { canvases.backAura.dispose(); }
             if (canvases.frontAura) { canvases.frontAura.dispose(); }
 

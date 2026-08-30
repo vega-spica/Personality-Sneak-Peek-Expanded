@@ -1,6 +1,17 @@
 goddragon_03.png
 size:713,267
 filter:Linear,Linear
+aura_a_00000
+bounds:214,2,130,127
+offsets:13,12,150,150
+aura_a_00004
+bounds:273,132,133,131
+offsets:10,10,150,150
+rotate:90
+aura_a_00007
+bounds:140,131,134,131
+offsets:9,10,150,150
+rotate:90
 big_star
 bounds:464,11,21,20
 rotate:90
