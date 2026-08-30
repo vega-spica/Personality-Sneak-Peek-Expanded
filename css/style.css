@@ -187,7 +187,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   z-index: 0;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 52.5%;
   transform: translate(-50%, -25%);
 }
 

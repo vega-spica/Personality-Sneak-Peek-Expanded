@@ -346,28 +346,44 @@
             
             //if gender param exists, update gender buttons
             var genderParam = new URLSearchParams(location.search).get('gender');
+
             if (genderParam !== null) {
-                gender = genderParam;
-                switch (gender) {
-                    case "m":
-                        {
+                const formData =
+                    speciesJson?.[speciesName]
+                        ?.stage?.[stage]
+                        ?.forms?.[formNumber];
+
+                const series = formData?.series || "dvc";
+
+                //null gender for DV3 and DVE models
+                if (series === "dv3" || series === "dve") {
+                    gender = null;
+
+                    maleButton.checked = false;
+                    femaleButton.checked = false;
+                    neutralButton.checked = false;
+                }
+                else {
+                    gender = genderParam;
+
+                    switch (gender) {
+                        case "m":
                             maleButton.checked = true;
                             break;
-                        }
-                    case "f":
-                        {
+
+                        case "f":
                             femaleButton.checked = true;
                             break;
-                        }
-                    case "n":
-                        {
+
+                        case "n":
                             neutralButton.checked = true;
                             break;
-                        }
-                    default:
-                        {
+
+                        default:
                             maleButton.checked = true;
-                        }
+                            gender = "m";
+                            break;
+                    }
                 }
             }
 
@@ -636,6 +652,24 @@
             femaleLabel.setAttribute('aria-disabled', true);
             neutralLabel.classList.add("disabledButton");
             neutralLabel.setAttribute('aria-disabled', true);
+
+            //get current form data
+            var formData =
+                speciesJson[speciesName]
+                    .stage[stage]
+                    .forms[formNumber];
+
+            //null gender for DV3 and DVE models
+            if (formData.series === "dv3" || formData.series === "dve") {
+                gender = null;
+
+                // Uncheck all gender buttons
+                maleButton.checked = false;
+                femaleButton.checked = false;
+                neutralButton.checked = false;
+
+                return;
+            }
             
             //get keys for current species' genders
             var genderKeys = Object.keys(speciesJson[speciesName].stage[stage].forms[formNumber].genders);
@@ -691,120 +725,267 @@
             const form = speciesJson?.[speciesName]?.stage?.[stage]?.forms?.[formNumber];
             if (!form) return;
 
-            let hasCombat = false;
+            // default to dvc if no series is defined for current form
+            const series = form.series || "dvc";
 
-            for (const g in form.genders) {
-                if (form.genders[g]?.color === "dv3") {
-                    hasCombat = true;
-                    break;
-                }
-            }
+            // otherwise, determine valid "extra" animations by game series
+            const hasAttack = series === "dve" || series === "dv3";
+            const hasSkill = series === "dv3";
+            const hasDie = series === "dv3";
 
-            const combatButtons = [
-                document.getElementById("attack"),
-                document.getElementById("skill"),
-                document.getElementById("die")
-            ];
+            const attackButton = document.getElementById("attack");
+            const skillButton = document.getElementById("skill");
+            const dieButton = document.getElementById("die");
 
-            const combatLabels = [
-                document.getElementById("attackLabel"),
-                document.getElementById("skillLabel"),
-                document.getElementById("dieLabel")
-            ];
+            const attackLabel = document.getElementById("attackLabel");
+            const skillLabel = document.getElementById("skillLabel");
+            const dieLabel = document.getElementById("dieLabel");
 
-            combatButtons.forEach(button => {
-                button.disabled = !hasCombat;
-            });
+            // enable/disable buttons
+            attackButton.disabled = !hasAttack;
+            skillButton.disabled = !hasSkill;
+            dieButton.disabled = !hasDie;
 
-            combatLabels.forEach(label => {
-                label.classList.toggle("disabledButton", !hasCombat);
-                label.setAttribute("aria-disabled", !hasCombat);
-            });
+            // update label appearance
+            attackLabel.classList.toggle("disabledButton", !hasAttack);
+            attackLabel.setAttribute("aria-disabled", !hasAttack);
+
+            skillLabel.classList.toggle("disabledButton", !hasSkill);
+            skillLabel.setAttribute("aria-disabled", !hasSkill);
+
+            dieLabel.classList.toggle("disabledButton", !hasDie);
+            dieLabel.setAttribute("aria-disabled", !hasDie);
 
             //in case a selected animation goes poof.
-            if (!hasCombat && (
-                document.getElementById("attack").checked ||
-                document.getElementById("skill").checked ||
-                document.getElementById("die").checked
-            )) {
+            if (
+                (attackButton.checked && !hasAttack) ||
+                (skillButton.checked && !hasSkill) ||
+                (dieButton.checked && !hasDie)
+            ) {
                 document.getElementById("idle").checked = true;
                 setanimState("idle");
             }
         }
 
-        //load new dragon when changed
-        function changeDragonSprite(){
-            //get dragon url parts
-            formNumber = form.value;
-            var colorName = speciesJson[speciesName].stage[stage].forms[formNumber].genders[gender].color;
+        //get dragon url parts
+        const spineBaseUrl =
+            "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/";
 
-            //construct url
-            var url = "";
-            //is it undead? or is it dead dead?
-            if (formNumber.indexOf("undead") !== -1){
-                var undeadres = speciesJson[speciesName].stage[stage].forms[formNumber].genders[gender].undeadres;
-                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + "undead" + "/" + "undead" +"_" + undeadres + "/" + "undead" + "_" + undeadres;
-            }
-            //no idea why they put these in a separate folder but sure i guess??
-            else if (stage.indexOf("essence") !== -1) {
-                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/essence/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName;
-            }
-            else if (stage.indexOf("prism") !== -1) {
-                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/prism/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName;
-            }
-            else if (stage.indexOf("fusion") !== -1) {
-                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/fusion/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + "_" + colorName;
-            }
-            else {
-                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber +"_" + gender + "_" + stage + "_" + colorName + "/" + speciesName + "_" + formNumber +"_" + gender + "_" + stage + "_" + colorName;
-            }
+        async function resExists(url) {
+            try {
+                const response = await fetch(url, {
+                    method: "HEAD"
+                });
 
-            //print url to console log (i'm hopeless and need this here for debugging, don't judge me)
-            //console.log(url);
-
-    const dragonCanvasElem = document.getElementById("dragonCanvas");
-    const dragonImageElem = document.getElementById("dragon-image");
-            
-            //load new dragon to canvas
-            if (url.includes(".png")) {
-                //remake url for png
-                    //because Frame.
-                url = "https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/spine/character/dragon/" + speciesName + "_" + formNumber + "_" + gender + "_" + stage + colorName;
-                
-                //hide canvas
-                dragonCanvasElem.style.display = "none";
-                
-                //load image
-                dragonImageElem.style.display = "inline-block";
-                dragonImageElem.src = url;
-                dragonImageElem.dataset.originalSrc = url;
-                applyChromaToImage(dragonImageElem, chromaState);
-            } else {
-                //hide image
-                dragonImageElem.style.display = "none";
-        
-        // disposing of old resource before assigning new one to avoid performance issue
-        if (canvases.dragon) {
-        canvases.dragon.dispose();
+                return response.ok;
+            } catch (error) {
+                return false;
+            }
         }
 
-                //show canvas
-        dragonCanvasElem.style.display = "inline-block";
-        canvases.dragon = new spine.SpineCanvas(dragonCanvasElem, {
-        app: new SpineObject(url, animState)
-        });
+        function getDragonRes() {
+            formNumber = form.value;
 
-        canvases.dragon.renderer.setChroma(chromaState);
-            }				
+            const formData =
+                speciesJson[speciesName]
+                    .stage[stage]
+                    .forms[formNumber];
+
+            const series = formData.series || "dvc";
+
+            // other game series
+            if (series === "dv3") {
+                return getDv3DragonRes();
+            }
+
+            if (series === "dve") {
+                return getDveDragonRes();
+            }
+
+            // default to DVC
+            return getDvcDragonRes();
+        }
+
+        // for Dragon Village Collection models
+        function getDvcDragonRes() {
+            const formData =
+                speciesJson[speciesName]
+                    .stage[stage]
+                    .forms[formNumber];
+
+            const genderData = formData.genders[gender];
+
+            let resName;
+            let directory;
+
+            // undead
+            if (formNumber.indexOf("undead") !== -1) {
+                resName = "undead_" + genderData.undeadres;
+                directory = "character/dragon/undead/";
+            }
+
+            // special evolution
+            else if (stage.indexOf("essence") !== -1) {
+                resName =
+                    speciesName + "_" +
+                    formNumber + "_" +
+                    gender + "_" +
+                    stage + "_" +
+                    genderData.color;
+
+                directory = "character/dragon/essence/";
+            }
+
+            // prism evolution
+            else if (stage.indexOf("prism") !== -1) {
+                resName =
+                    speciesName + "_" +
+                    formNumber + "_" +
+                    gender + "_" +
+                    stage + "_" +
+                    genderData.color;
+
+                directory = "character/dragon/prism/";
+            }
+
+            // capjin
+            else if (stage.indexOf("fusion") !== -1) {
+                resName =
+                    speciesName + "_" +
+                    formNumber + "_" +
+                    gender + "_" +
+                    stage + "_" +
+                    genderData.color;
+
+                directory = "character/dragon/fusion/";
+            }
+
+            // all other cases
+            else {
+                resName =
+                    speciesName + "_" +
+                    formNumber + "_" +
+                    gender + "_" +
+                    stage + "_" +
+                    genderData.color;
+
+                directory = "character/dragon/";
+            }
+
+            const path = spineBaseUrl + directory;
+
+            return {
+                spineUrl: path + resName + "/" + resName,
+                spineCheckUrl: path + resName + "/" + resName + ".skel",
+                pngUrl: path + resName + ".png"
+            };
+        }
+
+        // for Dragon Village 3 models
+        function getDv3DragonRes() {
+            const resName =
+                speciesName + "_00_" + stage;
+
+            const path =
+                spineBaseUrl + "DV3/character/dragon/";
+
+            return {
+                spineUrl: path + resName + "/" + resName,
+                spineCheckUrl: path + resName + "/" + resName + ".skel",
+                pngUrl: path + resName + ".png"
+            };
+        }
+
+        // for Dragon Village Adventure models
+        function getDveDragonRes() {
+            const stageNumbers = {
+                hatch: "01",
+                hatchling: "02",
+                adult: "03"
+            };
+
+            const stageNumber = stageNumbers[stage];
+
+            const resName =
+                speciesName + "_" + stageNumber;
+
+            const path =
+                spineBaseUrl + "DVE/character/dragon/";
+
+            return {
+                spineUrl: path + resName + "/" + resName,
+                spineCheckUrl: path + resName + "/" + resName + ".skel",
+                pngUrl: path + resName + ".png"
+            };
+        }
+
+        // load new dragon when changed
+        async function changeDragonSprite() {
+
+            const dragonCanvasElem = document.getElementById("dragonCanvas");
+            const dragonImageElem = document.getElementById("dragon-image");
+
+            // construct res url
+            const res = getDragonRes();
+
+            // check if spine res exists
+            const spineExists = await resExists(res.spineCheckUrl);
+
+            if (spineExists) {
+                // if it exists
+
+                // dispose of old spine res
+                if (canvases.dragon) {
+                    canvases.dragon.dispose();
+                    canvases.dragon = null;
+                }
+
+                // hide image
+                dragonImageElem.style.display = "none";
+
+                // show canvas
+                dragonCanvasElem.style.display = "inline-block";
+
+                // new spine renderer
+                canvases.dragon = new spine.SpineCanvas(dragonCanvasElem, {
+                    app: new SpineObject(res.spineUrl, animState)
+                });
+
+                canvases.dragon.renderer.setChroma(chromaState);
+
+            } else {
+                // doesn't exist, use png
+
+                // dispose of old spine res
+                if (canvases.dragon) {
+                    canvases.dragon.dispose();
+                    canvases.dragon = null;
+                }
+
+                // hide canvas
+                dragonCanvasElem.style.display = "none";
+
+                // show image
+                dragonImageElem.style.display = "inline-block";
+
+                // load png
+                dragonImageElem.src = res.pngUrl;
+                dragonImageElem.dataset.originalSrc = res.pngUrl;
+
+                applyChromaToImage(dragonImageElem, chromaState);
+            }
         }
 
         //load new personality when changed
         function updatePersonalityUrl() {
             document.getElementById("myownselect").style.display = "none";
             document.getElementById("myheartselect").style.display = "none";
-    // disposing of old resources before assigning new one to avoid performance issue
-    if (canvases.backAura) { canvases.backAura.dispose(); }
-    if (canvases.frontAura) { canvases.frontAura.dispose(); }
+            
+            // disposing of old resources before assigning new one to avoid performance issue
+            if (canvases.backAura) { canvases.backAura.dispose(); }
+            if (canvases.frontAura) { canvases.frontAura.dispose(); }
+
+    //below is the aura construction logic. it is complete spaghetti from a past, less experienced me. needs refactoring. you have been warned.
 
             personalityName = personality.value;
             //this is now here because highbrow decided that some auras are °˳⁠˚⁠∘⁠✧special✧∘⁠˚⁠˳⁠° now!!
