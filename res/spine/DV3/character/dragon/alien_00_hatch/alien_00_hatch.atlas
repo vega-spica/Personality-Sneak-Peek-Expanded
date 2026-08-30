@@ -1,0 +1,16 @@
+alien_00_hatch.png
+size:32,29
+body_1
+bounds:19,16,11,11
+effect_1
+bounds:18,2,8,4
+rotate:90
+head_1
+bounds:2,12,15,15
+leg_f_l_1
+bounds:2,3,7,6
+rotate:90
+leg_f_r_1
+bounds:24,9,4,5
+wing_l_1
+bounds:10,3,6,7

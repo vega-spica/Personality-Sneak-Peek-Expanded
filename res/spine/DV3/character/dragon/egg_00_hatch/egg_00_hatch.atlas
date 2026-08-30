@@ -1,0 +1,10 @@
+egg_00_hatch.png
+size:33,20
+pma:true
+back
+bounds:21,7,10,11
+body_1
+bounds:2,2,16,17
+rotate:90
+eye_1
+bounds:21,4,5,1
