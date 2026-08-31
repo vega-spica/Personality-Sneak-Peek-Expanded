@@ -15594,7 +15594,11 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "10": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
+          "12": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -15621,7 +15625,11 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "10": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
+          "12": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -15659,11 +15667,15 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "10": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
+          "12": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
-          "10": {
+          "13": {
             "formDisplay": "DV3 (Blood)",
             "series": "dv3",
             "seriesindex": "blood"
@@ -26663,11 +26675,15 @@ const speciesJson = {
               }
             }
           },
-          "08": {
+          "10": {
             "formDisplay": "DV Adventure",
             "series": "dve"
           },
-          "09": {
+          "11": {
+            "formDisplay": "DV Nest",
+            "series": "dvn"
+          },
+          "12": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -26694,11 +26710,15 @@ const speciesJson = {
               }
             }
           },
-          "08": {
+          "10": {
             "formDisplay": "DV Adventure",
             "series": "dve"
           },
-          "09": {
+          "11": {
+            "formDisplay": "DV Nest",
+            "series": "dvn"
+          },
+          "12": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -26736,15 +26756,19 @@ const speciesJson = {
               }
             }
           },
-          "08": {
+          "10": {
             "formDisplay": "DV Adventure",
             "series": "dve"
           },
-          "09": {
+          "11": {
+            "formDisplay": "DV Nest",
+            "series": "dvn"
+          },
+          "12": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
-          "10": {
+          "13": {
             "formDisplay": "DV3 (Blood)",
             "series": "dv3",
             "seriesindex": "blood"

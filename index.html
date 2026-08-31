@@ -358,8 +358,8 @@
 
                 const series = formData?.series || "dvc";
 
-                //null gender for DV3 and DVE models
-                if (series === "dv3" || series === "dve") {
+                //null gender for non-DVC models
+                if (series === "dve" || series === "dvn" || series === "dv3") {
                     gender = null;
 
                     maleButton.checked = false;
@@ -695,8 +695,8 @@
                     .stage[stage]
                     .forms[formNumber];
 
-            //null gender for DV3 and DVE models
-            if (formData.series === "dv3" || formData.series === "dve") {
+            //null gender for non-DVC models
+            if (formData.series === "dve" || formData.series === "dvn" || formData.series === "dv3") {
                 gender = null;
 
                 // Uncheck all gender buttons
@@ -765,7 +765,7 @@
             const series = form.series || "dvc";
 
             // otherwise, determine valid "extra" animations by game series
-            const hasAttack = series === "dve" || series === "dv3";
+            const hasAttack = series === "dve" || series === "dvn" || series === "dv3";
             const hasSkill = series === "dv3";
             const hasDie = series === "dv3";
 
@@ -830,12 +830,16 @@
             const series = formData.series || "dvc";
 
             // other game series
-            if (series === "dv3") {
-                return getDv3DragonRes();
-            }
-
             if (series === "dve") {
                 return getDveDragonRes();
+            }
+
+            if (series === "dvn") {
+                return getDvnDragonRes();
+            }
+
+            if (series === "dv3") {
+                return getDv3DragonRes();
             }
 
             // default to DVC
@@ -917,29 +921,6 @@
             };
         }
 
-        // for Dragon Village 3 models
-        function getDv3DragonRes() {
-            const formData =
-                speciesJson[speciesName]
-                    .stage[stage]
-                    .forms[formNumber];
-
-            // default to 00 if no seriesindex specified
-            const seriesIndex = formData.seriesindex || "00";
-
-            const resName =
-                speciesName + "_" + seriesIndex + "_" + stage;
-
-            const path =
-                spineBaseUrl + "DV3/character/dragon/";
-
-            return {
-                spineUrl: path + resName + "/" + resName,
-                spineCheckUrl: path + resName + "/" + resName + ".skel",
-                pngUrl: path + resName + ".png"
-            };
-        }
-
         // for Dragon Village Adventure models
         function getDveDragonRes() {
             const stageNumbers = {
@@ -955,6 +936,52 @@
 
             const path =
                 spineBaseUrl + "DVE/character/dragon/";
+
+            return {
+                spineUrl: path + resName + "/" + resName,
+                spineCheckUrl: path + resName + "/" + resName + ".skel",
+                pngUrl: path + resName + ".png"
+            };
+        }
+
+        // for Dragon Village Nest models
+        function getDvnDragonRes() {
+            const stageNumbers = {
+                hatch: "01",
+                hatchling: "02",
+                adult: "03"
+            };
+
+            const stageNumber = stageNumbers[stage];
+
+            const resName =
+                speciesName + "_" + stageNumber;
+
+            const path =
+                spineBaseUrl + "DVN/character/dragon/";
+
+            return {
+                spineUrl: path + resName + "/" + resName,
+                spineCheckUrl: path + resName + "/" + resName + ".skel",
+                pngUrl: path + resName + ".png"
+            };
+        }
+
+        // for Dragon Village 3 models
+        function getDv3DragonRes() {
+            const formData =
+                speciesJson[speciesName]
+                    .stage[stage]
+                    .forms[formNumber];
+
+            // default to 00 if no seriesindex specified
+            const seriesIndex = formData.seriesindex || "00";
+
+            const resName =
+                speciesName + "_" + seriesIndex + "_" + stage;
+
+            const path =
+                spineBaseUrl + "DV3/character/dragon/";
 
             return {
                 spineUrl: path + resName + "/" + resName,
