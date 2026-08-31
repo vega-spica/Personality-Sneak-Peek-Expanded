@@ -47430,6 +47430,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -47453,6 +47457,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -47475,6 +47483,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
