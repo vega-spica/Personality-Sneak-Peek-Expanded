@@ -444,6 +444,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -467,6 +471,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -489,6 +497,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -1011,6 +1023,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -1055,6 +1071,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -1101,6 +1121,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -1143,6 +1167,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -1179,6 +1207,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -1238,6 +1270,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -2216,6 +2252,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -2236,6 +2276,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -2255,6 +2299,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -2749,6 +2797,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -2771,6 +2823,10 @@ const speciesJson = {
                 "color": "gy"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -2805,6 +2861,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -2860,6 +2920,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -2883,6 +2947,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -2905,6 +2973,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -5161,6 +5233,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -5184,6 +5260,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -5206,6 +5286,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -7122,6 +7206,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -7145,6 +7233,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -7167,6 +7259,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -7837,6 +7933,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -7860,6 +7960,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -7882,6 +7986,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -8071,6 +8179,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -8091,6 +8203,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -8110,6 +8226,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -8723,6 +8843,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -8745,6 +8869,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -8779,6 +8907,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -8905,6 +9037,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -8928,6 +9064,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -8950,6 +9090,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -8979,6 +9123,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -9001,6 +9149,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -9035,6 +9187,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -9421,6 +9577,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -9444,6 +9604,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -9466,6 +9630,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -11058,6 +11226,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -11092,6 +11264,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -11125,6 +11301,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -11228,6 +11408,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -11251,6 +11435,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -11273,6 +11461,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -11312,6 +11504,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -11358,6 +11554,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -11402,6 +11602,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -11738,6 +11942,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -11761,6 +11969,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -11783,6 +11995,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -12485,7 +12701,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -12509,7 +12725,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -12533,7 +12749,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -13117,6 +13333,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -13139,6 +13359,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -13173,6 +13397,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -14359,6 +14587,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -14396,6 +14628,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -14433,6 +14669,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -14750,6 +14990,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "legacy": {
             "formDisplay": "Male (Legacy)",
             "genders": {
@@ -14791,6 +15035,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "legacy": {
             "formDisplay": "Male (Legacy)",
@@ -14855,6 +15103,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "legacy": {
             "formDisplay": "Male (Legacy)",
@@ -15594,11 +15846,11 @@ const speciesJson = {
               }
             }
           },
-          "10": {
+          "11": {
             "formDisplay": "DV Adventure",
             "series": "dve"
           },
-          "12": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -15625,11 +15877,11 @@ const speciesJson = {
               }
             }
           },
-          "10": {
+          "11": {
             "formDisplay": "DV Adventure",
             "series": "dve"
           },
-          "12": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -15667,15 +15919,15 @@ const speciesJson = {
               }
             }
           },
-          "10": {
+          "11": {
             "formDisplay": "DV Adventure",
             "series": "dve"
           },
-          "12": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
-          "13": {
+          "14": {
             "formDisplay": "DV3 (Blood)",
             "series": "dv3",
             "seriesindex": "blood"
@@ -16713,7 +16965,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -16745,7 +16997,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -16777,7 +17029,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -17267,6 +17519,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -17290,6 +17546,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -17312,6 +17572,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -17735,6 +17999,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -17750,7 +18018,11 @@ const speciesJson = {
                 "color": "bg"
               }
             }
-          }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
         }
       },
       "adult": {
@@ -17765,6 +18037,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -17846,6 +18122,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -17872,6 +18152,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -17898,6 +18182,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -17918,6 +18206,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -17942,6 +18234,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -17964,6 +18260,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -19882,6 +20182,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -19912,6 +20216,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -19954,6 +20262,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -20281,6 +20593,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -20304,6 +20620,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -20326,6 +20646,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -20523,6 +20847,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -20557,6 +20885,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -20590,6 +20922,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -20822,6 +21158,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -20845,6 +21185,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -20867,6 +21211,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -22039,6 +22387,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -22084,6 +22436,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -22128,6 +22484,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -22279,6 +22639,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -22301,6 +22665,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -22346,6 +22714,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -22841,7 +23213,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -22868,7 +23240,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -22895,7 +23267,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -23001,6 +23373,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -23023,6 +23399,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -23057,6 +23437,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -23183,6 +23567,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -23206,6 +23594,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -23228,6 +23620,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -23660,7 +24056,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           }
@@ -23679,7 +24075,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           }
@@ -23698,7 +24094,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           }
@@ -23857,7 +24253,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -23884,7 +24280,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -23911,7 +24307,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -24466,6 +24862,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -24522,6 +24922,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -24577,6 +24981,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -24728,7 +25136,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -24755,7 +25163,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -24793,7 +25201,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -26582,6 +26990,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead",
             "genders": {
@@ -26604,6 +27016,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -26638,6 +27054,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -26675,15 +27095,15 @@ const speciesJson = {
               }
             }
           },
-          "10": {
+          "11": {
             "formDisplay": "DV Adventure",
             "series": "dve"
           },
-          "11": {
+          "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
           },
-          "12": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -26710,15 +27130,15 @@ const speciesJson = {
               }
             }
           },
-          "10": {
+          "11": {
             "formDisplay": "DV Adventure",
             "series": "dve"
           },
-          "11": {
+          "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
           },
-          "12": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -26756,19 +27176,19 @@ const speciesJson = {
               }
             }
           },
-          "10": {
+          "11": {
             "formDisplay": "DV Adventure",
             "series": "dve"
           },
-          "11": {
+          "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
           },
-          "12": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
-          "13": {
+          "14": {
             "formDisplay": "DV3 (Blood)",
             "series": "dv3",
             "seriesindex": "blood"
@@ -27266,6 +27686,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -27289,6 +27713,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -27311,6 +27739,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -27686,6 +28118,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -27709,6 +28145,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -27731,6 +28171,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -29081,7 +29525,11 @@ const speciesJson = {
                 "color": "w"
               }
             }
-          }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
         }
       },
       "hatchling": {
@@ -29096,7 +29544,11 @@ const speciesJson = {
                 "color": "w"
               }
             }
-          }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
         }
       },
       "adult": {
@@ -29122,7 +29574,11 @@ const speciesJson = {
                 "color": "w"
               }
             }
-          }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
         }
       }
     }
@@ -29492,6 +29948,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -29518,6 +29978,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -29543,6 +30007,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -29590,6 +30058,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -29613,6 +30085,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -29635,6 +30111,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -30517,6 +30997,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead",
             "genders": {
@@ -30539,6 +31023,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -30584,6 +31072,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -30876,6 +31368,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -30899,6 +31395,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -30921,6 +31421,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -31156,6 +31660,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -31179,6 +31687,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -31201,6 +31713,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -31655,6 +32171,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -31675,6 +32195,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -31694,6 +32218,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -32701,6 +33229,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -32723,6 +33255,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -32757,6 +33293,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -34533,6 +35073,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -34567,6 +35111,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -34600,6 +35148,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -35456,6 +36008,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -35471,6 +36027,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -35486,6 +36046,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -35528,6 +36092,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -35573,6 +36141,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -35629,6 +36201,26 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
+          "undead01": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "dragon_n_adult_w"
+              }
+            }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
+              }
+            }
           }
         }
       },
@@ -35653,22 +36245,6 @@ const speciesJson = {
               },
               "m": {
                 "color": "bk"
-              }
-            }
-          },
-          "undead01": {
-            "formDisplay": "Undead (Default)",
-            "genders": {
-              "n": {
-                "undeadres": "dragon_n_adult_w"
-              }
-            }
-          },
-          "undead02": {
-            "formDisplay": "Undead (Signature)",
-            "genders": {
-              "n": {
-                "undeadres": "signature_s_adult_w"
               }
             }
           }
@@ -35766,6 +36342,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -35788,6 +36368,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -35833,6 +36417,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -36078,6 +36666,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -36101,6 +36693,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -36123,6 +36719,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -36152,6 +36752,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -36175,6 +36779,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -36197,6 +36805,10 @@ const speciesJson = {
                 "color": "gy"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -36671,6 +37283,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -36694,6 +37310,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -36716,6 +37336,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -36830,7 +37454,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           }
@@ -36849,7 +37473,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           }
@@ -36868,7 +37492,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           }
@@ -37040,7 +37664,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -37067,7 +37691,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -37094,7 +37718,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -37468,6 +38092,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -37502,6 +38130,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -37535,6 +38167,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -38231,7 +38867,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -38258,7 +38894,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -38285,7 +38921,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -39169,6 +39805,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -39202,6 +39842,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -39247,6 +39891,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -39661,6 +40309,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -39684,6 +40336,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -39706,6 +40362,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -40707,7 +41367,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -40742,7 +41402,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -40777,7 +41437,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -43183,6 +43843,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -43198,6 +43862,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -43213,6 +43881,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -43565,6 +44237,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead",
             "genders": {
@@ -43584,6 +44260,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -43612,6 +44292,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -43649,6 +44333,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -43672,6 +44360,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -43694,6 +44386,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -43922,6 +44618,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -43944,6 +44644,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -43978,6 +44682,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -44193,6 +44901,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -44216,6 +44928,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -44238,6 +44954,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -44935,6 +45655,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -44955,6 +45679,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -44974,6 +45702,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -45840,6 +46572,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -45863,6 +46599,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -45885,6 +46625,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -46496,6 +47240,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -46533,6 +47281,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -46570,6 +47322,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -46962,7 +47718,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -46989,7 +47745,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -47027,7 +47783,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -48828,6 +49584,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -48861,6 +49621,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -48907,6 +49671,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -48940,6 +49708,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -48968,6 +49740,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -48995,6 +49771,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -49554,16 +50334,9 @@ const speciesJson = {
               }
             }
           },
-          "04": {
-            "formDisplay": "Destruction",
-            "genders": {
-              "f": {
-                "color": "yr"
-              },
-              "m": {
-                "color": "yr"
-              }
-            }
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -49620,6 +50393,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -49687,6 +50464,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -49775,6 +50556,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -49808,6 +50593,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -49853,6 +50642,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -50004,6 +50797,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -50048,6 +50845,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -50104,6 +50905,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -50185,6 +50990,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -50252,6 +51061,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -50318,6 +51131,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -50510,6 +51327,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -50533,6 +51354,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -50555,6 +51380,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -50595,6 +51424,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -50629,6 +51462,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -50662,6 +51499,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -51097,7 +51938,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -51138,7 +51979,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -51190,7 +52031,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -52692,6 +53533,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -52718,6 +53563,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -52743,6 +53592,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -55498,6 +56351,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -55532,6 +56389,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -55565,6 +56426,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -55850,7 +56715,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -55877,7 +56742,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -55915,7 +56780,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -56243,6 +57108,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -56266,6 +57135,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -56288,6 +57161,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -57051,6 +57928,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -57074,6 +57955,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -57096,6 +57981,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -57413,6 +58302,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -57436,6 +58329,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -57458,6 +58355,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -57502,7 +58403,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -57529,7 +58430,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -57556,7 +58457,7 @@ const speciesJson = {
               }
             }
           },
-          "09": {
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           },
@@ -57817,6 +58718,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -57836,6 +58741,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -57864,6 +58773,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -58028,6 +58941,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -58040,6 +58957,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -58052,6 +58973,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -58422,6 +59347,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -58455,6 +59384,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -58501,6 +59434,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -58537,6 +59474,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -58559,6 +59500,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -58593,6 +59538,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -59069,6 +60018,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -59102,6 +60055,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -59148,6 +60105,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -59187,6 +60148,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -59221,6 +60186,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -59254,6 +60223,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -59767,6 +60740,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -59812,6 +60789,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -59856,6 +60837,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -60046,6 +61031,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -60064,6 +61053,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -60082,6 +61075,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -60816,6 +61813,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -60844,6 +61845,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -60880,6 +61885,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -61623,6 +62632,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -61646,6 +62659,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -61668,6 +62685,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -62129,6 +63150,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -62155,6 +63180,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -62180,6 +63209,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -62488,6 +63521,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -62533,6 +63570,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -62577,6 +63618,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -63732,6 +64777,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -63766,6 +64815,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -63799,6 +64852,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -64351,6 +65408,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -64374,6 +65435,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -64396,6 +65461,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -64826,6 +65895,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -64849,6 +65922,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -64871,6 +65948,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -65218,6 +66299,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -65244,6 +66329,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       },
@@ -65270,6 +66359,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -65543,6 +66636,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -65654,6 +66751,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -65764,6 +66865,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -66081,6 +67186,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -66104,6 +67213,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -66126,6 +67239,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -66350,6 +67467,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -66395,6 +67516,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -66439,6 +67564,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -66969,6 +68098,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -66992,6 +68125,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -67014,6 +68151,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -67128,6 +68269,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -67165,6 +68310,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -67201,6 +68350,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -67381,6 +68534,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -67404,6 +68561,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -67426,6 +68587,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -67603,6 +68768,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -67626,6 +68795,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -67648,6 +68821,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -68152,6 +69329,35 @@ const speciesJson = {
                 "undeadres": "naga_n_adult_w"
               }
             }
+          }
+        }
+      }
+    }
+  },
+  "utriel": {
+    "speciesDisplay": "Utriel",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -70599,6 +71805,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -70619,6 +71829,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -70638,6 +71852,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -70762,6 +71980,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -70785,6 +72007,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -70807,6 +72033,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -70867,6 +72097,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -70906,6 +72140,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -70944,6 +72182,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -71112,6 +72354,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead",
             "genders": {
@@ -71134,6 +72380,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -71168,6 +72418,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -71216,6 +72470,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -71250,6 +72508,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -71283,6 +72545,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -71795,35 +73061,6 @@ const speciesJson = {
       }
     }
   },
-  "utriel": {
-    "speciesDisplay": "Utriel",
-    "stage": {
-      "hatch": {
-        "forms": {
-          "01": {
-            "formDisplay": "DV3",
-            "series": "dv3"
-          }
-        }
-      },
-      "hatchling": {
-        "forms": {
-          "01": {
-            "formDisplay": "DV3",
-            "series": "dv3"
-          }
-        }
-      },
-      "adult": {
-        "forms": {
-          "01": {
-            "formDisplay": "DV3",
-            "series": "dv3"
-          }
-        }
-      }
-    }
-  },
   "zaeldelta": {
     "speciesDisplay": "Zael Delta",
     "stage": {
@@ -71991,6 +73228,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -72025,6 +73266,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -72058,6 +73303,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",

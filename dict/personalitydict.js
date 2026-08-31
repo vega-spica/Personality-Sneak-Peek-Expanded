@@ -861,7 +861,7 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
-	"Usurping": {
+	"Usurper": {
 		"each": "aura_s_usirping_absolutic",
 		"back": "back_b",
 		"front": "front_b"
