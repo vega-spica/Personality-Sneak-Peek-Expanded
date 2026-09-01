@@ -1,6 +1,7 @@
 angel_01.png
 size:104,46
 filter:Linear,Linear
+pma:true
 arm_1
 bounds:34,2,16,14
 arm_f_l_1
