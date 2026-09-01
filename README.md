@@ -10,6 +10,7 @@ all Dragon Village assets and characters in this repository <a href="https://www
 
 supported dragon models:
 - Dragon Village Collection (DVC)
+- Dragon Village Nest (DVN); does not include Dracon, Jade, Luti, or Nira
 - Dragon Village 3 (DV3)
 
 to view Dragon Village 1 models, see Nix's <a href="https://yejoo0519.github.io/dogam/en/aura-preview.html">Advent Preview</a> tool.
