@@ -1,6 +1,7 @@
 firetail_03.png
 size:803,141
 filter:Linear,Linear
+pma:true
 aura_a_00000
 bounds:0,0,0,0
 offsets:0,0,0,0
