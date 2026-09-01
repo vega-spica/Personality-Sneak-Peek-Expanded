@@ -1,6 +1,7 @@
 angel_02.png
 size:132,78
 filter:Linear,Linear
+pma:true
 body_2
 bounds:40,36,30,40
 head_2
