@@ -1,6 +1,7 @@
 insectdragon_01.png
 size:110,52
 filter:Linear,Linear
+pma:true
 body_1
 bounds:36,26,32,24
 feeler_l_1
