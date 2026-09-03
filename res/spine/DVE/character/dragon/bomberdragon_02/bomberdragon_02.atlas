@@ -1,6 +1,7 @@
 bomberdragon_02.png
 size:158,76
 filter:Linear,Linear
+pma:true
 body_2
 bounds:116,40,34,40
 rotate:90
