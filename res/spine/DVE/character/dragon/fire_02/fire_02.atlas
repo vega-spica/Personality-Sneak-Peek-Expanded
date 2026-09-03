@@ -1,6 +1,7 @@
 fire_02.png
 size:142,78
 filter:Linear,Linear
+pma:true
 body_2
 bounds:2,32,44,30
 rotate:90
