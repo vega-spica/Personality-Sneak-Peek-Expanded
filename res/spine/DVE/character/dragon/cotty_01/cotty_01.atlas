@@ -1,6 +1,7 @@
 cotty_01.png
 size:134,40
 filter:Linear,Linear
+pma:true
 body_1
 bounds:36,16,30,22
 head_1

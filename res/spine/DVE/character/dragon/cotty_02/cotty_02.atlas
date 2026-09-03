@@ -1,6 +1,7 @@
 cotty_02.png
 size:138,78
 filter:Linear,Linear
+pma:true
 body_2
 bounds:40,34,42,28
 rotate:90
