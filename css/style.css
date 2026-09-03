@@ -116,8 +116,8 @@ a:hover {
 }
 
 /* 
-load-bearing css property. do not touch. do not look at it directly. the fate of Alitia depends upon it.
-  or does it...? maybe. you shouldn't risk it though, just don't touch it.
+touch this and the entire site will implode.
+  seriously, just don't touch it.
 */
 .page.fit-ready {
     visibility: visible;
@@ -191,7 +191,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   transform: translate(-50%, -25%);
 }
 
-/* increasing the size of this grid-item will extend the edges of the canvas, but it won't make anything inside any bigger.*/
+/* increasing the size of this grid-item will extend the edges of the canvas, but it won't make anything inside any bigger. */
 .grid-item {
   position: relative;
   height: 1000px;
@@ -230,7 +230,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
     opacity: 0;
     pointer-events: none;
     background-color: #323232;
-    color: #fff;
+    color: #ffffff;
     padding: 3px;
     border-radius: 4px;
     transition: opacity 0.15s;
