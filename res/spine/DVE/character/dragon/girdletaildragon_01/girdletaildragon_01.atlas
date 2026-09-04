@@ -1,6 +1,7 @@
 girdletaildragon_01.png
 size:160,758
 filter:Linear,Linear
+pma:true
 aura_a_00000
 bounds:2,150,150,150
 aura_a_00004
