@@ -1,6 +1,7 @@
 gaian_02.png
 size:236,46
 filter:Linear,Linear
+pma:true
 body_2
 bounds:44,6,44,38
 head_2

@@ -1,6 +1,7 @@
 gaian_01.png
 size:92,46
 filter:Linear,Linear
+pma:true
 body_1
 bounds:38,14,30,24
 rotate:90

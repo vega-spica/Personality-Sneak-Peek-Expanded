@@ -1,6 +1,7 @@
 gaian_03.png
 size:240,140
 filter:Linear,Linear
+pma:true
 body_3
 bounds:2,52,74,86
 head_3
