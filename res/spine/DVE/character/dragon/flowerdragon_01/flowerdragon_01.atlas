@@ -1,5 +1,6 @@
 flowerdragon_01.png
 size:62,78
+pma:true
 filter:Linear,Linear
 body_1
 bounds:37,45,31,23
