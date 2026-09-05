@@ -1,6 +1,7 @@
 popomo_03.png
 size:142,92
 filter:Linear,Linear
+pma:true
 body_3
 bounds:60,62,42,28
 ear_b_3
