@@ -1,6 +1,7 @@
 psyche_01_m_hatch_rp.png
 size:173,415
 filter:Linear,Linear
+pma:true
 body_1
 bounds:106,4,22,24
 rotate:90

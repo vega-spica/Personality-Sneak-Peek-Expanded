@@ -1,6 +1,7 @@
 psyche_01.png
 size:124,46
 filter:Linear,Linear
+pma:true
 body_1
 bounds:70,20,22,24
 head_1

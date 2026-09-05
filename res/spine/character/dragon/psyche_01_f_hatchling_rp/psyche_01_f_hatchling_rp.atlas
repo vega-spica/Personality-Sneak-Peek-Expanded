@@ -1,6 +1,7 @@
 psyche_01_f_hatchling_rp.png
 size:523,269
 filter:Linear,Linear
+pma:true
 body_2
 bounds:416,4,28,38
 head_2
