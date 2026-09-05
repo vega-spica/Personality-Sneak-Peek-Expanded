@@ -1,6 +1,7 @@
 liberte_01.png
 size:840,157
 filter:Linear,Linear
+pma:true
 arm_1
 bounds:644,9,28,24
 arm_f_l_1
