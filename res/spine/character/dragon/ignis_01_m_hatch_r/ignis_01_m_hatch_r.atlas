@@ -1,6 +1,7 @@
 ignis_01_m_hatch_r.png
 size:110,647
 filter:Linear,Linear
+pma:true
 body_1
 bounds:56,10,31,23
 head_1

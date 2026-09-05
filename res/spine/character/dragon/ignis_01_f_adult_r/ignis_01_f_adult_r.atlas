@@ -1,6 +1,7 @@
 ignis_01_f_adult_r.png
 size:1715,246
 filter:Linear,Linear
+pma:true
 body_3
 bounds:1555,169,75,43
 rotate:90

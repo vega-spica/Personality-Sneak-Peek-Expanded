@@ -1,6 +1,7 @@
 ignis_01_f_hatchling_r.png
 size:172,942
 filter:Linear,Linear
+pma:true
 body_2
 bounds:35,891,43,29
 head_2

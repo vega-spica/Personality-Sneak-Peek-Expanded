@@ -1,6 +1,7 @@
 ignis_01.png
 size:102,45
 filter:Linear,Linear
+pma:true
 body_1
 bounds:37,20,31,23
 head_1
