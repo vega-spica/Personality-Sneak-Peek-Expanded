@@ -1,6 +1,7 @@
 lololli_03.png
 size:256,78
 filter:Linear,Linear
+pma:true
 body_3
 bounds:102,10,66,40
 rotate:90
