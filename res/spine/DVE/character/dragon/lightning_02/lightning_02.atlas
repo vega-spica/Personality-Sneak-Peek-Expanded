@@ -1,6 +1,7 @@
 lightning_02.png
 size:808,155
 filter:Linear,Linear
+pma:true
 aura_a_00000
 bounds:2,3,150,150
 aura_a_00004

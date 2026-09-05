@@ -1,6 +1,7 @@
 lightning_01_f_hatchling_r.png
 size:457,269
 filter:Linear,Linear
+pma:true
 body_2
 bounds:421,163,34,40
 feeler_l_2

@@ -1,6 +1,7 @@
 lightning_01_f_adult_r.png
 size:1421,274
 filter:Linear,Linear
+pma:true
 body_3
 bounds:1343,46,48,70
 rotate:90

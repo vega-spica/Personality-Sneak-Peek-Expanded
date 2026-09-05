@@ -1,6 +1,7 @@
 lightning_01_f_hatch_r.png
 size:237,259
 filter:Linear,Linear
+pma:true
 arm_1
 bounds:202,3,16,14
 arm_f_l_1
