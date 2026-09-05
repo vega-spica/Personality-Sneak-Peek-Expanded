@@ -1,6 +1,7 @@
 serpentdragon_01_m_hatch_g.png
 size:508,144
 filter:Linear,Linear
+pma:true
 body_1
 bounds:459,11,40,36
 head_1

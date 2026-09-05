@@ -1,6 +1,7 @@
 serpentflower_02.png
 size:124,64
 filter:Linear,Linear
+pma:true
 body_2
 bounds:42,30,32,50
 rotate:90

@@ -1,6 +1,7 @@
 serpentflower_01_f_hatchling_r.png
 size:157,973
 filter:Linear,Linear
+pma:true
 body_2
 bounds:73,38,32,50
 rotate:90
