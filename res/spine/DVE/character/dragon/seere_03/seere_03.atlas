@@ -1,6 +1,7 @@
 seere_03.png
 size:426,269
 filter:Linear,Linear
+pma:true
 aura_a_00000
 bounds:2,4,130,127
 offsets:13,12,150,150

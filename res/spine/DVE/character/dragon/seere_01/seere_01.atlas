@@ -1,6 +1,7 @@
 seere_01.png
 size:651,141
 filter:Linear,Linear
+pma:true
 arm_1
 bounds:615,77,14,12
 rotate:90
