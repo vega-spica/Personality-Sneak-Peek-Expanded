@@ -1,6 +1,7 @@
 maga_03.png
 size:166,160
 filter:Linear,Linear
+pma:true
 body_3
 bounds:2,2,46,72
 head_3
