@@ -1,6 +1,7 @@
 lusong_03.png
 size:138,142
 filter:Linear,Linear
+pma:true
 body_3
 bounds:42,32,34,38
 rotate:90

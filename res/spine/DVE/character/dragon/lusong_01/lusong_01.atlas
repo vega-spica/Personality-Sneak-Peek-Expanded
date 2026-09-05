@@ -1,6 +1,7 @@
 lusong_01.png
 size:78,78
 filter:Linear,Linear
+pma:true
 body_1
 bounds:2,44,40,32
 head_1

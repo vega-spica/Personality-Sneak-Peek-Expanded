@@ -1,6 +1,7 @@
 lusong_01_f_hatchling_w.png
 size:380,519
 filter:Linear,Linear
+pma:true
 body_2
 bounds:345,274,30,32
 rotate:90

@@ -1,6 +1,7 @@
 lusong_01_f_adult_w.png
 size:567,523
 filter:Linear,Linear
+pma:true
 body_3
 bounds:521,35,34,38
 head_3
