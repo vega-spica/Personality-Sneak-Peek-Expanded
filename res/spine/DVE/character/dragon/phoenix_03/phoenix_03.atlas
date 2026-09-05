@@ -1,6 +1,7 @@
 phoenix_03.png
 size:221,142
 filter:Linear,Linear
+pma:true
 body_3
 bounds:142,97,43,69
 rotate:90
