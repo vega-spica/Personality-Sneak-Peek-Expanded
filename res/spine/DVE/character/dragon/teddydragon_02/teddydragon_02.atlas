@@ -1,6 +1,7 @@
 teddydragon_02.png
 size:279,42
 filter:Linear,Linear
+pma:true
 body_2
 bounds:2,8,44,32
 head_2
