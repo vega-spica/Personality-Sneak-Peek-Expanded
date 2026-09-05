@@ -1,6 +1,7 @@
 vritra_01.png
 size:649,141
 filter:Linear,Linear
+pma:true
 aura_a_00000
 bounds:268,9,130,127
 offsets:13,12,150,150

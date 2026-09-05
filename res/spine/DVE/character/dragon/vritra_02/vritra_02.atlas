@@ -1,6 +1,7 @@
 vritra_02.png
 size:678,141
 filter:Linear,Linear
+pma:true
 acc_01
 bounds:488,6,30,18
 aura_a_00000

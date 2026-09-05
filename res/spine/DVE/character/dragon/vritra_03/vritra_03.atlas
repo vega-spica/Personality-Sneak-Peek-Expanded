@@ -1,6 +1,7 @@
 vritra_03.png
 size:253,518
 filter:Linear,Linear
+pma:true
 acc_b_3
 bounds:105,39,78,82
 acc_f_3
