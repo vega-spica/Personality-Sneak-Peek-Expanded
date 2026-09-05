@@ -919,6 +919,36 @@ const personalityJson = {
 		"back": "back_a",
 		"front": "front_a"
 	},
+    "[DVE] Legendary (Hatch)": {
+        "each": "goddragon_01",
+        "back": "aura_idle",
+        "front": ""
+    },
+    "[DVE] Legendary (Hatchling)": {
+        "each": "goddragon_02",
+        "back": "aura_idle",
+        "front": ""
+    },
+    "[DVE] Legendary (Adult)": {
+        "each": "goddragon_03",
+        "back": "aura_idle",
+        "front": ""
+    },
+    "[DVE] Mythic (Hatch)": {
+        "each": "darknix_01",
+        "back": "aura_idle",
+        "front": ""
+    },
+    "[DVE] Mythic (Hatchling)": {
+        "each": "darknix_02",
+        "back": "aura_idle",
+        "front": ""
+    },
+    "[DVE] Mythic (Adult)": {
+        "each": "darknix_03",
+        "back": "aura_idle",
+        "front": ""
+    },
     "[DV3] Ascension": {
         "each": "aura_c_rise",
         "back": "back",
