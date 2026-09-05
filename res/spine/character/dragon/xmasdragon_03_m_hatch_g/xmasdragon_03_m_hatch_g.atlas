@@ -1,6 +1,7 @@
 xmasdragon_03_m_hatch_g.png
 size:189,522
 filter:Linear,Linear
+pma:true
 body_1
 bounds:141,438,30,22
 head_fece_1

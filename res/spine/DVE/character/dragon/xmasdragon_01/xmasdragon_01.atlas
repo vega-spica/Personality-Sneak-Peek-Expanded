@@ -1,6 +1,7 @@
 xmasdragon_01.png
 size:74,78
 filter:Linear,Linear
+pma:true
 body_1
 bounds:36,54,30,22
 head_1
