@@ -1,6 +1,7 @@
 taabire_03.png
 size:114,232
 filter:Linear,Linear
+pma:true
 body acc_3
 bounds:2,37,37,29
 body_3
