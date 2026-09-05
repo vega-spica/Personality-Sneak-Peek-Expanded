@@ -296,6 +296,7 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 /* panel backgrounds include borders, which the spine canvases will render over to produce a clean cut for backgrounds/floors */
 /* without a floor or background, dragon models that reach down too far may give the impression that they "clip" past the border (仕様です) */
   background:
+      /* now, everything is chocolate. */
       url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/panel_top.png) top no-repeat,
       url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/panel_bottom.png) bottom no-repeat,
       url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/panel_center.png) center repeat-y;

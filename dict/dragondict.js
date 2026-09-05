@@ -139,6 +139,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -166,6 +170,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -192,6 +200,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -236,6 +248,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -269,6 +285,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -304,6 +324,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -331,6 +355,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -346,6 +374,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -361,6 +393,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       }
@@ -1035,6 +1071,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -1083,6 +1123,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -1133,6 +1177,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -1179,6 +1227,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -1219,6 +1271,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -1282,6 +1338,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -1992,6 +2052,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -2059,6 +2123,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -2126,6 +2194,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -2153,6 +2225,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -2189,6 +2265,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -2223,6 +2303,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -2276,6 +2360,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -2300,6 +2388,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -2323,6 +2415,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -2736,6 +2832,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -2758,6 +2858,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -2793,6 +2897,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -2820,6 +2928,10 @@ const speciesJson = {
                 "color": "gy"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -2851,6 +2963,10 @@ const speciesJson = {
                 "color": "gy"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -2893,6 +3009,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -4019,6 +4139,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -4053,6 +4177,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -4086,6 +4214,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -4307,6 +4439,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -4345,6 +4481,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -4382,6 +4522,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -5130,6 +5274,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -5172,6 +5320,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -5213,6 +5365,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -5281,6 +5437,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -5308,6 +5468,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -5334,6 +5498,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -6056,6 +6224,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -6083,6 +6255,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -6109,6 +6285,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -6309,6 +6489,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -6335,6 +6519,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -6361,6 +6549,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       }
@@ -8514,6 +8706,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -8537,6 +8733,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -8559,6 +8759,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -8903,6 +9107,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -8929,6 +9137,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -8967,6 +9179,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -9750,6 +9966,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -9776,6 +9996,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -9836,6 +10060,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -11804,6 +12032,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -11827,6 +12059,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -11849,6 +12085,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -12112,6 +12352,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -12135,6 +12379,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -12157,6 +12405,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -13231,6 +13483,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -13246,6 +13502,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -13272,6 +13532,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       }
@@ -13417,6 +13681,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -13447,6 +13715,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -13489,6 +13761,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -13615,6 +13891,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -13638,6 +13918,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -13660,6 +13944,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -14013,6 +14301,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -14036,6 +14328,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -14058,6 +14354,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -14087,6 +14387,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -14113,6 +14417,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -14162,6 +14470,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -14534,6 +14846,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -14590,6 +14906,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -14645,6 +14965,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -15098,6 +15422,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -15147,6 +15475,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -15219,6 +15551,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -17085,6 +17421,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -17121,6 +17461,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -17156,6 +17500,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -17210,6 +17558,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -17230,6 +17582,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -17249,6 +17605,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -17651,6 +18011,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -17682,6 +18046,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -17712,6 +18080,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -17996,6 +18368,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -18019,6 +18395,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -18041,6 +18421,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -19283,6 +19667,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -19306,6 +19694,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -19328,6 +19720,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -20326,6 +20722,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -20364,6 +20764,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -20414,6 +20818,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -20579,6 +20987,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -20617,6 +21029,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -20654,6 +21070,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -20761,6 +21181,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -20792,6 +21216,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -20822,6 +21250,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -20859,6 +21291,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -20878,6 +21314,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -20896,6 +21336,10 @@ const speciesJson = {
                 "color": "gy"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -23565,6 +24009,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -23595,6 +24043,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -23637,6 +24089,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -23771,6 +24227,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -23802,6 +24262,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -23832,6 +24296,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -24407,6 +24875,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -24422,6 +24894,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -24448,6 +24924,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       }
@@ -24555,6 +25035,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -24581,6 +25065,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -24619,6 +25107,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -24733,6 +25225,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -24748,6 +25244,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -24763,6 +25263,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       }
@@ -25090,6 +25594,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -25154,6 +25662,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -25217,6 +25729,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -25376,6 +25892,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -25402,6 +25922,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -25440,6 +25964,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -26131,6 +26659,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -26157,6 +26689,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -26182,6 +26718,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -26903,6 +27443,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -26970,6 +27514,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -27036,6 +27584,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -27471,6 +28023,22 @@ const speciesJson = {
   "godquestiondragon": {
     "speciesDisplay": "God? Dragon",
     "stage": {
+      "hatch": {
+        "forms": {
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          }
+        }
+      },
       "adult": {
         "forms": {
           "01": {
@@ -27483,6 +28051,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       }
@@ -28284,6 +28856,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -28307,6 +28883,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -28329,6 +28909,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -28358,6 +28942,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -28385,6 +28973,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -28411,6 +29003,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -28444,6 +29040,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -28467,6 +29067,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -28489,6 +29093,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -28905,6 +29513,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -28932,6 +29544,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -28958,6 +29574,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -29052,6 +29672,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -29075,6 +29699,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -29097,6 +29725,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -30200,6 +30832,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -30234,6 +30870,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -30267,6 +30907,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -30322,6 +30966,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -30349,6 +30997,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -30375,6 +31027,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -31632,6 +32288,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -31659,6 +32319,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -31685,6 +32349,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -31924,6 +32592,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -31951,6 +32623,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -31977,6 +32653,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -32010,6 +32690,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -32036,6 +32720,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -32075,6 +32763,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -32104,6 +32796,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -32124,6 +32820,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -32143,6 +32843,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -32447,6 +33151,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -32471,6 +33179,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -32494,6 +33206,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -32787,6 +33503,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -32854,6 +33574,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -32920,6 +33644,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -33193,6 +33921,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -33230,6 +33962,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -33290,6 +34026,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -33421,6 +34161,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -33453,6 +34197,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -33484,6 +34232,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -33634,6 +34386,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -33661,6 +34417,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -33687,6 +34447,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -33910,6 +34674,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -33933,6 +34701,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -33955,6 +34727,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -34132,6 +34908,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -34155,6 +34935,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -34177,6 +34961,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -36221,6 +37009,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -36261,6 +37053,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -36300,6 +37096,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -36417,6 +37217,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -36465,6 +37269,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -36525,6 +37333,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -36666,6 +37478,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -36696,6 +37512,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -36749,6 +37569,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -37002,6 +37826,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -37033,6 +37861,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -37063,6 +37895,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -37100,6 +37936,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -37127,6 +37967,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -37153,6 +37997,10 @@ const speciesJson = {
                 "color": "gy"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -37367,6 +38215,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -37427,6 +38279,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -37486,6 +38342,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -37643,6 +38503,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -37674,6 +38538,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -37704,6 +38572,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -37741,6 +38613,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -37763,6 +38639,10 @@ const speciesJson = {
                 "color": "gy"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -37797,6 +38677,10 @@ const speciesJson = {
                 "color": "gy"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -38036,6 +38920,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -38067,6 +38955,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -38097,6 +38989,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -38645,6 +39541,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -38683,6 +39583,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -38720,6 +39624,10 @@ const speciesJson = {
                 "color": "gy"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -39498,6 +40406,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -39521,6 +40433,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -39543,6 +40459,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -40320,6 +41240,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -40343,6 +41267,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -40365,6 +41293,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -40404,6 +41336,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -40430,6 +41366,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -40456,6 +41396,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           }
         }
       },
@@ -40492,6 +41436,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -40519,6 +41467,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -40545,6 +41497,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -42603,6 +43559,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -42633,6 +43593,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -42662,6 +43626,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -42945,6 +43913,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -42968,6 +43940,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -42990,6 +43966,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -43137,6 +44117,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -43167,6 +44151,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -43196,6 +44184,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -43732,6 +44724,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -43842,6 +44838,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -43954,6 +44954,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -43982,6 +44986,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -44004,6 +45012,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -44038,6 +45050,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -44693,6 +45709,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -44720,6 +45740,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -44756,6 +45780,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -45086,6 +46114,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -45116,6 +46148,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -45158,6 +46194,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -45393,6 +46433,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -45420,6 +46464,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -45446,6 +46494,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -46351,6 +47403,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead01": {
             "formDisplay": "Undead",
             "genders": {
@@ -46373,6 +47429,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -46407,6 +47467,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -47064,6 +48128,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -47091,6 +48159,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -47117,6 +48189,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -48019,6 +49095,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -48053,6 +49133,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -48086,6 +49170,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -49538,6 +50626,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -49561,6 +50653,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -49593,6 +50689,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -50000,6 +51100,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -50027,6 +51131,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -50053,6 +51161,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -50468,6 +51580,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -50491,6 +51607,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -50513,6 +51633,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -50874,6 +51998,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -50937,6 +52065,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -51012,6 +52144,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -51361,6 +52497,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -51409,6 +52549,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -51469,6 +52613,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -51554,6 +52702,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -51625,6 +52777,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -51695,6 +52851,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -51988,6 +53148,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -52026,6 +53190,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -52063,6 +53231,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -52502,6 +53674,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -52542,6 +53718,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -52594,6 +53774,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -52736,6 +53920,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -52758,6 +53946,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -52792,6 +53984,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -53743,6 +54939,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -53766,6 +54966,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -53788,6 +54992,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -55090,6 +56298,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -55113,6 +56325,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -55135,6 +56351,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -55980,6 +57200,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -56003,6 +57227,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -56025,6 +57253,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -56927,6 +58159,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -56965,6 +58201,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -57002,6 +58242,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -57770,6 +59014,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -57793,6 +59041,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -57815,6 +59067,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -58160,6 +59416,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -58187,6 +59447,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -58213,6 +59477,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -58890,6 +60158,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -58917,6 +60189,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -58943,6 +60219,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -59306,6 +60586,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -59333,6 +60617,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -59370,6 +60658,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -59403,6 +60695,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -59423,6 +60719,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -59442,6 +60742,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -59947,6 +61251,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -59988,6 +61296,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -60041,6 +61353,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -60271,6 +61587,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -60390,6 +61710,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead01": {
             "formDisplay": "Undead (Default)",
             "genders": {
@@ -60508,6 +61832,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead01": {
             "formDisplay": "Undead (Default)",
@@ -61644,6 +62972,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -61666,6 +62998,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -61687,6 +63023,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -61744,6 +63084,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -61805,6 +63149,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -61865,6 +63213,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -61897,6 +63249,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -61920,6 +63276,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -61942,6 +63302,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -62438,6 +63802,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -62473,6 +63841,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -62517,6 +63889,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -62811,6 +64187,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -62847,6 +64227,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -62882,6 +64266,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -63268,6 +64656,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -63295,6 +64687,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -63321,6 +64717,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -65150,6 +66550,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -65173,6 +66577,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -65195,6 +66603,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -65425,6 +66837,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -65467,6 +66883,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -65508,6 +66928,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -66068,6 +67492,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -66095,6 +67523,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -66121,6 +67553,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -66291,6 +67727,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -66314,6 +67754,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -66336,6 +67780,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -66960,6 +68408,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -66990,6 +68442,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -67019,6 +68475,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -68447,6 +69907,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -68470,6 +69934,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -68492,6 +69960,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -68526,6 +69998,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -68557,6 +70033,10 @@ const speciesJson = {
                 "color": "rp"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -68590,6 +70070,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -68622,6 +70106,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -68645,6 +70133,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -68667,6 +70159,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -68941,6 +70437,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -68986,6 +70486,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -69030,6 +70534,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -69452,6 +70960,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -69479,6 +70991,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -69505,6 +71021,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
@@ -69538,6 +71058,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -69564,6 +71088,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -69589,6 +71117,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -69868,6 +71400,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -69895,6 +71431,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -69931,6 +71471,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -70187,6 +71731,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -70210,6 +71758,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -70232,6 +71784,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -70272,6 +71828,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -70305,6 +71865,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -70350,6 +71914,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -70814,6 +72382,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -70924,6 +72496,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -71036,6 +72612,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -71064,6 +72644,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -71087,6 +72671,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -71109,6 +72697,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -71524,6 +73116,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -71551,6 +73147,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -71577,6 +73177,10 @@ const speciesJson = {
                 "color": "r"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -71621,6 +73225,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -71659,6 +73267,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -71696,6 +73308,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -71868,6 +73484,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -71891,6 +73511,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -71913,6 +73537,10 @@ const speciesJson = {
                 "color": "p"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -72101,6 +73729,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -72135,6 +73767,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -72168,6 +73804,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "npc": {
             "formDisplay": "[NPC Only]",
@@ -72205,6 +73845,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -72228,6 +73872,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -72250,6 +73898,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -72805,6 +74457,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -72852,6 +74508,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -72898,6 +74558,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -72966,6 +74630,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
@@ -72992,6 +74660,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -73030,6 +74702,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "12": {
             "formDisplay": "DV Nest",
@@ -73495,6 +75171,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -73540,6 +75220,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -73584,6 +75268,10 @@ const speciesJson = {
                 "color": "g"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -73960,6 +75648,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -73998,6 +75690,10 @@ const speciesJson = {
               }
             }
           },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -74035,6 +75731,10 @@ const speciesJson = {
                 "color": "bk"
               }
             }
+          },
+          "11": {
+            "formDisplay": "DV Adventure",
+            "series": "dve"
           },
           "13": {
             "formDisplay": "DV3",
