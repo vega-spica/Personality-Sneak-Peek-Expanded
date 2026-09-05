@@ -1,6 +1,7 @@
 petra_01.png
 size:68,76
 filter:Linear,Linear
+pma:true
 body_1
 bounds:26,4,30,22
 rotate:90
