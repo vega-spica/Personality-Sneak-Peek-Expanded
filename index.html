@@ -1424,10 +1424,11 @@
                     </h1>
                 </div>
 
-                <div class="dragon-stage">
-                
+                <div class="dragon-stage">       
                     <div class="grid-item">
                         <canvas id="dragonCanvas" class="spineCanvas dragonCanvas"></canvas>
+                        <canvas id="partnerfrontCanvas" class="spineCanvas partnerfrontCanvas"></canvas>
+                        <canvas id="partnerbackCanvas" class="spineCanvas partnerbackCanvas"></canvas>
                         <canvas id="Auraback" class="spineCanvas auraBackCanvas"></canvas>
                         <canvas id="Aurafront" class="spineCanvas auraFrontCanvas"></canvas>
                         <canvas id="Halo" class="spineCanvas haloCanvas"></canvas>
@@ -1528,7 +1529,7 @@
                 
                         <!--selection for My Own front colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myownfrontcolourSearch" autocomplete="off" readonly aria-label="Front color">
+                            <input type="text" class="search-box no-search" id="myownfrontcolourSearch" autocomplete="off" readonly aria-label="Front colour">
                             <div class="dropdown-content" id="myownfrontcolourDropdown"></div>
                         </div>
                         <select hidden id="myownfrontcolour" name="myownfrontcolour" style="display: none;" aria-label="My Own Front Colour" onchange="updatePersonalityUrl();">
@@ -1545,7 +1546,7 @@
                 
                         <!--selection for My Own back colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myownbackcolourSearch" autocomplete="off" readonly aria-label="Back color">
+                            <input type="text" class="search-box no-search" id="myownbackcolourSearch" autocomplete="off" readonly aria-label="Back colour">
                             <div class="dropdown-content" id="myownbackcolourDropdown"></div>
                         </div>
                         <select hidden id="myownbackcolour" name="myownbackcolour" style="display: none;" aria-label="My Own Back Colour" onchange="updatePersonalityUrl();">
@@ -1564,7 +1565,7 @@
                 
                         <!--selection for My Heart front colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myheartfrontcolourSearch" autocomplete="off" readonly aria-label="Front color">
+                            <input type="text" class="search-box no-search" id="myheartfrontcolourSearch" autocomplete="off" readonly aria-label="Front colour">
                             <div class="dropdown-content" id="myheartfrontcolourDropdown"></div>
                         </div>
                         <select hidden id="myheartfrontcolour" name="myheartfrontcolour" style="display: none;" aria-label="My Heart Front Colour" onchange="updatePersonalityUrl();">
@@ -1581,7 +1582,7 @@
                 
                         <!--selection for My Heart back colours where entries are appended-->
                         <div class="dropdown customaura-dropdown">
-                            <input type="text" class="search-box no-search" id="myheartbackcolourSearch" autocomplete="off" readonly aria-label="Back color">
+                            <input type="text" class="search-box no-search" id="myheartbackcolourSearch" autocomplete="off" readonly aria-label="Back colour">
                             <div class="dropdown-content" id="myheartbackcolourDropdown"></div>
                         </div>
                         <select hidden id="myheartbackcolour" name="myheartbackcolour" style="display: none;" aria-label="My Heart Back Colour" onchange="updatePersonalityUrl();">

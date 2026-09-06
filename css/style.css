@@ -149,6 +149,14 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
   z-index: 0;
 }
 
+.partnerbackCanvas {
+  z-index: 0;
+}
+
+.partnerfrontCanvas {
+  z-index: 1;
+}
+
 .auraFrontCanvas {
   z-index: 2;
 }
@@ -156,6 +164,8 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .auraBackCanvas,
 .haloCanvas,
 .dragonCanvas,
+.partnerbackCanvas,
+.partnerfrontCanvas,
 .auraFrontCanvas {
   transform: translate(0px, -17px);
 }

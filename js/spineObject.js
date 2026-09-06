@@ -19,6 +19,9 @@ class SpineObject {
         //if the default scale is not set to 1, the models will suffer from blurring and artifacts and the static undead images will not match in scale, so do not touch it.
         //background and floor is not scaled here, see the html for that
         this.skeletonScale = options.scale ?? 1;
+
+        // optional list of skins to combine
+        this.skinNames = options.skins ?? null;
     }
 
     loadAssets(canvas) {
@@ -48,6 +51,26 @@ class SpineObject {
         skeletonBinary.scale = this.skeletonScale;
         var skeletonData = skeletonBinary.readSkeletonData(assetManager.require(this.binaryUrl));
         this.skeleton = new spine.Skeleton(skeletonData);
+
+        // combine DV Nest custom skins
+        if (this.skinNames) {
+            const combinedSkin = new spine.Skin("combined");
+
+            for (const skinName of this.skinNames) {
+                const skin = skeletonData.findSkin(skinName);
+
+                if (!skin) {
+                    console.warn("Skin not found:", skinName);
+                    continue;
+                }
+
+                combinedSkin.addSkin(skin);
+            }
+
+            this.skeleton.setSkin(combinedSkin);
+            this.skeleton.setSlotsToSetupPose();
+        }
+
         //added this here to center the camera
         //the offset should be defined in html when creating a canvas if the default offsets at the top of this document are not suitable.
         //to extend the edges of the canvas itself, increase the size of the grid-item instead.
