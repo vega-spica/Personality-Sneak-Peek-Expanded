@@ -715,13 +715,13 @@ you might end up with a UI for ants. there's only so much real estate on the pag
     width: 300px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .dna-group {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 6px;
 }
 
 .help-overlay.open,

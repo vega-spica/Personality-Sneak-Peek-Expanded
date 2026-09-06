@@ -18512,6 +18512,71 @@ const speciesJson = {
       }
     }
   },
+  "dracon": {
+    "speciesDisplay": "Dracon",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_dracon_01"
+              },
+              "m": {
+                "partnerres": "partner_dracon_01"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_dracon_02"
+              },
+              "m": {
+                "partnerres": "partner_dracon_02"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_dracon_03_f"
+              },
+              "m": {
+                "partnerres": "partner_dracon_03_m"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Sleeping",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_dracon_03_sleep"
+              },
+              "m": {
+                "partnerres": "partner_dracon_03_sleep"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "dragonoid": {
     "speciesDisplay": "Dragonoid",
     "stage": {
@@ -33227,7 +33292,6 @@ const speciesJson = {
       }
     }
   },
-/*
   "jade": {
     "speciesDisplay": "Jade",
     "stage": {
@@ -33293,7 +33357,6 @@ const speciesJson = {
       }
     }
   },
-*/
   "janerr": {
     "speciesDisplay": "Janerr",
     "stage": {
@@ -41377,6 +41440,73 @@ const speciesJson = {
       }
     }
   },
+/*
+  "luti": {
+    "speciesDisplay": "Luti",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_luti_01"
+              },
+              "m": {
+                "partnerres": "partner_luti_01"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_luti_02"
+              },
+              "m": {
+                "partnerres": "partner_luti_02"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_luti_03_f"
+              },
+              "m": {
+                "partnerres": "partner_luti_03_m"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Sleeping",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_luti_03_sleep"
+              },
+              "m": {
+                "partnerres": "partner_luti_03_sleep"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  */
   "macarondragon": {
     "speciesDisplay": "Macaron Dragon",
     "stage": {
@@ -48377,6 +48507,71 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "eggend_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "nira": {
+    "speciesDisplay": "Nira",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_nira_01"
+              },
+              "m": {
+                "partnerres": "partner_nira_01"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_nira_02"
+              },
+              "m": {
+                "partnerres": "partner_nira_02"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_nira_03_f"
+              },
+              "m": {
+                "partnerres": "partner_nira_03_m"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Sleeping",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_nira_03_sleep"
+              },
+              "m": {
+                "partnerres": "partner_nira_03_sleep"
               }
             }
           }

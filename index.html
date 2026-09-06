@@ -616,31 +616,38 @@
         }
 
         function updateSkin() {
-            const appearance = {
-                eyes: {
-                    color: document.getElementById("partnereyecolour").value,
-                    trait: document.getElementById("partnereyetrait").value
-                },
-                body01: {
-                    color: document.getElementById("partnerbodycolour").value,
-                    trait: document.getElementById("partnerbodytrait").value
-                },
-                body02: {
-                    color: document.getElementById("partnerpointcolour").value,
-                    trait: document.getElementById("partnerpointtrait").value
-                },
-                wings: {
-                    color: document.getElementById("partnerspecialcolour").value,
-                    trait: document.getElementById("partnerspecialtrait").value
-                }
-            };
+            partnerEyeColour =
+                document.getElementById("partnereyecolour").value;
 
-            const skinNames = getPartnerSkinNames(appearance);
+            partnerBodyColour =
+                document.getElementById("partnerbodycolour").value;
 
-            console.log(skinNames);
+            partnerPointColour =
+                document.getElementById("partnerpointcolour").value;
+
+            partnerSpecialColour =
+                document.getElementById("partnerspecialcolour").value;
+
+            partnerEyeTrait =
+                document.getElementById("partnereyetrait").value;
+
+            partnerBodyTrait =
+                document.getElementById("partnerbodytrait").value;
+
+            partnerPointTrait =
+                document.getElementById("partnerpointtrait").value;
+
+            partnerSpecialTrait =
+                document.getElementById("partnerspecialtrait").value;
+
+            const skinNames = getCurrentPartnerSkinNames();
 
             if (canvases.partnerFrontApp) {
                 canvases.partnerFrontApp.setCombinedSkin(skinNames);
+            }
+
+            if (canvases.partnerBackApp) {
+                canvases.partnerBackApp.setCombinedSkin(skinNames);
             }
         }
 
@@ -1119,6 +1126,27 @@
             return skinNames;
         }
 
+        function getCurrentPartnerSkinNames() {
+            return getPartnerSkinNames({
+                eyes: {
+                    color: partnerEyeColour,
+                    trait: partnerEyeTrait
+                },
+                body01: {
+                    color: partnerBodyColour,
+                    trait: partnerBodyTrait
+                },
+                body02: {
+                    color: partnerPointColour,
+                    trait: partnerPointTrait
+                },
+                wings: {
+                    color: partnerSpecialColour,
+                    trait: partnerSpecialTrait
+                }
+            });
+        }
+
         // for Dragon Village 3 models
         function getDv3DragonRes() {
             const formData =
@@ -1186,25 +1214,7 @@
             dragonCanvasElem.style.display = "none";
             dragonImageElem.style.display = "none";
 
-            // construct current partner appearance
-            const skinNames = getPartnerSkinNames({
-                eyes: {
-                    color: partnerEyeColour,
-                    trait: partnerEyeTrait
-                },
-                body01: {
-                    color: partnerBodyColour,
-                    trait: partnerBodyTrait
-                },
-                body02: {
-                    color: partnerPointColour,
-                    trait: partnerPointTrait
-                },
-                wings: {
-                    color: partnerSpecialColour,
-                    trait: partnerSpecialTrait
-                }
-            });
+            const skinNames = getCurrentPartnerSkinNames();
 
             // i don't like that face Jade's making...
             const isSleeping = formData.formDisplay === "Sleeping";
@@ -2000,14 +2010,14 @@
                     <div class="dna-button">
                         <input type="image" onclick="dnaMenu()" src="./res/img/dna_0101.png" alt="DNA Menu"></input>
                     </div>
-                    <!--it's okay. we all need some help sometimes.-->
-                    <div class="help-button">
-                        <input type="image" onclick="helpMenu()" src="./res/img/help_0101.png" alt="Help Menu"></input>
-                    </div>
                     <div class="sharelink-button">
                         <!--sharelinks. because sharing is caring.-->
                         <!--(it doesn't track views though, sorry)-->
                         <input type="image" onclick="copySharelink()" src="./res/img/link_0101.png" alt="Copy Sharelink"></input>
+                    </div>
+                    <!--it's okay. we all need some help sometimes.-->
+                    <div class="help-button">
+                        <input type="image" onclick="helpMenu()" src="./res/img/help_0101.png" alt="Help Menu"></input>
                     </div>
                 </div>
             </section>
