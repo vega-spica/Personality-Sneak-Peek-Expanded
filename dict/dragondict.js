@@ -33227,6 +33227,73 @@ const speciesJson = {
       }
     }
   },
+/*
+  "jade": {
+    "speciesDisplay": "Jade",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_jade_01"
+              },
+              "m": {
+                "partnerres": "partner_jade_01"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_jade_02"
+              },
+              "m": {
+                "partnerres": "partner_jade_02"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_jade_03_f"
+              },
+              "m": {
+                "partnerres": "partner_jade_03_m"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Sleeping",
+            "series": "partner",
+            "genders": {
+              "f": {
+                "partnerres": "partner_jade_03_sleep"
+              },
+              "m": {
+                "partnerres": "partner_jade_03_sleep"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+*/
   "janerr": {
     "speciesDisplay": "Janerr",
     "stage": {

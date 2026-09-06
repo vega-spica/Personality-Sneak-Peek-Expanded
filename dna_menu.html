@@ -1,0 +1,99 @@
+<section class="dna-container">
+    <!--colour column-->
+    <div class="dna-column">
+        <h3 class="dna-header">Color</h3>
+        <div class="dna-group">
+            <label class="dna-label" for="partnereyecolourSearch">Eyes</label>
+            <div class="dropdown dna-dropdown">
+                <input type="text" class="search-box no-search" id="partnereyecolourSearch" autocomplete="off" readonly>
+                <div class="dropdown-content" id="partnereyecolourDropdown"></div>
+            </div>
+            <select hidden id="partnereyecolour" name="partnereyecolour"
+                    style="display: none;" aria-label="Partner Eye Colour"
+                    onchange="updateSkin();">
+            </select>
+        </div>
+        <div class="dna-group">
+            <label class="dna-label" for="partnerbodycolourSearch">Body</label>
+            <div class="dropdown dna-dropdown">
+                <input type="text" class="search-box no-search" id="partnerbodycolourSearch" autocomplete="off" readonly>
+                <div class="dropdown-content" id="partnerbodycolourDropdown"></div>
+            </div>
+            <select hidden id="partnerbodycolour" name="partnerbodycolour"
+                    style="display: none;" aria-label="Partner Body Colour"
+                    onchange="updateSkin();">
+            </select>
+        </div>
+        <div class="dna-group">
+            <label class="dna-label" for="partnerpointcolourSearch">Point</label>
+            <div class="dropdown dna-dropdown">
+                <input type="text" class="search-box no-search" id="partnerpointcolourSearch" autocomplete="off" readonly>
+                <div class="dropdown-content" id="partnerpointcolourDropdown"></div>
+            </div>
+            <select hidden id="partnerpointcolour" name="partnerpointcolour"
+                    style="display: none;" aria-label="Partner Point Colour"
+                    onchange="updateSkin();">
+            </select>
+        </div>
+        <div class="dna-group">
+            <label class="dna-label" for="partnerspecialcolourSearch">Special</label>
+            <div class="dropdown dna-dropdown">
+                <input type="text" class="search-box no-search" id="partnerspecialcolourSearch" autocomplete="off" readonly>
+                <div class="dropdown-content" id="partnerspecialcolourDropdown"></div>
+            </div>
+            <select hidden id="partnerspecialcolour" name="partnerspecialcolour"
+                    style="display: none;" aria-label="Partner Special Colour"
+                    onchange="updateSkin();">
+            </select>
+        </div>
+    </div>
+
+    <!--trait column-->
+    <div class="dna-column">
+        <h3 class="dna-header">Pattern</h3>
+        <div class="dna-group">
+            <label class="dna-label" for="partnereyetraitSearch">Eyes</label>
+            <div class="dropdown dna-dropdown">
+                <input type="text" class="search-box no-search" id="partnereyetraitSearch" autocomplete="off" readonly>
+                <div class="dropdown-content" id="partnereyetraitDropdown"></div>
+            </div>
+            <select hidden id="partnereyetrait" name="partnereyetrait"
+                    style="display: none;" aria-label="Partner Eye Trait"
+                    onchange="updateSkin();">
+            </select>
+        </div>
+        <div class="dna-group">
+            <label class="dna-label" for="partnerbodytraitSearch">Body</label>
+            <div class="dropdown dna-dropdown">
+                <input type="text" class="search-box no-search" id="partnerbodytraitSearch" autocomplete="off" readonly>
+                <div class="dropdown-content" id="partnerbodytraitDropdown"></div>
+            </div>
+            <select hidden id="partnerbodytrait" name="partnerbodytrait"
+                    style="display: none;" aria-label="Partner Body Trait"
+                    onchange="updateSkin();">
+            </select>
+        </div>
+        <div class="dna-group">
+            <label class="dna-label" for="partnerpointtraitSearch">Point</label>
+            <div class="dropdown dna-dropdown">
+                <input type="text" class="search-box no-search" id="partnerpointtraitSearch" autocomplete="off" readonly>
+                <div class="dropdown-content" id="partnerpointtraitDropdown"></div>
+            </div>
+            <select hidden id="partnerpointtrait" name="partnerpointtrait"
+                    style="display: none;" aria-label="Partner Point Trait"
+                    onchange="updateSkin();">
+            </select>
+        </div>
+        <div class="dna-group">
+            <label class="dna-label" for="partnerspecialtraitSearch">Special</label>
+            <div class="dropdown dna-dropdown">
+                <input type="text" class="search-box no-search" id="partnerspecialtraitSearch" autocomplete="off" readonly>
+                <div class="dropdown-content" id="partnerspecialtraitDropdown"></div>
+            </div>
+            <select hidden id="partnerspecialtrait" name="partnerspecialtrait"
+                    style="display: none;" aria-label="Partner Special Trait"
+                    onchange="updateSkin();">
+            </select>
+        </div>
+    </div>
+</section>

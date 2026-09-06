@@ -8,8 +8,11 @@
     <meta name="description" content="Dragon Village Collection Plus: APPEND, formerly known as Personality Sneak-Peek (Expanded). The fanmade archival model viewer for Dragon Village Collection and more.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta charset="utf-8">
     <script src="./js/spineObject.js"></script>
+    <script src="./dict/partnercolourdict.js"></script>
+    <script src="./dict/partnertraitdict.js"></script>
     <script src="./dict/dragondict.js"></script>
     <script src="./dict/personalitydict.js"></script>
     <script src="./dict/myownfrontdict.js"></script>
@@ -27,6 +30,10 @@
         backAura: null,
         frontAura: null,
         dragon: null,
+        partnerfront: null,
+        partnerback: null,
+        partnerFrontApp: null,
+        partnerBackApp: null,
         background: null,
         floor: null
     };
@@ -49,6 +56,14 @@
         var speciesDisplay;
         var formDisplay;
         var stage = "adult";
+        var partnerEyeColour = "b";
+        var partnerBodyColour = "w";
+        var partnerPointColour = "y";
+        var partnerSpecialColour = "b";
+        var partnerEyeTrait = "basic";
+        var partnerBodyTrait = "basic";
+        var partnerPointTrait = "basic";
+        var partnerSpecialTrait = "basic";
         var myownfront;
         var myownfrontcolour;
         var myownback;
@@ -89,6 +104,30 @@
 
             var stageParam = new URLSearchParams(location.search).get('stage');
             stage = stageParam === null ? stage : stageParam;
+
+            var partnerEyeColourParam = new URLSearchParams(location.search).get('eyecolour');
+            partnerEyeColour = partnerEyeColourParam === null ? partnerEyeColour : partnerEyeColourParam;
+
+            var partnerBodyColourParam = new URLSearchParams(location.search).get('bodycolour');
+            partnerBodyColour = partnerBodyColourParam === null ? partnerBodyColour : partnerBodyColourParam;
+
+            var partnerPointColourParam = new URLSearchParams(location.search).get('pointcolour');
+            partnerPointColour = partnerPointColourParam === null ? partnerPointColour : partnerPointColourParam;
+
+            var partnerSpecialColourParam = new URLSearchParams(location.search).get('specialcolour');
+            partnerSpecialColour = partnerSpecialColourParam === null ? partnerSpecialColour : partnerSpecialColourParam;
+
+            var partnerEyeTraitParam = new URLSearchParams(location.search).get('eyetrait');
+            partnerEyeTrait = partnerEyeTraitParam === null ? partnerEyeTrait : partnerEyeTraitParam;
+
+            var partnerBodyTraitParam = new URLSearchParams(location.search).get('bodytrait');
+            partnerBodyTrait = partnerBodyTraitParam === null ? partnerBodyTrait : partnerBodyTraitParam;
+
+            var partnerPointTraitParam = new URLSearchParams(location.search).get('pointtrait');
+            partnerPointTrait = partnerPointTraitParam === null ? partnerPointTrait : partnerPointTraitParam;
+
+            var partnerSpecialTraitParam = new URLSearchParams(location.search).get('specialtrait');
+            partnerSpecialTrait = partnerSpecialTraitParam === null ? partnerSpecialTrait : partnerSpecialTraitParam;
 
             var frontParam = new URLSearchParams(location.search).get('front');
             customfront = frontParam === null ? "[None]" : frontParam;
@@ -153,6 +192,14 @@
             prismLabel = document.getElementById("prismLabel");
             fusionButton = document.getElementById("fusion");
             fusionLabel = document.getElementById("fusionLabel");
+            partnereyecolour = document.getElementById("partnereyecolour");
+            partnerbodycolour = document.getElementById("partnerbodycolour");
+            partnerpointcolour = document.getElementById("partnerpointcolour");
+            partnerspecialcolour = document.getElementById("partnerspecialcolour");
+            partnereyetrait = document.getElementById("partnereyetrait");
+            partnerbodytrait = document.getElementById("partnerbodytrait");
+            partnerpointtrait = document.getElementById("partnerpointtrait");
+            partnerspecialtrait = document.getElementById("partnerspecialtrait");
             myownfront = document.getElementById("myownfront");
             myownfrontcolour = document.getElementById("myownfrontcolour");
             myownback = document.getElementById("myownback");
@@ -568,6 +615,35 @@
             changeDragonSprite();
         }
 
+        function updateSkin() {
+            const appearance = {
+                eyes: {
+                    color: document.getElementById("partnereyecolour").value,
+                    trait: document.getElementById("partnereyetrait").value
+                },
+                body01: {
+                    color: document.getElementById("partnerbodycolour").value,
+                    trait: document.getElementById("partnerbodytrait").value
+                },
+                body02: {
+                    color: document.getElementById("partnerpointcolour").value,
+                    trait: document.getElementById("partnerpointtrait").value
+                },
+                wings: {
+                    color: document.getElementById("partnerspecialcolour").value,
+                    trait: document.getElementById("partnerspecialtrait").value
+                }
+            };
+
+            const skinNames = getPartnerSkinNames(appearance);
+
+            console.log(skinNames);
+
+            if (canvases.partnerFrontApp) {
+                canvases.partnerFrontApp.setCombinedSkin(skinNames);
+            }
+        }
+
         //enable only the valid stage buttons
         function initializeStageButtons() {
             //disable all non-adult buttons
@@ -763,26 +839,58 @@
 
             // default to dvc if no series is defined for current form
             const series = form.series || "dvc";
+            const isPartner = series === "partner";
+            const isSleeping = isPartner && form.formDisplay === "Sleeping";
 
             // otherwise, determine valid "extra" animations by game series
-            const hasAttack = series === "dve" || series === "dvn" || series === "dv3";
-            const hasSkill = series === "dv3";
-            const hasDie = series === "dv3";
+            let hasHolding = true;
+            let hasAttack = series === "dve" || series === "dvn" || series === "dv3";
+            let hasSkill = series === "dv3";
+            let hasDie = series === "dv3";
+            let hasMove = true;
+            let hasTouch = true;
 
+            // for DVN partners
+            if (isPartner) {
+                hasHolding = false;
+                hasAttack = false;
+                hasSkill = false;
+                hasDie = false;
+                hasTouch = false;
+
+                // sleeping partners
+                if (isSleeping) {
+                    hasMove = false;
+                    hasTouch = true;
+                }
+            }
+
+            const holdingButton = document.getElementById("holding");
             const attackButton = document.getElementById("attack");
             const skillButton = document.getElementById("skill");
             const dieButton = document.getElementById("die");
+            const moveButton = document.getElementById("move");
+            const touchButton = document.getElementById("touch");
 
+            const holdingLabel = document.getElementById("holdingLabel");
             const attackLabel = document.getElementById("attackLabel");
             const skillLabel = document.getElementById("skillLabel");
             const dieLabel = document.getElementById("dieLabel");
+            const moveLabel = document.getElementById("moveLabel");
+            const touchLabel = document.getElementById("touchLabel");
 
             // enable/disable buttons
+            holdingButton.disabled = !hasHolding;
             attackButton.disabled = !hasAttack;
             skillButton.disabled = !hasSkill;
             dieButton.disabled = !hasDie;
+            moveButton.disabled = !hasMove;
+            touchButton.disabled = !hasTouch;
 
             // update label appearance
+            holdingLabel.classList.toggle("disabledButton", !hasHolding);
+            holdingLabel.setAttribute("aria-disabled", !hasHolding);
+
             attackLabel.classList.toggle("disabledButton", !hasAttack);
             attackLabel.setAttribute("aria-disabled", !hasAttack);
 
@@ -792,11 +900,20 @@
             dieLabel.classList.toggle("disabledButton", !hasDie);
             dieLabel.setAttribute("aria-disabled", !hasDie);
 
-            //in case a selected animation goes poof.
+            moveLabel.classList.toggle("disabledButton", !hasMove);
+            moveLabel.setAttribute("aria-disabled", !hasMove);
+
+            touchLabel.classList.toggle("disabledButton", !hasTouch);
+            touchLabel.setAttribute("aria-disabled", !hasTouch);
+
+            // in case a selected animation goes poof.
             if (
+                (holdingButton.checked && !hasHolding) ||
                 (attackButton.checked && !hasAttack) ||
                 (skillButton.checked && !hasSkill) ||
-                (dieButton.checked && !hasDie)
+                (dieButton.checked && !hasDie) ||
+                (moveButton.checked && !hasMove) ||
+                (touchButton.checked && !hasTouch)
             ) {
                 document.getElementById("idle").checked = true;
                 setanimState("idle");
@@ -836,6 +953,10 @@
 
             if (series === "dvn") {
                 return getDvnDragonRes();
+            }
+
+            if (series === "partner") {
+                return getPartnerDragonRes();
             }
 
             if (series === "dv3") {
@@ -967,6 +1088,37 @@
             };
         }
 
+        // for Dragon Village Nest partner models
+        function getPartnerDragonRes() {
+            const formData =
+                speciesJson[speciesName]
+                    .stage[stage]
+                    .forms[formNumber];
+
+            const genderData = formData.genders[gender];
+            const resName = genderData.partnerres;
+
+            const path =
+                spineBaseUrl + "DVN/character/partner/";
+
+            return {
+                spineUrl: path + resName + "/" + resName,
+                spineCheckUrl: path + resName + "/" + resName + ".skel",
+                pngUrl: path + resName + ".png"
+            };
+        }
+
+        function getPartnerSkinNames(appearance) {
+            const skinNames = [];
+
+            for (const part of ["eyes", "body01", "body02", "wings"]) {
+                skinNames.push(`${part}_${appearance[part].color}`);
+                skinNames.push(`${part}_${appearance[part].trait}`);
+            }
+
+            return skinNames;
+        }
+
         // for Dragon Village 3 models
         function getDv3DragonRes() {
             const formData =
@@ -993,11 +1145,149 @@
         // load new dragon when changed
         async function changeDragonSprite() {
 
+            const formData =
+                speciesJson[speciesName]
+                    .stage[stage]
+                    .forms[formNumber];
+
+            const series = formData.series || "dvc";
+            const isPartner = series === "partner";
+
             const dragonCanvasElem = document.getElementById("dragonCanvas");
+            const partnerfrontCanvasElem = document.getElementById("partnerfrontCanvas");
+            const partnerbackCanvasElem = document.getElementById("partnerbackCanvas");
             const dragonImageElem = document.getElementById("dragon-image");
 
             // construct res url
             const res = getDragonRes();
+
+        // ===== partner dragon stuff ===== //
+        if (isPartner) {
+
+            // dispose of old renderers
+            if (canvases.dragon) {
+                canvases.dragon.dispose();
+                canvases.dragon = null;
+            }
+
+            if (canvases.partnerfront) {
+                canvases.partnerfront.dispose();
+                canvases.partnerfront = null;
+            }
+
+            if (canvases.partnerback) {
+                canvases.partnerback.dispose();
+                canvases.partnerback = null;
+            }
+
+            canvases.partnerFrontApp = null;
+
+            // hide normal dragon elements
+            dragonCanvasElem.style.display = "none";
+            dragonImageElem.style.display = "none";
+
+            // construct current partner appearance
+            const skinNames = getPartnerSkinNames({
+                eyes: {
+                    color: partnerEyeColour,
+                    trait: partnerEyeTrait
+                },
+                body01: {
+                    color: partnerBodyColour,
+                    trait: partnerBodyTrait
+                },
+                body02: {
+                    color: partnerPointColour,
+                    trait: partnerPointTrait
+                },
+                wings: {
+                    color: partnerSpecialColour,
+                    trait: partnerSpecialTrait
+                }
+            });
+
+            // i don't like that face Jade's making...
+            const isSleeping = formData.formDisplay === "Sleeping";
+
+            // if sleeping
+            if (isSleeping) {
+
+                partnerfrontCanvasElem.style.display = "inline-block";
+                partnerbackCanvasElem.style.display = "inline-block";
+
+                const partnerFrontAnim =
+                    animState === "touch" ? "touch2_front" : "idle_front";
+
+                const partnerBackAnim =
+                    animState === "touch" ? "touch2_back" : "idle_back";
+
+                canvases.partnerFrontApp = new SpineObject(
+                    res.spineUrl,
+                    partnerFrontAnim,
+                    false,
+                    {
+                        skins: skinNames,
+                        scale: 2,
+                        offsetY: -180
+                    }
+                );
+
+                canvases.partnerBackApp = new SpineObject(
+                    res.spineUrl,
+                    partnerBackAnim,
+                    false,
+                    {
+                        skins: skinNames,
+                        scale: 2,
+                        offsetY: -180
+                    }
+                );
+
+                canvases.partnerfront = new spine.SpineCanvas(
+                    partnerfrontCanvasElem,
+                    {
+                        app: canvases.partnerFrontApp
+                    }
+                );
+
+                canvases.partnerback = new spine.SpineCanvas(
+                    partnerbackCanvasElem,
+                    {
+                        app: canvases.partnerBackApp
+                    }
+                );
+
+            } else {
+
+                // if not sleeping
+                partnerfrontCanvasElem.style.display = "inline-block";
+                partnerbackCanvasElem.style.display = "none";
+
+                canvases.partnerFrontApp = new SpineObject(
+                    res.spineUrl,
+                    animState,
+                    false,
+                    {
+                        skins: skinNames,
+                        scale: 3
+                    }
+                );
+
+                canvases.partnerfront = new spine.SpineCanvas(
+                    partnerfrontCanvasElem,
+                    {
+                        app: canvases.partnerFrontApp
+                    }
+                );
+            }
+
+            return;
+            }
+
+        // =====regular dragon stuff===== //
+            // hide partner elements
+            partnerfrontCanvasElem.style.display = "none";
+            partnerbackCanvasElem.style.display = "none";
 
             // check if spine res exists
             const spineExists = await resExists(res.spineCheckUrl);
@@ -1005,10 +1295,20 @@
             if (spineExists) {
                 // if it exists
 
-                // dispose of old spine res
+                // dispose of old renderers
                 if (canvases.dragon) {
                     canvases.dragon.dispose();
                     canvases.dragon = null;
+                }
+
+                if (canvases.partnerfront) {
+                    canvases.partnerfront.dispose();
+                    canvases.partnerfront = null;
+                }
+
+                if (canvases.partnerback) {
+                    canvases.partnerback.dispose();
+                    canvases.partnerback = null;
                 }
 
                 // hide image
@@ -1427,8 +1727,8 @@
                 <div class="dragon-stage">       
                     <div class="grid-item">
                         <canvas id="dragonCanvas" class="spineCanvas dragonCanvas"></canvas>
-                        <canvas id="partnerfrontCanvas" class="spineCanvas partnerfrontCanvas"></canvas>
                         <canvas id="partnerbackCanvas" class="spineCanvas partnerbackCanvas"></canvas>
+                        <canvas id="partnerfrontCanvas" class="spineCanvas partnerfrontCanvas"></canvas>
                         <canvas id="Auraback" class="spineCanvas auraBackCanvas"></canvas>
                         <canvas id="Aurafront" class="spineCanvas auraFrontCanvas"></canvas>
                         <canvas id="Halo" class="spineCanvas haloCanvas"></canvas>
@@ -1697,13 +1997,17 @@
                 </div>
 
                 <div class="button-box">
+                    <div class="dna-button">
+                        <input type="image" onclick="dnaMenu()" src="./res/img/dna_0101.png" alt="DNA Menu"></input>
+                    </div>
+                    <!--it's okay. we all need some help sometimes.-->
+                    <div class="help-button">
+                        <input type="image" onclick="helpMenu()" src="./res/img/help_0101.png" alt="Help Menu"></input>
+                    </div>
                     <div class="sharelink-button">
                         <!--sharelinks. because sharing is caring.-->
                         <!--(it doesn't track views though, sorry)-->
                         <input type="image" onclick="copySharelink()" src="./res/img/link_0101.png" alt="Copy Sharelink"></input>
-                    </div>
-                    <div class="help-button">
-                        <input type="image" onclick="helpMenu()" src="./res/img/help_0101.png" alt="Help Menu"></input>
                     </div>
                 </div>
             </section>
@@ -1762,6 +2066,16 @@
                     </button>
                     <h2 id="helpTitle">Help</h2>
                     <div id="helpText">Loading...</div>
+                </div>
+            </div>
+
+            <div hidden inert id="dnaOverlay" class="dna-overlay" role="dialog" aria-modal="true" aria-labelledby="dnaTitle">
+                <div class="dna-popup" tabindex="-1">
+                    <button class="dna-close" type="button" onclick="dnaMenu()" aria-label="Close DNA menu">
+                        <img src="./res/img/close_0101.png" alt="" draggable="false">
+                    </button>
+                    <h2 id="dnaTitle">Genetic Information</h2>
+                    <div id="dnaText">Loading...</div>
                 </div>
             </div>
 
@@ -1997,7 +2311,14 @@
                     selectId: "species",
                     onChange: updateSpecies,
                 });
-                //...okay, fine, you can have more searchbars.            
+                //...okay, fine, you can have more searchbars.    
+                createSearchDropdown({
+                    searchId: "formSearch",
+                    dropdownId: "formDropdown",
+                    selectId: "form",
+                    onChange: updateForm
+                });
+
                 createSearchDropdown({
                     searchId: "personalitySearch",
                     dropdownId: "personalityDropdown",
@@ -2005,27 +2326,7 @@
                     onChange: updatePersonalityUrl
                 });
 
-                createSearchDropdown({
-                    searchId: "bgSearch",
-                    dropdownId: "bgDropdown",
-                    selectId: "cavebg",
-                    onChange: updateBackgroundUrl
-                });
-
-                createSearchDropdown({
-                    searchId: "floorSearch",
-                    dropdownId: "floorDropdown",
-                    selectId: "cavefloor",
-                    onChange: updateFloorUrl
-                });
-
-                createSearchDropdown({
-                    searchId: "formSearch",
-                    dropdownId: "formDropdown",
-                    selectId: "form",
-                    onChange: updateForm
-                });
-    
+                // My Own searchbars 
                 createSearchDropdown({
                     searchId: "myownfrontSearch",
                     dropdownId: "myownfrontDropdown",
@@ -2054,6 +2355,7 @@
                     onChange: updatePersonalityUrl
                 });
 
+                // My Heart searchbars 
                 createSearchDropdown({
                     searchId: "myheartfrontSearch",
                     dropdownId: "myheartfrontDropdown",
@@ -2082,95 +2384,316 @@
                     onChange: updatePersonalityUrl
                 });
 
-                /* it's okay. we all need some help sometimes. */
-                let helpOpen = false;
-                let helpLoaded = false;
+                // cave decor searchbars 
+                createSearchDropdown({
+                    searchId: "bgSearch",
+                    dropdownId: "bgDropdown",
+                    selectId: "cavebg",
+                    onChange: updateBackgroundUrl
+                });
+
+                createSearchDropdown({
+                    searchId: "floorSearch",
+                    dropdownId: "floorDropdown",
+                    selectId: "cavefloor",
+                    onChange: updateFloorUrl
+                });
+
+                /* for menu overlays */
+                let activeMenu = null;
                 let previousFocus = null;
 
-                async function helpMenu() {
-                    const overlay = document.getElementById("helpOverlay");
-                    const helpText = document.getElementById("helpText");
+                /* define any necessary menu overlays here */
+                const menuState = {
+                    help: {
+                        overlay: "helpOverlay",
+                        content: "helpText",
+                        file: "./help_menu.html",
+                        loaded: false
+                    },
 
-                    helpOpen = !helpOpen;
+                    dna: {
+                        overlay: "dnaOverlay",
+                        content: "dnaText",
+                        file: "./dna_menu.html",
+                        loaded: false
+                    }
+                };
 
-                    if (helpOpen) {
-                        //the current focus point is saved for later (for accessibility)
-                        previousFocus = document.activeElement;
+                async function openMenu(name) {
+                    const menu = menuState[name];
 
-                        overlay.hidden = false;
-                        overlay.inert = false;
-                        overlay.classList.add("open");
+                    if (!menu) {
+                        console.error(`Unknown menu: ${name}`);
+                        return;
+                    }
 
-                        if (!helpLoaded) {
-                            try {
-                                const response = await fetch("./help_menu.html");
+                    // keep menus from being open simultaneously
+                    if (activeMenu && activeMenu !== name) {
+                        await closeMenu();
+                    }
 
-                                if (!response.ok) {
-                                    throw new Error("Could not load help menu.");
-                                }
+                    const overlay = document.getElementById(menu.overlay);
+                    const content = document.getElementById(menu.content);
 
-                                const text = await response.text();
-                                helpText.innerHTML = text;
-                                helpLoaded = true;
+                    //the current focus point is saved for later (for accessibility)
+                    previousFocus = document.activeElement;
+                    activeMenu = name;
 
-                            } catch (error) {
-                                console.error(error);
-                                helpText.textContent = "Failed to load help menu.";
+                    overlay.hidden = false;
+                    overlay.inert = false;
+                    overlay.classList.add("open");
+
+                    if (!menu.loaded) {
+                        try {
+                            const response = await fetch(menu.file);
+
+                            if (!response.ok) {
+                                throw new Error(
+                                    `Could not load ${menu.file}: ${response.status} ${response.statusText}`
+                                );
                             }
+
+                            const text = await response.text();
+
+                            content.innerHTML = text;
+                            menu.loaded = true;
+
+                            if (name === "dna") {
+                                initializePartnerSelectors();
+                            }
+
+                        } catch (error) {
+                            console.error(error);
+                            content.textContent = "Failed to load menu.";
                         }
+                    }
 
-                        //focus on help close button on open to immediately give tabbing users the option to leave
-                        overlay.querySelector(".help-close").focus(); 
-                    } else {
-                        overlay.classList.remove("open");
+                    //focus on help close button on open to immediately give tabbing users the option to leave
+                    const closeButton = overlay.querySelector("button");
 
-                        overlay.addEventListener("transitionend", function handler() {
-                            overlay.inert = true;
-                            overlay.hidden = true;
-                            overlay.removeEventListener("transitionend", handler);
-                        }, { once: true });
-
-                        //focus point is restored on close so that screenreaders and tabbers are not trapped in the dialog
-                        previousFocus?.focus();
+                    if (closeButton) {
+                        closeButton.focus();
                     }
                 }
 
-                //close button
-                document.getElementById("helpOverlay").addEventListener("click", function(event) {
-                    if (event.target === this) {
-                        helpMenu();
+                function helpMenu() {
+                    if (activeMenu === "help") {
+                        closeMenu();
+                    } else {
+                        openMenu("help");
+                    }
+                }
+
+                function dnaMenu() {
+                    //define available species
+                    const dnaAvailableSpecies = ["dracon", "jade", "nira", "luti"];
+
+                    //if no match, display toast
+                    if (!dnaAvailableSpecies.includes(speciesName)) {
+                        showToast("Can only be applied to Dracon, Jade, Nira, or Luti.");
+                        return;
+                    }
+
+                    //open dna menu if matches available species
+                    if (activeMenu === "dna") {
+                        closeMenu();
+                    } else {
+                        openMenu("dna");
+                    }
+                }
+
+                function closeMenu() {
+                    if (!activeMenu) {
+                        return;
+                    }
+
+                    const menu = menuState[activeMenu];
+                    const overlay = document.getElementById(menu.overlay);
+
+                    activeMenu = null;
+
+                    overlay.classList.remove("open");
+
+                    overlay.addEventListener("transitionend", function handler() {
+                        overlay.inert = true;
+                        overlay.hidden = true;
+                        overlay.removeEventListener("transitionend", handler);
+                    }, { once: true });
+
+                    //focus point is restored on close so that screenreaders and tabbers are not trapped in the dialog
+                    previousFocus?.focus();
+                    previousFocus = null;
+                }
+
+                // close menu
+                document.addEventListener("click", function(event) {
+                    if (!activeMenu) {
+                        return;
+                    }
+
+                    const menu = menuState[activeMenu];
+                    const overlay = document.getElementById(menu.overlay);
+
+                    if (event.target === overlay) {
+                        closeMenu();
                     }
                 });
 
                 //or ESC button
                 document.addEventListener("keydown", function(event) {
-                    if (event.key === "Escape" && helpOpen) {
-                        helpMenu();
+
+                    if (!activeMenu) {
+                        return;
+                    }
+
+                    if (event.key === "Escape") {
+                        event.preventDefault();
+                        closeMenu();
+                        return;
                     }
 
                     //accessibility help (guidance for tabbing to focus)
-                    if (event.key === "Tab" && helpOpen) {
-                        const overlay = document.getElementById("helpOverlay");
+                    if (event.key === "Tab") {
+                        const menu = menuState[activeMenu];
+                        const overlay = document.getElementById(menu.overlay);
 
                         const focusable = overlay.querySelectorAll(
                             'button, input, select, textarea, a[href], [tabindex]:not([tabindex="-1"])'
                         );
 
-                        //identifying tabbing boundaries based on first and last focusable element in the current dialog
+                        if (!focusable.length) {
+                            return;
+                        }
+
                         const first = focusable[0];
                         const last = focusable[focusable.length - 1];
 
-                        //prevent default tabbing behaviour of tabbing above or below the boundaries
-                        //(keeps screenreaders etc from "running off" and blocks accidental access to UI)
                         if (event.shiftKey && document.activeElement === first) {
                             event.preventDefault();
                             last.focus();
+
                         } else if (!event.shiftKey && document.activeElement === last) {
                             event.preventDefault();
                             first.focus();
                         }
                     }
                 });
+
+                //handler for partner dragon option tags (prevents spaghetti)
+                function populatePartnerColourSelect(select) {
+                    for (const [displayName, colourCode] of Object.entries(partnercolourJson)) {
+                        var option = document.createElement("option");
+                        option.innerText = displayName;
+                        option.value = colourCode;
+                        select.appendChild(option);
+                    }
+                }
+
+                function populatePartnerTraitSelect(select, part) {
+                    var traits = partnertraitJson[part];
+
+                    for (const [displayName, traitCode] of Object.entries(traits)) {
+                        var option = document.createElement("option");
+                        option.innerText = displayName;
+                        option.value = traitCode;
+                        select.appendChild(option);
+                    }
+                }
+
+                function initializePartnerSelectors() {
+                    //get partner selector elements
+                    partnereyecolour = document.getElementById("partnereyecolour");
+                    partnerbodycolour = document.getElementById("partnerbodycolour");
+                    partnerpointcolour = document.getElementById("partnerpointcolour");
+                    partnerspecialcolour = document.getElementById("partnerspecialcolour");
+
+                    partnereyetrait = document.getElementById("partnereyetrait");
+                    partnerbodytrait = document.getElementById("partnerbodytrait");
+                    partnerpointtrait = document.getElementById("partnerpointtrait");
+                    partnerspecialtrait = document.getElementById("partnerspecialtrait");
+
+                    //create option tags for partner colour options
+                    populatePartnerColourSelect(partnereyecolour);
+                    populatePartnerColourSelect(partnerbodycolour);
+                    populatePartnerColourSelect(partnerpointcolour);
+                    populatePartnerColourSelect(partnerspecialcolour);
+
+                    //create option tags for partner trait options
+                    populatePartnerTraitSelect(partnereyetrait, "eyes");
+                    populatePartnerTraitSelect(partnerbodytrait, "body01");
+                    populatePartnerTraitSelect(partnerpointtrait, "body02");
+                    populatePartnerTraitSelect(partnerspecialtrait, "wings");
+
+                    //set partner appearance from global state
+                    partnereyecolour.value = partnerEyeColour;
+                    partnerbodycolour.value = partnerBodyColour;
+                    partnerpointcolour.value = partnerPointColour;
+                    partnerspecialcolour.value = partnerSpecialColour;
+
+                    partnereyetrait.value = partnerEyeTrait;
+                    partnerbodytrait.value = partnerBodyTrait;
+                    partnerpointtrait.value = partnerPointTrait;
+                    partnerspecialtrait.value = partnerSpecialTrait;
+
+                    //initialize partner dropdowns
+                    createSearchDropdown({
+                        searchId: "partnereyecolourSearch",
+                        dropdownId: "partnereyecolourDropdown",
+                        selectId: "partnereyecolour",
+                        onChange: updateSkin
+                    });
+
+                    createSearchDropdown({
+                        searchId: "partnerbodycolourSearch",
+                        dropdownId: "partnerbodycolourDropdown",
+                        selectId: "partnerbodycolour",
+                        onChange: updateSkin
+                    });
+
+                    createSearchDropdown({
+                        searchId: "partnerpointcolourSearch",
+                        dropdownId: "partnerpointcolourDropdown",
+                        selectId: "partnerpointcolour",
+                        onChange: updateSkin
+                    });
+
+                    createSearchDropdown({
+                        searchId: "partnerspecialcolourSearch",
+                        dropdownId: "partnerspecialcolourDropdown",
+                        selectId: "partnerspecialcolour",
+                        onChange: updateSkin
+                    });
+
+                    createSearchDropdown({
+                        searchId: "partnereyetraitSearch",
+                        dropdownId: "partnereyetraitDropdown",
+                        selectId: "partnereyetrait",
+                        onChange: updateSkin
+                    });
+
+                    createSearchDropdown({
+                        searchId: "partnerbodytraitSearch",
+                        dropdownId: "partnerbodytraitDropdown",
+                        selectId: "partnerbodytrait",
+                        onChange: updateSkin
+                    });
+
+                    createSearchDropdown({
+                        searchId: "partnerpointtraitSearch",
+                        dropdownId: "partnerpointtraitDropdown",
+                        selectId: "partnerpointtrait",
+                        onChange: updateSkin
+                    });
+
+                    createSearchDropdown({
+                        searchId: "partnerspecialtraitSearch",
+                        dropdownId: "partnerspecialtraitDropdown",
+                        selectId: "partnerspecialtrait",
+                        onChange: updateSkin
+                    });
+                }
+
             </script>
             </div><!--this div ends the wrapper. just in case you were lost.-->
         </main>

@@ -54,11 +54,30 @@ h2#helpTitle {
   text-align:center;
 }
 
+h2#dnaTitle {
+  font-size: 1.3em;
+  text-align:center;
+}
+
 .help-header {
   text-decoration: underline;
   text-decoration-thickness: 2.25px;
   margin-bottom: 0px;
   font-size: 1.05em;
+}
+
+.dna-header {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  margin-left: 60px;
+}
+
+.dna-label {
+  color: #ebe1b0;
+  font-size: 1.1em;
+  width: 80px;
 }
 
 .center-header {
@@ -87,6 +106,7 @@ a:hover {
 .floorRadios,
 .animRadios,
 .haloRadios,
+.dna-button,
 .sharelink-button,
 .help-button {
     user-select: none;
@@ -298,7 +318,8 @@ so you want to embiggen something in the canvas? well, you've come to the wrong 
 .summary-bar,
 .summary-panel,
 .control-panel1,
-.control-panel2 {
+.control-panel2,
+.dna-popup {
 /* if you touch this width, you are responsible for editing ALL of the panel image parts in an image editor to avoid artifacts. */
   width: 688px;
   border-radius: 10px;
@@ -383,6 +404,7 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 
 .sharelink-button input[type="image"],
 .help-button input[type="image"],
+.dna-button input[type="image"],
 .help-close img {
     width: auto;
     height: 40px;
@@ -393,6 +415,7 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 /* clicky buttons. because everyone loves clicky buttons. */
 .sharelink-button input[type="image"]:active,
 .help-button input[type="image"]:active,
+.dna-button input[type="image"]:active,
 .help-close:active img {
     transform: scale(0.90);
 }
@@ -448,9 +471,16 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 }
 
 .button-box {
-  display: flex;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 10px;
+  padding-top: 6px;
   align-items: center;
+}
+
+.button-box > :first-child {
+    grid-column: 1 / -1;
+    justify-self: center;
 }
 
 .control-panel2 {
@@ -607,6 +637,10 @@ you might end up with a UI for ants. there's only so much real estate on the pag
   color: #000000;
 }
 
+.dna-dropdown .dropdown-content {
+  z-index: 910;
+}
+
 #myownselect,
 #myheartselect {
     display: none;
@@ -631,11 +665,6 @@ you might end up with a UI for ants. there's only so much real estate on the pag
     z-index: 900;
 }
 
-.help-overlay.open {
-    opacity: 1;
-    pointer-events: auto;
-}
-
 .help-popup {
     position: relative;
     overflow-y: auto;
@@ -652,11 +681,62 @@ you might end up with a UI for ants. there's only so much real estate on the pag
     transform: scale(1);
 }
 
-.help-overlay p {
+.dna-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 900;
+}
+
+.dna-popup {
+    position: relative;
+    height: 506px;
+    padding: 0px 25px 25px 25px;
+    color: #dfc690;
+    background: rgba(30,27,25);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+    transform: translate(0px, 394px);
+    transition: transform 0.2s ease;
+}
+
+.dna-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.dna-column {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dna-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.help-overlay.open,
+.dna-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.help-overlay p,
+.dna-overlay p {
     margin-top: 0;
 }
 
-.help-close {
+.help-close,
+.dna-close {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -666,7 +746,8 @@ you might end up with a UI for ants. there's only so much real estate on the pag
     cursor: pointer;
 }
 
-.help-close img {
+.help-close img,
+.dna-close img {
     display: block;
     width: 38px;
     height: auto;

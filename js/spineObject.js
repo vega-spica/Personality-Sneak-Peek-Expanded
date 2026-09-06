@@ -52,23 +52,8 @@ class SpineObject {
         var skeletonData = skeletonBinary.readSkeletonData(assetManager.require(this.binaryUrl));
         this.skeleton = new spine.Skeleton(skeletonData);
 
-        // combine DV Nest custom skins
         if (this.skinNames) {
-            const combinedSkin = new spine.Skin("combined");
-
-            for (const skinName of this.skinNames) {
-                const skin = skeletonData.findSkin(skinName);
-
-                if (!skin) {
-                    console.warn("Skin not found:", skinName);
-                    continue;
-                }
-
-                combinedSkin.addSkin(skin);
-            }
-
-            this.skeleton.setSkin(combinedSkin);
-            this.skeleton.setSlotsToSetupPose();
+            this.setCombinedSkin(this.skinNames);
         }
 
         //added this here to center the camera
@@ -82,6 +67,26 @@ class SpineObject {
         this.animationState = new spine.AnimationState(animationStateData);
         if (this.initialAnimation && this.initialAnimation !== "")
             this.animationState.setAnimation(0, this.initialAnimation, true);
+    }
+
+    // combine Dragon Village Nest custom skins
+    setCombinedSkin(skinNames) {
+        const skeletonData = this.skeleton.data;
+        const combinedSkin = new spine.Skin("combined");
+
+        for (const skinName of skinNames) {
+            const skin = skeletonData.findSkin(skinName);
+
+            if (!skin) {
+                console.warn("Skin not found:", skinName);
+                continue;
+            }
+
+            combinedSkin.addSkin(skin);
+        }
+
+        this.skeleton.setSkin(combinedSkin);
+        this.skeleton.setSlotsToSetupPose();
     }
 
     update(canvas, delta) {
