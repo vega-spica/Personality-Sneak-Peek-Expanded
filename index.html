@@ -1606,33 +1606,55 @@
                 }
 
         function copySharelink() {
-                // initialize shareLink with required values
-                var shareLink = `https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/?species=${speciesName}&form=${formNumber}&gender=${gender}&stage=${stage}&chroma=${chromaState}`;
+            // initialize shareLink with required values
+            var shareLink = `https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/?species=${speciesName}&form=${formNumber}&gender=${gender}&stage=${stage}&chroma=${chromaState}`;
 
-                //add optional values
-                if (personalityName !== null){
-                    shareLink = shareLink + `&personality=${personalityName}`;
-                }
-                if (cavebg.value !== '[None]') {
-                    shareLink = shareLink + `&bg=${cavebg.value}`;
-                }
-                if (cavefloor.value !== '[None]') {
-                    shareLink = shareLink + `&floor=${cavefloor.value}`;
-                }
-                if (personalityName === "My Own"){
-                    shareLink = shareLink + `&front=${myownfront.value}&back=${myownback.value}&frontcolour=${myownfrontcolour.value}&backcolour=${myownbackcolour.value}`;
-                }
-                else if (personalityName === "My Heart"){
-                    shareLink = shareLink + `&front=${myheartfront.value}&back=${myheartback.value}&frontcolour=${myheartfrontcolour.value}&backcolour=${myheartbackcolour.value}`;
-                }
-
-                // copy sharelink
-                shareLink = shareLink.replace(/ /g,"%20");
-                shareLink = shareLink.replace(/\[/g, "%5B");
-                shareLink = shareLink.replace(/\]/g, "%5D");
-                navigator.clipboard.writeText(shareLink);
-                showToast("Copied!");
+            // add optional values
+            if (personalityName !== null){
+                shareLink = shareLink + `&personality=${personalityName}`;
             }
+
+            if (cavebg.value !== '[None]') {
+                shareLink = shareLink + `&bg=${cavebg.value}`;
+            }
+
+            if (cavefloor.value !== '[None]') {
+                shareLink = shareLink + `&floor=${cavefloor.value}`;
+            }
+
+            if (personalityName === "My Own"){
+                shareLink = shareLink + `&front=${myownfront.value}&back=${myownback.value}&frontcolour=${myownfrontcolour.value}&backcolour=${myownbackcolour.value}`;
+            }
+            else if (personalityName === "My Heart"){
+                shareLink = shareLink + `&front=${myheartfront.value}&back=${myheartback.value}&frontcolour=${myheartfrontcolour.value}&backcolour=${myheartbackcolour.value}`;
+            }
+
+            // partner skins
+            const formData =
+                speciesJson?.[speciesName]
+                    ?.stage?.[stage]
+                    ?.forms?.[formNumber];
+
+            if (formData?.series === "partner") {
+                shareLink = shareLink +
+                    `&eyecolour=${partnerEyeColour}` +
+                    `&bodycolour=${partnerBodyColour}` +
+                    `&pointcolour=${partnerPointColour}` +
+                    `&specialcolour=${partnerSpecialColour}` +
+                    `&eyetrait=${partnerEyeTrait}` +
+                    `&bodytrait=${partnerBodyTrait}` +
+                    `&pointtrait=${partnerPointTrait}` +
+                    `&specialtrait=${partnerSpecialTrait}`;
+            }
+
+            // copy sharelink
+            shareLink = shareLink.replace(/ /g,"%20");
+            shareLink = shareLink.replace(/\[/g, "%5B");
+            shareLink = shareLink.replace(/\]/g, "%5D");
+
+            navigator.clipboard.writeText(shareLink);
+            showToast("Copied!");
+        }
 
         /* tooltips got a little... "sticky" on mobile. */
         document.addEventListener("DOMContentLoaded", () => {
