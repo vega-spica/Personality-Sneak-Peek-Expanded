@@ -1209,6 +1209,7 @@
             }
 
             canvases.partnerFrontApp = null;
+            canvases.partnerBackApp = null;
 
             // hide normal dragon elements
             dragonCanvasElem.style.display = "none";
@@ -1222,25 +1223,43 @@
             // if sleeping
             if (isSleeping) {
 
-                partnerfrontCanvasElem.style.display = "inline-block";
+                const hasSleepingFront = speciesName !== "luti";
+
+                partnerfrontCanvasElem.style.display =
+                    hasSleepingFront ? "inline-block" : "none";
+
                 partnerbackCanvasElem.style.display = "inline-block";
 
-                const partnerFrontAnim =
-                    animState === "touch" ? "touch2_front" : "idle_front";
+                let partnerFrontAnim = "";
+                let partnerBackAnim = "";
 
-                const partnerBackAnim =
-                    animState === "touch" ? "touch2_back" : "idle_back";
+                if (animState === "idle") {
+                    partnerFrontAnim = "idle_front";
+                    partnerBackAnim = "idle_back";
+                } else if (animState === "touch") {
+                    partnerFrontAnim = "touch2_front";
+                    partnerBackAnim = "touch2_back";
+                }
 
-                canvases.partnerFrontApp = new SpineObject(
-                    res.spineUrl,
-                    partnerFrontAnim,
-                    false,
-                    {
-                        skins: skinNames,
-                        scale: 2,
-                        offsetY: -180
-                    }
-                );
+                if (hasSleepingFront) {
+                    canvases.partnerFrontApp = new SpineObject(
+                        res.spineUrl,
+                        partnerFrontAnim,
+                        false,
+                        {
+                            skins: skinNames,
+                            scale: 2,
+                            offsetY: -180
+                        }
+                    );
+
+                    canvases.partnerfront = new spine.SpineCanvas(
+                        partnerfrontCanvasElem,
+                        {
+                            app: canvases.partnerFrontApp
+                        }
+                    );
+                }
 
                 canvases.partnerBackApp = new SpineObject(
                     res.spineUrl,
@@ -1250,13 +1269,6 @@
                         skins: skinNames,
                         scale: 2,
                         offsetY: -180
-                    }
-                );
-
-                canvases.partnerfront = new spine.SpineCanvas(
-                    partnerfrontCanvasElem,
-                    {
-                        app: canvases.partnerFrontApp
                     }
                 );
 
@@ -1279,7 +1291,8 @@
                     false,
                     {
                         skins: skinNames,
-                        scale: 3
+                        scale: 3,
+                        offsetY: -280
                     }
                 );
 
@@ -1320,6 +1333,9 @@
                     canvases.partnerback.dispose();
                     canvases.partnerback = null;
                 }
+
+                canvases.partnerFrontApp = null;
+                canvases.partnerBackApp = null;
 
                 // hide image
                 dragonImageElem.style.display = "none";

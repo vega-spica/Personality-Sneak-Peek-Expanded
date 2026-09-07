@@ -41440,7 +41440,6 @@ const speciesJson = {
       }
     }
   },
-/*
   "luti": {
     "speciesDisplay": "Luti",
     "stage": {
@@ -41506,7 +41505,6 @@ const speciesJson = {
       }
     }
   },
-  */
   "macarondragon": {
     "speciesDisplay": "Macaron Dragon",
     "stage": {

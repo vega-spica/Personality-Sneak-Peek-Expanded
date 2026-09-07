@@ -4,8 +4,8 @@ const partnercolourJson = {
     "Blue": "b",
     "Dark Seagreen": "darkseagreen",
     "Dirt": "durt",
-    "Lemon chiffon": "lemonchiffon",
-    "Light gray": "lightgrey",
+    "Lemon Chiffon": "lemonchiffon",
+    "Light Gray": "lightgrey",
     "Medium Purple": "mediumpurple",
     "Misty Rose": "mistyrose",
     "Rainbow Blue": "rainbowblue",
@@ -13,7 +13,7 @@ const partnercolourJson = {
     "Red": "r",
     "Red Bean": "redbean",
     "Steel Blue": "stealblue",
+    "Wheat": "wheat",
     "White": "w",
-    "Wit": "wheat",
     "Yellow": "y"
 };
