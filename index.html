@@ -1147,6 +1147,14 @@
             });
         }
 
+        function getPartnerColourIcon(value) {
+            return `./res/img/partner_color/partner_color_${value}.png`;
+        }
+
+        function getPartnerTraitIcon(type, value) {
+            return `./res/img/partner_pattern/partner_${type}_pattern_icon_${value}.png`;
+        }
+
         // for Dragon Village 3 models
         function getDv3DragonRes() {
             const formData =
@@ -2130,22 +2138,49 @@
             <script>
                 //okay, okay, i get it. you want a searchbar.
                     //you get ONE searchbar.
-                function createSearchDropdown({ searchId, dropdownId, selectId, onChange, blankNone = false }) {
+                function createSearchDropdown({ searchId, dropdownId, selectId, onChange, blankNone = false, getIcon = null }) {
                     const searchBox = document.getElementById(searchId);
                     const dropdown = document.getElementById(dropdownId);
                     const select = document.getElementById(selectId);
                     const disableSearch = searchBox.classList.contains("no-search");
                     let highlightedIndex = -1;
+                    let selectedIcon = null;
+                    // partner skin selector icons
+                    if (getIcon) {
+                        searchBox.classList.add("partner-has-icon");
+                        selectedIcon = document.createElement("img");
+                        selectedIcon.className = "partner-selected-icon";
+                        selectedIcon.alt = "";
+                        selectedIcon.setAttribute("aria-hidden", "true");
+
+                        searchBox.parentElement.appendChild(selectedIcon);
+                    }
 
                     function populate() {
                         dropdown.innerHTML = ""; // wipe existing options
 
                         for (let option of select.options) {
                             let div = document.createElement("div");
-                            div.textContent = option.text;
                             div.setAttribute("data-value", option.value);
                             div.setAttribute("role", "option");
                             div.id = `${dropdownId}-option-${option.value}`;
+
+                            if (getIcon) {
+                                div.classList.add("partner-selector-option");
+
+                                let icon = document.createElement("img");
+                                icon.src = getIcon(option.value);
+                                icon.alt = "";
+                                icon.className = "partner-selector-icon";
+
+                                let text = document.createElement("span");
+                                text.textContent = option.text;
+
+                                div.appendChild(icon);
+                                div.appendChild(text);
+                            } else {
+                                div.textContent = option.text;
+                            }
 
                             dropdown.setAttribute("role", "listbox");
 
@@ -2154,8 +2189,16 @@
                             searchBox.setAttribute("aria-expanded", "false");
 
                             div.onclick = function () {
+                                const value = this.getAttribute("data-value");
+
                                 searchBox.value = this.textContent;
-                                select.value = this.getAttribute("data-value");
+                                select.value = value;
+
+                                if (selectedIcon) {
+                                    selectedIcon.src = getIcon(value);
+                                    selectedIcon.style.display = "block";
+                                }
+
                                 dropdown.style.display = "none";
                                 dropdown.parentElement.classList.remove("active");
                                 onChange();
@@ -2175,10 +2218,22 @@
                         // display the currently selected option
                         if (disableSearch || blankNone) {
                             if (select.selectedIndex >= 0) {
-                                const text = select.options[select.selectedIndex].text;
-                                searchBox.value = (blankNone && text === "[None]") ? "" : text; //for searchable dropdowns, blank if they have no option selected
+                                const option = select.options[select.selectedIndex];
+                                const text = option.text;
+
+                                searchBox.value = (blankNone && text === "[None]") ? "" : text;
+
+                                if (selectedIcon) {
+                                    selectedIcon.src = getIcon(option.value);
+                                    selectedIcon.style.display =
+                                        (blankNone && text === "[None]") ? "none" : "block";
+                                }
                             } else {
                                 searchBox.value = "";
+
+                                if (selectedIcon) {
+                                    selectedIcon.style.display = "none";
+                                }
                             }
                         }
                     }
@@ -2237,7 +2292,7 @@
 
                         let items = dropdown.getElementsByTagName("div");
                         for (let item of items) {
-                            item.style.display = "block";
+                            item.style.display = "flex";
                         }
 
                         highlightedIndex = -1;
@@ -2689,56 +2744,64 @@
                         searchId: "partnereyecolourSearch",
                         dropdownId: "partnereyecolourDropdown",
                         selectId: "partnereyecolour",
-                        onChange: updateSkin
+                        onChange: updateSkin,
+                        getIcon: getPartnerColourIcon
                     });
 
                     createSearchDropdown({
                         searchId: "partnerbodycolourSearch",
                         dropdownId: "partnerbodycolourDropdown",
                         selectId: "partnerbodycolour",
-                        onChange: updateSkin
+                        onChange: updateSkin,
+                        getIcon: getPartnerColourIcon
                     });
 
                     createSearchDropdown({
                         searchId: "partnerpointcolourSearch",
                         dropdownId: "partnerpointcolourDropdown",
                         selectId: "partnerpointcolour",
-                        onChange: updateSkin
+                        onChange: updateSkin,
+                        getIcon: getPartnerColourIcon
                     });
 
                     createSearchDropdown({
                         searchId: "partnerspecialcolourSearch",
                         dropdownId: "partnerspecialcolourDropdown",
                         selectId: "partnerspecialcolour",
-                        onChange: updateSkin
+                        onChange: updateSkin,
+                        getIcon: getPartnerColourIcon
                     });
 
                     createSearchDropdown({
                         searchId: "partnereyetraitSearch",
                         dropdownId: "partnereyetraitDropdown",
                         selectId: "partnereyetrait",
-                        onChange: updateSkin
+                        onChange: updateSkin,
+                        getIcon: value => getPartnerTraitIcon("eyes", value)
                     });
 
                     createSearchDropdown({
                         searchId: "partnerbodytraitSearch",
                         dropdownId: "partnerbodytraitDropdown",
                         selectId: "partnerbodytrait",
-                        onChange: updateSkin
+                        onChange: updateSkin,
+                        getIcon: value => getPartnerTraitIcon("body01", value)
                     });
 
                     createSearchDropdown({
                         searchId: "partnerpointtraitSearch",
                         dropdownId: "partnerpointtraitDropdown",
                         selectId: "partnerpointtrait",
-                        onChange: updateSkin
+                        onChange: updateSkin,
+                        getIcon: value => getPartnerTraitIcon("body02", value)
                     });
 
                     createSearchDropdown({
                         searchId: "partnerspecialtraitSearch",
                         dropdownId: "partnerspecialtraitDropdown",
                         selectId: "partnerspecialtrait",
-                        onChange: updateSkin
+                        onChange: updateSkin,
+                        getIcon: value => getPartnerTraitIcon("wings", value)
                     });
                 }
 

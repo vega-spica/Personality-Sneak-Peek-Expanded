@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
 /* see this cool font? it's a magic trick. */
 @font-face {
   font-family: 'NotoSans';
@@ -71,13 +72,30 @@ h2#dnaTitle {
   text-align: center;
   margin-top: 6px;
   margin-bottom: 0px;
-  margin-left: 60px;
 }
 
 .dna-label {
-  color: #ebe1b0;
+  color: #ffe348;
   font-size: 1.1em;
   width: 80px;
+}
+
+.dna-label-svg {
+  height: 28px;
+  width: auto;
+  display: block;
+  overflow: visible;
+}
+
+.dna-svg-text {
+    font-size: 28px;
+    fill: #ffe348;
+    stroke: #000000;
+    stroke-width: 5px;
+    paint-order: stroke fill;
+    text-shadow: none;
+    font-family: fredoka;
+    letter-spacing: 1px;
 }
 
 .center-header {
@@ -637,8 +655,73 @@ you might end up with a UI for ants. there's only so much real estate on the pag
   color: #000000;
 }
 
+/* partner dragons get ~special~ searchbars. */
+.dna-dropdown,
+.dna-dropdown input {
+  height: 50px;
+}
+
+.dna-dropdown input,
+.partner-selector-option {
+  background: transparent;
+  color: #301315;
+}
+
+.dna-dropdown input,
 .dna-dropdown .dropdown-content {
+  border: none;
+  box-shadow: none;
+}
+
+.dna-dropdown .dropdown-content {
+  width: 98%;
   z-index: 910;
+  scrollbar-color: #a87f5e transparent; /* [thumb color] [track color] */
+}
+
+.dna-dropdown .dropdown-content div {
+    padding: 2px 8px;
+}
+
+.dna-dropdown .dropdown-content div:hover,
+.dna-dropdown .dropdown-content div.highlighted {
+  background: #c69974;
+}
+
+.dropdown-beige .dropdown-content {
+  background-color: #faf2d3;
+}
+
+.dropdown-tan .dropdown-content {
+  background-color: #e8d3ab;
+}
+
+.partner-selector-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.partner-selector-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex: 0 0 32px;
+}
+
+.partner-selected-icon {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.search-box.partner-has-icon {
+  padding-left: 46px;
 }
 
 #myownselect,
@@ -695,27 +778,40 @@ you might end up with a UI for ants. there's only so much real estate on the pag
 
 .dna-popup {
     position: relative;
+    padding-top: 10px;
     height: 506px;
-    padding: 0px 25px 25px 25px;
     color: #dfc690;
-    background: rgba(30,27,25);
+    background: #664A3E;
+    border: 4px solid #54412d;
     border-radius: 12px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+    box-sizing: border-box;
+    box-shadow: 0 0 0 2px black;
     transform: translate(0px, 394px);
     transition: transform 0.2s ease;
+    background-image: url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/page.png);
 }
 
 .dna-container {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
-    gap: 24px;
+    padding: 18px 26px;
+    justify-content: space-between;
 }
 
 .dna-column {
-    width: 300px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+}
+
+.dna-column-content {
+    display: flex;
+    flex-direction: column;
+    /* if you touch this width or height, you are responsible for editing the background in an image editor to avoid artifacts. */
+    width: 310px;
+    height: 218px;
+    background-image: url(https://vega-spica.github.io/Personality-Sneak-Peek-Expanded/res/img/partner_care_info_0101.png);
+    padding: 10px 6px 10px 16px;
+    border-radius: 10px;
 }
 
 .dna-group {

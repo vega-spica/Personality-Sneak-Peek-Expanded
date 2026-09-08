@@ -8582,7 +8582,7 @@ const speciesJson = {
     }
   },
   "blackholedragon": {
-    "speciesDisplay": "Black Hole Dragon",
+    "speciesDisplay": "Blackhole Dragon",
     "stage": {
       "hatch": {
         "forms": {
