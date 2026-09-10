@@ -14046,6 +14046,56 @@ const speciesJson = {
       }
     }
   },
+  "conrad": {
+    "speciesDisplay": "Conrad",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"//placeholder colour
+              },
+              "m": {
+                "color": "y"//placeholder colour
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"//placeholder colour
+              },
+              "m": {
+                "color": "y"//placeholder colour
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"//placeholder colour
+              },
+              "m": {
+                "color": "y"//placeholder colour
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "coralnessiebig": {
     "speciesDisplay": "Coral Nessiebig",
     "stage": {
@@ -25287,6 +25337,56 @@ const speciesJson = {
       }
     }
   },
+  "fabregas": {
+    "speciesDisplay": "Fabregas",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"//placeholder colour
+              },
+              "m": {
+                "color": "bk"//placeholder colour
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"//placeholder colour
+              },
+              "m": {
+                "color": "bk"//placeholder colour
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "bk"//placeholder colour
+              },
+              "m": {
+                "color": "bk"//placeholder colour
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "forner": {
     "speciesDisplay": "Forner",
     "stage": {
@@ -28786,6 +28886,56 @@ const speciesJson = {
             "genders": {
               "n": {
                 "undeadres": "muscle_w_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "golrock": {
+    "speciesDisplay": "Golrock",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"//placeholder colour
+              },
+              "m": {
+                "color": "yr"//placeholder colour
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"//placeholder colour
+              },
+              "m": {
+                "color": "yr"//placeholder colour
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "yr"//placeholder colour
+              },
+              "m": {
+                "color": "yr"//placeholder colour
               }
             }
           }
@@ -32969,6 +33119,47 @@ const speciesJson = {
             "genders": {
               "f": {
                 "undeadres": "sixleg_n_adult_w"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "instria": {
+    "speciesDisplay": "Instria",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "w"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "n": {
+                "color": "w"
               }
             }
           }
