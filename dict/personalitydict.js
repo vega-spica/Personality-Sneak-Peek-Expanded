@@ -949,6 +949,46 @@ const personalityJson = {
         "back": "aura_idle",
         "front": ""
     },
+    "[DV3] Abyssal (Blue)": {
+        "each": "aura_b_abyssal_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Abyssal (Fides)": {
+        "each": "aura_s_fides",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Abyssal (Green)": {
+        "each": "aura_b_abyssal_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Abyssal (Illuid)": {
+        "each": "aura_s_illuide",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Abyssal (Non)": {
+        "each": "aura_s_non",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Abyssal (Pink)": {
+        "each": "aura_b_abyssal_pink",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Abyssal (Purple)": {
+        "each": "aura_b_abyssal_purple",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Abyssal (Red)": {
+        "each": "aura_b_abyssal_red",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Ascension": {
         "each": "aura_c_rise",
         "back": "back",
@@ -991,6 +1031,11 @@ const personalityJson = {
     },
     "[DV3] Cuteness": {
         "each": "aura_b_cute",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Dazzling Abyssal": {
+        "each": "aura_ss_illuide",
         "back": "back",
         "front": "front"
     },
@@ -1061,6 +1106,11 @@ const personalityJson = {
     },
     "[DV3] Love": {
         "each": "aura_a_love",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Luminous Abyssal": {
+        "each": "aura_ss_non",
         "back": "back",
         "front": "front"
     },
@@ -1169,6 +1219,11 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Radiant Abyssal": {
+        "each": "aura_ss_fides",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Radiant Purge": {
         "each": "aura_ss_selora",
         "back": "back",
@@ -1186,6 +1241,31 @@ const personalityJson = {
     },
     "[DV3] Resplendent Purge": {
         "each": "aura_ss_frost",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Abyssal (Blue)": {
+        "each": "aura_a_abyssal_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Abyssal (Green)": {
+        "each": "aura_a_abyssal_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Abyssal (Pink)": {
+        "each": "aura_a_abyssal_pink",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Abyssal (Purple)": {
+        "each": "aura_a_abyssal_purple",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Abyssal (Red)": {
+        "each": "aura_a_abyssal_red",
         "back": "back",
         "front": "front"
     },
