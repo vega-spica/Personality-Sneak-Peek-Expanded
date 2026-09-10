@@ -14395,6 +14395,10 @@ const speciesJson = {
             "formDisplay": "DV Nest",
             "series": "dvn"
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -14425,6 +14429,10 @@ const speciesJson = {
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -14478,6 +14486,10 @@ const speciesJson = {
           "12": {
             "formDisplay": "DV Nest",
             "series": "dvn"
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -32734,6 +32746,45 @@ const speciesJson = {
                 "undeadres": "wyvern_w_adult_w"
               }
             }
+          }
+        }
+      }
+    }
+  },
+  "illuide": {
+    "speciesDisplay": "Illuid",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
+          "02": {
+            "formDisplay": "DV3 (Polymorph)",
+            "series": "dv3",
+            "seriesindex": "10"
+          },
+          "03": {
+            "formDisplay": "DV3 (Chroma Polymorph)",
+            "series": "dv3",
+            "seriesindex": "11"
           }
         }
       }
@@ -67643,6 +67694,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead01": {
             "formDisplay": "Undead",
             "genders": {
@@ -67673,6 +67728,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
@@ -67715,6 +67774,10 @@ const speciesJson = {
                 "color": "y"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead01": {
             "formDisplay": "Undead",
