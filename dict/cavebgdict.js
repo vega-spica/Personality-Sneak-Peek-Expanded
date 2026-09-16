@@ -131,6 +131,12 @@ const cavebgJson = {
     "Hatsya (Special)": {
         "res": "hatsya/hatsya_bg_02/hatsya_bg_02"
     },
+    "Illuid": {
+        "res": "illuide/illuide_bg_01/illuide_bg_01"
+    },
+    "Illuid (Special)": {
+        "res": "illuide/illuide_bg_02/illuide_bg_02"
+    },
     "Janus": {
         "res": "janus/janus_bg_01/janus_bg_01"
     },

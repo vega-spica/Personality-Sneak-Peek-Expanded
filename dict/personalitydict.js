@@ -532,6 +532,11 @@ const personalityJson = {
 		"back": "back_c",
 		"front": "front_c"
 	},
+	"Mist Moon": {
+		"each": "aura_a_mistmoon",
+		"back": "back",
+		"front": "front"
+	},
 	"My Heart": {
 	},
 	"My Own": {
@@ -792,6 +797,11 @@ const personalityJson = {
 	"Spring Day": {
 		"each": "aura_s_vernal",
 		"transparencyFix": true,
+		"back": "back",
+		"front": "front"
+	},
+	"Starlight Moon": {
+		"each": "aura_s_starmoon",
 		"back": "back",
 		"front": "front"
 	},

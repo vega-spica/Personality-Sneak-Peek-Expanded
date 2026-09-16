@@ -131,6 +131,12 @@ const cavefloorJson = {
     "Hatsya (Special)": {
         "res": "hatsya/hatsya_floor_02/hatsya_floor_02"
     },
+    "Illuid": {
+        "res": "illuide/illuide_floor_01/illuide_floor_01"
+    },
+    "Illuid (Special)": {
+        "res": "illuide/illuide_floor_02/illuide_floor_02"
+    },
     "Janus": {
         "res": "janus/janus_floor_01/janus_floor_01"
     },
