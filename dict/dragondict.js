@@ -29483,6 +29483,17 @@ const speciesJson = {
               }
             }
           },
+          "legacy03": {
+            "formDisplay": "Red Moon Flame (Legacy)",
+            "genders": {
+              "f": {
+                "color": "bk"
+              },
+              "m": {
+                "color": "bk"
+              }
+            }
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"

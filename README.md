@@ -14,4 +14,4 @@ supported dragon models:
 - Dragon Village Nest (DVN); includes Dracon, Jade, Nira, and Luti
 - Dragon Village 3 (DV3)
 
-to view Dragon Village 1 models, see Nix's <a href="https://yejoo0519.github.io/dogam/en/aura-preview.html">Advent Preview</a> tool.
+to view Dragon Village 1 models, see Nix's <a href="https://yejoo0519.github.io/dogam/en/aura-preview.html">Aura Preview</a> tool.
