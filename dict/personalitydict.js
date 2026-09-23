@@ -241,6 +241,11 @@ const personalityJson = {
 		"back": "back_a",
 		"front": "front_a"
 	},
+	"Devouring": {
+		"each": "aura_a_devouring",
+		"back": "back",
+		"front": "front"
+	},
 	"Dimensional": {
 		"each": "aura_s_dimensional",
 		"back": "back",
@@ -605,11 +610,6 @@ const personalityJson = {
 		"each": "aura_s_cherishedmemory",
 		"back": "back_a",
 		"front": "front_a"
-	},
-	"Predatory": {
-		"each": "aura_a_devouring",
-		"back": "back",
-		"front": "front"
 	},
 	"Pure" : {
 		"back" : "aura_s_transparent",
