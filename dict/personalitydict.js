@@ -1049,6 +1049,11 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Dazzling Heir": {
+        "each": "aura_s_successor",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Dazzling Thunderclap": {
         "each": "aura_ss_citael",
         "back": "back",
@@ -1109,6 +1114,11 @@ const personalityJson = {
         "back": "back",
         "front": ""
     },
+    "[DV3] Heir": {
+        "each": "aura_b_successor",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Indomitable": {
         "each": "aura_a_indomitable",
         "back": "back",
@@ -1126,6 +1136,11 @@ const personalityJson = {
     },
     "[DV3] Lustrous Thunderclap": {
         "each": "aura_ss_darknix",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Mystic": {
+        "each": "aura_a_mystic",
         "back": "back",
         "front": "front"
     },
@@ -1231,6 +1246,11 @@ const personalityJson = {
     },
     "[DV3] Radiant Abyssal": {
         "each": "aura_ss_fides",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Radiant Heir": {
+        "each": "aura_a_successor",
         "back": "back",
         "front": "front"
     },
