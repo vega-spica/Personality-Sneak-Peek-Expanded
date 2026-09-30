@@ -1,0 +1,19 @@
+mistina_01_f_hatch_r.png
+size:37,31
+body eff_01
+bounds:28,6,3,2
+rotate:90
+body eff_02
+bounds:28,3,1,1
+body_01
+bounds:24,11,11,18
+head_1
+bounds:2,13,20,16
+leg_f_l_01
+bounds:13,4,7,6
+rotate:90
+leg_f_r_01
+bounds:21,5,4,5
+rotate:90
+wing_l_1
+bounds:2,2,9,9

@@ -1,0 +1,22 @@
+mistina_01_m_hatchling_r.png
+size:102,30
+body eff_1
+bounds:54,4,3,2
+rotate:90
+body eff_2
+bounds:49,2,5,3
+rotate:90
+body_02
+bounds:27,2,20,26
+head_02
+bounds:49,9,19,18
+rotate:90
+leg_f_l_02
+bounds:85,14,15,14
+leg_f_r_02
+bounds:85,2,10,12
+rotate:90
+wing_l_02
+bounds:2,4,23,24
+wing_r_02
+bounds:69,5,14,23

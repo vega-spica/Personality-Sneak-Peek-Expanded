@@ -7,262 +7,327 @@
 		<key>gripo_03_f_adult_bk/idle/idle_01</key>
 		<dict>
 			<key>frame</key>
-			<string>{{284,467},{144,138}}</string>
+			<string>{{666,514},{161,147}}</string>
 			<key>offset</key>
-			<string>{-2,-19.5}</string>
+			<string>{3.5,-17}</string>
 			<key>rotated</key>
 			<true/>
 			<key>sourceColorRect</key>
-			<string>{{11,27},{144,138}}</string>
+			<string>{{27,24},{161,147}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/idle/idle_02</key>
 		<dict>
 			<key>frame</key>
-			<string>{{143,467},{146,139}}</string>
+			<string>{{665,1},{164,148}}</string>
 			<key>offset</key>
-			<string>{-1,-16}</string>
+			<string>{4,-14.5}</string>
 			<key>rotated</key>
 			<true/>
 			<key>sourceColorRect</key>
-			<string>{{11,23},{146,139}}</string>
+			<string>{{26,21},{164,148}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/idle/idle_03</key>
 		<dict>
 			<key>frame</key>
-			<string>{{452,446},{149,141}}</string>
+			<string>{{663,180},{165,149}}</string>
 			<key>offset</key>
-			<string>{-0.5,-14}</string>
+			<string>{4.5,-13}</string>
 			<key>rotated</key>
 			<true/>
 			<key>sourceColorRect</key>
-			<string>{{10,20},{149,141}}</string>
+			<string>{{26,19},{165,149}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/idle/idle_04</key>
 		<dict>
 			<key>frame</key>
-			<string>{{306,305},{154,144}}</string>
+			<string>{{204,412},{190,151}}</string>
 			<key>offset</key>
-			<string>{0,-14.5}</string>
+			<string>{6,-12}</string>
 			<key>rotated</key>
 			<true/>
 			<key>sourceColorRect</key>
-			<string>{{8,19},{154,144}}</string>
+			<string>{{15,17},{190,151}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/idle/idle_05</key>
 		<dict>
 			<key>frame</key>
-			<string>{{299,1},{157,145}}</string>
+			<string>{{363,407},{192,152}}</string>
 			<key>offset</key>
-			<string>{0.5,-16}</string>
+			<string>{5,-11.5}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
-			<string>{{7,20},{157,145}}</string>
+			<string>{{13,16},{192,152}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/idle/idle_06</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1,1},{153,146}}</string>
+			<string>{{366,1},{195,152}}</string>
 			<key>offset</key>
-			<string>{-1.5,-18.5}</string>
+			<string>{4.5,-11.5}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
-			<string>{{7,22},{153,146}}</string>
+			<string>{{11,16},{195,152}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/idle/idle_07</key>
 		<dict>
 			<key>frame</key>
-			<string>{{449,148},{152,144}}</string>
+			<string>{{363,207},{198,152}}</string>
 			<key>offset</key>
-			<string>{-2,-21.5}</string>
+			<string>{4,-12.5}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
-			<string>{{7,26},{152,144}}</string>
+			<string>{{9,17},{198,152}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/idle/idle_08</key>
 		<dict>
 			<key>frame</key>
-			<string>{{145,313},{150,140}}</string>
+			<string>{{1,317},{201,152}}</string>
 			<key>offset</key>
-			<string>{-3,-23.5}</string>
+			<string>{3.5,-14.5}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
-			<string>{{7,30},{150,140}}</string>
+			<string>{{7,19},{201,152}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/idle/idle_09</key>
 		<dict>
 			<key>frame</key>
-			<string>{{452,294},{150,138}}</string>
+			<string>{{209,207},{203,152}}</string>
 			<key>offset</key>
-			<string>{-5,-23.5}</string>
+			<string>{3.5,-15.5}</string>
 			<key>rotated</key>
 			<true/>
 			<key>sourceColorRect</key>
-			<string>{{5,31},{150,138}}</string>
+			<string>{{6,20},{203,152}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/idle/idle_10</key>
 		<dict>
 			<key>frame</key>
-			<string>{{595,436},{144,137}}</string>
+			<string>{{210,1},{204,154}}</string>
 			<key>offset</key>
-			<string>{-2,-22}</string>
+			<string>{3,-15.5}</string>
 			<key>rotated</key>
 			<true/>
 			<key>sourceColorRect</key>
-			<string>{{11,30},{144,137}}</string>
+			<string>{{5,19},{204,154}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
+		</dict>
+		<key>gripo_03_f_adult_bk/idle/idle_11</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1,160},{206,155}}</string>
+			<key>offset</key>
+			<string>{3,-16}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4,19},{206,155}}</string>
+			<key>sourceSize</key>
+			<string>{208,161}</string>
+		</dict>
+		<key>gripo_03_f_adult_bk/idle/idle_12</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1,1},{207,157}}</string>
+			<key>offset</key>
+			<string>{2.5,-16}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3,18},{207,157}}</string>
+			<key>sourceSize</key>
+			<string>{208,161}</string>
+		</dict>
+		<key>gripo_03_f_adult_bk/idle/idle_13</key>
+		<dict>
+			<key>frame</key>
+			<string>{{177,752},{160,145}}</string>
+			<key>offset</key>
+			<string>{2,-21}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{26,29},{160,145}}</string>
+			<key>sourceSize</key>
+			<string>{208,161}</string>
+		</dict>
+		<key>gripo_03_f_adult_bk/idle/idle_14</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1,770},{160,145}}</string>
+			<key>offset</key>
+			<string>{2,-20}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{26,28},{160,145}}</string>
+			<key>sourceSize</key>
+			<string>{208,161}</string>
+		</dict>
+		<key>gripo_03_f_adult_bk/idle/idle_15</key>
+		<dict>
+			<key>frame</key>
+			<string>{{666,677},{160,145}}</string>
+			<key>offset</key>
+			<string>{3,-19}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{27,27},{160,145}}</string>
+			<key>sourceSize</key>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/move/move_01</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1,315},{150,142}}</string>
+			<string>{{666,347},{165,144}}</string>
 			<key>offset</key>
-			<string>{-4,-13.5}</string>
+			<string>{2.5,-7.5}</string>
 			<key>rotated</key>
 			<true/>
 			<key>sourceColorRect</key>
-			<string>{{6,19},{150,142}}</string>
+			<string>{{24,16},{165,144}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/move/move_02</key>
 		<dict>
 			<key>frame</key>
-			<string>{{306,148},{155,141}}</string>
+			<string>{{365,601},{169,147}}</string>
 			<key>offset</key>
-			<string>{-4.5,-11}</string>
+			<string>{2.5,-6}</string>
 			<key>rotated</key>
 			<true/>
 			<key>sourceColorRect</key>
-			<string>{{3,17},{155,141}}</string>
+			<string>{{22,13},{169,147}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/move/move_03</key>
 		<dict>
 			<key>frame</key>
-			<string>{{145,170},{159,141}}</string>
+			<string>{{1,620},{174,148}}</string>
 			<key>offset</key>
-			<string>{-4.5,-10}</string>
+			<string>{2,-7.5}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{1,16},{159,141}}</string>
+			<string>{{19,14},{174,148}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/move/move_04</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1,149},{164,142}}</string>
+			<string>{{517,383},{178,147}}</string>
 			<key>offset</key>
-			<string>{-4,-11.5}</string>
+			<string>{2,-10}</string>
 			<key>rotated</key>
 			<true/>
 			<key>sourceColorRect</key>
-			<string>{{-1,17},{164,142}}</string>
+			<string>{{17,17},{178,147}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/move/move_05</key>
 		<dict>
 			<key>frame</key>
-			<string>{{156,1},{167,141}}</string>
+			<string>{{1,471},{182,147}}</string>
 			<key>offset</key>
-			<string>{-3.5,-15}</string>
+			<string>{3,-14}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
-			<string>{{-2,21},{167,141}}</string>
+			<string>{{16,21},{182,147}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/move/move_06</key>
 		<dict>
 			<key>frame</key>
-			<string>{{458,1},{151,140}}</string>
+			<string>{{517,563},{177,147}}</string>
 			<key>offset</key>
-			<string>{-9.5,-18.5}</string>
+			<string>{1.5,-18}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
-			<string>{{0,25},{151,140}}</string>
+			<string>{{17,25},{177,147}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/move/move_07</key>
 		<dict>
 			<key>frame</key>
-			<string>{{592,294},{149,140}}</string>
+			<string>{{185,604},{178,146}}</string>
 			<key>offset</key>
-			<string>{-7.5,-21.5}</string>
+			<string>{3,-20.5}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{3,28},{149,140}}</string>
+			<string>{{18,28},{178,146}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/move/move_08</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1,467},{147,140}}</string>
+			<string>{{517,198},{183,144}}</string>
 			<key>offset</key>
-			<string>{-6.5,-21.5}</string>
+			<string>{2.5,-19.5}</string>
 			<key>rotated</key>
 			<true/>
 			<key>sourceColorRect</key>
-			<string>{{5,28},{147,140}}</string>
+			<string>{{15,28},{183,144}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/move/move_09</key>
 		<dict>
 			<key>frame</key>
-			<string>{{611,144},{147,141}}</string>
+			<string>{{520,1},{177,143}}</string>
 			<key>offset</key>
-			<string>{-5.5,-20}</string>
+			<string>{8.5,-16}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
-			<string>{{6,26},{147,141}}</string>
+			<string>{{24,25},{177,143}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 		<key>gripo_03_f_adult_bk/move/move_10</key>
 		<dict>
 			<key>frame</key>
-			<string>{{611,1},{148,141}}</string>
+			<string>{{514,742},{162,143}}</string>
 			<key>offset</key>
-			<string>{-4,-17}</string>
+			<string>{2,-11}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
-			<string>{{7,23},{148,141}}</string>
+			<string>{{25,20},{162,143}}</string>
 			<key>sourceSize</key>
-			<string>{170,153}</string>
+			<string>{208,161}</string>
 		</dict>
 	</dict>
 	<key>metadata</key>
@@ -276,7 +341,7 @@
 		<key>realTextureFileName</key>
 		<string></string>
 		<key>size</key>
-		<string>{760,615}</string>
+		<string>{814,916}</string>
 		<key>textureFileName</key>
 		<string>gripo_03_f_adult_bk.png</string>
 	</dict>
