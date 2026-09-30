@@ -33087,6 +33087,17 @@ const speciesJson = {
             }
           },
           "05": {
+            "formDisplay": "P_Guardian of Clear Skies",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "06": {
             "formDisplay": "Guardian of Shadow",
             "genders": {
               "f": {
@@ -33097,7 +33108,7 @@ const speciesJson = {
               }
             }
           },
-          "06": {
+          "07": {
             "formDisplay": "Guardian of Love",
             "genders": {
               "f": {
@@ -33108,7 +33119,7 @@ const speciesJson = {
               }
             }
           },
-          "07": {
+          "08": {
             "formDisplay": "Guardian of Lava",
             "genders": {
               "f": {
@@ -33116,6 +33127,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "r"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Guardian of Clear Skies",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
               }
             }
           },
@@ -33180,6 +33202,17 @@ const speciesJson = {
             }
           },
           "05": {
+            "formDisplay": "P_Guardian of Clear Skies",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "06": {
             "formDisplay": "Guardian of Shadow",
             "genders": {
               "f": {
@@ -33190,7 +33223,7 @@ const speciesJson = {
               }
             }
           },
-          "06": {
+          "07": {
             "formDisplay": "Guardian of Love",
             "genders": {
               "f": {
@@ -33201,7 +33234,7 @@ const speciesJson = {
               }
             }
           },
-          "07": {
+          "08": {
             "formDisplay": "Guardian of Lava",
             "genders": {
               "f": {
@@ -33209,6 +33242,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "r"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Guardian of Clear Skies",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
               }
             }
           },
@@ -33273,6 +33317,17 @@ const speciesJson = {
             }
           },
           "05": {
+            "formDisplay": "P_Guardian of Clear Skies",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "06": {
             "formDisplay": "Guardian of Shadow",
             "genders": {
               "f": {
@@ -33283,7 +33338,7 @@ const speciesJson = {
               }
             }
           },
-          "06": {
+          "07": {
             "formDisplay": "Guardian of Love",
             "genders": {
               "f": {
@@ -33294,7 +33349,7 @@ const speciesJson = {
               }
             }
           },
-          "07": {
+          "08": {
             "formDisplay": "Guardian of Lava",
             "genders": {
               "f": {
@@ -33302,6 +33357,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "r"
+              }
+            }
+          },
+          "09": {
+            "formDisplay": "Guardian of Clear Skies",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
               }
             }
           },
@@ -46197,6 +46263,56 @@ const speciesJson = {
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
+          }
+        }
+      }
+    }
+  },
+  "mistina": {
+    "speciesDisplay": "Mistina",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
+              }
+            }
           }
         }
       }
