@@ -3851,6 +3851,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -3885,6 +3889,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -3918,6 +3926,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -4054,6 +4066,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -4077,6 +4093,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -4099,6 +4119,10 @@ const speciesJson = {
                 "color": "yr"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -8535,6 +8559,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -8558,6 +8586,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -8580,6 +8612,10 @@ const speciesJson = {
                 "color": "bg"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -39948,6 +39984,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -39971,6 +40011,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -39993,6 +40037,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -60133,6 +60181,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -60155,6 +60207,10 @@ const speciesJson = {
                 "color": "pb"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -60189,6 +60245,10 @@ const speciesJson = {
                 "color": "w"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
