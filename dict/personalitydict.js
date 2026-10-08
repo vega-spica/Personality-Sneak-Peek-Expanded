@@ -1080,6 +1080,11 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Enchanting Observer": {
+        "each": "aura_ss_manus",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Enchanting Purge": {
         "each": "aura_ss_goddragon",
         "back": "back",
@@ -1087,6 +1092,26 @@ const personalityJson = {
     },
     "[DV3] Excellence": {
         "each": "aura_b_excellent",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Observer (Blue)": {
+        "each": "aura_a_observer_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Observer (Green)": {
+        "each": "aura_a_observer_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Observer (Purple)": {
+        "each": "aura_a_observer_purple",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Observer (Red)": {
+        "each": "aura_a_observer_red",
         "back": "back",
         "front": "front"
     },
@@ -1147,6 +1172,46 @@ const personalityJson = {
     },
     "[DV3] Mystic": {
         "each": "aura_a_mystic",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Observer (Blue)": {
+        "each": "aura_b_observer_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Observer (Green)": {
+        "each": "aura_b_observer_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Observer (Lucio)": {
+        "each": "aura_s_lucio",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Observer (Manus)": {
+        "each": "aura_s_manus",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Observer (Obex)": {
+        "each": "aura_s_obex",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Observer (Pink)": {
+        "each": "aura_b_observer_pink",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Observer (Purple)": {
+        "each": "aura_b_observer_purple",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Observer (Red)": {
+        "each": "aura_b_observer_red",
         "back": "back",
         "front": "front"
     },
@@ -1260,6 +1325,11 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Radiant Observer": {
+        "each": "aura_ss_obex",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Radiant Purge": {
         "each": "aura_ss_selora",
         "back": "back",
@@ -1267,6 +1337,11 @@ const personalityJson = {
     },
     "[DV3] Radiant Thunderclap": {
         "each": "aura_ss_power",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Resplendent Observer": {
+        "each": "aura_ss_lucio",
         "back": "back",
         "front": "front"
     },
@@ -1302,6 +1377,11 @@ const personalityJson = {
     },
     "[DV3] Shining Abyssal (Red)": {
         "each": "aura_a_abyssal_red",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Observer (Pink)": {
+        "each": "aura_a_observer_pink",
         "back": "back",
         "front": "front"
     },
