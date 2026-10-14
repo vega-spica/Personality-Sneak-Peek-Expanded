@@ -69728,12 +69728,24 @@ const speciesJson = {
       }
     }
   },
+
   "tellus": {
     "speciesDisplay": "Tellus",
     "stage": {
       "hatch": {
         "forms": {
           "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           }
@@ -69742,6 +69754,17 @@ const speciesJson = {
       "hatchling": {
         "forms": {
           "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           }
@@ -69750,6 +69773,28 @@ const speciesJson = {
       "adult": {
         "forms": {
           "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
+              }
+            }
+          },
+          "02": {
+            "formDisplay": "Reaper of Death",
+            "genders": {
+              "f": {
+                "color": "p"
+              },
+              "m": {
+                "color": "p"
+              }
+            }
+          },
+          "13": {
             "formDisplay": "DV3",
             "series": "dv3"
           }

@@ -293,6 +293,12 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Eerie": {
+		"each": "aura_s_macabre",
+		"transparencyFix": true,
+		"back": "back",
+		"front": "front"
+	},
 	"Elegant" : {
 		"back" : "aura_s_blackhole",
 		"front" : "aura_s_star"
