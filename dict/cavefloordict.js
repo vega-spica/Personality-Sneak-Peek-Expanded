@@ -263,6 +263,12 @@ const cavefloorJson = {
     "Toy Ark": {
         "res": "prismtoyark/prismtoyark_floor_01/prismtoyark_floor_01"
     },
+    "Utriel": {
+        "res": "utriel/utriel_floor_01/utriel_floor_01"
+    },
+    "Utriel (Special)": {
+        "res": "utriel/utriel_floor_02/utriel_floor_02"
+    },
     "Vaska": {
         "res": "vaska/vaska_floor_01/vaska_floor_01"
     },

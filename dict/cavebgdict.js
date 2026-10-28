@@ -245,7 +245,7 @@ const cavebgJson = {
     "Telos Gamma": {
         "res": "telosgamma/telosgamma_bg_01/telosgamma_bg_01"
     },
-    "Telos (Special)": {
+    "Telos Gamma (Special)": {
         "res": "telosgamma/telosgamma_bg_02/telosgamma_bg_02"
     },
     "Temple of Memories": {
@@ -259,6 +259,12 @@ const cavebgJson = {
     },
     "Toy Ark": {
         "res": "prismtoyark/prismtoyark_bg_01/prismtoyark_bg_01"
+    },
+    "Utriel": {
+        "res": "utriel/utriel_bg_01/utriel_bg_01"
+    },
+    "Utriel (Special)": {
+        "res": "utriel/utriel_bg_02/utriel_bg_02"
     },
     "Vaska": {
         "res": "vaska/vaska_bg_01/vaska_bg_01"
