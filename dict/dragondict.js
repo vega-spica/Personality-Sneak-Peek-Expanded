@@ -49297,6 +49297,14 @@ const speciesJson = {
                 "undeadres": "dragon_w_adult_w"
               }
             }
+          },
+          "undead02": {
+            "formDisplay": "Undead (Signature)",
+            "genders": {
+              "n": {
+                "undeadres": "signature_s_adult_w"
+              }
+            }
           }
         }
       }
