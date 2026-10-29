@@ -12,6 +12,6 @@ supported dragon models:
 - DVC: Dragon Village Collection
 - DVE: Dragon Village Adventure; does not include Signature Forms
 - DVN: Dragon Village Nest; includes Dracon, Jade, Nira, and Luti
-- DVO: Dragon Village 3 (Dragon Village Odyssey)
+- DV3 (DVO): Dragon Village 3 (Dragon Village Odyssey)
 
 to view Dragon Village 1 models, see Nix's <a href="https://yejoo0519.github.io/dogam/en/aura-preview.html">Aura Preview</a> tool.
