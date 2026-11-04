@@ -14267,6 +14267,80 @@ const speciesJson = {
       }
     }
   },
+  "cornpop": {
+    "speciesDisplay": "Cornpop",
+    "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "cornpop_f_hatch_y"
+              }
+            }
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "cornpop_f_hatchling_y"
+              }
+            }
+          }
+        }
+      },
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "y"
+              },
+              "m": {
+                "color": "y"
+              }
+            }
+          },
+          "undead": {
+            "formDisplay": "Undead",
+            "genders": {
+              "n": {
+                "undeadres": "cornpop_f_adult_y"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "cortus": {
     "speciesDisplay": "Cortus",
     "stage": {
