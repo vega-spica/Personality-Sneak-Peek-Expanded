@@ -25080,6 +25080,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "yr"
+              },
+              "m": {
+                "color": "yr"
+              }
+            }
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -61600,6 +61611,17 @@ const speciesJson = {
               }
             }
           },
+          "02": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "w"
+              },
+              "m": {
+                "color": "w"
+              }
+            }
+          },
           "13": {
             "formDisplay": "DV3",
             "series": "dv3"
@@ -68915,6 +68937,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -68949,6 +68975,10 @@ const speciesJson = {
               }
             }
           },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          },
           "undead": {
             "formDisplay": "Undead",
             "genders": {
@@ -68982,6 +69012,10 @@ const speciesJson = {
                 "color": "b"
               }
             }
+          },
+          "13": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           },
           "undead": {
             "formDisplay": "Undead",
@@ -69997,6 +70031,17 @@ const speciesJson = {
               },
               "m": {
                 "color": "p"
+              }
+            }
+          },
+          "03": {
+            "formDisplay": "Signature",
+            "genders": {
+              "f": {
+                "color": "gy"
+              },
+              "m": {
+                "color": "gy"
               }
             }
           },

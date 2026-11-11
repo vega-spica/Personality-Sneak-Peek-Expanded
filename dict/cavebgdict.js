@@ -2,6 +2,9 @@ const cavebgJson = {
     "[None]": {
         "res": "none"
     },
+    "2026 Signature": {
+        "res": "signature_2026/signature_2026_bg_01/signature_2026_bg_01"
+    },
     "Aftea": {
         "res": "aftea/aftea_bg_01/aftea_bg_01"
     },
