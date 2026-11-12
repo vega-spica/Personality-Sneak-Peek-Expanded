@@ -976,6 +976,46 @@ const personalityJson = {
         "back": "aura_idle",
         "front": ""
     },
+    "[DV3] Absolute (Blue)": {
+        "each": "aura_b_absolute_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Absolute (Crevasse)": {
+        "each": "aura_s_crevasse",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Absolute (Dragon Slayer)": {
+        "each": "aura_s_dragonslayer",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Absolute (Green)": {
+        "each": "aura_b_absolute_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Absolute (Malcartis)": {
+        "each": "aura_s_malcartis",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Absolute (Pink)": {
+        "each": "aura_b_absolute_pink",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Absolute (Purple)": {
+        "each": "aura_b_absolute_purple",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Absolute (Red)": {
+        "each": "aura_b_absolute_red",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Abyssal (Blue)": {
         "each": "aura_b_abyssal_blue",
         "back": "back",
@@ -1091,6 +1131,11 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Enchanting Absolute": {
+        "each": "aura_ss_malcartis",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Enchanting Observer": {
         "each": "aura_ss_manus",
         "back": "back",
@@ -1103,6 +1148,31 @@ const personalityJson = {
     },
     "[DV3] Excellence": {
         "each": "aura_b_excellent",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Absolute (Blue)": {
+        "each": "aura_a_absolute_blue",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Absolute (Green)": {
+        "each": "aura_a_absolute_green",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining Absolute (Pink)": {
+        "each": "aura_a_absolute_pink",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Absolute (Purple)": {
+        "each": "aura_a_absolute_purple",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Glowing Absolute (Red)": {
+        "each": "aura_a_absolute_red",
         "back": "back",
         "front": "front"
     },
@@ -1326,6 +1396,11 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Radiant Absolute": {
+        "each": "aura_ss_dragonslayer",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Radiant Abyssal": {
         "each": "aura_ss_fides",
         "back": "back",
@@ -1348,6 +1423,11 @@ const personalityJson = {
     },
     "[DV3] Radiant Thunderclap": {
         "each": "aura_ss_power",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Resplendent Absolute": {
+        "each": "aura_ss_crevasse",
         "back": "back",
         "front": "front"
     },
