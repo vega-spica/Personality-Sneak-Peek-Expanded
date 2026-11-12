@@ -40541,6 +40541,19 @@ const speciesJson = {
       }
     }
   },
+  "liv": {
+    "speciesDisplay": "Liv",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      }
+    }
+  },
   "lololli": {
     "speciesDisplay": "Lololli",
     "stage": {
@@ -44918,6 +44931,19 @@ const speciesJson = {
       }
     }
   },
+  "may": {
+    "speciesDisplay": "May",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      }
+    }
+  },
   "megalodon": {
     "speciesDisplay": "Megalodon",
     "stage": {
@@ -46275,6 +46301,19 @@ const speciesJson = {
                 "undeadres": "dragon_w_adult_w"
               }
             }
+          }
+        }
+      }
+    }
+  },
+  "minami": {
+    "speciesDisplay": "Minami",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
@@ -76641,6 +76680,19 @@ const speciesJson = {
       }
     }
   },
+  "woni": {
+    "speciesDisplay": "Woni",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      }
+    }
+  },
   "wreathtail": {
     "speciesDisplay": "Wreath Tail",
     "stage": {
@@ -77272,6 +77324,19 @@ const speciesJson = {
                 "undeadres": "worm_w_adult_w"
               }
             }
+          }
+        }
+      }
+    }
+  },
+  "zena": {
+    "speciesDisplay": "Zena",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
           }
         }
       }
