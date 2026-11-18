@@ -121,6 +121,11 @@ const personalityJson = {
 		"back": "back",
 		"front": "front"
 	},
+	"Bubbly": {
+		"each": "aura_s_popping_melting",
+		"back": "back_a",
+		"front": "front_a"
+	},
 	"Bygone": {
 		"each": "aura_s_former",
 		"back": "back",
@@ -528,6 +533,11 @@ const personalityJson = {
 		"each": "aura_s_grand",
 		"back": "back_a",
 		"front": "front_a"
+	},
+	"Melty": {
+		"each": "aura_s_popping_melting",
+		"back": "back_b",
+		"front": "front_b"
 	},
 	"Meticulous" : {
 		"back" : "aura_a_blacknavy",

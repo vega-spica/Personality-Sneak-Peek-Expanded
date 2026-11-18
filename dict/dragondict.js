@@ -5735,6 +5735,26 @@ const speciesJson = {
       }
     }
   },
+  "babyfrost": {
+    "speciesDisplay": "Baby Frost Dragon",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "b"
+              },
+              "m": {
+                "color": "b"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "babygoddragon": {
     "speciesDisplay": "Baby God Dragon",
     "stage": {
@@ -5755,7 +5775,7 @@ const speciesJson = {
       }
     }
   },
-    "babyliberte": {
+  "babyliberte": {
     "speciesDisplay": "Baby Liberte",
     "stage": {
       "adult": {
@@ -5768,6 +5788,26 @@ const speciesJson = {
               },
               "m": {
                 "color": "y"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "babylightning": {
+    "speciesDisplay": "Baby Lightning Dragon",
+    "stage": {
+      "adult": {
+        "forms": {
+          "01": {
+            "formDisplay": "Default",
+            "genders": {
+              "f": {
+                "color": "r"
+              },
+              "m": {
+                "color": "r"
               }
             }
           }
