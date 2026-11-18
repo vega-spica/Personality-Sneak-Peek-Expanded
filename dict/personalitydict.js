@@ -536,6 +536,7 @@ const personalityJson = {
 	},
 	"Melty": {
 		"each": "aura_s_popping_melting",
+		"transparencyFix": true,
 		"back": "back_b",
 		"front": "front_b"
 	},
