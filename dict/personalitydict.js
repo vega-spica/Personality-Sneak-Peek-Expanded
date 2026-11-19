@@ -1247,6 +1247,16 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] LIV's Aura": {
+        "each": "aura_c_liv",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] LIV's Aura (LIV)": {
+        "each": "aura_a_liv",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Love": {
         "each": "aura_a_love",
         "back": "back",
@@ -1259,6 +1269,26 @@ const personalityJson = {
     },
     "[DV3] Lustrous Thunderclap": {
         "each": "aura_ss_darknix",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] MAY's Aura": {
+        "each": "aura_c_may",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] MAY's Aura (MAY)": {
+        "each": "aura_a_may",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] MINAMI's Aura": {
+        "each": "aura_c_minami",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] MINAMI's Aura (MINAMI)": {
+        "each": "aura_a_minami",
         "back": "back",
         "front": "front"
     },
@@ -1422,6 +1452,21 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Radiant LIV Aura": {
+        "each": "aura_s_liv",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Radiant MAY Aura": {
+        "each": "aura_s_may",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Radiant MINAMI Aura": {
+        "each": "aura_s_minami",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Radiant Observer": {
         "each": "aura_ss_obex",
         "back": "back",
@@ -1434,6 +1479,16 @@ const personalityJson = {
     },
     "[DV3] Radiant Thunderclap": {
         "each": "aura_ss_power",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Radiant WONI Aura": {
+        "each": "aura_s_woni",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Radiant ZENA Aura": {
+        "each": "aura_s_zena",
         "back": "back",
         "front": "front"
     },
@@ -1479,6 +1534,21 @@ const personalityJson = {
     },
     "[DV3] Shining Abyssal (Red)": {
         "each": "aura_a_abyssal_red",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining LIV's Aura": {
+        "each": "aura_b_liv",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining MAY's Aura": {
+        "each": "aura_b_may",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining MINAMI's Aura": {
+        "each": "aura_b_minami",
         "back": "back",
         "front": "front"
     },
@@ -1537,6 +1607,16 @@ const personalityJson = {
         "back": "back",
         "front": "front"
     },
+    "[DV3] Shining WONI's Aura": {
+        "each": "aura_b_woni",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] Shining ZENA's Aura": {
+        "each": "aura_b_zena",
+        "back": "back",
+        "front": "front"
+    },
     "[DV3] Thunderclap (Blue)": {
         "each": "aura_b_thunderclap_blue",
         "back": "back",
@@ -1574,6 +1654,26 @@ const personalityJson = {
     },
     "[DV3] Thunderclap (Red)": {
         "each": "aura_b_thunderclap_red",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] WONI's Aura": {
+        "each": "aura_c_woni",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] WONI's Aura (WONI)": {
+        "each": "aura_a_woni",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] ZENA's Aura": {
+        "each": "aura_c_zena",
+        "back": "back",
+        "front": "front"
+    },
+    "[DV3] ZENA's Aura (ZENA)": {
+        "each": "aura_a_zena",
         "back": "back",
         "front": "front"
     },
