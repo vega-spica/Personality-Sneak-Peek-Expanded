@@ -40582,13 +40582,34 @@ const speciesJson = {
     }
   },
   "liv": {
-    "speciesDisplay": "Liv",
+    "speciesDisplay": "LIV Dragon",
     "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
       "adult": {
         "forms": {
           "01": {
             "formDisplay": "DV3",
             "series": "dv3"
+          },
+          "14": {
+            "formDisplay": "DV3 (Idol)",
+            "series": "dv3",
+            "seriesindex": "10"
           }
         }
       }
@@ -44972,13 +44993,34 @@ const speciesJson = {
     }
   },
   "may": {
-    "speciesDisplay": "May",
+    "speciesDisplay": "MAY Dragon",
     "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
       "adult": {
         "forms": {
           "01": {
             "formDisplay": "DV3",
             "series": "dv3"
+          },
+          "14": {
+            "formDisplay": "DV3 (Idol)",
+            "series": "dv3",
+            "seriesindex": "10"
           }
         }
       }
@@ -46347,13 +46389,34 @@ const speciesJson = {
     }
   },
   "minami": {
-    "speciesDisplay": "Minami",
+    "speciesDisplay": "MINAMI Dragon",
     "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
       "adult": {
         "forms": {
           "01": {
             "formDisplay": "DV3",
             "series": "dv3"
+          },
+          "14": {
+            "formDisplay": "DV3 (Idol)",
+            "series": "dv3",
+            "seriesindex": "10"
           }
         }
       }
@@ -76733,13 +76796,34 @@ const speciesJson = {
     }
   },
   "woni": {
-    "speciesDisplay": "Woni",
+    "speciesDisplay": "WONI Dragon",
     "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
       "adult": {
         "forms": {
           "01": {
             "formDisplay": "DV3",
             "series": "dv3"
+          },
+          "14": {
+            "formDisplay": "DV3 (Idol)",
+            "series": "dv3",
+            "seriesindex": "10"
           }
         }
       }
@@ -77382,13 +77466,34 @@ const speciesJson = {
     }
   },
   "zena": {
-    "speciesDisplay": "Zena",
+    "speciesDisplay": "ZENA Dragon",
     "stage": {
+      "hatch": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
+      "hatchling": {
+        "forms": {
+          "01": {
+            "formDisplay": "DV3",
+            "series": "dv3"
+          }
+        }
+      },
       "adult": {
         "forms": {
           "01": {
             "formDisplay": "DV3",
             "series": "dv3"
+          },
+          "14": {
+            "formDisplay": "DV3 (Idol)",
+            "series": "dv3",
+            "seriesindex": "10"
           }
         }
       }
